@@ -88,6 +88,42 @@ def report_report_complete(task: dict):
     send_message(msg)
 
 
+def report_deep_research_complete(task: dict):
+    """Natalia completed a deep research task with full content extraction."""
+    result = task.get('result', {})
+    title = task.get('title', 'Unknown')
+    query = result.get('query', title)
+    sources = result.get('sources_count', 0)
+    extracted = result.get('extracted_count', 0)
+    web = result.get('web_results', [])
+    news = result.get('news_results', [])
+
+    msg = _header()
+    msg += f"<b>🔬 DEEP RESEARCH COMPLETE</b>\n"
+    msg += f"<i>Natalia</i> — {_ts()}\n\n"
+    msg += f"<b>Query:</b> {query}\n"
+    msg += f"<b>Sources:</b> {sources} ({extracted} extracted)\n\n"
+
+    if web:
+        msg += "<b>Key Findings:</b>\n"
+        for r in web[:3]:
+            msg += f"• <b>{r['title'][:60]}</b>\n"
+            if r.get('full_content'):
+                excerpt = r['full_content'][:200].replace('<', '&lt;').replace('>', '&gt;')
+                msg += f"  {excerpt}...\n"
+            elif r.get('description'):
+                desc = r['description'][:120]
+                msg += f"  {desc}\n"
+
+    if news:
+        msg += "\n<b>Latest News:</b>\n"
+        for r in news[:2]:
+            age = f" ({r['age']})" if r.get('age') else ''
+            msg += f"• {r['title'][:60]}{age}\n"
+
+    send_message(msg)
+
+
 def report_skill_installed(skill_name: str, description: str, category: str,
                            revenue_impact: str = '', environment_impact: str = ''):
     """Natalia found and installed a new skill. Full breakdown for Seth."""
@@ -284,6 +320,8 @@ def report_task_completed(task: dict):
                 report_research_complete(task)
             elif task_type == 'report':
                 report_report_complete(task)
+            elif task_type == 'deep_research':
+                report_deep_research_complete(task)
             else:
                 _report_generic(task)
         elif bot == 'tradebot':
