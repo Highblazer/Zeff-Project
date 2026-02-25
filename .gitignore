@@ -1,0 +1,42 @@
+# Secrets & credentials
+.env
+*.env
+credentials.py
+lib/credentials.py
+**/credentials*.json
+**/auth.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+
+# State files (runtime, not source)
+employees/*_status.json
+employees/*_state.json
+employees/trading_state.json
+employees/paper-trading-state.json
+employees/pending_orders.json
+employees/.prev_prices.json
+memory/test_agent.json
+
+# Logs
+*.log
+logs/
+
+# OpenClaw runtime
+.openclaw/
+*.bak
+*.bak.*
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/

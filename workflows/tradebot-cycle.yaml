@@ -1,0 +1,33 @@
+name: tradebot-cycle
+description: >
+  TradeBot full trading cycle: safety checks + market scan → build order
+  proposals → human approval gate → execute → report.
+  Enforces the escalation mandate — no trade executes without approval.
+
+env:
+  PYTHONPATH: /root/.openclaw/workspace
+  HELPERS: /root/.openclaw/workspace/workflows/tradebot-helpers.py
+
+steps:
+  # Step 1: Safety checks + market scan (fails fast if unsafe)
+  - id: scan
+    command: python3 $HELPERS safety-and-scan
+
+  # Step 2: Build order proposals from scan results (approval gate)
+  # Pipeline PAUSES here — returns a resumeToken with trade details.
+  # Approve via: lobster resume --token <token> --approve yes
+  - id: approve-orders
+    command: python3 $HELPERS build-orders
+    stdin: $scan.stdout
+    approval: required
+
+  # Step 3: Execute approved orders (only runs after approval)
+  - id: execute
+    command: python3 $HELPERS execute
+    stdin: $approve-orders.stdout
+    condition: $approve-orders.approved
+
+  # Step 4: Post-execution portfolio report
+  - id: report
+    command: python3 $HELPERS report
+    condition: $approve-orders.approved
