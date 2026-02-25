@@ -519,7 +519,11 @@ st.markdown(f"""
     <div class="meta">
         {now.strftime('%Y-%m-%d %H:%M:%S')} LOCAL<br>
         {utc_now.strftime('%H:%M:%S')} UTC<br>
-        UPTIME {sys_stats['uptime']}
+        UPTIME {sys_stats['uptime']}<br>
+        <a href="http://62.171.152.37:8502" target="_blank"
+           style="color:#00e5ff;text-decoration:none;border:1px solid rgba(0,229,255,0.35);
+                  padding:4px 14px;border-radius:4px;font-size:11px;font-weight:600;
+                  letter-spacing:1.5px;margin-top:4px;display:inline-block;">NEWS INTEL &rarr;</a>
     </div>
 </div>
 """, unsafe_allow_html=True)
