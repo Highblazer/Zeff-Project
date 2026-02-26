@@ -13,6 +13,7 @@ import glob
 from datetime import datetime, timezone
 
 sys.path.insert(0, '/root/.openclaw/workspace')
+from lib.task_dispatch import create_task
 
 try:
     import yfinance as yf
@@ -869,15 +870,19 @@ with tab_trading:
                 </div>""", unsafe_allow_html=True)
             with c2:
                 if st.button("CLOSE", key=f"tc_{sym}"):
-                    del state['positions'][sym]
+                    pos_id = pos.get('positionId')
                     try:
-                        import tempfile
-                        fd, tmp = tempfile.mkstemp(dir=os.path.dirname(STATE_FILE), suffix='.tmp')
-                        with os.fdopen(fd, 'w') as f:
-                            json.dump(state, f, indent=2)
-                        os.replace(tmp, STATE_FILE)
-                    except Exception:
-                        pass
+                        create_task(
+                            title=f'Close {sym} position',
+                            assigned_to='tradebot',
+                            task_type='close_position',
+                            params={'symbol': sym, 'positionId': pos_id},
+                            priority=1,
+                            created_by='dashboard',
+                        )
+                        st.toast(f'Close order dispatched for {sym} (posId={pos_id})')
+                    except Exception as e:
+                        st.error(f'Failed to dispatch close: {e}')
                     st.rerun()
     else:
         st.info("No open positions")

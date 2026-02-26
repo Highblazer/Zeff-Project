@@ -1,364 +1,345 @@
 #!/usr/bin/env python3
 """
-Natalia Runner — Chief Research Officer task execution loop.
-
-Polls for pending tasks, executes research / report / deep_research handlers,
-writes results back via the task dispatch system.
-
-Usage:
-    python employees/natalia-runner.py          # Run forever (poll loop)
-    python employees/natalia-runner.py --once   # Process one task and exit
+Natalia Runner — Chief Research Officer service process.
+Polls the task queue for research/report tasks and executes them
+via Brave Search API (with DuckDuckGo fallback).
 """
 
 import json
 import os
+import re
 import sys
 import time
-import argparse
-
-# Ensure workspace root is on the path
-sys.path.insert(0, '/root/.openclaw/workspace')
-
-from lib.task_dispatch import get_pending_tasks, claim_task, complete_task, fail_task
-from lib.logging_config import get_logger
-from lib.browser_extract import extract_multiple
-
 import requests
+from datetime import datetime, timezone
 
-log = get_logger('natalia', log_file='natalia.log')
+sys.path.insert(0, '/root/.openclaw/workspace')
+from lib.atomic_write import atomic_json_write
+from lib.logging_config import get_logger
+from lib.task_dispatch import (
+    get_pending_tasks, claim_task, complete_task, fail_task, check_timeouts,
+    create_task,
+)
 
+log = get_logger('natalia', 'natalia.log')
+
+POLL_INTERVAL = 15  # seconds
 BOT_NAME = 'natalia'
-POLL_INTERVAL = 10  # seconds between polls
+STATUS_FILE = '/root/.openclaw/workspace/employees/natalia_status.json'
 
-# Brave Search API
-BRAVE_API_KEY = os.environ.get('BRAVE_API_KEY', '')
-BRAVE_WEB_URL = 'https://api.brave.com/res/v1/web/search'
-BRAVE_NEWS_URL = 'https://api.brave.com/res/v1/news/search'
-BRAVE_TIMEOUT = 15
+# Load API keys from environment / .env
+from lib.credentials import _load_dotenv
+_load_dotenv()
+
+BRAVE_API_KEY = os.environ.get('BRAVE_SEARCH_API_KEY', '') or os.environ.get('BRAVE_API_KEY', '')
 
 
-# ═══════════════════════════════════════════════════════════
-#  Brave Search helpers
-# ═══════════════════════════════════════════════════════════
+# ── Search backends ──
 
-def _brave_search(query: str, count: int = 5, endpoint: str = 'web') -> list:
-    """Run a Brave Search API query. Returns list of result dicts."""
+def brave_web_search(query: str, count: int = 5) -> list:
+    """Search via Brave Web Search API."""
     if not BRAVE_API_KEY:
-        log.warning('BRAVE_API_KEY not set — search disabled')
         return []
-
-    url = BRAVE_WEB_URL if endpoint == 'web' else BRAVE_NEWS_URL
-    headers = {
-        'Accept': 'application/json',
-        'X-Subscription-Token': BRAVE_API_KEY,
-    }
-    params = {'q': query, 'count': min(count, 20)}
-
     try:
-        resp = requests.get(url, headers=headers, params=params, timeout=BRAVE_TIMEOUT)
-        if resp.status_code != 200:
-            log.error(f'Brave {endpoint} search failed: HTTP {resp.status_code}')
-            return []
-        data = resp.json()
+        resp = requests.get(
+            'https://api.search.brave.com/res/v1/web/search',
+            headers={'Accept': 'application/json', 'X-Subscription-Token': BRAVE_API_KEY},
+            params={'q': query, 'count': min(count, 10)},
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            results = []
+            for r in data.get('web', {}).get('results', []):
+                results.append({
+                    'title': r.get('title', ''),
+                    'url': r.get('url', ''),
+                    'description': r.get('description', ''),
+                })
+            return results
     except Exception as e:
-        log.error(f'Brave {endpoint} search error: {e}')
+        log.warning(f'Brave web search failed: {e}')
+    return []
+
+
+def brave_news_search(query: str, count: int = 5) -> list:
+    """Search via Brave News Search API."""
+    if not BRAVE_API_KEY:
         return []
-
-    if endpoint == 'web':
-        raw = data.get('web', {}).get('results', [])
-        return [
-            {
-                'title': r.get('title', ''),
-                'url': r.get('url', ''),
-                'description': r.get('description', ''),
-            }
-            for r in raw[:count]
-        ]
-    else:
-        raw = data.get('results', [])
-        return [
-            {
-                'title': r.get('title', ''),
-                'url': r.get('url', ''),
-                'description': r.get('description', ''),
-                'age': r.get('age', ''),
-            }
-            for r in raw[:count]
-        ]
-
-
-# ═══════════════════════════════════════════════════════════
-#  Content Extraction helpers
-# ═══════════════════════════════════════════════════════════
-
-def enrich_results_with_content(web_results: list, max_urls: int = 5,
-                                budget: int = 60) -> list:
-    """Extract full page content for top results and attach to each result dict.
-
-    Adds 'full_content' (str) and 'extraction_meta' (dict) fields.
-    Original snippet is preserved in 'description'.
-    """
-    urls = [r['url'] for r in web_results[:max_urls] if r.get('url')]
-    if not urls:
-        return web_results
-
-    extractions = extract_multiple(urls, max_urls=max_urls, budget_seconds=budget)
-    ext_map = {e['url']: e for e in extractions}
-
-    for r in web_results:
-        ext = ext_map.get(r.get('url'))
-        if ext and ext['success']:
-            r['full_content'] = ext['content']
-            r['extraction_meta'] = {
-                'method': ext['method'],
-                'char_count': ext['char_count'],
-                'title': ext['title'],
-            }
-        else:
-            r['full_content'] = ''
-            r['extraction_meta'] = {
-                'method': '',
-                'char_count': 0,
-                'error': ext['error'] if ext else 'not attempted',
-            }
-
-    return web_results
+    try:
+        resp = requests.get(
+            'https://api.search.brave.com/res/v1/news/search',
+            headers={'Accept': 'application/json', 'X-Subscription-Token': BRAVE_API_KEY},
+            params={'q': query, 'count': min(count, 10)},
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            results = []
+            for r in data.get('results', []):
+                results.append({
+                    'title': r.get('title', ''),
+                    'url': r.get('url', ''),
+                    'description': r.get('description', ''),
+                    'age': r.get('age', ''),
+                })
+            return results
+    except Exception as e:
+        log.warning(f'Brave news search failed: {e}')
+    return []
 
 
-# ═══════════════════════════════════════════════════════════
-#  Summary builders
-# ═══════════════════════════════════════════════════════════
-
-def _build_summary(query: str, web_results: list, news_results: list,
-                   excerpt_len: int = 300) -> str:
-    """Build a markdown research summary from results."""
-    lines = [f'# Research: {query}', '']
-
-    if web_results:
-        lines.append('## Web Results')
-        for r in web_results:
-            lines.append(f'### {r["title"]}')
-            lines.append(f'**URL:** {r["url"]}')
-            # Use full_content excerpt if available, else snippet
-            if r.get('full_content'):
-                excerpt = r['full_content'][:excerpt_len].strip()
-                meta = r.get('extraction_meta', {})
-                method = meta.get('method', 'unknown')
-                lines.append(f'**Content ({method}, {meta.get("char_count", 0)} chars):**')
-                lines.append(excerpt + '...')
-            elif r.get('description'):
-                lines.append(f'**Snippet:** {r["description"]}')
-            lines.append('')
-
-    if news_results:
-        lines.append('## News Results')
-        for r in news_results:
-            age = f' ({r["age"]})' if r.get('age') else ''
-            lines.append(f'- **{r["title"]}**{age}')
-            lines.append(f'  {r["url"]}')
-            if r.get('full_content'):
-                excerpt = r['full_content'][:excerpt_len].strip()
-                lines.append(f'  {excerpt}...')
-            elif r.get('description'):
-                lines.append(f'  {r["description"]}')
-        lines.append('')
-
-    if not web_results and not news_results:
-        lines.append('*No results found.*')
-
-    return '\n'.join(lines)
+def duckduckgo_search(query: str, count: int = 5) -> list:
+    """Fallback search via DuckDuckGo HTML."""
+    try:
+        resp = requests.post(
+            'https://html.duckduckgo.com/html/',
+            data={'q': query},
+            headers={'User-Agent': 'Mozilla/5.0'},
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            pattern = r'<a class="result__a" href="([^"]+)"[^>]*>(.+?)</a>'
+            matches = re.findall(pattern, resp.text)[:count]
+            results = []
+            for url, title in matches:
+                clean_title = re.sub(r'<[^>]+>', '', title).strip()
+                results.append({'title': clean_title, 'url': url, 'description': ''})
+            return results
+    except Exception as e:
+        log.warning(f'DuckDuckGo search failed: {e}')
+    return []
 
 
-# ═══════════════════════════════════════════════════════════
-#  Task Handlers
-# ═══════════════════════════════════════════════════════════
+def search(query: str, count: int = 5) -> list:
+    """Search using best available backend."""
+    results = brave_web_search(query, count)
+    if results:
+        return results
+    return duckduckgo_search(query, count)
+
+
+# ── Task handlers ──
 
 def handle_research(task: dict) -> dict:
-    """Standard research: web + news search. Optional content extraction via params.extract."""
+    """Execute a research task: search web + news, compile findings."""
     params = task.get('params', {})
     query = params.get('query', task.get('title', ''))
     count = params.get('count', 5)
-    do_extract = params.get('extract', False)
-    extract_count = params.get('extract_count', 3)
 
-    log.info(f'Research: "{query}" (count={count}, extract={do_extract})')
+    log.info(f'Researching: {query}')
 
-    # Brave searches
-    web_results = _brave_search(query, count=count, endpoint='web')
-    news_results = _brave_search(query, count=count, endpoint='news')
+    web_results = search(query, count)
+    news_results = brave_news_search(query, count) if BRAVE_API_KEY else []
 
-    # Optional extraction
-    if do_extract and web_results:
-        log.info(f'Extracting content from top {extract_count} results')
-        web_results = enrich_results_with_content(
-            web_results, max_urls=extract_count, budget=60
-        )
+    # Compile summary
+    findings = []
+    for r in web_results:
+        findings.append(f"- {r['title']}: {r['description'][:150]}" if r['description'] else f"- {r['title']}")
 
-    summary = _build_summary(query, web_results, news_results, excerpt_len=300)
+    news_items = []
+    for r in news_results:
+        age = f" ({r['age']})" if r.get('age') else ''
+        news_items.append(f"- {r['title']}{age}")
+
+    summary = f"Research: {query}\n\nWeb Results ({len(web_results)}):\n"
+    summary += '\n'.join(findings) if findings else '  No web results found.'
+    if news_items:
+        summary += f"\n\nNews ({len(news_results)}):\n" + '\n'.join(news_items)
 
     return {
-        'query': query,
         'summary': summary,
         'web_results': web_results,
         'news_results': news_results,
+        'query': query,
         'sources_count': len(web_results) + len(news_results),
-        'extracted': do_extract,
     }
 
 
 def handle_report(task: dict) -> dict:
-    """Multi-query research report — runs several queries and combines results."""
+    """Generate a report by researching multiple queries."""
     params = task.get('params', {})
     topic = params.get('topic', task.get('title', ''))
     queries = params.get('queries', [topic])
 
-    log.info(f'Report: "{topic}" ({len(queries)} queries)')
+    log.info(f'Generating report: {topic}')
 
-    all_web = []
-    all_news = []
+    all_results = []
     for q in queries:
-        web = _brave_search(q, count=5, endpoint='web')
-        news = _brave_search(q, count=3, endpoint='news')
-        all_web.extend(web)
-        all_news.extend(news)
+        results = search(q, 5)
+        all_results.extend(results)
 
-    summary = _build_summary(topic, all_web, all_news, excerpt_len=300)
+    sections = []
+    for q in queries:
+        q_results = [r for r in all_results if q.lower() in (r.get('title', '') + r.get('description', '')).lower()]
+        if not q_results:
+            q_results = all_results[:3]
+        section = f"## {q}\n"
+        for r in q_results[:3]:
+            desc = r.get('description', 'No description')[:200]
+            section += f"- **{r['title']}**: {desc}\n  Source: {r['url']}\n"
+        sections.append(section)
+
+    report = f"# Report: {topic}\n\nGenerated: {datetime.now(timezone.utc).isoformat()}\n\n"
+    report += '\n\n'.join(sections)
+    report += f"\n\n---\nTotal sources consulted: {len(all_results)}"
 
     return {
+        'report': report,
         'topic': topic,
-        'report': summary,
-        'queries_run': queries,
-        'sources_count': len(all_web) + len(all_news),
-        'web_results': all_web,
-        'news_results': all_news,
+        'sources_count': len(all_results),
     }
 
-
-def handle_deep_research(task: dict) -> dict:
-    """Deep research: web + news search with full content extraction on all top results.
-
-    Always extracts. Higher time budget (120s). Richer excerpts (~500 chars).
-    """
-    params = task.get('params', {})
-    query = params.get('query', task.get('title', ''))
-    count = params.get('count', 8)
-    max_extract = params.get('extract_count', 5)
-
-    log.info(f'Deep research: "{query}" (count={count}, extract_count={max_extract})')
-
-    # Brave searches — cast wider net
-    web_results = _brave_search(query, count=count, endpoint='web')
-    news_results = _brave_search(query, count=count, endpoint='news')
-
-    # Always extract content from top results
-    if web_results:
-        log.info(f'Deep extracting content from top {max_extract} web results')
-        web_results = enrich_results_with_content(
-            web_results, max_urls=max_extract, budget=120
-        )
-
-    # Also try extracting from news
-    if news_results:
-        news_extract_count = min(3, len(news_results))
-        log.info(f'Deep extracting content from top {news_extract_count} news results')
-        news_results = enrich_results_with_content(
-            news_results, max_urls=news_extract_count, budget=30
-        )
-
-    summary = _build_summary(query, web_results, news_results, excerpt_len=500)
-
-    extracted_count = sum(
-        1 for r in web_results + news_results
-        if r.get('full_content')
-    )
-
-    return {
-        'query': query,
-        'summary': summary,
-        'web_results': web_results,
-        'news_results': news_results,
-        'sources_count': len(web_results) + len(news_results),
-        'extracted': True,
-        'extracted_count': extracted_count,
-    }
-
-
-# ═══════════════════════════════════════════════════════════
-#  Handler registry & dispatch
-# ═══════════════════════════════════════════════════════════
 
 TASK_HANDLERS = {
     'research': handle_research,
     'report': handle_report,
-    'deep_research': handle_deep_research,
 }
 
 
-def process_task(task: dict):
-    """Claim and execute a single task."""
-    task_id = task['id']
-    task_type = task.get('task_type', '')
+# ── Self-generating research topics ──
+# Natalia rotates through these when idle — never stops working
 
-    claimed = claim_task(task_id)
-    if not claimed:
-        log.warning(f'Could not claim task {task_id} — already taken?')
-        return
+_RESEARCH_TOPICS = [
+    # AI & Tech landscape
+    'latest AI model releases breakthroughs {month} {year}',
+    'new AI agent frameworks tools launched {month} {year}',
+    'LLM API updates pricing changes {month} {year}',
+    'AI automation startups funding {month} {year}',
+    'machine learning infrastructure trends {year}',
+    # Trading & Markets
+    'forex market outlook major pairs {month} {year}',
+    'cryptocurrency market trends analysis {month} {year}',
+    'economic calendar high impact events this week',
+    'central bank interest rate decisions {month} {year}',
+    'commodity prices gold oil forecast {month} {year}',
+    # Revenue & Business
+    'AI SaaS business ideas profitable {year}',
+    'automated trading strategies performance {year}',
+    'API monetization developer tools revenue {year}',
+    'passive income automation AI tools {year}',
+    # Tech skills
+    'Python trading bot libraries frameworks {year}',
+    'MCP Model Context Protocol new servers tools {year}',
+    'cTrader Open API advanced features automation',
+    'Streamlit dashboard advanced features examples {year}',
+]
 
-    handler = TASK_HANDLERS.get(task_type)
-    if not handler:
-        fail_task(task_id, f'Unknown task type: {task_type}')
-        log.error(f'Unknown task type "{task_type}" for task {task_id}')
-        return
+_topic_index = 0
+_last_self_task_time = 0
+_SELF_TASK_INTERVAL = 300  # generate a new task every 5 minutes when idle
 
-    log.info(f'Processing task {task_id} [{task_type}]: {task.get("title", "")}')
 
+def _generate_self_task():
+    """Create a research task from the rotating topic list."""
+    global _topic_index, _last_self_task_time
+    now = time.time()
+    if now - _last_self_task_time < _SELF_TASK_INTERVAL:
+        return  # too soon
+
+    topic_template = _RESEARCH_TOPICS[_topic_index % len(_RESEARCH_TOPICS)]
+    _topic_index += 1
+    now_dt = datetime.now(timezone.utc)
+    topic = topic_template.format(
+        month=now_dt.strftime('%B'),
+        year=now_dt.year,
+    )
+
+    create_task(
+        title=topic,
+        assigned_to='natalia',
+        task_type='research',
+        params={'query': topic},
+        priority=8,
+        created_by='natalia-auto',
+    )
+    _last_self_task_time = now
+    log.info(f'Self-generated research task: {topic}')
+
+
+# ── Main loop ──
+
+def update_status(status: str, current_task: str = None):
+    """Write liveness status for dashboard."""
+    data = {
+        'bot': BOT_NAME,
+        'status': status,
+        'current_task': current_task,
+        'last_heartbeat': datetime.now(timezone.utc).isoformat(),
+        'pid': os.getpid(),
+        'brave_api': bool(BRAVE_API_KEY),
+    }
     try:
-        result = handler(claimed)
-        complete_task(task_id, result)
-        log.info(f'Task {task_id} completed successfully')
+        atomic_json_write(STATUS_FILE, data)
     except Exception as e:
-        log.exception(f'Task {task_id} failed: {e}')
-        fail_task(task_id, str(e))
+        log.warning(f'Failed to write status: {e}')
 
 
-# ═══════════════════════════════════════════════════════════
-#  Main loop
-# ═══════════════════════════════════════════════════════════
+def process_tasks():
+    """Check for and process pending tasks."""
+    # Check timeouts first
+    timed_out = check_timeouts()
+    for t in timed_out:
+        log.warning(f"Task {t['id']} timed out")
 
-def run_once():
-    """Process the highest-priority pending task, if any."""
+    # Get pending tasks — if none, self-generate
     tasks = get_pending_tasks(BOT_NAME)
     if not tasks:
-        return False
-    process_task(tasks[0])
-    return True
+        _generate_self_task()
+        tasks = get_pending_tasks(BOT_NAME)
+        if not tasks:
+            return
+
+    for task_data in tasks:
+        task_id = task_data['id']
+        task_type = task_data.get('task_type', '')
+        handler = TASK_HANDLERS.get(task_type)
+
+        if not handler:
+            log.warning(f"Unknown task type '{task_type}' for task {task_id}")
+            claimed = claim_task(task_id)
+            if claimed:
+                fail_task(task_id, f"Unknown task type: {task_type}")
+            continue
+
+        # Claim the task
+        claimed = claim_task(task_id)
+        if not claimed:
+            log.warning(f"Failed to claim task {task_id}")
+            continue
+
+        log.info(f"Processing task {task_id}: {task_data['title']} (type={task_type})")
+        update_status('working', task_data['title'])
+
+        try:
+            result = handler(claimed)
+            complete_task(task_id, result)
+            log.info(f"Task {task_id} completed successfully")
+        except Exception as e:
+            log.error(f"Task {task_id} failed: {e}")
+            fail_task(task_id, str(e))
+
+    update_status('idle')
 
 
-def run_forever():
-    """Poll for tasks forever."""
-    log.info('Natalia runner started — polling for tasks')
+def main():
+    log.info('=' * 50)
+    log.info('Natalia Runner starting')
+    log.info(f'Brave API: {"configured" if BRAVE_API_KEY else "not configured (using DuckDuckGo)"}')
+    log.info(f'Poll interval: {POLL_INTERVAL}s')
+    log.info('=' * 50)
+
+    update_status('idle')
+
     while True:
         try:
-            tasks = get_pending_tasks(BOT_NAME)
-            if tasks:
-                process_task(tasks[0])
-            else:
-                time.sleep(POLL_INTERVAL)
-        except KeyboardInterrupt:
-            log.info('Natalia runner stopped by user')
-            break
+            process_tasks()
         except Exception as e:
-            log.exception(f'Runner loop error: {e}')
-            time.sleep(POLL_INTERVAL)
+            log.error(f'Error in main loop: {e}')
+            update_status('error')
+
+        time.sleep(POLL_INTERVAL)
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Natalia task runner')
-    parser.add_argument('--once', action='store_true', help='Process one task and exit')
-    args = parser.parse_args()
-
-    if args.once:
-        found = run_once()
-        sys.exit(0 if found else 1)
-    else:
-        run_forever()
+    main()

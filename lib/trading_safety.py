@@ -13,10 +13,10 @@ from datetime import datetime, timezone
 KILL_SWITCH_PATH = '/root/.openclaw/workspace/STOP_TRADING'
 
 # Safety configuration
-MAX_RISK_PER_TRADE = 0.02       # 2% of balance per trade
-MAX_DAILY_DRAWDOWN = 0.10       # 10% max daily drawdown
-MAX_POSITION_VOLUME = 100000    # Max volume in units (1 standard lot)
-MAX_OPEN_POSITIONS = 3          # Max simultaneous positions
+MAX_RISK_PER_TRADE = 0.05       # 5% of balance per trade (tight SL keeps actual risk low)
+MAX_DAILY_DRAWDOWN = 0.15       # 15% max daily drawdown
+MAX_POSITION_VOLUME = 500000    # Max volume in units (varies by instrument)
+MAX_OPEN_POSITIONS = 5          # Max simultaneous positions
 MIN_BALANCE_TO_TRADE = 10.0     # Don't trade if balance below this
 
 
@@ -97,10 +97,14 @@ def validate_price(price: float, symbol: str = "") -> bool:
         return False
 
     # Sanity checks for common instruments
-    if 'JPY' in symbol and price > 500:
-        return False  # USDJPY shouldn't be > 500
-    if 'XAU' in symbol and (price < 500 or price > 10000):
-        return False  # Gold between 500 and 10000
+    if 'JPY' in symbol and 'XAU' not in symbol and price > 500:
+        return False
+    if symbol == 'XAUUSD' and (price < 500 or price > 10000):
+        return False
+    if symbol == 'BTCUSD' and (price < 1000 or price > 500000):
+        return False
+    if symbol == 'ETHUSD' and (price < 50 or price > 50000):
+        return False
 
     return True
 

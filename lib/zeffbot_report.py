@@ -6,6 +6,7 @@ Every bot action that matters flows through here. Zeff.bot doesn't just relay �
 he gives you the executive summary: what happened, what it means, what's next.
 """
 
+import html
 import os
 import sys
 import logging
@@ -43,14 +44,14 @@ def report_research_complete(task: dict):
     msg = _header()
     msg += f"<b>📡 RESEARCH COMPLETE</b>\n"
     msg += f"<i>Natalia</i> — {_ts()}\n\n"
-    msg += f"<b>Query:</b> {query}\n"
+    msg += f"<b>Query:</b> {html.escape(query)}\n"
     msg += f"<b>Sources:</b> {sources}\n\n"
 
     if web:
         msg += "<b>Key Findings:</b>\n"
         for r in web[:3]:
-            desc = r.get('description', '')[:120]
-            msg += f"• <b>{r['title'][:60]}</b>\n"
+            desc = html.escape(r.get('description', '')[:120])
+            msg += f"• <b>{html.escape(r['title'][:60])}</b>\n"
             if desc:
                 msg += f"  {desc}\n"
     elif not web and not news:
@@ -60,7 +61,7 @@ def report_research_complete(task: dict):
         msg += "\n<b>Latest News:</b>\n"
         for r in news[:2]:
             age = f" ({r['age']})" if r.get('age') else ''
-            msg += f"• {r['title'][:60]}{age}\n"
+            msg += f"• {html.escape(r['title'][:60])}{age}\n"
 
     send_message(msg)
 
@@ -75,51 +76,15 @@ def report_report_complete(task: dict):
     msg = _header()
     msg += f"<b>📋 REPORT READY</b>\n"
     msg += f"<i>Natalia</i> — {_ts()}\n\n"
-    msg += f"<b>Topic:</b> {topic}\n"
+    msg += f"<b>Topic:</b> {html.escape(topic)}\n"
     msg += f"<b>Sources:</b> {sources}\n\n"
 
     # Send first 500 chars of the report
-    preview = report_text[:500].replace('<', '&lt;').replace('>', '&gt;')
+    preview = html.escape(report_text[:500])
     # Strip markdown headers for Telegram
     for h in ['## ', '# ', '---']:
         preview = preview.replace(h, '')
     msg += f"{preview}..."
-
-    send_message(msg)
-
-
-def report_deep_research_complete(task: dict):
-    """Natalia completed a deep research task with full content extraction."""
-    result = task.get('result', {})
-    title = task.get('title', 'Unknown')
-    query = result.get('query', title)
-    sources = result.get('sources_count', 0)
-    extracted = result.get('extracted_count', 0)
-    web = result.get('web_results', [])
-    news = result.get('news_results', [])
-
-    msg = _header()
-    msg += f"<b>🔬 DEEP RESEARCH COMPLETE</b>\n"
-    msg += f"<i>Natalia</i> — {_ts()}\n\n"
-    msg += f"<b>Query:</b> {query}\n"
-    msg += f"<b>Sources:</b> {sources} ({extracted} extracted)\n\n"
-
-    if web:
-        msg += "<b>Key Findings:</b>\n"
-        for r in web[:3]:
-            msg += f"• <b>{r['title'][:60]}</b>\n"
-            if r.get('full_content'):
-                excerpt = r['full_content'][:200].replace('<', '&lt;').replace('>', '&gt;')
-                msg += f"  {excerpt}...\n"
-            elif r.get('description'):
-                desc = r['description'][:120]
-                msg += f"  {desc}\n"
-
-    if news:
-        msg += "\n<b>Latest News:</b>\n"
-        for r in news[:2]:
-            age = f" ({r['age']})" if r.get('age') else ''
-            msg += f"• {r['title'][:60]}{age}\n"
 
     send_message(msg)
 
@@ -165,19 +130,24 @@ def report_trade_opened(symbol: str, direction: str, entry_price: float,
     msg += f"<b>Take Profit:</b> {take_profit:.5f}\n"
     msg += f"<b>R:R Ratio:</b> 1:{rr_ratio}\n"
     if reason:
-        msg += f"<b>Signal:</b> {reason}\n"
+        msg += f"<b>Signal:</b> {html.escape(reason)}\n"
 
     send_message(msg)
 
 
 def report_trade_closed(symbol: str, direction: str, entry_price: float,
-                        close_price: float, lot_size: float, pnl: float = None):
+                        close_price: float, lot_size: float, pnl: float = None,
+                        volume: int = 0, asset_type: str = 'forex'):
     """TradeBot closed a position — report the outcome."""
     if pnl is None:
-        if direction == 'BUY':
-            pnl = (close_price - entry_price) * lot_size * 100000
+        price_diff = (close_price - entry_price) if direction == 'BUY' else (entry_price - close_price)
+        if asset_type == 'forex':
+            # Forex: lot_size * 100000 = units of base currency
+            pnl = price_diff * lot_size * 100000
         else:
-            pnl = (entry_price - close_price) * lot_size * 100000
+            # CFDs (crypto, commodity, index): volume / 100 = broker units
+            qty = volume / 100 if volume > 0 else lot_size * 10000000 / 100
+            pnl = price_diff * qty
 
     won = pnl >= 0
     emoji = "✅" if won else "❌"
@@ -320,8 +290,6 @@ def report_task_completed(task: dict):
                 report_research_complete(task)
             elif task_type == 'report':
                 report_report_complete(task)
-            elif task_type == 'deep_research':
-                report_deep_research_complete(task)
             else:
                 _report_generic(task)
         elif bot == 'tradebot':

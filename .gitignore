@@ -1,42 +1,38 @@
-# Secrets & credentials
+# Credentials and secrets
 .env
-*.env
-credentials.py
-lib/credentials.py
-**/credentials*.json
-**/auth.json
+.env.*
+conf/
+credentials/
+*.key
+*.pem
+*.cert
 
-# Python
+# Config files with potential secrets
+dist/tradebot/config.json
+dist/tradebot-local/config.json
+employees/ego_trading/config.json
+
+# Logs
+logs/
+*.log
+cloudflared.log
+ngrok.log
+
+# Tunnel URLs
+tunnel-url.txt
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
-*.egg-info/
-dist/
-build/
-.venv/
 
-# State files (runtime, not source)
-employees/*_status.json
-employees/*_state.json
-employees/trading_state.json
-employees/paper-trading-state.json
-employees/pending_orders.json
-employees/.prev_prices.json
-memory/test_agent.json
+# State files (may contain account info)
+paper-trading-state.json
+system-status.json
 
-# Logs
-*.log
-logs/
+# Archives
+*.zip
 
-# OpenClaw runtime
-.openclaw/
-*.bak
-*.bak.*
-*.tmp
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db
-
-# Node
-node_modules/
