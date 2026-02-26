@@ -138,15 +138,30 @@ def report_trade_opened(symbol: str, direction: str, entry_price: float,
 def report_trade_closed(symbol: str, direction: str, entry_price: float,
                         close_price: float, lot_size: float, pnl: float = None,
                         volume: int = 0, asset_type: str = 'forex'):
-    """TradeBot closed a position — report the outcome."""
+    """TradeBot closed a position — report the outcome.
+
+    If pnl is provided (from broker's closePositionDetail.grossProfit),
+    it is used directly — this is the authoritative number from cTrader.
+    Fallback calculation only runs when broker P&L is unavailable.
+    """
     if pnl is None:
+        # Fallback: estimate P&L from price difference
+        # This is approximate — broker P&L (when available) is always preferred
         price_diff = (close_price - entry_price) if direction == 'BUY' else (entry_price - close_price)
         if asset_type == 'forex':
-            # Forex: lot_size * 100000 = units of base currency
-            pnl = price_diff * lot_size * 100000
+            # Forex micro lot: volume=100000 in cTrader = 0.01 lot = 1000 units
+            units = volume / 100 if volume > 0 else lot_size * 100000
+            # For USD-quoted pairs (EURUSD, GBPUSD etc), P&L = price_diff * units
+            # For non-USD quoted pairs this is approximate
+            pnl = price_diff * units
+        elif asset_type == 'crypto':
+            # Crypto CFD: volume in cTrader varies per instrument
+            # volume=100 for BTC = 0.001 BTC (volume / 100000)
+            qty = volume / 100000 if volume > 0 else lot_size
+            pnl = price_diff * qty
         else:
-            # CFDs (crypto, commodity, index): volume / 100 = broker units
-            qty = volume / 100 if volume > 0 else lot_size * 10000000 / 100
+            # Commodities/indices: use volume directly as contract multiplier
+            qty = volume / 100 if volume > 0 else lot_size * 100
             pnl = price_diff * qty
 
     won = pnl >= 0
