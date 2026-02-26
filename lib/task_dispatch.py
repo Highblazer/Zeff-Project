@@ -26,7 +26,12 @@ _log = logging.getLogger('task_dispatch')
 
 
 def _notify_zeffbot(task: dict, event: str):
-    """Send task result to Zeff.bot for Telegram reporting. Non-blocking."""
+    """Send task result to Zeff.bot for Telegram reporting. Non-blocking.
+
+    Natalia tasks are skipped here — her runner sends hourly digests instead.
+    """
+    if task.get('assigned_to') == 'natalia' and event == 'completed':
+        return  # Natalia batches her own reports hourly
     try:
         from lib.zeffbot_report import report_task_completed, report_task_failed
         if event == 'completed':

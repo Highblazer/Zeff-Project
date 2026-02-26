@@ -123,6 +123,7 @@ PAIRS = {
 
 CONFIG = {
     'max_positions': 5,       # max 5 simultaneous trades
+    'max_bonus_positions': 2, # up to 2 extra "can't resist" trades (score 4 = all signals aligned)
     'check_interval': 45,     # check every 45 seconds
     'cooldown_minutes': 5,    # shorter cooldown = more trades
 }
@@ -924,6 +925,11 @@ class TradeBotEngine:
 
         # Check for new signals — open positions via cTrader
         orders_sent_this_cycle = 0
+        bonus_orders_sent = 0
+        total_open = len(self.positions)
+        max_pos = CONFIG['max_positions']
+        max_bonus = CONFIG['max_bonus_positions']
+
         for symbol, config in PAIRS.items():
             if symbol not in signals:
                 continue
@@ -935,19 +941,32 @@ class TradeBotEngine:
             if symbol in self.local_positions:
                 continue
 
-            # Max positions check (count pending orders sent this cycle too)
-            if (len(self.positions) + orders_sent_this_cycle) >= CONFIG['max_positions']:
-                continue
-
             # Cooldown check
             if symbol in self.last_trade_time:
                 elapsed = (datetime.now() - self.last_trade_time[symbol]).total_seconds()
                 if elapsed < CONFIG['cooldown_minutes'] * 60:
                     continue
 
-            entry_price = prices[symbol]
-            self._execute_order(symbol, signal, entry_price, config, reason)
-            orders_sent_this_cycle += 1
+            current_count = total_open + orders_sent_this_cycle
+
+            if current_count < max_pos:
+                # Normal slot available
+                entry_price = prices[symbol]
+                self._execute_order(symbol, signal, entry_price, config, reason)
+                orders_sent_this_cycle += 1
+            elif current_count < (max_pos + max_bonus) and score >= 4:
+                # All slots full but this is a perfect setup (score 4 = EMA + momentum + breakout + news)
+                # Can't resist — take the bonus trade
+                entry_price = prices[symbol]
+                bonus_orders_sent += 1
+                print(f"  ** BONUS TRADE #{bonus_orders_sent}: {signal} {symbol} (perfect score {score}) **")
+                self._execute_order(symbol, signal, entry_price, config, f"BONUS|{reason}")
+                orders_sent_this_cycle += 1
+                self._alert(
+                    f"BONUS TRADE: {signal} {symbol}\n"
+                    f"Perfect signal (score {score}/4)\n"
+                    f"All indicators aligned — couldn't resist"
+                )
 
         # Refresh balance from broker
         if self.authenticated:

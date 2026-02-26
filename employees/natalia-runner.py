@@ -26,6 +26,7 @@ log = get_logger('natalia', 'natalia.log')
 POLL_INTERVAL = 15  # seconds
 BOT_NAME = 'natalia'
 STATUS_FILE = '/root/.openclaw/workspace/employees/natalia_status.json'
+REPORT_INTERVAL = 3600  # send Telegram digest every 1 hour (seconds)
 
 # Load API keys from environment / .env
 from lib.credentials import _load_dotenv
@@ -229,6 +230,10 @@ _topic_index = 0
 _last_self_task_time = 0
 _SELF_TASK_INTERVAL = 300  # generate a new task every 5 minutes when idle
 
+# ── Hourly digest state ──
+_completed_this_hour = []  # list of {'title': ..., 'type': ..., 'sources': ...}
+_last_digest_time = time.time()
+
 
 def _generate_self_task():
     """Create a research task from the rotating topic list."""
@@ -255,6 +260,55 @@ def _generate_self_task():
     )
     _last_self_task_time = now
     log.info(f'Self-generated research task: {topic}')
+
+
+# ── Hourly digest reporting ──
+
+def _record_completed_task(task_data: dict, result: dict):
+    """Record a completed task for the hourly digest."""
+    _completed_this_hour.append({
+        'title': task_data.get('title', 'Unknown'),
+        'type': task_data.get('task_type', '?'),
+        'sources': result.get('sources_count', 0) if isinstance(result, dict) else 0,
+        'time': datetime.now(timezone.utc).strftime('%H:%M'),
+    })
+
+
+def _maybe_send_digest():
+    """Send an hourly digest of completed research to Telegram."""
+    global _last_digest_time
+    now = time.time()
+    if now - _last_digest_time < REPORT_INTERVAL:
+        return
+    _last_digest_time = now
+
+    if not _completed_this_hour:
+        return  # Nothing to report
+
+    try:
+        import html as _html
+        from lib.telegram import send_message
+
+        count = len(_completed_this_hour)
+        total_sources = sum(t['sources'] for t in _completed_this_hour)
+
+        msg = "<b>⬡ ZEFF.BOT</b>\n"
+        msg += "<b>📡 NATALIA — HOURLY DIGEST</b>\n"
+        msg += f"<i>{datetime.now().strftime('%H:%M')}</i>\n\n"
+        msg += f"<b>Tasks completed:</b> {count}\n"
+        msg += f"<b>Sources consulted:</b> {total_sources}\n\n"
+
+        for t in _completed_this_hour:
+            icon = "🔍" if t['type'] == 'research' else "📋"
+            title = _html.escape(t['title'][:60])
+            msg += f"{icon} {title} ({t['sources']} sources)\n"
+
+        send_message(msg)
+        log.info(f"Hourly digest sent: {count} tasks, {total_sources} sources")
+    except Exception as e:
+        log.error(f"Failed to send hourly digest: {e}")
+
+    _completed_this_hour.clear()
 
 
 # ── Main loop ──
@@ -314,6 +368,7 @@ def process_tasks():
         try:
             result = handler(claimed)
             complete_task(task_id, result)
+            _record_completed_task(claimed, result)
             log.info(f"Task {task_id} completed successfully")
         except Exception as e:
             log.error(f"Task {task_id} failed: {e}")
@@ -334,6 +389,7 @@ def main():
     while True:
         try:
             process_tasks()
+            _maybe_send_digest()
         except Exception as e:
             log.error(f'Error in main loop: {e}')
             update_status('error')
