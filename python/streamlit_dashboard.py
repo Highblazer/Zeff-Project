@@ -13,6 +13,7 @@ import glob
 from datetime import datetime, timezone
 
 sys.path.insert(0, '/root/.openclaw/workspace')
+from lib.task_dispatch import create_task
 
 try:
     import yfinance as yf
@@ -360,7 +361,9 @@ def get_live_prices():
     symbols = {
         'EURUSD': 'EURUSD=X', 'GBPUSD': 'GBPUSD=X', 'USDJPY': 'USDJPY=X',
         'AUDUSD': 'AUDUSD=X', 'USDCAD': 'USDCAD=X', 'USDCHF': 'USDCHF=X',
-        'NZDUSD': 'NZDUSD=X', 'XAUUSD': 'GC=F', 'XAGUSD': 'SI=F', 'BTCUSD': 'BTC-USD',
+        'NZDUSD': 'NZDUSD=X', 'EURGBP': 'EURGBP=X', 'EURJPY': 'EURJPY=X',
+        'GBPJPY': 'GBPJPY=X', 'LTCUSD': 'LTC-USD', 'ETHUSD': 'ETH-USD',
+        'XAUUSD': 'GC=F', 'XAGUSD': 'SI=F', 'BTCUSD': 'BTC-USD',
     }
     for sym, yahoo in symbols.items():
         try:
@@ -384,13 +387,53 @@ def save_prev_prices(p):
     except Exception:
         pass
 
-def calc_pnl(entry, current, direction, lot_size):
+def calc_pnl(entry, current, direction, lot_size, symbol=''):
     if not entry or not lot_size:
         return 0.0
-    mult = 100000
+    # Standard forex: 1 lot = 100,000 units, PnL = diff * lots * 100000
+    # Crypto: lot_size is in units of base currency, PnL = diff * lot_size
+    # Gold/Silver/Commodities: lot_size is in units, PnL = diff * lot_size
+    is_crypto = any(x in symbol for x in ['BTC', 'ETH', 'DOGE', 'XRP', 'SOL', 'LTC', 'ADA', 'LINK'])
+    is_commodity = any(x in symbol for x in ['XAU', 'XAG', 'OIL', 'BRENT', 'GAS', 'US500', 'USTEC', 'US30', 'FTSE', 'DAX', 'NIK', 'ASX'])
+    if is_crypto or is_commodity:
+        mult = 1  # lot_size already represents units
+    else:
+        mult = 100000  # forex standard lot
     if direction == 'BUY':
         return (current - entry) * lot_size * mult
     return (entry - current) * lot_size * mult
+
+def _pip_mult(symbol):
+    """Return pip multiplier for distance display."""
+    if any(x in symbol for x in ['BTC', 'ETH', 'DOGE', 'XRP', 'SOL', 'LTC', 'ADA', 'LINK']):
+        return 1  # show USD distance, not pips
+    if any(x in symbol for x in ['XAU', 'XAG']):
+        return 100  # gold/silver pip = 0.01
+    if any(x in symbol for x in ['OIL', 'BRENT', 'GAS', 'US500', 'USTEC', 'US30', 'FTSE', 'DAX', 'NIK', 'ASX']):
+        return 1  # show points
+    if 'JPY' in symbol:
+        return 100  # JPY pip = 0.01
+    return 10000  # forex pip = 0.0001
+
+def _fmt_price(price, symbol=''):
+    """Format price appropriately for the asset type."""
+    if any(x in symbol for x in ['BTC', 'ETH', 'US500', 'USTEC', 'US30', 'FTSE', 'DAX', 'NIK', 'ASX']):
+        return f"{price:,.2f}"
+    if any(x in symbol for x in ['XAU', 'XAG']):
+        return f"{price:,.2f}"
+    if 'JPY' in symbol:
+        return f"{price:.3f}"
+    if price >= 1000:
+        return f"{price:,.2f}"
+    return f"{price:.5f}"
+
+def _pip_label(symbol):
+    """Return the unit label for distance display."""
+    if any(x in symbol for x in ['BTC', 'ETH', 'DOGE', 'XRP', 'SOL', 'LTC', 'ADA', 'LINK',
+                                   'US500', 'USTEC', 'US30', 'FTSE', 'DAX', 'NIK', 'ASX',
+                                   'OIL', 'BRENT', 'GAS']):
+        return 'pts'
+    return 'pips'
 
 def load_state():
     for path in [STATE_FILE, '/root/.openclaw/workspace/employees/paper-trading-state.json']:
@@ -484,12 +527,15 @@ total_pnl = sum(calc_pnl(
     p.get('entry_price', p.get('entry', 0)),
     prices.get(s, p.get('entry_price', p.get('entry', 0))),
     p.get('direction', 'BUY'),
-    p.get('lot_size', p.get('volume', 0))
+    p.get('lot_size', p.get('volume', 0)),
+    symbol=s
 ) for s, p in positions.items())
 realized_pnl = stats.get('total_pnl', 0)
 account_return = ((balance - starting_balance) / starting_balance * 100) if starting_balance else 0
 
 natalia_status = _load_json('/root/.openclaw/workspace/employees/natalia_status.json')
+alibot_status = _load_json('/root/.openclaw/workspace/employees/alibot_status.json')
+alibot_state = _load_json('/root/.openclaw/workspace/employees/alibot_state.json')
 kalshi_status = _load_json('/root/.openclaw/workspace/employees/kalshi_status.json')
 kalshi_paper = _load_json('/root/.openclaw/workspace/employees/kalshi_paper_status.json')
 task_counts = count_tasks()
@@ -504,6 +550,17 @@ try:
     natalia_live = (datetime.now() - hb).total_seconds() < 120
 except Exception:
     pass
+
+# Ali.bot liveness — 15-min analysis cycle, so use 1200s threshold
+alibot_live = False
+try:
+    ab_update = datetime.fromisoformat(alibot_status.get('last_update', alibot_state.get('last_update', '2000-01-01')))
+    alibot_live = (datetime.now() - ab_update).total_seconds() < 1200
+except Exception:
+    pass
+alibot_positions = alibot_state.get('positions', {}) if isinstance(alibot_state.get('positions'), dict) else {}
+alibot_stats = alibot_state.get('stats', {})
+alibot_balance = alibot_state.get('balance', 0)
 
 
 # ══════════════════════════════════════════════════════════════
@@ -544,23 +601,35 @@ tab_home, tab_trading, tab_research, tab_tasks, tab_system = st.tabs([
 
 with tab_home:
 
-    # ── Key Metrics Row ──
+    # ── Key Metrics Row (Fleet-Wide) ──
+    fleet_balance = balance  # Shared broker account — balance is the same for both bots
+    fleet_positions = len(positions) + len(alibot_positions)
+    fleet_unrealized = total_pnl + sum(calc_pnl(
+        p.get('entry_price', p.get('entry', 0)),
+        prices.get(s, p.get('entry_price', p.get('entry', 0))),
+        p.get('direction', 'BUY'),
+        p.get('lot_size', p.get('volume', 0)),
+        symbol=s
+    ) for s, p in alibot_positions.items())
+    fleet_realized = realized_pnl + alibot_stats.get('total_pnl', 0)
+    fleet_total_trades = stats.get('total', 0) + alibot_stats.get('total', 0)
+    fleet_wins = stats.get('wins', 0) + alibot_stats.get('wins', 0)
+    fleet_win_rate = (fleet_wins / fleet_total_trades * 100) if fleet_total_trades else 0
+
     m1, m2, m3, m4, m5, m6 = st.columns(6)
     conn_icon = "ONLINE" if state.get('connected') else "OFFLINE"
     with m1:
-        st.metric("BALANCE", f"${balance:,.2f}",
+        st.metric("FLEET BALANCE", f"${fleet_balance:,.2f}",
                   delta=f"{account_return:+.1f}%" if account_return != 0 else None)
     with m2:
-        st.metric("UNREALIZED P&L", f"${total_pnl:+,.2f}")
+        st.metric("UNREALIZED P&L", f"${fleet_unrealized:+,.2f}")
     with m3:
-        st.metric("REALIZED P&L", f"${realized_pnl:+,.2f}")
+        st.metric("REALIZED P&L", f"${fleet_realized:+,.2f}")
     with m4:
-        st.metric("OPEN POSITIONS", f"{len(positions)}")
+        st.metric("OPEN POSITIONS", f"{fleet_positions}")
     with m5:
-        win_rate = stats.get('win_rate', 0)
-        total_trades = stats.get('total', 0)
-        st.metric("WIN RATE", f"{win_rate:.0f}%" if total_trades else "—",
-                  delta=f"{total_trades} trades" if total_trades else None)
+        st.metric("WIN RATE", f"{fleet_win_rate:.0f}%" if fleet_total_trades else "—",
+                  delta=f"{fleet_total_trades} trades" if fleet_total_trades else None)
     with m6:
         st.metric("BROKER", conn_icon)
 
@@ -575,7 +644,7 @@ with tab_home:
     # ── Fleet Status ──
     st.markdown('<div class="section-hdr">Fleet Status</div>', unsafe_allow_html=True)
 
-    f1, f2, f3 = st.columns(3)
+    f1, f2, f3, f4 = st.columns(4)
     with f1:
         badge = 'badge-online' if state.get('connected') else 'badge-offline'
         status = 'ONLINE' if state.get('connected') else 'OFFLINE'
@@ -596,15 +665,30 @@ with tab_home:
         st.markdown(f"""
         <div class="awo-card">
             <div class="card-title">002 TRADEBOT <span class="badge {tb_badge}">{tb_status}</span></div>
-            <div class="card-subtitle">Conservative Multi-Market Trading</div>
+            <div class="card-subtitle">Multi-Timeframe Momentum Trading</div>
             <div class="card-body" style="margin-top:8px;">
                 Positions: {len(positions)} | Mode: {state.get('mode','demo').upper()}<br>
                 Balance: ${balance:,.2f}<br>
-                Strategy: FVG + S/R + EMA + Fib
+                Strategy: MTF (15M/5M/1M) + News
             </div>
         </div>""", unsafe_allow_html=True)
 
     with f3:
+        ab_badge = 'badge-online' if alibot_live else 'badge-offline'
+        ab_status = 'ONLINE' if alibot_live else 'OFFLINE'
+        ab_open = len(alibot_positions)
+        st.markdown(f"""
+        <div class="awo-card">
+            <div class="card-title">003 ALI.BOT <span class="badge {ab_badge}">{ab_status}</span></div>
+            <div class="card-subtitle">Higher Timeframe Precision Trading</div>
+            <div class="card-body" style="margin-top:8px;">
+                Positions: {ab_open} | Mode: {alibot_state.get('mode','demo').upper()}<br>
+                Balance: ${alibot_balance:,.2f}<br>
+                Strategy: 6-Layer (4H/D/W) Sniper
+            </div>
+        </div>""", unsafe_allow_html=True)
+
+    with f4:
         nat_badge = 'badge-online' if natalia_live else ('badge-idle' if natalia_status.get('status') == 'idle' else 'badge-offline')
         nat_status_text = 'ONLINE' if natalia_live else natalia_status.get('status', 'OFFLINE').upper()
         brave_str = "Brave API" if natalia_status.get('brave_api') else "DuckDuckGo (fallback)"
@@ -644,11 +728,14 @@ with tab_home:
 
             cfmt = f"{sign}{dchg:.5f}" if abs(dchg) < 1 else f"{sign}{dchg:,.2f}"
 
-            # Check if we have an open position
+            # Check if we have an open position (any bot)
             pos_indicator = ''
             if sym in positions:
                 pos_dir = positions[sym].get('direction', '')
-                pos_indicator = f'<span style="font-size:9px;color:var(--cyan);opacity:0.7;float:right;">{pos_dir}</span>'
+                pos_indicator = f'<span style="font-size:9px;color:var(--cyan);opacity:0.7;float:right;">TB {pos_dir}</span>'
+            elif sym in alibot_positions:
+                pos_dir = alibot_positions[sym].get('direction', '')
+                pos_indicator = f'<span style="font-size:9px;color:var(--cyan);opacity:0.7;float:right;">AB {pos_dir}</span>'
 
             html += f'''<div class="pcell">
                 <div class="psym">{sym}{pos_indicator}</div>
@@ -660,39 +747,44 @@ with tab_home:
     else:
         st.info("Waiting for price data...")
 
-    # ── Open Positions ──
+    # ── Open Positions (Fleet-Wide) ──
     st.markdown('<div class="section-hdr">Open Positions</div>', unsafe_allow_html=True)
 
-    if positions:
+    # Merge all positions with bot label
+    all_positions = [(sym, pos, 'TB') for sym, pos in positions.items()]
+    all_positions += [(sym, pos, 'AB') for sym, pos in alibot_positions.items()]
+
+    if all_positions:
         # Header row
         st.markdown("""<div class="awo-card" style="padding:0;overflow:hidden;">
-        <div class="pos-row pos-header">
-            <span>SYMBOL</span><span>SIDE</span><span>ENTRY</span>
+        <div class="pos-row pos-header" style="grid-template-columns:100px 40px 60px 110px 110px 90px 90px 80px 90px;">
+            <span>SYMBOL</span><span>BOT</span><span>SIDE</span><span>ENTRY</span>
             <span>CURRENT</span><span>SL</span><span>TP</span>
             <span>LOT</span><span>P&L</span>
         </div>""", unsafe_allow_html=True)
 
         rows_html = ""
-        for sym, pos in positions.items():
+        for sym, pos, bot_tag in all_positions:
             d = pos.get('direction', '?')
             entry = pos.get('entry_price', pos.get('entry', 0))
             current = prices.get(sym, entry)
             sl = pos.get('stop_loss', 0)
             tp = pos.get('take_profit', 0)
             lot = pos.get('lot_size', pos.get('volume', 0))
-            pnl = calc_pnl(entry, current, d, lot)
+            pnl = calc_pnl(entry, current, d, lot, symbol=sym)
 
             pnl_cls = 'c-up' if pnl >= 0 else 'c-dn'
             side_cls = 'c-up' if d == 'BUY' else 'c-dn'
 
-            rows_html += f"""<div class="pos-row">
+            rows_html += f"""<div class="pos-row" style="grid-template-columns:100px 40px 60px 110px 110px 90px 90px 80px 90px;">
                 <span style="font-weight:600;">{sym}</span>
+                <span style="color:var(--text-secondary) !important;font-size:10px;">{bot_tag}</span>
                 <span class="{side_cls}">{d}</span>
-                <span>{entry:.5f}</span>
-                <span>{current:.5f}</span>
-                <span>{sl:.5f}</span>
-                <span>{tp:.5f}</span>
-                <span>{lot:.2f}</span>
+                <span>{_fmt_price(entry, sym)}</span>
+                <span>{_fmt_price(current, sym)}</span>
+                <span>{_fmt_price(sl, sym) if sl else '—'}</span>
+                <span>{_fmt_price(tp, sym) if tp else '—'}</span>
+                <span>{lot:.5f}</span>
                 <span class="{pnl_cls}" style="font-weight:600;">${pnl:+.2f}</span>
             </div>"""
 
@@ -751,7 +843,8 @@ with tab_home:
 
 with tab_trading:
 
-    # ── Account Overview ──
+    # ── TradeBot Account Overview ──
+    st.markdown('<div class="section-hdr">TradeBot — Multi-Timeframe (15M/5M/1M)</div>', unsafe_allow_html=True)
     t1, t2, t3, t4, t5, t6 = st.columns(6)
     with t1: st.metric("BALANCE", f"${balance:,.2f}")
     with t2: st.metric("STARTING", f"${starting_balance:,.2f}")
@@ -810,10 +903,10 @@ with tab_trading:
         <div class="awo-card">
             <div class="card-title">STRATEGY</div>
             <div class="card-body">
-                FVG + S/R Confirmation<br>
-                EMA 20/50 Trend<br>
-                Fibonacci Levels<br>
-                Breakout Detection
+                Multi-Timeframe (15M/5M/1M)<br>
+                EMA Trend + Momentum<br>
+                News Bias Confirmation<br>
+                3-Layer Score (0-7)
             </div>
         </div>""", unsafe_allow_html=True)
 
@@ -840,17 +933,17 @@ with tab_trading:
             sl = pos.get('stop_loss', 0)
             tp = pos.get('take_profit', 0)
             lot = pos.get('lot_size', pos.get('volume', 0))
-            pnl = calc_pnl(entry, current, d, lot)
+            pnl = calc_pnl(entry, current, d, lot, symbol=sym)
             opened = pos.get('open_time', '—')[:19]
 
             pnl_cls = 'c-up' if pnl >= 0 else 'c-dn'
             side_emoji = '&#9650;' if d == 'BUY' else '&#9660;'
             side_cls = 'c-up' if d == 'BUY' else 'c-dn'
 
-            # Distance to SL/TP in pips
-            pip_mult = 100 if 'JPY' in sym else 10000
-            sl_dist = abs(current - sl) * pip_mult
-            tp_dist = abs(tp - current) * pip_mult
+            pm = _pip_mult(sym)
+            sl_dist = abs(current - sl) * pm if sl else 0
+            tp_dist = abs(tp - current) * pm if tp else 0
+            plbl = _pip_label(sym)
 
             c1, c2 = st.columns([5, 1])
             with c1:
@@ -861,26 +954,167 @@ with tab_trading:
                         <span style="float:right;" class="{pnl_cls}">${pnl:+.2f}</span>
                     </div>
                     <div class="card-body" style="font-family:'JetBrains Mono',monospace;font-size:12px;">
-                        Entry: {entry:.5f} &nbsp;|&nbsp; Current: {current:.5f} &nbsp;|&nbsp;
-                        SL: {sl:.5f} ({sl_dist:.0f} pips) &nbsp;|&nbsp;
-                        TP: {tp:.5f} ({tp_dist:.0f} pips) &nbsp;|&nbsp;
-                        Lot: {lot:.2f} &nbsp;|&nbsp; Opened: {opened}
+                        Entry: {_fmt_price(entry, sym)} &nbsp;|&nbsp; Current: {_fmt_price(current, sym)} &nbsp;|&nbsp;
+                        SL: {_fmt_price(sl, sym) if sl else '—'} ({sl_dist:.1f} {plbl}) &nbsp;|&nbsp;
+                        TP: {_fmt_price(tp, sym) if tp else '—'} ({tp_dist:.1f} {plbl}) &nbsp;|&nbsp;
+                        Lot: {lot:g} &nbsp;|&nbsp; Opened: {opened}
                     </div>
                 </div>""", unsafe_allow_html=True)
             with c2:
                 if st.button("CLOSE", key=f"tc_{sym}"):
-                    del state['positions'][sym]
+                    pos_id = pos.get('positionId')
                     try:
-                        import tempfile
-                        fd, tmp = tempfile.mkstemp(dir=os.path.dirname(STATE_FILE), suffix='.tmp')
-                        with os.fdopen(fd, 'w') as f:
-                            json.dump(state, f, indent=2)
-                        os.replace(tmp, STATE_FILE)
-                    except Exception:
-                        pass
+                        create_task(
+                            title=f'Close {sym} position',
+                            assigned_to='tradebot',
+                            task_type='close_position',
+                            params={'symbol': sym, 'positionId': pos_id},
+                            priority=1,
+                            created_by='dashboard',
+                        )
+                        st.toast(f'Close order dispatched for {sym} (posId={pos_id})')
+                    except Exception as e:
+                        st.error(f'Failed to dispatch close: {e}')
                     st.rerun()
     else:
         st.info("No open positions")
+
+    # ── Ali.bot Section ──
+    st.markdown('<div class="section-hdr">Ali.bot — Swing Positions</div>', unsafe_allow_html=True)
+
+    ab_s1, ab_s2, ab_s3, ab_s4, ab_s5, ab_s6 = st.columns(6)
+    ab_starting = starting_balance  # Same shared broker account
+    ab_return = ((alibot_balance - ab_starting) / ab_starting * 100) if ab_starting else 0
+    ab_total_pnl = sum(calc_pnl(
+        p.get('entry_price', p.get('entry', 0)),
+        prices.get(s, p.get('entry_price', p.get('entry', 0))),
+        p.get('direction', 'BUY'),
+        p.get('lot_size', p.get('volume', 0)),
+        symbol=s
+    ) for s, p in alibot_positions.items())
+    ab_realized = alibot_stats.get('total_pnl', 0)
+    with ab_s1: st.metric("BALANCE", f"${alibot_balance:,.2f}")
+    with ab_s2: st.metric("RETURN", f"{ab_return:+.1f}%")
+    with ab_s3: st.metric("UNREALIZED", f"${ab_total_pnl:+,.2f}")
+    with ab_s4: st.metric("REALIZED", f"${ab_realized:+,.2f}")
+    with ab_s5: st.metric("WIN RATE", f"{alibot_stats.get('win_rate', 0):.0f}%")
+    with ab_s6: st.metric("OPEN", len(alibot_positions))
+
+    ab_rc1, ab_rc2, ab_rc3 = st.columns(3)
+    with ab_rc1:
+        st.markdown(f"""
+        <div class="awo-card">
+            <div class="card-title">STRATEGY</div>
+            <div class="card-body">
+                6-Layer Prediction Model<br>
+                Weekly/Daily/4H Timeframes<br>
+                Min R:R 1:4 | Max Risk 1%<br>
+                1-3 Trades/Week
+            </div>
+        </div>""", unsafe_allow_html=True)
+    with ab_rc2:
+        la = alibot_state.get('last_analysis')
+        if isinstance(la, dict):
+            la_lines = [f"{s}: {v.get('score',0)}/6 {'&#10003;' if v.get('tradeable') else '&#10007;'}" for s, v in list(la.items())[:5]]
+            la_html = '<br>'.join(la_lines) if la_lines else '—'
+        elif isinstance(la, str):
+            la_html = la[:80]
+        else:
+            la_html = '—'
+        st.markdown(f"""
+        <div class="awo-card">
+            <div class="card-title">LAST ANALYSIS</div>
+            <div class="card-body" style="font-family:'JetBrains Mono',monospace;font-size:11px;">
+                {la_html}
+            </div>
+        </div>""", unsafe_allow_html=True)
+    with ab_rc3:
+        st.markdown(f"""
+        <div class="awo-card">
+            <div class="card-title">BROKER</div>
+            <div class="card-body">
+                IC Markets cTrader<br>
+                Mode: DEMO<br>
+                Connected: {'Yes' if alibot_state.get('connected') else 'No'}<br>
+                Account: ****{str(alibot_status.get('account', ''))[-4:]}
+            </div>
+        </div>""", unsafe_allow_html=True)
+
+    if alibot_positions:
+        for sym, pos in alibot_positions.items():
+            d = pos.get('direction', '?')
+            entry = pos.get('entry_price', pos.get('entry', 0))
+            current = prices.get(sym, entry)
+            sl = pos.get('stop_loss', 0)
+            tp = pos.get('take_profit', 0)
+            lot = pos.get('lot_size', pos.get('volume', 0))
+            pnl = calc_pnl(entry, current, d, lot, symbol=sym)
+            opened = pos.get('open_time', '—')[:19]
+
+            pnl_cls = 'c-up' if pnl >= 0 else 'c-dn'
+            side_emoji = '&#9650;' if d == 'BUY' else '&#9660;'
+            side_cls = 'c-up' if d == 'BUY' else 'c-dn'
+
+            pm = _pip_mult(sym)
+            sl_dist = abs(current - sl) * pm if sl else 0
+            tp_dist = abs(tp - current) * pm if tp else 0
+            plbl = _pip_label(sym)
+
+            c1, c2 = st.columns([5, 1])
+            with c1:
+                st.markdown(f"""
+                <div class="awo-card">
+                    <div class="card-title">
+                        <span class="{side_cls}">{side_emoji} {d}</span> {sym}
+                        <span style="float:right;" class="{pnl_cls}">${pnl:+.2f}</span>
+                    </div>
+                    <div class="card-body" style="font-family:'JetBrains Mono',monospace;font-size:12px;">
+                        Entry: {_fmt_price(entry, sym)} &nbsp;|&nbsp; Current: {_fmt_price(current, sym)} &nbsp;|&nbsp;
+                        SL: {_fmt_price(sl, sym) if sl else '—'} ({sl_dist:.1f} {plbl}) &nbsp;|&nbsp;
+                        TP: {_fmt_price(tp, sym) if tp else '—'} ({tp_dist:.1f} {plbl}) &nbsp;|&nbsp;
+                        Lot: {lot:g} &nbsp;|&nbsp; Opened: {opened}
+                    </div>
+                </div>""", unsafe_allow_html=True)
+            with c2:
+                if st.button("CLOSE", key=f"ab_{sym}"):
+                    pos_id = pos.get('positionId')
+                    try:
+                        create_task(
+                            title=f'Close {sym} position',
+                            assigned_to='alibot',
+                            task_type='close_position',
+                            params={'symbol': sym, 'positionId': pos_id},
+                            priority=1,
+                            created_by='dashboard',
+                        )
+                        st.toast(f'Close order dispatched for Ali.bot {sym} (posId={pos_id})')
+                    except Exception as e:
+                        st.error(f'Failed to dispatch close: {e}')
+                    st.rerun()
+    else:
+        st.info("Ali.bot: No open positions — waiting for 6/6 setup")
+
+    # Trade journal (last 5 entries)
+    journal = alibot_state.get('trade_journal', [])
+    if journal:
+        st.markdown('<div class="section-hdr">Ali.bot — Trade Journal (Recent)</div>', unsafe_allow_html=True)
+        for entry in journal[-5:][::-1]:
+            tradeable = entry.get('tradeable', False)
+            score = entry.get('score', 0)
+            direction = entry.get('direction', '?')
+            symbol = entry.get('symbol', '?')
+            badge_cls = 'c-up' if tradeable else 'c-fl'
+            badge_text = f"TRADE {score}/6" if tradeable else f"SKIP {score}/6"
+            layers = entry.get('layers', {})
+            layer_summary = ' | '.join(f"L{k}: {v.get('score', 0)}" for k, v in layers.items()) if layers else '—'
+            ts_str = str(entry.get('time', entry.get('date', '—')))[:19]
+            st.markdown(f"""<div class="awo-card">
+                <div class="card-title">{symbol} — {direction}
+                    <span class="{badge_cls}" style="float:right;">{badge_text}</span>
+                </div>
+                <div class="card-body" style="font-size:11px;font-family:'JetBrains Mono',monospace;">{layer_summary}</div>
+                <div class="card-subtitle">{ts_str}</div>
+            </div>""", unsafe_allow_html=True)
 
     # ── Market Prices ──
     st.markdown('<div class="section-hdr">Market Prices</div>', unsafe_allow_html=True)
@@ -1001,9 +1235,9 @@ with tab_tasks:
     with st.form("create_task_form"):
         cf1, cf2, cf3 = st.columns(3)
         with cf1:
-            new_bot = st.selectbox("Assign to", ["natalia", "tradebot"])
+            new_bot = st.selectbox("Assign to", ["natalia", "tradebot", "alibot"])
         with cf2:
-            type_opts = {"natalia": ["research", "report"], "tradebot": ["trade_analysis", "market_scan", "report"]}
+            type_opts = {"natalia": ["research", "report"], "tradebot": ["trade_analysis", "market_scan", "report"], "alibot": ["trade_analysis", "market_scan", "close_position", "report"]}
             new_type = st.selectbox("Task type", type_opts.get(new_bot, []))
         with cf3:
             new_priority = st.slider("Priority", 1, 10, 5)
@@ -1111,7 +1345,7 @@ with tab_system:
     # ── Services ──
     st.markdown('<div class="section-hdr">Services</div>', unsafe_allow_html=True)
 
-    sv1, sv2, sv3, sv4 = st.columns(4)
+    sv1, sv2, sv3, sv4, sv5 = st.columns(5)
     with sv1:
         gw_up = False
         try:
@@ -1136,7 +1370,7 @@ with tab_system:
         tb_svc = 'badge-online' if state.get('connected') else 'badge-offline'
         st.markdown(f"""<div class="awo-card">
             <div class="card-title">TRADEBOT ENGINE <span class="badge {tb_svc}">{'UP' if state.get('connected') else 'DOWN'}</span></div>
-            <div class="card-body">IC Markets cTrader<br>Demo account<br>Cycle: 60s / Task poll: 30s</div>
+            <div class="card-body">IC Markets cTrader<br>Demo account<br>Cycle: 30s / Task poll: 30s</div>
         </div>""", unsafe_allow_html=True)
 
     with sv4:
@@ -1152,6 +1386,13 @@ with tab_system:
         st.markdown(f"""<div class="awo-card">
             <div class="card-title">LOBSTER <span class="badge {lb_badge}">{'v' + lobster_ver if lobster_ver != '—' else 'N/A'}</span></div>
             <div class="card-body">Workflow runtime<br>Workflows: {len(workflows)}<br>{"<br>".join(workflows) if workflows else "None"}</div>
+        </div>""", unsafe_allow_html=True)
+
+    with sv5:
+        ab_svc = 'badge-online' if alibot_state.get('connected') else 'badge-offline'
+        st.markdown(f"""<div class="awo-card">
+            <div class="card-title">ALI.BOT ENGINE <span class="badge {ab_svc}">{'UP' if alibot_state.get('connected') else 'DOWN'}</span></div>
+            <div class="card-body">IC Markets cTrader<br>Demo account<br>Strategy: 6-Layer Sniper<br>Positions: {len(alibot_positions)}</div>
         </div>""", unsafe_allow_html=True)
 
     # ── Config summary ──
