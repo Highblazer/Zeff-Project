@@ -1,6 +1,6 @@
 # ⬡ Binary Rogue Command Center
 
-**Updated:** 2026-02-27
+**Updated:** 2026-03-01
 
 ---
 
@@ -12,20 +12,19 @@
 | 002 | TradeBot | 🟢 | Chief Trading Officer — 1H Scalping + Multi-Market |
 | 003 | Ali.bot | 🟢 | Chief Trading Strategist — 6-Layer Precision (4H/D/W) |
 | 004 | Natalia | 🟢 | Chief Research Officer — Intelligence & Knowledge Discovery |
-| 006 | Kalshi Bot | 🟡 | Prediction Markets — Elections & Economic Events |
-| 007 | Polymarket Bot | 🟡 | Prediction Markets — Legacy (superseded by Poly.Bot) |
+| 006 | Kalshi Bot | 🟢 | Prediction Markets — Elections & Economic Events |
 | 008 | Poly.Bot | 🟢 | Chief Prediction Officer — Polymarket CLOB Trading |
 
 ---
 
 ## 📊 Trading Accounts
 
-| Bot | Broker | Mode | Strategy |
-|-----|--------|------|----------|
-| TradeBot | IC Markets cTrader | Demo | 1H scalping, 45s cycles, 20-50 trades/week |
-| Ali.bot | IC Markets cTrader | Demo | 6-layer prediction model, 1-3 swing trades/week |
-| Poly.Bot | Polymarket (CLOB) | Paper | High-conviction prediction markets (8/10+) |
-| Kalshi Bot | Kalshi | Paper | Election & economic prediction markets |
+| Bot | Broker | Mode | Balance | Positions | Strategy |
+|-----|--------|------|---------|-----------|----------|
+| TradeBot | IC Markets cTrader | Demo | $404.62 | 1 open | 1H scalping, 45s cycles |
+| Ali.bot | IC Markets cTrader | Demo | $201.26 | 3 open | 6-layer precision (4H/D/W) |
+| Poly.Bot | Polymarket (CLOB) | Paper | $100.00 | 0 | High-conviction predictions |
+| Kalshi Bot | Kalshi | Paper | $100.00 | 0 | Election & economic predictions |
 
 ---
 
@@ -46,7 +45,7 @@
 
 | Dashboard | Port | Purpose |
 |-----------|------|---------|
-| Fleet Command | 8501 | Main ops — agent status, positions, performance, tasks, news |
+| Fleet Command | 8080 | Main ops — agent status, positions, performance, tasks, news |
 | Public Performance | 8502 | Read-only proof of trading (win rate, Sharpe, P&L) |
 | News Intelligence | 8503 | Real-time categorized news for TradeBot & Natalia |
 
@@ -57,7 +56,7 @@
 | Service | Port | Protocol | Purpose |
 |---------|------|----------|---------|
 | Signal API | 8000 | REST (FastAPI) | Signals, news sentiment, stats, API key auth + rate limits |
-| Legacy Gateway | 8080 | HTTP | Backward-compat wrapper, redirects to Signal API |
+| Fleet Dashboard | 8080 | Streamlit | Fleet Command visualization + controls |
 | Copy-Trade Server | 8765 | WebSocket | Real-time trade broadcast (OPEN/CLOSE/AMEND/TICK events) |
 
 **Signal API Endpoints:**
@@ -125,6 +124,25 @@
 | Task Queue | File-based async dispatch (pending/in_progress/completed/failed) |
 | Deployment | Local single-machine, Cloudflare tunnel for public access |
 | Credentials | .env-based, token auth on gateway |
+| Process Mgmt | systemd services with auto-restart |
+| Fleet Health | Unified health monitor with auto-recovery + Telegram alerts |
+| Backups | Daily auto-push to GitHub + local state snapshots (14-day retention) |
+| Log Rotation | Cron-based (daily at 03:00, cap 50MB per log) |
+
+---
+
+## 🔄 systemd Services
+
+| Service | Status | Auto-Restart |
+|---------|--------|-------------|
+| `tradebot.service` | Enabled | Yes (on-failure, 10s delay) |
+| `alibot.service` | Enabled | Yes (on-failure, 30s delay) |
+| `natalia.service` | Enabled | Yes (on-failure, 10s delay) |
+| `polybot.service` | Enabled | Yes (on-failure, 30s delay) |
+| `kalshi.service` | Enabled | Yes (on-failure, 30s delay) |
+| `tradebot-watchdog.service` | Enabled | Yes (always) |
+| `fleet-health.service` | Enabled | Yes (always) |
+| `trade-dashboard.service` | Enabled | Yes |
 
 ---
 
