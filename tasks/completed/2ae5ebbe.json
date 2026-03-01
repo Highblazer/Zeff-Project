@@ -1,0 +1,85 @@
+{
+  "id": "2ae5ebbe",
+  "title": "Polymarket research: Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:32:39.227844+00:00",
+  "updated_at": "2026-02-27T00:32:54.246259+00:00",
+  "claimed_at": "2026-02-27T00:32:52.108933+00:00",
+  "completed_at": "2026-02-27T00:32:54.246239+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Hillary Clinton win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket: 1% Buy Yes 0.8\u00a2Buy No 99.3\u00a2 \u00b7 Jasmine Crockett \u00b7 $12,646,920 Vol. 1% Buy Yes 0.8\u00a2Buy No 99.3\u00a2 \u00b7 <strong>This market will resolve to \u201cYes\u201d if the named\n- r/PoliticalDiscussion on Reddit: Who should be the 2028 Democratic nominee in the US Presidential election? Who is the most likely candidate? Who has the best chance of winning in the general election? Who would be the best President when they win?: I\u2019m happy to even be having the conversation- and will be ecstatic if we get a free and fair election in 2028! ... There will be yuge grassroots groun\n- Who will win the 2028 Democratic presidential nomination?: <strong>The contract that resolves to Yes shall be that which identifies the person who wins the 2028 nomination of the Democratic Party for U.S. pres\n- 2028 United States presidential election - Wikipedia: NBC News has reported that multiple ... Democratic Party Jane Kleeb stated in November 2024 that &quot;<strong>The 2024 calendar will absolutely not b\n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times: But for whatever reason, I don\u2019t think this definition of electability is selling to the electorate. It\u2019s really been a long time since Democrats nomi\n\nNews (5):\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (15 hours ago)\n- The next 2 years will be a bumpy ride for Democratic presidential candidates (1 day ago)\n- Kamala Harris Gives Update on Potential Presidential Run - Newsweek (2 days ago)\n- Presidential election, 2028 - Ballotpedia (1 day ago)\n- CNN Data Guru: 2028 Dems 'Clown Car' With 'No Frontrunner' (2 days ago)",
+    "web_results": [
+      {
+        "title": "Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
+        "description": "1% Buy Yes 0.8\u00a2Buy No 99.3\u00a2 \u00b7 Jasmine Crockett \u00b7 $12,646,920 Vol. 1% Buy Yes 0.8\u00a2Buy No 99.3\u00a2 \u00b7 <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S.</strong>"
+      },
+      {
+        "title": "r/PoliticalDiscussion on Reddit: Who should be the 2028 Democratic nominee in the US Presidential election? Who is the most likely candidate? Who has the best chance of winning in the general election? Who would be the best President when they win?",
+        "url": "https://www.reddit.com/r/PoliticalDiscussion/comments/1oy5coc/who_should_be_the_2028_democratic_nominee_in_the/",
+        "description": "I\u2019m happy to even be having the conversation- and will be ecstatic if we get a free and fair election in 2028! ... There will be yuge grassroots groundswell for a young newcomer who speaks intelligently and in depth about important matters and possible solutions. This candidate will captivate the left like never before. The promise of economic growth, equality and progress will be within reach. Then the DNC will push Hillary Clinton onto the ticket at the last minute snatching defeat from the jaws of victory."
+      },
+      {
+        "title": "Who will win the 2028 Democratic presidential nomination?",
+        "url": "https://www.predictit.org/markets/detail/8153/Who-will-win-the-2028-Democratic-presidential-nomination",
+        "description": "<strong>The contract that resolves to Yes shall be that which identifies the person who wins the 2028 nomination of the Democratic Party for U.S. president</strong>. Replacement of the nominee for any reason prior to election day will have no impact on the ..."
+      },
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "NBC News has reported that multiple ... Democratic Party Jane Kleeb stated in November 2024 that &quot;<strong>The 2024 calendar will absolutely not be the calendar for 2028</strong>.&quot;..."
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "But for whatever reason, I don\u2019t think this definition of electability is selling to the electorate. It\u2019s really been a long time since Democrats nominated someone who was a clear electoral overperformer. You\u2019d have to go back to Bill Clinton, although Barack Obama won by a very large ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "The next 2 years will be a bumpy ride for Democratic presidential candidates",
+        "url": "https://thehill.com/opinion/campaign/5753519-democratic-presidential-race-2028",
+        "description": "Early Democratic presidential race for 2028 is wide open. Newsom and Harris lead, but the field is volatile. Change is on voters' minds.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Kamala Harris Gives Update on Potential Presidential Run - Newsweek",
+        "url": "https://newsweek.com/kamala-harris-2028-campagin-presidential-election-democrats-11576886",
+        "description": "Former Vice President Kamala Harris said she has not decided whether she will run in 2028 but left the door open during a live video call.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      },
+      {
+        "title": "CNN Data Guru: 2028 Dems 'Clown Car' With 'No Frontrunner'",
+        "url": "https://mediaite.com/media/tv/cnn-data-guru-warns-gavin-newsom-is-flailing-2028-dems-a-clown-car-with-no-clear-frontrunner",
+        "description": "Enten argued that the absence of a Democratic candidate polling above 25% at this stage is historically rare as he branded the running a \"total mess.\"",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

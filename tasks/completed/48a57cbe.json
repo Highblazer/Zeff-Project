@@ -1,0 +1,82 @@
+{
+  "id": "48a57cbe",
+  "title": "MCP Model Context Protocol new servers tools 2026",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "MCP Model Context Protocol new servers tools 2026"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T14:12:24.851414+00:00",
+  "updated_at": "2026-02-26T14:12:26.527373+00:00",
+  "claimed_at": "2026-02-26T14:12:24.858574+00:00",
+  "completed_at": "2026-02-26T14:12:26.527353+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: MCP Model Context Protocol new servers tools 2026\n\nWeb Results (5):\n- GitHub - modelcontextprotocol/servers: Model Context Protocol Servers: <strong>Alibaba Cloud RDS</strong> - An MCP server designed to interact with the <strong>Alibaba Cloud RDS</strong> OpenAPI, enabling programmatic man\n- Model Context Protocol - Wikipedia: Integrated development environments ... the ChatGPT desktop app. MCP can be integrated with Microsoft Semantic Kernel, and Azure OpenAI. <strong>MCP s\n- Model Context Protocol \u00b7 GitHub: Feb 25, 2026 \u00b7 inspector Public \u00b7 Visual testing tool for MCP servers \u00b7 modelcontextprotocol/inspector\u2019s past year of commit activity \u00b7 TypeScript 8,8\n- Specification - Model Context Protocol: Servers: Services that provide context and capabilities MCP takes some inspiration from the Language Server Protocol, which standardizes how to add su\n- Top 10 MCP (Model Context Protocol) Servers in 2026: It distributes computation and contextual data flows across the edge network, improving latency and privacy. ... Explore Now! GitHub\u2019s MCP implementat\n\nNews (5):\n- Why Model Context Protocol is suddenly on every executive agenda | CIO (2 days ago)\n- Five MCP servers to rule the cloud | InfoWorld (3 weeks ago)\n- Airia\u2019s MCP Gateway Surpasses 1,000 Pre-Configured Integrations, Delivering the Largest Enterprise-Ready MCP Catalog (1 hour ago)\n- MCP explained \u2013 how the Model Context Protocol works (2 days ago)\n- Top 10 MCP Servers Every Developer Should Know in 2026 - DEV Community (3 days ago)",
+    "web_results": [
+      {
+        "title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "description": "<strong>Alibaba Cloud RDS</strong> - An MCP server designed to interact with the <strong>Alibaba Cloud RDS</strong> OpenAPI, enabling programmatic management of RDS resources via an LLM. AlipayPlus - Connect your AI Agents to AlipayPlus Checkout Payment."
+      },
+      {
+        "title": "Model Context Protocol - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+        "description": "Integrated development environments ... the ChatGPT desktop app. MCP can be integrated with Microsoft Semantic Kernel, and Azure OpenAI. <strong>MCP servers can be deployed to Cloudflare</strong>...."
+      },
+      {
+        "title": "Model Context Protocol \u00b7 GitHub",
+        "url": "https://github.com/modelcontextprotocol",
+        "description": "Feb 25, 2026 \u00b7 inspector Public \u00b7 Visual testing tool for MCP servers \u00b7 modelcontextprotocol/inspector\u2019s past year of commit activity \u00b7 TypeScript 8,801 1,175 128 (2 issues need help) 56 Updated \u00b7 Feb 25, 2026 \u00b7 quickstart-resources Public \u00b7 A repository of servers and clients from the Model Context Protocol tutorials \u00b7"
+      },
+      {
+        "title": "Specification - Model Context Protocol",
+        "url": "https://modelcontextprotocol.io/specification/2025-11-25",
+        "description": "Servers: Services that provide context and capabilities MCP takes some inspiration from the Language Server Protocol, which standardizes how to add support for programming languages across a whole ecosystem of development tools."
+      },
+      {
+        "title": "Top 10 MCP (Model Context Protocol) Servers in 2026",
+        "url": "https://www.intuz.com/blog/best-mcp-servers",
+        "description": "It distributes computation and contextual data flows across the edge network, improving latency and privacy. ... Explore Now! GitHub\u2019s MCP implementation lets agents execute, test, and commit code changes autonomously inside repositories \u2014 a major leap for DevOps automation. ... Bridging low-code/no-code automation with AI, n8n\u2019s MCP server lets agents trigger workflows, integrate systems, and orchestrate logic flows. ... Expose n8n workflows as MCP tools."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Why Model Context Protocol is suddenly on every executive agenda | CIO",
+        "url": "https://cio.com/article/4136548/why-model-context-protocol-is-suddenly-on-every-executive-agenda.html",
+        "description": "As AI agents begin operating across enterprise systems, MCP is emerging as the connective layer IT leaders can\u2019t afford to ignore.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Five MCP servers to rule the cloud | InfoWorld",
+        "url": "https://www.infoworld.com/article/4129024/five-mcp-servers-to-rule-the-cloud.html",
+        "description": "The hyperscalers were quick to support AI agents and the Model Context Protocol. Use these official MCP servers from the major cloud providers to automate your cloud operations.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "Airia\u2019s MCP Gateway Surpasses 1,000 Pre-Configured Integrations, Delivering the Largest Enterprise-Ready MCP Catalog",
+        "url": "https://globenewswire.com/news-release/2026/02/26/3245517/0/en/Airia-s-MCP-Gateway-Surpasses-1-000-Pre-Configured-Integrations-Delivering-the-Largest-Enterprise-Ready-MCP-Catalog.html",
+        "description": "Airia's MCP Gateway has surpassed 1,000 pre-configured integrations giving organizations governed access to the applications their teams use every day....",
+        "age": "1 hour ago"
+      },
+      {
+        "title": "MCP explained \u2013 how the Model Context Protocol works",
+        "url": "https://ambersearch.de/en/mcp-model-context-protocol",
+        "description": "The Model Context Protocol (MCP) is a way to quickly connect AI systems with each other. This blog article explains the background.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Top 10 MCP Servers Every Developer Should Know in 2026 - DEV Community",
+        "url": "https://dev.to/rupa_tiwari_dd308948d710f/top-10-mcp-servers-every-developer-should-know-in-2026-264f",
+        "description": "Top 10 MCP Servers Every Developer Should Know in 2025 The Model Context Protocol (MCP)...",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "MCP Model Context Protocol new servers tools 2026",
+    "sources_count": 10
+  },
+  "error": null
+}

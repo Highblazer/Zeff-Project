@@ -1,0 +1,85 @@
+{
+  "id": "b9dfa7a6",
+  "title": "Polymarket research: Will John Fetterman win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will John Fetterman win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:10:15.316385+00:00",
+  "updated_at": "2026-03-01T08:10:28.217624+00:00",
+  "claimed_at": "2026-03-01T08:10:26.204331+00:00",
+  "completed_at": "2026-03-01T08:10:28.217606+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will John Fetterman win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- Presidential candidates, 2028 - Ballotpedia: As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Democratic presiden\n- Democrats are planning to primary and oust Pennsylvania Sen. John Fetterman: report: It is also being speculated that Fetterman may run for president in 2028, but <strong>he has not confirmed if that is true</strong>.\n- Working Families Party plans 2028 Fetterman primary challenge - Axios Pittsburgh: Why it matters: <strong>The Working Families Party (WFP) announced Tuesday it is committing to support a primary challenger to Fetterman when his seat\n- 2028 United States Senate elections - Wikipedia: Five-term Democrat Ron Wyden was re-elected in 2022 with 55.8% of the vote. He is running for re-election. <strong>One-term Democrat John Fetterman wa\n- Pennsylvania Democrats weigh 2028 primaries against John Fetterman: The intrigue: Fetterman has long held presidential ambitions, according to people who know him. <strong>Fetterman did not respond to a question about \n\nNews (5):\n- Presidential election, 2028 - Ballotpedia (4 days ago)\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (3 days ago)\n- Josh Shapiro\u2019s presidential prospects and John Fetterman\u2019s eye-popping numbers: Highlights from a new Pa. poll (3 days ago)\n- Pete Buttigieg leads 2028 Democratic presidential poll in New Hampshire | Fox News (1 week ago)\n- Newsom says 'fate' will decide if he faces off against Harris in 2028 presidential primary (1 week ago)",
+    "web_results": [
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Democratic presidential nomination. This list does not reflect whether a candidate has said they do or do not plan on running. ... Cory Booker, U.S. senator from New Jersey[2] Pete Buttigieg, former U.S. Secretary of Transportation[3] ... Jason Crow, U.S. representative from Colorado[4] ... John Fetterman, U.S."
+      },
+      {
+        "title": "Democrats are planning to primary and oust Pennsylvania Sen. John Fetterman: report",
+        "url": "https://abc6onyourside.com/news/nation-world/democrats-are-planning-to-primary-and-oust-pennsylvania-sen-john-fetterman-report-ceasefire-donald-trump-2028",
+        "description": "It is also being speculated that Fetterman may run for president in 2028, but <strong>he has not confirmed if that is true</strong>."
+      },
+      {
+        "title": "Working Families Party plans 2028 Fetterman primary challenge - Axios Pittsburgh",
+        "url": "https://www.axios.com/local/pittsburgh/2025/11/18/working-families-party-fetterman-primary-2028",
+        "description": "Why it matters: <strong>The Working Families Party (WFP) announced Tuesday it is committing to support a primary challenger to Fetterman when his seat is up in 2028</strong> due to growing frustrations with the Democratic senator&#x27;s increasing support for President ..."
+      },
+      {
+        "title": "2028 United States Senate elections - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_Senate_elections",
+        "description": "Five-term Democrat Ron Wyden was re-elected in 2022 with 55.8% of the vote. He is running for re-election. <strong>One-term Democrat John Fetterman was elected in 2022 with 51.2% of the vote</strong>."
+      },
+      {
+        "title": "Pennsylvania Democrats weigh 2028 primaries against John Fetterman",
+        "url": "https://www.axios.com/2025/10/16/john-fetterman-senate-primary-pennsylvania",
+        "description": "The intrigue: Fetterman has long held presidential ambitions, according to people who know him. <strong>Fetterman did not respond to a question about whether he would run for reelection to the Senate or president in 2028</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "4 days ago"
+      },
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Josh Shapiro\u2019s presidential prospects and John Fetterman\u2019s eye-popping numbers: Highlights from a new Pa. poll",
+        "url": "https://www.inquirer.com/politics/nation/poll-pennsylvania-shapiro-fetterman-trump-voters-20260225.html",
+        "description": "John Fetterman has strong support with Republicans, but his numbers with his own party are underwater. Josh Shapiro has opened up a big lead in the race for governor.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Pete Buttigieg leads 2028 Democratic presidential poll in New Hampshire | Fox News",
+        "url": "https://www.foxnews.com/politics/buttigieg-newsom-aoc-top-three-new-2028-poll-key-presidential-primary-state",
+        "description": "Pete Buttigieg leads a 2028 Democratic presidential poll in New Hampshire with 20% support, ahead of Gavin Newsom and Alexandria Ocasio-Cortez, who tied at 15%.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Newsom says 'fate' will decide if he faces off against Harris in 2028 presidential primary",
+        "url": "https://www.foxnews.com/media/newsom-says-fate-decide-he-faces-off-against-harris-2028-presidential-primary",
+        "description": "Gov. Gavin Newsom remained vague about potentially facing former Vice President Kamala Harris in a 2028 Democratic primary, saying \"fate will determine that.\"",
+        "age": "1 week ago"
+      }
+    ],
+    "query": "Will John Fetterman win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

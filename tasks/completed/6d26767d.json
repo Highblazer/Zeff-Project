@@ -1,0 +1,85 @@
+{
+  "id": "6d26767d",
+  "title": "Polymarket research: UFC Fight Night: Brandon Moreno vs. Lone'er Kavanagh (Flyweight, Main Card)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "UFC Fight Night: Brandon Moreno vs. Lone'er Kavanagh (Flyweight, Main Card)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:49.007994+00:00",
+  "updated_at": "2026-03-01T07:29:01.571072+00:00",
+  "claimed_at": "2026-03-01T07:28:59.977073+00:00",
+  "completed_at": "2026-03-01T07:29:01.571054+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: UFC Fight Night: Brandon Moreno vs. Lone'er Kavanagh (Flyweight, Main Card)\n\nWeb Results (5):\n- UFC Mexico Results | Main Card Winners, Highlights & Interviews: UFC Fight Night: Moreno vs Kavanagh took place live from Arena CDMX in Mexico City on Saturday, February 28, 2026. Prelims began at 5pm ET/2pm PT, fol\n- UFC Mexico results: Lone'er Kavanagh upsets Brandon Moreno; 'Chito' Vera loses fourth straight - Yahoo Sports: Check out full UFC Mexico results and highlights below, as well as Uncrowned&#x27;s play-by-play of the final three fights of the night. Flyweight: Lo\n- How to Watch UFC Fight Night: Moreno vs. Kavanagh Today: Viewing Options, Start Time by Time Zone, Full Match Card: Kavanagh is live today, <strong>February 28, 2026</strong>, from Arena CDMX in Mexico City. Here\u2019s your viewing guide with start times by time zone an\n- Official Scorecards | UFC Mexico: Official Result: <strong>Lone&#x27;er Kavanagh defeated Brandon Moreno by unanimous decision (48-47, 48-47, 49-46)</strong> | Prelim Results | Main Ca\n- UFC Mexico Results: Moreno vs. Kavanagh | MMA Fighting: Lone\u2019er Kavanagh def. Brandon Moreno via <strong>unanimous decision</strong> (live blog) | Highlights | Recap\n\nNews (5):\n- UFC Mexico results: Lone'er Kavanagh upsets Brandon Moreno; 'Chito' Vera loses fourth straight - Yahoo Sports (2 hours ago)\n- UFC Fight Night predictions: Complete card, odds for Brandon Moreno vs. Lone'er Kavanagh in Mexico City (10 hours ago)\n- How to Watch UFC Fight Night: Moreno vs. Kavanagh Today: Viewing Options, Start Time by Time Zone, Full Match Card (15 hours ago)\n- UFC Mexico Results: Moreno vs. Kavanagh | MMA Fighting (1 day ago)\n- UFC Fight Night odds, main fight card, predictions: Moreno vs. Kavanagh picks from 10,000 simulations - CBS Sports (14 hours ago)",
+    "web_results": [
+      {
+        "title": "UFC Mexico Results | Main Card Winners, Highlights & Interviews",
+        "url": "https://www.ufc.com/news/ufc-mexico-main-card-results-moreno-vs-kavanagh-highlights-winners-interviews",
+        "description": "UFC Fight Night: Moreno vs Kavanagh took place live from Arena CDMX in Mexico City on Saturday, February 28, 2026. Prelims began at 5pm ET/2pm PT, followed by the main card at <strong>8pm ET/5pm PT</strong>. Relive the card on UFC Fight Pass."
+      },
+      {
+        "title": "UFC Mexico results: Lone'er Kavanagh upsets Brandon Moreno; 'Chito' Vera loses fourth straight - Yahoo Sports",
+        "url": "https://sports.yahoo.com/mma/breaking-news/live/ufc-mexico-live-results-brandon-moreno-vs-loneer-kavanagh-updates-round-by-round-scoring-highlights-070019675.html",
+        "description": "Check out full UFC Mexico results and highlights below, as well as Uncrowned&#x27;s play-by-play of the final three fights of the night. Flyweight: Lone&#x27;er Kavanagh def. Brandon Moreno via <strong>unanimous decision (49-46, 48-47, 48-47)</strong>"
+      },
+      {
+        "title": "How to Watch UFC Fight Night: Moreno vs. Kavanagh Today: Viewing Options, Start Time by Time Zone, Full Match Card",
+        "url": "https://www.mensjournal.com/news/ufc-fight-night-moreno-vs-kavanagh-how-to-watch-start-time-live-stream-paramount-plus",
+        "description": "Kavanagh is live today, <strong>February 28, 2026</strong>, from Arena CDMX in Mexico City. Here\u2019s your viewing guide with start times by time zone and streaming options. The event will be headlined by former two-time flyweight champion Brandon Moreno facing ..."
+      },
+      {
+        "title": "Official Scorecards | UFC Mexico",
+        "url": "https://www.ufc.com/news/ufc-mexico-official-scorecards-moreno-vs-kavanagh",
+        "description": "Official Result: <strong>Lone&#x27;er Kavanagh defeated Brandon Moreno by unanimous decision (48-47, 48-47, 49-46)</strong> | Prelim Results | Main Card"
+      },
+      {
+        "title": "UFC Mexico Results: Moreno vs. Kavanagh | MMA Fighting",
+        "url": "https://www.mmafighting.com/ufc/473856/ufc-mexico-results-moreno-vs-kavanagh",
+        "description": "Lone\u2019er Kavanagh def. Brandon Moreno via <strong>unanimous decision</strong> (live blog) | Highlights | Recap"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "UFC Mexico results: Lone'er Kavanagh upsets Brandon Moreno; 'Chito' Vera loses fourth straight - Yahoo Sports",
+        "url": "https://sports.yahoo.com/mma/breaking-news/live/ufc-mexico-live-results-brandon-moreno-vs-loneer-kavanagh-updates-round-by-round-scoring-highlights-070019675.html",
+        "description": "England's Lone'er Kavanagh leaped up the flyweight rankings Saturday by stunning hometown favorite Brandon Moreno at UFC Mexico.",
+        "age": "2 hours ago"
+      },
+      {
+        "title": "UFC Fight Night predictions: Complete card, odds for Brandon Moreno vs. Lone'er Kavanagh in Mexico City",
+        "url": "https://www.cbssports.com/ufc/news/ufc-fight-night-predictions-card-odds-brandon-moreno-vs-loneer-kavanagh/",
+        "description": "The pair of flyweights headline the promotion's return to Mexico on Saturday",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "How to Watch UFC Fight Night: Moreno vs. Kavanagh Today: Viewing Options, Start Time by Time Zone, Full Match Card",
+        "url": "https://www.mensjournal.com/news/ufc-fight-night-moreno-vs-kavanagh-how-to-watch-start-time-live-stream-paramount-plus",
+        "description": "UFC returns to Mexico City for an exciting Fight Night headlined by former two-time flyweight champion Brandon Moreno taking on rising star Lone'er Kavanagh. Check out the full fight card, start times, betting odds, and streaming guide to catch every knockout and submission.",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "UFC Mexico Results: Moreno vs. Kavanagh | MMA Fighting",
+        "url": "https://www.mmafighting.com/ufc/473856/ufc-mexico-results-moreno-vs-kavanagh",
+        "description": "Get UFC Mexico results for the Moreno vs. Kavanagh event Saturday night.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "UFC Fight Night odds, main fight card, predictions: Moreno vs. Kavanagh picks from 10,000 simulations - CBS Sports",
+        "url": "https://www.cbssports.com/ufc/news/ufc-fight-night-odds-lines-props-fight-card-moreno-kavanagh-picks-predictions-bets/",
+        "description": "SportsLine expert Mike McClure reveals his best bets for UFC Fight Night: Moreno vs. Kavanagh on Paramount+",
+        "age": "14 hours ago"
+      }
+    ],
+    "query": "UFC Fight Night: Brandon Moreno vs. Lone'er Kavanagh (Flyweight, Main Card)",
+    "sources_count": 10
+  },
+  "error": null
+}

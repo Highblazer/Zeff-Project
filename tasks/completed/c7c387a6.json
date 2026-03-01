@@ -1,0 +1,85 @@
+{
+  "id": "c7c387a6",
+  "title": "Polymarket research: Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:09.176433+00:00",
+  "updated_at": "2026-02-26T23:34:48.468443+00:00",
+  "claimed_at": "2026-02-26T23:34:47.093116+00:00",
+  "completed_at": "2026-02-26T23:34:48.468425+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?\n\nWeb Results (5):\n- Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?: <strong>If the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25\n- Fed Outlook 2026: Rate Forecasts and Fixed Income Strategies | iShares: Given the expected path of Fed ... with an active fixed income approach. ... At its final meeting of 2025, <strong>the Federal Reserve cut interest ra\n- What\u2019s The Fed\u2019s Next Move? | J.P. Morgan Global Research: Thereafter, <strong>the Fed is projected to hike rates by 25 bp in the third quarter of 2027</strong>, bringing the upper band for the policy rate bac\n- Fed Leaves Rates Unchanged to Start 2026: Is a Cut Coming in March? | J.P. Morgan: The Federal Reserve (Fed) held its benchmark interest rate in a range of 3.5% to 3.75% at the January meeting, pausing its recent rate-cutting trend. \n- Federal Reserve rates | Polymarket: Fed Decision Probabilities \u00b7 Wed Mar 18, 2026 FOMC Meeting \u00b7 97% No change \u00b7 2% 25 bps cut \u00b7 &lt;1% 50+ bps cut \u00b7 <strong>&lt;1% 25+ bps hike</strong>\n\nNews (5):\n- Fed officials split on where interest rates should go, minutes say (1 week ago)\n- What Would Different Fed Scenarios Mean for Emerging Markets? (13 hours ago)\n- FOMC Minutes, January 27-28, 2026 (1 week ago)\n- Fed minutes show officials grappling with policy split, impact of AI on economy | Reuters (1 week ago)\n- Fed\u2019s Interest Rate Decision: January 28, 2026 - dshort - Advisor Perspectives (1 month ago)",
+    "web_results": [
+      {
+        "title": "Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?",
+        "url": "https://polymarket.com/event/fed-decision-in-march-885/will-the-fed-increase-interest-rates-by-25-bps-after-the-march-2026-meeting",
+        "description": "<strong>If the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket</strong>. (e.g. if there&#x27;s a cut/increase of 12.5 bps it will be considered to be 25 bps) The resolution source for ..."
+      },
+      {
+        "title": "Fed Outlook 2026: Rate Forecasts and Fixed Income Strategies | iShares",
+        "url": "https://www.ishares.com/us/insights/fed-outlook-2026-interest-rate-forecast",
+        "description": "Given the expected path of Fed ... with an active fixed income approach. ... At its final meeting of 2025, <strong>the Federal Reserve cut interest rates by 25 basis points to a range of 3.50% to 3.75</strong>%; the Fed has now cut rates by 175 basis points since September 2024..."
+      },
+      {
+        "title": "What\u2019s The Fed\u2019s Next Move? | J.P. Morgan Global Research",
+        "url": "https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts",
+        "description": "Thereafter, <strong>the Fed is projected to hike rates by 25 bp in the third quarter of 2027</strong>, bringing the upper band for the policy rate back up to 4%."
+      },
+      {
+        "title": "Fed Leaves Rates Unchanged to Start 2026: Is a Cut Coming in March? | J.P. Morgan",
+        "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/fed-meeting-january-2026",
+        "description": "The Federal Reserve (Fed) held its benchmark interest rate in a range of 3.5% to 3.75% at the January meeting, pausing its recent rate-cutting trend. The market sees low odds of the Fed choosing to cut at its March meeting, but <strong>our strategists still expect one rate cut in 2026</strong>."
+      },
+      {
+        "title": "Federal Reserve rates | Polymarket",
+        "url": "https://polymarket.com/dashboards/fed-rates",
+        "description": "Fed Decision Probabilities \u00b7 Wed Mar 18, 2026 FOMC Meeting \u00b7 97% No change \u00b7 2% 25 bps cut \u00b7 &lt;1% 50+ bps cut \u00b7 <strong>&lt;1% 25+ bps hike</strong> \u00b7"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Fed officials split on where interest rates should go, minutes say",
+        "url": "https://www.cnbc.com/2026/02/18/fed-minutes-january-2026.html",
+        "description": "The Federal Reserve on Wednesday released minutes from its Jan. 27-28 meeting.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "What Would Different Fed Scenarios Mean for Emerging Markets?",
+        "url": "https://internationalbanker.com/banking/what-would-different-fed-scenarios-mean-for-emerging-markets",
+        "description": "Financial conditions favored emerging markets in 2025. Will this trend persist in 2026? A key determining factor will be the Federal Reserve\u2019s monetary policy, particularly its effect on the US dollar and long-term US interest rates. This article explores two Fed policy paths: a dovish approach ...",
+        "age": "13 hours ago"
+      },
+      {
+        "title": "FOMC Minutes, January 27-28, 2026",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260128.htm",
+        "description": "The Federal Reserve Board of Governors in Washington DC.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Fed minutes show officials grappling with policy split, impact of AI on economy | Reuters",
+        "url": "https://www.reuters.com/business/fed-minutes-could-highlight-shift-balance-risks-policymakers-put-rates-hold-2026-02-18/",
+        "description": "Fed policymakers were in near-unanimous agreement to keep interest rates on hold at their meeting last month, but remained split over their next steps. The full table grappled with the emerging implications of AI for the economy.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Fed\u2019s Interest Rate Decision: January 28, 2026 - dshort - Advisor Perspectives",
+        "url": "https://www.advisorperspectives.com/dshort/updates/2026/01/29/feds-interest-rate-decision-january-28-2026",
+        "description": "The Federal Reserve concluded its first meeting of 2026 by holding the federal funds rate (FFR) steady in the 3.50%-3.75% range.",
+        "age": "1 month ago"
+      }
+    ],
+    "query": "Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?",
+    "sources_count": 10
+  },
+  "error": null
+}

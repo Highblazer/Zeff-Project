@@ -1,0 +1,28 @@
+{
+  "id": "45d11016",
+  "title": "breaking forex market news February 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "breaking forex market news February 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-27T06:23:35.197537+00:00",
+  "updated_at": "2026-02-27T06:23:36.256349+00:00",
+  "claimed_at": "2026-02-27T06:23:35.204411+00:00",
+  "completed_at": "2026-02-27T06:23:36.256329+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: breaking forex market news February 2026\n\nFindings (0):\n",
+    "findings": [],
+    "query": "breaking forex market news February 2026",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

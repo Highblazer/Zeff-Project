@@ -1,0 +1,85 @@
+{
+  "id": "bdd9cc11",
+  "title": "Polymarket research: Will Bitcoin reach $75,000 in February?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $75,000 in February?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:54:52.032081+00:00",
+  "updated_at": "2026-03-01T07:55:08.025198+00:00",
+  "claimed_at": "2026-03-01T07:55:06.630394+00:00",
+  "completed_at": "2026-03-01T07:55:08.025179+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $75,000 in February?\n\nWeb Results (5):\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?: Bitcoin Price Prediction 2026: Based on the current daily structure, the bitcoin price prediction for February 20, 2026 suggests <strong>BTC is likely\n- Is Bitcoin Likely to Target $75,000? Analysts Believe It Might - U.Today: \ud83d\udea8 Options Expiry Alert \ud83d\udea8 ... (@DeribitOfficial) February 26, 2026 \u00b7 Curiously, <strong>the maximum pain point (the level where all bets are off) is $7\n- What price will Bitcoin hit in February? Prediction Market Prices - Yahoo Finance: Live pricing, charts, and volume for the What price will Bitcoin hit in February? prediction market from Yahoo Finance.\n- What Level Could Bitcoin (BTC) Price Reach in February? Here Are the Latest Predictions - Bitcoin Sistemi: <strong>Popular prediction marketplace Polymarket is pricing in a possibility of Bitcoin (BTC) reaching $75,000 in February</strong>.\n- What price will Bitcoin hit in February? Betting Odds & Predictions | Polymarket: \u2191 80,000 \u00b7 $306,286 Vol. 38% Buy Yes 39\u00a2Buy No 63\u00a2 \u00b7 <strong>\u2191 75,000 \u00b7 $256,782 Vol.</strong> 70% Buy Yes 71\u00a2Buy No 31\u00a2 \u00b7 \u2193 60,000 \u00b7 $341,015 Vol. 29\n\nNews (5):\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026? (2 days ago)\n- Bitcoin Is Headed to $500,000. This Wall Street Analyst Explains Why. | The Motley Fool (5 hours ago)\n- Is Bitcoin Likely to Target $75,000? Analysts Believe It Might (3 days ago)\n- Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go? (2 days ago)\n- BTC Price Prediction: Targets $75,000 by April 2026 Despite Current Consolidation (38 minutes ago)",
+    "web_results": [
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Bitcoin Price Prediction 2026: Based on the current daily structure, the bitcoin price prediction for February 20, 2026 suggests <strong>BTC is likely to consolidate between $65,000 support and $73,300 resistance unless a decisive breakout occurs</strong>."
+      },
+      {
+        "title": "Is Bitcoin Likely to Target $75,000? Analysts Believe It Might - U.Today",
+        "url": "https://u.today/is-bitcoin-likely-to-target-75000-analysts-believe-it-might",
+        "description": "\ud83d\udea8 Options Expiry Alert \ud83d\udea8 ... (@DeribitOfficial) February 26, 2026 \u00b7 Curiously, <strong>the maximum pain point (the level where all bets are off) is $75,000 for Bitcoin</strong>, the level forecast by analysts above...."
+      },
+      {
+        "title": "What price will Bitcoin hit in February? Prediction Market Prices - Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/prediction/event/what-price-will-bitcoin-hit-in-february-2026/",
+        "description": "Live pricing, charts, and volume for the What price will Bitcoin hit in February? prediction market from Yahoo Finance."
+      },
+      {
+        "title": "What Level Could Bitcoin (BTC) Price Reach in February? Here Are the Latest Predictions - Bitcoin Sistemi",
+        "url": "https://en.bitcoinsistemi.com/what-level-could-bitcoin-btc-price-reach-in-february-here-are-the-latest-predictions/",
+        "description": "<strong>Popular prediction marketplace Polymarket is pricing in a possibility of Bitcoin (BTC) reaching $75,000 in February</strong>."
+      },
+      {
+        "title": "What price will Bitcoin hit in February? Betting Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026/will-bitcoin-reach-75000-in-february-858-936",
+        "description": "\u2191 80,000 \u00b7 $306,286 Vol. 38% Buy Yes 39\u00a2Buy No 63\u00a2 \u00b7 <strong>\u2191 75,000 \u00b7 $256,782 Vol.</strong> 70% Buy Yes 71\u00a2Buy No 31\u00a2 \u00b7 \u2193 60,000 \u00b7 $341,015 Vol. 29% Buy Yes 30\u00a2Buy No 72\u00a2 \u00b7 \u2193 55,000 \u00b7 $2,063,535 Vol."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Explore the latest Bitcoin price forecast for Feb 2026 as BTC attempts to reclaim the $68,300 area amid a cooldown phase Can it hold $67K? Read our analysis.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin Is Headed to $500,000. This Wall Street Analyst Explains Why. | The Motley Fool",
+        "url": "https://fool.com/investing/2026/02/28/bitcoin-is-headed-to-500000-this-wall-street-analy",
+        "description": "Bitcoin investors may soon forget the recent correction.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Is Bitcoin Likely to Target $75,000? Analysts Believe It Might",
+        "url": "https://bitcoinethereumnews.com/bitcoin/is-bitcoin-likely-to-target-75000-analysts-believe-it-might/",
+        "description": "Bitcoin is likely to head for $75,000, analysts predict$8.8 billion BTC and ETH options to expire on DeribitAfter the nearly 7% surge staged by Bitcoin",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go?",
+        "url": "https://coinpedia.org/price-prediction/bitcoin-price-prediction/",
+        "description": "Bitcoin price prediction 2023 - 2025 based on deals analysis and statistic. In depth view into BTC Price, analyst predictions until 2030.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "BTC Price Prediction: Targets $75,000 by April 2026 Despite Current Consolidation",
+        "url": "https://bitcoinethereumnews.com/bitcoin/btc-price-prediction-targets-75000-by-april-2026-despite-current-consolidation/",
+        "description": "Caroline Bishop Mar 01, 2026 07:05 Bitcoin shows mixed signals at $66,827 with neutral RSI at 41.25. Technical analysis",
+        "age": "38 minutes ago"
+      }
+    ],
+    "query": "Will Bitcoin reach $75,000 in February?",
+    "sources_count": 10
+  },
+  "error": null
+}

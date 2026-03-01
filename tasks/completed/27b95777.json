@@ -1,0 +1,85 @@
+{
+  "id": "27b95777",
+  "title": "Polymarket research: Will Trump declare war on Iran by February 28, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump declare war on Iran by February 28, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:49.176368+00:00",
+  "updated_at": "2026-03-01T07:29:05.839054+00:00",
+  "claimed_at": "2026-03-01T07:29:03.993367+00:00",
+  "completed_at": "2026-03-01T07:29:05.839035+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump declare war on Iran by February 28, 2026?\n\nWeb Results (5):\n- Trump says Khamenei dead, state news media confirms: Trump additionally spoke with NATO Secretary General Mark Rutte. ... Smoke rises over a hotel damaged in Dubai&#x27;s famed Palm Jumeirah, in Dubai, U\n- Rep. Doggett Statement on Trump\u2019s Declaration of War on Iran | Congressman Lloyd Doggett: February 28, 2026 \u00b7 Press Release ... of War on Iran. \u201c<strong>Trump has declared war on Iran without exhausting nonviolent alternatives, without a lo\n- 2026 Iran\u2013United States crisis - Wikipedia: In the final week of January, President Donald Trump used Truth Social to issue a series of public warnings directed at Iran, marking one of the most \n- Trump strikes Iran again. Here's why presidents skip Congress to use military force: <strong>Only Congress can declare war</strong>, but presidents have repeatedly ordered military force without authorization.\n- Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times: <strong>28, 2026, 11:00 p.m. ET</strong> ... Reporting from Palm Beach, Fla. ... From the moment he announced a massive military attack against Iran b\n\nNews (5):\n- Opinion | Trump\u2019s Attack on Iran Is Reckless - The New York Times (1 day ago)\n- Iran strikes were launched without approval from Congress, deeply dividing lawmakers (19 hours ago)\n- Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing (1 day ago)\n- Congress rushes to get in the loop as critics denounce Iran strikes - POLITICO (1 day ago)\n- US lawmakers condemn Trump over Iran strikes: \u2018acts of war unauthorized by Congress\u2019 | Iran | The Guardian (15 hours ago)",
+    "web_results": [
+      {
+        "title": "Trump says Khamenei dead, state news media confirms",
+        "url": "https://www.cnbc.com/2026/02/28/trump-iran-strikes-live-updates.html",
+        "description": "Trump additionally spoke with NATO Secretary General Mark Rutte. ... Smoke rises over a hotel damaged in Dubai&#x27;s famed Palm Jumeirah, in Dubai, United Arab Emirates, <strong>February 28, 2026</strong> in this screen capture from video."
+      },
+      {
+        "title": "Rep. Doggett Statement on Trump\u2019s Declaration of War on Iran | Congressman Lloyd Doggett",
+        "url": "https://doggett.house.gov/media/press-releases/rep-doggett-statement-trumps-declaration-war-iran",
+        "description": "February 28, 2026 \u00b7 Press Release ... of War on Iran. \u201c<strong>Trump has declared war on Iran without exhausting nonviolent alternatives, without a long-term plan, and without any legal authorization</strong>,\u201d said Rep...."
+      },
+      {
+        "title": "2026 Iran\u2013United States crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_crisis",
+        "description": "In the final week of January, President Donald Trump used Truth Social to issue a series of public warnings directed at Iran, marking one of the most visible escalations in U.S. messaging during the crisis. <strong>On 28 January 2026, Trump declared that &quot;a massive Armada is heading to Iran&quot;,</strong> describing ..."
+      },
+      {
+        "title": "Trump strikes Iran again. Here's why presidents skip Congress to use military force",
+        "url": "https://www.axios.com/2026/02/28/trump-strikes-iran-congress-war-powers",
+        "description": "<strong>Only Congress can declare war</strong>, but presidents have repeatedly ordered military force without authorization."
+      },
+      {
+        "title": "Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times",
+        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+        "description": "<strong>28, 2026, 11:00 p.m. ET</strong> ... Reporting from Palm Beach, Fla. ... From the moment he announced a massive military attack against Iran by posting an edited social media video at 2:30 a.m. Saturday, President Trump made clear that he would be taking ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Opinion | Trump\u2019s Attack on Iran Is Reckless - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/28/opinion/iran-attack-trump-war.html",
+        "description": "Donald Trump promised voters that he would end wars, not start them.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Iran strikes were launched without approval from Congress, deeply dividing lawmakers",
+        "url": "https://www.npr.org/2026/02/28/nx-s1-5730203/iran-israel-trump-congress-strikes-reaction",
+        "description": "Top lawmakers were notified about the operation shortly before it was launched, but the White House did not seek authorization from Congress to carry out the strikes.",
+        "age": "19 hours ago"
+      },
+      {
+        "title": "Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing",
+        "url": "https://www.cbsnews.com/live-updates/israel-us-attack-iran-trump-says-major-combat-operations/",
+        "description": "President Trump said that \"heavy and pinpoint bombing\" of Iran would \"continue, uninterrupted throughout the week or, as long as necessary.\"",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Congress rushes to get in the loop as critics denounce Iran strikes - POLITICO",
+        "url": "https://www.politico.com/news/2026/02/28/iran-strikes-congress-lawmakers-trump-00805615",
+        "description": "Efforts are underway to set up member briefings next week, but Democrats want the Trump administration to go further.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "US lawmakers condemn Trump over Iran strikes: \u2018acts of war unauthorized by Congress\u2019 | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/28/iran-attack-us-political-reaction",
+        "description": "Members of Congress swiftly denounced the president\u2019s military action against the Islamic Republic alongside Israel",
+        "age": "15 hours ago"
+      }
+    ],
+    "query": "Will Trump declare war on Iran by February 28, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

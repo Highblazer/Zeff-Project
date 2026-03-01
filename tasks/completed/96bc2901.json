@@ -1,0 +1,28 @@
+{
+  "id": "96bc2901",
+  "title": "economic calendar high impact events this week",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "economic calendar high impact events this week",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-28T08:56:21.158328+00:00",
+  "updated_at": "2026-02-28T08:56:22.832752+00:00",
+  "claimed_at": "2026-02-28T08:56:21.165635+00:00",
+  "completed_at": "2026-02-28T08:56:22.832734+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: economic calendar high impact events this week\n\nFindings (0):\n",
+    "findings": [],
+    "query": "economic calendar high impact events this week",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

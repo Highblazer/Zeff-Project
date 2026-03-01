@@ -1,0 +1,28 @@
+{
+  "id": "65f827c4",
+  "title": "Polymarket research: Trail Blazers vs. Bulls",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Trail Blazers vs. Bulls",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T02:41:56.898537+00:00",
+  "updated_at": "2026-02-27T02:42:03.880490+00:00",
+  "claimed_at": "2026-02-27T02:42:02.253906+00:00",
+  "completed_at": "2026-02-27T02:42:03.880473+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Trail Blazers vs. Bulls\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Trail Blazers vs. Bulls",
+    "sources_count": 0
+  },
+  "error": null
+}

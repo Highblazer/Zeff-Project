@@ -1,0 +1,28 @@
+{
+  "id": "1df15b4f",
+  "title": "Polymarket research: Will Bitcoin reach $75,000 in February?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $75,000 in February?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T02:29:41.389730+00:00",
+  "updated_at": "2026-02-27T02:29:46.775905+00:00",
+  "claimed_at": "2026-02-27T02:29:45.208543+00:00",
+  "completed_at": "2026-02-27T02:29:46.775889+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $75,000 in February?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Bitcoin reach $75,000 in February?",
+    "sources_count": 0
+  },
+  "error": null
+}

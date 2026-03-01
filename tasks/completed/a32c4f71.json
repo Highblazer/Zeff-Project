@@ -1,0 +1,85 @@
+{
+  "id": "a32c4f71",
+  "title": "Polymarket research: Will the US officially declare war on Iran by March 31, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the US officially declare war on Iran by March 31, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:47.309354+00:00",
+  "updated_at": "2026-03-01T07:27:58.205941+00:00",
+  "claimed_at": "2026-03-01T07:27:56.084432+00:00",
+  "completed_at": "2026-03-01T07:27:58.205924+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the US officially declare war on Iran by March 31, 2026?\n\nWeb Results (5):\n- 2026 Iran\u2013United States crisis - Wikipedia: A day later, on 14 February, US officials told Reuters that the US military was preparing for weeks-long sustained operations against Iran. On 24 Febr\n- US lawmakers condemn Trump over Iran strikes: \u2018acts of war unauthorized by Congress\u2019 | Iran | The Guardian: Donald Trump speaks to announce that the US had begun \u2018major combat operations\u2019 in Iran, in an unknown location, in this screengrab from a video relea\n- Is US Officially At War With Iran? Not Yet, And Here's Why | US News - Times Now: <strong>The United States has not formally declared war on Iran</strong>.\n- Has US officially declared war on Iran? Trump talks about 'eliminating imminent threats' | Hindustan Times: <strong>The United States has not formally declared war on Iran</strong>.\n- Trump strikes Iran again. Here's why presidents skip Congress to use military force: <strong>The U.S. hasn&#x27;t officially declared war since World War II</strong>.\n\nNews (5):\n- Iran strikes were launched without approval from Congress, deeply dividing lawmakers (19 hours ago)\n- Are the US and Israel at war with Iran if Congress hasn't declared it? (15 hours ago)\n- Members of Congress demand swift vote on war powers resolution after Trump orders Iran strike without congressional approval | PBS News (11 hours ago)\n- Congress rushes to get in the loop as critics denounce Iran strikes - POLITICO (1 day ago)\n- Beyer Statement On Iran | U.S. Representative Don Beyer (1 day ago)",
+    "web_results": [
+      {
+        "title": "2026 Iran\u2013United States crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_crisis",
+        "description": "A day later, on 14 February, US officials told Reuters that the US military was preparing for weeks-long sustained operations against Iran. On 24 February 2026, during a State of the Union speech, Trump accused Iran, which he called &quot;the world&#x27;s number one sponsor of terror\u201d, of reviving ..."
+      },
+      {
+        "title": "US lawmakers condemn Trump over Iran strikes: \u2018acts of war unauthorized by Congress\u2019 | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/28/iran-attack-us-political-reaction",
+        "description": "Donald Trump speaks to announce that the US had begun \u2018major combat operations\u2019 in Iran, in an unknown location, in this screengrab from a video released 28 February 2026."
+      },
+      {
+        "title": "Is US Officially At War With Iran? Not Yet, And Here's Why | US News - Times Now",
+        "url": "https://www.timesnownews.com/world/us/us-news/is-us-officially-at-war-with-iran-not-yet-and-heres-why-trump-congress-declare-israel-news-article-153719329",
+        "description": "<strong>The United States has not formally declared war on Iran</strong>."
+      },
+      {
+        "title": "Has US officially declared war on Iran? Trump talks about 'eliminating imminent threats' | Hindustan Times",
+        "url": "https://www.hindustantimes.com/world-news/us-news/has-us-officially-declared-war-on-iran-trump-talks-about-eliminating-imminent-threats-101772273971952.html",
+        "description": "<strong>The United States has not formally declared war on Iran</strong>."
+      },
+      {
+        "title": "Trump strikes Iran again. Here's why presidents skip Congress to use military force",
+        "url": "https://www.axios.com/2026/02/28/trump-strikes-iran-congress-war-powers",
+        "description": "<strong>The U.S. hasn&#x27;t officially declared war since World War II</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Iran strikes were launched without approval from Congress, deeply dividing lawmakers",
+        "url": "https://www.npr.org/2026/02/28/nx-s1-5730203/iran-israel-trump-congress-strikes-reaction",
+        "description": "Top lawmakers were notified about the operation shortly before it was launched, but the White House did not seek authorization from Congress to carry out the strikes.",
+        "age": "19 hours ago"
+      },
+      {
+        "title": "Are the US and Israel at war with Iran if Congress hasn't declared it?",
+        "url": "https://www.usatoday.com/story/news/world/2026/02/28/is-us-at-war-with-iran/88916940007/",
+        "description": "The U.S. Constitution gives Congress the sole power to declare war, but since 1973, every president has used the War Powers Act.",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "Members of Congress demand swift vote on war powers resolution after Trump orders Iran strike without congressional approval | PBS News",
+        "url": "https://www.pbs.org/newshour/nation/members-of-congress-demand-swift-vote-on-war-powers-resolution-after-trump-orders-iran-strike-without-congressional-approval",
+        "description": "Both the House and Senate, where the president's Republican Party has a slim majority, had already drafted such resolutions long before the strikes Saturday.",
+        "age": "11 hours ago"
+      },
+      {
+        "title": "Congress rushes to get in the loop as critics denounce Iran strikes - POLITICO",
+        "url": "https://www.politico.com/news/2026/02/28/iran-strikes-congress-lawmakers-trump-00805615",
+        "description": "Efforts are underway to set up member briefings next week, but Democrats want the Trump administration to go further.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Beyer Statement On Iran | U.S. Representative Don Beyer",
+        "url": "https://beyer.house.gov/news/documentsingle.aspx?DocumentID=8996",
+        "description": "February 28, 2026 (Washington, D.C.) \u2013 Congressman Don Beyer (D-VA) today issued the following statement after President Trump ordered military strikes against the Islamic Republic of Iran: \u00b7 \u201cThe American people rightly do not want a war with Iran. President Trump\u2019s war is not smart, ...",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will the US officially declare war on Iran by March 31, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

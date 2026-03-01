@@ -1,0 +1,85 @@
+{
+  "id": "e3fc813d",
+  "title": "Polymarket research: Will the US next strike Iran on February 26, 2026 (ET)?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the US next strike Iran on February 26, 2026 (ET)?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:55:50.492238+00:00",
+  "updated_at": "2026-02-26T23:56:07.309132+00:00",
+  "claimed_at": "2026-02-26T23:56:05.840632+00:00",
+  "completed_at": "2026-02-26T23:56:07.309115+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the US next strike Iran on February 26, 2026 (ET)?\n\nWeb Results (5):\n- 2026 Iran\u2013United States crisis - Wikipedia: <strong>Trump has sent warships, tankers and submarines to the Middle East to be ready for potential strikes as soon as 21 February</strong>, sources \n- US next strikes Iran on...? Trading Odds & Predictions | Polymarket: Propose resolutionThis market will resolve according to the next date (ET) <strong>the US initiates a drone, missile, or air strike on Iranian soil or\n- 2025\u20132026 Iran\u2013United States negotiations - Wikipedia: A third round of talking was scheduled for 26 February on nuclear issues in Switzerland. In the midst of this round of negotiations, it was reported t\n- Ten predictions for the potential US strikes on Iran - Atlantic Council: <strong>There are more likely and less likely possibilities for what will happen if US President Donald Trump decides to launch an attack on Iran</str\n- The U.S. and Iran Can Still Avoid a War | International Crisis Group: Just as the White House risks painting itself into a corner with its expensive, high-profile build-up and burgeoning demands, it is pushing Tehran int\n\nNews (5):\n- Iran Update, February 23, 2026 | ISW (3 days ago)\n- US-Iran talks end with no deal but potential signs of progress | Reuters (1 day ago)\n- A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News (2 days ago)\n- Is the U.S. headed toward a military conflict with Iran? : NPR (7 hours ago)\n- Iran, US set to hold talks as Trump threatens force, imposes sanctions | News | Al Jazeera (1 day ago)",
+    "web_results": [
+      {
+        "title": "2026 Iran\u2013United States crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_crisis",
+        "description": "<strong>Trump has sent warships, tankers and submarines to the Middle East to be ready for potential strikes as soon as 21 February</strong>, sources told CBS. In the final week of January, President Donald Trump used Truth Social to issue a series of public warnings directed at Iran, marking one of the most ..."
+      },
+      {
+        "title": "US next strikes Iran on...? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/us-next-strikes-iran-on-843",
+        "description": "Propose resolutionThis market will resolve according to the next date (ET) <strong>the US initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate between market creation and February 28, 2026</strong>, (ET)."
+      },
+      {
+        "title": "2025\u20132026 Iran\u2013United States negotiations - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations",
+        "description": "A third round of talking was scheduled for 26 February on nuclear issues in Switzerland. In the midst of this round of negotiations, it was reported that the sides were far from reaching a deal. Anticipating attacks on its oil terminals ahead of third round Iranian regime rushed loading unto its tanker fleet 20 billion oil barrel in 6 day time."
+      },
+      {
+        "title": "Ten predictions for the potential US strikes on Iran - Atlantic Council",
+        "url": "https://www.atlanticcouncil.org/dispatches/ten-predictions-for-the-potential-us-strikes-on-iran/",
+        "description": "<strong>There are more likely and less likely possibilities for what will happen if US President Donald Trump decides to launch an attack on Iran</strong>."
+      },
+      {
+        "title": "The U.S. and Iran Can Still Avoid a War | International Crisis Group",
+        "url": "https://www.crisisgroup.org/stm/middle-east-north-africa/iran/us-and-iran-can-still-avoid-war",
+        "description": "Just as the White House risks painting itself into a corner with its expensive, high-profile build-up and burgeoning demands, it is pushing Tehran into a corner where Iranian officials may see little to lose in answering any U.S. attack with a painful blow that would dim the U.S. aura of invincibility and cost Trump politically. Momentum appears to favour confrontation. Still, the diplomatic path is not yet entirely blocked, with a third and potentially decisive round of talks slated for 26 February."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Iran Update, February 23, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-23-2026/",
+        "description": "A senior US official told Axios on Feb. 22 that the US and Iran may discuss an interim deal during negotiations in Geneva on February 26.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "US-Iran talks end with no deal but potential signs of progress | Reuters",
+        "url": "https://www.reuters.com/world/middle-east/us-iran-nuclear-talks-resume-geneva-against-backdrop-military-threat-2026-02-26/",
+        "description": "The United States and Iran made progress in talks over Tehran's nuclear program on Thursday, mediator Oman said, but hours of negotiation ended with no sign of a breakthrough that could avert potential U.S. strikes amid a massive military buildup.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News",
+        "url": "https://www.pbs.org/newshour/world/a-timeline-of-tensions-over-irans-nuclear-program-as-talks-with-u-s-approach",
+        "description": "Iran and the United States are due to hold new talks in Geneva on Thursday over Tehran's nuclear program.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Is the U.S. headed toward a military conflict with Iran? : NPR",
+        "url": "https://npr.org/2026/02/26/nx-s1-5727515/is-the-u-s-headed-toward-a-military-conflict-with-iran",
+        "description": "New York Times journalist David Sanger discusses how we got here, the state of Iran's nuclear weapons program, the likelihood of U.S. military force against Iran and if Trump's goal is regime change.",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "Iran, US set to hold talks as Trump threatens force, imposes sanctions | News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/26/iran-us-set-to-hold-talks-as-trump-threatens-force-imposes-sanctions",
+        "description": "Iran's top diplomat arrives in Geneva as US announces new sanctions on vessels linked to Tehran's oil trade.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will the US next strike Iran on February 26, 2026 (ET)?",
+    "sources_count": 10
+  },
+  "error": null
+}

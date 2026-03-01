@@ -1,0 +1,139 @@
+{
+  "id": "ff0d483a",
+  "title": "machine learning infrastructure trends 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "machine learning infrastructure trends 2026",
+    "category": "landscape"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-01T05:53:50.900339+00:00",
+  "updated_at": "2026-03-01T05:53:52.693333+00:00",
+  "claimed_at": "2026-03-01T05:53:50.906223+00:00",
+  "completed_at": "2026-03-01T05:53:52.693318+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: machine learning infrastructure trends 2026\n\nFindings (10):\n- [revenue_opportunity] Refonte Learning : Machine Learning in 2026: Trends, Skills, and Career Opportunities (action=0.5, impact=0.41)\n  \u2192 LOG for awareness\n- [market_mover] 10 AI and machine learning trends to watch in 2026 | TechTarget (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [revenue_opportunity] How AI can build organizational agility in 2026 (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n- [tech_upgrade] Artificial Intelligence News -- ScienceDaily (action=0.45, impact=0.2)\n  \u2192 LOG for awareness\n- [tech_upgrade] 10 Machine Learning Trends to Watch Out for in 2026 and Beyond (action=0.4, impact=0.2)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Refonte Learning : Machine Learning in 2026: Trends, Skills, and Career Opportunities",
+        "url": "https://www.refontelearning.com/blog/machine-learning-in-2026-trends-skills-and-career-opportunities",
+        "description": "Here are the most significant ML trends shaping 2026: <strong>Generative AI Goes Mainstream</strong>: Generative AI algorithms that can create text, images, and more has moved from a novelty to center stage. The public launch of large language models like GPT-4 showed the world AI\u2019s creative capabil",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.41,
+        "combined_score": 0.46,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "10 AI and machine learning trends to watch in 2026 | TechTarget",
+        "url": "https://www.techtarget.com/searchenterpriseai/tip/9-top-AI-and-machine-learning-trends",
+        "description": "Expect a <strong>renewed emphasis on data center power and cooling energy efficiency</strong> in 2026 and beyond, especially for AI-optimized data centers. This renewed attention to green computing must address issues of energy-efficient hardware, energy ...",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "How AI can build organizational agility in 2026",
+        "url": "https://www.informationweek.com/machine-learning-ai/how-ai-can-build-organizational-agility-in-2026",
+        "description": "Enterprise leaders are using AI to build smarter forecasting, optimize supply chains, enhance cybersecurity and target capital and talent investments.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Artificial Intelligence News -- ScienceDaily",
+        "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+        "description": "Artificial Intelligence News. Everything on AI including futuristic robots with artificial intelligence, computer models of human intelligence and more.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.45,
+        "impact_score": 0.2,
+        "combined_score": 0.32,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "10 Machine Learning Trends to Watch Out for in 2026 and Beyond",
+        "url": "https://softteco.com/blog/machine-learning-trends",
+        "description": "Learn about the biggest machine learning trends to expect in 2026, like <strong>Agentic AI</strong>, MLOps, LLMOps, AgentOps, explainable AI, and others.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Machine Learning Trends 2026: What C-Suite Leaders Must Prioritize Now",
+        "url": "https://appinventiv.com/blog/machine-learning-trends/",
+        "description": "The priority for 2026 is clear. <strong>Identify time-critical processes, classify where edge is essential, and pilot focused deployments</strong>. This is where the latest trends in machine learning translate into operational resilience, not experimentation.",
+        "category": "landscape",
+        "actionability_score": 0.35,
+        "impact_score": 0.26,
+        "combined_score": 0.3,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top Cybersecurity Trends for 2026 Every Financial Leader Must Know",
+        "url": "https://www.jackhenry.com/fintalk/top-cybersecurity-trends-for-2026-every-financial-leader-must-know",
+        "description": "Stay ahead of 2026 cybersecurity trends with clear insights to strengthen resilience, reduce third party risk, and protect your financial institution.",
+        "category": "landscape",
+        "actionability_score": 0.35,
+        "impact_score": 0.2,
+        "combined_score": 0.28,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "State Of AI & Machine Learning: Trends & Stats (Feb 2026)",
+        "url": "https://bostoninstituteofanalytics.org/blog/state-of-ai-machine-learning-feb-21-feb-27-2026-key-trends-and-growth-statistics/",
+        "description": "Explore the state of AI and machine learning from Feb 21\u201327, 2026. Key trends, growth statistics, breakthroughs, and what\u2019s driving adoption.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.26,
+        "combined_score": 0.28,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "What will be the big themes at MWC 2026?",
+        "url": "https://www.lightreading.com/ai-machine-learning/what-will-be-the-big-themes-at-mwc-2026-",
+        "description": "This is the question we put to a bunch of industry experts and shockingly (rather not), there seems to be one unifying theme across most replies: AI.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Five Trends in AI and Data Science for 2026 | Thomas H. Davenport and Randy Bean | MIT Sloan Management Review",
+        "url": "https://sloanreview.mit.edu/article/five-trends-in-ai-and-data-science-for-2026/",
+        "description": "MIT SMR columnists Thomas H. Davenport and Randy Bean see five AI trends to pay attention to in 2026: deflation of the AI bubble and subsequent hits to the economy; <strong>growth of the \u201cfactory\u201d infrastructure for all-in AI adapters</strong>; greater focus ...",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "machine learning infrastructure trends 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 1,
+    "opportunities": 2
+  },
+  "error": null
+}

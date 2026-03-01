@@ -1,0 +1,85 @@
+{
+  "id": "bd5cba88",
+  "title": "Polymarket research: Will Ph\u1ea1m Minh Ch\u00ednh be the next President of Vietnam?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Ph\u1ea1m Minh Ch\u00ednh be the next President of Vietnam?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:29:33.657918+00:00",
+  "updated_at": "2026-02-27T00:29:41.940186+00:00",
+  "claimed_at": "2026-02-27T00:29:39.758586+00:00",
+  "completed_at": "2026-02-27T00:29:41.940156+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Ph\u1ea1m Minh Ch\u00ednh be the next President of Vietnam?\n\nWeb Results (5):\n- Next President of Vietnam Predictions & Odds | Polymarket: Ph\u1ea1m Minh Ch\u00ednh \u00b7 $230,725 Vol. &lt;1% Buy Yes 0.1\u00a2Buy No 0.0\u00a2 \u00b7 Vietnam\u2019s President is selected through internal decisions of the Communist Party of \n- President of Vietnam - Wikipedia: Four persons served concurrently as head of both the party and state: H\u1ed3 Ch\u00ed Minh (1951\u20131969), Tr\u01b0\u1eddng Chinh (1986), Nguy\u1ec5n Ph\u00fa Tr\u1ecdng (2018\u20132021), and \n- Vietnam\u2019s new leadership slate: <strong>A new state president and party general secretary have been appointed following the death of long-time leader Nguy\u1ec5n Ph\u00fa Tr\u1ecdng in July 2024</s\n- L\u01b0\u01a1ng C\u01b0\u1eddng - Wikipedia: L\u01b0\u01a1ng C\u01b0\u1eddng (Vietnamese pronunciation: [l\u026f\u0264\u014b\u02e7\u02e7 k\u026f\u0264\u014b\u02e8\u02e9]; born 15 August 1957) is a Vietnamese politician and former army general who is <strong>current\n- Vietnam Communist Party elects To Lam chief for 5 more years - Nikkei Asia: HANOI -- Vietnam&#x27;s ruling Communist Party on Friday elected To Lam as its chief in a vote, while <strong>incumbent Prime Minister Pham Minh Chinh\n\nNews (5):\n- The Future of Sino-Vietnamese Relations post-14th National Congress - Brian Wong - CHINA US Focus (1 day ago)\n- Vietnam\u2019s Leader Has New Power, and He\u2019s in a Hurry - The New York Times (3 weeks ago)\n- Candidates for the National Assembly and People's Council of Ho Chi Minh City meet with voters in the oil and gas industry. (2 days ago)\n- PM urges swift post-Tet action to secure growth, stability, social security | Vietnam+ (VietnamPlus) (2 days ago)\n- Ch\u1eb7ng cu\u1ed1i quy\u1ec1n l\u1ef1c c\u1ee7a \u00f4ng Ph\u1ea1m Minh Ch\u00ednh - BBC News Ti\u1ebfng Vi\u1ec7t (1 month ago)",
+    "web_results": [
+      {
+        "title": "Next President of Vietnam Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/next-president-of-vietnam",
+        "description": "Ph\u1ea1m Minh Ch\u00ednh \u00b7 $230,725 Vol. &lt;1% Buy Yes 0.1\u00a2Buy No 0.0\u00a2 \u00b7 Vietnam\u2019s President is selected through internal decisions of the Communist Party of Vietnam and its National Assembly. The Party is holding its 14th National Congress from January 19 to January 25, 2026, after which the National Assembly of Vietnam is expected to elect leadership positions including President."
+      },
+      {
+        "title": "President of Vietnam - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/President_of_Vietnam",
+        "description": "Four persons served concurrently as head of both the party and state: H\u1ed3 Ch\u00ed Minh (1951\u20131969), Tr\u01b0\u1eddng Chinh (1986), Nguy\u1ec5n Ph\u00fa Tr\u1ecdng (2018\u20132021), and <strong>T\u00f4 L\u00e2m (2024).</strong>"
+      },
+      {
+        "title": "Vietnam\u2019s new leadership slate",
+        "url": "https://www.iiss.org/publications/strategic-comments/2024/11/vietnams-new-leadership-slate/",
+        "description": "<strong>A new state president and party general secretary have been appointed following the death of long-time leader Nguy\u1ec5n Ph\u00fa Tr\u1ecdng in July 2024</strong>. The takeover of Vietnamese politics by the security forces has several implications."
+      },
+      {
+        "title": "L\u01b0\u01a1ng C\u01b0\u1eddng - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/L%C6%B0%C6%A1ng_C%C6%B0%E1%BB%9Dng",
+        "description": "L\u01b0\u01a1ng C\u01b0\u1eddng (Vietnamese pronunciation: [l\u026f\u0264\u014b\u02e7\u02e7 k\u026f\u0264\u014b\u02e8\u02e9]; born 15 August 1957) is a Vietnamese politician and former army general who is <strong>currently serving as the 14th president of Vietnam since October 2024</strong>."
+      },
+      {
+        "title": "Vietnam Communist Party elects To Lam chief for 5 more years - Nikkei Asia",
+        "url": "https://asia.nikkei.com/politics/vietnam-communist-party-elects-to-lam-for-5-more-years-as-chief",
+        "description": "HANOI -- Vietnam&#x27;s ruling Communist Party on Friday elected To Lam as its chief in a vote, while <strong>incumbent Prime Minister Pham Minh Chinh and President Luong Cuong are set to be replaced in a few months</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The Future of Sino-Vietnamese Relations post-14th National Congress - Brian Wong - CHINA US Focus",
+        "url": "https://chinausfocus.com/foreign-policy/the-future-of-sino-vietnamese-relations-post-14th-national-congress",
+        "description": "After decades of development and growth, Vietnam seems poised to enter a new chapter of dynamic economic growth, but at a time when the U.S. is teetering on losing global standing, how will Vietnam\u2019s future play out?",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Vietnam\u2019s Leader Has New Power, and He\u2019s in a Hurry - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/09/world/asia/vietnam-to-lam.html",
+        "description": "To Lam is a former security chief who carved his way to prominence and relishes the good life. He has promised to make Communist Vietnam rich and influential.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "Candidates for the National Assembly and People's Council of Ho Chi Minh City meet with voters in the oil and gas industry.",
+        "url": "https://vietnam.vn/en/nguoi-ung-cu-dai-bieu-quoc-hoi-va-hoi-dong-nhan-dan-thanh-pho-ho-chi-minh-tiep-xuc-cu-tri-nganh-dau-khi",
+        "description": "On the morning of February 25th, a meeting was held in Tam Thang ward, Ho Chi Minh City, to connect voters with candidates for the 16th National Assembly and the 11th Ho Chi Minh City People's Council, for the 2026-2031 term.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "PM urges swift post-Tet action to secure growth, stability, social security | Vietnam+ (VietnamPlus)",
+        "url": "https://en.vietnamplus.vn/pm-urges-swift-post-tet-action-to-secure-growth-stability-social-security-post338250.vnp",
+        "description": "Prime Minister Pham Minh Chinh has issued a directive urging ministries, sectors and localities to swiftly resume work after the Lunar New Year (Tet) holiday, focusing on facilitating production and growth, and ensuring stability, security and social welfare amid complex global developments.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Ch\u1eb7ng cu\u1ed1i quy\u1ec1n l\u1ef1c c\u1ee7a \u00f4ng Ph\u1ea1m Minh Ch\u00ednh - BBC News Ti\u1ebfng Vi\u1ec7t",
+        "url": "https://bbc.com/vietnamese/articles/cvgrj56m4nzo",
+        "description": "Sau cu\u1ed9c b\u1ea7u c\u1eed \u0111\u1ea1i bi\u1ec3u Qu\u1ed1c h\u1ed9i kh\u00f3a 16 d\u1ef1 ki\u1ebfn di\u1ec5n ra ng\u00e0y 15/3/2026, Qu\u1ed1c h\u1ed9i s\u1ebd ti\u1ebfn h\u00e0nh ki\u1ec7n to\u00e0n b\u1ed9 m\u00e1y v\u00e0 b\u1ea7u Th\u1ee7 t\u01b0\u1edbng Ch\u00ednh ph\u1ee7 nhi\u1ec7m k\u1ef3 2026\u20132031 theo quy tr\u00ecnh nh\u00e2n s\u1ef1.",
+        "age": "1 month ago"
+      }
+    ],
+    "query": "Will Ph\u1ea1m Minh Ch\u00ednh be the next President of Vietnam?",
+    "sources_count": 10
+  },
+  "error": null
+}

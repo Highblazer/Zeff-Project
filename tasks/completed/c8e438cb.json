@@ -1,0 +1,85 @@
+{
+  "id": "c8e438cb",
+  "title": "Polymarket research: Will the Indiana Pacers win the 2026 NBA Finals?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Indiana Pacers win the 2026 NBA Finals?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:07.738388+00:00",
+  "updated_at": "2026-02-26T23:34:24.134301+00:00",
+  "claimed_at": "2026-02-26T23:34:22.616718+00:00",
+  "completed_at": "2026-02-26T23:34:24.134283+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Indiana Pacers win the 2026 NBA Finals?\n\nWeb Results (5):\n- 9 NBA teams who can win the 2026 Finals, ranked by their championship chances | SB Nation: March Madness might be the next ... Playoffs are becoming increasingly harder to predict. <strong>No one would have anticipated the Indiana Pacers mak\n- Pacers Playoff Picture: Chances, Bracket, Seed for 2026: Following last year\u2019s trip to the NBA Finals, <strong>the Indiana Pacers hope to return to the 2026 NBA playoff picture</strong>.\n- Indiana Pacers - Wikipedia: The team is named after the state ... 1972, and 1973, all in the ABA. They also reached the ABA Finals in 1969 and 1975, and <strong>have also appeare\n- Indiana Pacers 2025-2026 Schedule and Results: All the scores of the games played by the Pacers in the NBA 2025-26 Regular Season and the 2026 Playoffs, with teams, results, winning and losing stre\n- 2025 NBA Finals - Wikipedia: The 2025 NBA Finals was the ... season&#x27;s playoffs. <strong>The best-of-seven series ended with the Western Conference champion Oklahoma City Thun\n\nNews (5):\n- The Bounce: Are the Spurs ready to win it all \u2026 this year? - The Athletic (1 day ago)\n- NBA mock draft 2026: Who will the Indiana Pacers pick in the 2026 NBA Draft? (14 hours ago)\n- Hornets vs Pacers Prediction, Picks & Odds for Tonight\u2019s NBA Game - Yahoo Sports (6 hours ago)\n- 2025-26 NBA championship and MVP odds: Thunder, Nuggets, Spurs faves; Cunningham making MVP charge - ESPN (1 day ago)\n- Indiana Pacers: Projected to Land A.J. Dybantsa in Latest 2026 NBA Mock Draft - Yahoo Sports (1 day ago)",
+    "web_results": [
+      {
+        "title": "9 NBA teams who can win the 2026 Finals, ranked by their championship chances | SB Nation",
+        "url": "https://www.sbnation.com/nba/1103962/nba-championship-contenders-finals-2026-thunder-nuggets",
+        "description": "March Madness might be the next ... Playoffs are becoming increasingly harder to predict. <strong>No one would have anticipated the Indiana Pacers making the NBA Finals as a No.</strong>..."
+      },
+      {
+        "title": "Pacers Playoff Picture: Chances, Bracket, Seed for 2026",
+        "url": "https://sports.betmgm.com/en/blog/nba/pacers-playoff-odds-bracket-seed-bm23/",
+        "description": "Following last year\u2019s trip to the NBA Finals, <strong>the Indiana Pacers hope to return to the 2026 NBA playoff picture</strong>."
+      },
+      {
+        "title": "Indiana Pacers - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Indiana_Pacers",
+        "description": "The team is named after the state ... 1972, and 1973, all in the ABA. They also reached the ABA Finals in 1969 and 1975, and <strong>have also appeared in the NBA Finals in 2000 and 2025</strong>...."
+      },
+      {
+        "title": "Indiana Pacers 2025-2026 Schedule and Results",
+        "url": "https://www.landofbasketball.com/results_by_team/2025_2026_pacers.htm",
+        "description": "All the scores of the games played by the Pacers in the NBA 2025-26 Regular Season and the 2026 Playoffs, with teams, results, winning and losing streaks, partial and final records and evolution of the playoff series."
+      },
+      {
+        "title": "2025 NBA Finals - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025_NBA_Finals",
+        "description": "The 2025 NBA Finals was the ... season&#x27;s playoffs. <strong>The best-of-seven series ended with the Western Conference champion Oklahoma City Thunder defeating the Eastern Conference champion Indiana Pacers</strong> ......"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The Bounce: Are the Spurs ready to win it all \u2026 this year? - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7070410/2026/02/25/spurs-finals-title-wembanyama-the-bounce/",
+        "description": "Zach Harper catches you up on the latest NBA news in our newsletter.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "NBA mock draft 2026: Who will the Indiana Pacers pick in the 2026 NBA Draft?",
+        "url": "https://eu.indystar.com/story/sports/nba/pacers/2026/02/26/nba-mock-draft-has-indiana-pacers-picking-in-the-top-four-in-2026-dybantsa-peterson-wilson-boozer/88868907007",
+        "description": "If the Pacers get a pick in the 1-4 range, they keep it. As part of the terms of a trade, if the pick falls in the 5-9 range, the Clippers get it.",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "Hornets vs Pacers Prediction, Picks & Odds for Tonight\u2019s NBA Game - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/hornets-vs-pacers-prediction-picks-173500273.html",
+        "description": "Get the best Hornets vs. Pacers predictions ahead of Thursday's clash. Free NBA picks for February 26.",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "2025-26 NBA championship and MVP odds: Thunder, Nuggets, Spurs faves; Cunningham making MVP charge - ESPN",
+        "url": "https://espn.com/espn/betting/story/_/id/45539787/2025-nba-finals-odds-mvp-2025-26-championship-betting",
+        "description": "The Thunder, Nuggets and Spurs have the top odds to win the NBA championship, while Cade Cunningham's MVP odds continue to get shorter.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Indiana Pacers: Projected to Land A.J. Dybantsa in Latest 2026 NBA Mock Draft - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/indiana-pacers-projected-land-j-200022539.html",
+        "description": "The Indiana Pacers have a 15-44 record this season in the NBA. Indiana is projected to have one of the top picks in the 2026 NBA Draft. The Pacers a season ago were just one win away from the NBA Championship against the Oklahoma City Thunder.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will the Indiana Pacers win the 2026 NBA Finals?",
+    "sources_count": 10
+  },
+  "error": null
+}

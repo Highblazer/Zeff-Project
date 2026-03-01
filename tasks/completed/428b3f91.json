@@ -1,0 +1,28 @@
+{
+  "id": "428b3f91",
+  "title": "Polymarket research: US strikes Iran by March 7, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "US strikes Iran by March 7, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T07:18:17.992813+00:00",
+  "updated_at": "2026-02-27T07:18:36.443289+00:00",
+  "claimed_at": "2026-02-27T07:18:35.398667+00:00",
+  "completed_at": "2026-02-27T07:18:36.443086+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: US strikes Iran by March 7, 2026?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "US strikes Iran by March 7, 2026?",
+    "sources_count": 0
+  },
+  "error": null
+}

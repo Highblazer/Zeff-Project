@@ -1,0 +1,85 @@
+{
+  "id": "eecfb4fa",
+  "title": "Polymarket research: Iran strike on Qatar by February 28, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Iran strike on Qatar by February 28, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:46.474940+00:00",
+  "updated_at": "2026-03-01T07:27:37.676154+00:00",
+  "claimed_at": "2026-03-01T07:27:35.661293+00:00",
+  "completed_at": "2026-03-01T07:27:37.676139+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Iran strike on Qatar by February 28, 2026?\n\nWeb Results (5):\n- Ayatollah Ali Khamenei is dead, state news media confirms: Trump has spoken with world leaders ... Arabia, Qatar, the United Arab Emirates, U.K., Kuwait and Turkey, White House press secretary Karoline Leavitt\n- 2026 Israeli\u2013United States strikes on Iran - Wikipedia: On the morning of March 1, reports confirmed <strong>Iran fired missiles on Israel, Kuwait and Qatar</strong>. Shortly before midnight in Iran on 28 F\n- Iran Update Special Report: US and Israeli Strikes, February 28, 2026: An Israeli media correspondent ... numerous US bases across the region. <strong>Iran has attacked US bases in Bahrain, Qatar, the United Arab Emirates\n- A visual guide to US-Israeli strikes on Iran \u2013 and Tehran\u2019s response | Iran | The Guardian: <strong>Iran also targeted US military bases in Qatar, Kuwait, UAE and Bahrain</strong>, as well as a strike in Riyadh, Saudi Arabia.\n- Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing: February 28, 2026 ... <strong>The U.S. and Israeli attack on Iran will &quot;continue as long as necessary</strong>,&quot; Israeli Prime Minister Benj\n\nNews (5):\n- Tehran strikes back at Gulf states after U.S.-Israel launch massive attack on Iran (1 day ago)\n- Live Updates: U.S. and Israel attack Iran | PBS News (17 hours ago)\n- Gauging the Impact of Massive U.S.-Israeli Strikes on Iran | Council on Foreign Relations (15 hours ago)\n- Iran vows \u2018no leniency\u2019 as it launches reprisal attacks on Israel and US air bases | Iran | The Guardian (18 hours ago)\n- Multiple Arab states that host US assets targeted in Iran retaliation | Israel-Iran conflict News | Al Jazeera (20 hours ago)",
+    "web_results": [
+      {
+        "title": "Ayatollah Ali Khamenei is dead, state news media confirms",
+        "url": "https://www.cnbc.com/2026/02/28/trump-iran-strikes-live-updates.html",
+        "description": "Trump has spoken with world leaders ... Arabia, Qatar, the United Arab Emirates, U.K., Kuwait and Turkey, White House press secretary Karoline Leavitt said via posts on X following U.S. strikes across Iran Saturday morning. Trump additionally spoke with NATO Secretary General Mark Rutte. ... Smoke rises over a hotel damaged in Dubai&#x27;s famed Palm Jumeirah, in Dubai, United Arab Emirates, February 28, 2026 in this screen ..."
+      },
+      {
+        "title": "2026 Israeli\u2013United States strikes on Iran - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Israeli%E2%80%93United_States_strikes_on_Iran",
+        "description": "On the morning of March 1, reports confirmed <strong>Iran fired missiles on Israel, Kuwait and Qatar</strong>. Shortly before midnight in Iran on 28 February, an unnamed Israeli official said that Khamenei had been killed in the air strikes and his body had been recovered and identified by intelligence sources."
+      },
+      {
+        "title": "Iran Update Special Report: US and Israeli Strikes, February 28, 2026",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-us-and-israeli-strikes-february-28-2026/",
+        "description": "An Israeli media correspondent ... numerous US bases across the region. <strong>Iran has attacked US bases in Bahrain, Qatar, the United Arab Emirates, Kuwait, Jordan, and Saudi Arabia</strong>...."
+      },
+      {
+        "title": "A visual guide to US-Israeli strikes on Iran \u2013 and Tehran\u2019s response | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/28/us-israel-strikes-iran-tehran-response-visual-guide",
+        "description": "<strong>Iran also targeted US military bases in Qatar, Kuwait, UAE and Bahrain</strong>, as well as a strike in Riyadh, Saudi Arabia."
+      },
+      {
+        "title": "Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing",
+        "url": "https://www.cbsnews.com/live-updates/israel-us-attack-iran-trump-says-major-combat-operations/",
+        "description": "February 28, 2026 ... <strong>The U.S. and Israeli attack on Iran will &quot;continue as long as necessary</strong>,&quot; Israeli Prime Minister Benjamin Netanyahu said in a statement issued Saturday. &quot;This war will lead to peace, true peace,&quot; Netanyahu said."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Tehran strikes back at Gulf states after U.S.-Israel launch massive attack on Iran",
+        "url": "https://www.cnbc.com/2026/02/28/trump-us-military-iran-strikes-middle-east-oil.html",
+        "description": "U.S. President Donald Trump said Iran has continued to pursue nuclear weapons despite ongoing negotiations to end its program.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Live Updates: U.S. and Israel attack Iran | PBS News",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran",
+        "description": "The strikes opened a stunning new chapter in U.S. intervention in Iran, marking the second time in eight months that the Trump administration has attacked the country during talks over its nuclear program.",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Gauging the Impact of Massive U.S.-Israeli Strikes on Iran | Council on Foreign Relations",
+        "url": "https://www.cfr.org/articles/gauging-the-impact-of-massive-u-s-israeli-strikes-on-iran",
+        "description": "CFR experts assess the brewing conflict between the United States, Israel, and Iran, following the launch of a joint U.S.-Israeli military operation on February 28.",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "Iran vows \u2018no leniency\u2019 as it launches reprisal attacks on Israel and US air bases | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/28/iran-vows-no-leniency-reprisal-attacks-israel-us-air-bases",
+        "description": "Tehran says strikes on country, which targeted key leaders and have killed at least 80 children, breach UN charter",
+        "age": "18 hours ago"
+      },
+      {
+        "title": "Multiple Arab states that host US assets targeted in Iran retaliation | Israel-Iran conflict News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/28/multiple-gulf-arab-states-that-host-us-assets-targeted-in-iran-retaliation",
+        "description": "Iran confirms targeting US bases across the Middle East.",
+        "age": "20 hours ago"
+      }
+    ],
+    "query": "Iran strike on Qatar by February 28, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

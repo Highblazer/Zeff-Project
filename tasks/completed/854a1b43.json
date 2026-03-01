@@ -1,0 +1,85 @@
+{
+  "id": "854a1b43",
+  "title": "Polymarket research: Will US or Israel strike Iran on March 1, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will US or Israel strike Iran on March 1, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:46.523142+00:00",
+  "updated_at": "2026-03-01T07:27:39.939988+00:00",
+  "claimed_at": "2026-03-01T07:27:37.681675+00:00",
+  "completed_at": "2026-03-01T07:27:39.939973+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will US or Israel strike Iran on March 1, 2026?\n\nWeb Results (5):\n- 2026 Israeli\u2013United States strikes on Iran - Wikipedia: On the morning of March 1, reports confirmed <strong>Iran fired missiles on Israel, Kuwait and Qatar</strong>.\n- Iran Update Special Report: US and Israeli Strikes, February 28, 2026: An Israeli media correspondent reported that Iran had launched around 35 missiles at Israel as of 5:42 AM ET.[23] Iran has reportedly launched Emad an\n- Live: Iran confirms supreme leader Khamenei is dead after US, Israeli attacks | Reuters: Middle Eastcategory \u00b7 March 1, 2026 \u00b7 3:51 AM UTC \u00b7 ago \u00b7 <strong>Israel said on Sunday it launched another wave of attacks on Iran</strong>, as Irani\n- Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times: Published Feb. 28, 2026Updated March 1, 2026, 2:03 a.m. ET ... The Iranian government said on Sunday that U.S.-Israeli attacks on Iran had killed Ayat\n- US/Israel strikes Iran on...? Predictions & Odds | Polymarket: If you buy &quot;Yes&quot; shares at 99\u00a2 ... share. If incorrect, those shares are worth $0. <strong>The &quot;US/Israel strikes Iran on...?&quot; mar\n\nNews (5):\n- New strikes hit Tehran \u2013 as it happened | US-Israel war on Iran | The Guardian (4 hours ago)\n- Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times (1 day ago)\n- What we know about the US-Israeli attack on Iran and Tehran\u2019s retaliation | CNN (1 day ago)\n- Live updates: Iran Supreme Leader Ali Khamenei is dead after U.S., Israel attack (1 day ago)\n- Live Updates: U.S. and Israel attack Iran | PBS News (17 hours ago)",
+    "web_results": [
+      {
+        "title": "2026 Israeli\u2013United States strikes on Iran - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Israeli%E2%80%93United_States_strikes_on_Iran",
+        "description": "On the morning of March 1, reports confirmed <strong>Iran fired missiles on Israel, Kuwait and Qatar</strong>."
+      },
+      {
+        "title": "Iran Update Special Report: US and Israeli Strikes, February 28, 2026",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-us-and-israeli-strikes-february-28-2026/",
+        "description": "An Israeli media correspondent reported that Iran had launched around 35 missiles at Israel as of 5:42 AM ET.[23] Iran has reportedly launched Emad and Ghadr missiles at Israel.[24] Iran has used Emad and Ghadr missiles to attack Israel during previous conflicts, including in June 2025.[25] A ballistic missile expert also reported that Iran may have used Kheybar Shekan or Fatah-1 missiles to attack Israel in the current conflict.[26] An OSINT account based in Bahrain claimed that Iran has launched between two to four missiles per barrage.[27] Iran previously struggled to coordinate large-scale missile barrages during the Israel-Iran war and may again be struggling due to the disruption imposed by US and Israeli strikes."
+      },
+      {
+        "title": "Live: Iran confirms supreme leader Khamenei is dead after US, Israeli attacks | Reuters",
+        "url": "https://www.reuters.com/world/iran-crisis-live-explosions-tehran-israel-announces-strike-2026-02-28/",
+        "description": "Middle Eastcategory \u00b7 March 1, 2026 \u00b7 3:51 AM UTC \u00b7 ago \u00b7 <strong>Israel said on Sunday it launched another wave of attacks on Iran</strong>, as Iranians grappled with uncertainty after the killing of their supreme leader in U.S. and Israeli strikes, while ..."
+      },
+      {
+        "title": "Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times",
+        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+        "description": "Published Feb. 28, 2026Updated March 1, 2026, 2:03 a.m. ET ... The Iranian government said on Sunday that U.S.-Israeli attacks on Iran had killed Ayatollah Ali Khamenei, the nation\u2019s supreme leader.CreditCredit...Reuters"
+      },
+      {
+        "title": "US/Israel strikes Iran on...? Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/usisrael-strikes-iran-on",
+        "description": "If you buy &quot;Yes&quot; shares at 99\u00a2 ... share. If incorrect, those shares are worth $0. <strong>The &quot;US/Israel strikes Iran on...?&quot; market is scheduled to resolve on or around Mar 10, 2026</strong>...."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "New strikes hit Tehran \u2013 as it happened | US-Israel war on Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/live/2026/feb/28/israel-attacks-iran-as-blasts-heard-in-tehran-live-updates",
+        "description": "Sun 1 Mar 2026 04.02 CETFirst published on Sat 28 Feb 2026 07.51 CET ... Iran war becomes an issue in Maine Senate race, as Susan Collins voices support while Graham Platner and Janet Mills condemn strikes",
+        "age": "4 hours ago"
+      },
+      {
+        "title": "Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times",
+        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+        "description": "The death of Ayatollah Ali Khamenei raised questions about leadership succession as attacks on Iran, and its responses, continued.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "What we know about the US-Israeli attack on Iran and Tehran\u2019s retaliation | CNN",
+        "url": "https://www.cnn.com/2026/02/28/middleeast/israel-attack-iran-intl-hnk",
+        "description": "The United States and Israel have launched a major attack on Iran, which President Donald Trump said would lay waste to the country\u2019s military, obliterate its military program, and could even topple its regime.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Live updates: Iran Supreme Leader Ali Khamenei is dead after U.S., Israel attack",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/israel-iran-live-updates-rcna261099",
+        "description": "Follow the latest news and live updates on the U.S. and Israeli strikes in Iran and the death of Supreme Leader Ali Khamenei.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Live Updates: U.S. and Israel attack Iran | PBS News",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran",
+        "description": "The strikes opened a stunning new chapter in U.S. intervention in Iran, marking the second time in eight months that the Trump administration has attacked the country during talks over its nuclear program.",
+        "age": "17 hours ago"
+      }
+    ],
+    "query": "Will US or Israel strike Iran on March 1, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

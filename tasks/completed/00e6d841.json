@@ -1,0 +1,85 @@
+{
+  "id": "00e6d841",
+  "title": "Polymarket research: Will Luka Doncic win the 2025\u20132026 NBA MVP?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Luka Doncic win the 2025\u20132026 NBA MVP?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:26.805627+00:00",
+  "updated_at": "2026-02-26T23:37:59.282473+00:00",
+  "claimed_at": "2026-02-26T23:37:57.888685+00:00",
+  "completed_at": "2026-02-26T23:37:59.282458+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Luka Doncic win the 2025\u20132026 NBA MVP?\n\nWeb Results (5):\n- Luka Doncic Will Finally Win NBA MVP In 2026 \u2013 The Lead: For him, winning the MVP award is a matter of \u201cwhen,\u201d not \u201cif.\u201d And with factors both on the court and in the voting ballots in his favor, <strong>he \n- NBA insider questions if Lakers Luka Doncic will win his first MVP award in 2025-26 | Sporting News: During the 2024-25 season, he averaged 28.2 PPG, 8.2 RPG, 7.7 APG, 0.4 BPG, and 1.8 SPG. Doncic also shot 45.0% from the field. <strong>Hopefully he i\n- NBA MVP odds 2025-26: Favorites to win - CBS Sports: The Thunder guard has a clear edge here, thanks in large part to Nikola Jokic&#x27;s injury which is likely going to make the star center <strong>inel\n- NBA MVP\u2019s 10 best candidates for 2025-2026 season, ranked after Nikola Jokic\u2019s injury | SB Nation: He\u2019ll never be a defensive stopper, but it\u2019s hard to imagine any player could be when they\u2019re carrying a 39 percent usage rate that is twice as high a\n- Projecting the 2025\u201326 NBA MVP Race: Luka Don\u010di\u0107 Leads a Loaded Field: <strong>Nikola Jokic, Luka Doncic, and Shai Gilgeous-Alexander headline the race for the 2025-26 NBA MVP</strong>. Here\u2019s our pick to win it.\n\nNews (5):\n- 2025-26 NBA championship and MVP odds: Thunder, Nuggets, Spurs faves; Cunningham making MVP charge - ESPN (1 day ago)\n- 2026 NBA MVP Odds, Favorites & Prediction: No Joking Matter - Yahoo Sports (1 day ago)\n- NBA MVP Race: Nikola Jokic, Luka Doncic Chase Glory as Elite Fantasy Basketball Items (2 days ago)\n- Latest NBA MVP Odds as SGA, Cade Cunningham, Nikola Jokic Among Top Contenders for 2025-26 Award (1 day ago)\n- Luka Doncic Latest News 2026: Injury Update, MVP Race, Stats, Criticism & Lakers Impact (2 days ago)",
+    "web_results": [
+      {
+        "title": "Luka Doncic Will Finally Win NBA MVP In 2026 \u2013 The Lead",
+        "url": "https://theleadsm.com/luka-doncic-will-finally-win-nba-mvp-in-2026/",
+        "description": "For him, winning the MVP award is a matter of \u201cwhen,\u201d not \u201cif.\u201d And with factors both on the court and in the voting ballots in his favor, <strong>he will finally receive his recognition early next year.</strong>"
+      },
+      {
+        "title": "NBA insider questions if Lakers Luka Doncic will win his first MVP award in 2025-26 | Sporting News",
+        "url": "https://www.sportingnews.com/us/nba/los-angeles-lakers/news/nba-insider-questions-if-lakers-luka-doncic-will-win-his-first-mvp-award-2025-26/cb5ca8e79ef1b164b2fc5bbe",
+        "description": "During the 2024-25 season, he averaged 28.2 PPG, 8.2 RPG, 7.7 APG, 0.4 BPG, and 1.8 SPG. Doncic also shot 45.0% from the field. <strong>Hopefully he is ready to dominate the league in 2025-26</strong>."
+      },
+      {
+        "title": "NBA MVP odds 2025-26: Favorites to win - CBS Sports",
+        "url": "https://www.cbssports.com/nba/news/nba-mvp-odds-2025-26-favorites-to-win/",
+        "description": "The Thunder guard has a clear edge here, thanks in large part to Nikola Jokic&#x27;s injury which is likely going to make the star center <strong>ineligible for the honor due to the 65-game threshold</strong>."
+      },
+      {
+        "title": "NBA MVP\u2019s 10 best candidates for 2025-2026 season, ranked after Nikola Jokic\u2019s injury | SB Nation",
+        "url": "https://www.sbnation.com/nba/1097538/nba-mvp-10-best-candidates-2026-season-ranked-after-nikola-jokics-injury",
+        "description": "He\u2019ll never be a defensive stopper, but it\u2019s hard to imagine any player could be when they\u2019re carrying a 39 percent usage rate that is twice as high as an average player. Doncic would play 75 games this season if he doesn\u2019t miss another one, so he has a little margin for error on eligibility, too. This probably isn\u2019t the year Luka finally wins his first MVP, but he\u2019s one nagging injury away from probably getting it."
+      },
+      {
+        "title": "Projecting the 2025\u201326 NBA MVP Race: Luka Don\u010di\u0107 Leads a Loaded Field",
+        "url": "https://ballislife.com/news/nba/2025-2026-nba-mvp-projection-luka-doncic-lakers",
+        "description": "<strong>Nikola Jokic, Luka Doncic, and Shai Gilgeous-Alexander headline the race for the 2025-26 NBA MVP</strong>. Here\u2019s our pick to win it."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "2025-26 NBA championship and MVP odds: Thunder, Nuggets, Spurs faves; Cunningham making MVP charge - ESPN",
+        "url": "https://www.espn.com/espn/betting/story/_/id/45539787/2025-nba-finals-odds-mvp-2025-26-championship-betting",
+        "description": "The Thunder, Nuggets and Spurs have the top odds to win the NBA championship, while Cade Cunningham's MVP odds continue to get shorter.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "2026 NBA MVP Odds, Favorites & Prediction: No Joking Matter - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/2026-nba-mvp-odds-favorites-165600141.html",
+        "description": "NBA MVP betting favorites for 2025-26. A look at NBA Most Valuable Player odds, including Shai Gilgeous-Alexander, Nikola Jokic, and Cade Cunningham.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "NBA MVP Race: Nikola Jokic, Luka Doncic Chase Glory as Elite Fantasy Basketball Items",
+        "url": "https://www.si.com/onsi/fantasy/nba/nba-mvp-nikola-jokic-luka-doncic-fantasy-basketball",
+        "description": "The NBA MVP race is heating up amid player injuries and elite basketball.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Latest NBA MVP Odds as SGA, Cade Cunningham, Nikola Jokic Among Top Contenders for 2025-26 Award",
+        "url": "https://bleacherreport.com/articles/25400805-latest-nba-mvp-odds-sga-cade-cunningham-nikola-jokic-among-top-contenders-2025-26-award",
+        "description": "The 2025-26 NBA MVP race gained some more clarity on Tuesday.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Luka Doncic Latest News 2026: Injury Update, MVP Race, Stats, Criticism & Lakers Impact",
+        "url": "https://www.sportpreferred.com/news/luka-doncic-latest-news-2026-injury-update-mvp-race-stats-criticism-lakers-impact/8071",
+        "description": "Luka Doncic latest update 2026: injury return, season stats, MVP race, criticism, defense concerns, and his impact on the Los Angeles Lakers\u2019 playoff push.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Luka Doncic win the 2025\u20132026 NBA MVP?",
+    "sources_count": 10
+  },
+  "error": null
+}

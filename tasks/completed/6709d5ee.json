@@ -1,0 +1,85 @@
+{
+  "id": "6709d5ee",
+  "title": "Polymarket research: Will Rand Paul win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Rand Paul win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:29:35.533587+00:00",
+  "updated_at": "2026-02-27T00:29:49.244660+00:00",
+  "claimed_at": "2026-02-27T00:29:47.237931+00:00",
+  "completed_at": "2026-02-27T00:29:49.244641+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Rand Paul win the 2028 Republican presidential nomination?\n\nWeb Results (5):\n- 2028 United States presidential election - Wikipedia: A Libertarian Republican, Paul ... tariffs, and Trump&#x27;s attitude towards the constitution. <strong>Paul has been described as a potential candida\n- Presidential election, 2028 - Ballotpedia: \u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washing\n- Presidential candidates, 2028 - Ballotpedia: \u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washing\n- PAUL, RAND - Candidate overview - FEC.gov: Candidate for Senate Kentucky ID: S0KY00156 REPUBLICAN PARTY \u00b7 Election \u00b7 2028 \u00b7 2022 \u00b7 2016 \u00b7 2010 Data is included from these committees: RAND PAUL \n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times: Do you see anyone in this pool of potential candidates who could be the remedy in 2028? Silver: I basically agree with that, but I think candidates te\n\nNews (5):\n- Presidential election, 2028 - Ballotpedia (1 day ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (14 hours ago)\n- Which 2028 Democrats have the best electoral track record? (1 week ago)\n- AI reveals who would win the US presidential election if Trump ran against Obama in 2028 (3 days ago)",
+    "web_results": [
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "A Libertarian Republican, Paul ... tariffs, and Trump&#x27;s attitude towards the constitution. <strong>Paul has been described as a potential candidate in late May by CNN, which called him a senator with &quot;2028 ambitions&quot;,</strong> outlining his critiques of Trump&#x27;s One Big Beautiful Bill Act ..."
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "\u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washington Post, &quot;Trump has a lock on the 2024 nomination."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "\u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washington Post, &quot;Trump has a lock on the 2024 nomination."
+      },
+      {
+        "title": "PAUL, RAND - Candidate overview - FEC.gov",
+        "url": "https://www.fec.gov/data/candidate/S0KY00156/",
+        "description": "Candidate for Senate Kentucky ID: S0KY00156 REPUBLICAN PARTY \u00b7 Election \u00b7 2028 \u00b7 2022 \u00b7 2016 \u00b7 2010 Data is included from these committees: RAND PAUL FOR US SENATE (C00496075) Browse receipts \u00b7 Coverage dates: 01/01/2023 to 12/31/2025 \u00b7 Newly filed summary data may not appear for up to 48 hours."
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "Do you see anyone in this pool of potential candidates who could be the remedy in 2028? Silver: I basically agree with that, but I think candidates tend more to follow zigzag patterns. They\u2019re sort of moving at 90-degree angles, not doing a full 180. On the one hand, they want to turn away from the failures of the incumbent president. On the other hand, they want to present something new and different and to also escape from the ghosts (or at least the failed nominees) of their own party\u2019s past."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "Which 2028 Democrats have the best electoral track record?",
+        "url": "https://www.natesilver.net/p/which-2028-democrats-have-the-best",
+        "description": "Last time, we conducted a Democratic ... the Republicans. Plus, cover whatever crazy stories are circulating in the news. Honestly, the past few shows have been some of my favorite nights of the year, and the audience always seems to have fun. Come join us! The New York Times interviewed me today about my vantage point at this early stage of the 2028 nomination ...",
+        "age": "1 week ago"
+      },
+      {
+        "title": "AI reveals who would win the US presidential election if Trump ran against Obama in 2028",
+        "url": "https://www.unilad.com/news/us-news/trump-obama-ai-presidential-election-results-2028-966771-20260223",
+        "description": "The popular YouTube channel, I Ask AI, has shared a look at a hypothetical presidential election between Donald Trump and Barack Obama in 2028.",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will Rand Paul win the 2028 Republican presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

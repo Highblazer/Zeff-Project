@@ -1,0 +1,138 @@
+{
+  "id": "b0571d91",
+  "title": "Research OpenClaw skills, plugins, and community tools \u2014 find new skills on ClawHub, GitHub repos, blog posts, and Twitter/X discussions about OpenClaw features, workflows, and integrations we can add to our fleet",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "OpenClaw AI agent skills plugins ClawHub",
+    "count": 10
+  },
+  "priority": 2,
+  "status": "completed",
+  "created_by": "CEO",
+  "created_at": "2026-02-25T21:41:49.896073+00:00",
+  "updated_at": "2026-02-25T21:41:56.818569+00:00",
+  "claimed_at": "2026-02-25T21:41:54.971254+00:00",
+  "completed_at": "2026-02-25T21:41:56.818551+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: OpenClaw AI agent skills plugins ClawHub\n\nWeb Results (10):\n- OpenClaw \u2014 Personal AI Assistant: Extend with community skills or build your own. It can even write its own. WhatsApp Telegram Discord Slack Signal iMessage Claude GPT Spotify Hue Obsi\n- Skills - OpenClaw: You can gate them via metadata.openclaw.requires.config on the plugin\u2019s config entry. See Plugins for discovery/config and Tools for the tool surface \n- GitHub - openclaw/clawhub: Skill Directory for OpenClaw: <strong>ClawHub is the public skill registry for Clawdbot: publish, version, and search text-based agent skills</strong> (a SKILL.md plus supporting f\n- GitHub - VoltAgent/awesome-openclaw-skills: The awesome collection of OpenClaw Skills. Formerly known as Moltbot, originally Clawdbot.: If your skill isn&#x27;t in the OpenClaw skills repo yet, publish it there first. See CONTRIBUTING.md for details. If you believe a skill in this list\n- OpenClaw Skills & Integrations - ClawHub Marketplace: OpenClaw Skills are <strong>modular extensions that grant your AI agent new abilities</strong>. Formerly known as Moltbot or Clawdbot plugins, these s\n- ClawHub: ClawHub \u2014 <strong>a fast skill registry for agents, with vector search</strong>.\n- ClawHub - Official Skill Store & Marketplace for OpenClaw AI Agents: ... AI Tools DirectoryAI AgentAI ... Assistant ... <strong>ClawHub is the centralized marketplace and directory for &quot;skills&quot; designed for Op\n- GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e: <strong>With ClawHub enabled, the agent can search for skills automatically and pull in new ones as needed</strong>.\n- OpenClaw Skills & Plugins: The Complete Extension Guide (2026) \u2014 AI Tools Kit | AI Tools Kit: Everything about OpenClaw&#x27;s Skills system, ClawHub marketplace, MCP integration, and how to build custom skills. Includes popular skill recommend\n- awesome-openclaw-skills/README.md at main \u00b7 VoltAgent/awesome-openclaw-skills: The awesome collection of OpenClaw Skills. Formerly known as Moltbot, originally Clawdbot. - awesome-openclaw-skills/README.md at main \u00b7 VoltAgent/awe\n\nNews (10):\n- Decoding ClawHub.ai: The official skill store of 220k-star OpenClaw, how 3000+ Skills expand your AI Agent - Apiyi.com Blog (2 days ago)\n- OpenClaw: What is it and can you use it safely? | Malwarebytes (2 days ago)\n- OpenClaw's Top Skill: Unmasking the AI Agent Malware Threat - threatlabsnews.xcitium.com (2 days ago)\n- A Meta AI security researcher said an OpenClaw agent ran amok on her inbox | TechCrunch (2 days ago)\n- I Loved My OpenClaw AI Agent\u2014Until It Turned on Me | WIRED (2 weeks ago)\n- OpenClaw\u2019s AI \u2018skill\u2019 extensions are a security nightmare | The Verge (3 weeks ago)\n- OpenClaw should terrify anyone who thinks AI agents are ready for real responsibility | TechRadar (2 days ago)\n- SecureClaw: Dual stack open-source security plugin and skill for OpenClaw - Help Net Security (1 week ago)\n- OpenClaw: The AI Agent Institutional Investors Need to Understand \u2014 But Shouldn't Touch | Institutional Investor (1 week ago)\n- Why the OpenClaw AI agent is a 'privacy nightmare' (2 weeks ago)",
+    "web_results": [
+      {
+        "title": "OpenClaw \u2014 Personal AI Assistant",
+        "url": "https://openclaw.ai/",
+        "description": "Extend with community skills or build your own. It can even write its own. WhatsApp Telegram Discord Slack Signal iMessage Claude GPT Spotify Hue Obsidian Twitter Browser Gmail GitHub \u00b7 View all 50+ integrations \u2192 \u00b7 See what people built \u2192 ... &quot;The Lobster Takeover: Why Developers Are Buying Mac Minis to Run Their Own AI Agents&quot; Jim Mendenhall"
+      },
+      {
+        "title": "Skills - OpenClaw",
+        "url": "https://docs.openclaw.ai/tools/skills",
+        "description": "You can gate them via metadata.openclaw.requires.config on the plugin\u2019s config entry. See Plugins for discovery/config and Tools for the tool surface those skills teach. <strong>ClawHub is the public skills registry for OpenClaw</strong>."
+      },
+      {
+        "title": "GitHub - openclaw/clawhub: Skill Directory for OpenClaw",
+        "url": "https://github.com/openclaw/clawhub",
+        "description": "<strong>ClawHub is the public skill registry for Clawdbot: publish, version, and search text-based agent skills</strong> (a SKILL.md plus supporting files). It\u2019s designed for fast browsing + a CLI-friendly API, with moderation hooks and vector search. onlycrabs.ai ..."
+      },
+      {
+        "title": "GitHub - VoltAgent/awesome-openclaw-skills: The awesome collection of OpenClaw Skills. Formerly known as Moltbot, originally Clawdbot.",
+        "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+        "description": "If your skill isn&#x27;t in the OpenClaw skills repo yet, publish it there first. See CONTRIBUTING.md for details. If you believe a skill in this list should be flagged or has a security concern, please open an issue so we can review it. ... Azure CLI - Comprehensive Azure Cloud Platform management via command-line interface. azure-ai-agents-py - Build AI agents using the Azure AI Agents Python SDK"
+      },
+      {
+        "title": "OpenClaw Skills & Integrations - ClawHub Marketplace",
+        "url": "https://openclawwiki.org/skills",
+        "description": "OpenClaw Skills are <strong>modular extensions that grant your AI agent new abilities</strong>. Formerly known as Moltbot or Clawdbot plugins, these skills allow your self-hosted AI to interact with external APIs, manage files, execute code, and perform complex ..."
+      },
+      {
+        "title": "ClawHub",
+        "url": "https://clawhub.ai/",
+        "description": "ClawHub \u2014 <strong>a fast skill registry for agents, with vector search</strong>."
+      },
+      {
+        "title": "ClawHub - Official Skill Store & Marketplace for OpenClaw AI Agents",
+        "url": "https://navtools.ai/tool/clawhub-ai",
+        "description": "... AI Tools DirectoryAI AgentAI ... Assistant ... <strong>ClawHub is the centralized marketplace and directory for &quot;skills&quot; designed for OpenClaw (formerly Clawdbot), a local-first, open-source AI agent ecosystem</strong>...."
+      },
+      {
+        "title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+        "url": "https://github.com/openclaw/openclaw",
+        "description": "<strong>With ClawHub enabled, the agent can search for skills automatically and pull in new ones as needed</strong>."
+      },
+      {
+        "title": "OpenClaw Skills & Plugins: The Complete Extension Guide (2026) \u2014 AI Tools Kit | AI Tools Kit",
+        "url": "https://www.aitoolskit.io/agents/openclaw-plugins-extensions-guide-2026",
+        "description": "Everything about OpenClaw&#x27;s Skills system, ClawHub marketplace, MCP integration, and how to build custom skills. Includes popular skill recommendations and security vetting tips. ... AI Tools Kit provides free developer tools and educational content for working with AI agents and language ..."
+      },
+      {
+        "title": "awesome-openclaw-skills/README.md at main \u00b7 VoltAgent/awesome-openclaw-skills",
+        "url": "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/README.md",
+        "description": "The awesome collection of OpenClaw Skills. Formerly known as Moltbot, originally Clawdbot. - awesome-openclaw-skills/README.md at main \u00b7 VoltAgent/awesome-openclaw-skills"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Decoding ClawHub.ai: The official skill store of 220k-star OpenClaw, how 3000+ Skills expand your AI Agent - Apiyi.com Blog",
+        "url": "https://help.apiyi.com/en/clawhub-ai-openclaw-skills-registry-guide-en.html",
+        "description": "APIYI author shares: If OpenClaw is currently the hottest open-source AI Agent (with over 220k GitHub stars), then ClawHub.ai is its \"App Store\"\u2014a dedicated skill registry built specifically for AI Agents. ClawHub is to OpenClaw what npm is to Node.js, or pip is to Python.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "OpenClaw: What is it and can you use it safely? | Malwarebytes",
+        "url": "https://www.malwarebytes.com/blog/news/2026/02/openclaw-what-is-it-and-can-you-use-it-safely",
+        "description": "OpenClaw is a hot topic at the moment. But what is it and how can you use the 24/7 AI assistant in a safe way?",
+        "age": "2 days ago"
+      },
+      {
+        "title": "OpenClaw's Top Skill: Unmasking the AI Agent Malware Threat - threatlabsnews.xcitium.com",
+        "url": "https://threatlabsnews.xcitium.com/blog/openclaws-top-skill-unmasking-the-ai-agent-malware-threat/",
+        "description": "Another innovative AI agent platform, OpenClaw, is an open-source AI agent platform that allows developers to share skills on its marketplace, dubbed ClawHub, to improve the capabilities of AI agents. However, this recent find has cast a huge shadow on this promising platform.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox | TechCrunch",
+        "url": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
+        "description": "The viral X post from an AI security researcher reads like satire. But it's really a word of warning about what can go wrong when handing tasks to an AI agent.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "I Loved My OpenClaw AI Agent\u2014Until It Turned on Me | WIRED",
+        "url": "https://www.wired.com/story/malevolent-ai-agent-openclaw-clawdbot/",
+        "description": "I used the viral AI helper to order groceries, sort emails, and negotiate deals. Then it decided to scam me.",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "OpenClaw\u2019s AI \u2018skill\u2019 extensions are a security nightmare | The Verge",
+        "url": "https://www.theverge.com/news/874011/openclaw-ai-skill-clawhub-extensions-security-nightmare",
+        "description": "Security researchers found hundreds of malicious add-ons on ClawHub.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "OpenClaw should terrify anyone who thinks AI agents are ready for real responsibility | TechRadar",
+        "url": "https://www.techradar.com/ai-platforms-assistants/openclaw-should-terrify-anyone-who-thinks-ai-agents-are-ready-for-real-responsibility",
+        "description": "OpenClaw deleted an inbox after being told to confirm first, and that should make all of us rethink AI autonomy",
+        "age": "2 days ago"
+      },
+      {
+        "title": "SecureClaw: Dual stack open-source security plugin and skill for OpenClaw - Help Net Security",
+        "url": "https://helpnetsecurity.com/2026/02/18/secureclaw-open-source-security-plugin-skill-openclaw",
+        "description": "AI agent frameworks are being used to automate work that involves tools, files, and external services. That type of automation creates security questions",
+        "age": "1 week ago"
+      },
+      {
+        "title": "OpenClaw: The AI Agent Institutional Investors Need to Understand \u2014 But Shouldn't Touch | Institutional Investor",
+        "url": "https://www.institutionalinvestor.com/article/openclaw-ai-agent-institutional-investors-need-understand-shouldnt-touch",
+        "description": "Since its release in November 2025, OpenClaw, formerly known as Clawdbot and Moltbot, has taken the tech world by storm, with an estimated 300,000 to 400,000 users.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Why the OpenClaw AI agent is a 'privacy nightmare'",
+        "url": "https://news.northeastern.edu/2026/02/10/open-claw-ai-assistant/",
+        "description": "OpenClaw can organize files, write emails, and build apps\u2014but giving it full computer access comes with major security risks, experts warn.",
+        "age": "2 weeks ago"
+      }
+    ],
+    "query": "OpenClaw AI agent skills plugins ClawHub",
+    "sources_count": 20
+  },
+  "error": null
+}

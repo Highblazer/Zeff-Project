@@ -1,0 +1,28 @@
+{
+  "id": "b4f75f6c",
+  "title": "Polymarket research: Will Ethereum reach $3,800 in February?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Ethereum reach $3,800 in February?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T03:34:04.187304+00:00",
+  "updated_at": "2026-02-27T03:34:19.317439+00:00",
+  "claimed_at": "2026-02-27T03:34:18.278623+00:00",
+  "completed_at": "2026-02-27T03:34:19.317421+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Ethereum reach $3,800 in February?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Ethereum reach $3,800 in February?",
+    "sources_count": 0
+  },
+  "error": null
+}

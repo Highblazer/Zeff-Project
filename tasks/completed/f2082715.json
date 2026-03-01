@@ -1,0 +1,128 @@
+{
+  "id": "f2082715",
+  "title": "AI SaaS micro-products revenue 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "AI SaaS micro-products revenue 2026",
+    "category": "revenue_opportunities"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T20:40:46.171805+00:00",
+  "updated_at": "2026-02-26T20:40:47.975221+00:00",
+  "claimed_at": "2026-02-26T20:40:46.179114+00:00",
+  "completed_at": "2026-02-26T20:40:47.975205+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: AI SaaS micro-products revenue 2026\n\nFindings (9):\n- [market_mover] AI Software Companies to Watch in 2026 (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Maybe AI won't kill SaaS - Cautious Optimism (action=0.55, impact=0.35)\n  \u2192 EVALUATE for integration \u2014 potential revenue\n- [revenue_opportunity] Intellectia (action=0.4, impact=0.47)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Top SaaS Trends in 2026: AI, Security & Growth Models - Innovecs (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Top 8 Micro SaaS Ideas to Launch Your Startup in 2026 | Proven SaaS (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "AI Software Companies to Watch in 2026",
+        "url": "https://analyticsinsight.net/top-list/top-10-ai-software-companies-in-2026",
+        "description": "Discover the top AI software companies in 2026, shaping enterprise adoption, cloud ecosystems, foundation models, and real-world applications across the global digital economy.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Maybe AI won't kill SaaS - Cautious Optimism",
+        "url": "https://www.cautiousoptimism.news/maybe-ai-wont-kill-saas/",
+        "description": "Welcome to Cautious Optimism, a newsletter on tech, business, and power. Modestly upbeat. Thursday. Today we\u2019re taking a small break from our usual format. Instead of a host of topics, we\u2019re looking at earnings reports from Nvidia (chips), Snowflake (data), and Salesforce (SaaS).",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.55,
+        "impact_score": 0.35,
+        "combined_score": 0.45,
+        "age": "4 hours ago",
+        "recommended_action": "EVALUATE for integration \u2014 potential revenue"
+      },
+      {
+        "title": "Intellectia",
+        "url": "https://intellectia.ai/blog/will-ai-disrupt-saas-business-model-2026",
+        "description": "This is not a distant future ... where companies have built internal AI tools to replace purchased SaaS products. Financial markets have begun pricing in this disruption risk, with the so-called \"SaaSpocalypse\" of early 2026 wiping approximately $285 billion from software ...",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.47,
+        "combined_score": 0.43,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top SaaS Trends in 2026: AI, Security & Growth Models - Innovecs",
+        "url": "https://innovecs.com/blog/the-top-7-saas-trends/",
+        "description": "Explore the top SaaS trends in 2026, including AI integration, vertical SaaS, security, microservices, and new growth models shaping SaaS companies.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "1 month ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top 8 Micro SaaS Ideas to Launch Your Startup in 2026 | Proven SaaS",
+        "url": "https://proven-saas.com/blog/top-8-micro-saas-ideas-to-launch-your-startup-in-2026",
+        "description": "Finding a profitable niche is the toughest part of building a software business. The right idea can be the difference between a thriving venture and a failed pr...",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "10 Micro SaaS Ideas for Solopreneurs in 2026 - Build Without Code | Lovable",
+        "url": "https://lovable.dev/guides/micro-saas-ideas-for-solopreneurs-2026",
+        "description": "They typically run with one to five people, generate <strong>$50K to $3M+ annually</strong>, and reach profitability within one to two years. The focused scope means you can build and launch in 4 to 12 weeks rather than 6 to 24 months.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Best 20 Micro SaaS Startup Ideas in 2026 for Entrepreneurs",
+        "url": "https://rightleftagency.com/micro-saas-startup-ideas/",
+        "description": "Solution: AI-powered SaaS that generates product blueprints and CAD files from natural language prompts. Revenue Model: <strong>$99\u2013399/month</strong>. ... ESG (Environmental, Social, and Governance) reporting is no longer optional.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top 15 No-Code Micro SaaS Ideas to Build in 2026 | Knack",
+        "url": "https://www.knack.com/blog/no-code-micro-saas-ideas/",
+        "description": "The most profitable micro SaaS products in 2026 focus on recurring business needs such as <strong>AI-powered content tools, niche CRMs, workflow automation, analytics dashboards, and subscription billing software</strong>.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "10 Profitable SaaS Startup Ideas That Will Dominate 2026",
+        "url": "https://entrepreneurloop.com/profitable-saas-startup-ideas-2026/",
+        "description": "Yes, micro-SaaS can be highly profitable with lower overhead and focused solutions. Examples include businesses earning <strong>$5K-50K monthly recurring revenue</strong> with solo founders or small teams targeting specific niches.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "AI SaaS micro-products revenue 2026",
+    "sources_count": 10,
+    "findings_count": 9,
+    "market_movers": 1,
+    "opportunities": 8
+  },
+  "error": null
+}

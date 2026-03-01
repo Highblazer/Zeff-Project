@@ -1,0 +1,28 @@
+{
+  "id": "acee4711",
+  "title": "Polymarket research: Red Wings vs. Senators",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Red Wings vs. Senators",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T04:01:42.856089+00:00",
+  "updated_at": "2026-02-27T04:01:57.552650+00:00",
+  "claimed_at": "2026-02-27T04:01:56.496876+00:00",
+  "completed_at": "2026-02-27T04:01:57.552629+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Red Wings vs. Senators\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Red Wings vs. Senators",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "30838b3b",
+  "title": "Polymarket research: Will Bitcoin reach $125,000 in February?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $125,000 in February?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:11.201451+00:00",
+  "updated_at": "2026-02-26T23:35:17.377203+00:00",
+  "claimed_at": "2026-02-26T23:35:16.031937+00:00",
+  "completed_at": "2026-02-26T23:35:17.377179+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $125,000 in February?\n\nWeb Results (5):\n- What price will Bitcoin hit in February? Prediction Market Prices - Yahoo Finance: Live pricing, charts, and volume for the What price will Bitcoin hit in February? prediction market from Yahoo Finance.\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?: <strong>By the end of February 2026, the value of Bitcoin is expected to rise by 18% and may touch the level of $76,500</strong> \u00b7 \ud83d\udca1 Pro Tip: Want to \n- What price will Bitcoin hit in February? Betting Odds & Predictions | Polymarket: \u2191 150,000 \u00b7 $3,089,737 Vol. &lt;1% Buy Yes 0.4\u00a2Buy No 99.7\u00a2 \u00b7 <strong>\u2191 125,000</strong> \u00b7 $798,641 Vol. &lt;1% Buy Yes 0.4\u00a2Buy No 99.7\u00a2 \u00b7 \u2191 120,000 \u00b7\n- Bitcoin Price Prediction: Arthur Hayes Sees $250K, But My BTC Price Analysis Points to Bull Trap and $74K First: If Bitcoin goes that low, I expect aggressive reaccumulation from whales and large institutional players. <strong>I anticipate Bitcoin bouncing back a\n- Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go?: ... The BTC price may range between $66,452.48 and $68,269.03 today. ... <strong>As of February 2026, the price of Bitcoin is currently hovering betwe\n\nNews (5):\n- Bitcoin price prediction 2026-2032: Will BTC hit $150k soon? (2 days ago)\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026? (3 days ago)\n- Bitcoin price news: BTC narrows big early losses, rallying back above $64,000 (2 days ago)\n- Key facts: Bitcoin price may reach $122,000; Bernstein targets $150,000 \u2014 TradingView News (4 days ago)\n- Expert Crypto Trader Predicts The Exact Year Bitcoin Will Reach $250,000 (3 days ago)",
+    "web_results": [
+      {
+        "title": "What price will Bitcoin hit in February? Prediction Market Prices - Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/prediction/event/what-price-will-bitcoin-hit-in-february-2026/",
+        "description": "Live pricing, charts, and volume for the What price will Bitcoin hit in February? prediction market from Yahoo Finance."
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "<strong>By the end of February 2026, the value of Bitcoin is expected to rise by 18% and may touch the level of $76,500</strong> \u00b7 \ud83d\udca1 Pro Tip: Want to diversify beyond Bitcoin? Explore the Top cryptos to invest in 2026."
+      },
+      {
+        "title": "What price will Bitcoin hit in February? Betting Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026/will-bitcoin-reach-115k-in-february-2026",
+        "description": "\u2191 150,000 \u00b7 $3,089,737 Vol. &lt;1% Buy Yes 0.4\u00a2Buy No 99.7\u00a2 \u00b7 <strong>\u2191 125,000</strong> \u00b7 $798,641 Vol. &lt;1% Buy Yes 0.4\u00a2Buy No 99.7\u00a2 \u00b7 \u2191 120,000 \u00b7 $553,765 Vol. &lt;1% Buy Yes 0.5\u00a2Buy No 99.6\u00a2 \u00b7 \u2191 115,000 \u00b7 $484,836 Vol."
+      },
+      {
+        "title": "Bitcoin Price Prediction: Arthur Hayes Sees $250K, But My BTC Price Analysis Points to Bull Trap and $74K First",
+        "url": "https://www.financemagnates.com/trending/bitcoin-price-prediction-arthur-hayes-sees-250k-but-my-btc-price-analysis-points-to-bull-trap-and-74k-first/",
+        "description": "If Bitcoin goes that low, I expect aggressive reaccumulation from whales and large institutional players. <strong>I anticipate Bitcoin bouncing back above $100,000, returning to an uptrend, and establishing a new ATH in the mid-term, a move above $125,000</strong>."
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go?",
+        "url": "https://coinpedia.org/price-prediction/bitcoin-price-prediction/",
+        "description": "... The BTC price may range between $66,452.48 and $68,269.03 today. ... <strong>As of February 2026, the price of Bitcoin is currently hovering between $66,000 and $70,000</strong>, following a significant decline from its late January support near $87,000."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bitcoin price prediction 2026-2032: Will BTC hit $150k soon?",
+        "url": "https://cryptopolitan.com/bitcoin-price-prediction",
+        "description": "Can Bitcoin hit $150,000 in the post-halving rally? Explore our Bitcoin price prediction with detailed market analysis and future growth insights.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Explore the latest Bitcoin price forecast for Feb 2026 as BTC slips below key support amid U.S. tariff tensions. Can it hold $60K? Read our analysis.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Bitcoin price news: BTC narrows big early losses, rallying back above $64,000",
+        "url": "https://coindesk.com/markets/2026/02/24/bitcoin-retakes-usd64-000-crypto-miners-rally-as-ai-related-software-rout-eases",
+        "description": "Sellers are taking a breather as bitcoin's Fear & Greed Index plunged to levels never seen before.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Key facts: Bitcoin price may reach $122,000; Bernstein targets $150,000 \u2014 TradingView News",
+        "url": "https://www.tradingview.com/news/tradingview:4c4a1da558451:0-key-facts-bitcoin-price-may-reach-122-000-bernstein-targets-150-000/",
+        "description": "Bernstein targets Bitcoin at $150,000, calling its price drop the 'weakest bear case' ever. Wells Fargo forecasts $150 billion in inflows into Bitcoin and stocks by March.2 \u00b7 In early February 2026, Bitcoin's price dropped to its lowest since November 2024, due to overleveraging, causing a ...",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Expert Crypto Trader Predicts The Exact Year Bitcoin Will Reach $250,000",
+        "url": "https://newsbtc.com/news/bitcoin/when-bitcoin-will-reach-250000",
+        "description": "According to veteran financial analyst Peter Brandt, Bitcoin is on track to setting off to $250,000-plus by late 2029.",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will Bitcoin reach $125,000 in February?",
+    "sources_count": 10
+  },
+  "error": null
+}

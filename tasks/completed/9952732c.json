@@ -1,0 +1,85 @@
+{
+  "id": "9952732c",
+  "title": "Polymarket research: Will Santos FC win on 2026-02-26?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Santos FC win on 2026-02-26?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:26:32.022848+00:00",
+  "updated_at": "2026-02-27T00:26:39.720041+00:00",
+  "claimed_at": "2026-02-27T00:26:37.786681+00:00",
+  "completed_at": "2026-02-27T00:26:39.719999+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Santos FC win on 2026-02-26?\n\nWeb Results (5):\n- Preview: Santos vs Vasco da Gama Prediction, lineups, betting tips & odds | Campeonato Brasileiro S\u00e9rie A 2026: <strong>Santos FC are likely to come out on top to outshine Vasco da Gama in their upcoming Campeonato Brasileiro S\u00e9rie A clash</strong>. ... Thursday\n- Santos live score, schedule & player stats | Sofascore: <strong>Santos will play the next match against Vasco da Gama on Feb 26, 2026, 10:00:00 PM UTC</strong> in Brasileir\u00e3o Betano.\n- Santos FC - fixtures, team info and top players: February 22, 2026: Paulista A1 - 1-2 loss at Novorizontino \u00b7 Upcoming fixtures for Santos FC: <strong>February 26, 2026: Serie A - vs Vasco da Gama</s\n- Santos Live Score, 2026 Fixtures, Results - AiScore: <strong>Santos is going to play their next match on 2026/02/12 UTC against Athletico Paranaense</strong> in Brazilian Campeonato Paulista A1.\n- Santos FC match Schedule & Fixtures 2026 \u2013 next matches and game calendar for Santos FC | Dailysports: Santos FC - Vasco da Gama 26.02.2026 Serie A Brazil Santos FC - : - Vasco da Gama Mirassol - Santos FC 10.03.2026 Serie A Brazil Mirassol - : - Santos\n\nNews (5):\n- Preview: Santos vs Vasco da Gama Prediction, lineups, betting tips & odds | Campeonato Brasileiro S\u00e9rie A 2026 (17 hours ago)\n- Luis Fabiano Accuses Neymar of Ruining Santos Fc\u2019s Strategy and Jeopardizing His Participation in the World Cup | beIN SPORTS (8 hours ago)\n- Santos vs Vasco LIVE Score Updates: Neymar scores (2-1) | 02/26/2026 - VAVEL USA (23 minutes ago)\n- Sequence of three matches at Santos determines Neymar\u2019s return to Carlo Ancelotti\u2019s team (1 day ago)\n- Neymar Slammed By Ex-Teammate For 'Messing Up' Santos FC: 'Play Doesn't Develop' | Football News - News18 (1 day ago)",
+    "web_results": [
+      {
+        "title": "Preview: Santos vs Vasco da Gama Prediction, lineups, betting tips & odds | Campeonato Brasileiro S\u00e9rie A 2026",
+        "url": "https://khelnow.com/football/world-football-santos-vs-vasco-da-gama-preview-202602",
+        "description": "<strong>Santos FC are likely to come out on top to outshine Vasco da Gama in their upcoming Campeonato Brasileiro S\u00e9rie A clash</strong>. ... Thursday, February 26, 2026, at Est\u00e1dio Urbano Caldeira in Santos."
+      },
+      {
+        "title": "Santos live score, schedule & player stats | Sofascore",
+        "url": "https://www.sofascore.com/football/team/santos/1968",
+        "description": "<strong>Santos will play the next match against Vasco da Gama on Feb 26, 2026, 10:00:00 PM UTC</strong> in Brasileir\u00e3o Betano."
+      },
+      {
+        "title": "Santos FC - fixtures, team info and top players",
+        "url": "https://www.fotmob.com/teams/8514/overview/santos-fc",
+        "description": "February 22, 2026: Paulista A1 - 1-2 loss at Novorizontino \u00b7 Upcoming fixtures for Santos FC: <strong>February 26, 2026: Serie A - vs Vasco da Gama</strong> \u00b7 March 11, 2026: Serie A - at Mirassol \u00b7 March 15, 2026: Serie A - vs Corinthians \u00b7 March 19, 2026: ..."
+      },
+      {
+        "title": "Santos Live Score, 2026 Fixtures, Results - AiScore",
+        "url": "https://www.aiscore.com/team-fk-santos/4ndqmlie6xagkve",
+        "description": "<strong>Santos is going to play their next match on 2026/02/12 UTC against Athletico Paranaense</strong> in Brazilian Campeonato Paulista A1."
+      },
+      {
+        "title": "Santos FC match Schedule & Fixtures 2026 \u2013 next matches and game calendar for Santos FC | Dailysports",
+        "url": "https://dailysports.net/team/santos-fc/calendar/",
+        "description": "Santos FC - Vasco da Gama 26.02.2026 Serie A Brazil Santos FC - : - Vasco da Gama Mirassol - Santos FC 10.03.2026 Serie A Brazil Mirassol - : - Santos FC Santos FC - Corinthians 15.03.2026 Serie A Brazil Santos FC - : - Corinthians Santos FC - Internacional 18.03.2026 Serie A Brazil Santos FC - : - Internacional Cruzeiro - Santos FC 22.03.2026 Serie A Brazil Cruzeiro - : - Santos FC Santos FC - Remo 01.04.2026 Serie A Brazil Santos FC - : - Remo Flamengo - Santos FC 05.04.2026 Serie A Brazil Flamengo - : - Santos FC Santos FC - Atletico MG 12.04.2026 Serie A Brazil Santos FC - : - Atletico MG"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Preview: Santos vs Vasco da Gama Prediction, lineups, betting tips & odds | Campeonato Brasileiro S\u00e9rie A 2026",
+        "url": "https://khelnow.com/football/world-football-santos-vs-vasco-da-gama-preview-202602",
+        "description": "Santos FC will host Vasco da Gama for their matchweek four contest of the 2025-26 Campeonato Brasileiro Serie A at the Est\u00e1dio Urbano Caldeira.",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Luis Fabiano Accuses Neymar of Ruining Santos Fc\u2019s Strategy and Jeopardizing His Participation in the World Cup | beIN SPORTS",
+        "url": "https://www.beinsports.com/en-us/soccer/srie-a/articles/luis-fabiano-accuses-neymar-of-ruining-santos-fc-s-strategy-and-jeopardizing-his-participation-in-the-world-cup-2026-02-26",
+        "description": "The Brazilian star is accused of not fitting into Santos' tactical scheme, and his possible participation in the upcoming World Cup is in jeopardy",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "Santos vs Vasco LIVE Score Updates: Neymar scores (2-1) | 02/26/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/02/26/1252108-santos-vs-vasco-live-score-brazilian-championship.html",
+        "description": "The players are back on the field and the second half of the match between Santos and Vasco is underway",
+        "age": "23 minutes ago"
+      },
+      {
+        "title": "Sequence of three matches at Santos determines Neymar\u2019s return to Carlo Ancelotti\u2019s team",
+        "url": "https://www.mixvale.com.br/2026/02/26/sequence-of-three-matches-at-santos-determines-neymars-return-to-carlo-ancelottis-team-en/",
+        "description": "The Brazilian football calendar reserves a crucial period for Neymar\u2019s intentions to wear the Sele\u00e7\u00e3o Brazileira shirt again. The technical committee led by The focus is on assembling the squad that will face Fran\u00e7a and Cro\u00e1cia in preparatory friendlies in the Estados Unidos, aiming to ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Neymar Slammed By Ex-Teammate For 'Messing Up' Santos FC: 'Play Doesn't Develop' | Football News - News18",
+        "url": "https://www.news18.com/amp/sports/football/neymar-slammed-by-ex-teammate-for-messing-up-santos-fc-he-messes-up-ws-l-9930142.html",
+        "description": "Luis Fabiano criticises Neymar's tactical impact at Santos, requestimg adjustment as Santos faces challenges after Neymar's return.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Santos FC win on 2026-02-26?",
+    "sources_count": 10
+  },
+  "error": null
+}

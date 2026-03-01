@@ -1,0 +1,85 @@
+{
+  "id": "bb0dd6dd",
+  "title": "Polymarket research: Will Tunisia win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Tunisia win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:46.427896+00:00",
+  "updated_at": "2026-03-01T07:27:35.628690+00:00",
+  "claimed_at": "2026-03-01T07:27:33.835838+00:00",
+  "completed_at": "2026-03-01T07:27:35.628673+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Tunisia win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- Tunisia qualify | FIFA World Cup 26: We cannot provide a description for this page right now\n- Tunisia World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports: <strong>Youssef Msakni and Tunisia now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents, \n- Tunisia qualifies for FIFA World Cup 2026 with win in Equatorial Guinea | Football News | Al Jazeera: Mohamed Ali Ben Romdhane has scored in added time to give <strong>Tunisia a 1-0 win in Equatorial Guinea</strong> and qualification for the FIFA World\n- Tunisia | FIFA World Cup 2026\u2122: We cannot provide a description for this page right now\n- World Cup 2026: Tunisia's history with their Group F opponents - Yahoo Sports: <strong>Tunisia will compete in Group F at the 2026 FIFA World Cup scheduled from June 11 to July 19, 2026</strong>, across the United States, Canada,\n\nNews (5):\n- FIFA to 'monitor developments' in Iran ahead of 2026 World Cup - ESPN (18 hours ago)\n- Tunisia World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports (December 9, 2025)\n- Did Turkey Qualify for the 2026 World Cup? | Tips.GG (2 days ago)\n- Problems for FIFA: Iran 'unlikely' to go to World Cup in United States and suspends its league | Marca (12 hours ago)\n- 2026 World Cup Schedule | Full Match List & Key Dates (1 day ago)",
+    "web_results": [
+      {
+        "title": "Tunisia qualify | FIFA World Cup 26",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/tunisia-qualify",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Tunisia World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/tunisia-world-cup-2026-schedule-locations-dates-times",
+        "description": "<strong>Youssef Msakni and Tunisia now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents, which stadiums they will play at, and the times for the games."
+      },
+      {
+        "title": "Tunisia qualifies for FIFA World Cup 2026 with win in Equatorial Guinea | Football News | Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2025/9/9/tunisia-qualifies-for-fifa-world-cup-2026-with-win-in-equatorial-guinea",
+        "description": "Mohamed Ali Ben Romdhane has scored in added time to give <strong>Tunisia a 1-0 win in Equatorial Guinea</strong> and qualification for the FIFA World Cup 2026 in North America."
+      },
+      {
+        "title": "Tunisia | FIFA World Cup 2026\u2122",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/tunisia/team-news",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "World Cup 2026: Tunisia's history with their Group F opponents - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/world-cup-2026-tunisias-history-112000446.html",
+        "description": "<strong>Tunisia will compete in Group F at the 2026 FIFA World Cup scheduled from June 11 to July 19, 2026</strong>, across the United States, Canada, and Mexico. ... They share the group with the Netherlands, Japan, and a European playoff winner (Ukraine, Sweden, ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "FIFA to 'monitor developments' in Iran ahead of 2026 World Cup - ESPN",
+        "url": "https://www.espn.com/soccer/story/_/id/48060986/fifa-monitor-developments-iran-ahead-2026-world-cup",
+        "description": "FIFA will \"monitor developments\" in Iran following the outbreak of military action by the United States -- the co-hosts of this summer's men's World Cup -- against the Middle Eastern nation.",
+        "age": "18 hours ago"
+      },
+      {
+        "title": "Tunisia World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/tunisia-world-cup-2026-schedule-locations-dates-times",
+        "description": "Here is Tunisia's World Cup group stage opponents, which stadiums they will play at, and the times for the games.",
+        "age": "December 9, 2025"
+      },
+      {
+        "title": "Did Turkey Qualify for the 2026 World Cup? | Tips.GG",
+        "url": "https://tips.gg/article/did-turkey-qualify-for-the-2026-world-cup-wc2026",
+        "description": "Turkey has not yet qualified for the 2026 FIFA World Cup. Full breakdown of their UEFA playoff path, road to&hellip;",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Problems for FIFA: Iran 'unlikely' to go to World Cup in United States and suspends its league | Marca",
+        "url": "https://www.marca.com/en/world-cup/2026/02/28/69a33b3a22601da32b8b45bb.html",
+        "description": "The president of the Iranian Football Federation, Mehdi Taj, has just spoken in Tehran (Iranian public television) and gave the version of his organization on the conflict that, si",
+        "age": "12 hours ago"
+      },
+      {
+        "title": "2026 World Cup Schedule | Full Match List & Key Dates",
+        "url": "https://sportsbookreview.com/picks/soccer/world-cup-full-schedule-dates-2026",
+        "description": "View the full 2026 World Cup schedule. Track every match from the June 11 opener to the July 19 final. Includes dates, kick-off times, and all 16 host cities.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Tunisia win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

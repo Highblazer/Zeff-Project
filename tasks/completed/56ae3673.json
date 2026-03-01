@@ -1,0 +1,85 @@
+{
+  "id": "56ae3673",
+  "title": "Polymarket research: Will James Talarico win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will James Talarico win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:27.686753+00:00",
+  "updated_at": "2026-02-26T23:38:13.516072+00:00",
+  "claimed_at": "2026-02-26T23:38:12.036979+00:00",
+  "completed_at": "2026-02-26T23:38:13.516055+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will James Talarico win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- r/changemyview on Reddit: CMV: James Talarico would be the perfect Democratic candidate for President in 2028.: She&#x27;s also great at getting through to people, and i believe that she would be extremely appealing to working class voters and Latinos...the 2 dr\n- James Talarico - Wikipedia: In July 2025, Talarico appeared on The Joe Rogan Experience and discussed the influence of faith on his political career, after which <strong>Rogan re\n- r/changemyview on Reddit: CMV: James Talarico is \"the one\" to unite Democrats in 2028.: He flirted with the presidential run since 2000. ... Dems wouldn\u2019t be able to re-win the Texas seat, so they likely wouldn\u2019t let him run in 2028 if he\n- Talarico for Texas - Official Campaign Website of James Talarico for U.S. Senate: James Talarico is running for the U.S. Senate in Texas to take his fight against corruption to Washington and win power back for working people.\n- 2028 Democratic Presidential Power Rankings: The Ballad of Jasmine Chokeitt, Part II: On the trail, the Representative ... around her bid. Over time, her numbers dropped, to the point where <strong>Talarico took the lead in some polls.<\n\nNews (5):\n- Democrats want a fight. In Texas, they're divided over how \u2014 and whom \u2014 to fight next. (1 day ago)\n- Republicans are freaking out over Texas Senate race - POLITICO (14 hours ago)\n- James Talarico says he's still the underdog in Democratic primary for Texas Senate against Jasmine Crockett - CBS Texas (1 day ago)\n- Jasmine Crockett's chances of beating James Talarico in Texas primary\u2014Poll - Newsweek (1 day ago)\n- Crockett leads Talarico by double digits in Texas Senate poll (1 day ago)",
+    "web_results": [
+      {
+        "title": "r/changemyview on Reddit: CMV: James Talarico would be the perfect Democratic candidate for President in 2028.",
+        "url": "https://www.reddit.com/r/changemyview/comments/1pygko1/cmv_james_talarico_would_be_the_perfect/",
+        "description": "She&#x27;s also great at getting through to people, and i believe that she would be extremely appealing to working class voters and Latinos...the 2 drivers of the democratic base. A young, charismatic, candidate of change. I think AOC has 2028 nominee written all over her. ... LOL AOC is not winning shit....that would be a freaking disaster to have AOC as the main candidate, just an easy ass landslide victory for the Repubs because she&#x27;s definitely not winning freaking WI, MI and PA. Talarico so far, has the better reach and has shown he can win in a Trump district."
+      },
+      {
+        "title": "James Talarico - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/James_Talarico",
+        "description": "In July 2025, Talarico appeared on The Joe Rogan Experience and discussed the influence of faith on his political career, after which <strong>Rogan recommended he run for president in 2028</strong>."
+      },
+      {
+        "title": "r/changemyview on Reddit: CMV: James Talarico is \"the one\" to unite Democrats in 2028.",
+        "url": "https://www.reddit.com/r/changemyview/comments/1qfh2ik/cmv_james_talarico_is_the_one_to_unite_democrats/",
+        "description": "He flirted with the presidential run since 2000. ... Dems wouldn\u2019t be able to re-win the Texas seat, so they likely wouldn\u2019t let him run in 2028 if he won in 2026. More replies ... Now that I think about it, Talarico&#x27;s trajectory in politics seems strangely similar to Obama&#x27;s."
+      },
+      {
+        "title": "Talarico for Texas - Official Campaign Website of James Talarico for U.S. Senate",
+        "url": "https://jamestalarico.com/",
+        "description": "James Talarico is running for the U.S. Senate in Texas to take his fight against corruption to Washington and win power back for working people."
+      },
+      {
+        "title": "2028 Democratic Presidential Power Rankings: The Ballad of Jasmine Chokeitt, Part II",
+        "url": "https://www.ettingermentum.news/p/2028-democratic-presidential-power-1c4",
+        "description": "On the trail, the Representative ... around her bid. Over time, her numbers dropped, to the point where <strong>Talarico took the lead in some polls.</strong>..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Democrats want a fight. In Texas, they're divided over how \u2014 and whom \u2014 to fight next.",
+        "url": "https://www.nbcnews.com/politics/2026-election/democrats-want-fight-texas-senate-primary-crockett-talarico-rcna260396",
+        "description": "Rep. Jasmine Crockett launched her Senate campaign by highlighting her clashes with Trump, while state Rep. James Talarico has taken aim at a \u201cbroken, corrupt political system.\u201d",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Republicans are freaking out over Texas Senate race - POLITICO",
+        "url": "https://www.politico.com/news/2026/02/26/republicans-alarm-grows-about-holding-texas-senate-seat-00799856",
+        "description": "Texas Attorney General Ken Paxton is the man to beat ahead of Tuesday\u2019s primary \u2014 and could put Senate Republicans\u2019 majority at risk",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "James Talarico says he's still the underdog in Democratic primary for Texas Senate against Jasmine Crockett - CBS Texas",
+        "url": "https://www.cbsnews.com/texas/news/james-talarico-says-he-still-underdog-democratic-primary-texas-senate-against-jasmine-crockett/",
+        "description": "After a Colbert interview that went viral and big spending on ads, Rep. James Talarico says he's still the underdog in the Democratic primary for Texas Senate against Jasmine Crockett.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Jasmine Crockett's chances of beating James Talarico in Texas primary\u2014Poll - Newsweek",
+        "url": "https://www.newsweek.com/jasmine-crocketts-chances-of-beating-james-talarico-in-texas-primary-poll-2-11582856",
+        "description": "A new poll showed how voters are feeling about Crockett and Talarico ahead of next week's primary election.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Crockett leads Talarico by double digits in Texas Senate poll",
+        "url": "https://www.texastribune.org/2026/02/25/texas-senate-poll-crockett-talarico-university-of-texas-paxton-cornyn-hunt-2026/",
+        "description": "On the Republican side, Ken Paxton and John Cornyn were neck-and-neck and in position for a runoff, according to the poll from the University of Texas\u2019 Texas Politics Project.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will James Talarico win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

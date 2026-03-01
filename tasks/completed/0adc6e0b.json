@@ -1,0 +1,85 @@
+{
+  "id": "0adc6e0b",
+  "title": "Polymarket research: Will Tottenham win the 2025\u201326 Champions League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Tottenham win the 2025\u201326 Champions League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:10.982843+00:00",
+  "updated_at": "2026-02-26T23:35:14.387821+00:00",
+  "claimed_at": "2026-02-26T23:35:13.011770+00:00",
+  "completed_at": "2026-02-26T23:35:14.387804+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Tottenham win the 2025\u201326 Champions League?\n\nWeb Results (5):\n- Tottenham | UEFA Champions League 2025/26 | UEFA.com: Visit UEFA.com to find out how Tottenham are doing in the UEFA Champions League 2025/2026, including latest match news, stats, squad list and news upd\n- Champions League last-16 draw: Dates, schedule & format - BBC Sport: The Puskas Arena in Budapest, Hungary will host the 2025-26 final on 30 May.\n- Champions League round of 16 draw: Who can play who, head-to-head records | UEFA Champions League | UEFA.com: The 2025/26 UEFA Champions League round of 16 draw takes place on Friday \u2013 we confirm each team&#x27;s possible opponents and look back at their previ\n- Champions League: Premier League clubs to learn last-16 opponents in Friday's draw | Football News | Sky Sports: Also on Tuesday night, Atletico Madrid set up a last-16 tie with either Tottenham or Liverpool. Bodo/Glimt eliminated Inter Milan and will face either\n- Spurs qualify for 2025/26 UEFA Champions League: <strong>Tottenham Hotspur have qualified for the 2025/26 UEFA Champions League</strong>. Spurs earned their place in the competition after winning the\n\nNews (5):\n- Champions League last-16 draw: Dates, schedule & format - BBC Sport (2 days ago)\n- Champions League: Premier League clubs to learn last-16 opponents in Friday's draw | Football News | Sky Sports (13 hours ago)\n- Who Tottenham will face in Champions League last 16 | The Standard (16 hours ago)\n- When is the Champions League last 16 draw? Date, format, seeding explained | Football News | Al Jazeera (14 hours ago)\n- 2025\u201326 Champions League Round of 16: Dates, Format, Teams (1 day ago)",
+    "web_results": [
+      {
+        "title": "Tottenham | UEFA Champions League 2025/26 | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/clubs/1652--tottenham/",
+        "description": "Visit UEFA.com to find out how Tottenham are doing in the UEFA Champions League 2025/2026, including latest match news, stats, squad list and news updates."
+      },
+      {
+        "title": "Champions League last-16 draw: Dates, schedule & format - BBC Sport",
+        "url": "https://www.bbc.com/sport/football/articles/cm21k48dpvpo",
+        "description": "The Puskas Arena in Budapest, Hungary will host the 2025-26 final on 30 May."
+      },
+      {
+        "title": "Champions League round of 16 draw: Who can play who, head-to-head records | UEFA Champions League | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a2-200366c48426-8c5740b0d811-1000--champions-league-round-of-16-draw-who-can-play-who-head-/",
+        "description": "The 2025/26 UEFA Champions League round of 16 draw takes place on Friday \u2013 we confirm each team&#x27;s possible opponents and look back at their previous meetings across UEFA competition. Teams can be drawn against clubs they faced in the league phase or from the same national association. ... Top eight from the league phase (alphabetical order) Arsenal, Barcelona, Bayern M\u00fcnchen, Chelsea, Liverpool, Man City, Sporting CP, Tottenham"
+      },
+      {
+        "title": "Champions League: Premier League clubs to learn last-16 opponents in Friday's draw | Football News | Sky Sports",
+        "url": "https://www.skysports.com/football/news/11945/13511136/champions-league-premier-league-clubs-to-learn-last-16-opponents-in-fridays-draw",
+        "description": "Also on Tuesday night, Atletico Madrid set up a last-16 tie with either Tottenham or Liverpool. Bodo/Glimt eliminated Inter Milan and will face either Manchester City or Sporting. Meanwhile, Bayer Leverkusen will play Bayern Munich or Arsenal. Round of 16 draw: February 27 Round of 16: March 10-11 and 17-18 Quarter-finals: April 7-8 and 14-15 Semi-finals: April 28-29 and May 5-6 Final: Saturday May 30 \u00b7 Image: PSG are the current Champions League holders \u00b7 The 2025/26 Champions League final will take place in Budapest at the Puskas Arena on Saturday May 30."
+      },
+      {
+        "title": "Spurs qualify for 2025/26 UEFA Champions League",
+        "url": "https://www.premierleague.com/en/news/4316089",
+        "description": "<strong>Tottenham Hotspur have qualified for the 2025/26 UEFA Champions League</strong>. Spurs earned their place in the competition after winning the UEFA Europa League final 1-0 in Bilbao, Spain, on Wednesday with a goal by Brennan Johnson in the 42nd minute."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Champions League last-16 draw: Dates, schedule & format - BBC Sport",
+        "url": "https://www.bbc.com/sport/football/articles/cm21k48dpvpo",
+        "description": "BBC Sport's Ask Me Anything team looks at when the Champions League knockout phase draw takes place and who Premier League teams could face.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Champions League: Premier League clubs to learn last-16 opponents in Friday's draw | Football News | Sky Sports",
+        "url": "https://www.skysports.com/football/news/11945/13511136/champions-league-premier-league-clubs-to-learn-last-16-opponents-in-fridays-draw",
+        "description": "Newcastle progress to join Arsenal, Manchester City, Liverpool, Chelsea and Tottenham in Champions League last 16; Magpies will face Chelsea or Barcelona in knockout tie with draw on Friday at 11am",
+        "age": "13 hours ago"
+      },
+      {
+        "title": "Who Tottenham will face in Champions League last 16 | The Standard",
+        "url": "https://www.standard.co.uk/sport/football/who-tottenham-will-face-in-champions-league-last-16-b1272280.html",
+        "description": "Spurs set for huge knockout tie as they dream of another European run",
+        "age": "16 hours ago"
+      },
+      {
+        "title": "When is the Champions League last 16 draw? Date, format, seeding explained | Football News | Al Jazeera",
+        "url": "https://aljazeera.com/sports/2026/2/26/when-is-the-champions-league-last-16-draw-date-format-seeding-explained",
+        "description": "With the playoffs settled, some of the biggest names in European football will soon discover their last 16 opponents.",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "2025\u201326 Champions League Round of 16: Dates, Format, Teams",
+        "url": "https://si.com/soccer/2025-26-champions-league-round-of-16-dates-format-teams",
+        "description": "Only 16 of the original 36 teams remain in the hunt for the European crown.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Tottenham win the 2025\u201326 Champions League?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,128 @@
+{
+  "id": "79c930b1",
+  "title": "automated trading strategies profitable 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "automated trading strategies profitable 2026",
+    "category": "revenue_opportunities"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-01T00:17:00.271875+00:00",
+  "updated_at": "2026-03-01T00:17:01.782901+00:00",
+  "claimed_at": "2026-03-01T00:17:00.279751+00:00",
+  "completed_at": "2026-03-01T00:17:01.782888+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: automated trading strategies profitable 2026\n\nFindings (9):\n- [market_mover] MyFxBots Blog | Which Trading Strategies Give You the Edge in 2026 \u2014 Practical Guide for Traders (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Can an Automated Trading Strategy Teach You How to Trade? (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Top Algo Trading Strategies & How They Work (2026 Guide) (action=0.4, impact=0.41)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Most Profitable Crypto Trading Strategy: Top 7 in 2026 (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] 12 Best Algorithmic Trading Strategies to Know in 2026 - Snap Innovations (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "MyFxBots Blog | Which Trading Strategies Give You the Edge in 2026 \u2014 Practical Guide for Traders",
+        "url": "https://myfxbots.com/blog/forex-brokers/icmarkets/which-trading-strategies-edge-2026.html",
+        "description": "Which Trading Strategies Give You the Edge in 2026 \u2014 Practical Guide for Traders Nova vs Legacy: Risk\u2011Adjusted Returns That Matter AI in Automated Trading: Practical Uses, Limits, and What Traders Should Know Trading During Market Crashes: Why Smart Systems Sometimes Stay Out MT Terminal ...",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Can an Automated Trading Strategy Teach You How to Trade?",
+        "url": "https://automatedtradingstrategies.substack.com/p/can-an-automated-trading-strategy",
+        "description": "Strategy 3 was originally published on January 14, 2021. You can view the original here. It is still one of my favorite strategies. The edge is proven, which is why it\u2019s in the Q1 2026 Forward Test.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top Algo Trading Strategies & How They Work (2026 Guide)",
+        "url": "https://www.vpsforextrader.com/blog/algo-trading-strategies/",
+        "description": "Success in algorithmic trading depends entirely on selecting a strategy that aligns with your financial goals, risk tolerance, and the specific market you plan to trade. Don\u2019t just rely on your gut feeling. Every automated decision must be grounded in rigorous backtesting on historical data and cont",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.41,
+        "combined_score": 0.41,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Most Profitable Crypto Trading Strategy: Top 7 in 2026",
+        "url": "https://westafricatradehub.com/crypto/most-profitable-crypto-trading-strategy-for-2026-crypto-trading-strategies-explained/",
+        "description": "Learn 7 proven cryptocurrency trading strategies, from HODL and swing trading to day trading and scalping, plus risk management, technical analysis, and news tips.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "4 weeks ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "12 Best Algorithmic Trading Strategies to Know in 2026 - Snap Innovations",
+        "url": "https://snapinnovations.com/best-algo-trading-strategy/",
+        "description": "<strong>Trend following</strong> remains one of the most durable and profitable algorithmic trading strategies in 2026. The core principle is simple: prices that are moving in one direction tend to continue moving in that direction.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top 20 Trading Bot Strategies for 2026 | QuantVPS",
+        "url": "https://www.quantvps.com/blog/trading-bot-strategies",
+        "description": "This combination of speed, precision, and emotion-free execution has cemented <strong>momentum trading</strong> as a highly effective strategy in 2026, supported by advancements in AI and automation technology.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Best AI for stock trading: 12 powerful tools for investors in 2026",
+        "url": "https://monday.com/blog/ai-agents/best-ai-for-stock-trading/",
+        "description": "The platforms below represent the ... into 2026. Each approaches automation and analysis differently, giving you the flexibility to assemble a system that matches your trading style \u00b7 Agent Factory is built for traders who want control, not a black-box AI trading bot. Instead of promising automatic ",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "January 20, 2026",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "20 Automated Trading Strategies 2025 - QuantifiedStrategies.com",
+        "url": "https://www.quantifiedstrategies.com/automated-trading-systems/",
+        "description": "<strong>Yes, automated trading be very profitable if executed properly</strong>. However, while algorithmic trading has the potential to be profitable, it necessitates thorough backtesting, validation methods, and risk management techniques.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "200 Trading Strategies (Free) 2026 \u2014 Backtested With Settings - QuantifiedStrategies.com",
+        "url": "https://quantifiedstrategies.com/trading-strategies-free",
+        "description": "With trading strategies, there are many different ways to trade and as many different types of trading strategies. It\u2019s important to remember that what",
+        "category": "landscape",
+        "actionability_score": 0.35,
+        "impact_score": 0.2,
+        "combined_score": 0.28,
+        "age": "4 days ago",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "automated trading strategies profitable 2026",
+    "sources_count": 10,
+    "findings_count": 9,
+    "market_movers": 2,
+    "opportunities": 6
+  },
+  "error": null
+}

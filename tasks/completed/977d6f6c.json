@@ -1,0 +1,85 @@
+{
+  "id": "977d6f6c",
+  "title": "Polymarket research: Lightning vs. Hurricanes",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Lightning vs. Hurricanes",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:29:36.727102+00:00",
+  "updated_at": "2026-02-27T00:29:58.397386+00:00",
+  "claimed_at": "2026-02-27T00:29:56.886616+00:00",
+  "completed_at": "2026-02-27T00:29:58.397368+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Lightning vs. Hurricanes\n\nWeb Results (5):\n- Hurricanes vs Lightning Prediction: Lineup, Last Games, Injury Report, Player Props, H2H & Best Picks - NHL Feb 26, 2026: The Carolina Hurricanes host the Tampa Bay Lightning at Lenovo Center on <strong>February 26, 2026</strong>, in a high-quality Eastern Conference clas\n- How to watch Lightning vs. Hurricanes: TV channel and streaming options for February 26 - The Athletic: The Carolina Hurricanes (36-15-6) host the Tampa Bay Lightning (38-14-4) at Lenovo Center on <strong>Feb. 26, 2026</strong>, starting at 7 p.m.\n- Hurricanes vs. Lightning NHL Predictions, Picks and Odds - Feb. 26: <strong>The Hurricanes have a 59.7% chance (based on the moneyline&#x27;s implied probability) to win this game</strong>. Carolina and its opponent ha\n- Tampa Bay Lightning vs. Carolina Hurricanes 2023-2024 Matchup Tickets & Locations | SeatGeek: Lightning tickets can be found for as low as $23.00, with an average price of $92.00. Those interested in catching a Hurricanes vs. Lightning game sho\n- Carolina Hurricanes - Tampa Bay Lightning - Mar 11, 2025 | NHL.com: NHL Gamecenter - Carolina Hurricanes vs. Tampa Bay Lightning, <strong>Mar 11, 2025</strong> - summary, stats, boxscore, play by play, recap and more.\n\nNews (5):\n- Lightning take win streak into matchup with the Hurricanes :: WRALSportsFan.com (15 hours ago)\n- Game Preview and Thread: Hurricanes vs Lightning | Canes Country (8 hours ago)\n- How to watch Lightning vs. Hurricanes: TV channel and streaming options for February 26 - The Athletic (8 hours ago)\n- Lightning take win streak into matchup with the Hurricanes - The Washington Post (15 hours ago)\n- Hurricanes eager to regain pre-Olympic form vs. streaking Lightning - CBS Sports (12 hours ago)",
+    "web_results": [
+      {
+        "title": "Hurricanes vs Lightning Prediction: Lineup, Last Games, Injury Report, Player Props, H2H & Best Picks - NHL Feb 26, 2026",
+        "url": "https://www.sportpreferred.com/nhl/hurricanes-vs-lightning-prediction-lineup-last-games-injury-report-player-props-h2h-best-picks-nhl-feb-26-2026/8256",
+        "description": "The Carolina Hurricanes host the Tampa Bay Lightning at Lenovo Center on <strong>February 26, 2026</strong>, in a high-quality Eastern Conference clash between two of the league\u2019s most consistent teams this season."
+      },
+      {
+        "title": "How to watch Lightning vs. Hurricanes: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7072913/2026/02/26/how-to-watch-lightning-vs-hurricanes-tv-channel-and-streaming-options-for-february-26/",
+        "description": "The Carolina Hurricanes (36-15-6) host the Tampa Bay Lightning (38-14-4) at Lenovo Center on <strong>Feb. 26, 2026</strong>, starting at 7 p.m."
+      },
+      {
+        "title": "Hurricanes vs. Lightning NHL Predictions, Picks and Odds - Feb. 26",
+        "url": "https://www.dunkelindex.com/news/hurricanes-vs-lightning-nhl-predictions-picks-odds-2-26-2026",
+        "description": "<strong>The Hurricanes have a 59.7% chance (based on the moneyline&#x27;s implied probability) to win this game</strong>. Carolina and its opponent have gone over 6.5 combined goals in 29 of 57 games this season."
+      },
+      {
+        "title": "Tampa Bay Lightning vs. Carolina Hurricanes 2023-2024 Matchup Tickets & Locations | SeatGeek",
+        "url": "https://seatgeek.com/lightning-hurricanes-tickets",
+        "description": "Lightning tickets can be found for as low as $23.00, with an average price of $92.00. Those interested in catching a Hurricanes vs. Lightning game should be excited regardless of where the game takes place, as both teams play at energetic venues that focus on fan experience."
+      },
+      {
+        "title": "Carolina Hurricanes - Tampa Bay Lightning - Mar 11, 2025 | NHL.com",
+        "url": "https://www.nhl.com/gamecenter/car-vs-tbl/2025/03/11/2024021029",
+        "description": "NHL Gamecenter - Carolina Hurricanes vs. Tampa Bay Lightning, <strong>Mar 11, 2025</strong> - summary, stats, boxscore, play by play, recap and more."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Lightning take win streak into matchup with the Hurricanes :: WRALSportsFan.com",
+        "url": "https://www.wralsportsfan.com/lightning-take-win-streak-into-matchup-with-the-hurricanes/22328819/",
+        "description": "Tampa Bay Lightning (38-14-4, in the Atlantic Division) vs. Carolina Hurricanes (36-15-6, in the Metropolitan Division)",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "Game Preview and Thread: Hurricanes vs Lightning | Canes Country",
+        "url": "https://www.canescountry.com/carolina-hurricanes-game-day-previews/52945/game-preview-and-thread-hurricanes-vs-lightning",
+        "description": "Your best source for quality Carolina Hurricanes news, rumors, analysis, stats and scores from the fan perspective.",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "How to watch Lightning vs. Hurricanes: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7072913/2026/02/26/how-to-watch-lightning-vs-hurricanes-tv-channel-and-streaming-options-for-february-26/",
+        "description": "Find out how to watch the Tampa Bay Lightning play the Carolina Hurricanes, with time, TV channel and streaming information.",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "Lightning take win streak into matchup with the Hurricanes - The Washington Post",
+        "url": "https://www.washingtonpost.com/sports/nhl/2026/02/26/lightning-hurricanes-preview/4a78d23a-12f3-11f1-8e8d-fe91db44677b_story.html",
+        "description": "The Tampa Bay Lightning seek to keep a six-game win streak alive when they take on the Carolina Hurricanes",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "Hurricanes eager to regain pre-Olympic form vs. streaking Lightning - CBS Sports",
+        "url": "https://www.cbssports.com/nhl/news/hurricanes-eager-to-regain-pre-olympic-form-vs-streaking-lightning/",
+        "description": "It will be the first game since the Olympic break for the Hurricanes, who had several players participating in the Milan Cortina Games in Italy and three medalists. Tampa Bay also has an Olympic shine: forward Jake Guentzel, who briefly played for Carolina and was a member of the United States' gold-medal team, and coach Jon Cooper, who guided Canada to the silver medal. Yet Cooper isn't back with the Lightning ...",
+        "age": "12 hours ago"
+      }
+    ],
+    "query": "Lightning vs. Hurricanes",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "cb43627b",
+  "title": "Polymarket research: Will Cape Verde win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Cape Verde win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.527272+00:00",
+  "updated_at": "2026-03-01T07:28:41.832777+00:00",
+  "claimed_at": "2026-03-01T07:28:40.107069+00:00",
+  "completed_at": "2026-03-01T07:28:41.832762+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Cape Verde win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- Cape Verde World Cup 2026 Preview: Best Players, Roster, History | FOX Sports: <strong>Cape Verde qualified for the 2026 FIFA World Cup</strong> by finishing at the top of Group D in CAF qualifying, finishing four points ahead of\n- Cabo Verde gripped by World Cup emotion: We cannot provide a description for this page right now\n- Cape Verde World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports: <strong>Ryan Mendes and Cape Verde now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents, \n- 2026 FIFA World Cup Winner Predictions & Odds | Polymarket: Cape Verde \u00b7 $3,003,496 Vol. &lt;1% Buy Yes0.2\u00a2Buy No99.9\u00a2 \u00b7 Qatar \u00b7 $2,799,329 Vol. &lt;1% Buy Yes0.2\u00a2Buy No99.9\u00a2 \u00b7 View resolved \u00b7 <strong>This mark\n- Cape Verde clinches country's first-ever World Cup spot - ESPN: <strong>Cape Verde will play in the World Cup for the first time after beating Eswatini 3-0 to win their group in African qualifying for the 2026 Worl\n\nNews (5):\n- 2026 FIFA World Cup Predictions: Favorites, Dark Horses, and Who Will Lift the Trophy | TickPick (3 days ago)\n- Span to Win FIFA World Cup Odds and Predictions (Live) (2 weeks ago)\n- OFFICIAL! FIFA: \u201cThe 2026 World Cup Will Not Be Canceled in Mexico\u201d | beIN SPORTS (4 days ago)\n- Cape Verde World Cup 2026 Preview: Best Players, Roster, History | FOX Sports (January 2, 2026)\n- World Cup 2026 Predictions: Who is Going to Win Based on Football Data? - Sportmonks (2 days ago)",
+    "web_results": [
+      {
+        "title": "Cape Verde World Cup 2026 Preview: Best Players, Roster, History | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/cape-verde-world-cup-2026-preview-best-players-roster-history-jersey-predictions",
+        "description": "<strong>Cape Verde qualified for the 2026 FIFA World Cup</strong> by finishing at the top of Group D in CAF qualifying, finishing four points ahead of Cameroon."
+      },
+      {
+        "title": "Cabo Verde gripped by World Cup emotion",
+        "url": "https://www.fifa.com/en/articles/cabo-verde-qualification-reaction",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Cape Verde World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/cape-verde-world-cup-2026-schedule-locations-dates-times",
+        "description": "<strong>Ryan Mendes and Cape Verde now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents, which stadiums they will play at, and the times for the games."
+      },
+      {
+        "title": "2026 FIFA World Cup Winner Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/2026-fifa-world-cup-winner-595/will-cape-verde-win-the-2026-fifa-world-cup",
+        "description": "Cape Verde \u00b7 $3,003,496 Vol. &lt;1% Buy Yes0.2\u00a2Buy No99.9\u00a2 \u00b7 Qatar \u00b7 $2,799,329 Vol. &lt;1% Buy Yes0.2\u00a2Buy No99.9\u00a2 \u00b7 View resolved \u00b7 <strong>This market will resolve according to the national team that wins the 2026 FIFA World Cup</strong>."
+      },
+      {
+        "title": "Cape Verde clinches country's first-ever World Cup spot - ESPN",
+        "url": "https://www.espn.com/soccer/story/_/id/46584380/cape-verde-clinches-country-first-world-cup-spot",
+        "description": "<strong>Cape Verde will play in the World Cup for the first time after beating Eswatini 3-0 to win their group in African qualifying for the 2026 World Cup on Monday.</strong>"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "2026 FIFA World Cup Predictions: Favorites, Dark Horses, and Who Will Lift the Trophy | TickPick",
+        "url": "https://tickpick.com/blog/2026-world-cup-favorites",
+        "description": "Who will win the 2026 FIFA World Cup? Explore our expert predictions, top favorites, dark horses, & bold picks for the biggest tournament in soccer history",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Span to Win FIFA World Cup Odds and Predictions (Live)",
+        "url": "https://defirate.com/prediction-markets/world-cup-odds/spain/",
+        "description": "Spain opens its 2026 World Cup campaign against Cape Verde on June 15. Live odds updated every 30 minutes from Kalshi and Polymarket, plus key player updates and related markets.",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "OFFICIAL! FIFA: \u201cThe 2026 World Cup Will Not Be Canceled in Mexico\u201d | beIN SPORTS",
+        "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/official-fifa-the-2026-world-cup-will-not-be-canceled-in-mexico-2026-02-25",
+        "description": "Gianni Infantino confirmed Mexico will co-host the 2026 World Cup, with security guarantees in place and preparations moving forward.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Cape Verde World Cup 2026 Preview: Best Players, Roster, History | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/cape-verde-world-cup-2026-preview-best-players-roster-history-jersey-predictions",
+        "description": "Here's what you need to know about Cape Verde's national team ahead of the 2026 FIFA World Cup.",
+        "age": "January 2, 2026"
+      },
+      {
+        "title": "World Cup 2026 Predictions: Who is Going to Win Based on Football Data? - Sportmonks",
+        "url": "https://sportmonks.com/blogs/world-cup-2026-predictions-who-is-going-to-win-based-on-football-data",
+        "description": "World Cup 2026 predictions powered by football data. Explore win probabilities, team stats, predictive models, and API-driven analysis to see who is most likely to lift the trophy.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Cape Verde win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

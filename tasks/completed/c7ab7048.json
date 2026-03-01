@@ -1,0 +1,85 @@
+{
+  "id": "c7ab7048",
+  "title": "Polymarket research: Will Galatasaray win the 2025\u201326 Champions League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Galatasaray win the 2025\u201326 Champions League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.063167+00:00",
+  "updated_at": "2026-03-01T07:28:19.704526+00:00",
+  "claimed_at": "2026-03-01T07:28:17.703619+00:00",
+  "completed_at": "2026-03-01T07:28:19.704509+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Galatasaray win the 2025\u201326 Champions League?\n\nWeb Results (5):\n- Galatasaray | UEFA Champions League 2025/26 | UEFA.com: Visit UEFA.com to find out how Galatasaray are doing in the UEFA Champions League 2025/2026, including latest match news, stats, squad list and news u\n- Galatasaray | League phase table | UEFA Champions League 2025/26 | UEFA.com: Find out all you need to know about the clubs competing to win the UEFA Champions League 2025/2026\n- Champions League 2025-26 Power Rankings: Arsenal in pole position ahead of last-16 draw as PSG and Real Madrid stumble through play-offs - but Bodo/Glimt are the toast of Europe after stunning Inter | Goal.com: ... There&#x27;s no sugar-coating it: <strong>Galatasaray are very fortunate to be in the last 16.</strong> The Turkish champions won just three games\n- UCL bracket: Who are Galatasaray playing next in the 2025-26 UEFA Champions League after eliminating Juventus? - Bolavip US: Galatasaray will now play either No. 3 Liverpool or No. 4 Tottenham Hotspur. <strong>Galatasaray have already played Liverpool in the 2025-26 UEFA Cha\n- 2025/26 Champions League: All the fixtures and results | UEFA Champions League | UEFA.com: Wednesday 21 January 2026 Galatasaray 1-1 Atl\u00e9tico de Madrid Qaraba\u011f 3-2 Frankfurt Atalanta 2-3 Athletic Club Chelsea 1-0 Pafos Bayern M\u00fcnchen 2-0 Uni\n\nNews (5):\n- Champions League 2025-26 Power Rankings: Arsenal in pole position ahead of last-16 draw as PSG and Real Madrid stumble through play-offs - but Bodo/Glimt are the toast of Europe after stunning Inter | Goal.com (2 days ago)\n- 2025/26 Champions League: All the fixtures and results | UEFA Champions League | UEFA.com (2 days ago)\n- Champions League Draw 2025-26: Who Are the UCL Favourites After Knockout Stage Draw? | Opta Analyst (1 day ago)\n- UCL bracket: Who are Galatasaray playing next in the 2025-26 UEFA Champions League after eliminating Juventus? - Bolavip US (3 days ago)\n- Champions League last-16 draw live updates: Real Madrid draw Manchester City, PSG vs Chelsea and more - The Athletic (2 days ago)",
+    "web_results": [
+      {
+        "title": "Galatasaray | UEFA Champions League 2025/26 | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/clubs/50067--galatasaray/",
+        "description": "Visit UEFA.com to find out how Galatasaray are doing in the UEFA Champions League 2025/2026, including latest match news, stats, squad list and news updates."
+      },
+      {
+        "title": "Galatasaray | League phase table | UEFA Champions League 2025/26 | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/clubs/50067--galatasaray/standings/",
+        "description": "Find out all you need to know about the clubs competing to win the UEFA Champions League 2025/2026"
+      },
+      {
+        "title": "Champions League 2025-26 Power Rankings: Arsenal in pole position ahead of last-16 draw as PSG and Real Madrid stumble through play-offs - but Bodo/Glimt are the toast of Europe after stunning Inter | Goal.com",
+        "url": "https://www.goal.com/en/lists/champions-league-2025-26-power-rankings/blt04f1d035afcafe91",
+        "description": "... There&#x27;s no sugar-coating it: <strong>Galatasaray are very fortunate to be in the last 16.</strong> The Turkish champions won just three games in the league stage and took just one point from their final four fixtures."
+      },
+      {
+        "title": "UCL bracket: Who are Galatasaray playing next in the 2025-26 UEFA Champions League after eliminating Juventus? - Bolavip US",
+        "url": "https://bolavip.com/en/soccer/ucl-bracket-who-are-galatasaray-playing-next-in-the-2025-26-uefa-champions-league-after-eliminating-juventus",
+        "description": "Galatasaray will now play either No. 3 Liverpool or No. 4 Tottenham Hotspur. <strong>Galatasaray have already played Liverpool in the 2025-26 UEFA Champions League</strong>."
+      },
+      {
+        "title": "2025/26 Champions League: All the fixtures and results | UEFA Champions League | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a2f63fe2d-ebf9ad643892-1000--2025-26-champions-league-all-the-fixtures-and-results/",
+        "description": "Wednesday 21 January 2026 Galatasaray 1-1 Atl\u00e9tico de Madrid Qaraba\u011f 3-2 Frankfurt Atalanta 2-3 Athletic Club Chelsea 1-0 Pafos Bayern M\u00fcnchen 2-0 Union Saint-Gilloise Juventus 2-0 Benfica Newcastle United 3-0 PSV Eindhoven Marseille 0-3 Liverpool Slavia Praha 2-4 Barcelona \u00b7 Champions League highlights: Slavia Praha 2-4 Barcelona \u00b7 Tuesday 9 December 2025 Kairat Almaty 0-1 Olympiacos Bayern M\u00fcnchen 3-1 Sporting CP Monaco 1-0 Galatasaray Atalanta 2-1 Chelsea Barcelona 2-1 Frankfurt Inter 0-1 Liverpool PSV Eindhoven 2-3 Atl\u00e9tico de Madrid Union Saint-Gilloise 2-3 Marseille Tottenham 3-0 Slavia Praha"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Champions League 2025-26 Power Rankings: Arsenal in pole position ahead of last-16 draw as PSG and Real Madrid stumble through play-offs - but Bodo/Glimt are the toast of Europe after stunning Inter | Goal.com",
+        "url": "https://www.goal.com/en/lists/champions-league-2025-26-power-rankings/blt04f1d035afcafe91",
+        "description": "GOAL's 2025-26 Champions League Power Rankings rates each team's chances of winning this season's competition",
+        "age": "2 days ago"
+      },
+      {
+        "title": "2025/26 Champions League: All the fixtures and results | UEFA Champions League | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a2f63fe2d-ebf9ad643892-1000--2025-26-champions-league-all-the-fixtures-and-results/",
+        "description": "Thursday 18 September 2025 Club ... Frankfurt 5-1 Galatasaray Manchester City 2-0 Napoli Newcastle United 1-2 Barcelona Sporting CP 4-1 Kairat Almaty ... The 36 sides have discovered who their opponents will be in the league phase of the 2025/26 UEFA Champions Leagu...",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Champions League Draw 2025-26: Who Are the UCL Favourites After Knockout Stage Draw? | Opta Analyst",
+        "url": "https://theanalyst.com/articles/champions-league-draw-2025-26-knockout-stage-predictions-opta-supercomputer",
+        "description": "With Friday's UEFA Champions League draw mapping paths to the final, the Opta supercomputer assesses each team's chances of glory.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "UCL bracket: Who are Galatasaray playing next in the 2025-26 UEFA Champions League after eliminating Juventus? - Bolavip US",
+        "url": "https://bolavip.com/en/soccer/ucl-bracket-who-are-galatasaray-playing-next-in-the-2025-26-uefa-champions-league-after-eliminating-juventus",
+        "description": "UCL bracket: Who are Real Madrid playing next in the 2025-26 UEFA Champions League after beating Benfica? Liverpool FC vs Galatasaray and Tottenham vs Atletico Madrid \u00b7 Tottenham vs Galatasaray and Liverpool FC vs Atletico Madrid ... Liverpool and Galatasaray have met in the UEFA Champions League five times in the past. So far, the latter own bragging rights with two wins...",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Champions League last-16 draw live updates: Real Madrid draw Manchester City, PSG vs Chelsea and more - The Athletic",
+        "url": "https://www.nytimes.com/athletic/live-blogs/champions-league-last-16-draw-live-updates/Y4Ivqpp0la5L/",
+        "description": "Follow live reaction after the draw for the Champions League last 16 was made in Nyon.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Galatasaray win the 2025\u201326 Champions League?",
+    "sources_count": 10
+  },
+  "error": null
+}

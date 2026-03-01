@@ -1,0 +1,128 @@
+{
+  "id": "89eaf9a4",
+  "title": "Python trading libraries new releases 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "Python trading libraries new releases 2026",
+    "category": "tech_upgrades"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T21:46:08.173119+00:00",
+  "updated_at": "2026-02-26T21:46:09.988736+00:00",
+  "claimed_at": "2026-02-26T21:46:08.180950+00:00",
+  "completed_at": "2026-02-26T21:46:09.988722+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: Python trading libraries new releases 2026\n\nFindings (9):\n- [revenue_opportunity] Weekly Python Trending Projects You Should Track \u00b7 Technical news about AI, coding and all (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Python, IBKR API, Algo Trading, Risk Management (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] 4 Python Libraries That Turned My Weekend Hack Into Revenue | by Arfa | Feb, 2026 | Medium (action=0.4, impact=0.35)\n  \u2192 LOG for awareness\n- [tech_upgrade] PyAlgoTrade - Python Algorithmic Trading Library (action=0.45, impact=0.26)\n  \u2192 LOG for awareness\n- [tech_upgrade] 17 Python Open-source Libraries for Trading | by Tattva Tarang | Coding Nexus | Jan, 2026 | Medium (action=0.45, impact=0.2)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Weekly Python Trending Projects You Should Track \u00b7 Technical news about AI, coding and all",
+        "url": "https://dasroot.net/posts/2026/02/weekly-python-trending-projects",
+        "description": "Explore the top Python projects in 2026, including Polars, LlamaIndex, and GeoAI, with practical use cases in finance, AI, and data science. Stay ahead with the latest trends and tools.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "4 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Python, IBKR API, Algo Trading, Risk Management",
+        "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/getting-started-with-the-interactive-brokers-python-api/",
+        "description": "The broker offers a powerful Application Programming Interface (API) that allows traders and developers to access real-time market data, place orders, and manage their accounts programmatically.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "4 Python Libraries That Turned My Weekend Hack Into Revenue | by Arfa | Feb, 2026 | Medium",
+        "url": "https://medium.com/@arfaali/4-python-libraries-that-turned-my-weekend-hack-into-revenue-df217bd2243c",
+        "description": "How I Stopped Building \u201cCool Projects\u201d and Started Building Assets.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "PyAlgoTrade - Python Algorithmic Trading Library",
+        "url": "https://gbeced.github.io/pyalgotrade/",
+        "description": "PyAlgoTrade is a Python Algorithmic Trading Library with focus on backtesting and support for paper-trading and live-trading. Let\u2019s say you have an idea for a trading strategy and you\u2019d like to evaluate it with historical data and see how it behaves. PyAlgoTrade allows you to do so with ...",
+        "category": "tech_upgrade",
+        "actionability_score": 0.45,
+        "impact_score": 0.26,
+        "combined_score": 0.35,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "17 Python Open-source Libraries for Trading | by Tattva Tarang | Coding Nexus | Jan, 2026 | Medium",
+        "url": "https://medium.com/coding-nexus/17-python-open-source-libraries-for-trading-0b0e629e38f9",
+        "description": "Whether you\u2019re exploring the depths of Python, diving into data science, mastering web development, or staying updated on the latest trends in AI, <strong>Coding Nexus</strong> has something for you.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.45,
+        "impact_score": 0.2,
+        "combined_score": 0.32,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "12 Python Libraries You Need to Try in 2026 - KDnuggets",
+        "url": "https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026",
+        "description": "These are 12 Python libraries that made waves in 2025, and that every developer should try in 2026.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "2 weeks ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Python Trading Libraries for Algo Trading and Stock Analysis",
+        "url": "https://www.quantinsti.com/articles/python-trading-library/",
+        "description": "Explore essential Python libraries for algorithmic trading, data visualization, technical analysis, backtesting, and machine learning. Learn how these libraries help traders analyze financial data and develop trading strategies.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "1 week ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "r/algotrading on Reddit: Which Python libraries I should use for algo trading?",
+        "url": "https://www.reddit.com/r/algotrading/comments/vhvvlj/which_python_libraries_i_should_use_for_algo/",
+        "description": "My data source is currently MetaTrader 5 (it has a ready to use libraries for Python) ...",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Python Libraries for Quantitative Trading | QuantStart",
+        "url": "https://www.quantstart.com/articles/python-libraries-for-quantitative-trading/",
+        "description": "This guide introduces the most important Python libraries that will help junior developers get started. These libraries are widely used in the industry for everything from data manipulation to real-time trading system development.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "Python trading libraries new releases 2026",
+    "sources_count": 10,
+    "findings_count": 9,
+    "market_movers": 0,
+    "opportunities": 3
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ff6114ec",
+  "title": "Polymarket research: Rockets vs. Magic",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Rockets vs. Magic",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:17.896721+00:00",
+  "updated_at": "2026-02-26T23:32:40.593628+00:00",
+  "claimed_at": "2026-02-26T23:32:39.144941+00:00",
+  "completed_at": "2026-02-26T23:32:40.593611+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Rockets vs. Magic\n\nWeb Results (5):\n- Kalshi Promo Code ODDSCHECKER: Trade $10, get $10 on Houston Rockets vs Orlando Magic: Kalshi\u2019s ODDSCHECKER promo is one of the simplest ways to get a guaranteed return on tonight\u2019s Houston Rockets vs Orlando Magic matchup.\n- NBA Best Bets: Rockets vs. Magic Prop Bets for Thursday 2/26/26: The Rockets are the best rebounding team in the NBA, leading the league in boards per game and rebound percentage. Banchero\u2019s rebounding numbers have \n- Houston Rockets vs. Orlando Magic Head-to-Head in the NBA Regular Season - All-Time Game Log: The Rockets and the Orlando Magic have played 73 games in the regular season with <strong>41 victories for the Rockets and 32 for the Magic</strong>.\n- Rockets vs. Magic Player Props Today | Durant & Banchero Picks: My Rockets vs. Magic player props today feature two Unders as part of our NBA picks and best bets for Thursday. Tipoff from Kia Center in Orlando, Fla\n- Magic vs Rockets scores & predictions | Sofascore: Orlando Magic is playing against Houston Rockets on <strong>Feb 27, 2026 at 12:30:00 AM UTC</strong>.\n\nNews (5):\n- Houston Rockets vs Orlando Magic Prediction, 2/26/2026 Preview and Pick (1 day ago)\n- Rockets vs. Magic odds, line: Proven model reveals NBA picks for matchup on Thursday, February 26 - SportsLine.com (20 hours ago)\n- Rockets vs. Magic odds update: Experts adjust predictions; Kevin Durant and Paolo Banchero headline player props - syracuse.com (9 hours ago)\n- Rockets vs Magic Prediction, Best Bets and Player Props | FanDuel Research (8 hours ago)\n- Banchero and the Magic take on Sengun and the Rockets | FOX Sports (17 hours ago)",
+    "web_results": [
+      {
+        "title": "Kalshi Promo Code ODDSCHECKER: Trade $10, get $10 on Houston Rockets vs Orlando Magic",
+        "url": "https://www.oddschecker.com/us/insight/basketball/nba/20260226-kalshi-promo-code-oddschecker-trade-$10-get-$10-on-houston-rockets-vs-orlando-magic",
+        "description": "Kalshi\u2019s ODDSCHECKER promo is one of the simplest ways to get a guaranteed return on tonight\u2019s Houston Rockets vs Orlando Magic matchup."
+      },
+      {
+        "title": "NBA Best Bets: Rockets vs. Magic Prop Bets for Thursday 2/26/26",
+        "url": "https://dknetwork.draftkings.com/2026/02/26/nba-best-bets-rockets-vs-magic-prop-bets-for-thursday-2-26-26/",
+        "description": "The Rockets are the best rebounding team in the NBA, leading the league in boards per game and rebound percentage. Banchero\u2019s rebounding numbers have taken a notable dip this month. He\u2019s averaging just 7.4 rebounds per game in February, compared to 9.2 boards per night in January. The Magic will need Banchero\u2019s offense against the Rockets, and the former first overall pick will have to put in some tough shifts defending Kevin Durant on the other end."
+      },
+      {
+        "title": "Houston Rockets vs. Orlando Magic Head-to-Head in the NBA Regular Season - All-Time Game Log",
+        "url": "https://www.landofbasketball.com/head_to_head_gl/rockets_vs_magic_game_log_season.htm",
+        "description": "The Rockets and the Orlando Magic have played 73 games in the regular season with <strong>41 victories for the Rockets and 32 for the Magic</strong>."
+      },
+      {
+        "title": "Rockets vs. Magic Player Props Today | Durant & Banchero Picks",
+        "url": "https://www.sportsbookreview.com/picks/nba/rockets-vs-magic-player-props-feb-26-2026/",
+        "description": "My Rockets vs. Magic player props today feature two Unders as part of our NBA picks and best bets for Thursday. Tipoff from Kia Center in Orlando, Fla., is set for <strong>7:30 p.m. ET (Prime Video), with the Rockets entering as a 3-point betting favorite</strong>."
+      },
+      {
+        "title": "Magic vs Rockets scores & predictions | Sofascore",
+        "url": "https://www.sofascore.com/basketball/match/orlando-magic-houston-rockets/mtbsMtb",
+        "description": "Orlando Magic is playing against Houston Rockets on <strong>Feb 27, 2026 at 12:30:00 AM UTC</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Houston Rockets vs Orlando Magic Prediction, 2/26/2026 Preview and Pick",
+        "url": "https://www.docsports.com/free-picks/nba/2026/houston-rockets-vs-orlando-magic-prediction-2-26-2026-preview-and-pick.html",
+        "description": "The Houston Rockets will take on the Orlando Magic on 2/26/26. Doc's Sports Prediction, Preview, and Pick Inside",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Rockets vs. Magic odds, line: Proven model reveals NBA picks for matchup on Thursday, February 26 - SportsLine.com",
+        "url": "https://www.sportsline.com/insiders/rockets-vs-magic-odds-line-proven-model-reveals-nba-picks-for-matchup-on-thursday-february-26/",
+        "description": "A cross-conference matchup on Thursday's NBA schedule has the Orlando Magic hosting the Houston Rockets. Orlando (31-26) is coming off back-to-ba...",
+        "age": "20 hours ago"
+      },
+      {
+        "title": "Rockets vs. Magic odds update: Experts adjust predictions; Kevin Durant and Paolo Banchero headline player props - syracuse.com",
+        "url": "https://www.syracuse.com/betting/2026/02/rockets-vs-magic-odds-update-experts-adjust-predictions-kevin-durant-and-paolo-banchero-headline-player-props.html",
+        "description": "Get the Rockets vs. Magic expert prediction, projected score from Dimers sims, best bet, projected box scores, and DraftKings Same Game Parlay insights featuring Kevin Durant and Paolo Banchero.",
+        "age": "9 hours ago"
+      },
+      {
+        "title": "Rockets vs Magic Prediction, Best Bets and Player Props | FanDuel Research",
+        "url": "https://www.fanduel.com/research/rockets-magic-prediction-best-bets-player-props-nba",
+        "description": "While this is the second leg of a back to back for the Rockets, Orlando last played on Tuesday in LA and had to fly all the way across the country after that one, so it's not like the Magic have a huge rest advantage.",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "Banchero and the Magic take on Sengun and the Rockets | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/banchero-and-the-magic-take-on-sengun-and-the-rockets",
+        "description": "Houston Rockets (36-21, third in the Western Conference) vs. Orlando Magic (31-26, seventh in the Eastern Conference)",
+        "age": "17 hours ago"
+      }
+    ],
+    "query": "Rockets vs. Magic",
+    "sources_count": 10
+  },
+  "error": null
+}

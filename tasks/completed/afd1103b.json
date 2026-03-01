@@ -1,0 +1,85 @@
+{
+  "id": "afd1103b",
+  "title": "Polymarket research: Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:28:41.387793+00:00",
+  "updated_at": "2026-03-01T08:29:04.231818+00:00",
+  "claimed_at": "2026-03-01T08:29:02.005804+00:00",
+  "completed_at": "2026-03-01T08:29:04.231801+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Gavin Newsom win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- 2028 United States presidential election - Wikipedia: Newsom has been viewed as a contender ... a bid for the presidency by September 2023. After Newsom&#x27;s response to the June 2025 Los Angeles protes\n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times: Nate Silver: The first pick, made by Galen Druke, was Gov. Gavin Newsom of California. But <strong>I would have taken Newsom, too. Either he or Kamala\n- Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket: <strong>The current frontrunner for &quot;Democratic Presidential Nominee 2028&quot; is &quot;Gavin Newsom&quot; at 26%</strong>, meaning the market a\n- For Gavin Newsom, now comes the hard part: As the Valley Girls of the California of Newsom\u2019s youth would have put it, \u201cgag me with a spoon.\u201d And while it is ridiculous, it is part of what makes\n- New poll reveals Democrats' top picks for 2028 presidential race - Newsweek: Several prominent Democrats, including former Vice President Kamala Harris, <strong>California Governor Gavin Newsom and New York Representative Alexa\n\nNews (5):\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (3 days ago)\n- The next 2 years will be a bumpy ride for Democratic presidential candidates (4 days ago)\n- Gavin Newsom says JD Vance is \u201cdangerous\u201d: He \u201cscares me almost more than Trump\u201d (3 days ago)\n- Opinion | Democrat Gavin Newsom emerges as early 2028 presidential front-runner - The Washington Post (3 weeks ago)\n- New Poll Reveals Favorite To Win 2028 Democratic Primary | iHeart (3 days ago)",
+    "web_results": [
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "Newsom has been viewed as a contender ... a bid for the presidency by September 2023. After Newsom&#x27;s response to the June 2025 Los Angeles protests, it was reported that <strong>his chances of being the 2028 Democratic nominee increased significantly</strong>...."
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "Nate Silver: The first pick, made by Galen Druke, was Gov. Gavin Newsom of California. But <strong>I would have taken Newsom, too. Either he or Kamala Harris is ahead in basically every poll.</strong>"
+      },
+      {
+        "title": "Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
+        "description": "<strong>The current frontrunner for &quot;Democratic Presidential Nominee 2028&quot; is &quot;Gavin Newsom&quot; at 26%</strong>, meaning the market assigns a 26% chance to that outcome."
+      },
+      {
+        "title": "For Gavin Newsom, now comes the hard part",
+        "url": "https://thehill.com/homenews/campaign/5730128-gavin-newsom-political-analysis/",
+        "description": "As the Valley Girls of the California of Newsom\u2019s youth would have put it, \u201cgag me with a spoon.\u201d And while it is ridiculous, it is part of what makes him the front-runner. Vogue doesn\u2019t get to pick the 2028 Democratic nominee any more than Vanity Fair got to decide in 2020, when it gave similarly fawning treatment and Leibovitz\u2019s lens to Beto O\u2019Rourke."
+      },
+      {
+        "title": "New poll reveals Democrats' top picks for 2028 presidential race - Newsweek",
+        "url": "https://www.newsweek.com/poll-democrats-top-picks-2028-presidential-race-11522664",
+        "description": "Several prominent Democrats, including former Vice President Kamala Harris, <strong>California Governor Gavin Newsom and New York Representative Alexandria Ocasio-Cortez, have been floated as likely contenders</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc/",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "3 days ago"
+      },
+      {
+        "title": "The next 2 years will be a bumpy ride for Democratic presidential candidates",
+        "url": "https://thehill.com/opinion/campaign/5753519-democratic-presidential-race-2028/",
+        "description": "The 2028 Democratic presidential nomination contest is wide open and subject to lots of change, with California Gov. Gavin Newsom and former Vice President Kamala Harris leading the field in an ear\u2026",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Gavin Newsom says JD Vance is \u201cdangerous\u201d: He \u201cscares me almost more than Trump\u201d",
+        "url": "https://www.ms.now/news/gavin-newsom-jd-vance-2028-election-dangerous-trump-third-term",
+        "description": "California Gov. Gavin Newsom speaks to MS NOW about his possible 2028 Republican rival, JD Vance, as Trump's third-term threats loom.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Opinion | Democrat Gavin Newsom emerges as early 2028 presidential front-runner - The Washington Post",
+        "url": "https://www.washingtonpost.com/opinions/2026/02/05/gavin-newsom-presidential-race-2028-front-runner/",
+        "description": "Gavin Newsom\u2019s bet on joyful combat and coiffed charisma is paying dividends.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "New Poll Reveals Favorite To Win 2028 Democratic Primary | iHeart",
+        "url": "https://www.iheart.com/content/2026-02-26-new-poll-reveals-favorite-to-win-2028-democratic-primary/",
+        "description": "California Gov. Gavin Newsom is reportedly the current favorite to win the 2028 Democratic presidential nomination, according to the latest Emerson College Polling survey released on Thursday (February 26).",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "cc5b34ca",
+  "title": "Polymarket research: Will Bitcoin reach $80,000 in February?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $80,000 in February?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:16.404633+00:00",
+  "updated_at": "2026-02-26T23:32:08.906043+00:00",
+  "claimed_at": "2026-02-26T23:32:07.060534+00:00",
+  "completed_at": "2026-02-26T23:32:08.906006+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $80,000 in February?\n\nWeb Results (5):\n- Bitcoin (BTC) Price Prediction: Bitcoin Poised for Volatile $80K\u2013$100K Breakout Amid Compression and Liquidity Sweeps - Brave New Coin: Observing BTC price today across ... directional move. In a 4-hour chart analysis from February 1 to 4, <strong>BTC compressed within a narrowing $74,\n- What price will Bitcoin hit in February? Prediction Market Prices - Yahoo Finance: Live pricing, charts, and volume for the What price will Bitcoin hit in February? prediction market from Yahoo Finance.\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?: Bitcoin Price Prediction 2026: ... resistance unless a decisive breakout occurs. <strong>A sustained move above the 20 EMA near $73,300 could open ups\n- Can Bitcoin Reach $80K This Month?: Bitcoin trades near $70,310, with a 24-hour volume near $38.96B shown on the same page. <strong>Reaching $80,000 from $70,310 requires roughly a +13.8\n- Can Bitcoin Rebound to $80K? Futures Data and a BARR Bottom Say It\u2019s Possible | FXEmpire: Bitcoin (BTC) <strong>may rebound toward $80,000 in February</strong>, based on futures liquidation data.\n\nNews (5):\n- bitcoin price today: Why is Bitcoin price rising now and will BTC touch $80,000 next? Bitcoin price prediction, analysts insights and market outlook explained. Here's what should investors do now - The Economic Times (7 hours ago)\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026? (3 days ago)\n- Bitcoin price news: BTC narrows big early losses, rallying back above $64,000 (2 days ago)\n- Bitcoin Price Prediction: $80K Liquidity in Focus After $69K Reclaim (13 hours ago)\n- Bitcoin Price Drops Below $80,000 as New Buyers Rush to Accumulate (1 month ago)",
+    "web_results": [
+      {
+        "title": "Bitcoin (BTC) Price Prediction: Bitcoin Poised for Volatile $80K\u2013$100K Breakout Amid Compression and Liquidity Sweeps - Brave New Coin",
+        "url": "https://bravenewcoin.com/insights/bitcoin-btc-price-prediction-bitcoin-poised-for-volatile-80k-100k-breakout-amid-compression-and-liquidity-sweeps",
+        "description": "Observing BTC price today across ... directional move. In a 4-hour chart analysis from February 1 to 4, <strong>BTC compressed within a narrowing $74,000\u2013$80,000 range</strong>, with volume gradually declining...."
+      },
+      {
+        "title": "What price will Bitcoin hit in February? Prediction Market Prices - Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/prediction/event/what-price-will-bitcoin-hit-in-february-2026/",
+        "description": "Live pricing, charts, and volume for the What price will Bitcoin hit in February? prediction market from Yahoo Finance."
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Bitcoin Price Prediction 2026: ... resistance unless a decisive breakout occurs. <strong>A sustained move above the 20 EMA near $73,300 could open upside toward the $80,700 zone</strong>, while a daily close below $65,000 may expose Bitcoin ..."
+      },
+      {
+        "title": "Can Bitcoin Reach $80K This Month?",
+        "url": "https://cryptoadventure.com/can-bitcoin-reach-80k-this-month/",
+        "description": "Bitcoin trades near $70,310, with a 24-hour volume near $38.96B shown on the same page. <strong>Reaching $80,000 from $70,310 requires roughly a +13.8% move</strong>. That is realistic in crypto, but the timing matters."
+      },
+      {
+        "title": "Can Bitcoin Rebound to $80K? Futures Data and a BARR Bottom Say It\u2019s Possible | FXEmpire",
+        "url": "https://www.fxempire.com/forecasts/article/can-bitcoin-rebound-to-80k-futures-data-and-a-barr-bottom-say-its-possible-1578529",
+        "description": "Bitcoin (BTC) <strong>may rebound toward $80,000 in February</strong>, based on futures liquidation data."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "bitcoin price today: Why is Bitcoin price rising now and will BTC touch $80,000 next? Bitcoin price prediction, analysts insights and market outlook explained. Here's what should investors do now - The Economic Times",
+        "url": "https://economictimes.indiatimes.com/news/international/us/why-is-bitcoin-price-rising-now-and-will-btc-touch-80000-next-bitcoin-price-prediction-analysts-insights-and-market-outlook-explained-heres-what-should-investors-do-now/articleshow/128819758.cms",
+        "description": "Why is Bitcoin price rising now and will BTC touch $80,000 next? Bitcoin price prediction shows BTC near $69,000 with ETF inflows, liquidation clusters and support levels driving momentum. The support at $68,000, resistance near $75,000 and liquidation zones near $80,000 shaping Bitcoin price ...",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Explore the latest Bitcoin price forecast for Feb 2026 as BTC slips below key support amid U.S. tariff tensions. Can it hold $60K? Read our analysis.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Bitcoin price news: BTC narrows big early losses, rallying back above $64,000",
+        "url": "https://www.coindesk.com/markets/2026/02/24/bitcoin-retakes-usd64-000-crypto-miners-rally-as-ai-related-software-rout-eases",
+        "description": "Sellers are taking a breather as bitcoin's Fear & Greed Index plunged to levels never seen before.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction: $80K Liquidity in Focus After $69K Reclaim",
+        "url": "https://coinpaper.com/14943/bitcoin-price-prediction-80-k-liquidity-in-focus-after-69-k-reclaim",
+        "description": "Bitcoin reclaims $69K as liquidation heatmap shows heavy liquidity stacked toward $80K, with the weekly EMA200 now the key level to watch.",
+        "age": "13 hours ago"
+      },
+      {
+        "title": "Bitcoin Price Drops Below $80,000 as New Buyers Rush to Accumulate",
+        "url": "https://finance.yahoo.com/news/bitcoin-price-drops-below-80-174544304.html",
+        "description": "Bitcoin price dipped below $80k as 335,000 new wallets signal rising adoption despite short-term BTC price weakness.",
+        "age": "1 month ago"
+      }
+    ],
+    "query": "Will Bitcoin reach $80,000 in February?",
+    "sources_count": 10
+  },
+  "error": null
+}

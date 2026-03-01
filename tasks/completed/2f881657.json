@@ -1,0 +1,85 @@
+{
+  "id": "2f881657",
+  "title": "Polymarket research: Will the US strike Somalia next?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the US strike Somalia next?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:49.052577+00:00",
+  "updated_at": "2026-03-01T07:29:03.989325+00:00",
+  "claimed_at": "2026-03-01T07:29:01.588797+00:00",
+  "completed_at": "2026-03-01T07:29:03.989309+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the US strike Somalia next?\n\nWeb Results (5):\n- US intervention in Somalia: Amnesty International concluded that the actual number of U.S. airstrikes conducted in Somalia exceeded officially reported figures, and that AFRICOM \n- Secretary of Defense Pete Hegseth Statement on U.S. Africa Command Strikes in Somalia: At President Trump&#x27;s direction and in coordination with the government of Somalia, Defense Secretary Pete Hegseth authorized U.S. Africa Command \n- US launches wave of strikes in Somalia targeting ISIS, al-Shabab terror threats: TRUMP VOWS &#x27;VERY SERIOUS RETALIATION&#x27; AGAINST ISIS AFTER DEADLY SYRIA AMBUSH KILLS US SOLDIERS \u00b7 U.S. forces conclude an operation targeting\n- America's Counterterrorism Wars: The War in Somalia: Tracking the United States&#x27;s drone strikes and other operations in Pakistan, Yemen, Somalia, and Libya.\n- As U.S. Bombs Somalia, Israel Shakes Status Quo on Horn of Africa: In January, U.S. Africa Command struck what it said were Islamic State and Al Qaeda targets in Somalia almost daily, and on each occasion it made a po\n\nNews (5):\n- U.S. Forces Conduct Strike Targeting ISIS-Somalia (2 weeks ago)\n- Saudi Arabia Confronts the Israel\u2013UAE Alignment in Somalia (3 days ago)\n- The biggest military operation of the Trump administration isn\u2019t Iran or Venezuela. | Vox (2 weeks ago)\n- US dramatically escalates air strikes on Somalia under Trump this year | Drone Strikes News | Al Jazeera (December 17, 2025)\n- US launches wave of strikes in Somalia targeting ISIS, al-Shabab terror threats (January 14, 2026)",
+    "web_results": [
+      {
+        "title": "US intervention in Somalia",
+        "url": "https://en.wikipedia.org/wiki/US_intervention_in_Somalia",
+        "description": "Amnesty International concluded that the actual number of U.S. airstrikes conducted in Somalia exceeded officially reported figures, and that AFRICOM has repeatedly misclassified Somali civilians killed in these strikes as \u201cterrorists&quot;."
+      },
+      {
+        "title": "Secretary of Defense Pete Hegseth Statement on U.S. Africa Command Strikes in Somalia",
+        "url": "https://www.war.gov/News/Releases/Release/Article/4050461/secretary-of-defense-pete-hegseth-statement-on-us-africa-command-strikes-in-som/",
+        "description": "At President Trump&#x27;s direction and in coordination with the government of Somalia, Defense Secretary Pete Hegseth authorized U.S. Africa Command to conduct coordinated airstrikes targeting"
+      },
+      {
+        "title": "US launches wave of strikes in Somalia targeting ISIS, al-Shabab terror threats",
+        "url": "https://www.foxnews.com/world/us-launches-wave-strikes-somalia-targeting-isis-al-shabab-terror-threats",
+        "description": "TRUMP VOWS &#x27;VERY SERIOUS RETALIATION&#x27; AGAINST ISIS AFTER DEADLY SYRIA AMBUSH KILLS US SOLDIERS \u00b7 U.S. forces conclude an operation targeting ISIS in Somalia in <strong>August 2025</strong>. (Hannah Kantner/AFRICOM) Additional airstrikes targeting al-Shabab ..."
+      },
+      {
+        "title": "America's Counterterrorism Wars: The War in Somalia",
+        "url": "https://www.newamerica.org/future-security/reports/americas-counterterrorism-wars/the-war-in-somalia/",
+        "description": "Tracking the United States&#x27;s drone strikes and other operations in Pakistan, Yemen, Somalia, and Libya."
+      },
+      {
+        "title": "As U.S. Bombs Somalia, Israel Shakes Status Quo on Horn of Africa",
+        "url": "https://www.nytimes.com/2026/02/12/world/africa/israel-somaliland-mideast-trump.html",
+        "description": "In January, U.S. Africa Command struck what it said were Islamic State and Al Qaeda targets in Somalia almost daily, and on each occasion it made a point of saying the attacks were conducted in coordination with the Somali government. \u201cWe do not want to imperil our ability to carry out these strikes against Somalia terrorism,\u201d said Cameron Hudson, an Africa expert at the Center for Strategic and International Studies, a think-tank in Washington, summarizing an argument he said has been made by senior U.S."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "U.S. Forces Conduct Strike Targeting ISIS-Somalia",
+        "url": "https://www.africom.mil/pressrelease/36253/us-forces-conduct-strike-targeting-isis-somalia",
+        "description": "In coordination with the Federal Government of Somalia, U.S. Africa Command (AFRICOM) conducted an airstrike targeting ISIS-Somalia on Feb. 13, 2026.",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "Saudi Arabia Confronts the Israel\u2013UAE Alignment in Somalia",
+        "url": "https://arabcenterdc.org/resource/saudi-arabia-confronts-the-israel-uae-alignment-in-somalia/",
+        "description": "Israel\u2019s December 2025 decision to recognize Somaliland\u2019s unilateral declaration of independence was of grave concern to Saudi Arabia. Riyadh sees Somalia\u2019s territorial integrity as essential to security in the Red Sea and Gulf of Aden. From the Saudi perspective, Israeli and Emirati ...",
+        "age": "3 days ago"
+      },
+      {
+        "title": "The biggest military operation of the Trump administration isn\u2019t Iran or Venezuela. | Vox",
+        "url": "https://www.vox.com/politics/478961/trump-somalia-airstrikes-shabab-isis",
+        "description": "Why did the US bomb Somalia more than 100 times last year?",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "US dramatically escalates air strikes on Somalia under Trump this year | Drone Strikes News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2025/12/17/us-dramatically-escalates-air-strikes-on-somalia-under-trump-this-year",
+        "description": "David Sterman, a senior policy ... and \u201ca willingness to allow more clearly offensive uses of strikes with less scrutiny and regulation\u201d. Sterman, who has monitored the strikes, identified two main drivers behind the increase. More than half the strikes have supported a US-backed campaign by Somalia\u2019s autonomous ...",
+        "age": "December 17, 2025"
+      },
+      {
+        "title": "US launches wave of strikes in Somalia targeting ISIS, al-Shabab terror threats",
+        "url": "https://www.foxnews.com/world/us-launches-wave-strikes-somalia-targeting-isis-al-shabab-terror-threats",
+        "description": "The U.S. intensified airstrikes in Somalia in January, targeting al-Shabab and ISIS-Somalia as AFRICOM warns the groups pose a growing threat to Americans at home and abroad.",
+        "age": "January 14, 2026"
+      }
+    ],
+    "query": "Will the US strike Somalia next?",
+    "sources_count": 10
+  },
+  "error": null
+}

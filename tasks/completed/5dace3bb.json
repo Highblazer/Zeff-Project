@@ -1,0 +1,85 @@
+{
+  "id": "5dace3bb",
+  "title": "Polymarket research: Will Trump nominate Judy Shelton as the next Fed chair?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump nominate Judy Shelton as the next Fed chair?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:15.051636+00:00",
+  "updated_at": "2026-02-26T23:31:40.709001+00:00",
+  "claimed_at": "2026-02-26T23:31:38.639202+00:00",
+  "completed_at": "2026-02-26T23:31:40.708983+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump nominate Judy Shelton as the next Fed chair?\n\nWeb Results (5):\n- Judy Shelton - Wikipedia: Judy Lynn Shelton (born 1954/55) ... Federal Reserve (which she has compared to the Soviet Union&#x27;s economic planning). <strong>Trump announced on\n- Will Trump nominate Judy Shelton as the next Fed chair?: Donald Trump \u00b7 $23,397,121 Vol. &lt;1% Buy Yes 0.1\u00a2Buy No 0.0\u00a2 \u00b7 Generate \u00b7 Judy Shelton Fed Chair Nomination Odds &gt;5% by Friday? 23% Post \u00b7 Beware\n- Markets bet on whether Trump will next nominate Judy Shelton as Fed Chair: <strong>If Judy Shelton is the first person formally nominated by the President to Fed Chair before Jan 20, 2029, then the market resolves to Yes.</st\n- Trump nominates Kevin Warsh for Federal Reserve chair to succeed Jerome Powell: <strong>President Trump named Kevin Warsh to succeed Jerome Powell as Fed chair</strong>, ending an odyssey that has seen unprecedented turmoil around\n- Markets bet on whether Trump will nominate Judy Shelton as Fed Chair | Stock News: <strong>If Judy Shelton is the first person formally nominated by the President to Fed Chair before Jan 20, 2029, then the market resolves to Yes.</st\n\nNews (5):\n- Trump nominates Kevin Warsh as next Fed chair - as it happened | Reuters (1 month ago)\n- Bitcoin, Gold, XRP Whales Are Betting On Judy Shelton To Become Fed Chair\u2014Even Though Trump Already Announced His Choice - Benzinga (3 weeks ago)\n- Trump has tapped a new Federal Reserve chair. Has he finally found his yes-man? | Federal Reserve | The Guardian (1 month ago)\n- Trump says he will announce his Federal Reserve chair nominee on Friday morning : NPR (1 month ago)\n- Trump names Kevin Warsh, former Federal Reserve official, as next Fed chair to replace Powell | PBS News (1 month ago)",
+    "web_results": [
+      {
+        "title": "Judy Shelton - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Judy_Shelton",
+        "description": "Judy Lynn Shelton (born 1954/55) ... Federal Reserve (which she has compared to the Soviet Union&#x27;s economic planning). <strong>Trump announced on July 2, 2019, that he would nominate Shelton to the Fed</strong>...."
+      },
+      {
+        "title": "Will Trump nominate Judy Shelton as the next Fed chair?",
+        "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair/will-trump-nominate-judy-shelton-as-the-next-fed-chair",
+        "description": "Donald Trump \u00b7 $23,397,121 Vol. &lt;1% Buy Yes 0.1\u00a2Buy No 0.0\u00a2 \u00b7 Generate \u00b7 Judy Shelton Fed Chair Nomination Odds &gt;5% by Friday? 23% Post \u00b7 Beware of external links."
+      },
+      {
+        "title": "Markets bet on whether Trump will next nominate Judy Shelton as Fed Chair",
+        "url": "https://www.barchart.com/story/news/36942321/markets-bet-on-whether-trump-will-next-nominate-judy-shelton-as-fed-chair",
+        "description": "<strong>If Judy Shelton is the first person formally nominated by the President to Fed Chair before Jan 20, 2029, then the market resolves to Yes.</strong>"
+      },
+      {
+        "title": "Trump nominates Kevin Warsh for Federal Reserve chair to succeed Jerome Powell",
+        "url": "https://www.cnbc.com/2026/01/30/trump-nominates-kevin-warsh-for-federal-reserve-chair-to-succeed-jerome-powell.html",
+        "description": "<strong>President Trump named Kevin Warsh to succeed Jerome Powell as Fed chair</strong>, ending an odyssey that has seen unprecedented turmoil around the central bank."
+      },
+      {
+        "title": "Markets bet on whether Trump will nominate Judy Shelton as Fed Chair | Stock News",
+        "url": "https://www.quiverquant.com/news/Markets+bet+on+whether+Trump+will+nominate+Judy+Shelton+as+Fed+Chair",
+        "description": "<strong>If Judy Shelton is the first person formally nominated by the President to Fed Chair before Jan 20, 2029, then the market resolves to Yes.</strong>"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Trump nominates Kevin Warsh as next Fed chair - as it happened | Reuters",
+        "url": "https://www.reuters.com/world/us/live-updates-trump-nominates-kevin-warsh-next-fed-chair-2026-01-30/",
+        "description": "President Donald Trump has been critical of current Federal Reserve Chair Jerome Powell, whose leadership term ends in May.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Bitcoin, Gold, XRP Whales Are Betting On Judy Shelton To Become Fed Chair\u2014Even Though Trump Already Announced His Choice - Benzinga",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/02/50417221/bitcoin-gold-xrp-whales-are-betting-on-judy-shelton-to-become-fed-chair-even-though-trump-already-announced-his-choice",
+        "description": "President Trump has tapped Kevin Warsh, but on Polymarket, the \u201cfat lady\u201d hasn\u2019t sung\u2014and a group of mystery whales are betting a fortune that Warsh is in for an unexpected disappointment.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "Trump has tapped a new Federal Reserve chair. Has he finally found his yes-man? | Federal Reserve | The Guardian",
+        "url": "https://www.theguardian.com/business/2026/jan/31/trump-new-federal-reserve-chair",
+        "description": "Trump nominated Kevin Warsh, an ex-Fed governor, for the role as the White House continues to attack Jerome Powell",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Trump says he will announce his Federal Reserve chair nominee on Friday morning : NPR",
+        "url": "https://www.npr.org/2026/01/30/g-s1-107913/trump-to-announce-fed-chair-nominee-friday",
+        "description": "President said he plans to announce new Federal Reserve chair choice Friday, after criticizing incumbent Jerome Powell for not cutting interest rates more aggressively.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Trump names Kevin Warsh, former Federal Reserve official, as next Fed chair to replace Powell | PBS News",
+        "url": "https://www.pbs.org/newshour/economy/trump-names-kevin-warsh-former-federal-reserve-official-as-next-fed-chair-to-replace-powell",
+        "description": "President Donald Trump said Friday that he will nominate former Federal Reserve official Kevin Warsh to be the next chair of the Fed, a decision likely to result in sharp changes to the powerful agency that could bring it closer to the White House.",
+        "age": "1 month ago"
+      }
+    ],
+    "query": "Will Trump nominate Judy Shelton as the next Fed chair?",
+    "sources_count": 10
+  },
+  "error": null
+}

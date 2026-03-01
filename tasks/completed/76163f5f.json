@@ -1,0 +1,28 @@
+{
+  "id": "76163f5f",
+  "title": "Polymarket research: Kings vs. Mavericks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Kings vs. Mavericks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T03:34:05.593787+00:00",
+  "updated_at": "2026-02-27T03:34:25.666517+00:00",
+  "claimed_at": "2026-02-27T03:34:24.601852+00:00",
+  "completed_at": "2026-02-27T03:34:25.666501+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Kings vs. Mavericks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Kings vs. Mavericks",
+    "sources_count": 0
+  },
+  "error": null
+}

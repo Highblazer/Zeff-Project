@@ -1,0 +1,28 @@
+{
+  "id": "a259b7f3",
+  "title": "Polymarket research: Nuggets vs. Thunder",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Nuggets vs. Thunder",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T08:38:24.778230+00:00",
+  "updated_at": "2026-02-27T08:38:39.545177+00:00",
+  "claimed_at": "2026-02-27T08:38:38.461473+00:00",
+  "completed_at": "2026-02-27T08:38:39.545156+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Nuggets vs. Thunder\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Nuggets vs. Thunder",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "aa0ea059",
+  "title": "Close XRPUSD position",
+  "assigned_to": "tradebot",
+  "task_type": "close_position",
+  "params": {
+    "symbol": "XRPUSD",
+    "positionId": 585089385
+  },
+  "priority": 1,
+  "status": "completed",
+  "created_by": "dashboard",
+  "created_at": "2026-02-26T00:54:21.558847+00:00",
+  "updated_at": "2026-02-26T00:54:34.683340+00:00",
+  "claimed_at": "2026-02-26T00:54:34.590430+00:00",
+  "completed_at": "2026-02-26T00:54:34.683325+00:00",
+  "retries": 0,
+  "result": {
+    "symbol": "XRPUSD",
+    "positionId": 585089385,
+    "closed": true,
+    "volume": 50000
+  },
+  "error": null
+}

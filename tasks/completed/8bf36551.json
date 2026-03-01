@@ -1,0 +1,85 @@
+{
+  "id": "8bf36551",
+  "title": "Polymarket research: Will Leverkusen win the 2025\u201326 Champions League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Leverkusen win the 2025\u201326 Champions League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:47.769004+00:00",
+  "updated_at": "2026-03-01T07:28:13.690855+00:00",
+  "claimed_at": "2026-03-01T07:28:11.839712+00:00",
+  "completed_at": "2026-03-01T07:28:13.690842+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Leverkusen win the 2025\u201326 Champions League?\n\nWeb Results (5):\n- Leverkusen | UEFA Champions League 2025/26 | UEFA.com: Visit UEFA.com to find out how Leverkusen are doing in the UEFA Champions League 2025/2026, including latest match news, stats, squad list and news up\n- Champions League 2025-26 Power Rankings: Arsenal in pole position ahead of last-16 draw as PSG and Real Madrid stumble through play-offs - but Bodo/Glimt are the toast of Europe after stunning Inter | Goal.com: However, given the rather dour nature of their play-off win over Olympiacos, we don&#x27;t give a very limited Leverkusen any chance of beating Arsena\n- Champions League Draw 2025-26: Who Are the UCL Favourites After Knockout Stage Draw? | Opta Analyst: <strong>Up next in the last 16 are Bayer Leverkusen, 26th in the Opta Power Rankings</strong>; only two other teams left in the competition are ranked\n- Leverkusen | League phase table | UEFA Champions League 2025/26 | UEFA.com: Find out all you need to know about the clubs competing to win the UEFA Champions League 2025/2026\n- Leverkusen | Matches | UEFA Champions League 2025/26 | UEFA.com: Click for all Leverkusen fixtures and results in UEFA Champions League 2025/2026.\n\nNews (5):\n- Bayer Leverkusen drawn in Champions League last 16 | News | Arsenal.com (2 days ago)\n- 2025/26 Champions League: All the fixtures and results | UEFA Champions League | UEFA.com (2 days ago)\n- Champions League 2025-26 Power Rankings: Arsenal in pole position ahead of last-16 draw as PSG and Real Madrid stumble through play-offs - but Bodo/Glimt are the toast of Europe after stunning Inter | Goal.com (2 days ago)\n- Meet the 2025/26 Champions League round of 16 contenders | UEFA Champions League | UEFA.com (2 days ago)\n- Champions League Draw 2025-26: Who Are the UCL Favourites After Knockout Stage Draw? | Opta Analyst (1 day ago)",
+    "web_results": [
+      {
+        "title": "Leverkusen | UEFA Champions League 2025/26 | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/clubs/50109--leverkusen/",
+        "description": "Visit UEFA.com to find out how Leverkusen are doing in the UEFA Champions League 2025/2026, including latest match news, stats, squad list and news updates."
+      },
+      {
+        "title": "Champions League 2025-26 Power Rankings: Arsenal in pole position ahead of last-16 draw as PSG and Real Madrid stumble through play-offs - but Bodo/Glimt are the toast of Europe after stunning Inter | Goal.com",
+        "url": "https://www.goal.com/en/lists/champions-league-2025-26-power-rankings/blt04f1d035afcafe91",
+        "description": "However, given the rather dour nature of their play-off win over Olympiacos, we don&#x27;t give a very limited Leverkusen any chance of beating Arsenal in the last 16. ... There&#x27;s no sugar-coating it: Galatasaray are very fortunate to be in the last 16. The Turkish champions won just three games in the league stage and took just one point from their final four fixtures."
+      },
+      {
+        "title": "Champions League Draw 2025-26: Who Are the UCL Favourites After Knockout Stage Draw? | Opta Analyst",
+        "url": "https://theanalyst.com/articles/champions-league-draw-2025-26-knockout-stage-predictions-opta-supercomputer",
+        "description": "<strong>Up next in the last 16 are Bayer Leverkusen, 26th in the Opta Power Rankings</strong>; only two other teams left in the competition are ranked lower, including Bod\u00f8/Glimt, who Arsenal could get in the quarter-finals if the Norwegians can get past Sporting ..."
+      },
+      {
+        "title": "Leverkusen | League phase table | UEFA Champions League 2025/26 | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/clubs/50109--leverkusen/standings/",
+        "description": "Find out all you need to know about the clubs competing to win the UEFA Champions League 2025/2026"
+      },
+      {
+        "title": "Leverkusen | Matches | UEFA Champions League 2025/26 | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/clubs/50109--leverkusen/matches/",
+        "description": "Click for all Leverkusen fixtures and results in UEFA Champions League 2025/2026."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bayer Leverkusen drawn in Champions League last 16 | News | Arsenal.com",
+        "url": "https://www.arsenal.com/news/bayer-leverkusen-drawn-champions-league-last-16",
+        "description": "We'll face the German side for the first time in the competition since 2002 next month",
+        "age": "2 days ago"
+      },
+      {
+        "title": "2025/26 Champions League: All the fixtures and results | UEFA Champions League | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a2f63fe2d-ebf9ad643892-1000--2025-26-champions-league-all-the-fixtures-and-results/",
+        "description": "Thursday 18 September 2025 Club ... 2-2 Leverkusen Frankfurt 5-1 Galatasaray Manchester City 2-0 Napoli Newcastle United 1-2 Barcelona Sporting CP 4-1 Kairat Almaty ... The 36 sides have discovered who their opponents will be in the league phase of the 2025/26 UEFA Champions ...",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Champions League 2025-26 Power Rankings: Arsenal in pole position ahead of last-16 draw as PSG and Real Madrid stumble through play-offs - but Bodo/Glimt are the toast of Europe after stunning Inter | Goal.com",
+        "url": "https://www.goal.com/en/lists/champions-league-2025-26-power-rankings/blt04f1d035afcafe91",
+        "description": "GOAL's 2025-26 Champions League Power Rankings rates each team's chances of winning this season's competition",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Meet the 2025/26 Champions League round of 16 contenders | UEFA Champions League | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a1-1fcc90cca8ab-566d2fa40c3b-1000--meet-the-2025-26-champions-league-round-of-16-contenders/",
+        "description": "Pivotal players, season so far, key stats; all you need to know about the remaining teams in the 2025/26 UEFA Champions League.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Champions League Draw 2025-26: Who Are the UCL Favourites After Knockout Stage Draw? | Opta Analyst",
+        "url": "https://theanalyst.com/articles/champions-league-draw-2025-26-knockout-stage-predictions-opta-supercomputer",
+        "description": "With Friday's UEFA Champions League draw mapping paths to the final, the Opta supercomputer assesses each team's chances of glory.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Leverkusen win the 2025\u201326 Champions League?",
+    "sources_count": 10
+  },
+  "error": null
+}

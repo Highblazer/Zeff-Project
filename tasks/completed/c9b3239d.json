@@ -1,0 +1,85 @@
+{
+  "id": "c9b3239d",
+  "title": "Polymarket research: Pelicans vs. Clippers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pelicans vs. Clippers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:28:41.133327+00:00",
+  "updated_at": "2026-03-01T08:29:01.973468+00:00",
+  "claimed_at": "2026-03-01T08:29:00.434239+00:00",
+  "completed_at": "2026-03-01T08:29:01.973452+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pelicans vs. Clippers\n\nWeb Results (5):\n- Clippers 126-124 Pelicans (Oct 31, 2025) Final Score - ESPN: Game summary of the LA Clippers vs. New Orleans Pelicans NBA game, final score <strong>126-124</strong>, from October 31, 2025 on ESPN.\n- New Orleans Pelicans vs LA Clippers Oct 31, 2025 Game Summary | NBA.com: New Orleans Pelicans vs LA Clippers <strong>Oct 31, 2025</strong> game result including recap, highlights and game information\n- New Orleans Pelicans vs Los Angeles Clippers Prediction, 3/1/2026 Preview and Pick: The New Orleans Pelicans will take on the Los Angeles Clippers on <strong>3/1/26</strong>. Doc&#x27;s Sports Prediction, Preview, and Pick Inside\n- New Orleans Pelicans vs Los Angeles Clippers Odds - Sunday March 1 2026: New Orleans Pelicans vs Los Angeles Clippers Odds - <strong>Sunday March 1 2026</strong>. Live betting odds and lines, betting trends, against the spr\n- 76ers vs Pelicans Match Player Stats | Saturday, February 21st 2026: 76ers vs Clippers Match Player Stats | Monday, February 2nd 2026 \u00b7 Pelicans vs 76ers Match Player Stats | Saturday, January 31st 2026\n\nNews (5):\n- New Orleans Pelicans vs Los Angeles Clippers Prediction, 3/1/2026 Preview and Pick (11 hours ago)\n- Gameday update: Pelicans at Jazz (2/26/2026) | New Orleans Pelicans (3 days ago)\n- Pelicans face the Clippers, aim for 5th straight victory | FOX Sports (1 hour ago)\n- Pelicans 129, Jazz 118: Saddiq Bey 42 points | Postgame wrap | New Orleans Pelicans (2 days ago)\n- New Orleans Pelicans @ LA Clippers Predictions & Odds - 03 02 2026 (1 day ago)",
+    "web_results": [
+      {
+        "title": "Clippers 126-124 Pelicans (Oct 31, 2025) Final Score - ESPN",
+        "url": "https://www.espn.com/nba/game/_/gameId/401809509/pelicans-clippers",
+        "description": "Game summary of the LA Clippers vs. New Orleans Pelicans NBA game, final score <strong>126-124</strong>, from October 31, 2025 on ESPN."
+      },
+      {
+        "title": "New Orleans Pelicans vs LA Clippers Oct 31, 2025 Game Summary | NBA.com",
+        "url": "https://www.nba.com/game/nop-vs-lac-0022500027",
+        "description": "New Orleans Pelicans vs LA Clippers <strong>Oct 31, 2025</strong> game result including recap, highlights and game information"
+      },
+      {
+        "title": "New Orleans Pelicans vs Los Angeles Clippers Prediction, 3/1/2026 Preview and Pick",
+        "url": "https://www.docsports.com/free-picks/nba/2026/new-orleans-pelicans-vs-los-angeles-clippers-prediction-3-1-2026-preview-and-pick.html",
+        "description": "The New Orleans Pelicans will take on the Los Angeles Clippers on <strong>3/1/26</strong>. Doc&#x27;s Sports Prediction, Preview, and Pick Inside"
+      },
+      {
+        "title": "New Orleans Pelicans vs Los Angeles Clippers Odds - Sunday March 1 2026",
+        "url": "https://www.oddsshark.com/nba/new-orleans-los-angeles-odds-march-1-2026-2479574",
+        "description": "New Orleans Pelicans vs Los Angeles Clippers Odds - <strong>Sunday March 1 2026</strong>. Live betting odds and lines, betting trends, against the spread and over/under trends, injury reports and matchup stats for bettors."
+      },
+      {
+        "title": "76ers vs Pelicans Match Player Stats | Saturday, February 21st 2026",
+        "url": "https://www.majorwager.com/nba/76ers-pelicans-match-player-stats-feb-21-2026",
+        "description": "76ers vs Clippers Match Player Stats | Monday, February 2nd 2026 \u00b7 Pelicans vs 76ers Match Player Stats | Saturday, January 31st 2026"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "New Orleans Pelicans vs Los Angeles Clippers Prediction, 3/1/2026 Preview and Pick",
+        "url": "https://www.docsports.com/free-picks/nba/2026/new-orleans-pelicans-vs-los-angeles-clippers-prediction-3-1-2026-preview-and-pick.html",
+        "description": "The New Orleans Pelicans will take on the Los Angeles Clippers on 3/1/26. Doc's Sports Prediction, Preview, and Pick Inside",
+        "age": "11 hours ago"
+      },
+      {
+        "title": "Gameday update: Pelicans at Jazz (2/26/2026) | New Orleans Pelicans",
+        "url": "https://pelicans.com/news/gameday-update-pelicans-at-jazz-2-26-2026",
+        "description": "The Pelicans have an opportunity to surpass the Jazz in the West standings over the next three nights if they sweep a two-game \u201cbaseball series\u201d in Salt Lake...",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Pelicans face the Clippers, aim for 5th straight victory | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/pelicans-face-the-clippers-aim-for-5th-straight-victory",
+        "description": "New Orleans is looking to prolong its four-game win streak with a victory over Los Angeles",
+        "age": "1 hour ago"
+      },
+      {
+        "title": "Pelicans 129, Jazz 118: Saddiq Bey 42 points | Postgame wrap | New Orleans Pelicans",
+        "url": "https://pelicans.com/news/pelicans-129-jazz-118-saddiq-bey-42-points-postgame-wrap",
+        "description": "The 42 points for Bey were the second-most of his NBA career (his high game of 51 occurred in 2022).",
+        "age": "2 days ago"
+      },
+      {
+        "title": "New Orleans Pelicans @ LA Clippers Predictions & Odds - 03 02 2026",
+        "url": "https://thegruelingtruth.com/basketball/match-up/new-orleans-pelicans-at-la-clippers-new-orleans-03-02-2026/",
+        "description": "National Basketball Association Pelicans Away 01/03/20269:00pm Clippers Home New Orleans Pelicans (18-42) head into LA Clippers (27-31) on 1 March after results that left little room for comfort. Both clubs are coming off defeats, New Orleans Pelicans by a sizable margin and LA Clippers by ...",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Pelicans vs. Clippers",
+    "sources_count": 10
+  },
+  "error": null
+}

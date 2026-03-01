@@ -1,0 +1,85 @@
+{
+  "id": "50668ba6",
+  "title": "Polymarket research: Will Tim Walz win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Tim Walz win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:27.043110+00:00",
+  "updated_at": "2026-02-26T23:38:03.442404+00:00",
+  "claimed_at": "2026-02-26T23:38:02.032878+00:00",
+  "completed_at": "2026-02-26T23:38:03.442385+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Tim Walz win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- Tim Walz says he'll shut the door on 2028 presidential bid if he runs for governor again: Tim Walz says <strong>he won&#x27;t run for president in 2028</strong> if he seeks a third term as governor next year. The big picture: While Walz has\n- 2028 United States presidential election - Wikipedia: In December 2024, Ray Buckley, ... nominating calendar. Democrats in Nevada have started a bid to hold the first-in-the-nation primary in 2028. In 202\n- Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket: <strong>Yes</strong>. You don&#x27;t need to trade to stay informed. This page serves as a live tracker for &quot;Democratic Presidential Nominee 2028\n- Walz to Speak at 2 Democratic Events, as Jockeying for 2028 Begins - The New York Times: Mr. Walz said in February that <strong>he was \u201cnot ruling out\u201d a 2028 presidential run</strong> and has done little since then to bat down the idea th\n- Presidential candidates, 2028 - Ballotpedia: Tim Walz, governor of Minnesota and <strong>2024 Democratic vice presidential nominee</strong>[19] Raphael Warnock, U.S. senator from Georgia[1] ... S\n\nNews (5):\n- Presidential election, 2028 - Ballotpedia (1 day ago)\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (14 hours ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- Gavin Newsom's stumbles highlight Democrats' 2028 vacuum | Washington Times (1 day ago)\n- 2028 Democratic primary draft #2 - by Nate Silver (1 month ago)",
+    "web_results": [
+      {
+        "title": "Tim Walz says he'll shut the door on 2028 presidential bid if he runs for governor again",
+        "url": "https://www.axios.com/local/twin-cities/2025/07/23/tim-walz-president-2028-rules-out-governor",
+        "description": "Tim Walz says <strong>he won&#x27;t run for president in 2028</strong> if he seeks a third term as governor next year. The big picture: While Walz has dismissed the idea of a White House bid in recent sit-downs, a series of high-profile speaking engagements in ..."
+      },
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "In December 2024, Ray Buckley, ... nominating calendar. Democrats in Nevada have started a bid to hold the first-in-the-nation primary in 2028. In 2023, the Democratic National Committee voted to strip Iowa of its first-in-the-nation presidential caucuses. In November 2024, after the presidential election, Scott Brennan, the only Iowan on the DNC Rules and Bylaws Committee at the time, said he still ..."
+      },
+      {
+        "title": "Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
+        "description": "<strong>Yes</strong>. You don&#x27;t need to trade to stay informed. This page serves as a live tracker for &quot;Democratic Presidential Nominee 2028.&quot; The outcome probabilities update in real-time as new trades come in."
+      },
+      {
+        "title": "Walz to Speak at 2 Democratic Events, as Jockeying for 2028 Begins - The New York Times",
+        "url": "https://www.nytimes.com/2025/05/12/us/politics/tim-walz-democrats-2028.html",
+        "description": "Mr. Walz said in February that <strong>he was \u201cnot ruling out\u201d a 2028 presidential run</strong> and has done little since then to bat down the idea that he is preparing for a national campaign."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "Tim Walz, governor of Minnesota and <strong>2024 Democratic vice presidential nominee</strong>[19] Raphael Warnock, U.S. senator from Georgia[1] ... Stephen A. Smith, television personality and sports journalist[22] As of February 2026, the following politicians and public figures were discussed in the media ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      },
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Gavin Newsom's stumbles highlight Democrats' 2028 vacuum | Washington Times",
+        "url": "https://washingtontimes.com/news/2026/feb/25/gavin-newsoms-stumbles-highlight-democrats-2028-vacuum",
+        "description": "California Gov. Gavin Newsom has been in the headlines this week, but for all the wrong reasons, which analysts say underscores the plight of Democrats as they strategize how to win the next president",
+        "age": "1 day ago"
+      },
+      {
+        "title": "2028 Democratic primary draft #2 - by Nate Silver",
+        "url": "https://natesilver.net/p/2028-democratic-primary-draft-2",
+        "description": "Plus, more commentary on Minneapolis from my live show with Galen Druke and Clare Malone.",
+        "age": "1 month ago"
+      }
+    ],
+    "query": "Will Tim Walz win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

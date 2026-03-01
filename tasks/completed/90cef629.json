@@ -1,0 +1,139 @@
+{
+  "id": "90cef629",
+  "title": "breaking forex market news February 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "breaking forex market news February 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T22:52:08.108345+00:00",
+  "updated_at": "2026-02-26T22:52:09.786048+00:00",
+  "claimed_at": "2026-02-26T22:52:08.115944+00:00",
+  "completed_at": "2026-02-26T22:52:09.786039+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: breaking forex market news February 2026\n\nFindings (10):\n- [market_mover] Stock market news for Feb. 24, 2026 (action=0.5, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] Stock Market News for Feb 25, 2026 (action=0.55, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Forex News | Forex Factory (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] A light mean-reversion day \u2013 North American session Market wrap for February 24 | MarketPulse by OANDA Group (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Are we back to risk-on? \u2013 North American session Market wrap for February 25 | MarketPulse by OANDA Group (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Stock market news for Feb. 24, 2026",
+        "url": "https://www.cnbc.com/2026/02/23/stock-market-today-live-updates.html",
+        "description": "Software stocks staged a comeback on Tuesday, lifting the three major averages.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.46,
+        "combined_score": 0.48,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Stock Market News for Feb 25, 2026",
+        "url": "https://finance.yahoo.com/news/stock-market-news-feb-25-124900216.html",
+        "description": "U.S. stocks closed higher on Tuesday, boosted by positive labor market and economic reports, as Anthropic launched new artificial intelligence (AI) integrations aimed at enterprise customers.",
+        "category": "market_mover",
+        "actionability_score": 0.55,
+        "impact_score": 0.4,
+        "combined_score": 0.48,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Forex News | Forex Factory",
+        "url": "https://www.forexfactory.com/news",
+        "description": "Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "A light mean-reversion day \u2013 North American session Market wrap for February 24 | MarketPulse by OANDA Group",
+        "url": "https://marketpulse.com/markets/market-wrap-feb-24-2026",
+        "description": "February 24th 2026 North-American Session Recap \u2013 Stocks and sentiment rebound after a rough Monday.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Are we back to risk-on? \u2013 North American session Market wrap for February 25 | MarketPulse by OANDA Group",
+        "url": "https://marketpulse.com/markets/market-wrap-feb-25-2026",
+        "description": "February 25th 2026 North-American Session Recap \u2013 A strict risk-on session brings back hopes for better days ahead. Too soon?",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Rough profit-taking but not the end of the world \u2013 North American session Market wrap for February 26 | MarketPulse by OANDA Group",
+        "url": "https://marketpulse.com/markets/market-wrap-feb-26",
+        "description": "February 26th 2026 North-American Session Recap \u2013 Despite a risk-off session, dip-buyers logged in again. A heavy month-end session is ahead.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "1 hour ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Forex Seasonality \u2013 February 2026: Will Dollar Weakness Overwhelm Seasonal Tendencies?",
+        "url": "https://www.forex.com/en-us/news-and-analysis/forex-seasonality-february-2026-will-dollar-weakness-overwhelm-seasonal-tendencies/",
+        "description": "<strong>USD/JPY Recovery Rally, EUR/JPY, GBP/JPY in Front of ECB, BoE</strong> February 04, 2026 03:03 PM \u00b7 Oil Price Forecast: WTI Rebounds from Pivotal Support- Next Leg Hinges on the Break February 04, 2026 02:33 PM",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Weekly Forex Forecast - 16th to 20th February 2026 (Charts)",
+        "url": "https://www.dailyforex.com/forex-technical-analysis/2026/02/weekly-forex-forecast-16th-to-20th-02-2026/241174",
+        "description": "Overall, <strong>the CME FedWatch tool has narrowly moved in favour of expecting three rate cuts in 2026 of 0.25% (June, September, and December),</strong> which is a dovish change for the US Dollar.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Forex February 2026 Outlook | Forex Factory",
+        "url": "https://www.forexfactory.com/news/1381804-forex-february-2026-outlook",
+        "description": "The first week of February brings the RBA, the BoE, and the ECB. One is expected to hike, the others look to stay on hold. But, the nuances will be carefully watched.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Forex Market Analysis \u2013 February 25, 2026 | Daily FX Intelligence Report - Trade FX, CFD, Stocks, BTC, Indices, Gold & Oil - 1:1000 Leverage & Bonus - CSFX",
+        "url": "https://www.capitalstreetfx.com/forex-market-analysis-february-25-2026-daily-fx-intelligence-report/",
+        "description": "Traders should wait for either scenario to confirm before committing. ... <strong>GBP/USD is one of the cleaner trending pairs in 2026, having rallied from the 1.3347 yearly low to a high of 1.3867</strong>.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "breaking forex market news February 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 10,
+    "opportunities": 0
+  },
+  "error": null
+}

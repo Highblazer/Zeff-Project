@@ -1,0 +1,85 @@
+{
+  "id": "f1277490",
+  "title": "Polymarket research: Will Bologna FC 1909 win on 2026-02-26?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bologna FC 1909 win on 2026-02-26?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:29:35.587261+00:00",
+  "updated_at": "2026-02-27T00:29:49.385607+00:00",
+  "claimed_at": "2026-02-27T00:29:47.550322+00:00",
+  "completed_at": "2026-02-27T00:29:49.385593+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bologna FC 1909 win on 2026-02-26?\n\nWeb Results (5):\n- Bologna FC 1909 - SK Brann prediction & tips 26.02.2026: The odds reflect this sentiment, with the <strong>home win available at 1.45 with 1win</strong>, representing excellent value given Bologna&#x27;s sup\n- 2025\u201326 Bologna FC 1909 season - Wikipedia: Updated to match(es) played on 15 February 2026. Source: Serie A A = Away; H = Home; W = Win; D = Draw; L = Loss \u00b7 1 Matchday 16 (vs Hellas Verona) wa\n- Bologna FC 1909 - Wikipedia: Bologna Football Club 1909, commonly referred to as Bologna (Italian pronunciation: [bo\u02c8lo\u0272\u0272a]), is an Italian professional football club based in Bol\n- Bologna FC 1909 - Udinese Calcio prediction & tips 23.02.2026: <strong>Our betting tip for this Serie A encounter favours a home victory for Bologna FC at odds of 1.95 with 1win</strong>. The Rossoblu&#x27;s super\n- Bologna 1909 vs Udinese Calcio: stats, H2H and match score 23/02/2026 | footboom1.com: The most common result of matches between Bologna FC and Udinese Calcio is 1-1. 10 matches have ended with this result. During the last 26 meetings wi\n\nNews (5):\n- Europa and Conference League Liveblog: Fiorentina vs. Jagiellonia, Bologna vs. Brann (5 hours ago)\n- Bologna vs Brann Prediction, Betting Tips, Lineups & Odds | 26 Feb 2026 (2 days ago)\n- Highlights and goal of Bolonia 1-0 Brann in UEFA Europa League 2025-26 | 02/26/2026 - VAVEL USA (3 hours ago)\n- Bologna FC 1909 - SK Brann prediction & tips 26.02.2026 (4 days ago)\n- Bologna vs Brann Prediction, Odds & Betting Tips | 26.02.2026 | Europa League (2 days ago)",
+    "web_results": [
+      {
+        "title": "Bologna FC 1909 - SK Brann prediction & tips 26.02.2026",
+        "url": "https://www.transfermarkt.co.uk/betting/tips-today/bologna-fc-vs-sk-brann-prediction-26-02-2026/",
+        "description": "The odds reflect this sentiment, with the <strong>home win available at 1.45 with 1win</strong>, representing excellent value given Bologna&#x27;s superior form and home advantage. The draw is priced at 4.88, while an away victory for SK Brann commands odds of 8.20, ..."
+      },
+      {
+        "title": "2025\u201326 Bologna FC 1909 season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Bologna_FC_1909_season",
+        "description": "Updated to match(es) played on 15 February 2026. Source: Serie A A = Away; H = Home; W = Win; D = Draw; L = Loss \u00b7 1 Matchday 16 (vs Hellas Verona) was postponed due to Bologna&#x27;s participation in the Supercoppa Italiana."
+      },
+      {
+        "title": "Bologna FC 1909 - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bologna_FC_1909",
+        "description": "Bologna Football Club 1909, commonly referred to as Bologna (Italian pronunciation: [bo\u02c8lo\u0272\u0272a]), is an Italian professional football club based in Bologna, Emilia-Romagna that plays in Serie A, the top flight of Italian football. The club have won seven top-flight titles, three Coppa Italia ..."
+      },
+      {
+        "title": "Bologna FC 1909 - Udinese Calcio prediction & tips 23.02.2026",
+        "url": "https://www.transfermarkt.com/betting/tips/bologna-fc-vs-udinese-prediction-23-02-2026/",
+        "description": "<strong>Our betting tip for this Serie A encounter favours a home victory for Bologna FC at odds of 1.95 with 1win</strong>. The Rossoblu&#x27;s superior league position and their recent 3-0 triumph over Udinese in the last direct meeting provide compelling reasons ..."
+      },
+      {
+        "title": "Bologna 1909 vs Udinese Calcio: stats, H2H and match score 23/02/2026 | footboom1.com",
+        "url": "https://www.footboom1.com/en/football/game/bologna-fc-udinese-calcio-2026-02-22",
+        "description": "The most common result of matches between Bologna FC and Udinese Calcio is 1-1. 10 matches have ended with this result. During the last 26 meetings with Bologna FC playing at home, <strong>Bologna FC have won 9 times</strong>, there have been 8 draws while Udinese Calcio have won 9 times."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Europa and Conference League Liveblog: Fiorentina vs. Jagiellonia, Bologna vs. Brann",
+        "url": "https://football-italia.net/europa-league-fiorentina-jagiell-bologna-brann",
+        "description": "Join us for all the build-up and action from the Europa League and Conference League play-offs, as Fiorentina host Jagiellonia and Bologna take on Brann.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Bologna vs Brann Prediction, Betting Tips, Lineups & Odds | 26 Feb 2026",
+        "url": "https://sportsgambler.com/betting-tips/football/bologna-vs-brann-prediction-lineups-odds-2026-02-26",
+        "description": "Bologna vs Brann prediction and betting tips. Europa League preview with odds, team news and lineups. Free football predictions.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Highlights and goal of Bolonia 1-0 Brann in UEFA Europa League 2025-26 | 02/26/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/02/26/1252124-bologna-vs-brann-live-score-europa-league.html",
+        "description": "Brann tried to cause an upset on the road but fell to a solid and well-organized Bologna. The match was lively in the opening minutes with chances for both sides, but the Italian advantage and the visitors\u2019 numerical disadvantage after a red card made the difference in the final stages.",
+        "age": "3 hours ago"
+      },
+      {
+        "title": "Bologna FC 1909 - SK Brann prediction & tips 26.02.2026",
+        "url": "https://www.transfermarkt.co.uk/betting/tips-today/bologna-fc-vs-sk-brann-prediction-26-02-2026/",
+        "description": "Prediction & betting tips for Bologna FC 1909 vs. SK Brann at the Europa League 2025/2026.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Bologna vs Brann Prediction, Odds & Betting Tips | 26.02.2026 | Europa League",
+        "url": "https://www.mightytips.com/football-predictions/bologna-vs-brann-prediction-26-02-2026/",
+        "description": "Best \u2b50\ufe0fBologna vs Brann prediction 26.02.2026\u2b50\ufe0f Preview & analysis of this Europa League match made by Experts. H2h stats and Betting Odds included.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Bologna FC 1909 win on 2026-02-26?",
+    "sources_count": 10
+  },
+  "error": null
+}

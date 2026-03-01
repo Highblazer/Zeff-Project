@@ -1,0 +1,85 @@
+{
+  "id": "62c15d8e",
+  "title": "Polymarket research: Spread: Hornets (-12.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Hornets (-12.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:35:42.613263+00:00",
+  "updated_at": "2026-02-27T00:35:59.591086+00:00",
+  "claimed_at": "2026-02-27T00:35:57.419783+00:00",
+  "completed_at": "2026-02-27T00:35:59.591067+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Hornets (-12.5)\n\nWeb Results (5):\n- How To Watch Indiana Pacers-Charlotte Hornets, Lineups, Injury Report, Betting Lines & More: Spread: <strong>Hornets -12.5 (-115)</strong> Pacers +12.5 (-105) Moneyline: Hornets -800, Pacers +550 \u00b7 Total: 229.5 (Over -110, Under -110) Game odd\n- Hornets vs. Pacers Preview: Will Indiana Cover the Spread? - Yahoo Sports: Explore tonight&#x27;s NBA game as the <strong>Charlotte Hornets, favored by 12.5, face the struggling Indiana Pacers</strong>. Will it be a blowout o\n- Indiana Pacers vs. Charlotte Hornets prediction, pick on Thursday 2/26/26: While the Pacers are playing at ... running away with an easy win. <strong>Charlotte is an NBA-best 36\u201323 against the spread this season and should co\n- Charlotte Hornets at Washington Wizards odds, picks and predictions: Lines last updated at 12:31 a.m. ET. Moneyline (ML): Hornets -600 (bet $600 to win $100) | Wizards +425 (bet $100 to win $425) Against the spread (ATS\n- HORNETS Odds: Schedule, Matchups, & Stats - VegasInsider: When you are placing a legal sports ... bet. For example, in a game against the Hawks, <strong>if the spread is set at plus or minus 2.5 and Charlotte\n\nNews (5):\n- Hornets vs. Pacers Preview: Will Indiana Cover the Spread? - Yahoo Sports (14 hours ago)\n- Charlotte Hornets at Washington Wizards odds, picks and predictions (5 days ago)\n- How To Watch Indiana Pacers-Charlotte Hornets, Lineups, Injury Report, Betting Lines & More (7 hours ago)\n- Indiana Pacers vs. Charlotte Hornets prediction, pick on Thursday 2/26/26 (5 hours ago)\n- Hornets vs Pacers Prediction, Odds, Best Bets & Team Props - NBA, Feb. 26 (11 hours ago)",
+    "web_results": [
+      {
+        "title": "How To Watch Indiana Pacers-Charlotte Hornets, Lineups, Injury Report, Betting Lines & More",
+        "url": "https://www.si.com/nba/pacers/onsi/news/how-to-watch-indiana-pacers-charlotte-hornets-lineups-injury-report-betting-lines-more-01kjdhe0vdjg",
+        "description": "Spread: <strong>Hornets -12.5 (-115)</strong> Pacers +12.5 (-105) Moneyline: Hornets -800, Pacers +550 \u00b7 Total: 229.5 (Over -110, Under -110) Game odds refresh periodically and are subject to change."
+      },
+      {
+        "title": "Hornets vs. Pacers Preview: Will Indiana Cover the Spread? - Yahoo Sports",
+        "url": "https://ca.sports.yahoo.com/video/hornets-vs-pacers-preview-indiana-102126244.html",
+        "description": "Explore tonight&#x27;s NBA game as the <strong>Charlotte Hornets, favored by 12.5, face the struggling Indiana Pacers</strong>. Will it be a blowout or will the Pacers surprise? Hornets vs. Pacers Preview: Will Indiana Cover the Spread?Explore tonight&#x27;s NBA game ..."
+      },
+      {
+        "title": "Indiana Pacers vs. Charlotte Hornets prediction, pick on Thursday 2/26/26",
+        "url": "https://dknetwork.draftkings.com/2026/02/26/indiana-pacers-vs-charlotte-hornets-prediction-pick-on-thursday-2-26-26/",
+        "description": "While the Pacers are playing at ... running away with an easy win. <strong>Charlotte is an NBA-best 36\u201323 against the spread this season and should cover the 12.5-point spread on Thursday night.</strong>..."
+      },
+      {
+        "title": "Charlotte Hornets at Washington Wizards odds, picks and predictions",
+        "url": "https://sportsbookwire-eu.usatoday.com/story/sports/nba/2026/02/22/hornets-at-wizards-odds-picks-and-predictions/88802064007/",
+        "description": "Lines last updated at 12:31 a.m. ET. Moneyline (ML): Hornets -600 (bet $600 to win $100) | Wizards +425 (bet $100 to win $425) Against the spread (ATS): <strong>Hornets -11.5 (-110)</strong> | Wizards +11.5 (-110)"
+      },
+      {
+        "title": "HORNETS Odds: Schedule, Matchups, & Stats - VegasInsider",
+        "url": "https://www.vegasinsider.com/nba/teams/hornets/",
+        "description": "When you are placing a legal sports ... bet. For example, in a game against the Hawks, <strong>if the spread is set at plus or minus 2.5 and Charlotte is favored to win, they&#x27;ll be the -2.5</strong>...."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Hornets vs. Pacers Preview: Will Indiana Cover the Spread? - Yahoo Sports",
+        "url": "https://ca.sports.yahoo.com/video/hornets-vs-pacers-preview-indiana-102126244.html",
+        "description": "Explore tonight's NBA game as the Charlotte Hornets, favored by 12.5, face the struggling Indiana Pacers. Will it be a blowout or will the Pacers surprise? Hornets vs. Pacers Preview: Will Indiana Cover the Spread?Explore tonight's NBA game as the Charlotte Hornets, favored by 12.5, face the ...",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "Charlotte Hornets at Washington Wizards odds, picks and predictions",
+        "url": "https://sportsbookwire.usatoday.com/story/sports/nba/2026/02/22/hornets-at-wizards-odds-picks-and-predictions/88802064007/",
+        "description": "The Wizards beat the Indiana Pacers ... (230.5) cleared with ease. Washington has won 2 straight games, just its fourth time this season winning 2 in a row. It has covered in both wins and is 24-31 ATS on the season. Watch the NBA on Fubo! Provided by BetMGM Sportsbook; access USA TODAY Sports Scores and Sports Betting Odds hub for a full list. Lines last updated at 12:31 a.m. ET. Moneyline (ML): Hornets -600 (bet $600 to win $100) | Wizards +425 (bet $100 to win $425) Against the spread (ATS): Hornets ...",
+        "age": "5 days ago"
+      },
+      {
+        "title": "How To Watch Indiana Pacers-Charlotte Hornets, Lineups, Injury Report, Betting Lines & More",
+        "url": "https://www.si.com/nba/pacers/onsi/news/how-to-watch-indiana-pacers-charlotte-hornets-lineups-injury-report-betting-lines-more-01kjdhe0vdjg",
+        "description": "Entering its final game of February, Indiana is well-positioned to execute its goal of finishing with the worst record possible. A 2-8 run has it back in the Ea",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "Indiana Pacers vs. Charlotte Hornets prediction, pick on Thursday 2/26/26",
+        "url": "https://dknetwork.draftkings.com/2026/02/26/indiana-pacers-vs-charlotte-hornets-prediction-pick-on-thursday-2-26-26/",
+        "description": "While the Pacers are playing at home, they are so understaffed that this game should be a one-sided affair, with the Hornets running away with an easy win. Charlotte is an NBA-best 36\u201323 against the spread this season and should cover the 12.5-point spread on Thursday night.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Hornets vs Pacers Prediction, Odds, Best Bets & Team Props - NBA, Feb. 26",
+        "url": "https://sports.betmgm.com/en/blog/nba/hornets-pacers-prediction-odds-lines-picks-nba-feb-26-jaa",
+        "description": "The Hornets are -12.5 favorites vs. the Pacers ... The Charlotte Hornets visit Gainbridge Fieldhouse to take on the Indiana Pacers on Thursday. Tipoff is scheduled for 7:00 pm in Indianapolis, IN. The Hornets are betting favorites in this NBA matchup, with the spread sitting at -12.5 (-115).",
+        "age": "11 hours ago"
+      }
+    ],
+    "query": "Spread: Hornets (-12.5)",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,82 @@
+{
+  "id": "42a4afab",
+  "title": "latest AI model releases breakthroughs February 2026",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "latest AI model releases breakthroughs February 2026"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T12:56:56.952295+00:00",
+  "updated_at": "2026-02-26T12:56:59.024702+00:00",
+  "claimed_at": "2026-02-26T12:56:57.238616+00:00",
+  "completed_at": "2026-02-26T12:56:59.024686+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: latest AI model releases breakthroughs February 2026\n\nWeb Results (5):\n- Top 10 New AI Models to Explore in 2026 | newline: The top 10 AI models emerging in 2026 redefine capabilities across industries, blending advanced task autonomy with specialized applications. Anthropi\n- AI Updates Today (February 2026) \u2013 Latest AI Model Releases: Tuesday, February 24 \u00b7 Track AI model updates and LLM releases in real-time. Version releases, API changes, and improvements for GPT, Claude, Gemini, \n- LLM News Today (February 2026) \u2013 Open Source LLM Updates & AI Model Releases: A comprehensive guide to <strong>Google DeepMind&#x27;s Gemini 3.1 Pro</strong> \u2014 the most advanced Pro-tier model as of February 2026, featuring a 1M\n- Latest AI & Technology News Roundup \u2013 February 2026: From <strong>GPT-5.3 to Claude Opus 4.6</strong>, February 2026 delivered real-world AI breakthroughs. Catch up on the latest AI news and shifts redef\n- New AI Model Releases News | February, 2026 (STARTUPS EDITION): It\u2019s about creating tools that the world truly needs and finding ways to harness AI responsibly. The current wave of releases like <strong>Kimi K2.5 a\n\nNews (5):\n- Exclusive: DeepSeek withholds latest AI model from US chipmakers including Nvidia, sources say | Reuters (16 hours ago)\n- AI News Briefs BULLETIN BOARD for February 2026 | Radical Data Science (15 hours ago)\n- China\u2019s DeepSeek is set to release a new AI model. A rough period for Nasdaq stocks could follow (3 days ago)\n- Anthropic releases Claude Sonnet 4.6, continuing breakneck pace of AI model releases (1 week ago)\n- AI doomsday? New thought experiment warns of social and economic upheaval by 2028 | Euronews (3 hours ago)",
+    "web_results": [
+      {
+        "title": "Top 10 New AI Models to Explore in 2026 | newline",
+        "url": "https://www.newline.co/@Dipen/top-10-new-ai-models-to-explore-in-2026--b4ca6fcf",
+        "description": "The top 10 AI models emerging in 2026 redefine capabilities across industries, blending advanced task autonomy with specialized applications. Anthropic\u2019s <strong>Opus 4.6</strong> leads with improved task planning and reduced errors in multi-step workflows, ..."
+      },
+      {
+        "title": "AI Updates Today (February 2026) \u2013 Latest AI Model Releases",
+        "url": "https://llm-stats.com/llm-updates",
+        "description": "Tuesday, February 24 \u00b7 Track AI model updates and LLM releases in real-time. Version releases, API changes, and improvements for GPT, Claude, Gemini, Llama, and 500+ language models. Track all LLM releases and version updates \u00b7 AllGoogleAnthropicAlibaba Cloud / Qwen TeamByteDanceMiniMaxZhipu AIOpenAIMeituanStepFunxAIMoonshot AILG AI ResearchXiaomiNVIDIAMistral AIDeepSeekBaiduIBMMicrosoftMetaAmazonCohereAI21 LabsNous Research \u00b7 Feb 19, 2026\u00b7 1 release \u00b7"
+      },
+      {
+        "title": "LLM News Today (February 2026) \u2013 Open Source LLM Updates & AI Model Releases",
+        "url": "https://llm-stats.com/ai-news",
+        "description": "A comprehensive guide to <strong>Google DeepMind&#x27;s Gemini 3.1 Pro</strong> \u2014 the most advanced Pro-tier model as of February 2026, featuring a 1M-token context window, 77.1% on ARC-AGI-2, multimodal reasoning across text, images, audio, video, and code, and ..."
+      },
+      {
+        "title": "Latest AI & Technology News Roundup \u2013 February 2026",
+        "url": "https://www.vtnetzwelt.com/ai-development/latest-ai-technology-news-roundup-february-2026/",
+        "description": "From <strong>GPT-5.3 to Claude Opus 4.6</strong>, February 2026 delivered real-world AI breakthroughs. Catch up on the latest AI news and shifts redefining tech."
+      },
+      {
+        "title": "New AI Model Releases News | February, 2026 (STARTUPS EDITION)",
+        "url": "https://blog.mean.ceo/new-ai-model-releases-news-february-2026/",
+        "description": "It\u2019s about creating tools that the world truly needs and finding ways to harness AI responsibly. The current wave of releases like <strong>Kimi K2.5 and Qwen3-Max-Thinking</strong> shows that location and size matter less in today\u2019s economic reality."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Exclusive: DeepSeek withholds latest AI model from US chipmakers including Nvidia, sources say | Reuters",
+        "url": "https://www.reuters.com/world/china/deepseek-withholds-latest-ai-model-us-chipmakers-including-nvidia-sources-say-2026-02-25/",
+        "description": "DeepSeek has not shown U.S. chipmakers its upcoming flagship model for performance optimization, breaking from standard industry practice ahead of a major model update.",
+        "age": "16 hours ago"
+      },
+      {
+        "title": "AI News Briefs BULLETIN BOARD for February 2026 | Radical Data Science",
+        "url": "https://radicaldatascience.wordpress.com/2026/02/25/ai-news-briefs-bulletin-board-for-february-2026",
+        "description": "Welcome to the AI News Briefs Bulletin Board, a timely new channel bringing you the latest industry insights and perspectives surrounding the field of AI including deep learning, large language models, generative AI, and transformers. I am working tirelessly to dig up the most timely and curious ...",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "China\u2019s DeepSeek is set to release a new AI model. A rough period for Nasdaq stocks could follow",
+        "url": "https://www.cnbc.com/2026/02/23/deepseek-to-release-new-ai-model-a-rough-period-for-nasdaq-stocks-could-follow.html",
+        "description": "The release of DeepSeek V4 is expected to be imminent.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Anthropic releases Claude Sonnet 4.6, continuing breakneck pace of AI model releases",
+        "url": "https://www.cnbc.com/2026/02/17/anthropic-ai-claude-sonnet-4-6-default-free-pro.html",
+        "description": "Claude Sonnet 4.6 is more consistent with coding and is better at following coding instructions, Anthropic said.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "AI doomsday? New thought experiment warns of social and economic upheaval by 2028 | Euronews",
+        "url": "https://euronews.com/next/2026/02/26/ai-doomsday-new-thought-experiment-warns-of-social-and-economic-upheaval-by-2028",
+        "description": "AI-related layoffs could trigger a vicious cycle of higher unemployment, less consumer spending and social upheaval, according to a thought experiment scenario.",
+        "age": "3 hours ago"
+      }
+    ],
+    "query": "latest AI model releases breakthroughs February 2026",
+    "sources_count": 10
+  },
+  "error": null
+}

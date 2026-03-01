@@ -1,0 +1,85 @@
+{
+  "id": "194d02b6",
+  "title": "Polymarket research: Red Wings vs. Senators",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Red Wings vs. Senators",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T01:00:23.565810+00:00",
+  "updated_at": "2026-02-27T01:00:33.394198+00:00",
+  "claimed_at": "2026-02-27T01:00:31.995666+00:00",
+  "completed_at": "2026-02-27T01:00:33.394179+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Red Wings vs. Senators\n\nWeb Results (5):\n- Red Wings 4-3 Senators (Jan 18, 2026) Final Score - ESPN: Game summary of the Detroit Red Wings vs. Ottawa Senators NHL game, final score <strong>4-3</strong>, from January 18, 2026 on ESPN.\n- Red Wings vs. Senators (Feb 26, 2026) Live Score - ESPN: Live coverage of the Detroit Red Wings vs. Ottawa Senators NHL game on ESPN, including live score, highlights and updated stats.\n- Red Wings 4, Senators 3 OT: Detroit&#x27;s Alex DeBrincat scored the game winner in overtime in a <strong>4-3 win</strong> over Ottawa at Little Caesars Arena Sunday evening.\n- Detroit Red Wings - Ottawa Senators - Jan 5, 2026 | NHL.com: NHL Gamecenter - Detroit Red Wings vs. Ottawa Senators, <strong>Jan 5, 2026</strong> - summary, stats, boxscore, play by play, recap and more.\n- Red Wings Overcome Early Deficit, Beat Senators 4-3 In Overtime - Yahoo Sports: <strong>Red Wings Overcome Early Deficit, Beat Senators 4-3 In Overtime</strong>The Detroit Red Wings earned a comeback victory over the Ottawa Senato\n\nNews (5):\n- Red Wings vs Senators: Eight Days After His Olympics Ended, Tim Stutzle Listed As Game-Time Decision - Yahoo Sports (6 hours ago)\n- Red Wings vs Senators Prediction, Picks & Odds for Tonight\u2019s NHL Game (6 hours ago)\n- How to watch Red Wings vs. Senators: TV channel and streaming options for February 26 - The Athletic (9 hours ago)\n- Red Wings Return From Olympic Break With Divisional Clash vs. Senators - Yahoo Sports (10 hours ago)\n- Senators' Tim Stutzle game-time decision vs. Red Wings with illness - Sportsnet.ca (13 hours ago)",
+    "web_results": [
+      {
+        "title": "Red Wings 4-3 Senators (Jan 18, 2026) Final Score - ESPN",
+        "url": "https://www.espn.com/nhl/game/_/gameId/401803119/senators-red-wings",
+        "description": "Game summary of the Detroit Red Wings vs. Ottawa Senators NHL game, final score <strong>4-3</strong>, from January 18, 2026 on ESPN."
+      },
+      {
+        "title": "Red Wings vs. Senators (Feb 26, 2026) Live Score - ESPN",
+        "url": "https://www.espn.com/nhl/game/_/gameId/401803271/red-wings-senators",
+        "description": "Live coverage of the Detroit Red Wings vs. Ottawa Senators NHL game on ESPN, including live score, highlights and updated stats."
+      },
+      {
+        "title": "Red Wings 4, Senators 3 OT",
+        "url": "https://www.detroitnews.com/picture-gallery/media/photo/2026/01/18/red-wings-vs-senators/88245954007/",
+        "description": "Detroit&#x27;s Alex DeBrincat scored the game winner in overtime in a <strong>4-3 win</strong> over Ottawa at Little Caesars Arena Sunday evening."
+      },
+      {
+        "title": "Detroit Red Wings - Ottawa Senators - Jan 5, 2026 | NHL.com",
+        "url": "https://www.nhl.com/gamecenter/det-vs-ott/2026/01/05/2025020664",
+        "description": "NHL Gamecenter - Detroit Red Wings vs. Ottawa Senators, <strong>Jan 5, 2026</strong> - summary, stats, boxscore, play by play, recap and more."
+      },
+      {
+        "title": "Red Wings Overcome Early Deficit, Beat Senators 4-3 In Overtime - Yahoo Sports",
+        "url": "https://sports.yahoo.com/videos/red-wings-overcome-early-deficit-014356728.html",
+        "description": "<strong>Red Wings Overcome Early Deficit, Beat Senators 4-3 In Overtime</strong>The Detroit Red Wings earned a comeback victory over the Ottawa Senators on Sunday evening after initially trailing 2-0."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Red Wings vs Senators: Eight Days After His Olympics Ended, Tim Stutzle Listed As Game-Time Decision - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/red-wings-vs-senators-eight-184952007.html",
+        "description": "With 25 games still to play, the Senators stand six points out of a playoff spot in the East and nine points behind Detroit (WC1)",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "Red Wings vs Senators Prediction, Picks & Odds for Tonight\u2019s NHL Game",
+        "url": "https://www.covers.com/nhl/red-wings-vs-senators-prediction-picks-best-bets-sgp-thursday-2-26-2026",
+        "description": "Get the best Red Wings vs. Senators predictions ahead of Thursday's matchup in Ottawa. Free NHL picks for February 26.",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "How to watch Red Wings vs. Senators: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7072931/2026/02/26/how-to-watch-red-wings-vs-senators-tv-channel-and-streaming-options-for-february-26/",
+        "description": "Find out how to watch the Detroit Red Wings play the Ottawa Senators, with time, TV channel and streaming information.",
+        "age": "9 hours ago"
+      },
+      {
+        "title": "Red Wings Return From Olympic Break With Divisional Clash vs. Senators - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/red-wings-return-olympic-break-145946181.html",
+        "description": "Red Wings face Senators post-Olympics, aiming to rebound. Crucial divisional clash as playoff race tightens, with key players returning.",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "Senators' Tim Stutzle game-time decision vs. Red Wings with illness - Sportsnet.ca",
+        "url": "https://www.sportsnet.ca/nhl/article/senators-tim-stutzle-game-time-decision-vs-red-wings-with-illness/",
+        "description": "Tim Stutzle's status is in the air as the Ottawa Senators return to the ice from the Olympic break. The 24-year-old forward is a game-time decision for Thursday's game against the Detroit Red Wings as he deals with an illness, Sportsnet's Alex Adams reported.",
+        "age": "13 hours ago"
+      }
+    ],
+    "query": "Red Wings vs. Senators",
+    "sources_count": 10
+  },
+  "error": null
+}

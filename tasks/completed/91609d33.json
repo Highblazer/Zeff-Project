@@ -1,0 +1,85 @@
+{
+  "id": "91609d33",
+  "title": "Polymarket research: Will Kim Kardashian win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Kim Kardashian win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:25.910140+00:00",
+  "updated_at": "2026-02-26T23:37:44.087488+00:00",
+  "claimed_at": "2026-02-26T23:37:42.766203+00:00",
+  "completed_at": "2026-02-26T23:37:44.087467+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Kim Kardashian win the 2028 US Presidential Election?\n\nWeb Results (5):\n- Presidential Election Winner 2028 Odds & Predictions (202...: Real-time odds on &quot;Will Kim Kardashian win the 2028 US Presidential Election?&quot; as of <strong>November 26, 2025</strong>.\n- JUST IN: Kim Kardashian is now beating Hillary Clinton & ...: We cannot provide a description for this page right now\n- Polymarket on X: \"JUST IN: Kim Kardashian climbs the rankings in the 2028 Presidential Election. 1% chance she\u2019s the next president. https://t.co/zyDyglFrb7\" / X: JUST IN: <strong>Kim Kardashian climbs the rankings in the 2028 Presidential Election</strong>.\n- \"Will she do better than Ye?\" - Internet reacts to Polymarket predicting Kim Kardashian has a 1% chance to become the next president of the US: \u201cOn Polymarket and other prediction markets, <strong>Kim Kardashian is currently a very long shot to win the 2028 presidential election</strong>, and \n- Republican Presidential Nominee 2028 Odds & Predictions (...: Real-time odds on &quot;Will Kim Kardashian win the 2028 Republican presidential nomination?&quot; as of <strong>November 27, 2025</strong>.\n\nNews (5):\n- Kamala Harris undecided on 2028 presidential run (1 day ago)\n- Presidential election, 2028 - Ballotpedia (1 day ago)\n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times (1 week ago)\n- Election betting boom sparks midterm brawl in California - POLITICO (3 days ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)",
+    "web_results": [
+      {
+        "title": "Presidential Election Winner 2028 Odds & Predictions (202...",
+        "url": "https://polymarket.com/event/presidential-election-winner-2028/will-kim-kardashian-win-the-2028-us-presidential-election",
+        "description": "Real-time odds on &quot;Will Kim Kardashian win the 2028 US Presidential Election?&quot; as of <strong>November 26, 2025</strong>."
+      },
+      {
+        "title": "JUST IN: Kim Kardashian is now beating Hillary Clinton & ...",
+        "url": "https://www.facebook.com/DonaldTrump4President/posts/just-in-kim-kardashian-is-now-beating-hillary-clinton-ted-cruz-in-the-2028-presi/1258579466298080/",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Polymarket on X: \"JUST IN: Kim Kardashian climbs the rankings in the 2028 Presidential Election. 1% chance she\u2019s the next president. https://t.co/zyDyglFrb7\" / X",
+        "url": "https://x.com/Polymarket/status/1974980540765028626",
+        "description": "JUST IN: <strong>Kim Kardashian climbs the rankings in the 2028 Presidential Election</strong>."
+      },
+      {
+        "title": "\"Will she do better than Ye?\" - Internet reacts to Polymarket predicting Kim Kardashian has a 1% chance to become the next president of the US",
+        "url": "https://www.soapcentral.com/entertainment/news-will-better-ye-internet-reacts-polymarket-predicting-kim-kardashian-1-chance-become-next-president-us",
+        "description": "\u201cOn Polymarket and other prediction markets, <strong>Kim Kardashian is currently a very long shot to win the 2028 presidential election</strong>, and there is no evidence that her odds are &quot;climbing&quot;."
+      },
+      {
+        "title": "Republican Presidential Nominee 2028 Odds & Predictions (...",
+        "url": "https://polymarket.com/event/republican-presidential-nominee-2028/will-kim-kardashian-win-the-2028-republican-presidential-nomination",
+        "description": "Real-time odds on &quot;Will Kim Kardashian win the 2028 Republican presidential nomination?&quot; as of <strong>November 27, 2025</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Kamala Harris undecided on 2028 presidential run",
+        "url": "https://thehill.com/blogs/in-the-know/5754536-kamala-harris-2028",
+        "description": "Former VP Kamala Harris unsure about running for president in 2028, reflects on her 2024 campaign and concerns about misinformation and democracy.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "By Nate Silver and John Guida \u00b7 Mr. Silver is the author of \u201cOn the Edge: The Art of Risking Everything.\u201d Mr. Guida is an editor in Times Opinion",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Election betting boom sparks midterm brawl in California - POLITICO",
+        "url": "https://politico.com/news/2026/02/24/election-betting-boom-sparks-midterm-brawl-in-california-00794537",
+        "description": "Millions of dollars are pouring into prediction markets for California campaigns as concerns ratchet up over insider trading and risks to democracy.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will Kim Kardashian win the 2028 US Presidential Election?",
+    "sources_count": 10
+  },
+  "error": null
+}

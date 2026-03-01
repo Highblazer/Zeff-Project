@@ -1,0 +1,117 @@
+{
+  "id": "ac4a25f4",
+  "title": "central bank surprise decisions February 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "central bank surprise decisions February 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T23:01:33.499802+00:00",
+  "updated_at": "2026-02-26T23:01:34.902499+00:00",
+  "claimed_at": "2026-02-26T23:01:33.504816+00:00",
+  "completed_at": "2026-02-26T23:01:34.902488+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: central bank surprise decisions February 2026\n\nFindings (8):\n- [market_mover] Bangladesh Central Bank Chief Quits Abruptly After Change in Government - Bloomberg (action=0.5, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] Monetary policy decisions - European Central Bank (action=0.55, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] A year in which the major central banks part ways | Reuters (action=0.45, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] Fed signals rate hikes still possible in 2026 - TheStreet (action=0.45, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] Our monetary policy statement at a glance - February 2026 (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Bangladesh Central Bank Chief Quits Abruptly After Change in Government - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-25/bangladesh-bank-chief-quits-abruptly-after-change-in-government",
+        "description": "The head of Bangladesh\u2019s central bank stepped down in a surprise departure that comes just over a week after the inauguration of the country\u2019s new democratically elected government.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.46,
+        "combined_score": 0.48,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Monetary policy decisions - European Central Bank",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260205~001d26959b.en.html",
+        "description": "Combined monetary policy decisions and statementDownload PDFMonetary policy statement (with Q&amp;A)View page \u00b7 PRESS RELEASE \u00b7 5 February 2026 \u00b7 The Governing Council today decided to <strong>keep the three key ECB interest rates unchanged</strong>.",
+        "category": "market_mover",
+        "actionability_score": 0.55,
+        "impact_score": 0.4,
+        "combined_score": 0.48,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "A year in which the major central banks part ways | Reuters",
+        "url": "https://www.reuters.com/world/americas/global-markets-central-banks-graphic-2026-02-05/",
+        "description": "Central banks in big economies are parting ways, with Australia this week raising interest rates for the first time in two years, while others are taking a more cautious approach even if they are likely done with easing.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.46,
+        "combined_score": 0.45,
+        "age": "3 weeks ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Fed signals rate hikes still possible in 2026 - TheStreet",
+        "url": "https://www.thestreet.com/fed/federal-reserve-officials-signal-shocking-twist-on-2026-interest-rate-cuts",
+        "description": "View post: Fed official signals <strong>surprise rate-cut shift</strong> ... Softer inflation data revive hopes for easing borrowing costs in 2026.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.46,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Our monetary policy statement at a glance - February 2026",
+        "url": "https://www.ecb.europa.eu/press/press_conference/visual-mps/2026/html/mopo_statement_explained_february.en.html",
+        "description": "Firms are asking for more credit, but banks are also looking more carefully at who they lend to. ... Here is what the Governing Council decided about the ECB`s interest rates and instruments at its latest meeting. Press release \u00b7 Read our explanation of the reasons behind the latest monetary policy ",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "S.Korea central bank holds rates, adopts dot-plot path signalling extended pause | Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/south-korea-central-bank-holds-policy-interest-rates-expected-2026-02-26/",
+        "description": "South Korea's central bank stood pat on interest rates on Thursday and signalled policy would stay unchanged for the next six months as a chip boom in exports and steady inflation allow policymakers more time to assess financial stability risks.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Week Ahead Economic Preview: Week of 23 February 2026 | S&P Global",
+        "url": "https://spglobal.com/marketintelligence/en/mi/research-analysis/week-ahead-economic-preview-week-of-23-february-2026.html",
+        "description": "Upcoming data will help guide markets on central bank policy, and in particular whether Japan and Australia might soon see further rate hikes.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "4 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "February Global Regulatory Brief: Digital finance | Insights | Bloomberg Professional Services",
+        "url": "https://bloomberg.com/professional/insights/regulation/february-2026-global-regulatory-brief-digital-finance",
+        "description": "As technology continues to reshape financial services, regulators and policy setters are embarking on a range of digital-finance initiatives to manage risks and set appropriate standards.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "central bank surprise decisions February 2026",
+    "sources_count": 10,
+    "findings_count": 8,
+    "market_movers": 7,
+    "opportunities": 1
+  },
+  "error": null
+}

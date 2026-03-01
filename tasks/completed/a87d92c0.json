@@ -1,0 +1,85 @@
+{
+  "id": "a87d92c0",
+  "title": "Polymarket research: Pelicans vs. Jazz",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pelicans vs. Jazz",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:29:33.830829+00:00",
+  "updated_at": "2026-02-27T00:29:42.267730+00:00",
+  "claimed_at": "2026-02-27T00:29:40.482859+00:00",
+  "completed_at": "2026-02-27T00:29:42.267711+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pelicans vs. Jazz\n\nWeb Results (5):\n- Pelicans vs. Jazz: Injury Report, Game Preview 2/26/2026: Get Utah Jazz vs. New Orleans Pelicans injury updates and game preview. Game airs <strong>Thursday, Feb. 26 at 8:00 pm CT</strong> live on TV or strea\n- Pelicans 123-119 Jazz (Jan 20, 2025) Final Score - ESPN: Game summary of the New Orleans Pelicans vs. Utah Jazz NBA game, final score <strong>123-119</strong>, from January 20, 2025 on ESPN.\n- Jazz vs Pelicans scores & predictions | Sofascore: Utah Jazz is playing against New Orleans Pelicans on <strong>Feb 27, 2026 at 2:00:00 AM UTC</strong>.\n- New Orleans Pelicans vs. Utah Jazz Head-to-Head in the NBA Regular Season - All-Time Game Log: The Pelicans and the Utah Jazz have played 79 games in the regular season with <strong>31 victories for the Pelicans and 48 for the Jazz</strong>.\n- Pelicans vs. Jazz Prediction, Odds and Best NBA Prop Bets for Thursday, Feb. 26: I can only look to the Pelicans in tonight\u2019s game. They\u2019re playing well with a <strong>15-point win over Philadelphia and a 4-point win over the Warri\n\nNews (5):\n- Injuries piling up as Jazz begin two-game set with Pelicans - CBS Sports (1 day ago)\n- Pelicans vs. Jazz: Injury Report, Game Preview 2/26/2026 (1 day ago)\n- Jazz face the Pelicans on 3-game skid | FOX Sports (2 days ago)\n- Pelicans vs. Jazz Prediction, Odds and Best NBA Prop Bets for Thursday, Feb. 26 (6 hours ago)\n- Utah Jazz vs. New Orleans Pelicans: Preview, injury report, how to watch - Yahoo Sports (6 hours ago)",
+    "web_results": [
+      {
+        "title": "Pelicans vs. Jazz: Injury Report, Game Preview 2/26/2026",
+        "url": "https://pelicans.com/news/pelicans-vs-jazz-injury-report-game-preview-2-26-2026",
+        "description": "Get Utah Jazz vs. New Orleans Pelicans injury updates and game preview. Game airs <strong>Thursday, Feb. 26 at 8:00 pm CT</strong> live on TV or stream online."
+      },
+      {
+        "title": "Pelicans 123-119 Jazz (Jan 20, 2025) Final Score - ESPN",
+        "url": "https://www.espn.com/nba/game/_/gameId/401705171/jazz-pelicans",
+        "description": "Game summary of the New Orleans Pelicans vs. Utah Jazz NBA game, final score <strong>123-119</strong>, from January 20, 2025 on ESPN."
+      },
+      {
+        "title": "Jazz vs Pelicans scores & predictions | Sofascore",
+        "url": "https://www.sofascore.com/basketball/match/new-orleans-pelicans-utah-jazz/JtbsOkc",
+        "description": "Utah Jazz is playing against New Orleans Pelicans on <strong>Feb 27, 2026 at 2:00:00 AM UTC</strong>."
+      },
+      {
+        "title": "New Orleans Pelicans vs. Utah Jazz Head-to-Head in the NBA Regular Season - All-Time Game Log",
+        "url": "https://www.landofbasketball.com/head_to_head_gl/pelicans_vs_jazz_game_log_season.htm",
+        "description": "The Pelicans and the Utah Jazz have played 79 games in the regular season with <strong>31 victories for the Pelicans and 48 for the Jazz</strong>."
+      },
+      {
+        "title": "Pelicans vs. Jazz Prediction, Odds and Best NBA Prop Bets for Thursday, Feb. 26",
+        "url": "https://www.si.com/betting/pelicans-vs-jazz-prediction-odds-and-best-nba-prop-bets-for-thursday-feb-26-01kjdjf7kph6",
+        "description": "I can only look to the Pelicans in tonight\u2019s game. They\u2019re playing well with a <strong>15-point win over Philadelphia and a 4-point win over the Warriors, while the Jazz just lost by 20 to Houston, 9 to Memphis, and 16 to Portland</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Injuries piling up as Jazz begin two-game set with Pelicans - CBS Sports",
+        "url": "https://www.cbssports.com/nba/news/injuries-piling-up-as-jazz-begin-two-game-set-with-pelicans/",
+        "description": "Injuries are afflicting the Utah Jazz and shortening the rotation of available, healthy players ahead of a two-game set against the New Orleans Pelicans in Salt Lake City.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Pelicans vs. Jazz: Injury Report, Game Preview 2/26/2026",
+        "url": "https://www.nba.com/pelicans/news/pelicans-vs-jazz-injury-report-game-preview-2-26-2026",
+        "description": "Get Utah Jazz vs. New Orleans Pelicans injury updates and game preview. Game airs Thursday, Feb. 26 at 8:00 pm CT live on TV or stream online.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Jazz face the Pelicans on 3-game skid | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/jazz-face-the-pelicans-on-3game-skid",
+        "description": "Utah looks to break its three-game skid when the Utah Jazz play New Orleans",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Pelicans vs. Jazz Prediction, Odds and Best NBA Prop Bets for Thursday, Feb. 26",
+        "url": "https://www.si.com/betting/pelicans-vs-jazz-prediction-odds-and-best-nba-prop-bets-for-thursday-feb-26-01kjdjf7kph6",
+        "description": "It\u2019s a race to the bottom between the New Orleans Pelicans and Utah Jazz. The Jazz sit at 18-40 with the Pelicans just below them at 17-42. The difference is th",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "Utah Jazz vs. New Orleans Pelicans: Preview, injury report, how to watch - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/utah-jazz-vs-orleans-pelicans-184837858.html",
+        "description": "Will Lauri Markkanen play against the New Orleans Pelicans?",
+        "age": "6 hours ago"
+      }
+    ],
+    "query": "Pelicans vs. Jazz",
+    "sources_count": 10
+  },
+  "error": null
+}

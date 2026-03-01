@@ -1,0 +1,28 @@
+{
+  "id": "2e056b8a",
+  "title": "Polymarket research: Will Bitcoin reach $110,000 in February?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $110,000 in February?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T07:46:06.657270+00:00",
+  "updated_at": "2026-02-27T07:46:22.530382+00:00",
+  "claimed_at": "2026-02-27T07:46:21.465723+00:00",
+  "completed_at": "2026-02-27T07:46:22.530364+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $110,000 in February?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Bitcoin reach $110,000 in February?",
+    "sources_count": 0
+  },
+  "error": null
+}

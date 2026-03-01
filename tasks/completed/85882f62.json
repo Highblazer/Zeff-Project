@@ -1,0 +1,31 @@
+{
+  "id": "85882f62",
+  "title": "Research Claude AI agent tools, Claude Code CLI features, MCP servers, and Anthropic SDK capabilities \u2014 find articles, tweets, and tutorials on building autonomous agents with Claude",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Claude Code CLI agent tools MCP servers Anthropic SDK 2026",
+    "sources": [
+      "web",
+      "twitter",
+      "github"
+    ],
+    "scope": "Find new Claude features, MCP server integrations, agent patterns, and SDK capabilities we can leverage to improve our fleet autonomy and tool access"
+  },
+  "priority": 2,
+  "status": "completed",
+  "created_by": "CEO",
+  "created_at": "2026-02-25T21:39:44.604965+00:00",
+  "updated_at": "2026-02-25T21:39:47.469249+00:00",
+  "claimed_at": "2026-02-25T21:39:46.626478+00:00",
+  "completed_at": "2026-02-25T21:39:47.469231+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Claude Code CLI agent tools MCP servers Anthropic SDK 2026\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Claude Code CLI agent tools MCP servers Anthropic SDK 2026",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "12209bac",
+  "title": "Polymarket research: Will Steve Bannon win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Steve Bannon win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.012389+00:00",
+  "updated_at": "2026-03-01T07:28:17.696687+00:00",
+  "claimed_at": "2026-03-01T07:28:15.681389+00:00",
+  "completed_at": "2026-03-01T07:28:17.696671+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Steve Bannon win the 2028 Republican presidential nomination?\n\nWeb Results (5):\n- Republican Presidential Nominee 2028 Predictions & Odds | Polymarket: 1% Buy Yes0.9\u00a2Buy No99.2\u00a2 \u00b7 Sarah Huckabee Sanders \u00b7 $14,141,033 Vol. 1% Buy Yes0.8\u00a2Buy No99.3\u00a2 \u00b7 <strong>This market will resolve to \u201cYes\u201d if the nam\n- Steve Bannon denies reports he\u2019s plotting a run for the White House in 2028 | The Independent: ... <strong>Bannon has a one percent chance of becoming the GOP nominee</strong>, according to the betting site Polymarket, well behind the frontrunne\n- Scoop: Bannon quietly making moves toward 2028 run: Former Trump White House adviser <strong>Steve Bannon is laying the groundwork for a 2028 run for president</strong>, two people familiar with his thi\n- Steve Bannon Predicts Trump Will Run, and Win in 2028: A recent poll of CPAC attendees put Vice President J.D. Vance as the front-runner for the Republican nomination in 2028, but <strong>Steve Bannon had \n- 2028 United States presidential election - Wikipedia: Following a public clash with President Donald Trump in late 2025\u2014particularly over demands to release Jeffrey Epstein files\u2014online speculation surged\n\nNews (5):\n- Presidential election, 2028 - Ballotpedia (4 days ago)\n- The potential 2028 Republican presidential candidates, ranked - The Washington Post (2 days ago)\n- Bannon blasts Trump campaign aides in Texas Senate showdown - POLITICO (2 days ago)\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (3 days ago)\n- Bannon enters the Texas battle for MAGA\u2019s soul - POLITICO (2 days ago)",
+    "web_results": [
+      {
+        "title": "Republican Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/republican-presidential-nominee-2028/will-steve-bannon-win-the-2028-republican-presidential-nomination",
+        "description": "1% Buy Yes0.9\u00a2Buy No99.2\u00a2 \u00b7 Sarah Huckabee Sanders \u00b7 $14,141,033 Vol. 1% Buy Yes0.8\u00a2Buy No99.3\u00a2 \u00b7 <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S.</strong>"
+      },
+      {
+        "title": "Steve Bannon denies reports he\u2019s plotting a run for the White House in 2028 | The Independent",
+        "url": "https://www.the-independent.com/news/world/americas/us-politics/steve-bannon-2028-presidential-campaign-b2898117.html",
+        "description": "... <strong>Bannon has a one percent chance of becoming the GOP nominee</strong>, according to the betting site Polymarket, well behind the frontrunner, Vice President JD Vance, who has a 52 percent rating."
+      },
+      {
+        "title": "Scoop: Bannon quietly making moves toward 2028 run",
+        "url": "https://www.axios.com/2026/01/10/steve-bannon-2028-campaign-maga",
+        "description": "Former Trump White House adviser <strong>Steve Bannon is laying the groundwork for a 2028 run for president</strong>, two people familiar with his thinking tell Axios. Why it matters: The MAGA godfather isn&#x27;t serious about becoming president \u2014 that&#x27;s not the point."
+      },
+      {
+        "title": "Steve Bannon Predicts Trump Will Run, and Win in 2028",
+        "url": "https://www.thewrap.com/steve-bannon-predicts-trump-run-win-3rd-term-2028/",
+        "description": "A recent poll of CPAC attendees put Vice President J.D. Vance as the front-runner for the Republican nomination in 2028, but <strong>Steve Bannon had a much bolder prediction: a third term for Donald Trump.</strong>"
+      },
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "Following a public clash with President Donald Trump in late 2025\u2014particularly over demands to release Jeffrey Epstein files\u2014online speculation surged about a potential 2028 presidential ticket with Marjorie Taylor Greene, dubbed &quot;Massie-Greene 2028&quot; by supporters. Massie has not declared any presidential candidacy and remains in Congress, where he faces a Trump-backed primary challenge in his 2026 reelection bid amid ongoing tensions, including his push for Epstein file releases. The following individuals have publicly denied interest in being a candidate: Greg Abbott, 48th governor of Texas (2015\u2013present) Steve Bannon, former Senior Counselor to the President from Virginia (2017)"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "4 days ago"
+      },
+      {
+        "title": "The potential 2028 Republican presidential candidates, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/27/2028-republican-presidential-candidates-trump-vance-rubio-gop",
+        "description": "Most are all-in on MAGA \u00b7 Who is going to lead the Republican Party after a decade of President Donald Trump",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bannon blasts Trump campaign aides in Texas Senate showdown - POLITICO",
+        "url": "https://www.politico.com/news/2026/02/27/bannon-texas-senate-maga-00803314",
+        "description": "Steve Bannon has gone all-in for Ken Paxton in Texas. But two of Trump's top campaign hands are backing John Cornyn \u2014 opening up a rift on the right.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Bannon enters the Texas battle for MAGA\u2019s soul - POLITICO",
+        "url": "https://www.politico.com/newsletters/playbook/2026/02/27/bannon-enters-the-texas-battle-for-magas-soul-00803320",
+        "description": "He is a contributor to POLITICO ... to his return to power ahead of what could be a wide-open 2028 presidential contest. Wren delivers reporting about the people, ideas and subcultures animating the Republican and Democratic parties, as well the cultural changes upstream ...",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Steve Bannon win the 2028 Republican presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

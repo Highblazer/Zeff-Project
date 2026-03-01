@@ -1,0 +1,85 @@
+{
+  "id": "44960551",
+  "title": "Polymarket research: Will Bitcoin reach $85,000 in February?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $85,000 in February?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:46:41.151207+00:00",
+  "updated_at": "2026-02-26T23:47:09.903687+00:00",
+  "claimed_at": "2026-02-26T23:47:08.482155+00:00",
+  "completed_at": "2026-02-26T23:47:09.903670+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $85,000 in February?\n\nWeb Results (5):\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?: <strong>Macro risks, including policy changes and global uncertainty, could trigger temporary pullbacks toward $85,000\u2013$90,000</strong>. Nevertheless,\n- What price will Bitcoin hit in February? Prediction Market Prices - Yahoo Finance: Live pricing, charts, and volume for the What price will Bitcoin hit in February? prediction market from Yahoo Finance.\n- What price will Bitcoin hit in February? Betting Odds & Predictions | Polymarket: \u2191 90,000 \u00b7 $371,458 Vol. 26% Buy Yes 26\u00a2Buy No 75\u00a2 \u00b7 <strong>\u2191 85,000 \u00b7 $347,396 Vol.</strong> 54% Buy Yes 55\u00a2Buy No 47\u00a2 \u00b7 \u2193 70,000 \u00b7 $616,673 Vol. 41\n- What price will Bitcoin hit in February? Trading Odds & Predictions | Polymarket: A price of 100\u00a2 for &quot;\u2193 80,000&quot; in the &quot;What price will Bitcoin hit in February?&quot; market means traders collectively believe there i\n- Polymarket Called Bitcoin's Crash to $60K. Now It Predicts an $85K Bitcoin Recovery - 24/7 Wall St.: Now the same Polymarket bettors are shifting their stance toward a Bitcoin recovery. They give Bitcoin a <strong>71% chance of reclaiming $85,000 befo\n\nNews (5):\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026? (3 days ago)\n- Bitcoin price prediction 2026-2032: Will BTC hit $150k soon? (2 days ago)\n- bitcoin price today: Why is Bitcoin price rising now and will BTC touch $80,000 next? Bitcoin price prediction, analysts insights and market outlook explained. Here's what should investors do now - The Economic Times (7 hours ago)\n- Prediction Traders Are Betting Bitcoin Will Fall Below $65,000 (3 weeks ago)\n- Bitcoin Market Predictions: Here is what Recent Crypto Updates Mean - AMBCrypto (18 hours ago)",
+    "web_results": [
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "<strong>Macro risks, including policy changes and global uncertainty, could trigger temporary pullbacks toward $85,000\u2013$90,000</strong>. Nevertheless, the long-term outlook remains intact as long as Bitcoin holds above critical support levels."
+      },
+      {
+        "title": "What price will Bitcoin hit in February? Prediction Market Prices - Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/prediction/event/what-price-will-bitcoin-hit-in-february-2026/",
+        "description": "Live pricing, charts, and volume for the What price will Bitcoin hit in February? prediction market from Yahoo Finance."
+      },
+      {
+        "title": "What price will Bitcoin hit in February? Betting Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026/will-bitcoin-reach-85k-in-february-2026",
+        "description": "\u2191 90,000 \u00b7 $371,458 Vol. 26% Buy Yes 26\u00a2Buy No 75\u00a2 \u00b7 <strong>\u2191 85,000 \u00b7 $347,396 Vol.</strong> 54% Buy Yes 55\u00a2Buy No 47\u00a2 \u00b7 \u2193 70,000 \u00b7 $616,673 Vol. 41% Buy Yes 41\u00a2Buy No 60\u00a2 \u00b7 \u2193 65,000 \u00b7 $232,063 Vol."
+      },
+      {
+        "title": "What price will Bitcoin hit in February? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
+        "description": "A price of 100\u00a2 for &quot;\u2193 80,000&quot; in the &quot;What price will Bitcoin hit in February?&quot; market means traders collectively believe there is <strong>roughly a 100% chance that &quot;\u2193 80,000&quot; will be the correct result</strong>."
+      },
+      {
+        "title": "Polymarket Called Bitcoin's Crash to $60K. Now It Predicts an $85K Bitcoin Recovery - 24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/02/09/polymarket-called-bitcoins-crash-to-60k-now-it-predicts-an-85k-bitcoin-recovery/",
+        "description": "Now the same Polymarket bettors are shifting their stance toward a Bitcoin recovery. They give Bitcoin a <strong>71% chance of reclaiming $85,000 before February ends</strong> \u2014 but just 10% odds of returning to $100,000."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Explore the latest Bitcoin price forecast for Feb 2026 as BTC slips below key support amid U.S. tariff tensions. Can it hold $60K? Read our analysis.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Bitcoin price prediction 2026-2032: Will BTC hit $150k soon?",
+        "url": "https://cryptopolitan.com/bitcoin-price-prediction",
+        "description": "Can Bitcoin hit $150,000 in the post-halving rally? Explore our Bitcoin price prediction with detailed market analysis and future growth insights.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "bitcoin price today: Why is Bitcoin price rising now and will BTC touch $80,000 next? Bitcoin price prediction, analysts insights and market outlook explained. Here's what should investors do now - The Economic Times",
+        "url": "https://economictimes.indiatimes.com/news/international/us/why-is-bitcoin-price-rising-now-and-will-btc-touch-80000-next-bitcoin-price-prediction-analysts-insights-and-market-outlook-explained-heres-what-should-investors-do-now/articleshow/128819758.cms",
+        "description": "Why is Bitcoin price rising now and will BTC touch $80,000 next? Bitcoin price prediction shows BTC near $69,000 with ETF inflows, liquidation clusters and support levels driving momentum. The support at $68,000, resistance near $75,000 and liquidation zones near $80,000 shaping Bitcoin price ...",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "Prediction Traders Are Betting Bitcoin Will Fall Below $65,000",
+        "url": "https://finance.yahoo.com/news/prediction-traders-betting-bitcoin-fall-194452109.html",
+        "description": "If prediction markets are to be believed, the world\u2019s most popular cryptocurrency may have a lot further to fall. Bitcoin has lost 40% since it hit an all-time high of over $126,000 in October, shedding momentum, narrative and its claim as a hedge all at once.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "Bitcoin Market Predictions: Here is what Recent Crypto Updates Mean - AMBCrypto",
+        "url": "https://ambcrypto.com/bitcoin-market-predictions-here-is-what-recent-crypto-updates-mean",
+        "description": "Anyone familiar with the cryptocurrency market and Bitcoin as the most valuable token probably knows about the volatility of the market.",
+        "age": "18 hours ago"
+      }
+    ],
+    "query": "Will Bitcoin reach $85,000 in February?",
+    "sources_count": 10
+  },
+  "error": null
+}

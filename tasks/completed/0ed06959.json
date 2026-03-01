@@ -1,0 +1,28 @@
+{
+  "id": "0ed06959",
+  "title": "MCP server new tools integrations 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "MCP server new tools integrations 2026",
+    "category": "tech_upgrades"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-27T01:46:49.502628+00:00",
+  "updated_at": "2026-02-27T01:46:51.170339+00:00",
+  "claimed_at": "2026-02-27T01:46:49.508917+00:00",
+  "completed_at": "2026-02-27T01:46:51.170321+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: MCP server new tools integrations 2026\n\nFindings (0):\n",
+    "findings": [],
+    "query": "MCP server new tools integrations 2026",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

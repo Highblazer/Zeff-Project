@@ -1,0 +1,28 @@
+{
+  "id": "d6dab620",
+  "title": "Polymarket research: Timberwolves vs. Clippers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Timberwolves vs. Clippers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T05:03:01.471505+00:00",
+  "updated_at": "2026-02-27T05:03:10.504483+00:00",
+  "claimed_at": "2026-02-27T05:03:08.848622+00:00",
+  "completed_at": "2026-02-27T05:03:10.504465+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Timberwolves vs. Clippers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Timberwolves vs. Clippers",
+    "sources_count": 0
+  },
+  "error": null
+}

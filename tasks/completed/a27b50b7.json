@@ -1,0 +1,85 @@
+{
+  "id": "a27b50b7",
+  "title": "Polymarket research: Iran strike on US military by February 28?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Iran strike on US military by February 28?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:47.120894+00:00",
+  "updated_at": "2026-03-01T07:27:53.939686+00:00",
+  "claimed_at": "2026-03-01T07:27:51.384552+00:00",
+  "completed_at": "2026-03-01T07:27:53.939667+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Iran strike on US military by February 28?\n\nWeb Results (5):\n- Iran Update Special Report: US and Israeli Strikes, February 28, 2026: <strong>Iran has attacked US bases in Bahrain, Qatar, the United Arab Emirates, Kuwait, Jordan, and Saudi Arabia</strong>.[28] Khatam ol Anbia Central\n- Supreme Leader of Iran Khamenei dead following Israel\u2019s strike on Iran | Live Updates from Fox News Digital: <strong>Anti-Iranian regime protesters gather outside 10 Downing Street following a joint military strike by the US and Israel targeting multiple loca\n- A visual guide to US-Israeli strikes on Iran \u2013 and Tehran\u2019s response | Iran | The Guardian: Footage from Minab, Iran, shows the aftermath of a US-Israeli strike on a girls&#x27; school \u2013 video \u00b7 Reuters said it had also verified the footage a\n- Iranian leader Khamenei killed in air strikes as U.S., Israel launch attacks | Reuters: WASHINGTON/JERUSALEM/DUBAI/DOHA, Feb 28 (Reuters) - <strong>Iran&#x27;s Supreme Leader Ali Khamenei was killed on Saturday</strong>, state media confi\n- New strikes hit Tehran \u2013 as it happened | US-Israel war on Iran | The Guardian: US Central Command has confirmed that US strikes are still under way. In a post on X, it said: The Iranian regime was warned. CENTCOM is now deliverin\n\nNews (5):\n- Live updates: Iran\u2019s Supreme Leader Ayatollah Ali Khamenei killed in US-Israeli strikes | CNN (1 day ago)\n- New strikes hit Tehran \u2013 as it happened | US-Israel war on Iran | The Guardian (4 hours ago)\n- Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing (1 day ago)\n- A visual guide to US-Israeli strikes on Iran \u2013 and Tehran\u2019s response | Iran | The Guardian (15 hours ago)\n- Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times (1 day ago)",
+    "web_results": [
+      {
+        "title": "Iran Update Special Report: US and Israeli Strikes, February 28, 2026",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-us-and-israeli-strikes-february-28-2026/",
+        "description": "<strong>Iran has attacked US bases in Bahrain, Qatar, the United Arab Emirates, Kuwait, Jordan, and Saudi Arabia</strong>.[28] Khatam ol Anbia Central Headquarters Commander Major General Ali Abdollahi Ali Abadi confirmed that Iranian forces have conducted missile ..."
+      },
+      {
+        "title": "Supreme Leader of Iran Khamenei dead following Israel\u2019s strike on Iran | Live Updates from Fox News Digital",
+        "url": "https://www.foxnews.com/live-news/israel-us-launch-attack-on-iran-amid-escalating-protests",
+        "description": "<strong>Anti-Iranian regime protesters gather outside 10 Downing Street following a joint military strike by the US and Israel targeting multiple locations in Iran on February 28, 2026 in London, United Kingdom</strong>."
+      },
+      {
+        "title": "A visual guide to US-Israeli strikes on Iran \u2013 and Tehran\u2019s response | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/28/us-israel-strikes-iran-tehran-response-visual-guide",
+        "description": "Footage from Minab, Iran, shows the aftermath of a US-Israeli strike on a girls&#x27; school \u2013 video \u00b7 Reuters said it had also verified the footage as being from the school. Iran\u2019s retaliation to the military campaign was swift."
+      },
+      {
+        "title": "Iranian leader Khamenei killed in air strikes as U.S., Israel launch attacks | Reuters",
+        "url": "https://www.reuters.com/business/aerospace-defense/israel-us-launch-strikes-iran-2026-02-28/",
+        "description": "WASHINGTON/JERUSALEM/DUBAI/DOHA, Feb 28 (Reuters) - <strong>Iran&#x27;s Supreme Leader Ali Khamenei was killed on Saturday</strong>, state media confirmed, after the United States and Israel launched the most ambitious attack on Iranian targets in decades."
+      },
+      {
+        "title": "New strikes hit Tehran \u2013 as it happened | US-Israel war on Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/live/2026/feb/28/israel-attacks-iran-as-blasts-heard-in-tehran-live-updates",
+        "description": "US Central Command has confirmed that US strikes are still under way. In a post on X, it said: The Iranian regime was warned. CENTCOM is now delivering swift and decisive action as directed. Earlier, the Israeli military said it was carrying out \u201canother wave of strikes\u201d against \u201cIranian ballistic missile array and air defense systems\u201d."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Live updates: Iran\u2019s Supreme Leader Ayatollah Ali Khamenei killed in US-Israeli strikes | CNN",
+        "url": "https://www.cnn.com/world/live-news/israel-iran-attack-02-28-26-hnk-intl",
+        "description": "The increase in the travel advisory level, issued Saturday, comes after the US and Israel launched military strikes on Iran, with Tehran retaliating with military strikes across the region. \u201cFollowing the onset of hostilities between the United States and Iran on February 28, there has been ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "New strikes hit Tehran \u2013 as it happened | US-Israel war on Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/live/2026/feb/28/israel-attacks-iran-as-blasts-heard-in-tehran-live-updates",
+        "description": "Sun 1 Mar 2026 04.02 CETFirst published on Sat 28 Feb 2026 07.51 CET ... Iran war becomes an issue in Maine Senate race, as Susan Collins voices support while Graham Platner and Janet Mills condemn strikes",
+        "age": "4 hours ago"
+      },
+      {
+        "title": "Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing",
+        "url": "https://www.cbsnews.com/live-updates/israel-us-attack-iran-trump-says-major-combat-operations/",
+        "description": "President Trump said that \"heavy and pinpoint bombing\" of Iran would \"continue, uninterrupted throughout the week or, as long as necessary.\"",
+        "age": "1 day ago"
+      },
+      {
+        "title": "A visual guide to US-Israeli strikes on Iran \u2013 and Tehran\u2019s response | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/28/us-israel-strikes-iran-tehran-response-visual-guide",
+        "description": "Missiles and bombs landed across Iran, hitting political and security targets in Tehran, including supreme leader\u2019s residence",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times",
+        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+        "description": "The death of Ayatollah Ali Khamenei raised questions about leadership succession as attacks on Iran, and its responses, continued.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Iran strike on US military by February 28?",
+    "sources_count": 10
+  },
+  "error": null
+}

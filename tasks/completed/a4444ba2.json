@@ -1,0 +1,138 @@
+{
+  "id": "a4444ba2",
+  "title": "MCP Model Context Protocol servers tools available integrations",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "MCP Model Context Protocol servers tools available integrations trading research finance",
+    "count": 10
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "seth-ceo",
+  "created_at": "2026-02-25T21:48:48.129570+00:00",
+  "updated_at": "2026-02-25T21:49:25.877600+00:00",
+  "claimed_at": "2026-02-25T21:49:24.190673+00:00",
+  "completed_at": "2026-02-25T21:49:25.877582+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: MCP Model Context Protocol servers tools available integrations trading research finance\n\nWeb Results (10):\n- GitHub - financial-datasets/mcp-server: An MCP server for interacting with the Financial Datasets stock market API.: <strong>An MCP server for interacting with the Financial Datasets stock market API</strong>. - financial-datasets/mcp-server\n- Alpha Vantage MCP for Stock Market Data: The official Alpha Vantage API MCP server enables LLMs and agentic workflows to seamlessly interact with real-time and historical stock market data th\n- Use Model Context Protocol for finance and operations apps - Finance & Operations | Dynamics 365 | Microsoft Learn: An earlier version of the MCP server, known as the &quot;static Dynamics 365 ERP MCP&quot; server, built on the Dataverse connector framework, has <st\n- GitHub - modelcontextprotocol/servers: Model Context Protocol Servers: TomTom-MCP - The TomTom MCP Server simplifies geospatial development by providing seamless access to TomTom&#x27;s location services, including search\n- Top 10 MCP Servers for Stock Market Data in 2026 | by Pranjal Saxena | Dec, 2025 | DataDrivenInvestor: It offers the broadest coverage and the most balanced foundation for MCP-based systems that span prices, indicators, and multi-asset analysis. Financi\n- Model Context Protocol (MCP) | Financial Data Integration for LLMs: Experience seamless integration of FactSet content and financial data into LLMs with the Model Context Protocol (MCP). Boost AI workflow efficiency an\n- Finance MCP Servers | Glama: ... Provides integration with <strong>Twelve Data API to access financial market data including historical time series, real-time quotes, and instrume\n- Best MCP Servers to Integrate Stock Market Data into your AI Agents: tutorial, the team shows how Claude can read spreadsheet data, fetch stock prices using Alpaca\u2019s MCP server, and execute trades based on predefined lo\n- GitHub - wshobson/mcp-trader: A Model Context Protocol (MCP) server for stock traders: A Model Context Protocol (MCP) server for stock traders - wshobson/mcp-trader\n- finance trading data MCP servers | Glama: Provides <strong>21 tools for account management, position trading, order placement, market data analysis, and watchlist management</strong>. ... A Mo\n\nNews (10):\n- MCP explained \u2013 how the Model Context Protocol works (1 day ago)\n- Why Model Context Protocol is suddenly on every executive agenda | CIO (1 day ago)\n- What Is MCP (Model Context Protocol) and Why It Matters for Enterprise AI - Unito (2 days ago)\n- Top 5 MCP Servers for Financial Data in 2026 | by Pranjal Saxena | Predict | Jan, 2026 | Medium (January 12, 2026)\n- Model Context Protocol (MCP) explained: A practical technical overview for developers and architects (3 weeks ago)\n- 10 Best MCP Servers for Developers in 2026 (2 days ago)\n- How the Model Context Protocol is about to reshape the way humanity buys, sells, and lives | by Amila Silva | Feb, 2026 | Medium (6 days ago)\n- Introducing Atlassian's Remote Model Context Protocol (MCP) Server - Work Life by Atlassian (May 1, 2025)\n- Top 10 Best MCP (Model Context Protocol) Servers in 2026 (January 1, 2026)\n- What Is the Model Context Protocol (MCP) and How It Works (January 15, 2026)",
+    "web_results": [
+      {
+        "title": "GitHub - financial-datasets/mcp-server: An MCP server for interacting with the Financial Datasets stock market API.",
+        "url": "https://github.com/financial-datasets/mcp-server",
+        "description": "<strong>An MCP server for interacting with the Financial Datasets stock market API</strong>. - financial-datasets/mcp-server"
+      },
+      {
+        "title": "Alpha Vantage MCP for Stock Market Data",
+        "url": "https://mcp.alphavantage.co/",
+        "description": "The official Alpha Vantage API MCP server enables LLMs and agentic workflows to seamlessly interact with real-time and historical stock market data through the Model Context Protocol (MCP). Add this server to your favorite apps such as <strong>Claude, Claude Code, Cursor, VS Code</strong>, and many more to ..."
+      },
+      {
+        "title": "Use Model Context Protocol for finance and operations apps - Finance & Operations | Dynamics 365 | Microsoft Learn",
+        "url": "https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/copilot/copilot-mcp",
+        "description": "An earlier version of the MCP server, known as the &quot;static Dynamics 365 ERP MCP&quot; server, built on the Dataverse connector framework, has <strong>13 tools enabling specific business functions for Dynamics 365 Finance and Supply Chain Management</strong>."
+      },
+      {
+        "title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "description": "TomTom-MCP - The TomTom MCP Server simplifies geospatial development by providing seamless access to TomTom&#x27;s location services, including search, routing, traffic and static maps data. Trade It - Execute stock, crypto, and options trades on your brokerage via Trade It. Supports Robinhood, ETrade, Charles Schwab, Webull, Coinbase, and Kraken. Twelve Data \u2014 Integrate your AI agents with real-time and historical financial market data through our official Twelve Data MCP server."
+      },
+      {
+        "title": "Top 10 MCP Servers for Stock Market Data in 2026 | by Pranjal Saxena | Dec, 2025 | DataDrivenInvestor",
+        "url": "https://medium.datadriveninvestor.com/top-10-mcp-servers-for-stock-market-data-in-2026-f62d2173663d",
+        "description": "It offers the broadest coverage and the most balanced foundation for MCP-based systems that span prices, indicators, and multi-asset analysis. Financial Modeling Prep excels in company-level intelligence, fundamentals, and financial analysis. Quandl adds long-horizon and macroeconomic context that strengthens research-focused MCP setups."
+      },
+      {
+        "title": "Model Context Protocol (MCP) | Financial Data Integration for LLMs",
+        "url": "https://www.factset.com/marketplace/catalog/product/model-context-protocol",
+        "description": "Experience seamless integration of FactSet content and financial data into LLMs with the Model Context Protocol (MCP). Boost AI workflow efficiency and accuracy instantly."
+      },
+      {
+        "title": "Finance MCP Servers | Glama",
+        "url": "https://glama.ai/mcp/servers/categories/finance",
+        "description": "... Provides integration with <strong>Twelve Data API to access financial market data including historical time series, real-time quotes, and instrument metadata for stocks, forex pairs, and cryptocurrencies</strong>."
+      },
+      {
+        "title": "Best MCP Servers to Integrate Stock Market Data into your AI Agents",
+        "url": "https://www.insightbig.com/post/best-mcp-servers-to-integrate-stock-market-data-into-your-ai-agents",
+        "description": "tutorial, the team shows how Claude can read spreadsheet data, fetch stock prices using Alpaca\u2019s MCP server, and execute trades based on predefined logic. That means agents can move from passive analysis to real-world execution, with Alpaca acting as the trading backend. The current implementation supports Claude and other AI agents that use the Model Context Protocol, and it\u2019s also easy to integrate into workflows that include:"
+      },
+      {
+        "title": "GitHub - wshobson/mcp-trader: A Model Context Protocol (MCP) server for stock traders",
+        "url": "https://github.com/wshobson/mcp-trader",
+        "description": "A Model Context Protocol (MCP) server for stock traders - wshobson/mcp-trader"
+      },
+      {
+        "title": "finance trading data MCP servers | Glama",
+        "url": "https://glama.ai/mcp/servers?query=finance+trading+data",
+        "description": "Provides <strong>21 tools for account management, position trading, order placement, market data analysis, and watchlist management</strong>. ... A Model Context Protocol server providing comprehensive financial data from Yahoo Finance, allowing users to retrieve ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "MCP explained \u2013 how the Model Context Protocol works",
+        "url": "https://ambersearch.de/en/mcp-model-context-protocol",
+        "description": "The Model Context Protocol (MCP) is a way to quickly connect AI systems with each other. This blog article explains the background.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Why Model Context Protocol is suddenly on every executive agenda | CIO",
+        "url": "https://www.cio.com/article/4136548/why-model-context-protocol-is-suddenly-on-every-executive-agenda.html",
+        "description": "As AI agents begin operating across enterprise systems, MCP is emerging as the connective layer IT leaders can\u2019t afford to ignore.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "What Is MCP (Model Context Protocol) and Why It Matters for Enterprise AI - Unito",
+        "url": "https://unito.io/blog/mcp-definition/",
+        "description": "MCP (Model Context Protocol) allows AI agents to work seamlessly with a massive number of apps. Here's how it works and why it's so important.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Top 5 MCP Servers for Financial Data in 2026 | by Pranjal Saxena | Predict | Jan, 2026 | Medium",
+        "url": "https://medium.com/predict/top-5-mcp-servers-for-financial-data-in-2026-5bf45c2c559d",
+        "description": "Assessing Market Data Platforms for Model Context Protocol Compatibility",
+        "age": "January 12, 2026"
+      },
+      {
+        "title": "Model Context Protocol (MCP) explained: A practical technical overview for developers and architects",
+        "url": "https://codilime.com/blog/model-context-protocol-explained/",
+        "description": "Learn how MCP solves the NxM integration problem and standardizes tool discovery/calls for LLM apps, architecture, sessions, OAuth auth, and security basics.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "10 Best MCP Servers for Developers in 2026",
+        "url": "https://firecrawl.dev/blog/best-mcp-servers-for-developers",
+        "description": "The best MCP servers for developers in 2026 \u2014 covering web scraping, design, browser automation, code execution, deployment, and more. Works with Claude Code, Cursor, VS Code, Windsurf, and any MCP-compatible client.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "How the Model Context Protocol is about to reshape the way humanity buys, sells, and lives | by Amila Silva | Feb, 2026 | Medium",
+        "url": "https://medium.com/@amilasilvapvt/how-the-model-context-protocol-is-about-to-reshape-the-way-humanity-buys-sells-and-lives-104be36ddef3",
+        "description": "How the Model Context Protocol is about to reshape the way humanity buys, sells, and lives Full diagram: https://amilasilva7.github.io/mcp-store/ Picture your Monday morning. An electricity bill \u2026",
+        "age": "6 days ago"
+      },
+      {
+        "title": "Introducing Atlassian's Remote Model Context Protocol (MCP) Server - Work Life by Atlassian",
+        "url": "https://www.atlassian.com/blog/announcements/remote-mcp-server",
+        "description": "Introducing Atlassian\u2019s Remote MCP server. Jira and Confluence Cloud customers can interact with their data directly from Claude, Anthropic\u2019s AI assistant.",
+        "age": "May 1, 2025"
+      },
+      {
+        "title": "Top 10 Best MCP (Model Context Protocol) Servers in 2026",
+        "url": "https://cyberpress.org/best-mcp-servers/",
+        "description": "Best MCP (Model Context Protocol) Servers : 1. Chroma 2. GreptimeDB 3. Semgrep 4. mcp-octagonofficial 5. Financial Datasets 6. ClickHouse",
+        "age": "January 1, 2026"
+      },
+      {
+        "title": "What Is the Model Context Protocol (MCP) and How It Works",
+        "url": "https://www.descope.com/learn/post/mcp",
+        "description": "Learn more about MCP, the open source protocol developed by Anthropic to provide LLMs and AI agents a standardized way to connect with external data sources and tools.",
+        "age": "January 15, 2026"
+      }
+    ],
+    "query": "MCP Model Context Protocol servers tools available integrations trading research finance",
+    "sources_count": 20
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "257daa55",
+  "title": "Polymarket research: Will Saudi Arabia win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Saudi Arabia win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:46.944797+00:00",
+  "updated_at": "2026-03-01T07:27:49.224241+00:00",
+  "claimed_at": "2026-03-01T07:27:47.520208+00:00",
+  "completed_at": "2026-03-01T07:27:49.224223+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Saudi Arabia win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- Saudi Arabia qualify | FIFA World Cup 26: We cannot provide a description for this page right now\n- Saudi Arabia | FIFA World Cup 2026\u2122: We cannot provide a description for this page right now\n- 2026 FIFA World Cup Winner Predictions & Odds | Polymarket: If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout st\n- Saudi Arabia in Group G of Asian Qualifiers for FIFA World Cup 2026, AFC Asian Cup 2027: Riyadh, July 27, 2023, SPA -- <strong>Saudi Arabia was drawn in Group G of the Asian Qualifiers for the FIFA World Cup 2026\u2122 and AFC Asian Cup 2027\u2122</\n- Saudi Arabia World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports: <strong>Salem Aldawsari and Saudi Arabia now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage oppon\n\nNews (5):\n- Could the FIFA World Cup 2026 Really Return to Qatar? Here\u2019s What We Know | AD Middle East (3 days ago)\n- Cristiano Ronaldo Golden Boot battle fuels Ivan Toney\u2019s 2026 FIFA World Cup ambition as England striker fires clear warning to Thomas Tuchel - World Soccer Talk (14 hours ago)\n- A Trump Call Ignited Saudi-U.A.E. Feud - The New York Times (2 days ago)\n- 2026 World Cup Schedule | Full Match List & Key Dates (1 day ago)\n- The Saudi national team intensifies its preparations for the 2026 World Cup with visits to Damac and Abha (19 hours ago)",
+    "web_results": [
+      {
+        "title": "Saudi Arabia qualify | FIFA World Cup 26",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/saudi-arabia-qualify",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Saudi Arabia | FIFA World Cup 2026\u2122",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/saudi-arabia/team-news",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "2026 FIFA World Cup Winner Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/2026-fifa-world-cup-winner-595/will-saudi-arabia-win-the-2026-fifa-world-cup",
+        "description": "If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to \u201cNo\u201d. If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to \u201cOther\u201d. The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used."
+      },
+      {
+        "title": "Saudi Arabia in Group G of Asian Qualifiers for FIFA World Cup 2026, AFC Asian Cup 2027",
+        "url": "https://www.spa.gov.sa/en/51d3494ca9y",
+        "description": "Riyadh, July 27, 2023, SPA -- <strong>Saudi Arabia was drawn in Group G of the Asian Qualifiers for the FIFA World Cup 2026\u2122 and AFC Asian Cup 2027\u2122</strong> alongside Jordan, Tajikistan, and the winners of the Round 1 clash between Cambodia and Pakistan."
+      },
+      {
+        "title": "Saudi Arabia World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/saudi-arabia-world-cup-2026-schedule-locations-dates-times",
+        "description": "<strong>Salem Aldawsari and Saudi Arabia now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents, which stadiums they will play at, and the times for the games."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Could the FIFA World Cup 2026 Really Return to Qatar? Here\u2019s What We Know | AD Middle East",
+        "url": "https://www.admiddleeast.com/story/could-the-fifa-world-cup-2026-return-to-qatar-heres-what-we-know",
+        "description": "Unconfirmed reports have put Qatar back in the FIFA World Cup 2026 conversation, but officials insist Mexico\u2019s role as a 2026 host nation remains unchanged",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Cristiano Ronaldo Golden Boot battle fuels Ivan Toney\u2019s 2026 FIFA World Cup ambition as England striker fires clear warning to Thomas Tuchel - World Soccer Talk",
+        "url": "https://worldsoccertalk.com/news/cristiano-ronaldo-golden-boot-battle-fuels-ivan-toneys-2026-fifa-world-cup-ambition-as-england-striker-fires-clear-warning-to-thomas-tuchel/",
+        "description": "Beyond the goals and the growing rivalry with the Portuguese, there is another objective driving Ivan Toney, one aimed directly at England\u2019s national setup.",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "A Trump Call Ignited Saudi-U.A.E. Feud - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/27/world/middleeast/saudi-arabia-united-arab-emirates-feud-trump-call.html",
+        "description": "A request made to President Trump about the war in Sudan is at the heart of a diplomatic dispute between Saudi Arabia and the United Arab Emirates.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "2026 World Cup Schedule | Full Match List & Key Dates",
+        "url": "https://sportsbookreview.com/picks/soccer/world-cup-full-schedule-dates-2026",
+        "description": "View the full 2026 World Cup schedule. Track every match from the June 11 opener to the July 19 final. Includes dates, kick-off times, and all 16 host cities.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "The Saudi national team intensifies its preparations for the 2026 World Cup with visits to Damac and Abha",
+        "url": "https://news50.sa/en/sports/saudi-national-team-preparations-world-cup-2026-damac-abha",
+        "description": "Learn about the details of the Saudi national team's coaching staff's visit to Damac and Abha clubs. Strategic plans and close monitoring of players in preparation for the 2026 World Cup finals.",
+        "age": "19 hours ago"
+      }
+    ],
+    "query": "Will Saudi Arabia win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

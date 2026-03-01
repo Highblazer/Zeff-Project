@@ -1,0 +1,85 @@
+{
+  "id": "4691643c",
+  "title": "Polymarket research: US x Iran ceasefire by March 2?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "US x Iran ceasefire by March 2?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:47.559385+00:00",
+  "updated_at": "2026-03-01T07:28:07.839692+00:00",
+  "claimed_at": "2026-03-01T07:28:05.782951+00:00",
+  "completed_at": "2026-03-01T07:28:07.839673+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: US x Iran ceasefire by March 2?\n\nWeb Results (5):\n- US x Iran ceasefire by...? Predictions & Odds | Polymarket: Propose resolutionThis market will ... in direct military engagement, between the United States and Iran by the listed date, <strong>11:59 PM ET</stro\n- Twelve-Day War ceasefire - Wikipedia: Trita Parsi, co-founder and executive vice president of the Quincy Institute for Responsible Statecraft, stated that despite Israel&#x27;s insistence \n- China urges immediate ceasefire after US, Israel strike Iran | Reuters: China&#x27;s ministry of foreign affairs has expressed concern over U.S.-Israeli strikes against Iran and called for an immediate ceasefire, urging al\n- Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times: Trump on social media on Saturday night as \u201cfocused,\u201d invoking a term used by the MAGA base for critics of the president&#x27;s approach. \u201cNO PANICANS\n- Israel-Iran Conflict, U.S. Strikes, and Ceasefire | Congress.gov | Library of Congress: casualties were reported. Hours later, President Trump announced that Israel and Iran would end hostilities on June 24. After some additional salvos, \n\nNews (5):\n- Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing (1 day ago)\n- US, Israel bomb Iran: A timeline of talks and threats leading up to attacks | Israel-Iran conflict News | Al Jazeera (20 hours ago)\n- China Calls For Immediate Ceasefire After US Attacks Iran - Bloomberg (17 hours ago)\n- Global reaction to US, Israeli attacks on Iran | Reuters (1 day ago)\n- US-Iran latest: Iran leader killed, warns of 'most intense' attack (1 day ago)",
+    "web_results": [
+      {
+        "title": "US x Iran ceasefire by...? Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/us-x-iran-ceasefire-by",
+        "description": "Propose resolutionThis market will ... in direct military engagement, between the United States and Iran by the listed date, <strong>11:59 PM ET</strong>...."
+      },
+      {
+        "title": "Twelve-Day War ceasefire - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Twelve-Day_War_ceasefire",
+        "description": "Trita Parsi, co-founder and executive vice president of the Quincy Institute for Responsible Statecraft, stated that despite Israel&#x27;s insistence on targeting Iranian nuclear facilities, it made a clear effort to weaken and possibly overthrow the Iranian establishment, and Netanyahu is looking for another opportunity to resume this mission. Bamo Nouri, a lecturer in international relations, writing for The Conversation asserts that the day after the US attacks, Israeli Prime Minister Benjamin Netanyahu discussed a ceasefire with Donald Trump as he wanted to avoid a long war of attrition that Israel could not afford and was already looking for an exit strategy."
+      },
+      {
+        "title": "China urges immediate ceasefire after US, Israel strike Iran | Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/china-urges-immediate-ceasefire-after-us-israel-strike-iran-2026-03-01/",
+        "description": "China&#x27;s ministry of foreign affairs has expressed concern over U.S.-Israeli strikes against Iran and called for an immediate ceasefire, urging all sides to avoid escalation and to resume dialogue and negotiation."
+      },
+      {
+        "title": "Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times",
+        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+        "description": "Trump on social media on Saturday night as \u201cfocused,\u201d invoking a term used by the MAGA base for critics of the president&#x27;s approach. \u201cNO PANICANS!\u201d Mr. Cheung said in a statement on X. \u201cTRUST IN TRUMP!\u201d \u00b7 But Mr. Trump\u2019s approach Saturday was a departure from how even Mr. Trump himself has handled other major military actions. Last year, when the United States launched strikes against Iran\u2019s nuclear facilities, the president addressed the nation from the White House."
+      },
+      {
+        "title": "Israel-Iran Conflict, U.S. Strikes, and Ceasefire | Congress.gov | Library of Congress",
+        "url": "https://www.congress.gov/crs-product/IF13032",
+        "description": "casualties were reported. Hours later, President Trump announced that Israel and Iran would end hostilities on June 24. After some additional salvos, Israel and Iran indicated intentions to comply with the ceasefire, but reserved the right to defend themselves."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing",
+        "url": "https://www.cbsnews.com/live-updates/israel-us-attack-iran-trump-says-major-combat-operations/",
+        "description": "President Trump said that \"heavy and pinpoint bombing\" of Iran would \"continue, uninterrupted throughout the week or, as long as necessary.\"",
+        "age": "1 day ago"
+      },
+      {
+        "title": "US, Israel bomb Iran: A timeline of talks and threats leading up to attacks | Israel-Iran conflict News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/28/us-israel-bomb-iran-a-timeline-of-talks-and-threats-leading-up-to-attacks",
+        "description": "Military operations by the US and Israel in Iran mark the most intense escalation since the June 2025 conflict.",
+        "age": "20 hours ago"
+      },
+      {
+        "title": "China Calls For Immediate Ceasefire After US Attacks Iran - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-28/china-calls-for-immediate-ceasefire-after-us-israel-bomb-iran",
+        "description": "China called for an immediate ceasefire following the US and Israel\u2019s attacks on Iran, as President Xi Jinping\u2019s government weighs its options in the Middle East.",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Global reaction to US, Israeli attacks on Iran | Reuters",
+        "url": "https://reuters.com/business/aerospace-defense/global-reaction-israeli-us-attacks-iran-2026-02-28",
+        "description": "Israel and the United States launched strikes on Iran on Saturday, plunging the Middle East into a renewed military confrontation.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "US-Iran latest: Iran leader killed, warns of 'most intense' attack",
+        "url": "https://www.usatoday.com/live-story/news/politics/2026/02/28/us-iran-israel-live-updates-news/88757330007/",
+        "description": "The United States has launched 'major combat operations' against Iran, President Trump said. Israeli forces also struck Iranian sites.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "US x Iran ceasefire by March 2?",
+    "sources_count": 10
+  },
+  "error": null
+}

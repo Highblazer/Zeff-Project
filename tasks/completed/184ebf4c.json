@@ -1,0 +1,139 @@
+{
+  "id": "184ebf4c",
+  "title": "cryptocurrency regulatory news February 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "cryptocurrency regulatory news February 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T23:26:41.518914+00:00",
+  "updated_at": "2026-02-26T23:26:42.884963+00:00",
+  "claimed_at": "2026-02-26T23:26:41.524625+00:00",
+  "completed_at": "2026-02-26T23:26:42.884950+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: cryptocurrency regulatory news February 2026\n\nFindings (10):\n- [market_mover] Crypto Brief - February 19, 2026 | Lowenstein Sandler LLP (action=0.55, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Crypto Brief - February 26, 2026 | Lowenstein Sandler LLP (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Global Crypto Policy Review Outlook 2025/26 Report | TRM Labs (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] 2 Big Crypto Regulations Dropping in Q2 2026 | The Motley Fool (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Crypto Outlook 2026: AI, Institutions & the Era of Real Value (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Crypto Brief - February 19, 2026 | Lowenstein Sandler LLP",
+        "url": "https://www.lowenstein.com/news-insights/newsletters/crypto-brief-february-19-2026",
+        "description": "<strong>Applications for the DFAL license open via NMLS on March 9, 2026</strong>. The DFPI&#x27;s application preparation guidance is available here. Federal Reserve Staff Publishes Working Paper on Initial Margin for Cryptocurrency Risks in Uncleared Markets",
+        "category": "market_mover",
+        "actionability_score": 0.55,
+        "impact_score": 0.4,
+        "combined_score": 0.48,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Crypto Brief - February 26, 2026 | Lowenstein Sandler LLP",
+        "url": "https://lowenstein.com/news-insights/newsletters/crypto-brief-february-26-2026",
+        "description": "Lowenstein Crypto Newsletter By Ethan L. Silver and William Brannan \u00b7 Lowenstein Crypto advises leading digital asset and cryptocurrency projects, exchanges, and trading firms. Our practice covers regulatory advice, transactions and structuring advice, investigations, and adversarial matters ...",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Global Crypto Policy Review Outlook 2025/26 Report | TRM Labs",
+        "url": "https://www.trmlabs.com/reports-and-whitepapers/global-crypto-policy-review-outlook-2025-26",
+        "description": "The BCB\u2019s authorization regime, which is slated to commence on February 2, 2026, <strong>requires that firms comply with requirements across various key areas such as AML/CFT, disclosure, and transparency</strong> \u2014 as well as minimum capital requirements ...",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "2 Big Crypto Regulations Dropping in Q2 2026 | The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/02/17/2-big-crypto-regulations-dropping-in-q2-2026/",
+        "description": "<strong>The Clarity Act should transfer much more regulatory oversight to the CFTC</strong>, which is viewed as a much more crypto-friendly regulator than the SEC. Moreover, it should make it much easier for Wall Street firms to introduce new financial products, ...",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Crypto Outlook 2026: AI, Institutions & the Era of Real Value",
+        "url": "https://beincrypto.com/crypto-outlook-2026",
+        "description": "2026 crypto cutlook: Experts on AI convergence, institutional dominance, and the shift from speculation to profitable projects.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Hong Kong Crypto roadmap reshapes stablecoins 2026",
+        "url": "https://en.cryptonomist.ch/2026/02/25/hong-kong-crypto-regulation-2026",
+        "description": "This report examines hong kong crypto regulation through 2026, outlining stablecoin licensing, tokenization pilots, transparency reforms.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "FinancialContent - Federal Legitimacy: How the Stablecoin Regulatory Wave of 2026 is Redefining U.S. Financial Markets",
+        "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-26-federal-legitimacy-how-the-stablecoin-regulatory-wave-of-2026-is-redefining-us-financial-markets",
+        "description": "Federal Legitimacy: How the Stablecoin Regulatory Wave of 2026 is Redefining U.S. Financial Markets",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "1 hour ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "US Crypto Policy Tracker Regulatory Developments",
+        "url": "https://www.lw.com/en/us-crypto-policy-tracker/regulatory-developments",
+        "description": "Follow below for the latest regulatory developments related to blockchain, cryptocurrencies, and digital assets from agencies and other regulatory bodies including the SEC, CFTC, CFPB, FRB, OCC, FDIC, FinCEN, Treasury, OFAC, FINRA, and FASB. Last updated February 2026.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "2026 Digital Assets Regulatory Update: A Landmark 2025 . . . But More Developments on the Horizon | Publications | Cleary Gottlieb",
+        "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/2026-digital-assets-regulatory-update-a-landmark-2025-but-more-developments-on-the-horizon",
+        "description": "<strong>The GENIUS Act</strong> will likely not only legitimate stablecoins and give the market confidence that they can use and transact in such instruments subject to a comprehensive federal regulatory framework, but it will also create a blueprint to incorporate ...",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "U.S. Lawmakers Introduce New Bill to Protect Blockchain Developers",
+        "url": "https://cryptotimes.io/2026/02/26/u-s-lawmakers-introduce-new-bill-to-protect-blockchain-developers",
+        "description": "U.S. lawmakers introduce a bipartisan bill to protect blockchain developers and clarify that only platforms controlling user funds face financial regulations.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "6 hours ago",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "cryptocurrency regulatory news February 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 9,
+    "opportunities": 1
+  },
+  "error": null
+}

@@ -1,0 +1,54 @@
+{
+  "id": "19ca4011",
+  "title": "Polymarket research: Spread: Hornets (-12.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Hornets (-12.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T01:18:54.913827+00:00",
+  "updated_at": "2026-02-27T01:19:06.011155+00:00",
+  "claimed_at": "2026-02-27T01:19:05.007071+00:00",
+  "completed_at": "2026-02-27T01:19:06.011134+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Hornets (-12.5)\n\nWeb Results (5):\n- Indiana Pacers vs. Charlotte Hornets prediction, pick on Thursday 2/26/26: While the Pacers are playing at ... running away with an easy win. <strong>Charlotte is an NBA-best 36\u201323 against the spread this season and should co\n- Hornets vs. Pacers Preview: Will Indiana Cover the Spread? - Yahoo Sports: Explore tonight&#x27;s NBA game as the <strong>Charlotte Hornets, favored by 12.5, face the struggling Indiana Pacers</strong>. Will it be a blowout o\n- Charlotte Hornets at Washington Wizards odds, picks and predictions: Lines last updated at 12:31 a.m. ET. Moneyline (ML): Hornets -600 (bet $600 to win $100) | Wizards +425 (bet $100 to win $425) Against the spread (ATS\n- HORNETS Odds: Schedule, Matchups, & Stats - VegasInsider: When you are placing a legal sports ... bet. For example, in a game against the Hawks, <strong>if the spread is set at plus or minus 2.5 and Charlotte\n- Charlotte Hornets Odds & Betting Lines | Action Network: ... Oddsmakers set a margin of victory total known as the spread. In this game, <strong>Miami has to win by 5 or more points to beat this spread and C",
+    "web_results": [
+      {
+        "title": "Indiana Pacers vs. Charlotte Hornets prediction, pick on Thursday 2/26/26",
+        "url": "https://dknetwork.draftkings.com/2026/02/26/indiana-pacers-vs-charlotte-hornets-prediction-pick-on-thursday-2-26-26/",
+        "description": "While the Pacers are playing at ... running away with an easy win. <strong>Charlotte is an NBA-best 36\u201323 against the spread this season and should cover the 12.5-point spread on Thursday night.</strong>..."
+      },
+      {
+        "title": "Hornets vs. Pacers Preview: Will Indiana Cover the Spread? - Yahoo Sports",
+        "url": "https://ca.sports.yahoo.com/video/hornets-vs-pacers-preview-indiana-102126244.html",
+        "description": "Explore tonight&#x27;s NBA game as the <strong>Charlotte Hornets, favored by 12.5, face the struggling Indiana Pacers</strong>. Will it be a blowout or will the Pacers surprise? Hornets vs. Pacers Preview: Will Indiana Cover the Spread?Explore tonight&#x27;s NBA game ..."
+      },
+      {
+        "title": "Charlotte Hornets at Washington Wizards odds, picks and predictions",
+        "url": "https://sportsbookwire-eu.usatoday.com/story/sports/nba/2026/02/22/hornets-at-wizards-odds-picks-and-predictions/88802064007/",
+        "description": "Lines last updated at 12:31 a.m. ET. Moneyline (ML): Hornets -600 (bet $600 to win $100) | Wizards +425 (bet $100 to win $425) Against the spread (ATS): <strong>Hornets -11.5 (-110)</strong> | Wizards +11.5 (-110)"
+      },
+      {
+        "title": "HORNETS Odds: Schedule, Matchups, & Stats - VegasInsider",
+        "url": "https://www.vegasinsider.com/nba/teams/hornets/",
+        "description": "When you are placing a legal sports ... bet. For example, in a game against the Hawks, <strong>if the spread is set at plus or minus 2.5 and Charlotte is favored to win, they&#x27;ll be the -2.5</strong>...."
+      },
+      {
+        "title": "Charlotte Hornets Odds & Betting Lines | Action Network",
+        "url": "https://www.actionnetwork.com/nba/odds/charlotte-hornets",
+        "description": "... Oddsmakers set a margin of victory total known as the spread. In this game, <strong>Miami has to win by 5 or more points to beat this spread and Charlotte either has to win the game outright or lose by 4 points or less to beat the spread</strong>."
+      }
+    ],
+    "news_results": [],
+    "query": "Spread: Hornets (-12.5)",
+    "sources_count": 5
+  },
+  "error": null
+}

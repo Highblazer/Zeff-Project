@@ -1,0 +1,85 @@
+{
+  "id": "6970499d",
+  "title": "Polymarket research: US strikes Iran by March 2, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "US strikes Iran by March 2, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:28.181051+00:00",
+  "updated_at": "2026-02-26T23:38:21.921416+00:00",
+  "claimed_at": "2026-02-26T23:38:20.418631+00:00",
+  "completed_at": "2026-02-26T23:38:21.921401+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: US strikes Iran by March 2, 2026?\n\nWeb Results (5):\n- Exclusive: US military preparing for potentially weeks-long Iran operations | Reuters: &quot;He listens to a variety of ... Pentagon declined to comment. <strong>The United States sent two aircraft carriers to the region last year, when \n- 2025\u20132026 Iran\u2013United States negotiations - Wikipedia: Following the attacks, Iran pulled out and suspended nuclear talks indefinitely. <strong>The United States also carried out a series of strikes on Ira\n- 2026 Iran\u2013United States crisis - Wikipedia: The crisis unfolded against the backdrop of Iran&#x27;s deepening economic collapse and internal unrest, which had begun in late 2025 and continued in\n- US strikes Iran by...? Trading Odds & Predictions | Polymarket: Propose resolutionThis market will resolve to &quot;Yes&quot; if the US initiates a drone, missile, or air strike on Iranian soil or any official Iran\n- 2026 United States military buildup in the Middle East - Wikipedia: It was not clear if Trump would make a decision by the weekend. <strong>On February 19, 2026, the US could launch military strikes on Iran within days\n\nNews (5):\n- A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News (2 days ago)\n- Iran Update, February 23, 2026 | ISW (3 days ago)\n- 7 Experts on the Risk of a Wider War with Iran - POLITICO (2 days ago)\n- US re-asserts 2025 strikes \u2018obliterated\u2019 Iran\u2019s nuclear programme | Politics News | Al Jazeera (2 days ago)\n- Iran likely to respond to renewed US strikes more forcefully than last time, experts say | Stars and Stripes (4 days ago)",
+    "web_results": [
+      {
+        "title": "Exclusive: US military preparing for potentially weeks-long Iran operations | Reuters",
+        "url": "https://www.reuters.com/world/middle-east/us-military-preparing-potentially-weeks-long-iran-operations-2026-02-13/",
+        "description": "&quot;He listens to a variety of ... Pentagon declined to comment. <strong>The United States sent two aircraft carriers to the region last year, when it carried out strikes against Iranian nuclear sites</strong>...."
+      },
+      {
+        "title": "2025\u20132026 Iran\u2013United States negotiations - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations",
+        "description": "Following the attacks, Iran pulled out and suspended nuclear talks indefinitely. <strong>The United States also carried out a series of strikes on Iranian nuclear sites</strong>, negotiations between the United States and Iran were subsequently suspended. They resumed in early 2026 after large-scale protests ..."
+      },
+      {
+        "title": "2026 Iran\u2013United States crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_crisis",
+        "description": "The crisis unfolded against the backdrop of Iran&#x27;s deepening economic collapse and internal unrest, which had begun in late 2025 and continued into early 2026. The escalation of the Twelve-Day War in 2025, combined with United States strikes on Iranian nuclear sites, had a major influence on the crisis."
+      },
+      {
+        "title": "US strikes Iran by...? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/us-strikes-iran-by",
+        "description": "Propose resolutionThis market will resolve to &quot;Yes&quot; if the US initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate between the time of this market&#x27;s creation and the listed date (ET). Otherwise, this market will resolve to &quot;No&quot;."
+      },
+      {
+        "title": "2026 United States military buildup in the Middle East - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_military_buildup_in_the_Middle_East",
+        "description": "It was not clear if Trump would make a decision by the weekend. <strong>On February 19, 2026, the US could launch military strikes on Iran within days</strong>, according to reports, as the White House issued a stark warning that Tehran should make a deal."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News",
+        "url": "https://www.pbs.org/newshour/world/a-timeline-of-tensions-over-irans-nuclear-program-as-talks-with-u-s-approach",
+        "description": "Iran and the United States are due to hold new talks in Geneva on Thursday over Tehran's nuclear program.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Iran Update, February 23, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-23-2026/",
+        "description": "A senior US official told Axios on Feb. 22 that the US and Iran may discuss an interim deal during negotiations in Geneva on February 26.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "7 Experts on the Risk of a Wider War with Iran - POLITICO",
+        "url": "https://www.politico.com/news/magazine/2026/02/24/iran-us-strikes-expert-forum-roundup-00794832",
+        "description": "As the threat of U.S. strikes intensifies, our experts weigh the risks of escalation.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "US re-asserts 2025 strikes \u2018obliterated\u2019 Iran\u2019s nuclear programme | Politics News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/24/us-re-asserts-2025-strikes-obliterated-irans-nuclear-programme",
+        "description": "The White House comment comes after a senior Trump aide said Iran is a week away from having material for nuclear bomb.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Iran likely to respond to renewed US strikes more forcefully than last time, experts say | Stars and Stripes",
+        "url": "https://www.stripes.com/theaters/middle_east/2026-02-23/iran-attacks-greater-strikes-20844844.html",
+        "description": "If simmering tensions with Iran produce another U.S. strike, Tehran has signaled it\u2019s ready to take the gloves off this time, experts say.",
+        "age": "4 days ago"
+      }
+    ],
+    "query": "US strikes Iran by March 2, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "201486e9",
+  "title": "Close EURUSD position",
+  "assigned_to": "tradebot",
+  "task_type": "close_position",
+  "params": {
+    "symbol": "EURUSD",
+    "positionId": 585032882
+  },
+  "priority": 1,
+  "status": "completed",
+  "created_by": "test",
+  "created_at": "2026-02-25T23:45:07.130061+00:00",
+  "updated_at": "2026-02-25T23:45:16.644111+00:00",
+  "claimed_at": "2026-02-25T23:45:16.544095+00:00",
+  "completed_at": "2026-02-25T23:45:16.644091+00:00",
+  "retries": 0,
+  "result": {
+    "symbol": "EURUSD",
+    "positionId": 585032882,
+    "closed": true,
+    "volume": 100000
+  },
+  "error": null
+}

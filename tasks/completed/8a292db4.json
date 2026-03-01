@@ -1,0 +1,117 @@
+{
+  "id": "8a292db4",
+  "title": "new AI agent frameworks tools launched February 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "new AI agent frameworks tools launched February 2026",
+    "category": "landscape"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T22:26:21.790444+00:00",
+  "updated_at": "2026-02-26T22:26:23.554865+00:00",
+  "claimed_at": "2026-02-26T22:26:21.799201+00:00",
+  "completed_at": "2026-02-26T22:26:23.554694+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: new AI agent frameworks tools launched February 2026\n\nFindings (8):\n- [revenue_opportunity] Anthropic launches new push for enterprise agents with plug-ins for finance, engineering, and design | TechCrunch (action=0.5, impact=0.47)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Superhuman Go Scales Agent Ecosystem With New Partner Agents From Box, Gamma, and Wayground (action=0.6, impact=0.35)\n  \u2192 EVALUATE for integration \u2014 potential revenue\n- [revenue_opportunity] New Relic launches new AI agent platform and OpenTelemetry tools | TechCrunch (action=0.55, impact=0.35)\n  \u2192 EVALUATE for integration \u2014 potential revenue\n- [revenue_opportunity] Top 9 AI Agent Frameworks as of February 2026 | Shakudo (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n- [tech_upgrade] Artificial Intelligence - AI Update, February 20, 2026: AI News and Views From the Past Week (action=0.5, impact=0.2)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Anthropic launches new push for enterprise agents with plug-ins for finance, engineering, and design | TechCrunch",
+        "url": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
+        "description": "It's a major opportunity to grow Anthropic\u2019s enterprise client base \u2014 and a significant threat to SaaS products currently performing those functions.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.47,
+        "combined_score": 0.48,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Superhuman Go Scales Agent Ecosystem With New Partner Agents From Box, Gamma, and Wayground",
+        "url": "https://finance.yahoo.com/news/superhuman-scales-agent-ecosystem-partner-150000571.html",
+        "description": "SAN FRANCISCO, February 23, 2026--Superhuman, the productivity platform bringing AI to wherever people work, today announced the expansion of Superhuman Go\u2019s AI agent ecosystem with three new partner agents from Box, Gamma, and Wayground (formerly known as Quizziz) and additional agents coming ...",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.6,
+        "impact_score": 0.35,
+        "combined_score": 0.47,
+        "age": "3 days ago",
+        "recommended_action": "EVALUATE for integration \u2014 potential revenue"
+      },
+      {
+        "title": "New Relic launches new AI agent platform and OpenTelemetry tools | TechCrunch",
+        "url": "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/",
+        "description": "New Relic is giving enterprises more observability tools, letting them create and manage AI agents, and better integrate OTel data streams.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.55,
+        "impact_score": 0.35,
+        "combined_score": 0.45,
+        "age": "2 days ago",
+        "recommended_action": "EVALUATE for integration \u2014 potential revenue"
+      },
+      {
+        "title": "Top 9 AI Agent Frameworks as of February 2026 | Shakudo",
+        "url": "https://www.shakudo.io/blog/top-9-ai-agent-frameworks",
+        "description": "Because it sits on top of the Shakudo Operating System, every agent inherits secure VPC networking, role-based access control, and 200+ turnkey connectors for tools such as Qdrant, Supabase, and Weights &amp; Biases. This makes it especially appealing to mid-market and enterprise companies that want",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Artificial Intelligence - AI Update, February 20, 2026: AI News and Views From the Past Week",
+        "url": "https://www.marketingprofs.com/opinions/2026/54328/ai-update-february-20-2026-ai-news-and-views-from-the-past-week",
+        "description": "Artificial Intelligence - Catch up on select AI news and developments since the workweek ended February 13. Stay in the know.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.2,
+        "combined_score": 0.35,
+        "age": "1 week ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top 5 AI Agent Frameworks In 2026 - Intuz",
+        "url": "https://www.intuz.com/blog/top-5-ai-agent-frameworks-2025",
+        "description": "<strong>Microsoft AutoGen</strong> is an open-source programming framework from Microsoft that helps build and deploy AI agents that can work together to solve complex problems by collaborating, sharing information, and performing tasks autonomously.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.45,
+        "impact_score": 0.2,
+        "combined_score": 0.32,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "The State of AI Agents in 2026 - by Jon Radoff",
+        "url": "https://meditations.metavert.io/p/the-state-of-ai-agents-in-2026",
+        "description": "Nine Things I Learned Compiling 200+ Slides of Research",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "12 Best AI Agent Frameworks in 2026 | Data Science Collective",
+        "url": "https://medium.com/data-science-collective/the-best-ai-agent-frameworks-for-2026-tier-list-b3a4362fac0d",
+        "description": "Ranked by someone who shipped with all of them. <strong>LangGraph, CrewAI, AutoGen, Pydantic AI</strong>, and 8 more. What works, what doesn&#x27;t, and when to use each.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "new AI agent frameworks tools launched February 2026",
+    "sources_count": 10,
+    "findings_count": 8,
+    "market_movers": 0,
+    "opportunities": 4
+  },
+  "error": null
+}

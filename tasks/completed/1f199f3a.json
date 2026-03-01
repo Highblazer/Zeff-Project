@@ -1,0 +1,85 @@
+{
+  "id": "1f199f3a",
+  "title": "Polymarket research: Spread: Hawks (-10.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Hawks (-10.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T01:09:34.423225+00:00",
+  "updated_at": "2026-02-27T01:09:49.100093+00:00",
+  "claimed_at": "2026-02-27T01:09:47.383670+00:00",
+  "completed_at": "2026-02-27T01:09:49.100075+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Hawks (-10.5)\n\nWeb Results (5):\n- Atlanta Hawks News, Scores and Stats 2025-26 - CBS Sports: CBS Sports has the latest Atlanta Hawks news and information, including team scores, stats, highlights and more for the 2025 NBA season.\n- Hawks vs. Wizards Prediction, Odds, Picks, Best Bets for Feb. 26 | FanDuel Research: The Hawks have hit the over on ... (56.2%). Washington has performed better against the spread at home (<strong>14-16-0) than on the road (10-17-0) th\n- Hawks vs. Wizards Prediction, Odds, Picks - Feb. 26 | FOX Sports: The Hawks are <strong>4-6</strong> against the spread and 5-5 overall in their past 10 games.\n- Atlanta Hawks Odds & Betting Odds | The Action Network: The Hawks are the favorites in this game, indicated by the the minus sign (-), and <strong>a bet on them to cover the spread would win only if Atlanta\n- 2025-2026 NBA Games: Pelicans Hawks Overview -: Point Spread Analysis \u00b7 Over/Under Analysis \u00b7 Money Line Analysis \u00b7 Trends \u00b7 Simulation \u00b7 Rosters &amp; Stats \u00b7 Offense vs. Defense \u00b7 Offense vs. Offe\n\nNews (5):\n- Hawks vs. Wizards Prediction, Odds, Picks - Feb. 26 | FOX Sports (2 days ago)\n- Wizards vs Hawks Prediction, Picks & Odds for Tonight\u2019s NBA Game - Yahoo Sports (10 hours ago)\n- Hawks swap ex-top pick Risacher for McCollum in starting five - ESPN (2 days ago)\n- Nets at Hawks betting preview: Prediction, point spread, odds (4 days ago)\n- Hawks vs Wizards Prediction: Last Games, Injury Report, Player Stats, H2H & Best Picks - NBA Feb 26, 2026 (2 hours ago)",
+    "web_results": [
+      {
+        "title": "Atlanta Hawks News, Scores and Stats 2025-26 - CBS Sports",
+        "url": "https://www.cbssports.com/nba/teams/ATL/atlanta-hawks/",
+        "description": "CBS Sports has the latest Atlanta Hawks news and information, including team scores, stats, highlights and more for the 2025 NBA season."
+      },
+      {
+        "title": "Hawks vs. Wizards Prediction, Odds, Picks, Best Bets for Feb. 26 | FanDuel Research",
+        "url": "https://www.fanduel.com/research/hawks-vs-wizards-prediction-nba-odds-spread-best-bets-for-2-26-2026",
+        "description": "The Hawks have hit the over on ... (56.2%). Washington has performed better against the spread at home (<strong>14-16-0) than on the road (10-17-0) this season.</strong>..."
+      },
+      {
+        "title": "Hawks vs. Wizards Prediction, Odds, Picks - Feb. 26 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/hawks-vs-wizards-prediction-odds-picks-feb-26",
+        "description": "The Hawks are <strong>4-6</strong> against the spread and 5-5 overall in their past 10 games."
+      },
+      {
+        "title": "Atlanta Hawks Odds & Betting Odds | The Action Network",
+        "url": "https://www.actionnetwork.com/nba/odds/atlanta-hawks",
+        "description": "The Hawks are the favorites in this game, indicated by the the minus sign (-), and <strong>a bet on them to cover the spread would win only if Atlanta won by seven points or more</strong>. A bet on the underdogs, as denoted by the plus sign (+), would cash if ..."
+      },
+      {
+        "title": "2025-2026 NBA Games: Pelicans Hawks Overview -",
+        "url": "https://betiq.teamrankings.com/nba/matchups/pelicans-hawks-2026-01-07/",
+        "description": "Point Spread Analysis \u00b7 Over/Under Analysis \u00b7 Money Line Analysis \u00b7 Trends \u00b7 Simulation \u00b7 Rosters &amp; Stats \u00b7 Offense vs. Defense \u00b7 Offense vs. Offense \u00b7 Stat Splits \u00b7 Game Logs \u00b7 Head to Head \u00b7 Common Opponents \u00b7 Travel Analysis \u00b7 Home NBA Matchups \u00b7 Odds: <strong>Atlanta by 10.5</strong>, Total ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Hawks vs. Wizards Prediction, Odds, Picks - Feb. 26 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/hawks-vs-wizards-prediction-odds-picks-feb-26",
+        "description": "Atlanta and its opponents have combined to score an average of 237.3 points over its last 10 games, 1.8 more than the 235.5 over/under in this matchup. In the Hawks' 60 games this season, they have 29 wins against the spread.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Wizards vs Hawks Prediction, Picks & Odds for Tonight\u2019s NBA Game - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/wizards-vs-hawks-prediction-picks-145200250.html",
+        "description": "Dyson Daniels' facilitation skills headline our Wizards vs. Hawks predictions and NBA picks for Thursday, February 26.",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "Hawks swap ex-top pick Risacher for McCollum in starting five - ESPN",
+        "url": "https://www.espn.com/nba/story/_/id/48024751/hawks-swap-ex-top-pick-risacher-mccollum-starting-five",
+        "description": "The Hawks have removed former No. 1 overall pick Zaccharie Risacher from the starting lineup in favor of veteran CJ McCollum.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Nets at Hawks betting preview: Prediction, point spread, odds",
+        "url": "https://netswire.usatoday.com/story/sports/nba/nets/2026/02/22/nets-at-hawks-betting-preview-prediction-point-spread-odds/88811008007/",
+        "description": "Here is the betting preview of the Brooklyn Nets' matchup at the Atlanta Hawks on Sunday.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Hawks vs Wizards Prediction: Last Games, Injury Report, Player Stats, H2H & Best Picks - NBA Feb 26, 2026",
+        "url": "https://www.sportpreferred.com/nba/hawks-vs-wizards-prediction-last-games-injury-report-player-stats-h2h-best-picks-nba-feb-26-2026/8293",
+        "description": "Atlanta Hawks vs Washington Wizards prediction for Feb 26, 2026. Check updated standings, recent form, injury news, head-to-head record and expert best picks for today\u2019s NBA game.",
+        "age": "2 hours ago"
+      }
+    ],
+    "query": "Spread: Hawks (-10.5)",
+    "sources_count": 10
+  },
+  "error": null
+}

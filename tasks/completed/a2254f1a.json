@@ -1,0 +1,85 @@
+{
+  "id": "a2254f1a",
+  "title": "Polymarket research: Rockets vs. Magic",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Rockets vs. Magic",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T01:03:26.722592+00:00",
+  "updated_at": "2026-02-27T01:03:29.474597+00:00",
+  "claimed_at": "2026-02-27T01:03:28.130241+00:00",
+  "completed_at": "2026-02-27T01:03:29.474580+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Rockets vs. Magic\n\nWeb Results (5):\n- Kalshi Promo Code ODDSCHECKER: Trade $10, get $10 on Houston Rockets vs Orlando Magic: Kalshi\u2019s ODDSCHECKER promo is one of the simplest ways to get a guaranteed return on tonight\u2019s Houston Rockets vs Orlando Magic matchup.\n- Orlando Magic vs. Houston Rockets All-Time Head-to-Head Record in the NBA: Historical stats about the games played between the Magic and the Rockets with their all-time performance against each other in the NBA Season and Pla\n- Magic vs Rockets Picks & Predictions on Amazon Prime (Feb 26): The oddsmakers have clearly accounted for the talent disparity between these two rosters, <strong>favoring the Rockets by roughly one possession on th\n- Houston Rockets vs. Orlando Magic Head-to-Head in the NBA Regular Season - All-Time Game Log: The Rockets and the Orlando Magic have played 74 games in the regular season with <strong>42 victories for the Rockets and 32 for the Magic</strong>.\n- Rockets vs Magic Prediction, Picks & Odds for Tonight\u2019s NBA Game - Yahoo Sports: The Houston Rockets start the day as the No. 3 seed in the West, but they\u2019ve become an afterthought in the title contender conversation. Tonight they \n\nNews (5):\n- Rockets vs. Magic odds, line: Proven model reveals NBA picks for matchup on Thursday, February 26 - SportsLine.com (1 day ago)\n- Rockets vs. Magic odds update: Experts adjust predictions; Kevin Durant and Paolo Banchero headline player props - syracuse.com (10 hours ago)\n- Houston Rockets vs Orlando Magic Prediction, 2/26/2026 Preview and Pick (1 day ago)\n- Magic vs Rockets Picks & Predictions on Amazon Prime (Feb 26) (4 hours ago)\n- Rockets vs Magic Prediction, Best Bets and Player Props | FanDuel Research (10 hours ago)",
+    "web_results": [
+      {
+        "title": "Kalshi Promo Code ODDSCHECKER: Trade $10, get $10 on Houston Rockets vs Orlando Magic",
+        "url": "https://www.oddschecker.com/us/insight/basketball/nba/20260226-kalshi-promo-code-oddschecker-trade-$10-get-$10-on-houston-rockets-vs-orlando-magic",
+        "description": "Kalshi\u2019s ODDSCHECKER promo is one of the simplest ways to get a guaranteed return on tonight\u2019s Houston Rockets vs Orlando Magic matchup."
+      },
+      {
+        "title": "Orlando Magic vs. Houston Rockets All-Time Head-to-Head Record in the NBA",
+        "url": "https://www.landofbasketball.com/head_to_head/magic_vs_rockets_all_time.htm",
+        "description": "Historical stats about the games played between the Magic and the Rockets with their all-time performance against each other in the NBA Season and Playoffs. It includes total games, wins, losses, winning percentage for each team and detailed data about the two franchises"
+      },
+      {
+        "title": "Magic vs Rockets Picks & Predictions on Amazon Prime (Feb 26)",
+        "url": "https://www.sportsbettingdime.com/news/nba/magic-vs-rockets-picks-predictions-on-amazon-prime-feb-26/",
+        "description": "The oddsmakers have clearly accounted for the talent disparity between these two rosters, <strong>favoring the Rockets by roughly one possession on the road</strong>. The moneyline price of -138 suggests Houston is expected to win this game more often than not, ..."
+      },
+      {
+        "title": "Houston Rockets vs. Orlando Magic Head-to-Head in the NBA Regular Season - All-Time Game Log",
+        "url": "https://www.landofbasketball.com/head_to_head_gl/rockets_vs_magic_game_log_season.htm",
+        "description": "The Rockets and the Orlando Magic have played 74 games in the regular season with <strong>42 victories for the Rockets and 32 for the Magic</strong>."
+      },
+      {
+        "title": "Rockets vs Magic Prediction, Picks & Odds for Tonight\u2019s NBA Game - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/rockets-vs-magic-prediction-picks-181500585.html",
+        "description": "The Houston Rockets start the day as the No. 3 seed in the West, but they\u2019ve become an afterthought in the title contender conversation. Tonight they visit an Orlando Magic team that knows all about struggling to meet lofty expectations."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Rockets vs. Magic odds, line: Proven model reveals NBA picks for matchup on Thursday, February 26 - SportsLine.com",
+        "url": "https://www.sportsline.com/insiders/rockets-vs-magic-odds-line-proven-model-reveals-nba-picks-for-matchup-on-thursday-february-26/",
+        "description": "A cross-conference matchup on Thursday's NBA schedule has the Orlando Magic hosting the Houston Rockets. Orlando (31-26) is coming off back-to-ba...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Rockets vs. Magic odds update: Experts adjust predictions; Kevin Durant and Paolo Banchero headline player props - syracuse.com",
+        "url": "https://www.syracuse.com/betting/2026/02/rockets-vs-magic-odds-update-experts-adjust-predictions-kevin-durant-and-paolo-banchero-headline-player-props.html",
+        "description": "Get the Rockets vs. Magic expert prediction, projected score from Dimers sims, best bet, projected box scores, and DraftKings Same Game Parlay insights featuring Kevin Durant and Paolo Banchero.",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "Houston Rockets vs Orlando Magic Prediction, 2/26/2026 Preview and Pick",
+        "url": "https://www.docsports.com/free-picks/nba/2026/houston-rockets-vs-orlando-magic-prediction-2-26-2026-preview-and-pick.html",
+        "description": "The Houston Rockets will take on the Orlando Magic on 2/26/26. Doc's Sports Prediction, Preview, and Pick Inside",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Magic vs Rockets Picks & Predictions on Amazon Prime (Feb 26)",
+        "url": "https://www.sportsbettingdime.com/news/nba/magic-vs-rockets-picks-predictions-on-amazon-prime-feb-26/",
+        "description": "The Rockets are 2.5-point road favorites, looking to exploit an Orlando team that is just 4-9 as an underdog in their last 13 games Why the strongest play",
+        "age": "4 hours ago"
+      },
+      {
+        "title": "Rockets vs Magic Prediction, Best Bets and Player Props | FanDuel Research",
+        "url": "https://www.fanduel.com/research/rockets-magic-prediction-best-bets-player-props-nba",
+        "description": "While this is the second leg of a back to back for the Rockets, Orlando last played on Tuesday in LA and had to fly all the way across the country after that one, so it's not like the Magic have a huge rest advantage.",
+        "age": "10 hours ago"
+      }
+    ],
+    "query": "Rockets vs. Magic",
+    "sources_count": 10
+  },
+  "error": null
+}

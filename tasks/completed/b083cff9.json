@@ -1,0 +1,85 @@
+{
+  "id": "b083cff9",
+  "title": "Polymarket research: Will Fulham win the 2025\u201326 English Premier League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Fulham win the 2025\u201326 English Premier League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:16.315761+00:00",
+  "updated_at": "2026-02-26T23:32:07.045297+00:00",
+  "claimed_at": "2026-02-26T23:32:05.050119+00:00",
+  "completed_at": "2026-02-26T23:32:07.045279+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Fulham win the 2025\u201326 English Premier League?\n\nWeb Results (5):\n- 2025\u201326 Fulham F.C. season - Wikipedia: In addition to the domestic league, the club is also participating in the FA Cup and the EFL Cup. ... On 6 June, Fulham announced their first pre-seas\n- Fulham Fixtures & Results 2025/2026 | Premier League: View Fulham scores, fixtures and results for matches played in all competitions, on the official website of the Premier League.\n- Fulham-Tottenham - Premier League 2025/2026 Statistical Preview: <strong>Fulham&#x27;s came up with a timely first away victory of 2026 at Sunderland</strong> on the same weekend none of the European rivals managed \n- Fulham Team News, Fixtures & Results 2025/26 | Premier League: For the latest news on Fulham, including scores, fixtures, team news, results, form guide &amp; league position, visit the official website of the Pre\n- Fulham statistics, fixtures and results - Premier League 2025/2026 - Sportstats365.com: Beyond just points, goal differentials and total goals scored are often considered tiebreakers in the event that teams finish the season with an equal\n\nNews (5):\n- Premier League relegation battle 2025/26: Odds, table, fixtures and predictions | Football News | Sky Sports (3 days ago)\n- Premier League 2025-26 table \u2014 Latest standings - NBC Sports (2 days ago)\n- Premier League 2025-26 Matchday 28 Preview: Key Matchups, Players To Watch, Injury List \u2013 All You Need To Know | Outlook India (7 hours ago)\n- VOTE: Who will win the Premier League title? (5 days ago)\n- Premier League 2025-26 fixtures: Dates, schedule, how to watch live - NBC Sports (1 day ago)",
+    "web_results": [
+      {
+        "title": "2025\u201326 Fulham F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Fulham_F.C._season",
+        "description": "In addition to the domestic league, the club is also participating in the FA Cup and the EFL Cup. ... On 6 June, Fulham announced their first pre-season friendly, against Eintracht Frankfurt. A second friendly was confirmed a month later, against Nottingham Forest during a training camp in Portugal. ... Updated to match(es) played on 23 February 2026. Source: Premier League Rules for classification: 1) Points; 2) Goal difference; 3) Goals scored; 4) If the champions, relegated teams or qualified teams for UEFA competitions cannot be determined by rules 1 to 3, rules 4.1 to 4.3 are applied \u2013 4.1) Points gained in head-to-head record between such teams; 4.2) Away goals scored in head-to-head record between such teams; 4.3) Play-offs"
+      },
+      {
+        "title": "Fulham Fixtures & Results 2025/2026 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/54/fulham/matches",
+        "description": "View Fulham scores, fixtures and results for matches played in all competitions, on the official website of the Premier League."
+      },
+      {
+        "title": "Fulham-Tottenham - Premier League 2025/2026 Statistical Preview",
+        "url": "https://www.whoscored.com/matches/1903404/preview/england-premier-league-2025-2026-fulham-tottenham",
+        "description": "<strong>Fulham&#x27;s came up with a timely first away victory of 2026 at Sunderland</strong> on the same weekend none of the European rivals managed to win."
+      },
+      {
+        "title": "Fulham Team News, Fixtures & Results 2025/26 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/54/fulham/overview",
+        "description": "For the latest news on Fulham, including scores, fixtures, team news, results, form guide &amp; league position, visit the official website of the Premier League."
+      },
+      {
+        "title": "Fulham statistics, fixtures and results - Premier League 2025/2026 - Sportstats365.com",
+        "url": "https://sportstats365.com/football/premiership/2025-2026/teams/fulham",
+        "description": "Beyond just points, goal differentials and total goals scored are often considered tiebreakers in the event that teams finish the season with an equal number of points. These additional metrics add a layer of nuance to the standings, offering a more detailed perspective on Fulham&#x27;s offensive and defensive capabilities."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Premier League relegation battle 2025/26: Odds, table, fixtures and predictions | Football News | Sky Sports",
+        "url": "https://www.skysports.com/football/news/11661/13509977/premier-league-relegation-battle-2025-26-odds-table-fixtures-and-predictions",
+        "description": "Leeds, Tottenham, Nottingham Forest and West Ham are the clubs currently in danger of Premier League relegation alongside Wolves and Burnley with 11 games left of the season - here, we look at each teams fixtures and probability of going down...",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Premier League 2025-26 table \u2014 Latest standings - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-table-teams-standings-for-the-new-season",
+        "description": "The 2025-26 Premier League table is absolutely bonkers and so tight.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Premier League 2025-26 Matchday 28 Preview: Key Matchups, Players To Watch, Injury List \u2013 All You Need To Know | Outlook India",
+        "url": "https://www.outlookindia.com/sports/football/english-premier-league-2025-26-matchday-28-preview-key-matchups-players-to-watch-injury-list",
+        "description": "Premier League 2025-26 Matchday 28 Preview: Tottenham Hotspur\u2019s alarming slide has dragged them into a genuine relegation scrap, while Arsenal resume their title push against Chelsea and Manchester City chase from close range",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "VOTE: Who will win the Premier League title?",
+        "url": "https://www.premierleague.com/en/news/4488319/vote-who-will-win-the-premier-league-title-in-2025-26-season",
+        "description": "After Arsenal's 4-1 win over Spurs, who do YOU think will be crowned 2025/26 champions?",
+        "age": "5 days ago"
+      },
+      {
+        "title": "Premier League 2025-26 fixtures: Dates, schedule, how to watch live - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-fixtures-released-dates-schedule-how-to-watch-live",
+        "description": "Check out the Premier League schedule for the 2025-26 season, with everything you need for all 380 games.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Fulham win the 2025\u201326 English Premier League?",
+    "sources_count": 10
+  },
+  "error": null
+}

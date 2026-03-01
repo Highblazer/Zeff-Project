@@ -1,0 +1,85 @@
+{
+  "id": "13c34126",
+  "title": "Polymarket research: Will Khamenei leave Iran by February 28, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Khamenei leave Iran by February 28, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:04:04.115037+00:00",
+  "updated_at": "2026-03-01T08:04:19.358712+00:00",
+  "claimed_at": "2026-03-01T08:04:17.268211+00:00",
+  "completed_at": "2026-03-01T08:04:19.358695+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Khamenei leave Iran by February 28, 2026?\n\nWeb Results (5):\n- 2026 Iranian Supreme Leader election - Wikipedia: <strong>An election for the third supreme leader of Iran will take place at an unspecified date in 2026</strong> after the assassination of Ali Khamen\n- The rise and fall of Iran\u2019s ruthless and pragmatic Ayatollah Ali Khamenei | Ayatollah Ali Khamenei | The Guardian: The radical cleric took over as supreme leader in 1989 and is likely to be replaced by hardline figures\n- Iran state media confirms killing of Ayatollah Ali Khamenei following US-Israeli missile strikes | US-Israel war on Iran | The Guardian: Ayatollah Ali Khamenei, the Iranian supreme leader, <strong>leaves after casting his vote during the presidential election in Tehran, Iran, 28 June 20\n- Ali Khamenei out as Supreme Leader?: Trading on Kalshi involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You shoul\n- Feb. 28: Hailing death of 'evil' Khamenei, Trump says strikes on Iran to persist until peace secured | The Times of Israel: Iran&#x27;s former crown prince and now key opposition figure Reza Pahlavi attends a discussion during the 62nd Munich Security Conference (MSC) on Fe\n\nNews (5):\n- Live: Iran confirms supreme leader Khamenei is dead after US, Israeli attacks | Reuters (20 minutes ago)\n- Ayatollah Ali Khamenei is dead, state news media confirms (18 hours ago)\n- The rise and fall of Iran\u2019s ruthless and pragmatic Ayatollah Ali Khamenei | Ayatollah Ali Khamenei | The Guardian (12 hours ago)\n- Iran's Supreme Leader Ayatollah Ali Khamenei killed in US-Israel attack - follow live - BBC News (1 day ago)\n- Iranian leader Khamenei killed in air strikes as U.S., Israel launch attacks | Reuters (1 day ago)",
+    "web_results": [
+      {
+        "title": "2026 Iranian Supreme Leader election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Next_Supreme_Leader_of_Iran_election",
+        "description": "<strong>An election for the third supreme leader of Iran will take place at an unspecified date in 2026</strong> after the assassination of Ali Khamenei on 28 February 2026 during the Israeli\u2013United States strikes on Iran."
+      },
+      {
+        "title": "The rise and fall of Iran\u2019s ruthless and pragmatic Ayatollah Ali Khamenei | Ayatollah Ali Khamenei | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/28/iran-ayatollah-ali-khamenei",
+        "description": "The radical cleric took over as supreme leader in 1989 and is likely to be replaced by hardline figures"
+      },
+      {
+        "title": "Iran state media confirms killing of Ayatollah Ali Khamenei following US-Israeli missile strikes | US-Israel war on Iran | The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/feb/28/khamenei-likely-killed-us-israel-iran-strikes",
+        "description": "Ayatollah Ali Khamenei, the Iranian supreme leader, <strong>leaves after casting his vote during the presidential election in Tehran, Iran, 28 June 2024</strong>."
+      },
+      {
+        "title": "Ali Khamenei out as Supreme Leader?",
+        "url": "https://kalshi.com/markets/kxkhameneiout/ali-khamenei-out/kxkhameneiout-akha",
+        "description": "Trading on Kalshi involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading on Kalshi is appropriate for you in light of your investment experience and financial resources."
+      },
+      {
+        "title": "Feb. 28: Hailing death of 'evil' Khamenei, Trump says strikes on Iran to persist until peace secured | The Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-february-28-2026/",
+        "description": "Iran&#x27;s former crown prince and now key opposition figure Reza Pahlavi attends a discussion during the 62nd Munich Security Conference (MSC) on February 13, 2026 in Munich, southern Germany. (Alexandra BEIER / AFP) Reza Pahlavi, the exiled son of the last Iranian Shah who was ousted in 1979, celebrates the apparent death of Iranian Supreme Leader Ali Khamenei in US-Israeli strikes, predicts that the Islamic Republic will \u201cvery soon be consigned to the dustbin of history,\u201d and adds that any attempt to tap a successor \u201cis doomed to fail from the outset.\u201d"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Live: Iran confirms supreme leader Khamenei is dead after US, Israeli attacks | Reuters",
+        "url": "https://www.reuters.com/world/iran-crisis-live-explosions-tehran-israel-announces-strike-2026-02-28/",
+        "description": "The United States and Israel launched the most ambitious attack on Iran in decades on Saturday, and Iranian state media has confirmed Supreme Leader Ali Khamenei had been killed.",
+        "age": "20 minutes ago"
+      },
+      {
+        "title": "Ayatollah Ali Khamenei is dead, state news media confirms",
+        "url": "https://www.cnbc.com/2026/02/28/trump-iran-strikes-live-updates.html",
+        "description": "A woman holds an illustration depicting Iran's Supreme Leader Ayatollah Ali Khamenei as others wave Iranian national flags during a demonstration in support of the government and against US and Israeli strikes outside a mosque in Tehran on February 28, 2026.",
+        "age": "18 hours ago"
+      },
+      {
+        "title": "The rise and fall of Iran\u2019s ruthless and pragmatic Ayatollah Ali Khamenei | Ayatollah Ali Khamenei | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/28/iran-ayatollah-ali-khamenei",
+        "description": "The radical cleric took over as supreme leader in 1989 and is likely to be replaced by hardline figures",
+        "age": "12 hours ago"
+      },
+      {
+        "title": "Iran's Supreme Leader Ayatollah Ali Khamenei killed in US-Israel attack - follow live - BBC News",
+        "url": "https://www.bbc.com/news/live/cn5ge95q6y7t",
+        "description": "Iran's Revolutionary Guard Corps has vowed a \"devastating\" retaliation following the supreme leader's death.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Iranian leader Khamenei killed in air strikes as U.S., Israel launch attacks | Reuters",
+        "url": "https://www.reuters.com/business/aerospace-defense/israel-us-launch-strikes-iran-2026-02-28/",
+        "description": "Explosions also rang out in nearby oil-producing Gulf Arab countries.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Khamenei leave Iran by February 28, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

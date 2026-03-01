@@ -1,0 +1,85 @@
+{
+  "id": "a6f846de",
+  "title": "Polymarket research: Will the Toronto Raptors win the NBA Eastern Conference Finals?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Toronto Raptors win the NBA Eastern Conference Finals?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:37:52.067016+00:00",
+  "updated_at": "2026-03-01T08:37:59.052818+00:00",
+  "claimed_at": "2026-03-01T08:37:57.571108+00:00",
+  "completed_at": "2026-03-01T08:37:59.052802+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Toronto Raptors win the NBA Eastern Conference Finals?\n\nWeb Results (5):\n- Toronto Raptors Betting Odds: NBA Championship & Game Lines | FanDuel: <strong>2025-26 NBA Finals Winner - Toronto Raptors</strong>+175002025-26 NBA Eastern Conference Winner - Toronto Raptors+3000Team To Advance To Easte\n- Toronto Raptors - Wikipedia: The Raptors have won the Atlantic Division seven times (2007, 2014\u20132016, and 2018\u20132020), and the franchise record number of wins in the regular season\n- NBA Team Standings & Stats | NBA.com: The standings and stats of the current NBA season. Keep track of how your favorite teams are performing and who will make the playoffs.\n- Toronto Raptors Playoff History - RealGM: Toronto Raptors scores, news, schedule, players, stats, rumors, depth charts and more on RealGM.com\n- Toronto Raptors Conference Standings - NBA | FOX Sports: <strong>TORONTO RAPTORS 34-25</strong> \u00b7 5TH IN EASTERN CONFERENCE \u00b7 34-25 \u00b7 5TH IN EASTERN CONFERENCE \u00b7 NBA &gt; TEAMS &gt; More \u00b7 conference \u00b7 divis\n\nNews (5):\n- Raptors get reprieve from tough schedule with road date vs. Wizards - CBS Sports (1 day ago)\n- The Rockets Can't Take The East For Granted (11 hours ago)\n- Toronto Raptors: Washington Wizards vs. Toronto Raptors (02-28-2026) game preview: When and where to watch, expected lineup, injury report, prediction, and more | NBA News - The Times of India (9 hours ago)\n- Wizards face the Raptors on 3-game skid | FOX Sports (2 days ago)\n- Wizards face the Raptors on 3-game skid - Yahoo Sports (2 days ago)",
+    "web_results": [
+      {
+        "title": "Toronto Raptors Betting Odds: NBA Championship & Game Lines | FanDuel",
+        "url": "https://sportsbook.fanduel.com/teams/nba/toronto-raptors/odds",
+        "description": "<strong>2025-26 NBA Finals Winner - Toronto Raptors</strong>+175002025-26 NBA Eastern Conference Winner - Toronto Raptors+3000Team To Advance To Eastern Conference Finals 2025-26 - Toronto Raptors+1000Team To Advance To Eastern Conference Semifinals 2025-26 - Toronto Raptors+280To Be #8 Seed in Eastern Conference ..."
+      },
+      {
+        "title": "Toronto Raptors - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Toronto_Raptors",
+        "description": "The Raptors have won the Atlantic Division seven times (2007, 2014\u20132016, and 2018\u20132020), and the franchise record number of wins in the regular season is 59 (2018). <strong>The Raptors advanced to the Eastern Conference Finals twice (2016 and 2019).</strong> Only once did the Raptors reach and win the NBA ..."
+      },
+      {
+        "title": "NBA Team Standings & Stats | NBA.com",
+        "url": "https://www.nba.com/standings",
+        "description": "The standings and stats of the current NBA season. Keep track of how your favorite teams are performing and who will make the playoffs."
+      },
+      {
+        "title": "Toronto Raptors Playoff History - RealGM",
+        "url": "https://basketball.realgm.com/nba/teams/Toronto-Raptors/28/Playoff-History",
+        "description": "Toronto Raptors scores, news, schedule, players, stats, rumors, depth charts and more on RealGM.com"
+      },
+      {
+        "title": "Toronto Raptors Conference Standings - NBA | FOX Sports",
+        "url": "https://www.foxsports.com/nba/toronto-raptors-team-standings",
+        "description": "<strong>TORONTO RAPTORS 34-25</strong> \u00b7 5TH IN EASTERN CONFERENCE \u00b7 34-25 \u00b7 5TH IN EASTERN CONFERENCE \u00b7 NBA &gt; TEAMS &gt; More \u00b7 conference \u00b7 division \u00b7 preseason \u00b7 Top Leagues NFL College Football INDYCAR MLB College Basketball NASCAR \u00b7 Top Shows The Herd with Colin Cowherd First Things First The Joel ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Raptors get reprieve from tough schedule with road date vs. Wizards - CBS Sports",
+        "url": "https://www.cbssports.com/nba/news/raptors-get-reprieve-from-tough-schedule-with-road-date-vs-wizards/",
+        "description": "Vying to stay in the top group of the Eastern Conference standings, the overachieving Toronto Raptors will look to continue an impressive season away from home Saturday when they travel to face the Washington Wizards.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "The Rockets Can't Take The East For Granted",
+        "url": "https://www.si.com/nba/rockets/onsi/news/the-rockets-can-t-take-the-east-for-granted-01kjjshjvj89",
+        "description": "The Houston Rockets have been one of the top teams against the opposing conference as they've defeated many of the top teams in the Eastern Conference. However,",
+        "age": "11 hours ago"
+      },
+      {
+        "title": "Toronto Raptors: Washington Wizards vs. Toronto Raptors (02-28-2026) game preview: When and where to watch, expected lineup, injury report, prediction, and more | NBA News - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/washington-wizards-vs-toronto-raptors-02-28-2026-game-preview-when-and-where-to-watch-expected-lineup-injury-report-prediction-and-more/articleshow/128900252.cms",
+        "description": "NBA News: The Toronto Raptors can get back into the win column tonight against the struggling Washington Wizards, and they are on track to earn their first post.",
+        "age": "9 hours ago"
+      },
+      {
+        "title": "Wizards face the Raptors on 3-game skid | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/wizards-face-the-raptors-on-3game-skid",
+        "description": "Washington aims to break its three-game slide when the Washington Wizards take on Toronto",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Wizards face the Raptors on 3-game skid - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/wizards-face-raptors-3-game-070234753.html",
+        "description": "Washington ranks ninth in the Eastern Conference with 47.5 points per game in the paint led by Anthony Davis averaging 13.1. The Raptors are 26-15 in conference play. Toronto is fourth in the Eastern Conference allowing just 111.8 points while holding opponents to 46.0% shooting.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will the Toronto Raptors win the NBA Eastern Conference Finals?",
+    "sources_count": 10
+  },
+  "error": null
+}

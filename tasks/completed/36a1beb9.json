@@ -1,0 +1,41 @@
+{
+  "id": "36a1beb9",
+  "title": "Close all positions before strategy update",
+  "assigned_to": "tradebot",
+  "task_type": "close_all",
+  "params": {},
+  "priority": 1,
+  "status": "completed",
+  "created_by": "user",
+  "created_at": "2026-02-26T12:08:16.015610+00:00",
+  "updated_at": "2026-02-26T12:08:38.345096+00:00",
+  "claimed_at": "2026-02-26T12:08:37.877656+00:00",
+  "completed_at": "2026-02-26T12:08:38.345076+00:00",
+  "retries": 0,
+  "result": {
+    "closed": 5,
+    "positions": [
+      {
+        "symbol": "GBPUSD",
+        "positionId": 585204327
+      },
+      {
+        "symbol": "AUDUSD",
+        "positionId": 585204329
+      },
+      {
+        "symbol": "USDCAD",
+        "positionId": 585204330
+      },
+      {
+        "symbol": "EURUSD",
+        "positionId": 585204326
+      },
+      {
+        "symbol": "NZDUSD",
+        "positionId": 585207048
+      }
+    ]
+  },
+  "error": null
+}

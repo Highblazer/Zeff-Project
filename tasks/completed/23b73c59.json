@@ -1,0 +1,82 @@
+{
+  "id": "23b73c59",
+  "title": "economic calendar high impact events this week",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "economic calendar high impact events this week"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T05:35:39.515889+00:00",
+  "updated_at": "2026-02-26T05:35:41.369302+00:00",
+  "claimed_at": "2026-02-26T05:35:39.530171+00:00",
+  "completed_at": "2026-02-26T05:35:41.369284+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: economic calendar high impact events this week\n\nWeb Results (5):\n- Economic Calendar: This page displays a table with actual values, consensus figures, forecasts, statistics and historical data charts for - Economic Calendar. This calen\n- Economic Calendar - Yahoo Finance: Find earnings, economic, stock splits and IPO calendars to track upcoming financial events from Yahoo Finance.\n- Economic Calendar - Investing.com: Economic calendar: get indicators in real-time as economic events are announced and see the immediate global market impact - Including previous, forec\n- Economic Calendar - Bloomberg - Bloomberg Markets: Check economic calendar events in real time on Bloomberg and see the global financial market impact by country and importance with previous, forecast \n- Economic Calendar \u2014 World Economic Events \u2014 TradingView: All events are in chronological order and linked with economic indicators like interest rates or GDP. The calendar is customizable: one click will giv\n\nNews (5):\n- Weekly Markets Planner: Economics Calendar, Company Earnings, Investor Relations Events | Morningstar (1 week ago)\n- Initial jobless claims headline Thursday\u2019s economic calendar By Investing.com (11 hours ago)\n- Gold (XAU/USD) Price Forecast and Analysis for Today, Tomorrow, Next Week, and 30 Days | LiteFinance (1 day ago)\n- Weekly Trader's Stock Market Outlook | Charles Schwab (6 days ago)\n- US Economic Calendar (2 weeks ago)",
+    "web_results": [
+      {
+        "title": "Economic Calendar",
+        "url": "https://tradingeconomics.com/calendar",
+        "description": "This page displays a table with actual values, consensus figures, forecasts, statistics and historical data charts for - Economic Calendar. This calendar provides events for 196 countries including data releases for 300.000 economic indicators, actual values, consensus figures and proprietary ..."
+      },
+      {
+        "title": "Economic Calendar - Yahoo Finance",
+        "url": "https://finance.yahoo.com/calendar/economic/",
+        "description": "Find earnings, economic, stock splits and IPO calendars to track upcoming financial events from Yahoo Finance."
+      },
+      {
+        "title": "Economic Calendar - Investing.com",
+        "url": "https://www.investing.com/economic-calendar",
+        "description": "Economic calendar: get indicators in real-time as economic events are announced and see the immediate global market impact - Including previous, forecast and actual figures."
+      },
+      {
+        "title": "Economic Calendar - Bloomberg - Bloomberg Markets",
+        "url": "https://www.bloomberg.com/markets/economic-calendar",
+        "description": "Check economic calendar events in real time on Bloomberg and see the global financial market impact by country and importance with previous, forecast and actual figures."
+      },
+      {
+        "title": "Economic Calendar \u2014 World Economic Events \u2014 TradingView",
+        "url": "https://www.tradingview.com/economic-calendar/",
+        "description": "All events are in chronological order and linked with economic indicators like interest rates or GDP. The calendar is customizable: one click will give you a weekly economic calendar, another \u2014 narrow it down to US economic calendar only. Plus, you will see short explainers of the events and forecasts from experts."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Weekly Markets Planner: Economics Calendar, Company Earnings, Investor Relations Events | Morningstar",
+        "url": "https://www.morningstar.com/markets/whats-happening-markets-this-week",
+        "description": "Earnings for Nvidia and Paramount this week, plus the January Producer Price Index report.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Initial jobless claims headline Thursday\u2019s economic calendar By Investing.com",
+        "url": "https://investing.com/news/stock-market-news/initial-jobless-claims-headline-thursdays-economic-calendar-93CH-4525426",
+        "description": "\u2022 11:30 AM ET - 8-Week Bill Auction: Previous 3.630%. Treasury bill auction with slightly longer maturity providing additional insight into short-term rate expectations. For further information and the latest updates, please refer to our Economic Calendar, here https://www.investing.com/economic-calendar/ This ...",
+        "age": "11 hours ago"
+      },
+      {
+        "title": "Gold (XAU/USD) Price Forecast and Analysis for Today, Tomorrow, Next Week, and 30 Days | LiteFinance",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/",
+        "description": "Gold price prediction and analysis for tomorrow, next week, and 30 days. Key levels, sentiment, and events shaping gold short-term outlook.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Weekly Trader's Stock Market Outlook | Charles Schwab",
+        "url": "https://www.schwab.com/learn/story/weekly-traders-outlook",
+        "description": "Major indices are on track for modest gains during a busy news week with increased uncertainty around tariffs, Iran, and monetary policy.",
+        "age": "6 days ago"
+      },
+      {
+        "title": "US Economic Calendar",
+        "url": "https://www.briefing.com/calendars/economic?Filter=Today",
+        "description": "Check our economic calendar for dates, times, estimates, actual results, and trading importance for major U.S. economic releases.",
+        "age": "2 weeks ago"
+      }
+    ],
+    "query": "economic calendar high impact events this week",
+    "sources_count": 10
+  },
+  "error": null
+}

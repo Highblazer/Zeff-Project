@@ -1,0 +1,30 @@
+{
+  "id": "e13d9e79",
+  "title": "Scan Twitter/X for trending AI agent posts \u2014 find what builders are shipping, new tool releases, agent trading bots, and OpenClaw/Claude discussions from the past week",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "AI agents autonomous trading bots Claude OpenClaw site:x.com OR site:twitter.com",
+    "sources": [
+      "twitter",
+      "web"
+    ],
+    "scope": "Find trending tweets, threads, and posts from AI agent builders, trading bot developers, and the OpenClaw/Claude community. Focus on actionable ideas we can implement."
+  },
+  "priority": 2,
+  "status": "completed",
+  "created_by": "CEO",
+  "created_at": "2026-02-25T21:39:44.612123+00:00",
+  "updated_at": "2026-02-25T21:39:47.847061+00:00",
+  "claimed_at": "2026-02-25T21:39:47.598847+00:00",
+  "completed_at": "2026-02-25T21:39:47.847043+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: AI agents autonomous trading bots Claude OpenClaw site:x.com OR site:twitter.com\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "AI agents autonomous trading bots Claude OpenClaw site:x.com OR site:twitter.com",
+    "sources_count": 0
+  },
+  "error": null
+}

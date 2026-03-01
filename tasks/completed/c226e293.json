@@ -1,0 +1,85 @@
+{
+  "id": "c226e293",
+  "title": "Polymarket research: GTA VI released before June 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "GTA VI released before June 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:49.329713+00:00",
+  "updated_at": "2026-03-01T07:29:09.781932+00:00",
+  "claimed_at": "2026-03-01T07:29:07.910190+00:00",
+  "completed_at": "2026-03-01T07:29:09.781915+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: GTA VI released before June 2026?\n\nWeb Results (5):\n- Grand Theft Auto VI is Now Coming May 26, 2026 - Rockstar Games: Hi everyone, Grand Theft Auto VI is now set to release on <strong>May 26, 2026</strong>. We are very sorry that this is later than you expected. The i\n- Grand Theft Auto VI - Wikipedia: That September, footage from unfinished ... Auto VI was formally revealed in December 2023. Following several delays, it is scheduled to be released o\n- Grand Theft Auto VI is Now Set to Launch November 19, 2026 - Rockstar Games: Hi everyone, Grand Theft Auto VI will now release on <strong>Thursday, November 19, 2026</strong>. We are sorry for adding additional time to what we \n- GTA VI release date info amid previous delays: &quot;GTA VI&quot; is set to launch Nov. 19, 2026, the series&#x27; publisher Rockstar Games announced in a statement Nov. 5. The company previously l\n- r/playstation on Reddit: Grand Theft Auto VI will now release on Thursday, November 19, 2026.: I stopped keeping track \ud83d\ude02 I\u2019m just of the mindset that it\u2019ll come out of the closet when it\u2019s ready. ... Grand Theft Auto VI will now release on <stro\n\nNews (5):\n- GTA 6 Release Date On Track? Insider Claims Take-Two Confirmed \u2018No Planned Delays\u2019 to Sony & Microsoft Ahead of 2026 Launch (3 days ago)\n- GTA VI release date confirmed and no further delays (10 hours ago)\n- New GTA 6 Report is Incredible News for PS5 and Xbox Gamers (3 days ago)\n- Grand Theft Auto 6 Sets November 2026 Release - Grand Pinnacle Tribune (1 week ago)\n- GTA 6 Set For November 2026 Release? Check Expected Xbox & PC Price, Leaked Gameplay Details & More - Culture (6 days ago)",
+    "web_results": [
+      {
+        "title": "Grand Theft Auto VI is Now Coming May 26, 2026 - Rockstar Games",
+        "url": "https://www.rockstargames.com/newswire/article/258aa538o412ok/grand-theft-auto-vi-is-now-coming-may-26-2026",
+        "description": "Hi everyone, Grand Theft Auto VI is now set to release on <strong>May 26, 2026</strong>. We are very sorry that this is later than you expected. The interest and excitement surrounding a new Grand Theft Auto has been truly humbling for our entire team. We want to..."
+      },
+      {
+        "title": "Grand Theft Auto VI - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+        "description": "That September, footage from unfinished ... Auto VI was formally revealed in December 2023. Following several delays, it is scheduled to be released on <strong>19 November 2026</strong> for the PlayStation 5 and Xbox Series X/S...."
+      },
+      {
+        "title": "Grand Theft Auto VI is Now Set to Launch November 19, 2026 - Rockstar Games",
+        "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+        "description": "Hi everyone, Grand Theft Auto VI will now release on <strong>Thursday, November 19, 2026</strong>. We are sorry for adding additional time to what we realize has been a long wait, but these extra months will allow us to finish the game with the level of polish you..."
+      },
+      {
+        "title": "GTA VI release date info amid previous delays",
+        "url": "https://eu.northjersey.com/story/news/2026/01/14/gta-vi-release-date-grand-theft-auto/88178342007/",
+        "description": "&quot;GTA VI&quot; is set to launch Nov. 19, 2026, the series&#x27; publisher Rockstar Games announced in a statement Nov. 5. The company previously listed a fall 2025 release for the game before later delaying it to <strong>May 2026</strong>."
+      },
+      {
+        "title": "r/playstation on Reddit: Grand Theft Auto VI will now release on Thursday, November 19, 2026.",
+        "url": "https://www.reddit.com/r/playstation/comments/1oqb2bq/grand_theft_auto_vi_will_now_release_on_thursday/",
+        "description": "I stopped keeping track \ud83d\ude02 I\u2019m just of the mindset that it\u2019ll come out of the closet when it\u2019s ready. ... Grand Theft Auto VI will now release on <strong>Thursday, November 19, 2026</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "GTA 6 Release Date On Track? Insider Claims Take-Two Confirmed \u2018No Planned Delays\u2019 to Sony & Microsoft Ahead of 2026 Launch",
+        "url": "https://sundayguardianlive.com/tech-news/gta-6-release-date-on-track-insider-claims-take-two-confirmed-no-planned-delays-to-sony-microsoft-ahead-of-2026-launch-172547/",
+        "description": "Rumour says GTA 6 is still on track with no planned delays, as Take-Two reportedly informed Sony and Microsoft ahead of the confirmed November 19, 2026 launch.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "GTA VI release date confirmed and no further delays",
+        "url": "https://en.actualidadgadget.com/GTA-VI-release-date-confirmed-and-no-further-delays",
+        "description": "Another key point confirmed by Take-Two is the pre-launch communication. The official marketing campaign for GTA VI will kick off in the summer of 2026., with a deployment that will extend between the months of June and August.",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "New GTA 6 Report is Incredible News for PS5 and Xbox Gamers",
+        "url": "https://gamerant.com/gta-6-release-date-ps5-xbox-good-news",
+        "description": "Upon its initial reveal, Rockstar ... for GTA 6, but fans of the studio knew this was unrealistic. An inevitable delay then occurred, which pushed the title back to May 26, 2026. Then, just six months before its release, Grand Theft Auto 6 was hit with another delay, this time moving its launch date to November 19. ... The job market of the video game industry ...",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Grand Theft Auto 6 Sets November 2026 Release - Grand Pinnacle Tribune",
+        "url": "https://evrimagaci.org/gpt/grand-theft-auto-6-sets-november-2026-release-531097",
+        "description": "Anticipation is reaching a fever pitch in the gaming world as the long-awaited Grand Theft Auto VI (GTA 6) edges closer to its official release date. After years\u2026",
+        "age": "1 week ago"
+      },
+      {
+        "title": "GTA 6 Set For November 2026 Release? Check Expected Xbox & PC Price, Leaked Gameplay Details & More - Culture",
+        "url": "https://in.mashable.com/culture/106223/gta-6-set-2026-release-check-expected-xbox-pc-price-leaked-gameplay-details-more",
+        "description": "Rockstar Games and its parent company, ... Auto VI will launch globally on November 19, 2026. The date follows two delays\u2014first from 2025, then from a May 26, 2026 target\u2014with Rockstar citing the need for additional development time to polish the game's open world. Take-Two addressed the timeline directly in its earnings report, expressing strong confidence in the November release and noting that launch marketing is set to begin in the summer of 2026. GTA 6 will debut ...",
+        "age": "6 days ago"
+      }
+    ],
+    "query": "GTA VI released before June 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "f47196dc",
+  "title": "Polymarket research: Will Los Angeles FC win on 2026-02-28?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Los Angeles FC win on 2026-02-28?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:37:53.129822+00:00",
+  "updated_at": "2026-03-01T08:38:02.777329+00:00",
+  "claimed_at": "2026-03-01T08:38:00.831131+00:00",
+  "completed_at": "2026-03-01T08:38:02.777310+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Los Angeles FC win on 2026-02-28?\n\nWeb Results (5):\n- Los Angeles FC vs. Houston Dynamo Prediction, Picks, Live Odds - Feb. 28 - Bleacher Nation: The upcoming fixture list in MLS includes <strong>third-place Los Angeles FC at ninth-place Houston Dynamo -- both coming off wins</strong> -- on Satu\n- Preview | Houston Dynamo vs. LAFC - 2026 MLS Season | Los Angeles Football Club: <strong>Riding a three-game win streak across all competitions to start 2026</strong>, LAFC departs for its first MLS road trip of the year, facing Ho\n- Recap | Houston Dynamo 0-2 LAFC | 2026 MLS Season | Los Angeles Football Club: Los Angeles Football Club (LAFC) began its 2026 MLS regular-season road schedule with a <strong>2-0 win over Houston Dynamo FC</strong> on Saturday ni\n- Los Angeles Football Club: Los Angeles Football Club (LAFC) began its 2026 MLS regular-season road schedule with a <strong>2-0 win over Houston Dynamo FC</strong> on Saturday ni\n- HOUvsLAFC 02-28-2026 | Los Angeles Football Club: LAFC is a world-class football club representing Los Angeles and committed to delivering an unrivaled fan experience.\n\nNews (5):\n- Los Angeles FC vs. Houston Dynamo Prediction, Picks, Live Odds - Feb. 28 - Bleacher Nation (16 hours ago)\n- Houston Dynamo vs. Los Angeles FC prediction, odds, MLS picks [2/28/2026] (1 day ago)\n- Preview | Houston Dynamo vs. LAFC - 2026 MLS Season | Los Angeles Football Club (3 days ago)\n- Match Preview presented by DigAlert: LA Galaxy vs Charlotte FC | Feb. 28, 2026 | LA Galaxy (1 day ago)\n- Concacaf Champions Cup 2026: MLS matchups, schedule for Round of 16 | MLSSoccer.com (2 days ago)",
+    "web_results": [
+      {
+        "title": "Los Angeles FC vs. Houston Dynamo Prediction, Picks, Live Odds - Feb. 28 - Bleacher Nation",
+        "url": "https://www.bleachernation.com/picks/2026/02/28/los-angeles-fc-vs-houston-dynamo-prediction-picks-live-odds-feb-28/",
+        "description": "The upcoming fixture list in MLS includes <strong>third-place Los Angeles FC at ninth-place Houston Dynamo -- both coming off wins</strong> -- on Saturday, Feb. 28 at 8:30"
+      },
+      {
+        "title": "Preview | Houston Dynamo vs. LAFC - 2026 MLS Season | Los Angeles Football Club",
+        "url": "https://www.lafc.com/news/preview-houston-vs-lafc-2026-mls-season-february-28",
+        "description": "<strong>Riding a three-game win streak across all competitions to start 2026</strong>, LAFC departs for its first MLS road trip of the year, facing Houston Dynamo FC on Saturday night at Shell Energy Stadium."
+      },
+      {
+        "title": "Recap | Houston Dynamo 0-2 LAFC | 2026 MLS Season | Los Angeles Football Club",
+        "url": "https://www.lafc.com/news/recap-houston-dynamo-x-x-lafc-2026-mls-season-february-28",
+        "description": "Los Angeles Football Club (LAFC) began its 2026 MLS regular-season road schedule with a <strong>2-0 win over Houston Dynamo FC</strong> on Saturday night at Shell Energy Stadium in Houston, Texas."
+      },
+      {
+        "title": "Los Angeles Football Club",
+        "url": "https://www.lafc.com/",
+        "description": "Los Angeles Football Club (LAFC) began its 2026 MLS regular-season road schedule with a <strong>2-0 win over Houston Dynamo FC</strong> on Saturday night at Shell Energy Stadium in Houston, Texas."
+      },
+      {
+        "title": "HOUvsLAFC 02-28-2026 | Los Angeles Football Club",
+        "url": "https://www.lafc.com/competitions/mls-regular-season/2026/matches/houvslafc-02-28-2026/",
+        "description": "LAFC is a world-class football club representing Los Angeles and committed to delivering an unrivaled fan experience."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Los Angeles FC vs. Houston Dynamo Prediction, Picks, Live Odds - Feb. 28 - Bleacher Nation",
+        "url": "https://www.bleachernation.com/picks/2026/02/28/los-angeles-fc-vs-houston-dynamo-prediction-picks-live-odds-feb-28/",
+        "description": "The upcoming fixture list in MLS includes third-place Los Angeles FC at ninth-place Houston Dynamo -- both coming off wins -- on Saturday, Feb. 28 at 8:30",
+        "age": "16 hours ago"
+      },
+      {
+        "title": "Houston Dynamo vs. Los Angeles FC prediction, odds, MLS picks [2/28/2026]",
+        "url": "https://www.dimers.com/news/houston-dynamo-vs-los-angeles-fc-prediction-mls-saturday-02-28-2026-ac",
+        "description": "Houston will face LAFC in MLS action at Shell Energy Stadium on Saturday, commencing at 8:30 PM ET.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Preview | Houston Dynamo vs. LAFC - 2026 MLS Season | Los Angeles Football Club",
+        "url": "https://www.lafc.com/news/preview-houston-vs-lafc-2026-mls-season-february-28",
+        "description": "Saturday, February 28 | 5:30 p.m. PT \ud83c\udfdf | Shell Energy Stadium - Houston, Texas \ud83d\udda5 | WATCH: Apple TV | Coupang Play (Korea), SpoTV (Korea), Local Bar Partners \ud83d\udcfb | LISTEN: 710 AM ESPN, ESPN LA App, KFWB 980 AM La Mera Mera (Spanish), & KYPA 1230 AM (Korean)",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Match Preview presented by DigAlert: LA Galaxy vs Charlotte FC | Feb. 28, 2026 | LA Galaxy",
+        "url": "https://lagalaxy.com/news/match-preview-presented-by-digalert-la-galaxy-vs-charlotte-fc-feb-28-2026",
+        "description": "The LA Galaxy will make a return to MLS Regular Season play at Dignity Health Sports Park on Saturday, Feb. 28 against Charlotte FC, presented by Maruchan (7:30 p.m. PT, Apple TV). LA Galaxy vs Charlotte FC The Galaxy continue their MLS Regular Season campaign at Dignity Health Sports Park",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Concacaf Champions Cup 2026: MLS matchups, schedule for Round of 16 | MLSSoccer.com",
+        "url": "https://mlssoccer.com/news/concacaf-champions-cup-2026-mls-matchups-schedule-for-round-of-16",
+        "description": "Nine MLS clubs will compete in the Round of 16 of the 2026 Concacaf Champions Cup, which grants a spot in the 2029 FIFA Club World Cup and the 2026 FIFA Intercontinental Cup.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Los Angeles FC win on 2026-02-28?",
+    "sources_count": 10
+  },
+  "error": null
+}

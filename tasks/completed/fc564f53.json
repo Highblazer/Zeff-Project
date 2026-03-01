@@ -1,0 +1,85 @@
+{
+  "id": "fc564f53",
+  "title": "Polymarket research: Will Robert F. Kennedy Jr. win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Robert F. Kennedy Jr. win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:29.114855+00:00",
+  "updated_at": "2026-02-26T23:38:34.444451+00:00",
+  "claimed_at": "2026-02-26T23:38:33.060801+00:00",
+  "completed_at": "2026-02-26T23:38:34.444432+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Robert F. Kennedy Jr. win the 2028 Republican presidential nomination?\n\nWeb Results (5):\n- Republican Presidential Nominee 2028 Predictions & Odds | Polymarket: Robert F. Kennedy Jr. ... <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Republican Par\n- r/RFKJrForPresident on Reddit: Do you think RFKJr will run in 2028?: He tried first to talk to democrats to get a cabinet position with them and they ignored him so he tried with Republicans. I think he is coming back a\n- 2028 United States presidential election - Wikipedia: Stewart has been included in multiple 2028 national primary polls by Echelon Insights from September to November 2025. In a December 2025 interview wi\n- Presidential candidates, 2028 - Ballotpedia: Robert F. Kennedy Jr., secretary of health and human services[25]\n- r/RFKJrForPresident on Reddit: can RFK still run and win in 2028? or should RFK Jr continue the We the People Party?: Republican party is as corrupt and captured as the democratic party, with a handful of exceptions ... Sec. Kennedy: &quot;Today, the COVID vaccine for\n\nNews (5):\n- Presidential election, 2028 - Ballotpedia (1 day ago)\n- Will RFK Jr. Run for President in 2028? (1 month ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- Cheryl Hines says Robert F Kennedy Jr won\u2019t run for president in 2028 | Robert F Kennedy Jr | The Guardian (December 9, 2025)\n- Robert F. Kennedy Jr. rips Dems for opposing President Trump's domestic agenda, including TrumpRx (1 day ago)",
+    "web_results": [
+      {
+        "title": "Republican Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/republican-presidential-nominee-2028",
+        "description": "Robert F. Kennedy Jr. ... <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president</strong>. Otherwise, this market will resolve to \u201cNo\u201d. The resolution source for ..."
+      },
+      {
+        "title": "r/RFKJrForPresident on Reddit: Do you think RFKJr will run in 2028?",
+        "url": "https://www.reddit.com/r/RFKJrForPresident/comments/1gmojzx/do_you_think_rfkjr_will_run_in_2028/",
+        "description": "He tried first to talk to democrats to get a cabinet position with them and they ignored him so he tried with Republicans. I think he is coming back and will run as Independent again, this time things will be different without the corrupt democratic leadership from 2024. ... Tucker Carlson says Epstein was &quot;working on behalf&quot; of Israel and Israel was &quot;committing crimes&quot; on American soil. ... Robert F Kennedy Jr is an independent candidate running for President of the United States."
+      },
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "Stewart has been included in multiple 2028 national primary polls by Echelon Insights from September to November 2025. In a December 2025 interview with Tim Miller of The Bulwark, Stewart mentioned that Robert F. Kennedy Jr. <strong>could be a strong Republican nominee in 2028</strong>."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "Robert F. Kennedy Jr., secretary of health and human services[25]"
+      },
+      {
+        "title": "r/RFKJrForPresident on Reddit: can RFK still run and win in 2028? or should RFK Jr continue the We the People Party?",
+        "url": "https://www.reddit.com/r/RFKJrForPresident/comments/1jfi42u/can_rfk_still_run_and_win_in_2028_or_should_rfk/",
+        "description": "Republican party is as corrupt and captured as the democratic party, with a handful of exceptions ... Sec. Kennedy: &quot;Today, the COVID vaccine for healthy children and healthy pregnant women has been removed from @CDCgov recommended immunization schedule. Bottom line: it\u2019s common sense and it\u2019s good science. We are now one step closer to realizing @POTUS\u2019s promise to Make America Healthy Again.&quot; ... Robert F Kennedy Jr is an independent candidate running for President of the United States."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Will RFK Jr. Run for President in 2028?",
+        "url": "https://nymag.com/intelligencer/article/will-rfk-jr-run-for-president-in-2028.html",
+        "description": "He has said he won\u2019t. There are some good reasons not to believe him.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Cheryl Hines says Robert F Kennedy Jr won\u2019t run for president in 2028 | Robert F Kennedy Jr | The Guardian",
+        "url": "https://www.theguardian.com/us-news/2025/dec/09/cheryl-hines-rfk-jr-run-president-2028",
+        "description": "The actor\u2019s remark comes amid renewed news coverage and commentary about her husband\u2019s 2024 presidential bid",
+        "age": "December 9, 2025"
+      },
+      {
+        "title": "Robert F. Kennedy Jr. rips Dems for opposing President Trump's domestic agenda, including TrumpRx",
+        "url": "https://thehill.com/policy/healthcare/5754393-rfk-jr-democrats-health-trump-state-of-the-union/",
+        "description": "Health and Human Services (HHS) Secretary Robert F. Kennedy Jr. ripped Democrats for refusing to stand as President Trump rattled off his domestic agenda during Tuesday\u2019s State of the Union address, including his administration\u2019s push to lower the cost of prescription drugs.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Robert F. Kennedy Jr. win the 2028 Republican presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

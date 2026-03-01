@@ -1,0 +1,28 @@
+{
+  "id": "25fbc10d",
+  "title": "Polymarket research: Rockets vs. Magic",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Rockets vs. Magic",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T03:09:31.934642+00:00",
+  "updated_at": "2026-02-27T03:09:40.406436+00:00",
+  "claimed_at": "2026-02-27T03:09:37.970308+00:00",
+  "completed_at": "2026-02-27T03:09:40.406419+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Rockets vs. Magic\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Rockets vs. Magic",
+    "sources_count": 0
+  },
+  "error": null
+}

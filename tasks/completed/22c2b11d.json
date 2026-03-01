@@ -1,0 +1,28 @@
+{
+  "id": "22c2b11d",
+  "title": "AI agent framework comparison 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "AI agent framework comparison 2026",
+    "category": "tech_upgrades"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-27T23:17:47.661973+00:00",
+  "updated_at": "2026-02-27T23:17:49.573006+00:00",
+  "claimed_at": "2026-02-27T23:17:47.739266+00:00",
+  "completed_at": "2026-02-27T23:17:49.572988+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: AI agent framework comparison 2026\n\nFindings (0):\n",
+    "findings": [],
+    "query": "AI agent framework comparison 2026",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

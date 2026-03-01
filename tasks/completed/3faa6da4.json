@@ -1,0 +1,25 @@
+{
+  "id": "3faa6da4",
+  "title": "AI agent autonomous systems 2026",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "AI autonomous agent systems trends 2026"
+  },
+  "priority": 5,
+  "status": "completed",
+  "created_by": "cli",
+  "created_at": "2026-02-25T18:57:36.894545+00:00",
+  "updated_at": "2026-02-25T18:57:46.160855+00:00",
+  "claimed_at": "2026-02-25T18:57:45.269711+00:00",
+  "completed_at": "2026-02-25T18:57:46.160836+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: AI autonomous agent systems trends 2026\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "AI autonomous agent systems trends 2026",
+    "sources_count": 0
+  },
+  "error": null
+}

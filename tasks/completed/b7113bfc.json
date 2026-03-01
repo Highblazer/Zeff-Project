@@ -1,0 +1,85 @@
+{
+  "id": "b7113bfc",
+  "title": "Polymarket research: Bucks vs. Bulls",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bucks vs. Bulls",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:28:41.430106+00:00",
+  "updated_at": "2026-03-01T08:29:05.929255+00:00",
+  "claimed_at": "2026-03-01T08:29:04.240141+00:00",
+  "completed_at": "2026-03-01T08:29:05.929242+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bucks vs. Bulls\n\nWeb Results (5):\n- Bucks 112-103 Bulls (Dec 27, 2025) Final Score - ESPN: \u2014 Giannis Antetokounmpo scored 29 points in his return from an eight-game absence, and the Milwaukee Bucks snapped the Chicago Bulls&#x27; five-game w\n- Bulls vs Bucks scores & predictions | Sofascore: Chicago Bulls is playing against Milwaukee Bucks on <strong>Mar 1, 2026 at 8:30:00 PM UTC</strong>.\n- Bucks' playoff hopes tangled with Kon Knueppel, Jalen Johnson: The Bucks have won eight of 10 ... over that same period of time. <strong>The Chicago Bulls, losers of 11 straight and a team that hosts the Bucks on \n- Chicago Bulls vs. Milwaukee Bucks - March 1, 2026 | United Center: Chicago Bulls vs. Milwaukee Bucks at the United Center in Chicago on <strong>March 1, 2026</strong>. View photos and videos and find event, parking, t\n- Chicago Bulls - Wikipedia: The Bulls finished the regular ... Conference. <strong>In the first round of the playoffs, they faced the Milwaukee Bucks, quickly establishing a 3\u20130 \n\nNews (5):\n- Bucks' playoff hopes tangled with Kon Knueppel, Jalen Johnson (2 days ago)\n- Bucks vs. Bulls Prediction, Odds, Picks - March 1 | FOX Sports (1 day ago)\n- Milwaukee Bucks vs Chicago Bulls Prediction, 3/1/2026 Preview and Pick (11 hours ago)\n- Bucks vs. Bulls Injury Report \u2013 March 1 | Fox Sports 1070 (7 hours ago)\n- Bucks vs. Bulls Time, TV & Stream \u2013 March 1 | Fox Sports 1070 (7 hours ago)",
+    "web_results": [
+      {
+        "title": "Bucks 112-103 Bulls (Dec 27, 2025) Final Score - ESPN",
+        "url": "https://www.espn.com/nba/game/_/gameId/401810292/bucks-bulls",
+        "description": "\u2014 Giannis Antetokounmpo scored 29 points in his return from an eight-game absence, and the Milwaukee Bucks snapped the Chicago Bulls&#x27; five-game winning streak with a <strong>112-103 victory</strong> on Saturday night."
+      },
+      {
+        "title": "Bulls vs Bucks scores & predictions | Sofascore",
+        "url": "https://www.sofascore.com/basketball/match/milwaukee-bucks-chicago-bulls/jtbsktb",
+        "description": "Chicago Bulls is playing against Milwaukee Bucks on <strong>Mar 1, 2026 at 8:30:00 PM UTC</strong>."
+      },
+      {
+        "title": "Bucks' playoff hopes tangled with Kon Knueppel, Jalen Johnson",
+        "url": "https://eu.jsonline.com/story/sports/nba/bucks/2026/02/27/bucks-playoff-hopes-kon-knueppel-jalen-johnson/88899404007/",
+        "description": "The Bucks have won eight of 10 ... over that same period of time. <strong>The Chicago Bulls, losers of 11 straight and a team that hosts the Bucks on Sunday, have fallen to 3\u00bd games behind Milwaukee</strong>...."
+      },
+      {
+        "title": "Chicago Bulls vs. Milwaukee Bucks - March 1, 2026 | United Center",
+        "url": "https://www.unitedcenter.com/events/2026/03/01/chicago-bulls-vs-milwaukee-bucks/",
+        "description": "Chicago Bulls vs. Milwaukee Bucks at the United Center in Chicago on <strong>March 1, 2026</strong>. View photos and videos and find event, parking, ticketing, presale and suite rental information."
+      },
+      {
+        "title": "Chicago Bulls - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chicago_Bulls",
+        "description": "The Bulls finished the regular ... Conference. <strong>In the first round of the playoffs, they faced the Milwaukee Bucks, quickly establishing a 3\u20130 lead in the series before allowing the Bucks to win two games in a row.</strong>..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bucks' playoff hopes tangled with Kon Knueppel, Jalen Johnson",
+        "url": "https://www.jsonline.com/story/sports/nba/bucks/2026/02/27/bucks-playoff-hopes-kon-knueppel-jalen-johnson/88899404007/",
+        "description": "The Bucks have won eight of 10 games, but that hasn't allowed them to break through into the top 10 in the Eastern Conference with the Hornets winning seven of 10 (and 13 of 16), the Hawks going 6-4 over their last 10 and every other team ahead with at least a .500 record over that same period of time. The Chicago Bulls...",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bucks vs. Bulls Prediction, Odds, Picks - March 1 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/bucks-vs-bulls-prediction-odds-picks-march-1",
+        "description": "Preview the March 1 matchup between the Milwaukee Bucks and Chicago Bulls with betting odds over/under, game spread, moneyline, prediction, TV channel and more.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Milwaukee Bucks vs Chicago Bulls Prediction, 3/1/2026 Preview and Pick",
+        "url": "https://www.docsports.com/free-picks/nba/2026/milwaukee-bucks-vs-chicago-bulls-prediction-3-1-2026-preview-and-pick.html",
+        "description": "The Milwaukee Bucks will take on the Chicago Bulls on 3/1/26. Doc's Sports Prediction, Preview, and Pick Inside",
+        "age": "11 hours ago"
+      },
+      {
+        "title": "Bucks vs. Bulls Injury Report \u2013 March 1 | Fox Sports 1070",
+        "url": "https://1070thegame.iheart.com/content/2026-03-01-bucks-vs-bulls-injury-report-march-1/",
+        "description": "See who's in and who's out for the Milwaukee Bucks vs. Chicago Bulls NBA game on March 1, 2026.",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "Bucks vs. Bulls Time, TV & Stream \u2013 March 1 | Fox Sports 1070",
+        "url": "https://foxsports1070.iheart.com/content/2026-03-01-bucks-vs-bulls-time-tv-stream-march-1/",
+        "description": "Find out where to watch the Milwaukee Bucks vs. Chicago Bulls NBA game on March 1, 2026.",
+        "age": "7 hours ago"
+      }
+    ],
+    "query": "Bucks vs. Bulls",
+    "sources_count": 10
+  },
+  "error": null
+}

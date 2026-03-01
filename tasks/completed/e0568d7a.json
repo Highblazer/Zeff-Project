@@ -1,0 +1,139 @@
+{
+  "id": "e0568d7a",
+  "title": "AI SaaS micro-products revenue 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "AI SaaS micro-products revenue 2026",
+    "category": "revenue_opportunities"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-27T00:30:13.487623+00:00",
+  "updated_at": "2026-02-27T00:30:14.932730+00:00",
+  "claimed_at": "2026-02-27T00:30:13.498171+00:00",
+  "completed_at": "2026-02-27T00:30:14.932712+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: AI SaaS micro-products revenue 2026\n\nFindings (10):\n- [market_mover] AI Software Companies to Watch in 2026 (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Intellectia (action=0.4, impact=0.47)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Top 8 Micro SaaS Ideas to Launch Your Startup in 2026 | Proven SaaS (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] 10 Micro SaaS Ideas for Solopreneurs in 2026 - Build Without Code | Lovable (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Top SaaS Trends in 2026: AI, Security & Growth Models - Innovecs (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "AI Software Companies to Watch in 2026",
+        "url": "https://analyticsinsight.net/top-list/top-10-ai-software-companies-in-2026",
+        "description": "Discover the top AI software companies in 2026, shaping enterprise adoption, cloud ecosystems, foundation models, and real-world applications across the global digital economy.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Intellectia",
+        "url": "https://intellectia.ai/blog/will-ai-disrupt-saas-business-model-2026",
+        "description": "This is not a distant future ... where companies have built internal AI tools to replace purchased SaaS products. Financial markets have begun pricing in this disruption risk, with the so-called \"SaaSpocalypse\" of early 2026 wiping approximately $285 billion from software ...",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.47,
+        "combined_score": 0.43,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top 8 Micro SaaS Ideas to Launch Your Startup in 2026 | Proven SaaS",
+        "url": "https://proven-saas.com/blog/top-8-micro-saas-ideas-to-launch-your-startup-in-2026",
+        "description": "Finding a profitable niche is the toughest part of building a software business. The right idea can be the difference between a thriving venture and a failed pr...",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "10 Micro SaaS Ideas for Solopreneurs in 2026 - Build Without Code | Lovable",
+        "url": "https://lovable.dev/guides/micro-saas-ideas-for-solopreneurs-2026",
+        "description": "They typically run with one to five people, generate <strong>$50K to $3M+ annually</strong>, and reach profitability within one to two years. The focused scope means you can build and launch in 4 to 12 weeks rather than 6 to 24 months.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top SaaS Trends in 2026: AI, Security & Growth Models - Innovecs",
+        "url": "https://innovecs.com/blog/the-top-7-saas-trends/",
+        "description": "From advanced analytics to AI-driven automation, the SaaS ecosystem is evolving faster than ever, shaping the way businesses approach productivity, customer engagement, and operational efficiency. In this article, we explore the top 10 SaaS trends, including the latest SaaS products that are set to ",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Thryv Achieves SaaS Revenue Growth of 34% in Full Year 2025, Shifts Focus to AI-Enabled \"Market, Sell, Grow\" Platform to Empower SMBs",
+        "url": "https://www.businesswire.com/news/home/20260226660000/en/Thryv-Achieves-SaaS-Revenue-Growth-of-34-in-Full-Year-2025-Shifts-Focus-to-AI-Enabled-Market-Sell-Grow-Platform-to-Empower-SMBs",
+        "description": "Thryv Holdings, Inc. (NASDAQ:THRY) (\u201cThryv\u201d or the \u201cCompany\u201d), the provider of Thryv\u00ae, the leading small business marketing and sales software platform, repo...",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "12 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Best 20 Micro SaaS Startup Ideas in 2026 for Entrepreneurs",
+        "url": "https://rightleftagency.com/micro-saas-startup-ideas/",
+        "description": "Solution: AI-powered SaaS that generates product blueprints and CAD files from natural language prompts. Revenue Model: <strong>$99\u2013399/month</strong>. ... ESG (Environmental, Social, and Governance) reporting is no longer optional.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top 15 No-Code Micro SaaS Ideas to Build in 2026 | Knack",
+        "url": "https://www.knack.com/blog/no-code-micro-saas-ideas/",
+        "description": "The most profitable micro SaaS products in 2026 focus on recurring business needs such as <strong>AI-powered content tools, niche CRMs, workflow automation, analytics dashboards, and subscription billing software</strong>.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "10 Profitable SaaS Startup Ideas That Will Dominate 2026",
+        "url": "https://entrepreneurloop.com/profitable-saas-startup-ideas-2026/",
+        "description": "Yes, micro-SaaS can be highly profitable with lower overhead and focused solutions. Examples include businesses earning <strong>$5K-50K monthly recurring revenue</strong> with solo founders or small teams targeting specific niches.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "FinancialContent - The Great AI Handover: Why 2026 is the Year the Market Dumped Chips for Code",
+        "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-26-the-great-ai-handover-why-2026-is-the-year-the-market-dumped-chips-for-code",
+        "description": "The Great AI Handover: Why 2026 is the Year the Market Dumped Chips for Code",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "2 hours ago",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "AI SaaS micro-products revenue 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 1,
+    "opportunities": 8
+  },
+  "error": null
+}

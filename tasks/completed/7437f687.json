@@ -1,0 +1,28 @@
+{
+  "id": "7437f687",
+  "title": "Polymarket research: Spurs vs. Nets: O/U 224.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spurs vs. Nets: O/U 224.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T04:38:33.331586+00:00",
+  "updated_at": "2026-02-27T04:38:47.378157+00:00",
+  "claimed_at": "2026-02-27T04:38:46.309120+00:00",
+  "completed_at": "2026-02-27T04:38:47.378142+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spurs vs. Nets: O/U 224.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spurs vs. Nets: O/U 224.5",
+    "sources_count": 0
+  },
+  "error": null
+}

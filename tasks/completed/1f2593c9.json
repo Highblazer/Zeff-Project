@@ -1,0 +1,85 @@
+{
+  "id": "1f2593c9",
+  "title": "Polymarket research: Wizards vs. Hawks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Wizards vs. Hawks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:29:34.299685+00:00",
+  "updated_at": "2026-02-27T00:29:43.493789+00:00",
+  "claimed_at": "2026-02-27T00:29:41.969394+00:00",
+  "completed_at": "2026-02-27T00:29:43.493771+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Wizards vs. Hawks\n\nWeb Results (5):\n- Washington Wizards vs Atlanta Hawks Feb 24, 2026 Box Scores | NBA.com: Washington Wizards vs Atlanta Hawks <strong>Feb 24, 2026</strong> player box scores including video and shot charts\n- Hawks 119-98 Wizards (25 Feb, 2026) Game Recap - ESPN (AU): ATLANTA -- \u2014 Jonathan Kuminga scored a season-high 27 points in his debut for the Hawks, who blew out the hapless Washington Wizards <strong>119-98</s\n- WIZARDS at HAWKS | FULL GAME HIGHLIGHTS | February 24, 2026 - YouTube: <strong>The Hawks defeated the Wizards, 119-98</strong> tonight in Atlanta. Jonathan Kuminga finished with a team-high 27 points along with 7 rebounds\n- Instant Takeaways From A Dominant Yet Potentially Costly Win For The Atlanta Hawks Over The Washington Wizards: However, Washington isn&#x27;t a good enough team to take advantage of these relative weaknesses. <strong>Atlanta out-rebounded the Wizards, 57-39</st\n- Washington Wizards vs Atlanta Hawks Basketball Head To Head, Score, Record - AiScore: Washington Wizards vs Atlanta Hawks Past H2H Results, <strong>Against the spread(ATS) Win%: 57.1%, Total Points Over%: 55.1%</strong>. Last 5, Washing\n\nNews (5):\n- Hawks vs. Wizards Prediction, Odds, Picks - Feb. 24 | FOX Sports (4 days ago)\n- Wizards Vs Hawks: Jonathan Kuminga\u2019s 24-minute statement in long-awaited Atlanta debut - FilmoGaz (1 day ago)\n- Jonathan Kuminga flashes tantalizing upside that never materialized with Golden State in sizzling Hawks debut - Yahoo Sports (2 days ago)\n- Three Hawks, Including Jalen Johnson, Added to Hawks Injury Report Ahead of Tomorrow's Game (1 day ago)\n- Grading Jonathan Kuminga's Debut With The Atlanta Hawks (1 day ago)",
+    "web_results": [
+      {
+        "title": "Washington Wizards vs Atlanta Hawks Feb 24, 2026 Box Scores | NBA.com",
+        "url": "https://www.nba.com/game/was-vs-atl-0022500832/box-score",
+        "description": "Washington Wizards vs Atlanta Hawks <strong>Feb 24, 2026</strong> player box scores including video and shot charts"
+      },
+      {
+        "title": "Hawks 119-98 Wizards (25 Feb, 2026) Game Recap - ESPN (AU)",
+        "url": "https://www.espn.com.au/nba/recap?gameId=401810687",
+        "description": "ATLANTA -- \u2014 Jonathan Kuminga scored a season-high 27 points in his debut for the Hawks, who blew out the hapless Washington Wizards <strong>119-98</strong> Tuesday night in Trae Young&#x27;s return to Atlanta."
+      },
+      {
+        "title": "WIZARDS at HAWKS | FULL GAME HIGHLIGHTS | February 24, 2026 - YouTube",
+        "url": "https://www.youtube.com/watch?v=OX62dp6FtdU",
+        "description": "<strong>The Hawks defeated the Wizards, 119-98</strong> tonight in Atlanta. Jonathan Kuminga finished with a team-high 27 points along with 7 rebounds and 4 assists for the H..."
+      },
+      {
+        "title": "Instant Takeaways From A Dominant Yet Potentially Costly Win For The Atlanta Hawks Over The Washington Wizards",
+        "url": "https://www.si.com/nba/hawks/onsi/news/takeaways-from-a-dominant-yet-potentially-costly-win-for-the-atlanta-hawks-over-the-washington-wizards-01kj95xbmb07",
+        "description": "However, Washington isn&#x27;t a good enough team to take advantage of these relative weaknesses. <strong>Atlanta out-rebounded the Wizards, 57-39</strong>, and racked up 14 steals while only turning the ball over 10 times."
+      },
+      {
+        "title": "Washington Wizards vs Atlanta Hawks Basketball Head To Head, Score, Record - AiScore",
+        "url": "https://www.aiscore.com/head-to-head/basketball/atlanta-hawks-vs-washington-wizards",
+        "description": "Washington Wizards vs Atlanta Hawks Past H2H Results, <strong>Against the spread(ATS) Win%: 57.1%, Total Points Over%: 55.1%</strong>. Last 5, Washington Wizards won 4, Lose 1, 110.0 points per macth, 125.0 opponent points per game, Against the spread(ATS) win%: 40.0%, Total points over%: 60.0%. Last 5, Atlanta ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Hawks vs. Wizards Prediction, Odds, Picks - Feb. 24 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/hawks-vs-wizards-prediction-odds-picks-feb-24",
+        "description": "Preview the Feb. 24 matchup between the Atlanta Hawks and Washington Wizards with stats, recent performance, TV channel and more.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Wizards Vs Hawks: Jonathan Kuminga\u2019s 24-minute statement in long-awaited Atlanta debut - FilmoGaz",
+        "url": "https://www.filmogaz.com/168114",
+        "description": "Jonathan Kuminga made his long-awaited Atlanta Hawks debut on Tuesday evening and, in what was framed as a brief showing, delivered the kind of impact that has leapt onto headlines in the broader wizards vs hawks conversation. The fifth-yea\u2026",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Jonathan Kuminga flashes tantalizing upside that never materialized with Golden State in sizzling Hawks debut - Yahoo Sports",
+        "url": "https://sports.yahoo.com/nba/breaking-news/article/jonathan-kuminga-flashes-tantalizing-upside-that-never-materialized-with-golden-state-in-sizzling-hawks-debut-025508320.html",
+        "description": "Kuminga finished with a game-high 27 points to lead the Hawks in a 119-98 blowout over the Washington Wizards. He added 7 rebounds, 4 assists and 2 steals. He did it from inside and out and in transition while shooting 9 of 12 from the field and 3 of 4 from 3.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Three Hawks, Including Jalen Johnson, Added to Hawks Injury Report Ahead of Tomorrow's Game",
+        "url": "https://www.si.com/nba/hawks/onsi/news/three-hawks-including-jalen-johnson-added-to-hawks-injury-report-ahead-of-tomorrow-s-game-01kjbd61784e",
+        "description": "The Atlanta Hawks are in the midst of a playoff push. They are 29-31, having gone 3-1 since the All-Star Break, including a win over the Washington Wizards last",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Grading Jonathan Kuminga's Debut With The Atlanta Hawks",
+        "url": "https://www.si.com/nba/hawks/onsi/news/grading-jonathan-kuminga-s-debut-with-the-atlanta-hawks-01kjanf8s0xz",
+        "description": "The Atlanta Hawks took down the Washington Wizards decisively last night at home, and it marked the first game of Jonathan Kuminga's career with the Hawks. Kumi",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Wizards vs. Hawks",
+    "sources_count": 10
+  },
+  "error": null
+}

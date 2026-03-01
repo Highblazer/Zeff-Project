@@ -1,0 +1,85 @@
+{
+  "id": "da54d489",
+  "title": "Polymarket research: Will Elise Stefanik win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Elise Stefanik win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:16.509918+00:00",
+  "updated_at": "2026-02-26T23:32:11.013913+00:00",
+  "claimed_at": "2026-02-26T23:32:08.912966+00:00",
+  "completed_at": "2026-02-26T23:32:11.013894+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Elise Stefanik win the 2028 Republican presidential nomination?\n\nWeb Results (5):\n- Republican Presidential Nominee 2028 | Polymarket: <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president</str\n- Presidential candidates, 2028 - Ballotpedia: \u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washing\n- Rep. Elise Stefanik could be elected president in 2028, Trump says - syracuse.com: Trump helped raise $3.2 million for the Republican Conference Chairwoman, his political action committee and other GOP candidates during the event. \u201cI\n- Presidential election, 2028 - Ballotpedia: \u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washing\n- 2028 United States presidential election - Wikipedia: ^ Tulsi Gabbard 2%, S. Huckabee Sanders 1%, Glenn Youngkin 1%, Greg Abbott 1%, Tim Scott 1%, Josh Hawley 1%, Tom Cotton 0%, Spencer Cox 0%, Kristi Noe\n\nNews (5):\n- Presidential election, 2028 - Ballotpedia (1 day ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- Republican Elise Stefanik ends New York governor bid and will leave Congress (December 19, 2025)\n- The 2028 Race Has Begun. Here\u2019s Who\u2019s Winning. - POLITICO (December 28, 2025)\n- Rep. Stefanik ends her campaign for New York governor, won't seek reelection to House | PBS News (December 19, 2025)",
+    "web_results": [
+      {
+        "title": "Republican Presidential Nominee 2028 | Polymarket",
+        "url": "https://polymarket.com/event/republican-presidential-nominee-2028/will-elise-stefanik-win-the-2028-republican-presidential-nomination",
+        "description": "<strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president</strong>. Otherwise, this market will resolve to \u201cNo\u201d. The resolution source for this market will be a consensus ..."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "\u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washington Post, &quot;Trump has a lock on the 2024 nomination."
+      },
+      {
+        "title": "Rep. Elise Stefanik could be elected president in 2028, Trump says - syracuse.com",
+        "url": "https://www.syracuse.com/politics/2022/01/rep-elise-stefanik-could-be-elected-president-in-2028-trump-says.html",
+        "description": "Trump helped raise $3.2 million for the Republican Conference Chairwoman, his political action committee and other GOP candidates during the event. \u201cI want to congratulate Elise on her success. Man, is she moving fast. That means at this rate she\u2019ll be President in about six years,\u201d Trump said of Stefanik."
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "\u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washington Post, &quot;Trump has a lock on the 2024 nomination."
+      },
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "^ Tulsi Gabbard 2%, S. Huckabee Sanders 1%, Glenn Youngkin 1%, Greg Abbott 1%, Tim Scott 1%, Josh Hawley 1%, Tom Cotton 0%, Spencer Cox 0%, Kristi Noem 0%, Rick Scott 0%, Elise Stefanik *, Larry Hogan*"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Republican Elise Stefanik ends New York governor bid and will leave Congress",
+        "url": "https://www.bbc.com/news/articles/cwyp2l9el87o",
+        "description": "The New York congresswoman, a Trump ally, cited a tough gubernatorial primary campaign and her young son as reasons for her decision.",
+        "age": "December 19, 2025"
+      },
+      {
+        "title": "The 2028 Race Has Begun. Here\u2019s Who\u2019s Winning. - POLITICO",
+        "url": "https://www.politico.com/news/magazine/2025/12/28/presidential-race-2028-candidates-analysis-00695164",
+        "description": "White House hopefuls in both parties are maneuvering for the post-Trump era. Here\u2019s where they stand at the end of 2025.",
+        "age": "December 28, 2025"
+      },
+      {
+        "title": "Rep. Stefanik ends her campaign for New York governor, won't seek reelection to House | PBS News",
+        "url": "https://www.pbs.org/newshour/politics/rep-stefanik-ends-her-campaign-for-new-york-governor-wont-seek-reelection-to-house",
+        "description": "Stefanik, a Republican ally of President Donald Trump, said in a statement that she was confident of her chances in the primary against Bruce Blakeman, a Republican county official in New York City\u2019s suburbs. But she said, \u201cIt is not an effective use of our time\u201d to stay in the race.",
+        "age": "December 19, 2025"
+      }
+    ],
+    "query": "Will Elise Stefanik win the 2028 Republican presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

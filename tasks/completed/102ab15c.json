@@ -1,0 +1,82 @@
+{
+  "id": "102ab15c",
+  "title": "LLM API updates pricing changes February 2026",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LLM API updates pricing changes February 2026"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T03:39:46.833983+00:00",
+  "updated_at": "2026-02-26T03:39:48.453892+00:00",
+  "claimed_at": "2026-02-26T03:39:46.840947+00:00",
+  "completed_at": "2026-02-26T03:39:48.453869+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LLM API updates pricing changes February 2026\n\nWeb Results (5):\n- LLM API Pricing 2026 - Compare 300+ AI Model Costs: Best Coding Model Leaderboard\u2014 Find the top LLM for coding by benchmarks and community votes \u00b7 <strong>114 out of our 289 tracked models have had a pr\n- AI Updates Today (February 2026) \u2013 Latest AI Model Releases: Our API Provider Updates section tracks pricing changes, new features, rate limit updates, and API endpoint modifications for all major providers incl\n- LLM API Pricing 2026: OpenAI, Anthropic, DeepSeek, Gemini Cost Comparison | TLDL: GPT-5.2 vs Claude 4.6 vs Gemini 2.5 vs DeepSeek V3: Official per-token pricing. Find the cheapest LLM API in 2026.February 22, 2026 \u00b7 Compare LLM API \n- LLM Pricing in February 2026: What Every Model Actually Costs - DEV Community: The gap between cheapest and most expensive is staggering. <strong>GPT-OSS-20B at $0.05/M input vs Grok-4 at $30/M input</strong>. That&#x27;s 600x. E\n- LLM API Pricing Comparison & Cost Guide (Feb 2026): Sorted by quality, price, or value score. ComparisonValue RankingsPricing GuideSave MoneyFAQ \u00b7 Pricing TLDR \u00b7 \u2022 <strong>Budget models from $0.07/M inp\n\nNews (5):\n- LLM Pricing in February 2026: What Every Model Actually Costs - DEV Community (1 week ago)\n- Top 11 LLM API Providers in 2026 - Future AGI (3 weeks ago)\n- Token optimization 2026: Saving up to 80% LLM costs - Obvious Works [EN] (2 days ago)\n- Brave updates its Search API with a new LLM context endpoint for AI and new pricing | AlternativeTo (2 weeks ago)\n- The Best AI Models So Far in 2026 | Design for Online\u00ae (4 days ago)",
+    "web_results": [
+      {
+        "title": "LLM API Pricing 2026 - Compare 300+ AI Model Costs",
+        "url": "https://pricepertoken.com/",
+        "description": "Best Coding Model Leaderboard\u2014 Find the top LLM for coding by benchmarks and community votes \u00b7 <strong>114 out of our 289 tracked models have had a price change in February</strong>. Get our weekly newsletter on pricing changes, new releases, and tools. Subscribe \u00b7 Last updated: February 25, 2026 at 09:51 PM \u00b7"
+      },
+      {
+        "title": "AI Updates Today (February 2026) \u2013 Latest AI Model Releases",
+        "url": "https://llm-stats.com/llm-updates",
+        "description": "Our API Provider Updates section tracks pricing changes, new features, rate limit updates, and API endpoint modifications for all major providers including OpenAI, Anthropic, Google Cloud AI, Azure OpenAI, Together AI, Fireworks, Groq, and more."
+      },
+      {
+        "title": "LLM API Pricing 2026: OpenAI, Anthropic, DeepSeek, Gemini Cost Comparison | TLDL",
+        "url": "https://www.tldl.io/resources/llm-api-pricing-2026",
+        "description": "GPT-5.2 vs Claude 4.6 vs Gemini 2.5 vs DeepSeek V3: Official per-token pricing. Find the cheapest LLM API in 2026.February 22, 2026 \u00b7 Compare LLM API costs across major providers. Updated February 2026 with official pricing."
+      },
+      {
+        "title": "LLM Pricing in February 2026: What Every Model Actually Costs - DEV Community",
+        "url": "https://dev.to/lightwheel10/llm-pricing-in-february-2026-what-every-model-actually-costs-4kng",
+        "description": "The gap between cheapest and most expensive is staggering. <strong>GPT-OSS-20B at $0.05/M input vs Grok-4 at $30/M input</strong>. That&#x27;s 600x. Even comparing production-grade models, GPT-5 mini at $0.25/M vs Claude Opus 4.6 at $5/M is a 20x spread."
+      },
+      {
+        "title": "LLM API Pricing Comparison & Cost Guide (Feb 2026)",
+        "url": "https://costgoat.com/compare/llm-api",
+        "description": "Sorted by quality, price, or value score. ComparisonValue RankingsPricing GuideSave MoneyFAQ \u00b7 Pricing TLDR \u00b7 \u2022 <strong>Budget models from $0.07/M input tokens \u2014 premium models up to $75/M output tokens</strong> \u00b7"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "LLM Pricing in February 2026: What Every Model Actually Costs - DEV Community",
+        "url": "https://dev.to/kaeltiwari/llm-pricing-in-february-2026-what-every-model-actually-costs-3jdd",
+        "description": "Originally published on Kael Research TL;DR: Cheapest option is OpenAI's open-source GPT-OSS-20B at...",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Top 11 LLM API Providers in 2026 - Future AGI",
+        "url": "https://futureagi.substack.com/p/top-11-llm-api-providers-in-2026",
+        "description": "GPT-5 vs. Claude 4.5 vs. DeepSeek R1: The Definitive Breakdown of Pricing, Benchmarks, and Model Quality.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "Token optimization 2026: Saving up to 80% LLM costs - Obvious Works [EN]",
+        "url": "https://obviousworks.ch/en/token-optimization-saves-up-to-80-percent-llm-costs",
+        "description": "Reduce token costs at Claude & Co. by 70-80%? Prompt caching, model routing, context engineering - here are the most effective strategies for 2026 with verified figures.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Brave updates its Search API with a new LLM context endpoint for AI and new pricing | AlternativeTo",
+        "url": "https://alternativeto.net/news/2026/2/brave-updates-its-search-api-with-a-new-llm-context-endpoint-for-ai-and-new-pricing/",
+        "description": "Brave has launched a major update to its Search API, adding a new LLM Context endpoint that lets AI apps pull relevant information from web pages, along with new developer tools, usage controls, and updated pricing",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "The Best AI Models So Far in 2026 | Design for Online\u00ae",
+        "url": "https://designforonline.com/the-best-ai-models-so-far-in-2026",
+        "description": "Gemini 3.1 Pro, Claude Sonnet 4.6, Grok 4.20 and more dropped in February 2026. We rank the best AI models, benchmarks & break down costs.",
+        "age": "4 days ago"
+      }
+    ],
+    "query": "LLM API updates pricing changes February 2026",
+    "sources_count": 10
+  },
+  "error": null
+}

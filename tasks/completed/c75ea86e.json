@@ -1,0 +1,139 @@
+{
+  "id": "c75ea86e",
+  "title": "cryptocurrency regulatory news March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "cryptocurrency regulatory news March 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-01T03:12:58.890238+00:00",
+  "updated_at": "2026-03-01T03:13:00.413053+00:00",
+  "claimed_at": "2026-03-01T03:12:58.898163+00:00",
+  "completed_at": "2026-03-01T03:13:00.413029+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: cryptocurrency regulatory news March 2026\n\nFindings (10):\n- [market_mover] Global Crypto Regulation Snapshot Of 2026 (action=0.45, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] Crypto Exchange Roundup: Best Platforms Heading Into March 2026 (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] US Crypto Policy Tracker Regulatory Developments (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Key dates for US crypto regulation in 2026 \u2014 \u2018We are closer than ever\u2019 \u2013 DL News (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] US Crypto Regulation in 2026: Key Laws, SEC Changes, and What Comes Next (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Global Crypto Regulation Snapshot Of 2026",
+        "url": "https://livenewschat.eu/crypto-regulation-updates-whats-legal-whats-not-key-markets/",
+        "description": "Review the latest crypto regulation updates and understand what is legal and restricted across major global markets.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.46,
+        "combined_score": 0.45,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Crypto Exchange Roundup: Best Platforms Heading Into March 2026",
+        "url": "https://ainvest.com/news/crypto-exchange-roundup-platforms-heading-march-2026-2602",
+        "description": "- - Thailand's prepaid card market projected to reach $30.87B by 2030 as digital adoption and regulatory support drive fintech expansion in Southeast Asia. The cryptocurrency market has entered a new phase in February 2026, marked by cautious optimism and evolving institutional participation.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "US Crypto Policy Tracker Regulatory Developments",
+        "url": "https://www.lw.com/en/us-crypto-policy-tracker/regulatory-developments",
+        "description": "The FRB\u2019s goal is to have skinny master accounts available by the fourth quarter of 2026.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Key dates for US crypto regulation in 2026 \u2014 \u2018We are closer than ever\u2019 \u2013 DL News",
+        "url": "https://www.dlnews.com/articles/regulation/key-dates-for-us-crypto-regulation-in-2026/",
+        "description": "<strong>Crypto market structure and implementation of the Genius Act will dominate US policy discussion in 2026</strong>. A tax bill is also in the works. But both might hinge on midterm elections in November, which could change the balance of power in Washington, ...",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "US Crypto Regulation in 2026: Key Laws, SEC Changes, and What Comes Next",
+        "url": "https://coinpedia.org/news/us-crypto-regulation-in-2026-key-laws-sec-changes-and-what-comes-next/",
+        "description": "<strong>A mix of legislative deadlines, new rules, and political shifts is beginning to define how digital assets will be regulated, traded, and used across the country</strong>. ... Under President Donald Trump\u2019s second term, Washington has taken a noticeably ...",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Is 2026 the Year Banks Finally Adopt XRP? Clarity Act and Ripple's Next Move",
+        "url": "https://coinpedia.org/news/is-2026-the-year-banks-finally-adopt-xrp-clarity-act-and-ripples-next-move",
+        "description": "Clarity Act faces March deadline as banks signal readiness for XRP adoption. What Ripple's full-stack strategy means for 2026.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "16 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Global Crypto Regulation Roundup | Blockpass",
+        "url": "https://blockpass.org/2026/02/27/global-crypto-regulation-roundup",
+        "description": "February 15th, 2026 \u2013 February 28th, 2026 The second half of February has illustrated the fragmented reality of global crypto compliance, revealing a landscape where jurisdictions are moving at vastly different speeds. In the United States, state-level progress is focusing in different areas: ...",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "2026 Digital Assets Regulatory Update: A Landmark 2025 . . . But More Developments on the Horizon | Publications | Cleary Gottlieb",
+        "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/2026-digital-assets-regulatory-update-a-landmark-2025-but-more-developments-on-the-horizon",
+        "description": "<strong>The GENIUS Act</strong> will likely not only legitimate stablecoins and give the market confidence that they can use and transact in such instruments subject to a comprehensive federal regulatory framework, but it will also create a blueprint to incorporate ...",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Elliptic's 2026 regulatory and policy outlook: 5 crypto trends to expect in 2026",
+        "url": "https://www.elliptic.co/blog/regulatory-and-policy-crypto-trends-to-except-in-2026",
+        "description": "In late 2025, Australian regulators ... In 2026, <strong>we will see more and more jurisdictions, including the US, consider similar arrangements to boost the development and maturation of digital asset markets</strong>....",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "\u201cUpdate from the Prudential Regulators: Rightsizing Regulation to Promote American Opportunity\u201d | FDIC.gov",
+        "url": "https://www.fdic.gov/news/speeches/2026/update-prudential-regulators-rightsizing-regulation-promote-american-opportunity",
+        "description": "Travis Hill Chairman: Update from the Prudential Regulators",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "cryptocurrency regulatory news March 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 9,
+    "opportunities": 0
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "fab4fa37",
+  "title": "Polymarket research: Will Ivory Coast win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Ivory Coast win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.743462+00:00",
+  "updated_at": "2026-03-01T07:28:51.217290+00:00",
+  "claimed_at": "2026-03-01T07:28:49.552252+00:00",
+  "completed_at": "2026-03-01T07:28:51.217273+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Ivory Coast win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- C\u00f4te d'Ivoire qualify for FIFA World Cup 26: We cannot provide a description for this page right now\n- Ivory Coast World Cup 2026 Preview: Best Players, Roster, History | FOX Sports: <strong>Ivory Coast arrives at the 2026 FIFA World Cup</strong> as one of Africa\u2019s most intriguing teams, carrying momentum from a dramatic run to the\n- World Cup 2026 qualifying: Ivory Coast and Senegal claim final two African spots - BBC Sport: <strong>Ivory Coast and Senegal become the final two African sides to secure automatic qualification for the 2026 World Cup.</strong>\n- Ivory Coast Makes History: Returns to the World Cup After 12 Years Away | beIN SPORTS: <strong>The Ivory Coast national team has officially secured its spot at the 2026 World Cup</strong>, to be held in the United States, Mexico, and Can\n- 2026 FIFA World Cup Winner Predictions & Odds | Polymarket: If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout st\n\nNews (5):\n- Ivory Coast: a young, blazing attack ready to ignite the 2026 World Cup - Foot Africa (2 days ago)\n- Providence will be Ghana's base came for the 2026 World Cup. What to know. (3 days ago)\n- Ivory Coast vs Ecuador Tickets: Ivory Coast\u2019s Young Attack Set to (2 days ago)\n- Ivory Coast vs Ecuador Tickets: Complete FIFA 2026 Guide (1 day ago)\n- 2026 World Cup Schedule | Full Match List & Key Dates (1 day ago)",
+    "web_results": [
+      {
+        "title": "C\u00f4te d'Ivoire qualify for FIFA World Cup 26",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-qualify",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Ivory Coast World Cup 2026 Preview: Best Players, Roster, History | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/ivory-coast-world-cup-2026-preview-best-players-roster-history-jersey-predictions",
+        "description": "<strong>Ivory Coast arrives at the 2026 FIFA World Cup</strong> as one of Africa\u2019s most intriguing teams, carrying momentum from a dramatic run to the 2024 Africa Cup of Nations title on home soil."
+      },
+      {
+        "title": "World Cup 2026 qualifying: Ivory Coast and Senegal claim final two African spots - BBC Sport",
+        "url": "https://www.bbc.com/sport/football/articles/c5ypwvp04nko",
+        "description": "<strong>Ivory Coast and Senegal become the final two African sides to secure automatic qualification for the 2026 World Cup.</strong>"
+      },
+      {
+        "title": "Ivory Coast Makes History: Returns to the World Cup After 12 Years Away | beIN SPORTS",
+        "url": "https://www.beinsports.com/en-us/soccer/articles/ivory-coast-makes-history-returns-to-the-world-cup-after-12-years-away-2025-10-14",
+        "description": "<strong>The Ivory Coast national team has officially secured its spot at the 2026 World Cup</strong>, to be held in the United States, Mexico, and Canada, after defeating Kenya 3\u20130 in the final matchday of African qualifiers."
+      },
+      {
+        "title": "2026 FIFA World Cup Winner Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/2026-fifa-world-cup-winner-595/will-ivory-coast-win-the-2026-fifa-world-cup",
+        "description": "If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to \u201cNo\u201d. If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to \u201cOther\u201d. The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Ivory Coast: a young, blazing attack ready to ignite the 2026 World Cup - Foot Africa",
+        "url": "https://foot-africa.com/en/news/ivory-coast-a-young-blazing-attack-ready-to-ignite-the-2026-world-cup-1103282/",
+        "description": "Ivory Coast heads into the 2026 World Cup boasting a promising new generation of dynamic attackers. Yann Diomande, Bazoumana Tour\u00e9, Karim Konat\u00e9, Evann Guessand, and Amad Diallo embody this new era, ready",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Providence will be Ghana's base came for the 2026 World Cup. What to know.",
+        "url": "https://www.providencejournal.com/story/sports/2026/02/26/ghana-will-use-providence-bryant-university-as-2026-world-cup-base-camp/88843378007/",
+        "description": "The Ghanaian team will train at Bryant, and a traveling Ghanaian contingent will stay in Providence.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Ivory Coast vs Ecuador Tickets: Ivory Coast\u2019s Young Attack Set to",
+        "url": "https://blog.eticketing.co/ivory-coast-vs-ecuador-tickets-ivory-coasts-young-attack-set-to-dominate-world-cup-2026",
+        "description": "Take your knowledge to the following level with exclusive Ivory Coast vs Ecuador Tickets presented now at eTicketing.co.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Ivory Coast vs Ecuador Tickets: Complete FIFA 2026 Guide",
+        "url": "https://blog.eticketing.co/ivory-coast-vs-ecuador-tickets-complete-fifa-2026-guide-for-group-stage-matches/",
+        "description": "Ivory Coast vs Ecuador Tickets | FIFA 2026 Tickets | Football World Cup Final Tickets. Don't miss the chance world's greatest Football event.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "2026 World Cup Schedule | Full Match List & Key Dates",
+        "url": "https://sportsbookreview.com/picks/soccer/world-cup-full-schedule-dates-2026",
+        "description": "View the full 2026 World Cup schedule. Track every match from the June 11 opener to the July 19 final. Includes dates, kick-off times, and all 16 host cities.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Ivory Coast win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

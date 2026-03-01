@@ -1,0 +1,85 @@
+{
+  "id": "68f46da8",
+  "title": "Polymarket research: Will Qatar win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Qatar win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:46.376257+00:00",
+  "updated_at": "2026-03-01T07:27:33.799180+00:00",
+  "claimed_at": "2026-03-01T07:27:31.926213+00:00",
+  "completed_at": "2026-03-01T07:27:33.799169+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Qatar win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- 2026 FIFA World Cup - Wikipedia: World Cup in the event that none ... Gianni Infantino confirmed that &quot;<strong>Europe (UEFA) and Asia (AFC) are excluded from the bidding followin\n- Qatar | FIFA World Cup 2026\u2122: We cannot provide a description for this page right now\n- Qatar World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports: <strong>Hassan Al-Haydos and Qatar now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents, \n- Could the FIFA World Cup 2026 Really Return to Qatar? Here\u2019s What We Know | AD Middle East: No. <strong>FIFA has not confirmed Qatar as a replacement or additional host for any FIFA World Cup 2026 matches</strong>.\n- Qualified teams for the FIFA World Cup 26: We cannot provide a description for this page right now\n\nNews (5):\n- Could the FIFA World Cup 2026 Really Return to Qatar? Here\u2019s What We Know | AD Middle East (3 days ago)\n- European countries fear playing in World Cup will mean financial loss | World Cup 2026 | The Guardian (3 days ago)\n- The 2026 FIFA World Cup is about 100 days away: Here\u2019s everything you need to know before the soccer world comes to Canada (1 day ago)\n- Iran is set to play 2 matches in Los Angeles at the 2026 FIFA World Cup. Will that still happen? - Yahoo Sports (11 hours ago)\n- FIFA wants 'all teams participating' at World Cup after U.S. attack on Iran (16 hours ago)",
+    "web_results": [
+      {
+        "title": "2026 FIFA World Cup - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+        "description": "World Cup in the event that none ... Gianni Infantino confirmed that &quot;<strong>Europe (UEFA) and Asia (AFC) are excluded from the bidding following the selection of Russia and Qatar in 2018 and 2022 respectively.&quot; Therefore, the 2026 World Cup</strong> ......"
+      },
+      {
+        "title": "Qatar | FIFA World Cup 2026\u2122",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/qatar/team-news",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Qatar World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/qatar-world-cup-2026-schedule-locations-dates-times",
+        "description": "<strong>Hassan Al-Haydos and Qatar now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents, which stadiums they will play at, and the times for the games."
+      },
+      {
+        "title": "Could the FIFA World Cup 2026 Really Return to Qatar? Here\u2019s What We Know | AD Middle East",
+        "url": "https://www.admiddleeast.com/story/could-the-fifa-world-cup-2026-return-to-qatar-heres-what-we-know",
+        "description": "No. <strong>FIFA has not confirmed Qatar as a replacement or additional host for any FIFA World Cup 2026 matches</strong>."
+      },
+      {
+        "title": "Qualified teams for the FIFA World Cup 26",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/world-cup-2026-who-has-qualified",
+        "description": "We cannot provide a description for this page right now"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Could the FIFA World Cup 2026 Really Return to Qatar? Here\u2019s What We Know | AD Middle East",
+        "url": "https://www.admiddleeast.com/story/could-the-fifa-world-cup-2026-return-to-qatar-heres-what-we-know",
+        "description": "Unconfirmed reports have put Qatar back in the FIFA World Cup 2026 conversation, but officials insist Mexico\u2019s role as a 2026 host nation remains unchanged",
+        "age": "3 days ago"
+      },
+      {
+        "title": "European countries fear playing in World Cup will mean financial loss | World Cup 2026 | The Guardian",
+        "url": "https://www.theguardian.com/football/2026/feb/26/fifa-world-cup-2026-european-football-associations-prize-money-costs-tax-exemptions",
+        "description": "European football federations are concerned that playing in this year\u2019s World Cup in the US, Canada and Mexico will wind up costing them money",
+        "age": "3 days ago"
+      },
+      {
+        "title": "The 2026 FIFA World Cup is about 100 days away: Here\u2019s everything you need to know before the soccer world comes to Canada",
+        "url": "https://www.thestar.com/sports/soccer/world-cup/the-2026-fifa-world-cup-is-about-100-days-away-heres-everything-you-need-to/article_f723f152-1ae3-418d-b176-75344ca19e7c.html",
+        "description": "With just over 100 days to go, here\u2019s some of what we know and don\u2019t know about World Cup 2026.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Iran is set to play 2 matches in Los Angeles at the 2026 FIFA World Cup. Will that still happen? - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/iran-set-play-2-matches-202339128.html",
+        "description": "Saturday\u2019s major military attack on Iran by U.S. and Israeli forces is impacting everything from international diplomacy to the game of soccer. The move by President Trump to strike multiple targets in Iran comes just months before the 2026 FIFA World Cup, which will be hosted by the U.S., ...",
+        "age": "11 hours ago"
+      },
+      {
+        "title": "FIFA wants 'all teams participating' at World Cup after U.S. attack on Iran",
+        "url": "https://eu.usatoday.com/story/sports/soccer/worldcup/2026/02/28/fifa-world-cup-usa-attack-iran/88917228007/",
+        "description": "FIFA's secretary general said his organization is focused on all teams participating at the 2026 World Cup in the wake of the USA's attack on Iran.",
+        "age": "16 hours ago"
+      }
+    ],
+    "query": "Will Qatar win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

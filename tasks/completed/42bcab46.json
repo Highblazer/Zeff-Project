@@ -1,0 +1,28 @@
+{
+  "id": "42bcab46",
+  "title": "Polymarket research: Rhode Island Rams vs. St. Bonaventure Bonnies",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Rhode Island Rams vs. St. Bonaventure Bonnies",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T01:52:50.178975+00:00",
+  "updated_at": "2026-02-27T01:53:03.733771+00:00",
+  "claimed_at": "2026-02-27T01:53:02.028273+00:00",
+  "completed_at": "2026-02-27T01:53:03.733752+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Rhode Island Rams vs. St. Bonaventure Bonnies\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Rhode Island Rams vs. St. Bonaventure Bonnies",
+    "sources_count": 0
+  },
+  "error": null
+}

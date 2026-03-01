@@ -1,0 +1,28 @@
+{
+  "id": "e6529efa",
+  "title": "Polymarket research: Pelicans vs. Jazz",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pelicans vs. Jazz",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T04:04:46.164907+00:00",
+  "updated_at": "2026-02-27T04:04:53.340679+00:00",
+  "claimed_at": "2026-02-27T04:04:51.766441+00:00",
+  "completed_at": "2026-02-27T04:04:53.340661+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pelicans vs. Jazz\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Pelicans vs. Jazz",
+    "sources_count": 0
+  },
+  "error": null
+}

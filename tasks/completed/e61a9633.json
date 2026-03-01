@@ -1,0 +1,25 @@
+{
+  "id": "e61a9633",
+  "title": "Close LTCUSD position",
+  "assigned_to": "tradebot",
+  "task_type": "close_position",
+  "params": {
+    "symbol": "LTCUSD",
+    "positionId": 585092009
+  },
+  "priority": 1,
+  "status": "completed",
+  "created_by": "dashboard",
+  "created_at": "2026-02-26T00:53:44.453247+00:00",
+  "updated_at": "2026-02-26T00:53:58.159967+00:00",
+  "claimed_at": "2026-02-26T00:53:58.083929+00:00",
+  "completed_at": "2026-02-26T00:53:58.159943+00:00",
+  "retries": 0,
+  "result": {
+    "symbol": "LTCUSD",
+    "positionId": 585092009,
+    "closed": true,
+    "volume": 100
+  },
+  "error": null
+}

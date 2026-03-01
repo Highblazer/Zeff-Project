@@ -1,0 +1,85 @@
+{
+  "id": "890828e2",
+  "title": "Polymarket research: Will Trump nominate Kevin Hassett as the next Fed chair?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump nominate Kevin Hassett as the next Fed chair?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:15.170498+00:00",
+  "updated_at": "2026-02-26T23:31:42.726668+00:00",
+  "claimed_at": "2026-02-26T23:31:40.717534+00:00",
+  "completed_at": "2026-02-26T23:31:42.726651+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump nominate Kevin Hassett as the next Fed chair?\n\nWeb Results (5):\n- Donald Trump on decision to name Kevin Warsh over Kevin Hassett for Fed chair: <strong>President Trump addressed his decision to not nominate National Economic Council Director Kevin Hassett to chair the Federal Reserve</strong>,\n- Next Fed chair: Who are the frontrunners for the top job?: Trump&#x27;s nominee would then go to the Senate for confirmation. Here&#x27;s what to know about the frontrunners. ... <strong>Kevin Hassett, a long-\n- Who will be the next Fed chair? - EFG International: As Jerome Powell\u2019s term as Federal Reserve chair draws to a close, financial markets are increasingly focused on who President Trump will nominate as \n- Donald Trump hesitant to nominate Kevin Hassett as Fed chair: During remarks at a White House health care event, Trump praised Kevin Hassett \u2014 director of the National Economic Council and <strong>a finalist for \n- Next US Fed chair pick expected soon | NHK WORLD-JAPAN News: Trump has been at odds with him over his approach to cutting interest rates, and <strong>he has said he will nominate someone who supports rate cuts</\n\nNews (5):\n- Donald Trump on decision to name Kevin Warsh over Kevin Hassett for Fed chair (1 month ago)\n- Trump nominates Kevin Warsh as next Fed chair - as it happened | Reuters (1 month ago)\n- Trump names Kevin Warsh, former Federal Reserve official, as next Fed chair to replace Powell | PBS News (1 month ago)\n- Trump to announce Fed chair nominee Friday; Kevin Warsh may be the pick, according to reports (1 month ago)\n- Why Trump\u2019s new pick for Fed chair hit gold and silver markets \u2013 for good reasons (1 month ago)",
+    "web_results": [
+      {
+        "title": "Donald Trump on decision to name Kevin Warsh over Kevin Hassett for Fed chair",
+        "url": "https://thehill.com/homenews/administration/5714549-donald-trump-kevin-hassett-federal-reserve/",
+        "description": "<strong>President Trump addressed his decision to not nominate National Economic Council Director Kevin Hassett to chair the Federal Reserve</strong>, saying he did not want to move him from his current role."
+      },
+      {
+        "title": "Next Fed chair: Who are the frontrunners for the top job?",
+        "url": "https://www.bbc.com/news/articles/c4g907zekllo",
+        "description": "Trump&#x27;s nominee would then go to the Senate for confirmation. Here&#x27;s what to know about the frontrunners. ... <strong>Kevin Hassett, a long-time conservative economist and key Trump economic adviser, is seen as a top contender to succeed Powell</strong>."
+      },
+      {
+        "title": "Who will be the next Fed chair? - EFG International",
+        "url": "https://www.efginternational.com/us/insights/2026/who_will_be_the_next_fed_chair.html",
+        "description": "As Jerome Powell\u2019s term as Federal Reserve chair draws to a close, financial markets are increasingly focused on who President Trump will nominate as his successor. The appointment will influence expectations about interest rates and broader market conditions. Stefan Gerlach, Chief Economist at EFG, examines the leading candidates. ... The early leader Until recently, Kevin Hassett was widely seen as the most likely candidate to succeed Jerome Powell as chair of the Federal Reserve."
+      },
+      {
+        "title": "Donald Trump hesitant to nominate Kevin Hassett as Fed chair",
+        "url": "https://thehill.com/business/5692734-trump-hesitant-nominate-hasset-fed/",
+        "description": "During remarks at a White House health care event, Trump praised Kevin Hassett \u2014 director of the National Economic Council and <strong>a finalist for the Fed chair nomination</strong> \u2014 but expressed concerns about losing him to the central bank."
+      },
+      {
+        "title": "Next US Fed chair pick expected soon | NHK WORLD-JAPAN News",
+        "url": "https://www3.nhk.or.jp/nhkworld/en/news/20260128_N01/",
+        "description": "Trump has been at odds with him over his approach to cutting interest rates, and <strong>he has said he will nominate someone who supports rate cuts</strong>. Trump has been interviewing potential candidates, including White House National Economic Council Director ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Donald Trump on decision to name Kevin Warsh over Kevin Hassett for Fed chair",
+        "url": "https://thehill.com/homenews/administration/5714549-donald-trump-kevin-hassett-federal-reserve/",
+        "description": "President Trump addressed his decision to not nominate National Economic Council Director Kevin Hassett to chair the Federal Reserve, saying he did not want to move him from his current role.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Trump nominates Kevin Warsh as next Fed chair - as it happened | Reuters",
+        "url": "https://www.reuters.com/world/us/live-updates-trump-nominates-kevin-warsh-next-fed-chair-2026-01-30/",
+        "description": "President Donald Trump has been critical of current Federal Reserve Chair Jerome Powell, whose leadership term ends in May.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Trump names Kevin Warsh, former Federal Reserve official, as next Fed chair to replace Powell | PBS News",
+        "url": "https://www.pbs.org/newshour/economy/trump-names-kevin-warsh-former-federal-reserve-official-as-next-fed-chair-to-replace-powell",
+        "description": "President Donald Trump said Friday that he will nominate former Federal Reserve official Kevin Warsh to be the next chair of the Fed, a decision likely to result in sharp changes to the powerful agency that could bring it closer to the White House.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Trump to announce Fed chair nominee Friday; Kevin Warsh may be the pick, according to reports",
+        "url": "https://www.cnbc.com/2026/01/29/trump-says-he-will-announce-a-replacement-for-powell-as-fed-chair-friday-morning.html",
+        "description": "President Donald Trump said Thursday that he will be naming his pick Friday for the new Federal Reserve chair.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Why Trump\u2019s new pick for Fed chair hit gold and silver markets \u2013 for good reasons",
+        "url": "https://theconversation.com/why-trumps-new-pick-for-fed-chair-hit-gold-and-silver-markets-for-good-reasons-273233",
+        "description": "Though Trump clearly remains sceptical of central bank independence, his appointment of Warsh suggests he recognises the importance Fed credibility.",
+        "age": "1 month ago"
+      }
+    ],
+    "query": "Will Trump nominate Kevin Hassett as the next Fed chair?",
+    "sources_count": 10
+  },
+  "error": null
+}

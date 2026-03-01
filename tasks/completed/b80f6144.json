@@ -1,0 +1,85 @@
+{
+  "id": "b80f6144",
+  "title": "Polymarket research: Will RC Celta de Vigo win on 2026-02-26?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will RC Celta de Vigo win on 2026-02-26?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:47:58.780331+00:00",
+  "updated_at": "2026-02-27T00:48:08.035236+00:00",
+  "claimed_at": "2026-02-27T00:48:06.138443+00:00",
+  "completed_at": "2026-02-27T00:48:08.035217+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will RC Celta de Vigo win on 2026-02-26?\n\nWeb Results (5):\n- RC Celta de Vigo - PAOK Saloniki prediction & tips 26.02.2026: <strong>Our betting tip for this Europa League clash favours a home victory for Celta de Vigo at odds of 1.74 with 1win</strong>. The Galicians have d\n- Celta Vigo live score, schedule & player stats | Sofascore: <strong>Celta Vigo will play the next match against PAOK on Feb 26, 2026, 8:00:00 PM UTC</strong> in UEFA Europa League.\n- RC Celta de Vigo - Wikipedia: Real Club Celta de Vigo (Galician pronunciation: [re\u02c8al \u02c8klu\u03b2 \u02c8\u03b8elt\u0250 \u00f0\u026a \u02c8\u03b2i\u0263\u028a]; lit. &#x27;Royal Celtic Club of Vigo&#x27;), commonly known as Celta V\n- Highlights and Goal Celta de Vigo vs PAOK (1-0) in 2025-26 UEFA Europa League | 02/26/2026 - VAVEL USA: By Juan Sebastian Rodriguez AriasPublished February 26, 2026 \u2013 Updated February 26, 2026, 4:53 pm EDT ... <strong>A good win for Celta Vigo</strong>. \n- RC Celta de Vigo - RCD Mallorca prediction & tips 22.02.2026: This fixture presents clear value backing Celta de Vigo to secure three points against struggling Mallorca. The hosts&#x27; superior league position, \n\nNews (5):\n- Highlights and Goal Celta de Vigo vs PAOK (1-0) in 2025-26 UEFA Europa League | 02/26/2026 - VAVEL USA (3 hours ago)\n- Celta Vigo vs PAOK Prediction, Betting Tips, Lineups & Odds | 26 Feb 2026 (2 days ago)\n- RC Celta de Vigo - PAOK Saloniki prediction & tips 26.02.2026 (4 days ago)\n- Where to Watch RC Celta de Vigo vs. RCD Mallorca: TV Channel, Start Time and Live Stream - Bleacher Nation (5 days ago)\n- Celta-PAOK en la Europa League | El Celta afronta la vuelta del play-off ante el PAOK tratando de hacer valer el 1-2 de la ida (20 hours ago)",
+    "web_results": [
+      {
+        "title": "RC Celta de Vigo - PAOK Saloniki prediction & tips 26.02.2026",
+        "url": "https://www.transfermarkt.com/betting/tips/celta-de-vigo-vs-paok-saloniki-prediction-26-02-2026/",
+        "description": "<strong>Our betting tip for this Europa League clash favours a home victory for Celta de Vigo at odds of 1.74 with 1win</strong>. The Galicians have demonstrated superior form in recent encounters between these sides and possess a stronger home record in European ..."
+      },
+      {
+        "title": "Celta Vigo live score, schedule & player stats | Sofascore",
+        "url": "https://www.sofascore.com/football/team/celta-vigo/2821",
+        "description": "<strong>Celta Vigo will play the next match against PAOK on Feb 26, 2026, 8:00:00 PM UTC</strong> in UEFA Europa League."
+      },
+      {
+        "title": "RC Celta de Vigo - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo",
+        "description": "Real Club Celta de Vigo (Galician pronunciation: [re\u02c8al \u02c8klu\u03b2 \u02c8\u03b8elt\u0250 \u00f0\u026a \u02c8\u03b2i\u0263\u028a]; lit. &#x27;Royal Celtic Club of Vigo&#x27;), commonly known as Celta Vigo or just Celta, is a Spanish professional football club based in Vigo, Galicia, that competes in La Liga, the top tier of Spanish football."
+      },
+      {
+        "title": "Highlights and Goal Celta de Vigo vs PAOK (1-0) in 2025-26 UEFA Europa League | 02/26/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/02/26/1252177-celta-vs-paok-live-score-europa-league.html",
+        "description": "By Juan Sebastian Rodriguez AriasPublished February 26, 2026 \u2013 Updated February 26, 2026, 4:53 pm EDT ... <strong>A good win for Celta Vigo</strong>. The moment Iago Aspas and Borja Iglesias came on, their superiority over the Greeks was evident."
+      },
+      {
+        "title": "RC Celta de Vigo - RCD Mallorca prediction & tips 22.02.2026",
+        "url": "https://www.transfermarkt.com/betting/tips/celta-de-vigo-vs-rcd-mallorca-prediction-22-02-2026/",
+        "description": "This fixture presents clear value backing Celta de Vigo to secure three points against struggling Mallorca. The hosts&#x27; superior league position, combined with the visitors&#x27; catastrophic away record, creates optimal conditions for a home victory. Mallorca&#x27;s relegation concerns may lead to desperate attacking play, yet their defensive frailties suggest they will struggle to contain Celta&#x27;s attacking threats at Bala\u00eddos."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Highlights and Goal Celta de Vigo vs PAOK (1-0) in 2025-26 UEFA Europa League | 02/26/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/02/26/1252177-celta-vs-paok-live-score-europa-league.html",
+        "description": "Celta Vigo did their job and defeated PAOK. The Spanish side comfortably qualified for the round of 16 of the UEFA Europa League.",
+        "age": "3 hours ago"
+      },
+      {
+        "title": "Celta Vigo vs PAOK Prediction, Betting Tips, Lineups & Odds | 26 Feb 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/celta-vigo-vs-paok-prediction-lineups-odds-2026-02-26/",
+        "description": "Celta Vigo vs PAOK prediction and betting tips. Europa League preview with odds, team news and lineups. Free football predictions.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "RC Celta de Vigo - PAOK Saloniki prediction & tips 26.02.2026",
+        "url": "https://www.transfermarkt.com/betting/tips/celta-de-vigo-vs-paok-saloniki-prediction-26-02-2026/",
+        "description": "Prediction & betting tips for RC Celta de Vigo vs. PAOK Saloniki at the Europa League 2025/2026.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Where to Watch RC Celta de Vigo vs. RCD Mallorca: TV Channel, Start Time and Live Stream - Bleacher Nation",
+        "url": "https://www.bleachernation.com/how-to-watch/2026/02/21/where-to-watch-rc-celta-de-vigo-vs-rcd-mallorca-tv-channel-start-time-and-live-stream-2/",
+        "description": "Borja Iglesias and Vedat Muriqi will go head-to-head in a game between two of the top scorers in LaLiga when RC Celta de Vigo hosts RCD Mallorca on February",
+        "age": "5 days ago"
+      },
+      {
+        "title": "Celta-PAOK en la Europa League | El Celta afronta la vuelta del play-off ante el PAOK tratando de hacer valer el 1-2 de la ida",
+        "url": "https://www.farodevigo.es/celta-de-vigo/2026/02/26/europa-league-celta-afronta-vuelta-play-off-ante-paok-127275254.html",
+        "description": "El equipo vigu\u00e9s afronta esta noche el partido de vuelta de la Liga Europa ante el PAOK con la renta del 1-2 obtenida en Sal\u00f3nica y ante un rival con nueve bajas",
+        "age": "20 hours ago"
+      }
+    ],
+    "query": "Will RC Celta de Vigo win on 2026-02-26?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "7d020854",
+  "title": "Polymarket research: Will South Africa win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will South Africa win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:44.874862+00:00",
+  "updated_at": "2026-03-01T07:27:00.110031+00:00",
+  "claimed_at": "2026-03-01T07:26:58.224557+00:00",
+  "completed_at": "2026-03-01T07:27:00.110016+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will South Africa win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- 2026 FIFA World Cup - Wikipedia: Haiti returns to the tournament after last appearing in 1974. Austria, Norway, and Scotland return to the tournament after last appearing in 1998. For\n- South Africa | FIFA World Cup 2026\u2122: We cannot provide a description for this page right now\n- South Africa qualify for the FIFA World Cup 26: We cannot provide a description for this page right now\n- South Africa World Cup 2026 Preview: Best Players, Roster, History | FOX Sports: ... <strong>South Africa secured a place at the 2026 FIFA World Cup</strong> by finishing at the top of Group C in CAF qualifying, earning automatic q\n- South Africa World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports: <strong>Lyle Foster and South Africa now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents\n\nNews (5):\n- T20 World Cup 2026 - SA vs Zim - South Africa vs Zimbabwe, this time for Africa | ESPNcricinfo (1 day ago)\n- 2026 World Cup: 'FIFA's decision against South Africa came very late' - Gaye tells Nigeria to be patient - Daily Post Nigeria (1 day ago)\n- South Africa vs Zimbabwe prediction: Who will win today\u2019s ICC T20 World Cup 2026 Super 8 Group 1 match? (49 minutes ago)\n- T20 World Cup 2026: South Africa book semi-final spot after India beat Zimbabwe | ESPNcricinfo (3 days ago)\n- India thrash Zimbabwe to revive T20 World Cup hopes and South Africa close on semis | T20 World Cup 2026 | The Guardian (3 days ago)",
+    "web_results": [
+      {
+        "title": "2026 FIFA World Cup - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+        "description": "Haiti returns to the tournament after last appearing in 1974. Austria, Norway, and Scotland return to the tournament after last appearing in 1998. For South Africa, <strong>it marks their first successful qualifying campaign since 2002, as they automatically qualified as host in 2010.</strong>"
+      },
+      {
+        "title": "South Africa | FIFA World Cup 2026\u2122",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/south-africa/team-news",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "South Africa qualify for the FIFA World Cup 26",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/south-africa-qualify",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "South Africa World Cup 2026 Preview: Best Players, Roster, History | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/south-africa-world-cup-2026-preview-best-players-roster-history-jersey-predictions",
+        "description": "... <strong>South Africa secured a place at the 2026 FIFA World Cup</strong> by finishing at the top of Group C in CAF qualifying, earning automatic qualification with 18 points, and over traditional powerhouse Nigeria."
+      },
+      {
+        "title": "South Africa World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/south-africa-world-cup-2026-schedule-locations-dates-times",
+        "description": "<strong>Lyle Foster and South Africa now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents, which stadiums they will play at, and the times for the games."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "T20 World Cup 2026 - SA vs Zim - South Africa vs Zimbabwe, this time for Africa | ESPNcricinfo",
+        "url": "https://www.espncricinfo.com/story/t20-world-cup-2026-sa-vs-zim-south-africa-vs-zimbabwe-this-time-for-africa-1526301",
+        "description": "South Africa and Zimbabwe don't always share the best of relations politically, but they have had each other's backs when it comes to sports - expect more of that in Delhi on Sunday",
+        "age": "1 day ago"
+      },
+      {
+        "title": "2026 World Cup: 'FIFA's decision against South Africa came very late' - Gaye tells Nigeria to be patient - Daily Post Nigeria",
+        "url": "https://dailypost.ng/2026/02/28/2026-world-cup-fifas-decision-against-south-africa-came-very-late-gaye-tells-nigeria-to-be-patient/",
+        "description": "There is still less than three ... match window starts, but FIFA has not made a decision yet, which has left fans, players, and the Nigeria Football Federation unsure and worried. Nigeria is hoping that a good decision will help them get back on track to qualify for the 2026 World Cup. Gaye said that South Africa\u2019s Bafana ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "South Africa vs Zimbabwe prediction: Who will win today\u2019s ICC T20 World Cup 2026 Super 8 Group 1 match?",
+        "url": "https://crictoday.com/cricket/news/south-africa-vs-zimbabwe-prediction-who-will-win-todays-icc-t20-world-cup-2026-super-8-group-1-match/",
+        "description": "Check out the latest match prediction for Match 51 between South Africa and Zimbabwe in the ICC T20 World Cup 2026 Super Eights.",
+        "age": "49 minutes ago"
+      },
+      {
+        "title": "T20 World Cup 2026: South Africa book semi-final spot after India beat Zimbabwe | ESPNcricinfo",
+        "url": "https://www.espncricinfo.com/story/t20-world-cup-2026-south-africa-book-semi-final-spot-after-india-beat-zimbabwe-1526129",
+        "description": "Match between India and West Indies on March 1 is a knockout for a place in the semi-finals",
+        "age": "3 days ago"
+      },
+      {
+        "title": "India thrash Zimbabwe to revive T20 World Cup hopes and South Africa close on semis | T20 World Cup 2026 | The Guardian",
+        "url": "https://www.theguardian.com/sport/2026/feb/26/t20-world-cup-cricket-south-africa-west-indies-zimbabwe-india",
+        "description": "Abhishek Sharma and Hardick Pandya led India towards a 72-run win over Zimbabwe after South Africa\u2019s dominant nine-wicket win over West Indies",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will South Africa win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

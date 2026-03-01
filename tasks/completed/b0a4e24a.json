@@ -1,0 +1,139 @@
+{
+  "id": "b0a4e24a",
+  "title": "economic calendar high impact events this week",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "economic calendar high impact events this week",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T18:13:05.415623+00:00",
+  "updated_at": "2026-02-26T18:13:06.722959+00:00",
+  "claimed_at": "2026-02-26T18:13:05.424613+00:00",
+  "completed_at": "2026-02-26T18:13:06.722944+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: economic calendar high impact events this week\n\nFindings (10):\n- [market_mover] US Economic Calendar (action=0.5, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] Weekly Trader's Stock Market Outlook | Charles Schwab (action=0.5, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] Economic Calendar (action=0.5, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] Economic Calendar - FXStreet (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Weekly Markets Planner: Economics Calendar, Company Earnings, Investor Relations Events | Morningstar (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "US Economic Calendar",
+        "url": "https://www.briefing.com/calendars/economic?Filter=Today",
+        "description": "Check our economic calendar for dates, times, estimates, actual results, and trading importance for major U.S. economic releases.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.46,
+        "combined_score": 0.48,
+        "age": "2 weeks ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Weekly Trader's Stock Market Outlook | Charles Schwab",
+        "url": "https://www.schwab.com/learn/story/weekly-traders-outlook",
+        "description": "Major indices are on track for modest gains during a busy news week with increased uncertainty around tariffs, Iran, and monetary policy.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.46,
+        "combined_score": 0.48,
+        "age": "1 week ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Economic Calendar",
+        "url": "https://tradingeconomics.com/calendar",
+        "description": "This page displays a table with actual values, consensus figures, forecasts, statistics and historical data charts for - Economic Calendar. This calendar provides events for 196 countries including data releases for 300.000 economic indicators, actual values, consensus figures and proprietary ...",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.46,
+        "combined_score": 0.48,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Economic Calendar - FXStreet",
+        "url": "https://www.fxstreet.com/economic-calendar",
+        "description": "The Economic Calendar covers the most important economic events in the world in real time. Follow the latest news on the indicators that move the market.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Weekly Markets Planner: Economics Calendar, Company Earnings, Investor Relations Events | Morningstar",
+        "url": "https://www.morningstar.com/markets/whats-happening-markets-this-week",
+        "description": "Earnings for Nvidia and Paramount this week, plus the January Producer Price Index report.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "1 week ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Initial jobless claims headline Thursday\u2019s economic calendar By Investing.com",
+        "url": "https://investing.com/news/stock-market-news/initial-jobless-claims-headline-thursdays-economic-calendar-93CH-4525426",
+        "description": "\u2022 11:30 AM ET - 8-Week Bill Auction: Previous 3.630%. Treasury bill auction with slightly longer maturity providing additional insight into short-term rate expectations. For further information and the latest updates, please refer to our Economic Calendar, here https://www.investing.com/economic-cal",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Gold (XAU/USD) Price Forecast and Analysis for Today, Tomorrow, Next Week, and 30 Days | LiteFinance",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/",
+        "description": "Gold price prediction and analysis for tomorrow, next week, and 30 days. Key levels, sentiment, and events shaping gold short-term outlook.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "9 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Economic Calendar - Yahoo Finance",
+        "url": "https://finance.yahoo.com/calendar/economic/",
+        "description": "Find earnings, economic, stock splits and IPO calendars to track upcoming financial events from Yahoo Finance.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Economic Calendar - Bloomberg - Bloomberg Markets",
+        "url": "https://www.bloomberg.com/markets/economic-calendar",
+        "description": "Check economic calendar events in real time on Bloomberg and see the global financial market impact by country and importance with previous, forecast and actual figures.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Economic Calendar \u2014 World Economic Events \u2014 TradingView",
+        "url": "https://www.tradingview.com/economic-calendar/",
+        "description": "All events are in chronological order and linked with economic indicators like interest rates or GDP. The calendar is customizable: one click will give you a weekly economic calendar, another \u2014 narrow it down to US economic calendar only. Plus, you will see short explainers of the events and forecas",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "economic calendar high impact events this week",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 9,
+    "opportunities": 1
+  },
+  "error": null
+}

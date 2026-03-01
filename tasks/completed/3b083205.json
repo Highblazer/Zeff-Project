@@ -1,0 +1,139 @@
+{
+  "id": "3b083205",
+  "title": "geopolitical events affecting markets February 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "geopolitical events affecting markets February 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T19:35:24.997404+00:00",
+  "updated_at": "2026-02-26T19:35:26.421926+00:00",
+  "claimed_at": "2026-02-26T19:35:25.003236+00:00",
+  "completed_at": "2026-02-26T19:35:26.421913+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: geopolitical events affecting markets February 2026\n\nFindings (10):\n- [market_mover] Monthly Market Insights | February 2026 \u2014 Finger Lakes Investments (action=0.5, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] Schwab Market Update | Charles Schwab (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] The Week Ahead: February 23, 2026 - SafeAbroad (action=0.45, impact=0.46)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Gold (XAU/USD) Price Forecast and Analysis for Today, Tomorrow, Next Week, and 30 Days | LiteFinance (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n- [market_mover] IC Markets Global \u2013 Asia Fundamental Forecast |26 February 2026 | IC Markets | Official Blog (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Monthly Market Insights | February 2026 \u2014 Finger Lakes Investments",
+        "url": "https://flxinvestments.com/blog/monthly-market-insights-or-february-2026",
+        "description": "Stocks climbed in January as solid economic data offset geopolitical tensions. The S&P 500 rose 1.37%, the Dow gained 1.73%, and Canada's TSX picked up 0.66%, setting multiple record highs early in the month. The Fed held rates steady as expected, with all eyes now on the March meeting.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.46,
+        "combined_score": 0.48,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Schwab Market Update | Charles Schwab",
+        "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+        "description": "Learn what's trending before the opening bell with Schwab's market open report. Find out about macroeconomic reports, company earnings, and other events.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "The Week Ahead: February 23, 2026 - SafeAbroad",
+        "url": "https://safeabroad.com/the-week-ahead/the-week-ahead-february-23-2026",
+        "description": "\"The Week Ahead\" provides a succinct global intelligence briefing, offering foresight into upcoming geopolitical, economic, and significant events. Our curated forecast equips you with analytical insights, helping you navigate the week's developments and clearly understand potential impacts ...",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.46,
+        "combined_score": 0.45,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Gold (XAU/USD) Price Forecast and Analysis for Today, Tomorrow, Next Week, and 30 Days | LiteFinance",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/",
+        "description": "Gold price prediction and analysis for tomorrow, next week, and 30 days. Key levels, sentiment, and events shaping gold short-term outlook.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "11 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "IC Markets Global \u2013 Asia Fundamental Forecast |26 February 2026 | IC Markets | Official Blog",
+        "url": "https://www.icmarkets.com/blog/ic-markets-global-asia-fundamental-forecast-26-february-2026/",
+        "description": "The next meeting is on 18 to 19 March 2026. ... Oil markets are showing modest gains amid heightened geopolitical tensions, with WTI crude hovering around $66 per barrel and Brent near $71 as of the latest updates heading into February 26, 2026.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "12 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Geopolitical Risk Brief: February 2026 | S&P Global",
+        "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/02/geopolitical-risk-brief-february-2026",
+        "description": "This policy agenda has generated adverse financial market reactions including <strong>upward pressure on government bond yields and further weakening of the yen</strong>. The result reinforces Takaichi\u2019s position within the LDP for the next party leadership ...",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Geostrategic Analysis: February 2026 edition | EY - Global",
+        "url": "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis",
+        "description": "<strong>Venezuela and Greenland</strong> are both rich in energy and mineral resources, highlighting how geopolitical competition to control or access scarce resources will likely intensify in 2026.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Global Economic Outlook: February 2026 | S&P Global",
+        "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/02/global-economic-outlook-february-2026",
+        "description": "RESEARCH \u2014 Feb. 19, 2026 ... Geopolitical events and related uncertainties have contributed to <strong>choppy commodity and financial markets</strong>, but S&amp;P Global\u2019s Purchasing Managers Indexes (PMIs\u00ae) point to relatively resilient economic conditions.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Geopolitical Volatility Defines Markets to Start 2026 | Chief Investment Officer",
+        "url": "https://www.ai-cio.com/news/geopolitical-volatility-defines-markets-to-start-2026/",
+        "description": "\u201cU.S. investors still prefer their home market overall but are increasingly mitigating its concentration and valuation risks with overseas exposure,\u201d says Elias Erickson, an international franchise portfolio manager at Ninety One. \u201cPressure on the [dollar], exacerbated by elevated geopolitical uncer",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Trading Day: AI, geopolitics take their toll | Reuters",
+        "url": "https://www.reuters.com/business/global-markets-trading-day-graphic-2026-02-03/",
+        "description": "<strong>Nuclear talks between the U.S. and Iran</strong> are scheduled for Friday, but developments today suggest they will be fraught. Indeed, they might not take place at all, with Iran demanding that the venue and scope of negotiations be changed.",
+        "category": "landscape",
+        "actionability_score": 0.35,
+        "impact_score": 0.2,
+        "combined_score": 0.28,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "geopolitical events affecting markets February 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 8,
+    "opportunities": 1
+  },
+  "error": null
+}

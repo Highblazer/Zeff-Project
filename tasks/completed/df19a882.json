@@ -1,0 +1,28 @@
+{
+  "id": "df19a882",
+  "title": "Polymarket research: Will Donald Trump Jr. win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T07:55:21.792955+00:00",
+  "updated_at": "2026-02-27T07:55:37.593151+00:00",
+  "claimed_at": "2026-02-27T07:55:36.499861+00:00",
+  "completed_at": "2026-02-27T07:55:37.593132+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Donald Trump Jr. win the 2028 US Presidential Election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
+    "sources_count": 0
+  },
+  "error": null
+}

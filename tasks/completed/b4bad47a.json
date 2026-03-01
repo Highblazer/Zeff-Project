@@ -1,0 +1,28 @@
+{
+  "id": "b4bad47a",
+  "title": "Polymarket research: Blackhawks vs. Predators",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Blackhawks vs. Predators",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T04:41:37.688501+00:00",
+  "updated_at": "2026-02-27T04:41:45.911351+00:00",
+  "claimed_at": "2026-02-27T04:41:43.972125+00:00",
+  "completed_at": "2026-02-27T04:41:45.911333+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Blackhawks vs. Predators\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Blackhawks vs. Predators",
+    "sources_count": 0
+  },
+  "error": null
+}

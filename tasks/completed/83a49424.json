@@ -1,0 +1,85 @@
+{
+  "id": "83a49424",
+  "title": "Polymarket research: Will Manchester United FC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Manchester United FC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:28:38.754144+00:00",
+  "updated_at": "2026-03-01T08:28:44.779796+00:00",
+  "claimed_at": "2026-03-01T08:28:42.910101+00:00",
+  "completed_at": "2026-03-01T08:28:44.779779+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Manchester United FC win on 2026-03-01?\n\nWeb Results (5):\n- 2025\u201326 Manchester United F.C. season - Wikipedia: The 2025\u201326 season is the 139th season in the history of Manchester United, their 34th season in the Premier League and their 51st consecutive and 101\n- Manchester United vs Crystal Palace Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026: Manchester United vs Crystal Palace prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions.\n- Manchester United-Crystal Palace - Premier League 2025/2026 Statistical Preview: For all of the team news and statistics, including injuries and suspensions, probable line-ups and predictions with facts and odds, read our detailed \n- Manchester United Live Score, 2025-2026 Fixtures, Results - AiScore: <strong>Manchester United is going to play their next match on 2026/03/01 UTC against Crystal Palace</strong> in -. When the match begin, you will be \n- Manchester United FC VS Aston Villa FC \u27a5 EA SPORTS FC \u27a5 Betting Tips, Stream, LiveScore, Results on EGW\u2615: <strong>Manchester United FC VS Aston Villa FC</strong> \u27a5 01.03.2026 at 18:10 \ud83c\udfc6 ePremier League 2026 - Finals: Group Stage on EGamersWorld\u2615 Betting Ti\n\nNews (5):\n- Team news for Man Utd v Crystal Palace | 1 March 2026 | Manchester United (2 days ago)\n- Manchester United vs Crystal Palace Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026 (2 days ago)\n- How Michael Carrick has transformed Manchester United (1 day ago)\n- Champions League last-16 draw live updates: Real Madrid draw Manchester City, PSG vs Chelsea and more - The Athletic (2 days ago)\n- Pregame - Manchester United vs Crystal Palace 03/01/2026 (2 days ago)",
+    "web_results": [
+      {
+        "title": "2025\u201326 Manchester United F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Manchester_United_F.C._season",
+        "description": "The 2025\u201326 season is the 139th season in the history of Manchester United, their 34th season in the Premier League and their 51st consecutive and 101st overall season in the top flight of English football. The club is competing in the Premier League and competed in the FA Cup and EFL Cup, ..."
+      },
+      {
+        "title": "Manchester United vs Crystal Palace Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/manchester-united-vs-crystal-palace-prediction-lineups-odds-2026-03-01/",
+        "description": "Manchester United vs Crystal Palace prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions."
+      },
+      {
+        "title": "Manchester United-Crystal Palace - Premier League 2025/2026 Statistical Preview",
+        "url": "https://www.whoscored.com/matches/1903410/preview/england-premier-league-2025-2026-manchester-united-crystal-palace",
+        "description": "For all of the team news and statistics, including injuries and suspensions, probable line-ups and predictions with facts and odds, read our detailed Premier League match preview of Manchester United vs Crystal Palace. Kick off 01/03/2026"
+      },
+      {
+        "title": "Manchester United Live Score, 2025-2026 Fixtures, Results - AiScore",
+        "url": "https://m.aiscore.com/en/team-manchester-united-fc/4ndqmlin95agkve",
+        "description": "<strong>Manchester United is going to play their next match on 2026/03/01 UTC against Crystal Palace</strong> in -. When the match begin, you will be able to follow Manchester United vs Crystal Palace live score, H2H, standings, minute by minute updated live results and match statistics."
+      },
+      {
+        "title": "Manchester United FC VS Aston Villa FC \u27a5 EA SPORTS FC \u27a5 Betting Tips, Stream, LiveScore, Results on EGW\u2615",
+        "url": "https://egamersworld.com/fifa/match/JNAZRj5SQ/manchester-united-fc-vs-aston-villa-fc-_hhHlmcwyx",
+        "description": "<strong>Manchester United FC VS Aston Villa FC</strong> \u27a5 01.03.2026 at 18:10 \ud83c\udfc6 ePremier League 2026 - Finals: Group Stage on EGamersWorld\u2615 Betting Tipd &amp; Predictions \ud83d\udcfa Watch Stream, Livescore."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Team news for Man Utd v Crystal Palace | 1 March 2026 | Manchester United",
+        "url": "https://www.manutd.com/en/news/detail/team-news-for-man-utd-v-crystal-palace-1-march-2026",
+        "description": "Head coach Michael Carrick provides an injury update ahead of Sunday's Old Trafford contest.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Manchester United vs Crystal Palace Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/manchester-united-vs-crystal-palace-prediction-lineups-odds-2026-03-01/",
+        "description": "Manchester United vs Crystal Palace prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "How Michael Carrick has transformed Manchester United",
+        "url": "https://www.telegraph.co.uk/football/2026/02/28/how-michael-carrick-has-transformed-manchester-united/",
+        "description": "Team meetings of 15 minutes, training wrapped up by lunch and Sundays off have endeared the new man to all his players",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Champions League last-16 draw live updates: Real Madrid draw Manchester City, PSG vs Chelsea and more - The Athletic",
+        "url": "https://www.nytimes.com/athletic/live-blogs/champions-league-last-16-draw-live-updates/Y4Ivqpp0la5L/",
+        "description": "Follow live reaction after the draw for the Champions League last 16 was made in Nyon.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Pregame - Manchester United vs Crystal Palace 03/01/2026",
+        "url": "https://www.nbcsports.com/stories/games/69a1a4cd1f075518495fd6c6.html",
+        "description": "Pregame - Manchester United vs Crystal Palace 03/01/2026, 01-03-26, Week 28, Regular Season, 2025",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Manchester United FC win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "5fa44695",
+  "title": "Polymarket research: US strikes Iran by June 30, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "US strikes Iran by June 30, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:17.292902+00:00",
+  "updated_at": "2026-02-26T23:32:27.687065+00:00",
+  "claimed_at": "2026-02-26T23:32:25.475611+00:00",
+  "completed_at": "2026-02-26T23:32:27.687051+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: US strikes Iran by June 30, 2026?\n\nWeb Results (5):\n- US strikes Iran by June 30, 2026 | Manifold: <strong>57% chance</strong>. Resolution criteria The market resolves YES if the United States conducts any military strike on Iranian territory by Jun\n- Exclusive: US military preparing for potentially weeks-long Iran operations | Reuters: However, <strong>June&#x27;s &quot;Midnight Hammer&quot; operation was essentially a one-off U.S. attack, with stealth bombers flying from the United \n- US strikes Iran by...? Trading Odds & Predictions | Polymarket: The &quot;US strikes Iran by...?&quot; <strong>market is scheduled to resolve on or around Jun 30, 2026</strong>. This means trading will remain open \n- 2025\u20132026 Iran\u2013United States negotiations - Wikipedia: Among those injured was Khamenei&#x27;s political advisor Ali Shamkhani, who oversaw negotiations between the United States and Iran. Following the at\n- U.S. and Iran wrap round of talks as Trump weighs diplomacy against strikes - The Washington Post: February 26, 2026 at 5:21 p.m. ESTToday at 5:21 p.m. EST ... A woman in Tehran on Thursday. (Vahid Salemi/AP) ... U.S. and Iranian officials completed\n\nNews (5):\n- 7 Experts on the Risk of a Wider War with Iran - POLITICO (2 days ago)\n- Iran Update, February 24, 2026 | ISW (2 days ago)\n- US re-asserts 2025 strikes \u2018obliterated\u2019 Iran\u2019s nuclear programme | Politics News | Al Jazeera (2 days ago)\n- A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News (2 days ago)\n- US-Iran talks end after 'significant progress', mediator says (1 day ago)",
+    "web_results": [
+      {
+        "title": "US strikes Iran by June 30, 2026 | Manifold",
+        "url": "https://manifold.markets/adhamsoliman/us-strikes-iran-by-june-30-2026",
+        "description": "<strong>57% chance</strong>. Resolution criteria The market resolves YES if the United States conducts any military strike on Iranian territory by June 30, 2026. This includes air strikes, missile strikes, or drone attacks on military, nuclear, or government ..."
+      },
+      {
+        "title": "Exclusive: US military preparing for potentially weeks-long Iran operations | Reuters",
+        "url": "https://www.reuters.com/world/middle-east/us-military-preparing-potentially-weeks-long-iran-operations-2026-02-13/",
+        "description": "However, <strong>June&#x27;s &quot;Midnight Hammer&quot; operation was essentially a one-off U.S. attack, with stealth bombers flying from the United States to strike Iranian nuclear facilities</strong>. Iran staged a very limited retaliatory strike on a U.S. base in Qatar."
+      },
+      {
+        "title": "US strikes Iran by...? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/us-strikes-iran-by",
+        "description": "The &quot;US strikes Iran by...?&quot; <strong>market is scheduled to resolve on or around Jun 30, 2026</strong>. This means trading will remain open and the odds will continue to shift as new information emerges until that date."
+      },
+      {
+        "title": "2025\u20132026 Iran\u2013United States negotiations - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations",
+        "description": "Among those injured was Khamenei&#x27;s political advisor Ali Shamkhani, who oversaw negotiations between the United States and Iran. Following the attack, the sixth round of US-Iran talks, scheduled for June 15 in Oman, were indefinitely suspended. In an initial response to the strikes, Trump stated that the U.S."
+      },
+      {
+        "title": "U.S. and Iran wrap round of talks as Trump weighs diplomacy against strikes - The Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/02/26/iran-nuclear-talks-trump-strikes-geneva-oman/",
+        "description": "February 26, 2026 at 5:21 p.m. ESTToday at 5:21 p.m. EST ... A woman in Tehran on Thursday. (Vahid Salemi/AP) ... U.S. and Iranian officials completed a round of nuclear negotiations Thursday in Geneva in the shadow of a large-scale U.S. military buildup around Iran."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "7 Experts on the Risk of a Wider War with Iran - POLITICO",
+        "url": "https://www.politico.com/news/magazine/2026/02/24/iran-us-strikes-expert-forum-roundup-00794832",
+        "description": "As the threat of U.S. strikes intensifies, our experts weigh the risks of escalation.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Iran Update, February 24, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-24-2026/",
+        "description": "Iran is seeking support from US adversaries Russia and the People\u2019s Republic of China (PRC) to prepare for war against the United States.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "US re-asserts 2025 strikes \u2018obliterated\u2019 Iran\u2019s nuclear programme | Politics News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/24/us-re-asserts-2025-strikes-obliterated-irans-nuclear-programme",
+        "description": "The White House comment comes after a senior Trump aide said Iran is a week away from having material for nuclear bomb.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News",
+        "url": "https://www.pbs.org/newshour/world/a-timeline-of-tensions-over-irans-nuclear-program-as-talks-with-u-s-approach",
+        "description": "Iran and the United States are due to hold new talks in Geneva on Thursday over Tehran's nuclear program.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "US-Iran talks end after 'significant progress', mediator says",
+        "url": "https://www.bbc.com/news/articles/cvg1vd95nl9o",
+        "description": "The indirect negotiations in Geneva are seen as a last-ditch effort, but the chances of a nuclear agreement are unclear.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "US strikes Iran by June 30, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

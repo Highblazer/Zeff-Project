@@ -1,0 +1,85 @@
+{
+  "id": "889cc274",
+  "title": "Polymarket research: Will Cory Booker win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Cory Booker win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:46.114507+00:00",
+  "updated_at": "2026-03-01T07:27:23.781054+00:00",
+  "claimed_at": "2026-03-01T07:27:21.690861+00:00",
+  "completed_at": "2026-03-01T07:27:23.781037+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Cory Booker win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- Potential presidential candidates less coy about 2028 plans - WHYY: Cory Booker recently told Fox News during a trip to early-voting New Hampshire, even as he stressed that his focus is on 2026, when <strong>he will be\n- Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket: To trade on &quot;Democratic Presidential Nominee 2028,&quot; browse the 44+ available outcomes listed on this page. Each outcome displays a current p\n- Presidential candidates, 2028 - Ballotpedia: As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Democratic presiden\n- Cory Booker: The only Democrat who can lead in 2028 \u2013 The Statesman: The article argues that <strong>Booker is the strongest candidate to rebuild the Democratic Party and win the 2028 Presidential Election</strong>, cit\n- 2028 United States presidential election - Wikipedia: In a January 2026 profile in Politico, ... <strong>hinted at the possibility of running for president in 2028</strong>. Cory Booker has served as a U.\n\nNews (5):\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (3 days ago)\n- The next 2 years will be a bumpy ride for Democratic presidential candidates (4 days ago)\n- Presidential election, 2028 - Ballotpedia (4 days ago)\n- The Candidates Warming Up for the 2028 Democratic Primaries\u2014and Who\u2019s Already Got a Head Start (1 week ago)\n- Potential presidential candidates less coy about 2028 plans - WHYY (November 23, 2025)",
+    "web_results": [
+      {
+        "title": "Potential presidential candidates less coy about 2028 plans - WHYY",
+        "url": "https://whyy.org/articles/cory-booker-josh-shapiro-presidential-candidates-2028-election/",
+        "description": "Cory Booker recently told Fox News during a trip to early-voting New Hampshire, even as he stressed that his focus is on 2026, when <strong>he will be up for reelection</strong>. \u201cI\u2019d be lying otherwise."
+      },
+      {
+        "title": "Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
+        "description": "To trade on &quot;Democratic Presidential Nominee 2028,&quot; browse the 44+ available outcomes listed on this page. Each outcome displays a current price representing the market&#x27;s implied probability. To take a position, select the outcome you believe is most likely, choose &quot;Yes&quot; to trade in favor of it or &quot;No&quot; to trade against it, enter your amount, and click &quot;Trade.&quot; If your chosen outcome is correct when the market resolves, your &quot;Yes&quot; shares pay out $1 each."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Democratic presidential nomination. This list does not reflect whether a candidate has said they do or do not plan on running. ... Cory Booker, U.S."
+      },
+      {
+        "title": "Cory Booker: The only Democrat who can lead in 2028 \u2013 The Statesman",
+        "url": "https://sbstatesman.com/140663/opinions/cory-booker-the-only-democrat-who-can-lead-in-2028/",
+        "description": "The article argues that <strong>Booker is the strongest candidate to rebuild the Democratic Party and win the 2028 Presidential Election</strong>, citing his character, intelligence and physical stamina."
+      },
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "In a January 2026 profile in Politico, ... <strong>hinted at the possibility of running for president in 2028</strong>. Cory Booker has served as a U.S. senator from New Jersey since 2013 and ran for the Democratic presidential nomination in 2020...."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "3 days ago"
+      },
+      {
+        "title": "The next 2 years will be a bumpy ride for Democratic presidential candidates",
+        "url": "https://thehill.com/opinion/campaign/5753519-democratic-presidential-race-2028/",
+        "description": "Early Democratic presidential race for 2028 is wide open. Newsom and Harris lead, but the field is volatile. Change is on voters' minds.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Democratic presidential nomination. This list does not reflect whether a candidate has said they do or do not plan on running. ... Cory Booker, U.S.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "The Candidates Warming Up for the 2028 Democratic Primaries\u2014and Who\u2019s Already Got a Head Start",
+        "url": "https://www.thedailybeast.com/the-candidates-warming-up-for-the-2028-democratic-primariesand-whos-already-got-a-head-start/",
+        "description": "A way too early look at who is going to have to clean up\u2014*gestures everywhere*\u2014this mess.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Potential presidential candidates less coy about 2028 plans - WHYY",
+        "url": "https://whyy.org/articles/cory-booker-josh-shapiro-presidential-candidates-2028-election/",
+        "description": "Political strategists say it's an approach that makes sense given the wide-open 2028 field and sheer number of candidates competing for attention.",
+        "age": "November 23, 2025"
+      }
+    ],
+    "query": "Will Cory Booker win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

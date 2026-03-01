@@ -1,0 +1,85 @@
+{
+  "id": "34085440",
+  "title": "Polymarket research: Will China invade Taiwan by end of 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will China invade Taiwan by end of 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:16:24.755148+00:00",
+  "updated_at": "2026-03-01T08:16:34.908347+00:00",
+  "claimed_at": "2026-03-01T08:16:32.739352+00:00",
+  "completed_at": "2026-03-01T08:16:34.908332+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will China invade Taiwan by end of 2026?\n\nWeb Results (5):\n- What to Expect from Xi Jinping Regarding Taiwan in 2026? | World News - The Times of India: Will 2026 become the year when Chinese President Xi Jinping decides that the long-promised \u201creunification\u201d of Taiwan can no longer wait?Driving the ne\n- Will China invade Taiwan by end of 2026? Trading Odds & Predictions | Polymarket: To trade on &quot;<strong>Will China invade Taiwan by end of 2026?</strong>,&quot; simply choose whether you believe the answer is &quot;Yes&quot; or \n- A Taiwan war would be global | The Australian Naval Institute: By Sub-Lieutenant Joseph T. Reilly, Royal Navy \u00b7 <strong>If China were to begin a war against Taiwan as soon as 2027 and the United States decides to \n- Could China invade Taiwan in 2026 ? \u2013 Eurasia Business News: Article n\u00b02026 \u00b7 <strong>No government, intelligence agency, or analyst can say with confidence today whether China will invade Taiwan by the end of 2\n- r/bestof on Reddit: u/MariachiArchery explains why China won't invade Taiwan.: Now I sit in the year of our lord 2026 thinking about how that mentality is leading us down a road of active conflicts on a scale not seen since the l\n\nNews (5):\n- Thanks to Trump, Xi Has Time on His Side With Taiwan (4 days ago)\n- China & Taiwan Update, February 20, 2026 | ISW (6 days ago)\n- Would China Adhere to International Humanitarian Law in a Taiwan Contingency? | Global Taiwan Institute (4 days ago)\n- US gov't warned Nvidia CEO Jensen Huang, Tim Cook, and Lisa Su that China could invade Taiwan by 2027 \u2014 Apple CEO reportedly said he sleeps 'with one eye open' | Tom's Hardware (5 days ago)\n- Tim Cook Warned by CIA That China Could Move on Taiwan by 2027 - MacRumors (5 days ago)",
+    "web_results": [
+      {
+        "title": "What to Expect from Xi Jinping Regarding Taiwan in 2026? | World News - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/world/china/china-invasion-of-taiwan-xi-jinping-china-and-taiwan-reunification-donald-trump-south-china-sea/articleshow/126287702.cms",
+        "description": "Will 2026 become the year when Chinese President Xi Jinping decides that the long-promised \u201creunification\u201d of Taiwan can no longer wait?Driving the newsChina\u2019s latest round of live-fire military drills in the air and seas around Taiwan landed with unusually sharp timing: just as the calendar flipped another year closer to 2027, a date that looms larger for US defense planners than almost any other. \u20183, 2, 1, FIRE!\u2019: China Rockets ROAR On Day 2 Of Taiwan War Games Yet Trump Says He Isn&#x27;t &#x27;WORRIED&#x27; Beijing described the exercises as a \u201cstern warning\u201d to separatist forces."
+      },
+      {
+        "title": "Will China invade Taiwan by end of 2026? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/will-china-invade-taiwan-before-2027",
+        "description": "To trade on &quot;<strong>Will China invade Taiwan by end of 2026?</strong>,&quot; simply choose whether you believe the answer is &quot;Yes&quot; or &quot;No.&quot; Each side has a current price that reflects the market&#x27;s implied probability. Enter your amount and click &quot;Trade.&quot; If you buy &quot;Yes&quot; shares and the outcome resolves as &quot;Yes,&quot; each share pays out $1."
+      },
+      {
+        "title": "A Taiwan war would be global | The Australian Naval Institute",
+        "url": "https://navalinstitute.com.au/a-taiwan-war-would-be-global/",
+        "description": "By Sub-Lieutenant Joseph T. Reilly, Royal Navy \u00b7 <strong>If China were to begin a war against Taiwan as soon as 2027 and the United States decides to mount a regional response, the United States would lose</strong>.1"
+      },
+      {
+        "title": "Could China invade Taiwan in 2026 ? \u2013 Eurasia Business News",
+        "url": "https://eurasiabusinessnews.com/2026/02/13/could-china-invade-taiwan-in-2026/",
+        "description": "Article n\u00b02026 \u00b7 <strong>No government, intelligence agency, or analyst can say with confidence today whether China will invade Taiwan by the end of 2026</strong>, and any specific prediction is speculative."
+      },
+      {
+        "title": "r/bestof on Reddit: u/MariachiArchery explains why China won't invade Taiwan.",
+        "url": "https://www.reddit.com/r/bestof/comments/1q0ugdn/umariachiarchery_explains_why_china_wont_invade/",
+        "description": "Now I sit in the year of our lord 2026 thinking about how that mentality is leading us down a road of active conflicts on a scale not seen since the last fires were put out in Japan in 1945. ... But yeah, obviously don&#x27;t just fully trust one dude on the future of geopolitics as gospel. ... Eh, this is more of a simple logistics issue. Invading a nation like Taiwan from the ocean is a massive undertaking."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Thanks to Trump, Xi Has Time on His Side With Taiwan",
+        "url": "https://foreignpolicy.com/2026/02/25/trump-xi-china-taiwan-invasion-semiconductor-tariffs/",
+        "description": "Beijing is less likely to risk an invasion while Trump is facilitating its pressure campaign against Taipei.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "China & Taiwan Update, February 20, 2026 | ISW",
+        "url": "https://understandingwar.org/research/china-taiwan/china-taiwan-update-february-23-2026/",
+        "description": "The United States is reportedly hesitating over whether to fulfill its next arms sales to Taiwan due to Trumps upcoming visit to Beijing",
+        "age": "6 days ago"
+      },
+      {
+        "title": "Would China Adhere to International Humanitarian Law in a Taiwan Contingency? | Global Taiwan Institute",
+        "url": "https://globaltaiwan.org/2026/02/china-humanitarian-law-taiwan-contingency/",
+        "description": "With a military that has not seen large-scale active conflict since 1979, much remains unknown about how the armed forces of the People\u2019s Republic of China (PRC) would conduct themselves in a modern conflict. While logistics, tactics, and the overall outcomes of a Taiwan contingency are all ...",
+        "age": "4 days ago"
+      },
+      {
+        "title": "US gov't warned Nvidia CEO Jensen Huang, Tim Cook, and Lisa Su that China could invade Taiwan by 2027 \u2014 Apple CEO reportedly said he sleeps 'with one eye open' | Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/us-govt-warned-nvidia-ceo-jensen-huang-tim-cook-and-lisa-su-that-china-could-invade-taiwan-by-2027-apple-ceo-reportedly-said-he-sleeps-with-one-eye-open",
+        "description": "A new report reveals that tech CEOs were cautioned in 2023, yet haven't really taken action on the info.",
+        "age": "5 days ago"
+      },
+      {
+        "title": "Tim Cook Warned by CIA That China Could Move on Taiwan by 2027 - MacRumors",
+        "url": "https://www.macrumors.com/2026/02/24/tim-cook-warned-by-cia-china-taiwan-2027/",
+        "description": "Apple CEO Tim Cook was among a handful of top tech executives who attended a classified CIA briefing warning that China could attack Taiwan by 2027, according to a sweeping investigative report by The New York Times ($). The previously unreported briefing was apparently held in a secure room ...",
+        "age": "5 days ago"
+      }
+    ],
+    "query": "Will China invade Taiwan by end of 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

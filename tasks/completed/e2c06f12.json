@@ -1,0 +1,85 @@
+{
+  "id": "e2c06f12",
+  "title": "Polymarket research: Will John Thune win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will John Thune win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.398804+00:00",
+  "updated_at": "2026-03-01T07:28:33.084400+00:00",
+  "claimed_at": "2026-03-01T07:28:30.970018+00:00",
+  "completed_at": "2026-03-01T07:28:33.084383+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will John Thune win the 2028 Republican presidential nomination?\n\nWeb Results (5):\n- Republican Presidential Nominee 2028 Predictions & Odds | Polymarket: <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president</str\n- John Thune - Ballotpedia: Thune was assigned to the following committees:[Source] ... Note: At this time, Ballotpedia is combining all declared candidates for this election int\n- The potential 2028 Republican presidential candidates, ranked - The Washington Post: Most are all-in on MAGA \u00b7 Who is going to lead the Republican Party after a decade of President Donald Trump\n- Thune guarantees voter ID bill to hit the Senate despite Schumer, Dem opposition: 'We will have a vote': Senate Majority Leader John Thune, R-S.D., told Fox News Digital that the SAVE America Act, voter ID legislation backed by President Donald Trump, wou\n- 2028 United States Senate elections - Wikipedia: Four-term Republican and Senate Republican Leader <strong>John Thune was re-elected in 2022</strong> with 69.6% of the vote.\n\nNews (5):\n- The potential 2028 Republican presidential candidates, ranked - The Washington Post (2 days ago)\n- John Thune cautions that Texas Senate seat could flip to Dems (2 days ago)\n- Presidential election, 2028 - Ballotpedia (4 days ago)\n- 2028 Presidential Predictions | 2028 Democratic nominee? (1 week ago)\n- Welcome to the 2028 guessing game - POLITICO (November 7, 2025)",
+    "web_results": [
+      {
+        "title": "Republican Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/republican-presidential-nominee-2028/will-john-thune-win-the-2028-republican-presidential-nomination",
+        "description": "<strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president</strong>. Otherwise, this market will resolve to \u201cNo\u201d. The resolution source for this market will be a consensus ..."
+      },
+      {
+        "title": "John Thune - Ballotpedia",
+        "url": "https://ballotpedia.org/John_Thune",
+        "description": "Thune was assigned to the following committees:[Source] ... Note: At this time, Ballotpedia is combining all declared candidates for this election into one list under a general election heading. As primary election dates are published, this information will be updated to separate general election candidates from primary candidates as appropriate. The general election will occur on November 7, 2028."
+      },
+      {
+        "title": "The potential 2028 Republican presidential candidates, ranked - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/02/27/2028-republican-presidential-candidates-trump-vance-rubio-gop/",
+        "description": "Most are all-in on MAGA \u00b7 Who is going to lead the Republican Party after a decade of President Donald Trump"
+      },
+      {
+        "title": "Thune guarantees voter ID bill to hit the Senate despite Schumer, Dem opposition: 'We will have a vote'",
+        "url": "https://www.foxnews.com/politics/thune-guarantees-voter-id-bill-hit-senate-despite-schumer-dems-opposition-we-have-vote",
+        "description": "Senate Majority Leader John Thune, R-S.D., told Fox News Digital that the SAVE America Act, voter ID legislation backed by President Donald Trump, would get a vote in the Senate. (Michael M. Santiago/Getty Images) His comments came as he crisscrossed his home state of South Dakota, where he and Republicans in their respective states are out selling their legislative achievements as primary season fast approaches."
+      },
+      {
+        "title": "2028 United States Senate elections - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_Senate_elections",
+        "description": "Four-term Republican and Senate Republican Leader <strong>John Thune was re-elected in 2022</strong> with 69.6% of the vote."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The potential 2028 Republican presidential candidates, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/27/2028-republican-presidential-candidates-trump-vance-rubio-gop",
+        "description": "Most are all-in on MAGA \u00b7 Who is going to lead the Republican Party after a decade of President Donald Trump",
+        "age": "2 days ago"
+      },
+      {
+        "title": "John Thune cautions that Texas Senate seat could flip to Dems",
+        "url": "https://thehill.com/homenews/state-watch/5758488-john-thune-texas-senate-race-democrats/",
+        "description": "Senate Majority Leader John Thune (R-S.D.) is warning that the Texas Senate seat long held by Sen. John Cornyn (R) could flip to Democrats in the November election if the incumbent is defeated in the GOP primary. \u201cHonestly, if you look at the polling in a general election setting, I don\u2019t ...",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "4 days ago"
+      },
+      {
+        "title": "2028 Presidential Predictions | 2028 Democratic nominee?",
+        "url": "https://www.predictit.org/markets/detail/8153/Who-will-win-the-2028-Democratic-presidential-nomination",
+        "description": "Find out the odds of who will be the 2028 US Democratic presidential nominee. Get the latest 2028 predictions on PredictIt. PredictIt enables you to follow along with 2028 election predictions, and more! You can even make money on PredictIt!",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Welcome to the 2028 guessing game - POLITICO",
+        "url": "https://www.politico.com/newsletters/playbook/2025/11/07/welcome-to-the-2028-guessing-game-00641628",
+        "description": "And a new plan to end the shutdown emerges. But Democrats are still dug in.",
+        "age": "November 7, 2025"
+      }
+    ],
+    "query": "Will John Thune win the 2028 Republican presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

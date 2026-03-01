@@ -1,0 +1,85 @@
+{
+  "id": "d67b4eca",
+  "title": "Polymarket research:  Iran agrees to end enrichment of uranium by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": " Iran agrees to end enrichment of uranium by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.358066+00:00",
+  "updated_at": "2026-03-01T07:28:30.951632+00:00",
+  "claimed_at": "2026-03-01T07:28:29.270829+00:00",
+  "completed_at": "2026-03-01T07:28:30.951617+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research:  Iran agrees to end enrichment of uranium by March 31?\n\nWeb Results (5):\n- Iran agrees to end enrichment of uranium by March 31? Pr... | Polymarket: Propose resolution<strong>This market will resolve to &quot;Yes&quot; if Iran publicly agrees to end all enrichment of uranium by March 31, 2026, 11:5\n- Iran's Nuclear Timetable: The Weapon Potential | Iran Watch: How quickly could Iran get enough fissile material for a small nuclear arsenal? This timetable estimates how quickly Iran could amass enough weapons-g\n- What Is Iran's nuclear program and what happened in US deal talks? - Newsweek: <strong>Tehran and Washington had restarted Omani-brokered talks in February with President Donald Trump setting an early March deadline for an agreem\n- Iran agrees in breakthrough talks not to stockpile enriched uranium that could build bombs: <strong>IRAN HAS AGREED never to stockpile enriched uranium</strong>, mediator Oman\u2019s top diplomat says, in what he called a breakthrough that he hope\n- Nuclear program of Iran - Wikipedia: Iran and the US have engaged in bilateral negotiations since April 2025, aiming to curb Iran&#x27;s program for sanctions relief, though <strong>Iran&\n\nNews (5):\n- UN nuclear watchdog says it's unable to verify whether Iran has suspended all uranium enrichment | PBS News (2 days ago)\n- Trump wonders why Iran won\u2019t \u2018capitulate\u2019 on its nuclear program. Here\u2019s why | CNN (2 days ago)\n- As risk of war looms, U.S.-Iran nuclear talks wrap with no deal announced | PBS News (2 days ago)\n- Iran Update, February 27, 2026 | ISW (1 day ago)\n- Peace \u2018within reach\u2019 as Iran agrees no nuclear material stockpile: Oman FM | Military News | Al Jazeera (1 day ago)",
+    "web_results": [
+      {
+        "title": "Iran agrees to end enrichment of uranium by March 31? Pr... | Polymarket",
+        "url": "https://polymarket.com/event/iran-agrees-to-end-enrichment-of-uranium-by-march-31/iran-agrees-to-end-enrichment-of-uranium-by-march-31",
+        "description": "Propose resolution<strong>This market will resolve to &quot;Yes&quot; if Iran publicly agrees to end all enrichment of uranium by March 31, 2026, 11:59 PM ET</strong>."
+      },
+      {
+        "title": "Iran's Nuclear Timetable: The Weapon Potential | Iran Watch",
+        "url": "https://www.iranwatch.org/our-publications/articles-reports/irans-nuclear-timetable-weapon-potential",
+        "description": "How quickly could Iran get enough fissile material for a small nuclear arsenal? This timetable estimates how quickly Iran could amass enough weapons-grade uranium for at least five bombs. Once it has the enriched uranium, however, it could take at least several months to turn it into a working ..."
+      },
+      {
+        "title": "What Is Iran's nuclear program and what happened in US deal talks? - Newsweek",
+        "url": "https://www.newsweek.com/what-irans-nuclear-program-what-could-give-up-11586646",
+        "description": "<strong>Tehran and Washington had restarted Omani-brokered talks in February with President Donald Trump setting an early March deadline for an agreement to be reached</strong>. The U.S. was demanding Iran dismantle its main nuclear facilities and transfer its ..."
+      },
+      {
+        "title": "Iran agrees in breakthrough talks not to stockpile enriched uranium that could build bombs",
+        "url": "https://www.thejournal.ie/iran-agrees-in-breakthrough-talks-not-to-stockpile-enriched-uranium-that-could-build-bombs-6970304-Feb2026/",
+        "description": "<strong>IRAN HAS AGREED never to stockpile enriched uranium</strong>, mediator Oman\u2019s top diplomat says, in what he called a breakthrough that he hoped would prevent war."
+      },
+      {
+        "title": "Nuclear program of Iran - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nuclear_program_of_Iran",
+        "description": "Iran and the US have engaged in bilateral negotiations since April 2025, aiming to curb Iran&#x27;s program for sanctions relief, though <strong>Iran&#x27;s leaders have refused to stop enriching uranium</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "UN nuclear watchdog says it's unable to verify whether Iran has suspended all uranium enrichment | PBS News",
+        "url": "https://www.pbs.org/newshour/world/un-nuclear-watchdog-says-its-unable-to-verify-whether-iran-has-suspended-all-uranium-enrichment",
+        "description": "The agency says Iran has four declared enrichment facilities, but it has lost \"continuity of knowledge\" about stockpiles.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Trump wonders why Iran won\u2019t \u2018capitulate\u2019 on its nuclear program. Here\u2019s why | CNN",
+        "url": "https://www.cnn.com/2026/02/27/middleeast/trump-iran-capitulated-reasons-intl",
+        "description": "\u201cCurious to know why we do not capitulate? Because we are IRANIAN,\u201d Iranian Foreign Minister Abbas Araghchi wrote after US envoy Steve Witkoff said President Donald Trump was wondering why Tehran hadn\u2019t yielded to American pressure over its nuclear program.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "As risk of war looms, U.S.-Iran nuclear talks wrap with no deal announced | PBS News",
+        "url": "https://www.pbs.org/newshour/world/as-risk-of-war-looms-u-s-iran-nuclear-talks-wrap-with-no-deal-announced",
+        "description": "Trump wants a deal to constrain Iran\u2019s nuclear program, and he sees an opportunity while the country is struggling at home with growing dissent following nationwide protests.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Iran Update, February 27, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-27-2026",
+        "description": "The IAEA cannot verify whether Iran has suspended \u201call enrichment-related activities,\u201d according to a confidential report seen by the AP.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Peace \u2018within reach\u2019 as Iran agrees no nuclear material stockpile: Oman FM | Military News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/28/peace-within-reach-as-iran-agrees-no-nuclear-material-stockpile-oman-fm",
+        "description": "Oman's Foreign Minister says most recent indirect talks between US, Iran 'really advanced, substantially'.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": " Iran agrees to end enrichment of uranium by March 31?",
+    "sources_count": 10
+  },
+  "error": null
+}

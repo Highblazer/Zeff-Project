@@ -1,0 +1,23 @@
+{
+  "_WARNING": "DO NOT store credentials here. All secrets are loaded from .env via lib/credentials.py",
+  "icmarkets": {
+    "client_id": "LOAD_FROM_ENV",
+    "api_secret": "LOAD_FROM_ENV",
+    "access_token": "LOAD_FROM_ENV",
+    "refresh_token": "LOAD_FROM_ENV",
+    "ctid_trader_account_id": "LOAD_FROM_ENV",
+    "account_id": "LOAD_FROM_ENV",
+    "mode": "demo"
+  },
+  "trading": {
+    "symbols": ["EURUSD", "GBPUSD", "USDJPY", "XAUUSD", "XAGUSD", "USOIL"],
+    "max_positions": 3,
+    "risk_per_trade": 0.02,
+    "stop_loss_pct": 2.0,
+    "take_profit_pct": 6.0,
+    "lot_size": 1000,
+    "aggressive": false,
+    "gap_threshold": 0.2,
+    "momentum_enabled": true
+  }
+}

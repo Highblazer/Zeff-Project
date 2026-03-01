@@ -1,0 +1,82 @@
+{
+  "id": "fb9bb28c",
+  "title": "Python trading bot libraries frameworks 2026",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Python trading bot libraries frameworks 2026"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T04:40:19.272249+00:00",
+  "updated_at": "2026-02-26T04:40:20.978883+00:00",
+  "claimed_at": "2026-02-26T04:40:19.281526+00:00",
+  "completed_at": "2026-02-26T04:40:20.978864+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Python trading bot libraries frameworks 2026\n\nWeb Results (5):\n- GitHub - merovinh/best-of-algorithmic-trading: A ranked list of algorithmic trading open-source libraries, frameworks, bots, tools, books, communities, education materials. Updated weekly.: Wolfinch (\ud83e\udd4911 \u00b7 \u2b50 270 \u00b7 \ud83d\udc80) - Wolfinch is your friendly trader Bot written in Python. \u2757\ufe0fGPL-3.0 \u00b7 QTradeX (\ud83e\udd4910 \u00b7 \u2b50 56) - AI-powered SDK featuring algor\n- Jesse - The Open-source Python Bot For Trading Cryptocurrencies: Powerful backtesting trading engine with easy-to-learn API with basic Python skills and the ability to trade live! ... I&#x27;ve known Jesse and Saleh\n- Python for Algo Trading Strategies: Libraries and Frameworks | marketfeed: Traders use several Python frameworks for strategy development, testing, and live execution, including: <strong>Backtrader \u2013 A user-friendly framework\n- GitHub - freqtrade/freqtrade: Free, open source crypto trading bot: We invite you to read the bot documentation to ensure you understand how the bot is working. Please find the complete documentation on the freqtrade w\n- Trading Frameworks, support backtesting and live trading: Superalgos is a community-owned ... QSTrader backtesting simulation engine. <strong>QSTrader is a free Python-based open-source modular schedule-drive\n\nNews (5):\n- I Built a Crypto Trading Bot in Python \u2014 Here's the Whole Thing - DEV Community (20 hours ago)\n- Open-Source Python Bot for Polymarket Trading Insights | Phemex News (3 weeks ago)\n- Weekly Python Trending Projects You Should Track \u00b7 Technical news about AI, coding and all (3 days ago)\n- I Spent 6 Months Building Trading Bots. Here\u2019s What Actually Works (And What Doesn\u2019t) | by BARRON VAN DEN BERG | Jan, 2026 | Medium (3 weeks ago)\n- Top 7 Best AI Crypto Trading Bots | by Pranjal Saxena | Predict | Feb, 2026 | Medium (3 days ago)",
+    "web_results": [
+      {
+        "title": "GitHub - merovinh/best-of-algorithmic-trading: A ranked list of algorithmic trading open-source libraries, frameworks, bots, tools, books, communities, education materials. Updated weekly.",
+        "url": "https://github.com/merovinh/best-of-algorithmic-trading",
+        "description": "Wolfinch (\ud83e\udd4911 \u00b7 \u2b50 270 \u00b7 \ud83d\udc80) - Wolfinch is your friendly trader Bot written in Python. \u2757\ufe0fGPL-3.0 \u00b7 QTradeX (\ud83e\udd4910 \u00b7 \u2b50 56) - AI-powered SDK featuring algorithmic trading, backtesting,.. \u2757Unlicensed \u00b7 bTrader (\ud83e\udd498 \u00b7 \u2b50 330 \u00b7 \ud83d\udc80) - Triangle arbitrage trading bot for Binance. \u2757\ufe0fGPL-3.0 \u00b7 CCXT (\ud83e\udd4746 \u00b7 \u2b50 41K) - A cryptocurrency trading API with more than 100 exchanges in.. MIT \u00b7 GitHub (\ud83d\udc68\u200d\ud83d\udcbb 870 \u00b7 \ud83d\udd00 8.2K \u00b7 \ud83d\udce6 6.1K \u00b7 \ud83d\udccb 11K - 7% open \u00b7 \u23f1\ufe0f 15.01.2026):"
+      },
+      {
+        "title": "Jesse - The Open-source Python Bot For Trading Cryptocurrencies",
+        "url": "https://jesse.trade/",
+        "description": "Powerful backtesting trading engine with easy-to-learn API with basic Python skills and the ability to trade live! ... I&#x27;ve known Jesse and Saleh since the project was still written in TypeScript. A lot has changed over the years, I&#x27;ve tried many bots and projects, and some have even been discontinued. Jesse is a framework that allows you to develop your own strategies in a simple yet extremely effective way, and with which you can potentially make trading decisions from any source or idea that comes to mind."
+      },
+      {
+        "title": "Python for Algo Trading Strategies: Libraries and Frameworks | marketfeed",
+        "url": "https://www.marketfeed.com/read/en/python-for-algo-trading-strategies-libraries-and-frameworks",
+        "description": "Traders use several Python frameworks for strategy development, testing, and live execution, including: <strong>Backtrader \u2013 A user-friendly framework for backtesting and live trading \u00b7 QuantConnect (Lean)</strong> \u2013 A cloud-based platform for backtesting ..."
+      },
+      {
+        "title": "GitHub - freqtrade/freqtrade: Free, open source crypto trading bot",
+        "url": "https://github.com/freqtrade/freqtrade",
+        "description": "We invite you to read the bot documentation to ensure you understand how the bot is working. Please find the complete documentation on the freqtrade website. Based on Python 3.11+: For botting on any operating system - Windows, macOS and Linux."
+      },
+      {
+        "title": "Trading Frameworks, support backtesting and live trading",
+        "url": "https://docs.pytrade.org/trading",
+        "description": "Superalgos is a community-owned ... QSTrader backtesting simulation engine. <strong>QSTrader is a free Python-based open-source modular schedule-driven backtesting framework for long-short equities and ETF based systematic trading strategies</strong>...."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "I Built a Crypto Trading Bot in Python \u2014 Here's the Whole Thing - DEV Community",
+        "url": "https://dev.to/maymay5692/i-built-a-crypto-trading-bot-in-python-heres-the-whole-thing-4j6p",
+        "description": "I wanted a trading bot that actually ran on real exchanges, not a tutorial that stops at \"and now you...",
+        "age": "20 hours ago"
+      },
+      {
+        "title": "Open-Source Python Bot for Polymarket Trading Insights | Phemex News",
+        "url": "https://phemex.com/news/article/new-opensource-python-bot-offers-realtime-trading-insights-for-polymarket-58307",
+        "description": "Discover a free Python bot offering real-time trading insights for Polymarket, integrating Binance data and technical analysis for BTC, ETH, SOL, and XRP.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "Weekly Python Trending Projects You Should Track \u00b7 Technical news about AI, coding and all",
+        "url": "https://dasroot.net/posts/2026/02/weekly-python-trending-projects",
+        "description": "The Data Formulator project leverages ... to perform advanced analysis with minimal code. Both libraries are supported by PyArrow 14.0.1 for efficient data interchange. AI-driven applications in 2026 benefit from frameworks like LlamaIndex 0.9.2 and Deep Agents 1.3.0, which simplify ...",
+        "age": "3 days ago"
+      },
+      {
+        "title": "I Spent 6 Months Building Trading Bots. Here\u2019s What Actually Works (And What Doesn\u2019t) | by BARRON VAN DEN BERG | Jan, 2026 | Medium",
+        "url": "https://medium.com/@barronqasem/i-built-trading-bots-that-made-money-while-i-slept-heres-how-you-can-too-6a466ea0d184",
+        "description": "I Spent 6 Months Building Trading Bots. Here\u2019s What Actually Works (And What Doesn\u2019t) The brutal truth about algorithmic trading that nobody talks about Let me start with an uncomfortable \u2026",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "Top 7 Best AI Crypto Trading Bots | by Pranjal Saxena | Predict | Feb, 2026 | Medium",
+        "url": "https://medium.com/predict/top-7-best-ai-crypto-trading-bots-53c9918e93f8",
+        "description": "The crypto market runs nonstop, driven by news, trends, and changing investor moods. For traders, this can be both exciting and\u2026",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Python trading bot libraries frameworks 2026",
+    "sources_count": 10
+  },
+  "error": null
+}

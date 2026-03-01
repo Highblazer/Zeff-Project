@@ -1,0 +1,28 @@
+{
+  "id": "01fdf3c2",
+  "title": "Polymarket research: Hyperlend FDV above $20M one day after launch?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Hyperlend FDV above $20M one day after launch?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T07:39:48.918555+00:00",
+  "updated_at": "2026-02-27T07:39:54.802273+00:00",
+  "claimed_at": "2026-02-27T07:39:53.177792+00:00",
+  "completed_at": "2026-02-27T07:39:54.802252+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Hyperlend FDV above $20M one day after launch?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Hyperlend FDV above $20M one day after launch?",
+    "sources_count": 0
+  },
+  "error": null
+}

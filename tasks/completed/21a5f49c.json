@@ -1,0 +1,85 @@
+{
+  "id": "21a5f49c",
+  "title": "Polymarket research: US strikes Iraq by February 28?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "US strikes Iraq by February 28?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T09:02:21.042731+00:00",
+  "updated_at": "2026-03-01T09:02:30.404534+00:00",
+  "claimed_at": "2026-03-01T09:02:28.401036+00:00",
+  "completed_at": "2026-03-01T09:02:30.404520+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: US strikes Iraq by February 28?\n\nWeb Results (5):\n- February 2024 United States airstrikes in Iraq and Syria - Wikipedia: On 28 January 2024, a Shahed 136 ... causing injuries to 47 others. <strong>Around midnight between 2 and 3 February local time (UTC+3), the United St\n- Iraq: Attacks and U.S. Strikes Reopen Discussion of U.S. Military Presence | Congress.gov | Library of Congress: From October 2023 to February 2024, observers documented <strong>more than 150 claimed attacks by the &quot;Islamic Resistance in Iraq&quot; on U.S. a\n- Iran Update Special Report: US and Israeli Strikes, February 28, 2026: The PMF announced that airstrikes killed two PMF members in al Mayadin and injured three PMF members in Sanidij.[19] An unspecified security source to\n- U.S. And Israel At War With Iran (Updated): Note the book on PM Bibi Netanyahu\u2019s ... February 28, 2026 \u00b7 There are reports that <strong>a strike has targeted Iranian-backed Kataib Hezbollah mili\n- US strikes Iraq by...? Predictions & Odds | Polymarket: Propose resolutionThis market will resolve to &quot;Yes&quot; if the United States initiates a drone, missile, or air strike on Iraqi soil or any offi\n\nNews (5):\n- Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times (1 day ago)\n- Iran Update Special Report: US and Israeli Strikes, February 28, 2026 (15 hours ago)\n- Live Updates: U.S. and Israel attack Iran | PBS News (19 hours ago)\n- Iranian leader Khamenei killed in air strikes as U.S., Israel launch attacks | Reuters (1 day ago)\n- What to Know About the U.S. Attacks on Iran - The New York Times (1 day ago)",
+    "web_results": [
+      {
+        "title": "February 2024 United States airstrikes in Iraq and Syria - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/February_2024_United_States_airstrikes_in_Iraq_and_Syria",
+        "description": "On 28 January 2024, a Shahed 136 ... causing injuries to 47 others. <strong>Around midnight between 2 and 3 February local time (UTC+3), the United States Air Force carried out airstrikes targeting Iran-affiliated militia groups in Iraq and Syria</strong>...."
+      },
+      {
+        "title": "Iraq: Attacks and U.S. Strikes Reopen Discussion of U.S. Military Presence | Congress.gov | Library of Congress",
+        "url": "https://www.congress.gov/crs-product/IN12309",
+        "description": "From October 2023 to February 2024, observers documented <strong>more than 150 claimed attacks by the &quot;Islamic Resistance in Iraq&quot; on U.S. and other targets in Iraq, Syria, Israel, and Jordan, including the January 28</strong> ..."
+      },
+      {
+        "title": "Iran Update Special Report: US and Israeli Strikes, February 28, 2026",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-us-and-israeli-strikes-february-28-2026/",
+        "description": "The PMF announced that airstrikes killed two PMF members in al Mayadin and injured three PMF members in Sanidij.[19] An unspecified security source told Iraqi media that Israel targeted the Kataib Hezbollah headquarters in Jurf al Sakhr.[20] The United States previously attacked the 46th and 47th PMF brigades, which are controlled by Kataib Hezbollah, in Jurf al Sakhr in January 2024.[21] Jurf al Sakhr is a previously Sunni town south of Baghdad that Iranian-backed Iraqi militia Kataib Hezbollah occupied after committing acts of sectarian cleansing against the previous residents.[22] Iran has responded immediately to the US and Israeli strikes."
+      },
+      {
+        "title": "U.S. And Israel At War With Iran (Updated)",
+        "url": "https://www.twz.com/news-features/iran-is-under-attack",
+        "description": "Note the book on PM Bibi Netanyahu\u2019s ... February 28, 2026 \u00b7 There are reports that <strong>a strike has targeted Iranian-backed Kataib Hezbollah militants in the Iraqi capital, Baghdad</strong>...."
+      },
+      {
+        "title": "US strikes Iraq by...? Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/us-strikes-iraq-by",
+        "description": "Propose resolutionThis market will resolve to &quot;Yes&quot; if the United States initiates a drone, missile, or air strike on Iraqi soil or any official Iraqi embassy or consulate by the listed date, 11:59 PM ET. Otherwise, this market will resolve to &quot;No&quot;."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times",
+        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+        "description": "The death of Ayatollah Ali Khamenei raised questions about leadership succession as attacks on Iran, and its responses, continued.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Iran Update Special Report: US and Israeli Strikes, February 28, 2026",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-us-and-israeli-strikes-february-28-2026/",
+        "description": "The United States and Israel have launched a strike campaign into Iran in order to topple the Islamic Republic, among other objectives.",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "Live Updates: U.S. and Israel attack Iran | PBS News",
+        "url": "https://www.pbs.org/newshour/world/live-updates-u-s-and-israel-attack-iran",
+        "description": "The strikes opened a stunning new chapter in U.S. intervention in Iran, marking the second time in eight months that the Trump administration has attacked the country during talks over its nuclear program.",
+        "age": "19 hours ago"
+      },
+      {
+        "title": "Iranian leader Khamenei killed in air strikes as U.S., Israel launch attacks | Reuters",
+        "url": "https://www.reuters.com/business/aerospace-defense/israel-us-launch-strikes-iran-2026-02-28/",
+        "description": "Explosions also rang out in nearby oil-producing Gulf Arab countries.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "What to Know About the U.S. Attacks on Iran - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-attacks-what-to-know.html",
+        "description": "Iran\u2019s supreme leader, Ayatollah Ali Khamenei, was killed in the major assault launched by the United States and Israel.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "US strikes Iraq by February 28?",
+    "sources_count": 10
+  },
+  "error": null
+}

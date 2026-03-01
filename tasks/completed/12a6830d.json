@@ -1,0 +1,85 @@
+{
+  "id": "12a6830d",
+  "title": "Polymarket research: Will GTA 6 cost $100+?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will GTA 6 cost $100+?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:35:58.916521+00:00",
+  "updated_at": "2026-03-01T07:36:09.774355+00:00",
+  "claimed_at": "2026-03-01T07:36:08.177035+00:00",
+  "completed_at": "2026-03-01T07:36:09.774339+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will GTA 6 cost $100+?\n\nWeb Results (5):\n- How Much Will GTA 6 Cost? New Research Claims $100 Price Point 'Would Actually Leave Money on The Table' - IGN: Now, new research has claimed that <strong>if Rockstar were to go with $100 for GTA 6, it would actually cost the company money</strong>, insisting th\n- Will GTA 6 cost $100+? Predictions & Odds | Polymarket: Yes. You don&#x27;t need to trade to stay informed. This page serves as a live tracker for &quot;<strong>Will GTA 6 cost $100+?</strong>.&quot; The ou\n- r/GTA6 on Reddit: Yeah bros, I think GTA 6 is gonna be $100 lol: This sub is completely deranged, <strong>there is zero concrete evidence that the game will cost $100</strong>, just total fearmongering More replies \n- r/GTA6 on Reddit: Yet another guy is speaking up in favor of GTA 6 being priced at 100 USD. It all feels like some kind of agenda. Why would a voice actor want the game priced that high when he has not even seen what the final product looks like?: <strong>I seriously doubt it&#x27;ll be $100</strong> but I&#x27;d be willing to bet it would still beat BG3 sales at that price even console only. Wa\n- r/GTA6 on Reddit: GTA6 will be $100: The game is going to be $70 max for the regular and <strong>$100 for premium</strong>. ... If it costs 70$. 50 million copies will net them 3.5 billio\n\nNews (5):\n- GTA 6 price may have been revealed \u2013 and it isn\u2019t cheap (6 days ago)\n- GTA 6 console and PC price may have leaked and it\u2019s what we all feared - NotebookCheck.net News (6 days ago)\n- GTA 6 price leak: Here's how much gamers will pay on Xbox, PC (6 days ago)\n- GTA 6 Price : GTA 6 likely price leaked online: Here\u2019s how much the popular game may cost | - The Times of India (1 week ago)\n- No more GTA 6 delays as Take-Two reportedly reaffirms launch date to Sony, Microsoft - NotebookCheck.net News (2 days ago)",
+    "web_results": [
+      {
+        "title": "How Much Will GTA 6 Cost? New Research Claims $100 Price Point 'Would Actually Leave Money on The Table' - IGN",
+        "url": "https://www.ign.com/articles/how-much-will-gta-6-cost-new-research-claims-100-price-point-would-actually-leave-money-on-the-table",
+        "description": "Now, new research has claimed that <strong>if Rockstar were to go with $100 for GTA 6, it would actually cost the company money</strong>, insisting the revenue \u201csweet spot\u201d remains $70."
+      },
+      {
+        "title": "Will GTA 6 cost $100+? Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/will-gta-6-cost-100",
+        "description": "Yes. You don&#x27;t need to trade to stay informed. This page serves as a live tracker for &quot;<strong>Will GTA 6 cost $100+?</strong>.&quot; The outcome probabilities update in real-time as new trades come in. You can bookmark this page and check the comments section to see what other traders are saying."
+      },
+      {
+        "title": "r/GTA6 on Reddit: Yeah bros, I think GTA 6 is gonna be $100 lol",
+        "url": "https://www.reddit.com/r/GTA6/comments/1jpqlqp/yeah_bros_i_think_gta_6_is_gonna_be_100_lol/",
+        "description": "This sub is completely deranged, <strong>there is zero concrete evidence that the game will cost $100</strong>, just total fearmongering More replies ... That&#x27;s \u00a355. Games have been \u00a350-60 for 5+ years now."
+      },
+      {
+        "title": "r/GTA6 on Reddit: Yet another guy is speaking up in favor of GTA 6 being priced at 100 USD. It all feels like some kind of agenda. Why would a voice actor want the game priced that high when he has not even seen what the final product looks like?",
+        "url": "https://www.reddit.com/r/GTA6/comments/1p58eqe/yet_another_guy_is_speaking_up_in_favor_of_gta_6/",
+        "description": "<strong>I seriously doubt it&#x27;ll be $100</strong> but I&#x27;d be willing to bet it would still beat BG3 sales at that price even console only. Want to add I bought and very much enjoyed BG3 but people are going to buy this whatever the cost may be."
+      },
+      {
+        "title": "r/GTA6 on Reddit: GTA6 will be $100",
+        "url": "https://www.reddit.com/r/GTA6/comments/1j68mi9/gta6_will_be_100/",
+        "description": "The game is going to be $70 max for the regular and <strong>$100 for premium</strong>. ... If it costs 70$. 50 million copies will net them 3.5 billion dollars. Even if the absurd rumor about the 2 billion dollar budget is true, it would still yield humongous ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "GTA 6 price may have been revealed \u2013 and it isn\u2019t cheap",
+        "url": "https://www.theshortcut.com/p/gta-6-price-may-have-been-revealed-and-it-isnt-cheap",
+        "description": "It\u2019s safe to say that these may just be placeholder prices, but there has been speculation that GTA 6 will cost $100, bucking the previous high of Nintendo\u2019s Mario Kart World, which costs $80.",
+        "age": "6 days ago"
+      },
+      {
+        "title": "GTA 6 console and PC price may have leaked and it\u2019s what we all feared - NotebookCheck.net News",
+        "url": "https://www.notebookcheck.net/GTA-6-console-and-PC-price-may-have-leaked-and-it-s-what-we-all-feared.1232986.0.html",
+        "description": "The latest information comes from ... DLCs, and more. A recent listing for GTA 6 on Xbox Series X, that has since disappeared, had a price tag attached to it. It was set at \u00a389.99, which means in the US, the game could cost about $100....",
+        "age": "6 days ago"
+      },
+      {
+        "title": "GTA 6 price leak: Here's how much gamers will pay on Xbox, PC",
+        "url": "https://www.geo.tv/latest/652531-gta-6-price-leak-heres-how-much-gamers-will-pay-on-xbox-pc",
+        "description": "The much-anticipated video game Grand Theft Auto 6's price has leaked amid speculation that it could cost over $100.GTA 6 is scheduled for release on November 19, 2026, and eagle-eyed fans have spotted potential pricing points of...",
+        "age": "6 days ago"
+      },
+      {
+        "title": "GTA 6 Price : GTA 6 likely price leaked online: Here\u2019s how much the popular game may cost | - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/technology/gaming/gta-6-likely-price-leaked-online-heres-how-much-the-popular-game-may-cost/articleshow/128698894.cms",
+        "description": "Gaming News: Gamers eagerly waiting for the Grand Theft Auto VI have now spotted a digital listing which hints at the possible pricing of the much-awaited game. Ac.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "No more GTA 6 delays as Take-Two reportedly reaffirms launch date to Sony, Microsoft - NotebookCheck.net News",
+        "url": "https://www.notebookcheck.net/No-more-GTA-6-delays-as-Take-Two-reportedly-reaffirms-launch-date-to-Sony-Microsoft.1235945.0.html",
+        "description": "GTA 6 will release on consoles first, on November 19, and then a year or more later on PC. Recently, console pricing for the game was allegedly leaked and it could cost $100 (based on \u00a389.99 leaked European pricing). The PC price, however, could be $80, but it\u2019s uncertain what Rockstar\u2019s ...",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will GTA 6 cost $100+?",
+    "sources_count": 10
+  },
+  "error": null
+}

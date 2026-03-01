@@ -1,0 +1,47 @@
+[
+  {
+    "strategy": "EMA_50_1%_2%",
+    "balance": 210.12,
+    "return_pct": 5.06,
+    "trades": 4,
+    "wins": 3,
+    "losses": 1,
+    "win_rate": 75.0
+  },
+  {
+    "strategy": "EMA_50_1.5%_3%",
+    "balance": 209.0,
+    "return_pct": 4.5,
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate": 66.7
+  },
+  {
+    "strategy": "EMA_50_2%_4%",
+    "balance": 208.0,
+    "return_pct": 4.0,
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0
+  },
+  {
+    "strategy": "EMA_20_1%_2%",
+    "balance": 210.12,
+    "return_pct": 5.06,
+    "trades": 4,
+    "wins": 3,
+    "losses": 1,
+    "win_rate": 75.0
+  },
+  {
+    "strategy": "EMA_20_1.5%_3%",
+    "balance": 212.18,
+    "return_pct": 6.09,
+    "trades": 2,
+    "wins": 2,
+    "losses": 0,
+    "win_rate": 100.0
+  }
+]

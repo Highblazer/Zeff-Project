@@ -1,0 +1,28 @@
+{
+  "id": "1443d7fb",
+  "title": "Polymarket research: Will the price of Bitcoin be above $58,000 on February 27?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the price of Bitcoin be above $58,000 on February 27?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T08:13:48.328825+00:00",
+  "updated_at": "2026-02-27T08:14:03.636628+00:00",
+  "claimed_at": "2026-02-27T08:14:02.548645+00:00",
+  "completed_at": "2026-02-27T08:14:03.636611+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the price of Bitcoin be above $58,000 on February 27?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the price of Bitcoin be above $58,000 on February 27?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bd67099a",
+  "title": "Polymarket research: Spread: Timberwolves (-5.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Timberwolves (-5.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T07:58:26.892123+00:00",
+  "updated_at": "2026-02-27T07:58:40.717855+00:00",
+  "claimed_at": "2026-02-27T07:58:39.684826+00:00",
+  "completed_at": "2026-02-27T07:58:40.717836+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Timberwolves (-5.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Timberwolves (-5.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

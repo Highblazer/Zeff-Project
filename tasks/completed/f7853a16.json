@@ -1,0 +1,85 @@
+{
+  "id": "f7853a16",
+  "title": "Polymarket research: Will Andy Beshear win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Andy Beshear win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:11.740835+00:00",
+  "updated_at": "2026-02-26T23:35:25.860825+00:00",
+  "claimed_at": "2026-02-26T23:35:24.518195+00:00",
+  "completed_at": "2026-02-26T23:35:25.860809+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Andy Beshear win the 2028 US Presidential Election?\n\nWeb Results (5):\n- 2028 United States presidential election - Wikipedia: ^ Bernie Sanders 2.5%, Andy Beshear 2%, Wes Moore 1.9%, Gretchen Whitmer 1.5%, Ro Khanna 1.3%, Amy Klobuchar 0.8%, Rahm Emanuel 0.4%, Someone else 3.1\n- Andy Beshear\u2019s Chances of Winning 2028 Primary as He Gives Campaign Update - Newsweek: Proponents of a Beshear run point to his electoral success in Kentucky, a reliably Republican state, as proof he can win over Republican and independe\n- Comparing Andy Beshear, Gavin Newsom as they eye White House - Los Angeles Times: Times columnist and Newsom skeptic Mark Z. Barabak doubts the California governor\u2019s chances in 2028. Veteran Democratic strategist Garry South believe\n- Beshear on 2028: \u2018I will not leave a broken country\u2019: Kentucky Gov. Andy Beshear (D) considers running for president in 2028 but <strong>won&#x27;t decide until after his term as governor ends</strong>.\n- Andy Beshear for president in 2028? Experts weigh his odds | Lexington Herald Leader: Beshear is having an early moment in this presidential sweepstakes. H-L: Why, in your mind, is he having an early moment? Riddle: A couple reasons: On\n\nNews (5):\n- Newsom, Vance top picks in 2028 US presidential election betting odds (1 day ago)\n- Beshear on 2028: \u2018I will not leave a broken country\u2019 (1 week ago)\n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times (1 week ago)\n- New book by Andy Beshear, possible 2028 candidate, will focus on faith - The Washington Post (1 week ago)\n- Presidential election, 2028 - Ballotpedia (1 day ago)",
+    "web_results": [
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "^ Bernie Sanders 2.5%, Andy Beshear 2%, Wes Moore 1.9%, Gretchen Whitmer 1.5%, Ro Khanna 1.3%, Amy Klobuchar 0.8%, Rahm Emanuel 0.4%, Someone else 3.1% ^ Andy Beshear 2%, Gretchen Whitmer 2%, Wes Moore 1%"
+      },
+      {
+        "title": "Andy Beshear\u2019s Chances of Winning 2028 Primary as He Gives Campaign Update - Newsweek",
+        "url": "https://www.newsweek.com/andy-beshear-chances-winning-2028-primary-campaign-update-2094868",
+        "description": "Proponents of a Beshear run point to his electoral success in Kentucky, a reliably Republican state, as proof he can win over Republican and independent voters. However, <strong>polls suggest he is less known than other Democrats who could run in 2028</strong>."
+      },
+      {
+        "title": "Comparing Andy Beshear, Gavin Newsom as they eye White House - Los Angeles Times",
+        "url": "https://www.latimes.com/politics/story/2026-02-01/andy-beshear-gavin-newsom-trump-2028-democrats-presidential-race",
+        "description": "Times columnist and Newsom skeptic Mark Z. Barabak doubts the California governor\u2019s chances in 2028. Veteran Democratic strategist Garry South believes Newsom has a strong shot. The two hash it out. Dec. 14, 2025 \u00b7 Every candidate enters a contest with a backstory and a record, which is condensed to a summary that serves as calling card, strategic foundation and a rationale for their run. Here\u2019s Andy Beshear\u2019s: He\u2019s the popular two-term governor of a red state that three times voted overwhelmingly for Trump."
+      },
+      {
+        "title": "Beshear on 2028: \u2018I will not leave a broken country\u2019",
+        "url": "https://thehill.com/homenews/campaign/5745769-beshear-considering-2028-presidential-run/",
+        "description": "Kentucky Gov. Andy Beshear (D) considers running for president in 2028 but <strong>won&#x27;t decide until after his term as governor ends</strong>."
+      },
+      {
+        "title": "Andy Beshear for president in 2028? Experts weigh his odds | Lexington Herald Leader",
+        "url": "https://www.kentucky.com/news/politics-government/article311716212.html",
+        "description": "Beshear is having an early moment in this presidential sweepstakes. H-L: Why, in your mind, is he having an early moment? Riddle: A couple reasons: One, the folks who pay attention to politics day in and day out, know that Gov. Beshear is a very popular governor. He\u2019s won three times in a red state, and he\u2019s the only person in the mix who\u2019s actually won in a true red state. (Note: Beshear was elected to one term as Kentucky attorney general prior to running for governor.)"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Newsom, Vance top picks in 2028 US presidential election betting odds",
+        "url": "https://app.com/story/news/politics/2026/02/25/presidential-election-2028-odds-ron-desantis-ivanka-trump-feb-25-update/88858090007",
+        "description": "Way-to-early betting odds for the 2028 Presidential Election has Gavin Newsom and JD Vance in a tight race.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Beshear on 2028: \u2018I will not leave a broken country\u2019",
+        "url": "https://thehill.com/homenews/campaign/5745769-beshear-considering-2028-presidential-run/",
+        "description": "Kentucky Gov. Andy Beshear (D) acknowledged Thursday he is considering running for president in 2028 but said he would not decide until after his current term ends in late 2027. During an interview\u2026",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "But I\u2019d say, from the list of ... of electoral overperformance: Whitmer, Gallego, Shapiro, Warnock, Ossoff, Kelly, Beshear, Klobuchar. If you want to limit it to five, I\u2019d take the first five. Kelly has less charisma than the others (subjective, I know), Beshear will probably read as too much of an outright Joe Manchin-y centrist, and Klobuchar seems unlikely to run in 2028 as she\u2019d ...",
+        "age": "1 week ago"
+      },
+      {
+        "title": "New book by Andy Beshear, possible 2028 candidate, will focus on faith - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/02/18/beshear-book-kentucky-governor-2028/",
+        "description": "The Democratic governor of deep-red Kentucky will rebuke \u201chow faith has been hijacked\u201d by Donald Trump and other figures, his publisher says.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Andy Beshear win the 2028 US Presidential Election?",
+    "sources_count": 10
+  },
+  "error": null
+}

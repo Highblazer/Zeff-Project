@@ -1,0 +1,85 @@
+{
+  "id": "3dcdc1cd",
+  "title": "Polymarket research: Heat vs. 76ers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Heat vs. 76ers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:09.397730+00:00",
+  "updated_at": "2026-02-26T23:34:52.187670+00:00",
+  "claimed_at": "2026-02-26T23:34:50.875787+00:00",
+  "completed_at": "2026-02-26T23:34:52.187650+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Heat vs. 76ers\n\nWeb Results (5):\n- Heat 127-117 76ers (Nov 23, 2025) Final Score - ESPN: Game summary of the Miami Heat vs. Philadelphia 76ers NBA game, final score <strong>127-117</strong>, from November 23, 2025 on ESPN.\n- Sixers vs. Heat Tickets & Matchup History | Philadelphia 76ers: <strong>The 76ers and the Miami Heat have had almost 40 years of head-to-head battles</strong>. Get tickets to see these teams face off in Philly duri\n- 76ers vs Heat scores & predictions | Sofascore: Philadelphia 76ers is playing against Miami Heat on <strong>Feb 27, 2026 at 12:00:00 AM UTC</strong>.\n- r/heat on Reddit: [Barry] Heat is going to end the night a tenth of a percentage point behind 76ers for 6th in East and 3 back of no. 5 Toronto.: Zach Lowe on the Heat: \u201cI think they\u2019ve reached an existential crisis with their offense, and they need to do something dramatic to overhaul it. I\u2019ve \n- Philadelphia 76ers vs. Miami Heat odds, tips and betting trends | Feb. 26: The Philadelphia 76ers (32-26) face the Miami Heat (31-28) as just <strong>2.5-point favorites on Thursday, February 26, 2026 at 7 p.m. ET</strong> on\n\nNews (5):\n- After wilting down the stretch vs. Bucks, Heat moves on to game with play-in stakes vs. 76ers (1 day ago)\n- 76ers vs. Heat Prediction, Odds, Picks - Feb. 26 | FOX Sports (2 days ago)\n- Miami Heat vs Philadelphia 76ers Prediction, 2/26/2026 Preview and Pick (1 day ago)\n- Miami Heat vs Philadelphia 76ers Odds - Thursday February 26 2026 (1 day ago)\n- Miami Heat vs Philadelphia 76ers injury report: Who's playing, injured and questionable players, head-to-head records, team stats, and more (February 25, 2026) | NBA News - The Times of India (4 hours ago)",
+    "web_results": [
+      {
+        "title": "Heat 127-117 76ers (Nov 23, 2025) Final Score - ESPN",
+        "url": "https://www.espn.com/nba/game/_/gameId/401810130/heat-76ers",
+        "description": "Game summary of the Miami Heat vs. Philadelphia 76ers NBA game, final score <strong>127-117</strong>, from November 23, 2025 on ESPN."
+      },
+      {
+        "title": "Sixers vs. Heat Tickets & Matchup History | Philadelphia 76ers",
+        "url": "https://www.nba.com/sixers/76ers-matchups/miami-heat",
+        "description": "<strong>The 76ers and the Miami Heat have had almost 40 years of head-to-head battles</strong>. Get tickets to see these teams face off in Philly during the 2025-26 season!"
+      },
+      {
+        "title": "76ers vs Heat scores & predictions | Sofascore",
+        "url": "https://www.sofascore.com/basketball/match/miami-heat-philadelphia-76ers/vtbsKtb",
+        "description": "Philadelphia 76ers is playing against Miami Heat on <strong>Feb 27, 2026 at 12:00:00 AM UTC</strong>."
+      },
+      {
+        "title": "r/heat on Reddit: [Barry] Heat is going to end the night a tenth of a percentage point behind 76ers for 6th in East and 3 back of no. 5 Toronto.",
+        "url": "https://www.reddit.com/r/heat/comments/1rbb78j/barry_heat_is_going_to_end_the_night_a_tenth_of_a/",
+        "description": "Zach Lowe on the Heat: \u201cI think they\u2019ve reached an existential crisis with their offense, and they need to do something dramatic to overhaul it. I\u2019ve heard little birdies [\u2026] that is indeed occurring."
+      },
+      {
+        "title": "Philadelphia 76ers vs. Miami Heat odds, tips and betting trends | Feb. 26",
+        "url": "https://sixerswire-eu.usatoday.com/story/sports/nba/sixers/2026/02/25/nba-76ers-vs-heat-betting-odds-tips-trends-2-26-2026/88871136007/",
+        "description": "The Philadelphia 76ers (32-26) face the Miami Heat (31-28) as just <strong>2.5-point favorites on Thursday, February 26, 2026 at 7 p.m. ET</strong> on FDSSUN and NBCS-PH."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "After wilting down the stretch vs. Bucks, Heat moves on to game with play-in stakes vs. 76ers",
+        "url": "https://www.miamiherald.com/sports/nba/miami-heat/article314829412.html",
+        "description": "The Heat, which continues to hover around .500 and had its three-game winning streak snapped with a disappointing 128-117 loss to the Giannis Antetokounmpo-less Bucks in Milwaukee on Tuesday night, will travel to face the Philadelphia 76ers on Thursday at Xfinity Mobile Arena (7 p.m., FanDuel ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "76ers vs. Heat Prediction, Odds, Picks - Feb. 26 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/76ers-vs-heat-prediction-odds-picks-feb-26",
+        "description": "Preview the Feb. 26 matchup between the Philadelphia 76ers and Miami Heat with betting odds over/under, game spread, moneyline, prediction, TV channel and more.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Miami Heat vs Philadelphia 76ers Prediction, 2/26/2026 Preview and Pick",
+        "url": "https://www.docsports.com/free-picks/nba/2026/miami-heat-vs-philadelphia-76ers-prediction-2-26-2026-preview-and-pick.html",
+        "description": "The Miami Heat will take on the Philadelphia 76ers on 2/26/26. Doc's Sports Prediction, Preview, and Pick Inside",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Miami Heat vs Philadelphia 76ers Odds - Thursday February 26 2026",
+        "url": "https://www.oddsshark.com/nba/miami-philadelphia-odds-february-26-2026-2479304",
+        "description": "Miami Heat vs Philadelphia 76ers Odds - Thursday February 26 2026. Live betting odds and lines, betting trends, against the spread and over/under trends, injury reports and matchup stats for bettors.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Miami Heat vs Philadelphia 76ers injury report: Who's playing, injured and questionable players, head-to-head records, team stats, and more (February 25, 2026) | NBA News - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/miami-heat-vs-philadelphia-76ers-injury-report-whos-playing-injured-and-questionable-players-head-to-head-records-team-stats-and-more-february-25-2026/articleshow/128824379.cms",
+        "description": "NBA News: Miami Heat play the Philadelphia 76ers on February 25, 2026, at Wells Fargo Center. The standings make this game important. Miami are 30-27 and eighth.",
+        "age": "4 hours ago"
+      }
+    ],
+    "query": "Heat vs. 76ers",
+    "sources_count": 10
+  },
+  "error": null
+}

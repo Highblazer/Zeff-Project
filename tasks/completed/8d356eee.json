@@ -1,0 +1,85 @@
+{
+  "id": "8d356eee",
+  "title": "Polymarket research: Will Atalanta win the 2025\u201326 Champions League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Atalanta win the 2025\u201326 Champions League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:15.454763+00:00",
+  "updated_at": "2026-02-26T23:31:49.146184+00:00",
+  "claimed_at": "2026-02-26T23:31:47.081543+00:00",
+  "completed_at": "2026-02-26T23:31:49.146166+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Atalanta win the 2025\u201326 Champions League?\n\nWeb Results (5):\n- Atalanta | UEFA Champions League 2025/26 | UEFA.com: Visit UEFA.com to find out how Atalanta are doing in the UEFA Champions League 2025/2026, including latest match news, stats, squad list and news upda\n- Meet the 2025/26 Champions League round of 16 contenders | UEFA Champions League | UEFA.com: The 2025/26 UEFA Champions League is into the knockout phase with 16 teams still left in the competition on the road to Budapest. We profile all the r\n- Atalanta | League phase table | UEFA Champions League 2025/26 | UEFA.com: Find out all you need to know about the clubs competing to win the UEFA Champions League 2025/2026\n- Meet the 2025/26 Champions League knockout phase teams | UEFA Champions League | UEFA.com: Antoine Griezmann&#x27;s goal against Frankfurt on Matchday 2 means the French forward has now scored in the Champions League in 12 successive seasons\n- Atalanta vs B. Dortmund | UEFA Champions League 2025/26 | UEFA.com: Atalanta vs B. Dortmund: all the latest UEFA Champions League Play-offs match information including stats, form, history, and more.\n\nNews (5):\n- Only Atalanta made the Champions League last 16. But is Serie A really that bad? - The Athletic (18 hours ago)\n- Champions League roundup: Atalanta oust Dortmund, Galatasaray thwart Juventus fightback | Champions League | The Guardian (1 day ago)\n- Meet the 2025/26 Champions League round of 16 contenders | UEFA Champions League | UEFA.com (1 day ago)\n- Revenue revealed: How much each Serie A team earned in the 2025/26 Champions League - Get Italian Football News (4 hours ago)\n- 2025\u201326 Champions League Round of 16: Dates, Format, Teams (1 day ago)",
+    "web_results": [
+      {
+        "title": "Atalanta | UEFA Champions League 2025/26 | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/clubs/52816--atalanta/",
+        "description": "Visit UEFA.com to find out how Atalanta are doing in the UEFA Champions League 2025/2026, including latest match news, stats, squad list and news updates."
+      },
+      {
+        "title": "Meet the 2025/26 Champions League round of 16 contenders | UEFA Champions League | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a1-1fcc90cca8ab-566d2fa40c3b-1000--meet-the-2025-26-champions-league-round-of-16-contenders/",
+        "description": "The 2025/26 UEFA Champions League is into the knockout phase with 16 teams still left in the competition on the road to Budapest. We profile all the remaining contenders. UEFA coefficient rankings as at end of the knockout phase play-offs. ... Arsenal, Atalanta, Atl\u00e9tico de Madrid, Barcelona, Bayern M\u00fcnchen, Bod\u00f8/Glimt, Chelsea, Galatasaray, Leverkusen, Liverpool, Man City, Newcastle, Paris, Real Madrid, Sporting CP, Tottenham"
+      },
+      {
+        "title": "Atalanta | League phase table | UEFA Champions League 2025/26 | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/clubs/52816--atalanta/standings/",
+        "description": "Find out all you need to know about the clubs competing to win the UEFA Champions League 2025/2026"
+      },
+      {
+        "title": "Meet the 2025/26 Champions League knockout phase teams | UEFA Champions League | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a1-1fcc90cca8ab-566d2fa40c3b-1000--meet-the-2025-26-champions-league-knockout-phase-teams/",
+        "description": "Antoine Griezmann&#x27;s goal against Frankfurt on Matchday 2 means the French forward has now scored in the Champions League in 12 successive seasons. B. Dortmund (GER) League phase: W3 D2 L3 F19 A17 (17th place) Knockout phase play-off: vs Atalanta Top Fantasy Football points scorer: Felix Nmecha (49) UEFA coefficient ranking: 10 Last season: Quarter-finals (L3-5agg vs Barcelona) Best European Cup performance: Winners (1996/97)"
+      },
+      {
+        "title": "Atalanta vs B. Dortmund | UEFA Champions League 2025/26 | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/match/2047772--atalanta-vs-b-dortmund/",
+        "description": "Atalanta vs B. Dortmund: all the latest UEFA Champions League Play-offs match information including stats, form, history, and more."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Only Atalanta made the Champions League last 16. But is Serie A really that bad? - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7070922/2026/02/26/serie-a-champions-league/",
+        "description": "Italian football may be a far cry from its heyday in the 1980s and 90s but things aren't all bad",
+        "age": "18 hours ago"
+      },
+      {
+        "title": "Champions League roundup: Atalanta oust Dortmund, Galatasaray thwart Juventus fightback | Champions League | The Guardian",
+        "url": "https://www.theguardian.com/football/2026/feb/25/champions-league-playoffs-roundup-psg-monaco-juventus-galatasaray-atalanta-borussia-dortmund",
+        "description": "A stoppage-time penalty from Lazar Samardzic sent Atalanta into the Champions League last 16 with a thrilling 4-1 win over Borussia Dortmund, while Galatasaray required extra time to fend off 10-man Juventus",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Meet the 2025/26 Champions League round of 16 contenders | UEFA Champions League | UEFA.com",
+        "url": "https://uefa.com/uefachampionsleague/news/02a1-1fcc90cca8ab-566d2fa40c3b-1000--meet-the-2025-26-champions-league-round-of-16-contenders",
+        "description": "The 2025/26 UEFA Champions League is into the knockout phase with 16 teams still left in the competition on the road to Budapest. We profile all the remaining contenders. UEFA coefficient rankings as at end of the knockout phase play-offs. ... Arsenal, Atalanta, Atl\u00e9tico de Madrid, Barcelona, ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Revenue revealed: How much each Serie A team earned in the 2025/26 Champions League - Get Italian Football News",
+        "url": "https://www.getfootballnewsitaly.com/2026/revenue-revealed-how-much-each-serie-a-team-earned-in-the-2025-26-champions-league/",
+        "description": "The Champions League has not been good for Italian clubs (apart from Atalanta). With Napoli, Inter and Juventus all out, here are the earnings.",
+        "age": "4 hours ago"
+      },
+      {
+        "title": "2025\u201326 Champions League Round of 16: Dates, Format, Teams",
+        "url": "https://si.com/soccer/2025-26-champions-league-round-of-16-dates-format-teams",
+        "description": "Only 16 of the original 36 teams remain in the hunt for the European crown.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Atalanta win the 2025\u201326 Champions League?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "68de3866",
+  "title": "Polymarket research: Will Kristi Noem win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Kristi Noem win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.443331+00:00",
+  "updated_at": "2026-03-01T07:28:40.103049+00:00",
+  "claimed_at": "2026-03-01T07:28:33.091754+00:00",
+  "completed_at": "2026-03-01T07:28:40.103030+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Kristi Noem win the 2028 Republican presidential nomination?\n\nWeb Results (5):\n- Ranking the 2028 Republican presidential contenders | Nation | postguam.com: NOEM: Homeland Security Secretary Kristi L. Noem is a former contender to become President Donald Trump\u2019s vice-presidential pick.\n- The 2028 Republican presidential contenders, ranked - The Washington Post: The Republican 2028 field taking shape is all about who can carry on MAGA after President Donald Trump.\n- Republican Presidential Nominee 2028 Predictions & Odds | Polymarket: <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president</str\n- Presidential candidates, 2028 - Ballotpedia: \u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washing\n- 2028 United States presidential election - Wikipedia: ^ None of the above 7.6%, Tim Scott 2.6%, Kristi Noem 1.4%, Greg Abbott 0.9%, Brian Kemp 0.2%, Tom Cotton 0.2% ^ Sarah Huckabee Sanders 3%, Tim Scott \n\nNews (5):\n- Republican Governor tells Kristi Noem GET OUT OF MY STATE as Trump insiders warn growing mutiny 'is a huge problem' | Daily Mail Online (2 days ago)\n- Inside Kristi Noem's 10 years of loyalty to Donald Trump - US News - News - Daily Express US (2 days ago)\n- Presidential election, 2028 - Ballotpedia (4 days ago)\n- The Buzz in Kristi Noem\u2019s Home State - The Atlantic (1 week ago)\n- The potential 2028 Republican presidential candidates, ranked - The Washington Post (2 days ago)",
+    "web_results": [
+      {
+        "title": "Ranking the 2028 Republican presidential contenders | Nation | postguam.com",
+        "url": "https://www.postguam.com/news/nation/ranking-the-2028-republican-presidential-contenders/article_dd612fb9-2605-4ef6-8253-b3f86a4c3aea.html",
+        "description": "NOEM: Homeland Security Secretary Kristi L. Noem is a former contender to become President Donald Trump\u2019s vice-presidential pick."
+      },
+      {
+        "title": "The 2028 Republican presidential contenders, ranked - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2025/11/09/presidential-contenders-2028-republicans/",
+        "description": "The Republican 2028 field taking shape is all about who can carry on MAGA after President Donald Trump."
+      },
+      {
+        "title": "Republican Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/republican-presidential-nominee-2028/will-kristi-noem-win-the-2028-republican-presidential-nomination",
+        "description": "<strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president</strong>. Otherwise, this market will resolve to \u201cNo\u201d. The resolution source for this market will be a consensus ..."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "\u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washington Post, &quot;Trump has a lock on the 2024 nomination."
+      },
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "^ None of the above 7.6%, Tim Scott 2.6%, Kristi Noem 1.4%, Greg Abbott 0.9%, Brian Kemp 0.2%, Tom Cotton 0.2% ^ Sarah Huckabee Sanders 3%, Tim Scott 1%, Tulsi Gabbard 1%, Glenn Youngkin 1%, Steve Bannon 1%, Josh Hawley *%, Kristi Noem *%, Doug Burgum -, Someone else 1%"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Republican Governor tells Kristi Noem GET OUT OF MY STATE as Trump insiders warn growing mutiny 'is a huge problem' | Daily Mail Online",
+        "url": "https://www.dailymail.co.uk/news/article-15598887/Republican-Governor-tells-Kristi-Noem-STATE-Trump-insiders-warn-growing-mutiny-huge-problem.html",
+        "description": "Donald Trump's immigration crackdown is fracturing his own party, with Republican governors openly defying the White House over detention expansion.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Inside Kristi Noem's 10 years of loyalty to Donald Trump - US News - News - Daily Express US",
+        "url": "https://the-express.com/news/us-news/200411/how-kristi-noem-became-trumps",
+        "description": "Kristi Noem and Donald Trump have built a reciprocal political partnership over a decade, with each defending the other through controversies and campaigns",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "4 days ago"
+      },
+      {
+        "title": "The Buzz in Kristi Noem\u2019s Home State - The Atlantic",
+        "url": "https://www.theatlantic.com/politics/2026/02/kristi-noem-south-dakota-senate-2026/686073/",
+        "description": "South Dakota Republicans worry that she might return.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "The potential 2028 Republican presidential candidates, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/27/2028-republican-presidential-candidates-trump-vance-rubio-gop",
+        "description": "Most are all-in on MAGA \u00b7 Who is going to lead the Republican Party after a decade of President Donald Trump",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Kristi Noem win the 2028 Republican presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

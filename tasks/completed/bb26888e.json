@@ -1,0 +1,82 @@
+{
+  "id": "bb26888e",
+  "title": "cTrader Open API advanced features automation",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "cTrader Open API advanced features automation"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T14:17:26.553228+00:00",
+  "updated_at": "2026-02-26T14:17:28.266773+00:00",
+  "claimed_at": "2026-02-26T14:17:26.561830+00:00",
+  "completed_at": "2026-02-26T14:17:28.266758+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: cTrader Open API advanced features automation\n\nWeb Results (5):\n- Getting started - Open API - cTrader Help Centre: Here is a non-exhaustive list of what cTrader Open API allows your code to do: <strong>Access real-time market data</strong>. Perform all possible typ\n- cTrader API Guide: Python & OpenAPI Integration: This integrated feature thus enables the creation and testing of trading robots (cBots) and custom indicators using C#. Consequently, it <strong>allow\n- cTrader Open API: cTrader Open API is the most technically advanced trading API I have ever used. Thanks to its use of Protobuf, it can offer much higher performance in\n- Introduction - cTrader Automate API: The guides in this section of the documentation focus on certain advanced features of algorithmic trading via cTrader.\n- Examples | cTrader Open API: Our documentation includes numerous code snippets created mostly for C# and Python that will help you adopt the best Open API integration practices. .\n\nNews (5):\n- CTrader: 7 Must-Know Features for Successful Trading in 2025 (3 weeks ago)\n- cTrader vs MT4: Why One Platform Could Cost You Profits (1 day ago)\n- cTrader Admin 9.9: Email tracking and new Workspace app (1 day ago)\n- TradeStation to leverage Capitalize\u2019s Rollover API to enhance user experience - FX News Group (2 days ago)\n- Spotware unveils cTrader 5.2 with advanced risk-reward tools - FX News Group (May 13, 2025)",
+    "web_results": [
+      {
+        "title": "Getting started - Open API - cTrader Help Centre",
+        "url": "https://help.ctrader.com/open-api/",
+        "description": "Here is a non-exhaustive list of what cTrader Open API allows your code to do: <strong>Access real-time market data</strong>. Perform all possible types of trading operations permitted in official cTrader applications."
+      },
+      {
+        "title": "cTrader API Guide: Python & OpenAPI Integration",
+        "url": "https://ctraderacademy.com/ctrader-api/",
+        "description": "This integrated feature thus enables the creation and testing of trading robots (cBots) and custom indicators using C#. Consequently, it <strong>allows for the automation of trading strategies and technical analysis</strong>."
+      },
+      {
+        "title": "cTrader Open API",
+        "url": "https://openapi.ctrader.com/",
+        "description": "cTrader Open API is the most technically advanced trading API I have ever used. Thanks to its use of Protobuf, it can offer much higher performance in data exchange transfers than other solutions."
+      },
+      {
+        "title": "Introduction - cTrader Automate API",
+        "url": "https://help.ctrader.com/ctrader-automate/guides/",
+        "description": "The guides in this section of the documentation focus on certain advanced features of algorithmic trading via cTrader."
+      },
+      {
+        "title": "Examples | cTrader Open API",
+        "url": "https://openapi.ctrader.com/examples",
+        "description": "Our documentation includes numerous code snippets created mostly for C# and Python that will help you adopt the best Open API integration practices. ... Our SDKs contain helpful methods and classes that handle essential operations. They can be installed and managed using any suitable package management solution for your chosen programming language. ... Get our lightweight charting library that includes indicators, technical analysis tools, a multi-chart feature, a one-tick period and much more."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "CTrader: 7 Must-Know Features for Successful Trading in 2025",
+        "url": "https://www.finwiz24.com/ultimate-guide-to-ctrader-strategies-tips-tools/",
+        "description": "Discover the top features of CTrader for seamless trading. Learn how this platform's tools and automation help you trade smarter and faster.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "cTrader vs MT4: Why One Platform Could Cost You Profits",
+        "url": "https://smilebox.co.za/ctrader-vs-mt4",
+        "description": "MT4 allows traders to automate ... fully automated trading without manual intervention. Its widespread adoption means that almost every broker supports MT4, providing traders with extensive options. cTrader, developed by Spotware Systems in 2011, is considered a modern alternative to MT4. It emphasizes transparency, speed, and advanced trading features. With intuitive charting, Level II pricing, and a robust API for algorithmic ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "cTrader Admin 9.9: Email tracking and new Workspace app",
+        "url": "https://fxstreet.com/press-releases/ctrader-admin-99-email-tracking-and-new-workspace-app-202602250816",
+        "description": "Spotware releases cTrader Admin 9.9 with email tracking in Sessions, a new Workspace settings app and a collapsible main menu, improving daily platform administration and ensuring consistent operational control.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "TradeStation to leverage Capitalize\u2019s Rollover API to enhance user experience - FX News Group",
+        "url": "https://fxnewsgroup.com/forex-news/retail-forex/tradestation-to-leverage-capitalizes-rollover-api-to-enhance-user-experience",
+        "description": "TradeStation will embed Capitalize\u2019s Rollover API, enabling TradeStation users to transfer 401(k) assets into their IRAs through the TradeStation platform.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Spotware unveils cTrader 5.2 with advanced risk-reward tools - FX News Group",
+        "url": "https://fxnewsgroup.com/forex-news/platforms/spotware-unveils-ctrader-5-2-with-advanced-risk-reward-tools/",
+        "description": "With just 1-second from icon tap ... and API-powered automation, we\u2019ve focused on what genuinely elevates trader performance\u2013bringing institutional-grade capabilities to the cTrader community.\u201d \u00b7 cTrader is a multi-asset FX/CFD trading platform developed by Spotware with the Traders First\u2122 principles designed to prioritise the long-term interests of traders, brokers and prop firms by providing solutions that meet real market demands. Packed with high-performance features, cTrader delivers ...",
+        "age": "May 13, 2025"
+      }
+    ],
+    "query": "cTrader Open API advanced features automation",
+    "sources_count": 10
+  },
+  "error": null
+}

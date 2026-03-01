@@ -1,0 +1,85 @@
+{
+  "id": "b256c2df",
+  "title": "Polymarket research: Will US or Israel strike Iran by February 28, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will US or Israel strike Iran by February 28, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:10.733189+00:00",
+  "updated_at": "2026-02-26T23:35:10.232050+00:00",
+  "claimed_at": "2026-02-26T23:35:08.743155+00:00",
+  "completed_at": "2026-02-26T23:35:10.231996+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will US or Israel strike Iran by February 28, 2026?\n\nWeb Results (5):\n- Iran Update, February 20, 2026 | ISW: This option risks triggering major Israeli aerial operations in southern Lebanon at a minimum, but the IDF has conducted offensive exercises to rehear\n- Iran Update, February 2, 2026 | Critical Threats: The <strong>United States</strong> reportedly intercepted a shipment of planetary mixers from the People\u2019s Republic of China in the Indian Ocean in No\n- 2026 Iran\u2013United States crisis - Wikipedia: Trump has sent warships, tankers and submarines to the Middle East to be ready for potential strikes as soon as 21 February, sources told CBS. In the \n- Iran\u2013Israel war - Wikipedia: On 5 January 2026, the <strong>Israeli Security Cabinet held a five-hour meeting and authorized additional strikes on Iran</strong>, following Netanya\n- How Israelis Feel About Another Potential War With Iran - The New York Times: 26, 2026Updated 4:28 p.m. ET ... Across Israel, hospitals have been conducting emergency drills while neighbors share locations of bomb shelters in Wh\n\nNews (5):\n- Iran Update, February 20, 2026 | ISW (1 week ago)\n- A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News (2 days ago)\n- The U.S. and Iran Can Still Avoid a War | International Crisis Group (3 days ago)\n- White House officials believe \u2018the politics are a lot better\u2019 if Israel strikes Iran first - POLITICO (1 day ago)\n- Council on Foreign Relations (2 days ago)",
+    "web_results": [
+      {
+        "title": "Iran Update, February 20, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-20-2026/",
+        "description": "This option risks triggering major Israeli aerial operations in southern Lebanon at a minimum, but the IDF has conducted offensive exercises to rehearse its response to major Hezbollah operations in recent weeks as well.[33] US-Iran Nuclear Negotiations: Iran is unlikely to make any meaningful nuclear concessions in its upcoming draft proposal to the United States. Iran may calculate that it can delay the strikes if it offers a sufficiently conciliatory proposal, however."
+      },
+      {
+        "title": "Iran Update, February 2, 2026 | Critical Threats",
+        "url": "https://www.criticalthreats.org/analysis/iran-update-february-2-2026",
+        "description": "The <strong>United States</strong> reportedly intercepted a shipment of planetary mixers from the People\u2019s Republic of China in the Indian Ocean in November 2025.[xlii] A US attack on Iran would presumably disrupt Iran\u2019s efforts to reconstitute its ballistic ..."
+      },
+      {
+        "title": "2026 Iran\u2013United States crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_crisis",
+        "description": "Trump has sent warships, tankers and submarines to the Middle East to be ready for potential strikes as soon as 21 February, sources told CBS. In the final week of January, President Donald Trump used Truth Social to issue a series of public warnings directed at Iran, marking one of the most visible escalations in U.S. messaging during the crisis. On 28 January 2026, Trump declared that &quot;a massive Armada is heading to Iran&quot;, describing it as moving &quot;with great power, enthusiasm, and purpose.&quot;"
+      },
+      {
+        "title": "Iran\u2013Israel war - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Israel_war",
+        "description": "On 5 January 2026, the <strong>Israeli Security Cabinet held a five-hour meeting and authorized additional strikes on Iran</strong>, following Netanyahu-Trump discussions and statements made the week before."
+      },
+      {
+        "title": "How Israelis Feel About Another Potential War With Iran - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/26/world/middleeast/israel-iran-war.html",
+        "description": "26, 2026Updated 4:28 p.m. ET ... Across Israel, hospitals have been conducting emergency drills while neighbors share locations of bomb shelters in WhatsApp groups. The national mood is wavering somewhere between anxiety, resignation and anticipation as President Trump deliberates over whether to attack Iran. If he orders a strike, it will most likely bring Israel into its second war with Iran in less than a year, following a 12-day conflict in June."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Iran Update, February 20, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-20-2026/",
+        "description": "Iran is unlikely to make any meaningful nuclear concessions in its upcoming draft proposal to the United States.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News",
+        "url": "https://www.pbs.org/newshour/world/a-timeline-of-tensions-over-irans-nuclear-program-as-talks-with-u-s-approach",
+        "description": "Iran and the United States are due to hold new talks in Geneva on Thursday over Tehran's nuclear program.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "The U.S. and Iran Can Still Avoid a War | International Crisis Group",
+        "url": "https://www.crisisgroup.org/stm/middle-east-north-africa/iran/us-and-iran-can-still-avoid-war",
+        "description": "In nearly five decades of mutual antagonism, the U.S. and Iran have never been so close to a major war. Escalation risks make any conflict scenario perilous for all concerned. A narrow path to averting war exists, but time is of the essence.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "White House officials believe \u2018the politics are a lot better\u2019 if Israel strikes Iran first - POLITICO",
+        "url": "https://politico.com/news/2026/02/25/white-house-politics-israel-strikes-iran-00799456",
+        "description": "As the administration mulls military action in Iran, officials argue it\u2019d be best ifIsrael makes the first move.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Council on Foreign Relations",
+        "url": "https://www.cfr.org/articles/trump-should-take-the-u-s-militarys-warning-on-iran-seriously",
+        "description": "The U.S. military appears to be surfacing their concerns about the risks involved in sustaining a lengthy conflict with Iran. The White House should listen, as a conflict could trigger several cascading consequences.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will US or Israel strike Iran by February 28, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

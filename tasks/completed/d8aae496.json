@@ -1,0 +1,85 @@
+{
+  "id": "d8aae496",
+  "title": "Polymarket research: Will New Zealand win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will New Zealand win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.228395+00:00",
+  "updated_at": "2026-03-01T07:28:25.300207+00:00",
+  "claimed_at": "2026-03-01T07:28:23.521364+00:00",
+  "completed_at": "2026-03-01T07:28:25.300191+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will New Zealand win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- New Zealand qualify | FIFA World Cup 2026: We cannot provide a description for this page right now\n- New Zealand | FIFA World Cup 2026\u2122: We cannot provide a description for this page right now\n- New Zealand dazzle in OFC qualifiers | FIFA World Cup 2026: We cannot provide a description for this page right now\n- 2026 FIFA World Cup qualification (OFC) - Wikipedia: The third round took place in New Zealand on 21 and 24 March 2025. <strong>The winner qualified for the 2026 FIFA World Cup</strong> and the runner-up\n- New Zealand thump New Caledonia to qualify for 2026 FIFA World Cup: <strong>New Zealand qualified for the FIFA World Cup for their third time with a 3-0 home win over New Caledonia on Monday (24 March).</strong> A trio\n\nNews (5):\n- ENG vs NZ, T20 World Cup 2026: England pull off late heist to stun New Zealand in Super 8 (2 days ago)\n- Jacks and Ahmed find dramatic late blitz to earn England unlikely win over New Zealand | T20 World Cup 2026 | The Guardian (1 day ago)\n- England vs New Zealand Highlights, T20 World Cup 2026 Super 8: Will Jacks, Rehan Ahmed's Late Burst Powers England To 4-Wicket Win vs NZ | Cricket News (2 days ago)\n- New Zealand await semi-final fate after England's thrilling win | ICC Men's T20 World Cup, 2026 | ICC (2 days ago)\n- FIFA to 'monitor developments' in Iran ahead of 2026 World Cup - ESPN (18 hours ago)",
+    "web_results": [
+      {
+        "title": "New Zealand qualify | FIFA World Cup 2026",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-zealand-qualify-world-cup",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "New Zealand | FIFA World Cup 2026\u2122",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/new-zealand/team-news",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "New Zealand dazzle in OFC qualifiers | FIFA World Cup 2026",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/oceania-world-cup-qualification-review",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "2026 FIFA World Cup qualification (OFC) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_(OFC)",
+        "description": "The third round took place in New Zealand on 21 and 24 March 2025. <strong>The winner qualified for the 2026 FIFA World Cup</strong> and the runner-up advanced to the inter-confederation play-offs."
+      },
+      {
+        "title": "New Zealand thump New Caledonia to qualify for 2026 FIFA World Cup",
+        "url": "https://www.olympics.com/en/news/football-world-cup-oceania-qualifier",
+        "description": "<strong>New Zealand qualified for the FIFA World Cup for their third time with a 3-0 home win over New Caledonia on Monday (24 March).</strong> A trio of second-half goals by Michael Boxall, Kosta Barbarouses and Elijah Just at Auckland\u2019s Eden Park did it ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "ENG vs NZ, T20 World Cup 2026: England pull off late heist to stun New Zealand in Super 8",
+        "url": "https://www.olympics.com/en/news/t20-world-cup-2026-cricket-england-vs-new-zealand-super-8-group-2-match-report",
+        "description": "The England cricket team beat New Zealand by four wickets in their final Super 8 match of the T20 World Cup 2026. They qualified for the semi-finals from Group 2 as the top-ranked team.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Jacks and Ahmed find dramatic late blitz to earn England unlikely win over New Zealand | T20 World Cup 2026 | The Guardian",
+        "url": "https://www.theguardian.com/sport/2026/feb/27/england-new-zealand-t20-world-cup-super-8s-match-report",
+        "description": "England made it three wins from three in the T20 World Cup Super 8s with a superb victory against New Zealand, achieved with three ball to spare",
+        "age": "1 day ago"
+      },
+      {
+        "title": "England vs New Zealand Highlights, T20 World Cup 2026 Super 8: Will Jacks, Rehan Ahmed's Late Burst Powers England To 4-Wicket Win vs NZ | Cricket News",
+        "url": "https://sports.ndtv.com/t20-world-cup-2026/england-vs-new-zealand-live-score-icc-mens-t20-world-cup-2026-super-8-eng-vs-nz-scorecard-live-updates-harry-brook-mitchell-santner-11144808",
+        "description": "England vs New Zealand Highlights: Already qualified for semifinals, England beat New Zealand by four wickets to top Super Eights Group 2 of T20 World Cup.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "New Zealand await semi-final fate after England's thrilling win | ICC Men's T20 World Cup, 2026 | ICC",
+        "url": "https://www.icc-cricket.com/tournaments/mens-t20-world-cup-2026/news/live-new-zealand-aim-for-semi-final-spot-in-key-t20wc-clash",
+        "description": "England continued their winning run with a four-wicket victory over the Black Caps in their final Super Eight clash.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "FIFA to 'monitor developments' in Iran ahead of 2026 World Cup - ESPN",
+        "url": "https://www.espn.com/soccer/story/_/id/48060986/fifa-monitor-developments-iran-ahead-2026-world-cup",
+        "description": "FIFA will \"monitor developments\" in Iran following the outbreak of military action by the United States -- the co-hosts of this summer's men's World Cup -- against the Middle Eastern nation.",
+        "age": "18 hours ago"
+      }
+    ],
+    "query": "Will New Zealand win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "92200889",
+  "title": "Polymarket research: Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:45.986671+00:00",
+  "updated_at": "2026-03-01T07:27:19.661936+00:00",
+  "claimed_at": "2026-03-01T07:27:17.624597+00:00",
+  "completed_at": "2026-03-01T07:27:19.661905+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Vivek Ramaswamy win the 2028 US Presidential Election?\n\nWeb Results (5):\n- 2028 United States presidential election - Wikipedia: ^ Vivek Ramaswamy 3%, Nikki Haley 2.7%, Ted Cruz 2.4%, Kristi Noem 1%, Glenn Youngkin 0.8%, Brian Kemp 0.8%, Tulsi Gabbard 0.5%, Scott Bessent 0.4%, S\n- Presidential election, 2028 - Ballotpedia: Vivek Ramaswamy, 2026 Ohio gubernatorial candidate and <strong>2024 presidential candidate</strong>[24] Marco Rubio, secretary of state[24] Sarah Huck\n- Presidential Election Winner 2028 Predictions & Odds | Polymarket: Vivek Ramaswamy \u00b7 $11,818,133 Vol. 1% Buy Yes 1.0\u00a2Buy No 99.1\u00a2 \u00b7 LeBron James \u00b7 $20,728,407 Vol. 1% Buy Yes 0.9\u00a2Buy No 99.2\u00a2 \u00b7 Stephen Smith \u00b7 $10,309\n- r/vivekramaswamy on Reddit: Will Vivek have a shot at presidency in 2028?: True, I also think <strong>Vivek will only run if he feels there isn&#x27;t anyone carrying the America First torch forward</strong>. ... I hope that \n- 2028 Politics - Will Vivek Ramaswamy run for the Republican presidential nomination in 2028?: Latest Update: Winning Topic Rules: If Vivek Ramaswamy announces a presidential campaign to contest the presidential nomination of the Republican part\n\nNews (5):\n- Presidential election, 2028 - Ballotpedia (4 days ago)\n- AI's 'jaw-dropping' prediction on who will win the 2028 US presidential election (2 weeks ago)\n- Grok AI predicts the 2028 US election: The President\u2013VP duo it picked will surprise you | - The Times of India (1 week ago)\n- List of registered 2028 presidential candidates - Ballotpedia (2 weeks ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (5 days ago)",
+    "web_results": [
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "^ Vivek Ramaswamy 3%, Nikki Haley 2.7%, Ted Cruz 2.4%, Kristi Noem 1%, Glenn Youngkin 0.8%, Brian Kemp 0.8%, Tulsi Gabbard 0.5%, Scott Bessent 0.4%, Someone else 2.4%"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Vivek Ramaswamy, 2026 Ohio gubernatorial candidate and <strong>2024 presidential candidate</strong>[24] Marco Rubio, secretary of state[24] Sarah Huckabee Sanders, governor of Arkansas[24] Tim Scott, U.S. senator from South Carolina[26] Elise Stefanik, U.S. representative from New York[1] J.D."
+      },
+      {
+        "title": "Presidential Election Winner 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/presidential-election-winner-2028/will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+        "description": "Vivek Ramaswamy \u00b7 $11,818,133 Vol. 1% Buy Yes 1.0\u00a2Buy No 99.1\u00a2 \u00b7 LeBron James \u00b7 $20,728,407 Vol. 1% Buy Yes 0.9\u00a2Buy No 99.2\u00a2 \u00b7 Stephen Smith \u00b7 $10,309,169 Vol. 1% Buy Yes 0.9\u00a2Buy No 99.2\u00a2 \u00b7 Kim Kardashian \u00b7 $10,754,044 Vol. 1% Buy Yes 0.9\u00a2Buy No 99.2\u00a2 \u00b7"
+      },
+      {
+        "title": "r/vivekramaswamy on Reddit: Will Vivek have a shot at presidency in 2028?",
+        "url": "https://www.reddit.com/r/vivekramaswamy/comments/1gm7ade/will_vivek_have_a_shot_at_presidency_in_2028/",
+        "description": "True, I also think <strong>Vivek will only run if he feels there isn&#x27;t anyone carrying the America First torch forward</strong>. ... I hope that infighting and competition don&#x27;t get in the way. They are competing for who will come out on top in 2028 and onward."
+      },
+      {
+        "title": "2028 Politics - Will Vivek Ramaswamy run for the Republican presidential nomination in 2028?",
+        "url": "https://www.mediapredict.com/onboard/topics/136646",
+        "description": "Latest Update: Winning Topic Rules: If Vivek Ramaswamy announces a presidential campaign to contest the presidential nomination of the Republican party for the 2028 U.S. presidential election, then <strong>the market resolves to Yes</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "4 days ago"
+      },
+      {
+        "title": "AI's 'jaw-dropping' prediction on who will win the 2028 US presidential election",
+        "url": "https://www.unilad.com/news/politics/us-presidential-election-2028-ai-prediction-310137-20260217",
+        "description": "A man asked Elon Musk's AI bot Grok to give its predictions for the next US election and who will likely be the chosen as candidates",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "Grok AI predicts the 2028 US election: The President\u2013VP duo it picked will surprise you | - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/etimes/trending/grok-ai-predicts-the-2028-us-election-the-presidentvp-duo-it-picked-will-surprise-you/articleshow/128564486.cms",
+        "description": "Trending News: Election predictions have always been one of those areas that people look up to with mystery and interest; they also spark endless debates, from pundi.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "List of registered 2028 presidential candidates - Ballotpedia",
+        "url": "https://ballotpedia.org/List_of_registered_2028_presidential_candidates",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "5 days ago"
+      }
+    ],
+    "query": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "sources_count": 10
+  },
+  "error": null
+}

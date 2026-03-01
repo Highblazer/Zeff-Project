@@ -1,0 +1,85 @@
+{
+  "id": "28f5d4df",
+  "title": "Polymarket research: Will Fenerbah\u00e7e SK win on 2026-02-26?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Fenerbah\u00e7e SK win on 2026-02-26?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:47:59.030308+00:00",
+  "updated_at": "2026-02-27T00:48:09.808566+00:00",
+  "claimed_at": "2026-02-27T00:48:08.042480+00:00",
+  "completed_at": "2026-02-27T00:48:09.808548+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Fenerbah\u00e7e SK win on 2026-02-26?\n\nWeb Results (5):\n- 2025\u201326 Fenerbah\u00e7e S.K. season - Wikipedia: Updated to match(es) played on 16 February 2026. Source: S\u00fcper Lig Rules for classification: 1) Points; 2) Head-to-head points; 3) Head-to-head goal d\n- Fenerbah\u00e7e - Kas\u0131mpa\u015fa SK ai prediction 23.02.2026 S\u00fcperLig: The last direct meeting between these two teams ended in a 1-1 draw, suggesting that Kas\u0131mpa\u015fa SK has occasionally posed challenges for the Yellow Can\n- Kocaelispor vs Fenerbahce Prediction and Betting Tips | February 2nd 2026: The two teams have met 47 times, with Kocaelispor winning eight of those encounters and <strong>Fenerbahce claiming victory 23 times</strong>, while t\n- Fenerbahce vs. Kasimpasa S.K. - Live Score - February 23, 2026 | FOX Sports: View the Fenerbahce vs. Kasimpasa S.K. game played on February 23, 2026. Box score, stats, play-by-play timeline, highlights, odds &amp; more\n- Fenerbahce - Besiktas: will the defending champion be able to win again?: The final match is ahead, and it&#x27;s ... looks decent this season. It is important to note that <strong>in four of the last five face-to-face match\n\nNews (5):\n- Goals and highlights of Nottingham Forest 1 vs 2 Fenerbah\u00e7e in the UEFA Europa League | 02/26/2026 - VAVEL USA (3 hours ago)\n- Nottingham Forest 1-2 Fenerbah\u00e7e Ma\u00e7 \u00d6zeti | Temsilcimiz, Avrupa'ya galibiyetle veda etti - Futbol Haberleri (2 hours ago)\n- Nottingham Forest 1-2 Fenerbahce (4-2 agg): Nervy Forest reach Europa League last 16 - BBC Sport (2 hours ago)\n- Giron vs Fenerbahce Prediction Today \u2013 Basketball Picks & Betting Tips for 25/02/2026 (2 days ago)\n- Highlights and goal of Stuttgart 0-1 Celtic in UEFA Europa League 2025-26 | 02/26/2026 - VAVEL USA (5 hours ago)",
+    "web_results": [
+      {
+        "title": "2025\u201326 Fenerbah\u00e7e S.K. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Fenerbah%C3%A7e_S.K._season",
+        "description": "Updated to match(es) played on 16 February 2026. Source: S\u00fcper Lig Rules for classification: 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Goal difference; 6) Goals scored; 7) Play-off."
+      },
+      {
+        "title": "Fenerbah\u00e7e - Kas\u0131mpa\u015fa SK ai prediction 23.02.2026 S\u00fcperLig",
+        "url": "https://www.livetipsportal.com/en/sportsbetting-tips/fenerbahce-vs-kasimpasa-sk-superlig-11303357/",
+        "description": "The last direct meeting between these two teams ended in a 1-1 draw, suggesting that Kas\u0131mpa\u015fa SK has occasionally posed challenges for the Yellow Canaries. However, the head-to-head record over the last five encounters heavily favors Fenerbah\u00e7e, who have secured 4 victories and drawn once, highlighting their superiority in recent history."
+      },
+      {
+        "title": "Kocaelispor vs Fenerbahce Prediction and Betting Tips | February 2nd 2026",
+        "url": "https://www.sportskeeda.com/football/kocaelispor-vs-fenerbahce-prediction-betting-tips-february-2nd-2026",
+        "description": "The two teams have met 47 times, with Kocaelispor winning eight of those encounters and <strong>Fenerbahce claiming victory 23 times</strong>, while their remaining 16 contests have ended in draws."
+      },
+      {
+        "title": "Fenerbahce vs. Kasimpasa S.K. - Live Score - February 23, 2026 | FOX Sports",
+        "url": "https://www.foxsports.com/soccer/turkish-super-lig-fenerbahce-vs-kasimpasa-sk-feb-23-2026-game-boxscore-634531",
+        "description": "View the Fenerbahce vs. Kasimpasa S.K. game played on February 23, 2026. Box score, stats, play-by-play timeline, highlights, odds &amp; more"
+      },
+      {
+        "title": "Fenerbahce - Besiktas: will the defending champion be able to win again?",
+        "url": "https://www.liontips.com/tips/2026/02/22/fenerbahce-besiktas-betting-tip-cf-1-70-and-bets-on-the-turkish-cup-match-february-22-2026",
+        "description": "The final match is ahead, and it&#x27;s ... looks decent this season. It is important to note that <strong>in four of the last five face-to-face matches it was Fenerbahce who won.</strong>..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Goals and highlights of Nottingham Forest 1 vs 2 Fenerbah\u00e7e in the UEFA Europa League | 02/26/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/02/26/1252100-nottingham-vs-fenerbahce-live-score-europa-league.html",
+        "description": "In the match between Nottingham Forest and Fenerbah\u00e7e, the Turkish team won 2-1. They opened the scoring with Kerem Akt\u00fcrko\u011flu, and in the second half, Akt\u00fcrko\u011flu scored a second from the penalty spot. However, in the final stages, Hudson-Odoi reduced the deficit, securing their qualification ...",
+        "age": "3 hours ago"
+      },
+      {
+        "title": "Nottingham Forest 1-2 Fenerbah\u00e7e Ma\u00e7 \u00d6zeti | Temsilcimiz, Avrupa'ya galibiyetle veda etti - Futbol Haberleri",
+        "url": "https://www.cnnturk.com/spor/futbol/live-nottingham-forest-1-2-fenerbahce-mac-ozeti-temsilcimiz-avrupaya-galibiyetle-veda-etti-2400461",
+        "description": "Nottingham Forest 1-2 Fenerbah\u00e7e Ma\u00e7 \u00d6zeti | Temsilcimiz, Avrupa'ya galibiyetle veda etti",
+        "age": "2 hours ago"
+      },
+      {
+        "title": "Nottingham Forest 1-2 Fenerbahce (4-2 agg): Nervy Forest reach Europa League last 16 - BBC Sport",
+        "url": "https://bbc.com/sport/football/live/ce8wz53xn0gt",
+        "description": "Nervy Nottingham Forest edge past Fenerbahce to reach the last 16 of the Europa League.",
+        "age": "2 hours ago"
+      },
+      {
+        "title": "Giron vs Fenerbahce Prediction Today \u2013 Basketball Picks & Betting Tips for 25/02/2026",
+        "url": "https://scores24.live/en/basketball/m-25-02-2026-spar-girona-w-fenerbahce-w--prediction",
+        "description": "Free UNI Girona CB vs Fenerbahce SK prediction for 25/02/2026: form, H2H, trends and best basketball betting tips with latest odds.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Highlights and goal of Stuttgart 0-1 Celtic in UEFA Europa League 2025-26 | 02/26/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/02/26/1252122-stuttgart-vs-celtic-live-score-europa-league.html",
+        "description": "Stuttgart were defeated 0-1 by Celtic at the Mercedes-Benz Arena, yet the aggregate score was enough to secure their place in the next round of the Europa League. The German side managed their first-leg advantage and, despite moments of pressure, stayed composed defensively when it mattered most.",
+        "age": "5 hours ago"
+      }
+    ],
+    "query": "Will Fenerbah\u00e7e SK win on 2026-02-26?",
+    "sources_count": 10
+  },
+  "error": null
+}

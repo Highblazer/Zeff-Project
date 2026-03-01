@@ -1,0 +1,85 @@
+{
+  "id": "510b6ddb",
+  "title": "Polymarket research: Will Bernie Sanders win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:11.118972+00:00",
+  "updated_at": "2026-02-26T23:35:16.024409+00:00",
+  "claimed_at": "2026-02-26T23:35:14.695093+00:00",
+  "completed_at": "2026-02-26T23:35:16.024391+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bernie Sanders win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- 2028 United States presidential election - Wikipedia: NBC News has reported that multiple DNC members are looking into changing the order of state primaries for the Democratic nomination. Chair of the Neb\n- r/SandersForPresident on Reddit: Bernie Sanders & AOC should run together in 2028. They would win & rewrite American politics for the next 50 years.: they wouldn&#x27;t even win the primary because the neoliberals have their finger on the scale at all times. get ready for cory booker and gavin newso\n- Presidential candidates, 2028 - Ballotpedia: Bernie Sanders, U.S. senator from Vermont[18] ... Elissa Slotkin, U.S. senator from Michigan[9] ... Ritchie Torres, U.S. representative from New York[\n- Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket: <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president</str\n- 2028 Democratic Presidential Nomination | RealClearPolling: <strong>2028 Democratic Presidential Nomination</strong> | RealClearPolling\n\nNews (5):\n- The next 2 years will be a bumpy ride for Democratic presidential candidates (1 day ago)\n- Pete Buttigieg leads 2028 Democratic presidential poll in New Hampshire | Fox News (1 week ago)\n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times (1 week ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- Presidential election, 2028 - Ballotpedia (1 day ago)",
+    "web_results": [
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "NBC News has reported that multiple DNC members are looking into changing the order of state primaries for the Democratic nomination. Chair of the Nebraska Democratic Party Jane Kleeb stated in November 2024 that &quot;<strong>The 2024 calendar will absolutely not be the calendar for 2028</strong>.&quot;"
+      },
+      {
+        "title": "r/SandersForPresident on Reddit: Bernie Sanders & AOC should run together in 2028. They would win & rewrite American politics for the next 50 years.",
+        "url": "https://www.reddit.com/r/SandersForPresident/comments/1jpt8qc/bernie_sanders_aoc_should_run_together_in_2028/",
+        "description": "they wouldn&#x27;t even win the primary because the neoliberals have their finger on the scale at all times. get ready for cory booker and gavin newsom to be the nominees ... As if the Democratic party would ever allow that. ... I\u2019d vote for an AOC/Sanders ticket in a heartbeat. Keeps Bernie close to the action but keeps his age from being a deal breaker. ... He would be around 86 years old by 2028."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "Bernie Sanders, U.S. senator from Vermont[18] ... Elissa Slotkin, U.S. senator from Michigan[9] ... Ritchie Torres, U.S. representative from New York[15] Chris Van Hollen, U.S. senator from Maryland[20] Tim Walz, governor of Minnesota and 2024 Democratic vice presidential nominee[19]"
+      },
+      {
+        "title": "Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028/will-bernie-sanders-win-the-2028-democratic-presidential-nomination-879",
+        "description": "<strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president</strong>. Otherwise, this market will resolve to \u201cNo\u201d. The resolution source for this market will be a consensus ..."
+      },
+      {
+        "title": "2028 Democratic Presidential Nomination | RealClearPolling",
+        "url": "https://www.realclearpolling.com/polls/president/democratic-primary/2028/national",
+        "description": "<strong>2028 Democratic Presidential Nomination</strong> | RealClearPolling"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The next 2 years will be a bumpy ride for Democratic presidential candidates",
+        "url": "https://thehill.com/opinion/campaign/5753519-democratic-presidential-race-2028",
+        "description": "Early Democratic presidential race for 2028 is wide open. Newsom and Harris lead, but the field is volatile. Change is on voters' minds.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Pete Buttigieg leads 2028 Democratic presidential poll in New Hampshire | Fox News",
+        "url": "https://www.foxnews.com/politics/buttigieg-newsom-aoc-top-three-new-2028-poll-key-presidential-primary-state",
+        "description": "Pete Buttigieg leads a 2028 Democratic presidential poll in New Hampshire with 20% support, ahead of Gavin Newsom and Alexandria Ocasio-Cortez, who tied at 15%.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "Silver: Oh, Ocasio-Cortez is definitely a populist. And she might have that lane to herself. There are two other highly successful politicians from this group, but they\u2019re Mamdani, who was born in Uganda and not eligible to run for president, and Bernie Sanders, who at 84 is even older than ...",
+        "age": "1 week ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

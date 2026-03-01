@@ -1,0 +1,85 @@
+{
+  "id": "da20864e",
+  "title": "Polymarket research: Will the price of Bitcoin be above $60,000 on March 1?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the price of Bitcoin be above $60,000 on March 1?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:28:40.265126+00:00",
+  "updated_at": "2026-03-01T08:28:49.814817+00:00",
+  "claimed_at": "2026-03-01T08:28:48.112625+00:00",
+  "completed_at": "2026-03-01T08:28:49.814799+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the price of Bitcoin be above $60,000 on March 1?\n\nWeb Results (5):\n- Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go?: Presently, we are seeing a dominant bearish market structure; <strong>any decline below $60,000 could increase the chances of a relief rally in March<\n- Bitcoin Price Prediction Ahead of US CLARITY Act March 1 Deadline: Meanwhile, another analyst, Ardi, ... traded at $126,000, then dropped to $65 billion at $96,000, and now sits near $45 billion in the current <strong\n- Bitcoin Price: Can BTC Recover in March 2026? - Crypto.com U.S.: For March specifically, <strong>the range of outcomes is bracketed by $60,000 on the downside</strong> and $72,000\u2013$75,000 on the upside. The key $60,\n- Bitcoin (BTC) Price Prediction 2026 2027 2028 - 2030 - InvestingHaven: Frequently cited forecasters such ... of six-figure Bitcoin prices in 2026. ... Our chart analysis leads us to a prediction that <strong>Bitcoin is de\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?: <strong>Bitcoin will likely continue to rise and gain more momentum during March 2026 if it succeeds in overcoming the psychological barrier of the $7\n\nNews (5):\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026? (2 days ago)\n- Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go? (2 days ago)\n- Bitcoin in 2026: Game-Changer or Risky Bet for Late Investors? (1 day ago)\n- Bitcoin Price Prediction Ahead of US CLARITY Act March 1 Deadline (2 days ago)\n- Bitcoin Is Headed to $500,000. This Wall Street Analyst Explains Why. | The Motley Fool (6 hours ago)",
+    "web_results": [
+      {
+        "title": "Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go?",
+        "url": "https://coinpedia.org/price-prediction/bitcoin-price-prediction/",
+        "description": "Presently, we are seeing a dominant bearish market structure; <strong>any decline below $60,000 could increase the chances of a relief rally in March</strong>. The current price action in early 2026 confirms that Bitcoin price is following a well-defined historical rhythm within its long-term ascending wedge."
+      },
+      {
+        "title": "Bitcoin Price Prediction Ahead of US CLARITY Act March 1 Deadline",
+        "url": "https://coinpaper.com/15010/bitcoin-price-prediction-ahead-of-us-clarity-act-march-1-deadline",
+        "description": "Meanwhile, another analyst, Ardi, ... traded at $126,000, then dropped to $65 billion at $96,000, and now sits near $45 billion in the current <strong>$60,000 to $67,000 range</strong>...."
+      },
+      {
+        "title": "Bitcoin Price: Can BTC Recover in March 2026? - Crypto.com U.S.",
+        "url": "https://crypto.com/us/market-updates/bitcoin-price-under-pressure",
+        "description": "For March specifically, <strong>the range of outcomes is bracketed by $60,000 on the downside</strong> and $72,000\u2013$75,000 on the upside. The key $60,000 support level is being closely watched, with a break potentially opening the way to the mid-to-low $50,000 range. Above $70,000, momentum could shift quickly ..."
+      },
+      {
+        "title": "Bitcoin (BTC) Price Prediction 2026 2027 2028 - 2030 - InvestingHaven",
+        "url": "https://investinghaven.com/bitcoin-btc-price-predictions/",
+        "description": "Frequently cited forecasters such ... of six-figure Bitcoin prices in 2026. ... Our chart analysis leads us to a prediction that <strong>Bitcoin is developing a level of support around $60,000</strong>..."
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "<strong>Bitcoin will likely continue to rise and gain more momentum during March 2026 if it succeeds in overcoming the psychological barrier of the $70,000 price level</strong>. Besides that, jumping over the long-term moving averages and the strengthening of momentum will only serve to bring in more investors."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Explore the latest Bitcoin price forecast for Feb 2026 as BTC attempts to reclaim the $68,300 area amid a cooldown phase Can it hold $67K? Read our analysis.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go?",
+        "url": "https://coinpedia.org/price-prediction/bitcoin-price-prediction/",
+        "description": "Bitcoin price prediction 2023 - 2025 based on deals analysis and statistic. In depth view into BTC Price, analyst predictions until 2030.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin in 2026: Game-Changer or Risky Bet for Late Investors?",
+        "url": "https://analyticsinsight.net/amp/story/cryptocurrency-analytics-insight/bitcoin-in-2026-game-changer-or-risky-bet-for-late-investors",
+        "description": "Bitcoin leads the Crypto market as BTC halving effects, El Salvador policy shifts, and blockchain technology reshape global finance and the digital asset space.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction Ahead of US CLARITY Act March 1 Deadline",
+        "url": "https://coinpaper.com/15010/bitcoin-price-prediction-ahead-of-us-clarity-act-march-1-deadline",
+        "description": "Bitcoin price trades near key support level as the CLARITY Act deadline approaches and whale activity increases.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin Is Headed to $500,000. This Wall Street Analyst Explains Why. | The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/02/28/bitcoin-is-headed-to-500000-this-wall-street-analy/",
+        "description": "Bitcoin investors may soon forget the recent correction.",
+        "age": "6 hours ago"
+      }
+    ],
+    "query": "Will the price of Bitcoin be above $60,000 on March 1?",
+    "sources_count": 10
+  },
+  "error": null
+}

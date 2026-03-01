@@ -1,0 +1,85 @@
+{
+  "id": "731a941d",
+  "title": "Polymarket research: Will Trump nominate Scott Bessent as the next Fed chair?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump nominate Scott Bessent as the next Fed chair?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:24.931234+00:00",
+  "updated_at": "2026-02-26T23:37:32.576093+00:00",
+  "claimed_at": "2026-02-26T23:37:31.194901+00:00",
+  "completed_at": "2026-02-26T23:37:32.576079+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump nominate Scott Bessent as the next Fed chair?\n\nWeb Results (5):\n- Bessent says Trump's pick for the next Fed chair could happen next week: After months of speculation and political intrigue, <strong>President Donald Trump is close to nominating the next chair of the Federal Reserve</stron\n- Scott Bessent - Wikipedia: In April, he hosted a Palm Beach, Florida, fundraiser that raised $50 million for the campaign. In July, Bessent was a key economic adviser to Trump. \n- Trump may reach Fed chair decision as early as next week, Bessent says | Reuters: WASHINGTON, Jan 20 (Reuters) - <strong>U.S. President Donald Trump may decide on who the next chairman of the U.S. Federal Reserve will be as early as\n- Bessent Pushes Senate on Fed Confirmation Amid Backlash Over Criminal Inquiry - The New York Times: President Trump\u2019s effort to get Kevin M. Warsh confirmed as the next Federal Reserve chair has been complicated by a criminal investigation into Jerom\n- Bessent: Fed pick this month, one candidate left to interview: <strong>President Trump will likely select a new Federal Reserve chair this month</strong>, Treasury Secretary Scott Bessent said Thursday, as he gave\n\nNews (5):\n- Bessent Pushes Senate on Fed Confirmation Amid Backlash Over Criminal Inquiry - The New York Times (2 weeks ago)\n- Bessent refuses to say the administration will not sue the next Fed chair - Live Updates - POLITICO (3 weeks ago)\n- Scott Bessent expects Senate Republicans to proceed with Fed chief nomination hearing (2 weeks ago)\n- Trump says he will announce his Federal Reserve chair nominee on Friday morning : NPR (1 month ago)\n- Bessent says Trump's pick for the next Fed chair could happen next week (January 20, 2026)",
+    "web_results": [
+      {
+        "title": "Bessent says Trump's pick for the next Fed chair could happen next week",
+        "url": "https://www.cnbc.com/2026/01/20/bessent-says-trumps-pick-for-the-next-fed-chair-could-happen-next-week.html",
+        "description": "After months of speculation and political intrigue, <strong>President Donald Trump is close to nominating the next chair of the Federal Reserve</strong>, Treasury Secretary Scott Bessent said Tuesday."
+      },
+      {
+        "title": "Scott Bessent - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Scott_Bessent",
+        "description": "In April, he hosted a Palm Beach, Florida, fundraiser that raised $50 million for the campaign. In July, Bessent was a key economic adviser to Trump. <strong>On November 22, 2024, President-elect Donald Trump announced his intention to nominate Bessent</strong> to serve as the United States secretary of the ..."
+      },
+      {
+        "title": "Trump may reach Fed chair decision as early as next week, Bessent says | Reuters",
+        "url": "https://www.reuters.com/world/us/trump-may-reach-fed-chair-decision-early-next-week-bessent-says-2026-01-20/",
+        "description": "WASHINGTON, Jan 20 (Reuters) - <strong>U.S. President Donald Trump may decide on who the next chairman of the U.S. Federal Reserve will be as early as next week</strong>, U.S. Treasury Secretary Scott Bessent said on Tuesday."
+      },
+      {
+        "title": "Bessent Pushes Senate on Fed Confirmation Amid Backlash Over Criminal Inquiry - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/13/us/politics/bessent-powell-warsh-fed-chair-confirmation.html",
+        "description": "President Trump\u2019s effort to get Kevin M. Warsh confirmed as the next Federal Reserve chair has been complicated by a criminal investigation into Jerome H. Powell. ... The comments by Treasury Secretary Scott Bessent underscore the urgency the Trump administration is feeling as it looks to replace the Federal Reserve chair.Credit...Eric Lee for The New York Times"
+      },
+      {
+        "title": "Bessent: Fed pick this month, one candidate left to interview",
+        "url": "https://www.axios.com/2026/01/08/bessent-trump-fed-blackrock",
+        "description": "<strong>President Trump will likely select a new Federal Reserve chair this month</strong>, Treasury Secretary Scott Bessent said Thursday, as he gave new details on the search for America&#x27;s next top central banker."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bessent Pushes Senate on Fed Confirmation Amid Backlash Over Criminal Inquiry - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/13/us/politics/bessent-powell-warsh-fed-chair-confirmation.html",
+        "description": "President Trump\u2019s effort to get Kevin M. Warsh confirmed as the next Federal Reserve chair has been complicated by a criminal investigation into Jerome H. Powell.",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "Bessent refuses to say the administration will not sue the next Fed chair - Live Updates - POLITICO",
+        "url": "https://www.politico.com/live-updates/2026/02/05/congress/bessent-fed-chair-lawsuit-00767130",
+        "description": "\"That is up to the president,\" the Treasury secretary said.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "Scott Bessent expects Senate Republicans to proceed with Fed chief nomination hearing",
+        "url": "https://thehill.com/homenews/administration/5737592-treasury-sec-bessent-senate-agreement/",
+        "description": "Treasury Secretary reaches agreement to proceed with hearing for next Federal Reserve chair, despite senator's continued blockade.",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "Trump says he will announce his Federal Reserve chair nominee on Friday morning : NPR",
+        "url": "https://npr.org/2026/01/30/g-s1-107913/trump-to-announce-fed-chair-nominee-friday",
+        "description": "President said he plans to announce new Federal Reserve chair choice Friday, after criticizing incumbent Jerome Powell for not cutting interest rates more aggressively.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Bessent says Trump's pick for the next Fed chair could happen next week",
+        "url": "https://www.cnbc.com/2026/01/20/bessent-says-trumps-pick-for-the-next-fed-chair-could-happen-next-week.html",
+        "description": "The president has whittled down the field to four candidates, Bessent told CNBC during an interview at the World Economic Forum in Switzerland.",
+        "age": "January 20, 2026"
+      }
+    ],
+    "query": "Will Trump nominate Scott Bessent as the next Fed chair?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "1042a892",
+  "title": "Polymarket research: Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:26.304100+00:00",
+  "updated_at": "2026-02-26T23:37:51.243585+00:00",
+  "claimed_at": "2026-02-26T23:37:49.646983+00:00",
+  "completed_at": "2026-02-26T23:37:51.243572+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Chelsea Clinton win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket: 1% Buy Yes 0.8\u00a2Buy No 99.3\u00a2 \u00b7 Jasmine Crockett \u00b7 $12,646,920 Vol. 1% Buy Yes 0.8\u00a2Buy No 99.3\u00a2 \u00b7 <strong>This market will resolve to \u201cYes\u201d if the named\n- Who will win the 2028 Democratic presidential nomination?: Find out the odds of who will be the 2028 US Democratic presidential nominee. Get the latest 2028 predictions on PredictIt. PredictIt enables you to f\n- Who will be the Democrats' presidential candidate in 2028 ...: We cannot provide a description for this page right now\n- What are the chances of Chelsea Clinton running for president in the next campaign? - Quora: Answer (1 of 18): In the next campaign? Four years from now? I don\u2019t think she will run, and if she does, I don\u2019t think she will do well. Out of the 4\n- Presidential candidates, 2028 - Ballotpedia: As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Democratic presiden\n\nNews (5):\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (14 hours ago)\n- The next 2 years will be a bumpy ride for Democratic presidential candidates (1 day ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- 2028 Presidential Predictions | 2028 Democratic nominee? (4 days ago)\n- Presidential election, 2028 - Ballotpedia (1 day ago)",
+    "web_results": [
+      {
+        "title": "Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
+        "description": "1% Buy Yes 0.8\u00a2Buy No 99.3\u00a2 \u00b7 Jasmine Crockett \u00b7 $12,646,920 Vol. 1% Buy Yes 0.8\u00a2Buy No 99.3\u00a2 \u00b7 <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S.</strong>"
+      },
+      {
+        "title": "Who will win the 2028 Democratic presidential nomination?",
+        "url": "https://www.predictit.org/markets/detail/8153/Who-will-win-the-2028-Democratic-presidential-nomination",
+        "description": "Find out the odds of who will be the 2028 US Democratic presidential nominee. Get the latest 2028 predictions on PredictIt. PredictIt enables you to follow along with 2028 election predictions, and more! You can even make money on PredictIt!"
+      },
+      {
+        "title": "Who will be the Democrats' presidential candidate in 2028 ...",
+        "url": "https://www.facebook.com/RBReich/posts/who-will-be-the-democrats-presidential-candidate-in-2028-who-do-you-think-should/1378100413683402/",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "What are the chances of Chelsea Clinton running for president in the next campaign? - Quora",
+        "url": "https://www.quora.com/What-are-the-chances-of-Chelsea-Clinton-running-for-president-in-the-next-campaign",
+        "description": "Answer (1 of 18): In the next campaign? Four years from now? I don\u2019t think she will run, and if she does, I don\u2019t think she will do well. Out of the 44 distinct people who have become president, there is precisely one with no prior government or military experience - Donald Trump."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Democratic presidential nomination."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc/",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "The next 2 years will be a bumpy ride for Democratic presidential candidates",
+        "url": "https://thehill.com/opinion/campaign/5753519-democratic-presidential-race-2028/",
+        "description": "Early Democratic presidential race for 2028 is wide open. Newsom and Harris lead, but the field is volatile. Change is on voters' minds.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "2028 Presidential Predictions | 2028 Democratic nominee?",
+        "url": "https://www.predictit.org/markets/detail/8153/Who-will-win-the-2028-Democratic-presidential-nomination",
+        "description": "Find out the odds of who will be the 2028 US Democratic presidential nominee. Get the latest 2028 predictions on PredictIt. PredictIt enables you to follow along with 2028 election predictions, and more! You can even make money on PredictIt!",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

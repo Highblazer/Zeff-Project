@@ -1,0 +1,85 @@
+{
+  "id": "053268fe",
+  "title": "Polymarket research: Will Nottingham Forest FC win on 2026-02-26?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Nottingham Forest FC win on 2026-02-26?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:10.462289+00:00",
+  "updated_at": "2026-02-26T23:35:05.765660+00:00",
+  "claimed_at": "2026-02-26T23:35:04.264391+00:00",
+  "completed_at": "2026-02-26T23:35:05.765642+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Nottingham Forest FC win on 2026-02-26?\n\nWeb Results (5):\n- Nottingham Forest Fixtures & Results 2025/2026 Season | Goal.com: View all Nottingham Forest match fixtures &amp; results from the 2025/2026 season, including dates and kick off times with GOAL.\n- Nottingham Forest v Fenerbahce: Europa League knockout round playoff, second leg \u2013 as it happens | Europa League | The Guardian: Thu 26 Feb 2026 23.14 CETFirst published on Thu 26 Feb 2026 20.00 CET \u00b7 Share \u00b7 Show key events only \u00b7 Please turn on JavaScript to use this feature \u00b7\n- Nottingham Forest Fixtures & Results 2025/2026 | Premier League: View Nottingham Forest scores, fixtures and results for matches played in all competitions, on the official website of the Premier League.\n- Nottingham Forest vs Fenerbahce live: Score and latest Europa League updates: Last updated 26 February 2026 9:07pm GMT \u00b7 Share article \u00b7 Log in or Subscribe \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 Copy link \u00b7 twitt\n- 2025\u201326 Nottingham Forest F.C. season - Wikipedia: Updated to match(es) played on 22 February 2026. Source: Soccerway A = Away; H = Home; W = Win; D = Draw; L = Loss \u00b7 On 18 June, the Premier League fi\n\nNews (5):\n- Nottingham Forest v Fenerbahce: Europa League knockout round playoff, second leg \u2013 as it happens | Europa League | The Guardian (1 hour ago)\n- Goals and highlights of Nottingham Forest 1 vs 2 Fenerbah\u00e7e in the UEFA Europa League | 02/26/2026 - VAVEL USA (2 hours ago)\n- Nottingham Forest 1-2 Fenerbahce (4-2 agg): Nervy Forest reach Europa League last 16 - BBC Sport (43 minutes ago)\n- Preview: Nottingham Forest vs Fenerbahce - prediction, team news, lineups - Sports Mole (2 days ago)\n- Nottingham Forest vs Fenerbahce live: Score and latest Europa League updates (2 hours ago)",
+    "web_results": [
+      {
+        "title": "Nottingham Forest Fixtures & Results 2025/2026 Season | Goal.com",
+        "url": "https://www.goal.com/en/team/nottingham-forest/fixtures-results/1qtaiy11gswx327s0vkibf70n",
+        "description": "View all Nottingham Forest match fixtures &amp; results from the 2025/2026 season, including dates and kick off times with GOAL."
+      },
+      {
+        "title": "Nottingham Forest v Fenerbahce: Europa League knockout round playoff, second leg \u2013 as it happens | Europa League | The Guardian",
+        "url": "https://www.theguardian.com/football/live/2026/feb/26/nottingham-forest-v-fenerbahce-europa-league-knockout-round-playoff-second-leg-live",
+        "description": "Thu 26 Feb 2026 23.14 CETFirst published on Thu 26 Feb 2026 20.00 CET \u00b7 Share \u00b7 Show key events only \u00b7 Please turn on JavaScript to use this feature \u00b7 Key events \u00b7 1h ago \u00b7 FULL-TIME: <strong>Nottingham Forest (4) 1-2 (3) Fenerbahce</strong> \u00b7 2h ago \u00b7 GOAL!"
+      },
+      {
+        "title": "Nottingham Forest Fixtures & Results 2025/2026 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/17/nottingham-forest/matches",
+        "description": "View Nottingham Forest scores, fixtures and results for matches played in all competitions, on the official website of the Premier League."
+      },
+      {
+        "title": "Nottingham Forest vs Fenerbahce live: Score and latest Europa League updates",
+        "url": "https://www.telegraph.co.uk/football/2026/02/26/nottingham-forest-vs-fenerbahce-live-score-europa-league/",
+        "description": "Last updated 26 February 2026 9:07pm GMT \u00b7 Share article \u00b7 Log in or Subscribe \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 Half-time verdict \u00b7 Rattled Forest booed off \u00b7 Fener grab a goal back \u00b7"
+      },
+      {
+        "title": "2025\u201326 Nottingham Forest F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Nottingham_Forest_F.C._season",
+        "description": "Updated to match(es) played on 22 February 2026. Source: Soccerway A = Away; H = Home; W = Win; D = Draw; L = Loss \u00b7 On 18 June, the Premier League fixtures were released, with Nottingham Forest at home to Brentford on the opening weekend."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Nottingham Forest v Fenerbahce: Europa League knockout round playoff, second leg \u2013 as it happens | Europa League | The Guardian",
+        "url": "https://www.theguardian.com/football/live/2026/feb/26/nottingham-forest-v-fenerbahce-europa-league-knockout-round-playoff-second-leg-live",
+        "description": "Two goals from Kerem Akturkoglu put Forest under pressure, but Callum Hudson-Odoi\u2019s goal calmed things and they saw out a 4-2 aggregate win",
+        "age": "1 hour ago"
+      },
+      {
+        "title": "Goals and highlights of Nottingham Forest 1 vs 2 Fenerbah\u00e7e in the UEFA Europa League | 02/26/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/02/26/1252100-nottingham-vs-fenerbahce-live-score-europa-league.html",
+        "description": "In the match between Nottingham Forest and Fenerbah\u00e7e, the Turkish team won 2-1. They opened the scoring with Kerem Akt\u00fcrko\u011flu, and in the second half, Akt\u00fcrko\u011flu scored a second from the penalty spot. However, in the final stages, Hudson-Odoi reduced the deficit, securing their qualification ...",
+        "age": "2 hours ago"
+      },
+      {
+        "title": "Nottingham Forest 1-2 Fenerbahce (4-2 agg): Nervy Forest reach Europa League last 16 - BBC Sport",
+        "url": "https://www.bbc.com/sport/football/live/ce8wz53xn0gt",
+        "description": "Nervy Nottingham Forest edge past Fenerbahce to reach the last 16 of the Europa League.",
+        "age": "43 minutes ago"
+      },
+      {
+        "title": "Preview: Nottingham Forest vs Fenerbahce - prediction, team news, lineups - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/nottingham-forest/europa-league/preview/nottm-forest-vs-fenerbahce-prediction-team-news-lineups_592604.html",
+        "description": "Sports Mole previews Thursday's Europa League clash between Nottingham Forest and Fenerbahce, including predictions, team news and possible lineups.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Nottingham Forest vs Fenerbahce live: Score and latest Europa League updates",
+        "url": "https://www.telegraph.co.uk/football/2026/02/26/nottingham-forest-vs-fenerbahce-live-score-europa-league/",
+        "description": "Last updated 26 February 2026 9:07pm GMT \u00b7 Share article \u00b7 Log in or Subscribe \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 Half-time verdict \u00b7 Rattled Forest booed off \u00b7 Fener grab a goal back \u00b7",
+        "age": "2 hours ago"
+      }
+    ],
+    "query": "Will Nottingham Forest FC win on 2026-02-26?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "7989cdb8",
+  "title": "Polymarket research: Will Lens win the 2025\u201326 French Ligue 1?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Lens win the 2025\u201326 French Ligue 1?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:27.637703+00:00",
+  "updated_at": "2026-02-26T23:38:13.234888+00:00",
+  "claimed_at": "2026-02-26T23:38:11.866735+00:00",
+  "completed_at": "2026-02-26T23:38:13.234869+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Lens win the 2025\u201326 French Ligue 1?\n\nWeb Results (5):\n- Lens Are Making the Ligue 1 Title Race Interesting Again | Opta Analyst: Lens finished last season in eighth place, <strong>without showing any signs of what was to come in 2025-26</strong>. However, they have won 12 of the\n- Could Lens really win Ligue 1? How France's surprise package are standing up to PSG in title race | FOX Sports: But <strong>nor will holding on to their Ligue 1 title</strong>. While the presumption was that PSG would romp to a fifth consecutive French champions\n- Will Lens win the 2025\u201326 French Ligue 1?: All major prediction markets, aggregated into one professional trading terminal.\n- Could Lens really win Ligue 1? How France's surprise package are standing up to PSG in title race | Goal.com: Luis Enrique&#x27;s men hadn&#x27;t played particularly impressively during the first half of the 2025-26 campaign, so they wanted to send a warning t\n- How Lens are defying the odds \u2013 and PSG \u2013 to lead Ligue 1 - The Athletic: Tactical nous, shrewd signings and a coveted young coach have turned the northern French club into unlikely challengers\n\nNews (5):\n- Ligue 1 2025-26 Matchday 24 Preview: Key Matchups, Players To Watch, Injury List \u2013 All You Need To Know | Outlook India (8 hours ago)\n- Could Lens really win Ligue 1? How France's surprise package are standing up to PSG in title race | FOX Sports (1 week ago)\n- Lens captain urges fans to keep the faith in tense Ligue 1 title fight with PSG (10 hours ago)\n- PREVIEW | Strasbourg vs Lens - team news, lineups, predictions - Yahoo Sports (1 day ago)\n- Strasbourg vs Lens: Ligue 1 stats & head-to-head - BBC Sport (2 days ago)",
+    "web_results": [
+      {
+        "title": "Lens Are Making the Ligue 1 Title Race Interesting Again | Opta Analyst",
+        "url": "https://theanalyst.com/articles/lens-making-ligue-1-title-race-interesting",
+        "description": "Lens finished last season in eighth place, <strong>without showing any signs of what was to come in 2025-26</strong>. However, they have won 12 of their 16 league games (D1 L3) and boast the best defensive record in Ligue 1 this season (13 goals conceded)."
+      },
+      {
+        "title": "Could Lens really win Ligue 1? How France's surprise package are standing up to PSG in title race | FOX Sports",
+        "url": "https://www.foxsports.com/articles/soccer/could-lens-really-win-ligue-1-how-frances-surprise-package-are-standing-up-to-psg-in-title-race",
+        "description": "But <strong>nor will holding on to their Ligue 1 title</strong>. While the presumption was that PSG would romp to a fifth consecutive French championship, they&#x27;re presently in the very unfamiliar position of second spot in the standings, with Lens even more ..."
+      },
+      {
+        "title": "Will Lens win the 2025\u201326 French Ligue 1?",
+        "url": "https://whales.market/prediction/fr/market/will-lens-win-the-202526-french-ligue-1",
+        "description": "All major prediction markets, aggregated into one professional trading terminal."
+      },
+      {
+        "title": "Could Lens really win Ligue 1? How France's surprise package are standing up to PSG in title race | Goal.com",
+        "url": "https://www.goal.com/en/lists/could-lens-really-win-ligue-1-surprise-package-dethrone-psg-champions-france/blt99ee0eebd7ec74b7",
+        "description": "Luis Enrique&#x27;s men hadn&#x27;t played particularly impressively during the first half of the 2025-26 campaign, so they wanted to send a warning to all of their domestic and European rivals in La Classique - and they realised that objective in emphatic fashion, inflicting a brutal 5-0 beating upon Marseille at Parc des Princes."
+      },
+      {
+        "title": "How Lens are defying the odds \u2013 and PSG \u2013 to lead Ligue 1 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/6858208/2025/12/04/lens-ligue-1-table/",
+        "description": "Tactical nous, shrewd signings and a coveted young coach have turned the northern French club into unlikely challengers"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Ligue 1 2025-26 Matchday 24 Preview: Key Matchups, Players To Watch, Injury List \u2013 All You Need To Know | Outlook India",
+        "url": "https://outlookindia.com/sports/football/ligue-1-2025-26-matchday-24-preview-key-matchups-players-to-watch-injury-list",
+        "description": "Ligue 1 2025-26 Matchday 24 Preview: Lens look to prove their title credentials after a costly collapse against Monaco, while PSG aim to capitalise at Le Havre and Lyon face a crucial trip to Marseille",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "Could Lens really win Ligue 1? How France's surprise package are standing up to PSG in title race | FOX Sports",
+        "url": "https://www.foxsports.com/articles/soccer/could-lens-really-win-ligue-1-how-frances-surprise-package-are-standing-up-to-psg-in-title-race",
+        "description": "On February 8, Ousmane Dembele proudly proclaimed Paris Saint-Germain were back to their treble-winning best. Luis Enrique's men hadn't played particularly impressively during the first half of the 2025-26 campaign, so they wanted to send a warning to all of their domestic and European rivals ...",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Lens captain urges fans to keep the faith in tense Ligue 1 title fight with PSG",
+        "url": "https://apnews.com/article/ligue1-lens-psg-lyon-78b08b90d573a183b875ce43de35cedd",
+        "description": "Lens captain Florian Sotoca has urged fans to keep believing his team can topple Paris Saint-Germain and win Ligue 1.",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "PREVIEW | Strasbourg vs Lens - team news, lineups, predictions - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/preview-strasbourg-vs-lens-team-195000190.html",
+        "description": "Strasbourg and Lens go head-to-head at Stade de la Meinau this Friday in the Ligue 1. The match will be broadcast live at 19:45 on Amazon Prime.Strasbourg currently have 34 points and lie in 7th posit...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Strasbourg vs Lens: Ligue 1 stats & head-to-head - BBC Sport",
+        "url": "https://www.bbc.com/sport/football/live/cewz0q98yj5t",
+        "description": "Follow live text commentary, score updates and match stats from Strasbourg vs Lens in the Ligue 1",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Lens win the 2025\u201326 French Ligue 1?",
+    "sources_count": 10
+  },
+  "error": null
+}

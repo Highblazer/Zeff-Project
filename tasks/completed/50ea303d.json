@@ -1,0 +1,85 @@
+{
+  "id": "50ea303d",
+  "title": "Polymarket research: Will the US next strike Iran on February 25, 2026 (ET)?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the US next strike Iran on February 25, 2026 (ET)?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:55:50.967949+00:00",
+  "updated_at": "2026-02-26T23:56:14.220210+00:00",
+  "claimed_at": "2026-02-26T23:56:12.358351+00:00",
+  "completed_at": "2026-02-26T23:56:14.220190+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the US next strike Iran on February 25, 2026 (ET)?\n\nWeb Results (5):\n- Iran Update, February 25, 2026 | ISW: The Islamic Revolutionary Guards ... of the Madinah ol Munawarah Operational Base in Bandar Abbas, Hormozgan Province, on <strong>February 25.</strong\n- 2026 Iran\u2013United States crisis - Wikipedia: <strong>Trump has sent warships, tankers and submarines to the Middle East to be ready for potential strikes as soon as 21 February</strong>, sources \n- Ten predictions for the potential US strikes on Iran - Atlantic Council: More often, however, they are making their own educated but fundamentally subjective judgments\u2014and those judgments can be usefully informed by credibl\n- Iran Update, February 20, 2026 | ISW: <strong>Iran is unlikely to make any meaningful nuclear concessions in its upcoming draft proposal to the United States</strong>. Iran may calculate t\n- US/Israel strikes Iran by...? Predictions & Odds | Polymarket: View real-time odds for &quot;US/Israel strikes Iran by...?&quot; as of <strong>February 25, 2026</strong> and trade on The World&#x27;s Largest Predi\n\nNews (5):\n- Iran Update, February 23, 2026 | ISW (3 days ago)\n- A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News (2 days ago)\n- Iran cannot defeat US military might, but it can still win | Opinions | Al Jazeera (2 days ago)\n- 7 Experts on the Risk of a Wider War with Iran - POLITICO (2 days ago)\n- US-Iran talks end with no deal but potential signs of progress | Reuters (1 day ago)",
+    "web_results": [
+      {
+        "title": "Iran Update, February 25, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-25-2026/",
+        "description": "The Islamic Revolutionary Guards ... of the Madinah ol Munawarah Operational Base in Bandar Abbas, Hormozgan Province, on <strong>February 25.</strong>[23] The Madinah ol Munawarah Operational Base is the IRGC Ground Forces\u2019 closest regional ..."
+      },
+      {
+        "title": "2026 Iran\u2013United States crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_crisis",
+        "description": "<strong>Trump has sent warships, tankers and submarines to the Middle East to be ready for potential strikes as soon as 21 February</strong>, sources told CBS. In the final week of January, President Donald Trump used Truth Social to issue a series of public warnings directed at Iran, marking one of the most ..."
+      },
+      {
+        "title": "Ten predictions for the potential US strikes on Iran - Atlantic Council",
+        "url": "https://www.atlanticcouncil.org/dispatches/ten-predictions-for-the-potential-us-strikes-on-iran/",
+        "description": "More often, however, they are making their own educated but fundamentally subjective judgments\u2014and those judgments can be usefully informed by credible perspectives from outside of government. Therefore, experienced foreign-policy observers do a disservice to policymakers when they withhold their own predictions. So, as US strikes on Iran appear ever more likely, here are ten predictions of mine."
+      },
+      {
+        "title": "Iran Update, February 20, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-20-2026/",
+        "description": "<strong>Iran is unlikely to make any meaningful nuclear concessions in its upcoming draft proposal to the United States</strong>. Iran may calculate that it can delay the strikes if it offers a sufficiently conciliatory proposal, however."
+      },
+      {
+        "title": "US/Israel strikes Iran by...? Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/usisrael-strikes-iran-by",
+        "description": "View real-time odds for &quot;US/Israel strikes Iran by...?&quot; as of <strong>February 25, 2026</strong> and trade on The World&#x27;s Largest Prediction Market\u2122"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Iran Update, February 23, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-23-2026/",
+        "description": "A senior US official told Axios on Feb. 22 that the US and Iran may discuss an interim deal during negotiations in Geneva on February 26.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News",
+        "url": "https://www.pbs.org/newshour/world/a-timeline-of-tensions-over-irans-nuclear-program-as-talks-with-u-s-approach",
+        "description": "Iran and the United States are due to hold new talks in Geneva on Thursday over Tehran's nuclear program.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Iran cannot defeat US military might, but it can still win | Opinions | Al Jazeera",
+        "url": "https://www.aljazeera.com/opinions/2026/2/24/iran-cannot-defeat-us-military-might-but-it-can-still-win",
+        "description": "Capitulation in the form of a deal will not stave off US aggression. Defiance through regional alliances could.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "7 Experts on the Risk of a Wider War with Iran - POLITICO",
+        "url": "https://www.politico.com/news/magazine/2026/02/24/iran-us-strikes-expert-forum-roundup-00794832",
+        "description": "As the threat of U.S. strikes intensifies, our experts weigh the risks of escalation.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "US-Iran talks end with no deal but potential signs of progress | Reuters",
+        "url": "https://www.reuters.com/world/middle-east/us-iran-nuclear-talks-resume-geneva-against-backdrop-military-threat-2026-02-26/",
+        "description": "The United States and Iran made progress in talks over Tehran's nuclear program on Thursday, mediator Oman said, but hours of negotiation ended with no sign of a breakthrough that could avert potential U.S. strikes amid a massive military buildup.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will the US next strike Iran on February 25, 2026 (ET)?",
+    "sources_count": 10
+  },
+  "error": null
+}

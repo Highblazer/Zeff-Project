@@ -1,0 +1,118 @@
+{
+  "id": "843ed880",
+  "title": "Scan all pairs for setups",
+  "assigned_to": "tradebot",
+  "task_type": "market_scan",
+  "params": {},
+  "priority": 5,
+  "status": "completed",
+  "created_by": "cli",
+  "created_at": "2026-02-25T19:02:06.188602+00:00",
+  "updated_at": "2026-02-25T19:02:23.316097+00:00",
+  "claimed_at": "2026-02-25T19:02:21.149846+00:00",
+  "completed_at": "2026-02-25T19:02:23.316082+00:00",
+  "retries": 0,
+  "result": {
+    "signals": {
+      "EURUSD": {
+        "price": 1.1809,
+        "signal": "SELL",
+        "reason": "Fib 1.0 Resistance",
+        "config": {
+          "risk_pips": 15,
+          "reward_pips": 45
+        }
+      },
+      "GBPUSD": {
+        "price": 1.3553,
+        "signal": "SELL",
+        "reason": "Fib 1.0 Resistance",
+        "config": {
+          "risk_pips": 20,
+          "reward_pips": 60
+        }
+      },
+      "USDJPY": {
+        "price": 156.386,
+        "signal": "BUY",
+        "reason": "FVG + Support ny_session",
+        "config": {
+          "risk_pips": 20,
+          "reward_pips": 60
+        }
+      },
+      "AUDUSD": {
+        "price": 0.7122,
+        "signal": "SELL",
+        "reason": "Fib 1.0 Resistance",
+        "config": {
+          "risk_pips": 20,
+          "reward_pips": 60
+        }
+      },
+      "USDCAD": {
+        "price": 1.3677,
+        "signal": "SELL",
+        "reason": "Fib 0.382 Resistance",
+        "config": {
+          "risk_pips": 20,
+          "reward_pips": 60
+        }
+      }
+    },
+    "actionable": {
+      "EURUSD": {
+        "price": 1.1809,
+        "signal": "SELL",
+        "reason": "Fib 1.0 Resistance",
+        "config": {
+          "risk_pips": 15,
+          "reward_pips": 45
+        }
+      },
+      "GBPUSD": {
+        "price": 1.3553,
+        "signal": "SELL",
+        "reason": "Fib 1.0 Resistance",
+        "config": {
+          "risk_pips": 20,
+          "reward_pips": 60
+        }
+      },
+      "USDJPY": {
+        "price": 156.386,
+        "signal": "BUY",
+        "reason": "FVG + Support ny_session",
+        "config": {
+          "risk_pips": 20,
+          "reward_pips": 60
+        }
+      },
+      "AUDUSD": {
+        "price": 0.7122,
+        "signal": "SELL",
+        "reason": "Fib 1.0 Resistance",
+        "config": {
+          "risk_pips": 20,
+          "reward_pips": 60
+        }
+      },
+      "USDCAD": {
+        "price": 1.3677,
+        "signal": "SELL",
+        "reason": "Fib 0.382 Resistance",
+        "config": {
+          "risk_pips": 20,
+          "reward_pips": 60
+        }
+      }
+    },
+    "total_scanned": 5,
+    "actionable_count": 5,
+    "market_session": "ny_session",
+    "in_session": true,
+    "open_positions": 4,
+    "balance": 193.07
+  },
+  "error": null
+}

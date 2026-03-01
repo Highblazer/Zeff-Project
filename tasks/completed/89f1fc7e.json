@@ -1,0 +1,85 @@
+{
+  "id": "89f1fc7e",
+  "title": "Polymarket research: US strikes Iran by March 7, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "US strikes Iran by March 7, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:23:27.681869+00:00",
+  "updated_at": "2026-02-27T00:23:46.321851+00:00",
+  "claimed_at": "2026-02-27T00:23:44.772142+00:00",
+  "completed_at": "2026-02-27T00:23:46.321834+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: US strikes Iran by March 7, 2026?\n\nWeb Results (5):\n- 2025\u20132026 Iran\u2013United States negotiations - Wikipedia: Following the attacks, Iran pulled out and suspended nuclear talks indefinitely. <strong>The United States also carried out a series of strikes on Ira\n- 2026 Iran\u2013United States crisis - Wikipedia: The crisis unfolded against the backdrop of Iran&#x27;s deepening economic collapse and internal unrest, which had begun in late 2025 and continued in\n- Exclusive: US military preparing for potentially weeks-long Iran operations | Reuters: &quot;He listens to a variety of ... Pentagon declined to comment. <strong>The United States sent two aircraft carriers to the region last year, when \n- US strikes Iran by...? Trading Odds & Predictions | Polymarket: Propose resolutionThis market will resolve to &quot;Yes&quot; if the US initiates a drone, missile, or air strike on Iranian soil or any official Iran\n- When AI thinks US will strike Iran - and what it teaches us about tech under pressure: Its most likely scenario, carrying ... as the highest-risk window. After another prompt, it narrowed further: <strong>Saturday, March 7 or Sunday, Mar\n\nNews (5):\n- A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News (2 days ago)\n- Iran Update, February 23, 2026 | ISW (3 days ago)\n- US-Iran talks in Geneva focus on nuclear weapons, ballistic missiles (13 hours ago)\n- 7 Experts on the Risk of a Wider War with Iran - POLITICO (2 days ago)\n- When AI thinks US will strike Iran - and what it teaches us about tech under pressure (1 day ago)",
+    "web_results": [
+      {
+        "title": "2025\u20132026 Iran\u2013United States negotiations - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations",
+        "description": "Following the attacks, Iran pulled out and suspended nuclear talks indefinitely. <strong>The United States also carried out a series of strikes on Iranian nuclear sites</strong>, negotiations between the United States and Iran were subsequently suspended. They resumed in early 2026 after large-scale protests ..."
+      },
+      {
+        "title": "2026 Iran\u2013United States crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_crisis",
+        "description": "The crisis unfolded against the backdrop of Iran&#x27;s deepening economic collapse and internal unrest, which had begun in late 2025 and continued into early 2026. The escalation of the Twelve-Day War in 2025, combined with United States strikes on Iranian nuclear sites, had a major influence on the crisis."
+      },
+      {
+        "title": "Exclusive: US military preparing for potentially weeks-long Iran operations | Reuters",
+        "url": "https://www.reuters.com/world/middle-east/us-military-preparing-potentially-weeks-long-iran-operations-2026-02-13/",
+        "description": "&quot;He listens to a variety of ... Pentagon declined to comment. <strong>The United States sent two aircraft carriers to the region last year, when it carried out strikes against Iranian nuclear sites</strong>...."
+      },
+      {
+        "title": "US strikes Iran by...? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/us-strikes-iran-by",
+        "description": "Propose resolutionThis market will resolve to &quot;Yes&quot; if the US initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate between the time of this market&#x27;s creation and the listed date (ET). Otherwise, this market will resolve to &quot;No&quot;."
+      },
+      {
+        "title": "When AI thinks US will strike Iran - and what it teaches us about tech under pressure",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-887917",
+        "description": "Its most likely scenario, carrying ... as the highest-risk window. After another prompt, it narrowed further: <strong>Saturday, March 7 or Sunday, March 8, 2026</strong>...."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News",
+        "url": "https://www.pbs.org/newshour/world/a-timeline-of-tensions-over-irans-nuclear-program-as-talks-with-u-s-approach",
+        "description": "Iran and the United States are due to hold new talks in Geneva on Thursday over Tehran's nuclear program.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Iran Update, February 23, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-23-2026/",
+        "description": "A senior US official told Axios on Feb. 22 that the US and Iran may discuss an interim deal during negotiations in Geneva on February 26.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "US-Iran talks in Geneva focus on nuclear weapons, ballistic missiles",
+        "url": "https://cnbc.com/2026/02/26/us-iran-nuclear-weapons-talks-rubio-geneva-ballistic-missiles.html",
+        "description": "U.S. Secretary of State Marco Rubio warned that Iran's reluctance to discuss its intercontinental ballistic missiles was a \"big, big problem.\"",
+        "age": "13 hours ago"
+      },
+      {
+        "title": "7 Experts on the Risk of a Wider War with Iran - POLITICO",
+        "url": "https://www.politico.com/news/magazine/2026/02/24/iran-us-strikes-expert-forum-roundup-00794832",
+        "description": "As the threat of U.S. strikes intensifies, our experts weigh the risks of escalation.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "When AI thinks US will strike Iran - and what it teaches us about tech under pressure",
+        "url": "https://jpost.com/middle-east/iran-news/article-887917",
+        "description": "Its most likely scenario, carrying ... limited strike on Iranian nuclear and military infrastructure followed by a pause and renewed diplomatic pressure. It flagged early-to-mid March 2026 as the highest-risk window. After another prompt, it narrowed further: Saturday, March 7 or Sunday, ...",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "US strikes Iran by March 7, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

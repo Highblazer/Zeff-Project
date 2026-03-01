@@ -1,0 +1,85 @@
+{
+  "id": "9285426c",
+  "title": "Polymarket research: Will Aston Villa win the 2025\u201326 English Premier League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Aston Villa win the 2025\u201326 English Premier League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.566331+00:00",
+  "updated_at": "2026-03-01T07:28:43.721053+00:00",
+  "claimed_at": "2026-03-01T07:28:41.839115+00:00",
+  "completed_at": "2026-03-01T07:28:43.721028+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Aston Villa win the 2025\u201326 English Premier League?\n\nWeb Results (5):\n- 2025\u201326 Aston Villa F.C. season - Wikipedia: The Premier League fixtures were announced on 18 June 2025. ... As a Premier League side, <strong>Aston Villa entered in the third round, and were dra\n- Aston Villa 2025 English Premier League Results - ESPN: Get all the <strong>Aston Villa</strong> results for the 2025 English Premier League season on ESPN. Includes game summary and statistics for every <s\n- Aston Villa couldn't be crowned Premier League champions, could they? - ESPN: Frank Leboeuf backs Aston Villa to cause an upset and <strong>win the Premier League over Arsenal or Manchester City</strong>.\n- Aston Villa odds to win the Premier League: Outright odds and predictions: Aston Villa have developed into a consistent contender for the European spots and even find themselves on the fringes of the title conversation this s\n- Aston Villa Team News, Fixtures & Results 2025/26 | Premier League: For the latest news on <strong>Aston Villa</strong>, including scores, fixtures, team news, results, form guide &amp; league position, visit the offic\n\nNews (5):\n- Premier League 2025-26 table \u2014 Latest standings - NBC Sports (14 hours ago)\n- Premier League Predictions: Gameweek 28 (2 days ago)\n- Premier League 2025-26 fixtures: Dates, schedule, how to watch live - NBC Sports (14 hours ago)\n- Will Aston Villa hold on to their place in the Champions League? | Aston Villa | The Guardian (2 days ago)\n- Aston Villa suffered \u20ac97m loss in 2024-25 season, per UEFA report - The Athletic (3 days ago)",
+    "web_results": [
+      {
+        "title": "2025\u201326 Aston Villa F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Aston_Villa_F.C._season",
+        "description": "The Premier League fixtures were announced on 18 June 2025. ... As a Premier League side, <strong>Aston Villa entered in the third round, and were drawn away to Tottenham Hotspur</strong>."
+      },
+      {
+        "title": "Aston Villa 2025 English Premier League Results - ESPN",
+        "url": "https://www.espn.com/soccer/team/results/_/id/362/league/ENG.1",
+        "description": "Get all the <strong>Aston Villa</strong> results for the 2025 English Premier League season on ESPN. Includes game summary and statistics for every <strong>Aston Villa</strong> game."
+      },
+      {
+        "title": "Aston Villa couldn't be crowned Premier League champions, could they? - ESPN",
+        "url": "https://www.espn.com/soccer/story/_/id/47333295/aston-villa-couldnt-crowned-premier-league-champions-they",
+        "description": "Frank Leboeuf backs Aston Villa to cause an upset and <strong>win the Premier League over Arsenal or Manchester City</strong>."
+      },
+      {
+        "title": "Aston Villa odds to win the Premier League: Outright odds and predictions",
+        "url": "https://www.squawka.com/en/outright-markets/aston-villa-outright-odds-25-26/",
+        "description": "Aston Villa have developed into a consistent contender for the European spots and even find themselves on the fringes of the title conversation this season. Read on to see their outright odds for the ongoing 2025-26 Premier League season, from top four hopes to title chances."
+      },
+      {
+        "title": "Aston Villa Team News, Fixtures & Results 2025/26 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/7/aston-villa/overview",
+        "description": "For the latest news on <strong>Aston Villa</strong>, including scores, fixtures, team news, results, form guide &amp; league position, visit the official website of the Premier League."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Premier League 2025-26 table \u2014 Latest standings - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-table-teams-standings-for-the-new-season",
+        "description": "The 2025-26 Premier League table is absolutely bonkers and so tight.",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "Premier League Predictions: Gameweek 28",
+        "url": "https://www.si.com/soccer/premier-league-predictions-gameweek-28-2025-26",
+        "description": "Gameweek 28 is bookended by derbies in the Midlands and London.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Premier League 2025-26 fixtures: Dates, schedule, how to watch live - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-fixtures-released-dates-schedule-how-to-watch-live",
+        "description": "Check out the Premier League schedule for the 2025-26 season, with everything you need for all 380 games.",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "Will Aston Villa hold on to their place in the Champions League? | Aston Villa | The Guardian",
+        "url": "https://www.theguardian.com/football/who-scored-blog/2026/feb/27/aston-villa-champions-league-manchester-united-chelsea-and-liverpool",
+        "description": "Villa\u2019s run of three wins in nine league games has opened the door to Manchester United, Chelsea and Liverpool",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Aston Villa suffered \u20ac97m loss in 2024-25 season, per UEFA report - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7070562/2026/02/26/aston-villa-loss-finances-uefa/",
+        "description": "Villa's losses across three years have reached nearly \u00a3290million.",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will Aston Villa win the 2025\u201326 English Premier League?",
+    "sources_count": 10
+  },
+  "error": null
+}

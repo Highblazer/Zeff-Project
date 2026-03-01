@@ -1,0 +1,85 @@
+{
+  "id": "72a6dc8a",
+  "title": "Polymarket research: Will Manchester United win the 2025\u201326 English Premier League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Manchester United win the 2025\u201326 English Premier League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:42:39.382047+00:00",
+  "updated_at": "2026-03-01T07:42:51.521663+00:00",
+  "claimed_at": "2026-03-01T07:42:49.655648+00:00",
+  "completed_at": "2026-03-01T07:42:51.521646+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Manchester United win the 2025\u201326 English Premier League?\n\nWeb Results (5):\n- 2025\u201326 Manchester United F.C. season - Wikipedia: ^ The winners of the 2025\u201326 EFL Cup, Arsenal or Manchester City, qualify for the Conference League play-off round. If they also win the FA Cup or fin\n- Man Utd odds to finish in the Premier League top four: Outright odds and predictions: It\u2019s been another turbulent season for Manchester United, but under Michael Carrick, things seem to be improving. Read on to see their outright odds f\n- Supercomputer Predicts 2025\u201326 Premier League Table As Man Utd Send Arsenal Spiralling: Despite consecutive wins against Man City and Arsenal to start the Michael Carrick era in the dugout, <strong>Manchester United are expected to be the\n- Man Utd Winning the Premier League Title\u2014Could it Actually Happen?: But the brand\u2019s globally famous \u2018Impossible is Nothing\u2019 slogan will never have been more relevant should the Red Devils do the unthinkable and <strong\n- 2025\u201326 Premier League - Wikipedia: The 2025\u201326 Premier League is the 34th season of the Premier League and the 127th season of top-flight English football. The fixtures were released on\n\nNews (5):\n- Premier League 2025-26 table \u2014 Latest standings - NBC Sports (14 hours ago)\n- Premier League 2025-26 fixtures: Dates, schedule, how to watch live - NBC Sports (14 hours ago)\n- Have YOUR say: PREDICT the final top six (1 day ago)\n- Premier League Predictions: Gameweek 28 (2 days ago)\n- Champions League round of 16 predictions: Real Madrid over Man City - ESPN (2 days ago)",
+    "web_results": [
+      {
+        "title": "2025\u201326 Manchester United F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Manchester_United_F.C._season",
+        "description": "^ The winners of the 2025\u201326 EFL Cup, Arsenal or Manchester City, qualify for the Conference League play-off round. If they also win the FA Cup or finish in the top five, the highest-placed team not already qualified for European competition will qualify. As a Premier League side, United entered the FA Cup in the third round and were drawn at home to Brighton &amp; Hove Albion."
+      },
+      {
+        "title": "Man Utd odds to finish in the Premier League top four: Outright odds and predictions",
+        "url": "https://www.squawka.com/en/outright-markets/man-utd-outright-odds-25-26/",
+        "description": "It\u2019s been another turbulent season for Manchester United, but under Michael Carrick, things seem to be improving. Read on to see their outright odds for the 2025-26 Premier League season, which has now become all about trying to return to the Champions League."
+      },
+      {
+        "title": "Supercomputer Predicts 2025\u201326 Premier League Table As Man Utd Send Arsenal Spiralling",
+        "url": "https://www.si.com/soccer/supercomputer-predicts-2025-26-premier-league-table-man-utd-arsenal-spiralling",
+        "description": "Despite consecutive wins against Man City and Arsenal to start the Michael Carrick era in the dugout, <strong>Manchester United are expected to be the first team to miss out on Champions League football, finishing sixth.</strong>"
+      },
+      {
+        "title": "Man Utd Winning the Premier League Title\u2014Could it Actually Happen?",
+        "url": "https://www.si.com/soccer/man-utd-winning-premier-league-title-could-it-actually-happen",
+        "description": "But the brand\u2019s globally famous \u2018Impossible is Nothing\u2019 slogan will never have been more relevant should the Red Devils do the unthinkable and <strong>finish 2025\u201326 as Premier League champions</strong>."
+      },
+      {
+        "title": "2025\u201326 Premier League - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League",
+        "description": "The 2025\u201326 Premier League is the 34th season of the Premier League and the 127th season of top-flight English football. The fixtures were released on 18 June 2025 at 09:00 BST. The season will consist of 33 weekend and five midweek rounds of matches. <strong>Liverpool are the defending champions</strong>, ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Premier League 2025-26 table \u2014 Latest standings - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-table-teams-standings-for-the-new-season",
+        "description": "The 2025-26 Premier League table is absolutely bonkers and so tight.",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "Premier League 2025-26 fixtures: Dates, schedule, how to watch live - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-fixtures-released-dates-schedule-how-to-watch-live",
+        "description": "Check out the Premier League schedule for the 2025-26 season, with everything you need for all 380 games.",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "Have YOUR say: PREDICT the final top six",
+        "url": "https://premierleague.com/en/news/4599032/have-your-say-who-will-finish-in-the-top-six",
+        "description": "Submit your prediction for how the top six of the 2025/26 Premier League table will finish",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Premier League Predictions: Gameweek 28",
+        "url": "https://www.si.com/soccer/premier-league-predictions-gameweek-28-2025-26",
+        "description": "Gameweek 28 is bookended by derbies in the Midlands and London.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Champions League round of 16 predictions: Real Madrid over Man City - ESPN",
+        "url": "https://www.espn.com/soccer/story/_/id/48045987/uefa-champions-league-predictions-picks-bracket-round-16-mark-ogden",
+        "description": "The path to the Champions League final is now mapped out, but who do we think makes it all the way to Budapest? Mark Ogden makes his picks.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will Manchester United win the 2025\u201326 English Premier League?",
+    "sources_count": 10
+  },
+  "error": null
+}

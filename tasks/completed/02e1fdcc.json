@@ -1,0 +1,85 @@
+{
+  "id": "02e1fdcc",
+  "title": "Polymarket research: Will Trump nominate Michelle Bowman as the next Fed chair?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump nominate Michelle Bowman as the next Fed chair?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:46.160127+00:00",
+  "updated_at": "2026-03-01T07:27:25.850997+00:00",
+  "claimed_at": "2026-03-01T07:27:23.787040+00:00",
+  "completed_at": "2026-03-01T07:27:25.850980+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump nominate Michelle Bowman as the next Fed chair?\n\nWeb Results (5):\n- Who will Trump nominate as Fed Chair? Predictions & Odds | Polymarket: <strong>No one nominated before 2027</strong> \u00b7 $19,429,857 Vol. &lt;1% Buy Yes 0.5\u00a2Buy No 99.6\u00a2 \u00b7 Kevin Hassett \u00b7 $29,715,024 Vol. &lt;1% Buy Yes 0.3\n- President to nominate Fed\u2019s Bowman as Vice Chair of Supervision | America's Credit Unions: <strong>President Donald Trump announced Monday that he plans to nominate Michelle Bowman</strong> as the Fed\u2019s Vice Chair for Supervision, a position\n- Trump nominates Bowman as Fed\u2019s next vice chair for supervision | Banking Dive: Despite Trump\u2019s assertion Monday that Bowman \u201cwill be\u201d the Fed\u2019s next supervision czar, <strong>she still must go through the typical nomination proce\n- Michelle Bowman - Wikipedia: After seven years as a Federal Reserve board member, <strong>President Trump nominated Bowman</strong> to succeed Michael Barr as Vice Chair for Super\n- Trump to Announce Michelle Bowman Soon as Nominee for Fed\u2019s Top Bank Cop - Bloomberg: <strong>President Donald Trump will nominate Federal Reserve Governor Michelle Bowman</strong> to be the central bank\u2019s next vice chair for supervisio\n\nNews (5):\n- Who has to leave the Federal Reserve next? | Brookings (3 weeks ago)\n- President Trump's Nomination of Kevin Warsh as Fed Chair May Come Back to Bite Wall Street | The Motley Fool (20 hours ago)\n- Trump nominates Kevin Warsh for Federal Reserve chair to succeed Jerome Powell (1 month ago)\n- Trump has tapped a new Federal Reserve chair. Has he finally found his yes-man? | Federal Reserve | The Guardian (1 month ago)\n- Scott Bessent said Trump could announce a new Fed chair 'before Christmas': Here's what you need to know about the leading candidates | Fortune (December 15, 2025)",
+    "web_results": [
+      {
+        "title": "Who will Trump nominate as Fed Chair? Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/who-will-trump-nominate-as-fed-chair/will-trump-nominate-michelle-bowman-as-the-next-fed-chair",
+        "description": "<strong>No one nominated before 2027</strong> \u00b7 $19,429,857 Vol. &lt;1% Buy Yes 0.5\u00a2Buy No 99.6\u00a2 \u00b7 Kevin Hassett \u00b7 $29,715,024 Vol. &lt;1% Buy Yes 0.3\u00a2Buy No 99.8\u00a2 \u00b7 Christopher Waller \u00b7 $23,697,970 Vol."
+      },
+      {
+        "title": "President to nominate Fed\u2019s Bowman as Vice Chair of Supervision | America's Credit Unions",
+        "url": "https://www.americascreditunions.org/news-media/news/president-nominate-feds-bowman-vice-chair-supervision",
+        "description": "<strong>President Donald Trump announced Monday that he plans to nominate Michelle Bowman</strong> as the Fed\u2019s Vice Chair for Supervision, a position that oversees bank regulation, supervision, and rulemaking."
+      },
+      {
+        "title": "Trump nominates Bowman as Fed\u2019s next vice chair for supervision | Banking Dive",
+        "url": "https://www.bankingdive.com/news/federal-reserve-vice-chair-supervision-nominee-michelle-bowman-trump-barr/742759/",
+        "description": "Despite Trump\u2019s assertion Monday that Bowman \u201cwill be\u201d the Fed\u2019s next supervision czar, <strong>she still must go through the typical nomination process</strong>: a hearing in front of the Senate Banking Committee, whose members will then vote on whether ..."
+      },
+      {
+        "title": "Michelle Bowman - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Michelle_Bowman",
+        "description": "After seven years as a Federal Reserve board member, <strong>President Trump nominated Bowman</strong> to succeed Michael Barr as Vice Chair for Supervision of the board, a position she was confirmed for in early June 2025."
+      },
+      {
+        "title": "Trump to Announce Michelle Bowman Soon as Nominee for Fed\u2019s Top Bank Cop - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2025-03-12/trump-to-announce-bowman-soon-as-nominee-for-fed-s-top-bank-cop",
+        "description": "<strong>President Donald Trump will nominate Federal Reserve Governor Michelle Bowman</strong> to be the central bank\u2019s next vice chair for supervision as soon as Wednesday, according to a person familiar with the matter."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Who has to leave the Federal Reserve next? | Brookings",
+        "url": "https://www.brookings.edu/articles/who-has-to-leave-the-federal-reserve-next-2/",
+        "description": "David Wessel discuss upcoming turnovers at the Federal Reserve board and banks.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "President Trump's Nomination of Kevin Warsh as Fed Chair May Come Back to Bite Wall Street | The Motley Fool",
+        "url": "https://fool.com/investing/2026/02/28/trump-nominate-warsh-fed-come-back-to-bite-wall-st",
+        "description": "The stock market's biggest threat may be an upcoming shift at America's foremost financial institution.",
+        "age": "20 hours ago"
+      },
+      {
+        "title": "Trump nominates Kevin Warsh for Federal Reserve chair to succeed Jerome Powell",
+        "url": "https://cnbc.com/2026/01/30/trump-nominates-kevin-warsh-for-federal-reserve-chair-to-succeed-jerome-powell.html",
+        "description": "President Trump named Kevin Warsh to succeed Jerome Powell as Fed chair, ending an odyssey that has seen unprecedented turmoil around the central bank.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Trump has tapped a new Federal Reserve chair. Has he finally found his yes-man? | Federal Reserve | The Guardian",
+        "url": "https://theguardian.com/business/2026/jan/31/trump-new-federal-reserve-chair",
+        "description": "Trump nominated Kevin Warsh, an ex-Fed governor, for the role as the White House continues to attack Jerome Powell",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Scott Bessent said Trump could announce a new Fed chair 'before Christmas': Here's what you need to know about the leading candidates | Fortune",
+        "url": "https://fortune.com/2025/12/15/fed-chairman-candidates-hassett-warsh-waller-rieder/",
+        "description": "What to know about Fed candidates Kevin Hassett, Kevin Warsh, Chris Waller and Rick Rieder.",
+        "age": "December 15, 2025"
+      }
+    ],
+    "query": "Will Trump nominate Michelle Bowman as the next Fed chair?",
+    "sources_count": 10
+  },
+  "error": null
+}

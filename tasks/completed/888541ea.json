@@ -1,0 +1,85 @@
+{
+  "id": "888541ea",
+  "title": "Polymarket research: Will the Iranian regime fall before 2027?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Iranian regime fall before 2027?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:59:16.451035+00:00",
+  "updated_at": "2026-03-01T08:59:31.685254+00:00",
+  "claimed_at": "2026-03-01T08:59:30.082256+00:00",
+  "completed_at": "2026-03-01T08:59:31.685234+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Iranian regime fall before 2027?\n\nWeb Results (5):\n- Will the Iranian regime fall before 2027? Trading Odds & Predictions | Polymarket: To trade on &quot;Will the Iranian regime fall before 2027?,&quot; simply <strong>choose whether you believe the answer is &quot;Yes&quot; or &quot;No\n- Will the Iranian regime fall before 2027? Odds & Predictions | Polymarket: Only a clear break in continuity\u2014such as a new provisional government, revolutionary council, or constitution replacing the Islamic Republic will qual\n- Will the Iranian regime fall before 2027? Polymarket Analysis: <strong>The Iranian regime fall market is priced at approximately 35-40% YES</strong> based on related market analysis.\n- Will the Iranian Regime Fall? - YouTube: Iran\u2019s security forces have killed at least 2,000 protesters in a brutal crackdown. Can the protesters prevail\u2014and will it take U.S. military interven\n- 2025\u2013present Iran internal crisis - Wikipedia: Following the initial strikes on ... told Iranians that the time has come to &quot;overthrow the Islamic Republic through street protests and nationwi\n\nNews (5):\n- Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council (19 hours ago)\n- What It Will Take to Change the Regime in Iran | Foreign Affairs (2 days ago)\n- The Iranian Regime\u2019s Existential Crisis\u2014and What Might Come After Khamenei | Foreign Affairs (12 hours ago)\n- U.S. Ability to Determine What Comes Next in Iran Might Be Limited - The New York Times (13 hours ago)\n- Iran's supreme leader, Ayatollah Ali Khamenei, has been killed : NPR (1 day ago)",
+    "web_results": [
+      {
+        "title": "Will the Iranian regime fall before 2027? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-the-end-of-2026",
+        "description": "To trade on &quot;Will the Iranian regime fall before 2027?,&quot; simply <strong>choose whether you believe the answer is &quot;Yes&quot; or &quot;No.&quot;</strong> Each side has a current price that reflects the market&#x27;s implied probability."
+      },
+      {
+        "title": "Will the Iranian regime fall before 2027? Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-the-end-of-2026/will-the-iranian-regime-fall-by-the-end-of-2026",
+        "description": "Only a clear break in continuity\u2014such as a new provisional government, revolutionary council, or constitution replacing the Islamic Republic will qualify. Partial loss of territory or challenges from rebel or exile groups will not qualify unless the Islamic Republic no longer administers the majority of the Iranian population within Iran."
+      },
+      {
+        "title": "Will the Iranian regime fall before 2027? Polymarket Analysis",
+        "url": "https://www.tradetheoutcome.com/will-the-iranian-regime-fall-before-2027-polymarket-analysis/",
+        "description": "<strong>The Iranian regime fall market is priced at approximately 35-40% YES</strong> based on related market analysis."
+      },
+      {
+        "title": "Will the Iranian Regime Fall? - YouTube",
+        "url": "https://www.youtube.com/watch?v=d2-tXULznwU",
+        "description": "Iran\u2019s security forces have killed at least 2,000 protesters in a brutal crackdown. Can the protesters prevail\u2014and will it take U.S. military intervention to..."
+      },
+      {
+        "title": "2025\u2013present Iran internal crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%93present_Iran_internal_crisis",
+        "description": "Following the initial strikes on ... told Iranians that the time has come to &quot;overthrow the Islamic Republic through street protests and nationwide strikes&quot;. Speaking of the government of Iran, he claimed that &quot;it could fall. As I have told my compatriots: Iran is yours and yours to reclaim. I am with you. Stay strong and we will win. ... I have told the military, police, and security forces: break from the regime..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council",
+        "url": "https://www.atlanticcouncil.org/dispatches/experts-react-the-us-and-israel-just-unleashed-a-major-attack-on-iran-whats-next/",
+        "description": "Atlantic Council experts assess the unfolding Operation Epic Fury against the Iranian regime and where it goes from here.",
+        "age": "19 hours ago"
+      },
+      {
+        "title": "What It Will Take to Change the Regime in Iran | Foreign Affairs",
+        "url": "https://www.foreignaffairs.com/iran/what-it-will-take-change-regime-iran",
+        "description": "The U.S. military must go big\u2014and then let Iranians do the rest.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "The Iranian Regime\u2019s Existential Crisis\u2014and What Might Come After Khamenei | Foreign Affairs",
+        "url": "https://www.foreignaffairs.com/iran/iranian-regimes-existential-crisis-and-what-might-come-after-khamenei-trump",
+        "description": "Internally, the regime could emerge intact and become as brutal as North Korea\u2014even more brutal than it has been in recent weeks after killing thousands of Iranians. There\u2019s also the possibility of state collapse and a potential civil war, given how polarized Iranians are and because of agitation among ethnic groups. But one can still hope that Iran fulfills its enormous potential as a nation. As I wrote last fall...",
+        "age": "12 hours ago"
+      },
+      {
+        "title": "U.S. Ability to Determine What Comes Next in Iran Might Be Limited - The New York Times",
+        "url": "https://nytimes.com/2026/02/28/us/politics/trump-iran-intelligence.html",
+        "description": "Questions remain about how much effort the Trump administration will put into changing the Iranian government.",
+        "age": "13 hours ago"
+      },
+      {
+        "title": "Iran's supreme leader, Ayatollah Ali Khamenei, has been killed : NPR",
+        "url": "https://npr.org/2026/02/28/nx-s1-5730158/israel-iran-strikes-trump-us",
+        "description": "The Iranian government has declared 40 days of national mourning after Khamenei was killed in a U.S.\u2013Israeli attack on Saturday.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will the Iranian regime fall before 2027?",
+    "sources_count": 10
+  },
+  "error": null
+}

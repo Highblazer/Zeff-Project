@@ -1,0 +1,85 @@
+{
+  "id": "747c3a0b",
+  "title": "Polymarket research: Israel strikes Iran by March 31, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Israel strikes Iran by March 31, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:18.209321+00:00",
+  "updated_at": "2026-02-26T23:32:48.131303+00:00",
+  "claimed_at": "2026-02-26T23:32:46.198717+00:00",
+  "completed_at": "2026-02-26T23:32:48.131286+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Israel strikes Iran by March 31, 2026?\n\nWeb Results (5):\n- Iran\u2013Israel war - Wikipedia: In December 2025, Iran&#x27;s military admitted that earlier reports claiming it had shot down two Israeli F-35 fighter jets during the conflict were \n- Israel Strike Prospects on Iran in 2026: High-Risk Equilibria | Geopolitical Monitor: On balance, <strong>a renewed Israeli strike on Iran in early 2026 is plausible</strong> because the strategic drivers that produced the last round\u2014nu\n- Israel strikes Iran by March 31, 2026? Betting Odds & Predictions | Polymarket: Propose resolution<strong>This market will resolve to &quot;Yes&quot; if Israel initiates a drone, missile, or air strike on Iranian soil or any offic\n- US/Israel strikes Iran by...? Predictions & Odds | Polymarket: The &quot;US/Israel strikes Iran by...?&quot; <strong>market is scheduled to resolve on or around Dec 31, 2026</strong>. This means trading will remai\n- Israel strikes Iran by March 31, 2026? Trading Odds & Predictions | Polymarket: Propose resolution<strong>This market will resolve to &quot;Yes&quot; if Israel initiates a drone, missile, or air strike on Iranian soil or any offic\n\nNews (5):\n- Iran Update, February 23, 2026 | ISW (3 days ago)\n- White House officials believe \u2018the politics are a lot better\u2019 if Israel strikes Iran first - POLITICO (1 day ago)\n- A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News (2 days ago)\n- Feb. 25: New billboard in Tehran threatens to make Israel \u2018hell,\u2019 calls it \u2018Trump\u2019s 51st state\u2019 | The Times of Israel (2 days ago)\n- US-Iran nuclear talks pause, Omani FM says, hailing 'creative and positive ideas' | The Times of Israel (1 day ago)",
+    "web_results": [
+      {
+        "title": "Iran\u2013Israel war - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Israel_war",
+        "description": "In December 2025, Iran&#x27;s military admitted that earlier reports claiming it had shot down two Israeli F-35 fighter jets during the conflict were false. On <strong>5 January 2026, the Israeli Security Cabinet held a five-hour meeting and authorized additional strikes on Iran</strong>, following Netanyahu-Trump ..."
+      },
+      {
+        "title": "Israel Strike Prospects on Iran in 2026: High-Risk Equilibria | Geopolitical Monitor",
+        "url": "https://www.geopoliticalmonitor.com/israel-strike-prospects-on-iran-in-2026-high-risk-equilibria/",
+        "description": "On balance, <strong>a renewed Israeli strike on Iran in early 2026 is plausible</strong> because the strategic drivers that produced the last round\u2014nuclear uncertainty, verification disputes, missile reconstitution, multi-front proxy interaction, and domestic ..."
+      },
+      {
+        "title": "Israel strikes Iran by March 31, 2026? Betting Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/israel-strikes-iran-by-march-31-2026/israel-strikes-iran-by-march-31-2026",
+        "description": "Propose resolution<strong>This market will resolve to &quot;Yes&quot; if Israel initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate by March 31, 2026, 11:59 PM ET</strong>. Otherwise, this market will resolve to &quot;No&quot;."
+      },
+      {
+        "title": "US/Israel strikes Iran by...? Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/usisrael-strikes-iran-by/will-us-or-israel-strike-iran-by-march-31-2026-233",
+        "description": "The &quot;US/Israel strikes Iran by...?&quot; <strong>market is scheduled to resolve on or around Dec 31, 2026</strong>. This means trading will remain open and the odds will continue to shift as new information emerges until that date."
+      },
+      {
+        "title": "Israel strikes Iran by March 31, 2026? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/israel-strikes-iran-by-march-31-2026",
+        "description": "Propose resolution<strong>This market will resolve to &quot;Yes&quot; if Israel initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate by March 31, 2026, 11:59 PM ET</strong>. Otherwise, this market will resolve to &quot;No&quot;."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Iran Update, February 23, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-23-2026/",
+        "description": "A senior US official told Axios on Feb. 22 that the US and Iran may discuss an interim deal during negotiations in Geneva on February 26.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "White House officials believe \u2018the politics are a lot better\u2019 if Israel strikes Iran first - POLITICO",
+        "url": "https://www.politico.com/news/2026/02/25/white-house-politics-israel-strikes-iran-00799456",
+        "description": "As the administration mulls military action in Iran, officials argue it\u2019d be best ifIsrael makes the first move.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News",
+        "url": "https://www.pbs.org/newshour/world/a-timeline-of-tensions-over-irans-nuclear-program-as-talks-with-u-s-approach",
+        "description": "Iran and the United States are due to hold new talks in Geneva on Thursday over Tehran's nuclear program.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Feb. 25: New billboard in Tehran threatens to make Israel \u2018hell,\u2019 calls it \u2018Trump\u2019s 51st state\u2019 | The Times of Israel",
+        "url": "https://timesofisrael.com/liveblog-february-25-2026",
+        "description": "US said to begin moving another six F-22 stealth fighters toward Middle East * Hezbollah official says will not intervene in event of \u2018limited\u2019 US strikes on Iran",
+        "age": "2 days ago"
+      },
+      {
+        "title": "US-Iran nuclear talks pause, Omani FM says, hailing 'creative and positive ideas' | The Times of Israel",
+        "url": "https://www.timesofisrael.com/liveblog-february-26-2026/",
+        "description": "Iran insists talks focus only on nuclear issue; Rubio warns of \u2018big problem\u2019 if Tehran won't discuss missiles * India, Israel to push free trade pact, defense work, Modi says in Jerusalem, adding there's 'no place for terrorism'",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Israel strikes Iran by March 31, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

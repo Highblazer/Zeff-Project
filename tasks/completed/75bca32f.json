@@ -1,0 +1,85 @@
+{
+  "id": "75bca32f",
+  "title": "Polymarket research: Spurs vs. Nets: O/U 223.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spurs vs. Nets: O/U 223.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T01:09:34.923907+00:00",
+  "updated_at": "2026-02-27T01:09:54.618283+00:00",
+  "claimed_at": "2026-02-27T01:09:52.861665+00:00",
+  "completed_at": "2026-02-27T01:09:54.618265+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spurs vs. Nets: O/U 223.5\n\nWeb Results (5):\n- NBA picks: Spurs vs. Nets same game parlay \u2013 Thursday, Feb. 26: The 225.5 total in this game is <strong>2.1 points higher than the 223.4 average total in Nets games this season</strong>. ... Michael Porter Jr.&#x27\n- How to watch Spurs vs. Nets: TV channel and streaming options for February 26 - The Athletic: The San Antonio Spurs (42-16) will attempt to continue a 10-game winning streak when they visit the Brooklyn Nets (15-42) on <strong>Feb. 26, 2026</st\n- Spurs vs Nets Prediction, Odds, Best Bets & Team Props - NBA, Feb. 26: The Spurs are betting favorites in this NBA matchup, with the spread sitting at -12.5 (-105). The Spurs vs Nets Over/Under is <strong>225.5 total poin\n- Spurs vs. Nets Prediction, Odds, Picks - Feb. 26 | FOX Sports: <strong>The game has an over/under of 224.5</strong>. Here is everything you need to know about the Spurs-Nets game, from the point spread, moneyline,\n- Spurs vs. Nets odds update: Experts adjust predictions; Wembanyama and Porter Jr. headline player props - syracuse.com: This prediction is based on the model giving the <strong>Spurs an 80% chance of winning the game</strong>. Furthermore, Dimers predicts that the Nets \n\nNews (5):\n- Nets vs. Spurs preview: Battle of the streaks | NetsDaily (7 hours ago)\n- San Antonio Spurs vs Brooklyn Nets injury report: Who's playing, injured and questionable players, head-to-head records, team stats, and more (February 26, 2026) | NBA News - The Times of India (4 hours ago)\n- Spurs vs. Nets Prediction, Odds, Picks - Feb. 26 | FOX Sports (17 hours ago)\n- Five things to watch: Spurs vs. Nets | kens5.com (8 hours ago)\n- $10 Kalshi Referral Code SYRACUSE upgraded in Texas for Spurs vs. Nets tonight! - syracuse.com (2 hours ago)",
+    "web_results": [
+      {
+        "title": "NBA picks: Spurs vs. Nets same game parlay \u2013 Thursday, Feb. 26",
+        "url": "https://netswire-eu.usatoday.com/story/sports/nba/nets/2026/02/26/spurs-nets-2-26-2026-nba-same-game-parlay/88886860007/",
+        "description": "The 225.5 total in this game is <strong>2.1 points higher than the 223.4 average total in Nets games this season</strong>. ... Michael Porter Jr.&#x27;s 24.6 points per game are 2.1 points higher than Thursday&#x27;s over/under..."
+      },
+      {
+        "title": "How to watch Spurs vs. Nets: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7073820/2026/02/26/how-to-watch-spurs-vs-nets-tv-channel-and-streaming-options-for-february-26/",
+        "description": "The San Antonio Spurs (42-16) will attempt to continue a 10-game winning streak when they visit the Brooklyn Nets (15-42) on <strong>Feb. 26, 2026</strong> at Barclays Center. Venue: Barclays Center \u00b7 Time: 7:30 p.m. ET \u00b7 TV: YES, FDSSW \u00b7 Watching in person?"
+      },
+      {
+        "title": "Spurs vs Nets Prediction, Odds, Best Bets & Team Props - NBA, Feb. 26",
+        "url": "https://sports.betmgm.com/en/blog/nba/spurs-nets-prediction-odds-lines-picks-nba-feb-26-jaa/",
+        "description": "The Spurs are betting favorites in this NBA matchup, with the spread sitting at -12.5 (-105). The Spurs vs Nets Over/Under is <strong>225.5 total points</strong> for the game."
+      },
+      {
+        "title": "Spurs vs. Nets Prediction, Odds, Picks - Feb. 26 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/spurs-vs-nets-prediction-odds-picks-feb-26",
+        "description": "<strong>The game has an over/under of 224.5</strong>. Here is everything you need to know about the Spurs-Nets game, from the point spread, moneyline, total Over/Under and expert picks, as well as TV channel and streaming information."
+      },
+      {
+        "title": "Spurs vs. Nets odds update: Experts adjust predictions; Wembanyama and Porter Jr. headline player props - syracuse.com",
+        "url": "https://www.syracuse.com/betting/2026/02/spurs-vs-nets-odds-update-experts-adjust-predictions-wembanyama-and-porter-jr-headline-player-props.html",
+        "description": "This prediction is based on the model giving the <strong>Spurs an 80% chance of winning the game</strong>. Furthermore, Dimers predicts that the Nets (+11.5) have a 55% chance of covering the spread, while the over/under total of 225.5 points has a 52% chance ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Nets vs. Spurs preview: Battle of the streaks | NetsDaily",
+        "url": "https://www.netsdaily.com/nets-game-previews/106551/nets-vs-spurs-preview-battle-of-the-streaks",
+        "description": "The Nets have lost five games in a row while the Spurs have won ten in a row.",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "San Antonio Spurs vs Brooklyn Nets injury report: Who's playing, injured and questionable players, head-to-head records, team stats, and more (February 26, 2026) | NBA News - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/san-antonio-spurs-vs-brooklyn-nets-injury-report-whos-playing-injured-and-questionable-players-head-to-head-records-team-stats-and-more-february-26-2026/articleshow/128826930.cms",
+        "description": "NBA News: San Antonio Spurs head into this game on a 10-game winning streak. They have been winning comfortably and have looked settled on both ends of the floo.",
+        "age": "4 hours ago"
+      },
+      {
+        "title": "Spurs vs. Nets Prediction, Odds, Picks - Feb. 26 | FOX Sports",
+        "url": "https://foxsports.com/articles/nba/spurs-vs-nets-prediction-odds-picks-feb-26",
+        "description": "Preview the Feb. 26 matchup between the San Antonio Spurs and Brooklyn Nets with betting odds over/under, game spread, moneyline, prediction, TV channel and more.",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Five things to watch: Spurs vs. Nets | kens5.com",
+        "url": "https://www.kens5.com/article/sports/nba/spurs/five-things-watch-spurs-nets-nba-san-antonio/273-31424991-71eb-46b6-817d-bddf1e8d2e2e",
+        "description": "Can the Spurs get their 11th straight win against the Nets?",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "$10 Kalshi Referral Code SYRACUSE upgraded in Texas for Spurs vs. Nets tonight! - syracuse.com",
+        "url": "https://www.syracuse.com/betting/2026/02/10-kalshi-referral-code-syracuse-upgraded-in-texas-for-spurs-vs-nets-tonight.html",
+        "description": "Join Kalshi today using referral code SYRACUSE and get a $10 bonus! Trade on the Spurs vs. Nets NBA game, point totals, and spreads on the first CFTC-regulated prediction exchange.",
+        "age": "2 hours ago"
+      }
+    ],
+    "query": "Spurs vs. Nets: O/U 223.5",
+    "sources_count": 10
+  },
+  "error": null
+}

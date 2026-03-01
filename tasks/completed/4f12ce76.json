@@ -1,0 +1,85 @@
+{
+  "id": "4f12ce76",
+  "title": "Polymarket research: Hornets vs. Pacers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Hornets vs. Pacers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T01:18:54.011319+00:00",
+  "updated_at": "2026-02-27T01:18:57.070349+00:00",
+  "claimed_at": "2026-02-27T01:18:55.614104+00:00",
+  "completed_at": "2026-02-27T01:18:57.070331+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Hornets vs. Pacers\n\nWeb Results (5):\n- Hornets vs. Pacers Prediction, Odds, Picks - Feb. 26 | FOX Sports: The Charlotte Hornets (28-31) hope to continue an eight-game road winning run when visiting the Indiana Pacers (15-44) on <strong>February 26, 2026</s\n- KSL.com Sports | Indiana Pacers vs. Charlotte Hornets | NBA Boxscore: \ud83c\udfc0 NBA \u00b7 Scores \u00b7 Teams \u00b7 Standings \u00b7 Player Stats \u00b7 Leaders \u00b7 Team Stats \u00b7 Pregame Info \u00b7 Matchup Leaders \u00b7 Box Score\n- Game Preview: Pacers vs Hornets | Indiana Pacers: Preview of the Indiana Pacers game against the Charlotte Hornets on <strong>Thursday, Feb. 26,</strong> at Gainbridge Fieldhouse.\n- Charlotte Hornets vs Indiana Pacers Feb 26, 2026 Game Summary | NBA.com: Charlotte Hornets vs Indiana Pacers <strong>Feb 26, 2026</strong> game result including recap, highlights and game information\n- Hornets vs. Pacers: Prediction, How to Watch for Free (2/26/26): The Charlotte Hornets face the Indiana Pacers tonight. Here\u2019s the preview, prediction, injury report, and how to watch, stream for free.\n\nNews (5):\n- Charlotte Hornets vs Indiana Pacers injury report: Who's playing, injured and questionable players, head-to-head records, team stats, and more (February 26, 2026) | NBA News - The Times of India (5 hours ago)\n- Is LaMelo Ball playing tonight vs the Indiana Pacers? Latest update on the Charlotte Hornets star's injury report (February 26, 2026) | NBA News - The Times of India (5 hours ago)\n- Hornets vs Pacers Prediction, Picks & Odds for Tonight\u2019s NBA Game (8 hours ago)\n- Indiana Pacers vs. Charlotte Hornets prediction, pick on Thursday 2/26/26 (5 hours ago)\n- How to watch Hornets vs. Pacers: TV channel and streaming options for February 26 - The Athletic (9 hours ago)",
+    "web_results": [
+      {
+        "title": "Hornets vs. Pacers Prediction, Odds, Picks - Feb. 26 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/hornets-vs-pacers-prediction-odds-picks-feb-26",
+        "description": "The Charlotte Hornets (28-31) hope to continue an eight-game road winning run when visiting the Indiana Pacers (15-44) on <strong>February 26, 2026</strong>. The Hornets face the Pacers in a game that Charlotte is currently a substantial favorite by 13 points."
+      },
+      {
+        "title": "KSL.com Sports | Indiana Pacers vs. Charlotte Hornets | NBA Boxscore",
+        "url": "https://scoreboard.ksl.com/boxscore/nba/2915031/gameview/Indiana%20Pacers-vs-Charlotte%20Hornets",
+        "description": "\ud83c\udfc0 NBA \u00b7 Scores \u00b7 Teams \u00b7 Standings \u00b7 Player Stats \u00b7 Leaders \u00b7 Team Stats \u00b7 Pregame Info \u00b7 Matchup Leaders \u00b7 Box Score"
+      },
+      {
+        "title": "Game Preview: Pacers vs Hornets | Indiana Pacers",
+        "url": "https://pacers.com/news/preview-pacers-hornets-260226",
+        "description": "Preview of the Indiana Pacers game against the Charlotte Hornets on <strong>Thursday, Feb. 26,</strong> at Gainbridge Fieldhouse."
+      },
+      {
+        "title": "Charlotte Hornets vs Indiana Pacers Feb 26, 2026 Game Summary | NBA.com",
+        "url": "https://www.nba.com/game/cha-vs-ind-0022500848game-charts",
+        "description": "Charlotte Hornets vs Indiana Pacers <strong>Feb 26, 2026</strong> game result including recap, highlights and game information"
+      },
+      {
+        "title": "Hornets vs. Pacers: Prediction, How to Watch for Free (2/26/26)",
+        "url": "https://globelynews.com/sports/hornets-vs-pacers-prediction-how-to-watch-for-free-2-26-26/",
+        "description": "The Charlotte Hornets face the Indiana Pacers tonight. Here\u2019s the preview, prediction, injury report, and how to watch, stream for free."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Charlotte Hornets vs Indiana Pacers injury report: Who's playing, injured and questionable players, head-to-head records, team stats, and more (February 26, 2026) | NBA News - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/charlotte-hornets-vs-indiana-pacers-injury-report-whos-playing-injured-and-questionable-players-head-to-head-records-team-stats-and-more-february-26-2026/articleshow/128825714.cms",
+        "description": "NBA News: The Charlotte Hornets play the Indiana Pacers on February 26, 2026, at Gainbridge Fieldhouse. Both teams are dealing with injuries, which could affect.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Is LaMelo Ball playing tonight vs the Indiana Pacers? Latest update on the Charlotte Hornets star's injury report (February 26, 2026) | NBA News - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/is-lamelo-ball-playing-tonight-vs-the-indiana-pacers-latest-update-on-the-charlotte-hornets-stars-injury-report-february-26-2026/articleshow/128825925.cms",
+        "description": "NBA News: LaMelo Ball is expected to play for the Charlotte Hornets against the Indiana Pacers on February 26, 2026. He is not listed on the injury report, so h.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Hornets vs Pacers Prediction, Picks & Odds for Tonight\u2019s NBA Game",
+        "url": "https://www.covers.com/nba/hornets-vs-pacers-prediction-picks-best-bets-sgp-thursday-2-26-2026",
+        "description": "Get the best Hornets vs. Pacers predictions ahead of Thursday's clash. Free NBA picks for February 26.",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "Indiana Pacers vs. Charlotte Hornets prediction, pick on Thursday 2/26/26",
+        "url": "https://dknetwork.draftkings.com/2026/02/26/indiana-pacers-vs-charlotte-hornets-prediction-pick-on-thursday-2-26-26/",
+        "description": "Alex Hunter breaks down his preview, prediction, and pick for Thursday's NBA matchup between the Pacers and the Hornets.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "How to watch Hornets vs. Pacers: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7072925/2026/02/26/how-to-watch-hornets-vs-pacers-tv-channel-and-streaming-options-for-february-26/",
+        "description": "Find out how to watch the Charlotte Hornets play the Indiana Pacers, with time, TV channel and streaming information.",
+        "age": "9 hours ago"
+      }
+    ],
+    "query": "Hornets vs. Pacers",
+    "sources_count": 10
+  },
+  "error": null
+}

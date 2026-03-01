@@ -1,0 +1,85 @@
+{
+  "id": "a944f0f6",
+  "title": "Polymarket research: Will Netherlands win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Netherlands win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:14:15.129683+00:00",
+  "updated_at": "2026-02-27T00:14:22.922397+00:00",
+  "claimed_at": "2026-02-27T00:14:21.447991+00:00",
+  "completed_at": "2026-02-27T00:14:22.922376+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Netherlands win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- The Netherlands qualify for World Cup 2026: We cannot provide a description for this page right now\n- Netherlands | FIFA World Cup 2026\u2122: We cannot provide a description for this page right now\n- Netherlands World Cup Odds: Chances To Win 2026 World Cup | BetMGM: The Netherlands\u2019 <strong>odds to win the World Cup are +1600</strong>.\n- Netherlands 2026 FIFA World Cup Qualifying - UEFA Schedule - ESPN: ESPN has the full 2026 Netherlands FIFA World Cup Qualifying - UEFA schedule. Includes date, time and tv channel information for all Netherlands games\n- Netherlands World Cup 2026 Preview: Best Players, Roster, History | FOX Sports: <strong>The Netherlands secured their place at the 2026 FIFA World Cup by finishing as winners of UEFA Group G</strong>, earning direct qualification \n\nNews (5):\n- European countries fear playing in World Cup will mean financial loss | World Cup 2026 | The Guardian (16 hours ago)\n- FIFA World Cup 2026 Schedule, Groups, Format & Host Cities (1 day ago)\n- OFFICIAL! FIFA: \u201cThe 2026 World Cup Will Not Be Canceled in Mexico\u201d | beIN SPORTS (2 days ago)\n- Is the 2026 FIFA World Cup schedule at risk? FIFA addresses relocation fears amid rising security concerns | International Sports News - The Times of India (2 days ago)\n- How to watch FIFA World Cup 2026 free from anywhere in the world with this VPN deal | TechRadar (16 hours ago)",
+    "web_results": [
+      {
+        "title": "The Netherlands qualify for World Cup 2026",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-qualify",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Netherlands | FIFA World Cup 2026\u2122",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/netherlands/team-news",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Netherlands World Cup Odds: Chances To Win 2026 World Cup | BetMGM",
+        "url": "https://sports.betmgm.com/en/blog/netherlands-world-cup-odds-chances-to-win-world-cup-bm25/",
+        "description": "The Netherlands\u2019 <strong>odds to win the World Cup are +1600</strong>."
+      },
+      {
+        "title": "Netherlands 2026 FIFA World Cup Qualifying - UEFA Schedule - ESPN",
+        "url": "https://www.espn.com/soccer/team/fixtures/_/id/449/league/fifa.worldq.uefa",
+        "description": "ESPN has the full 2026 Netherlands FIFA World Cup Qualifying - UEFA schedule. Includes date, time and tv channel information for all Netherlands games."
+      },
+      {
+        "title": "Netherlands World Cup 2026 Preview: Best Players, Roster, History | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/netherlands-world-cup-2026-preview-best-players-roster-history-jersey-predictions",
+        "description": "<strong>The Netherlands secured their place at the 2026 FIFA World Cup by finishing as winners of UEFA Group G</strong>, earning direct qualification without needing to go through the playoff route."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "European countries fear playing in World Cup will mean financial loss | World Cup 2026 | The Guardian",
+        "url": "https://www.theguardian.com/football/2026/feb/26/fifa-world-cup-2026-european-football-associations-prize-money-costs-tax-exemptions",
+        "description": "European football federations are concerned that playing in this year\u2019s World Cup in the US, Canada and Mexico will wind up costing them money",
+        "age": "16 hours ago"
+      },
+      {
+        "title": "FIFA World Cup 2026 Schedule, Groups, Format & Host Cities",
+        "url": "https://sportpreferred.com/football/fifa/fifa-world-cup-2026-schedule-groups-format-host-cities-and-key-matches/8122",
+        "description": "Check the full FIFA World Cup 2026 schedule, groups, format, host cities, teams, and key matches. Complete guide to the biggest World Cup ever.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "OFFICIAL! FIFA: \u201cThe 2026 World Cup Will Not Be Canceled in Mexico\u201d | beIN SPORTS",
+        "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/official-fifa-the-2026-world-cup-will-not-be-canceled-in-mexico-2026-02-25",
+        "description": "Gianni Infantino confirmed Mexico will co-host the 2026 World Cup, with security guarantees in place and preparations moving forward.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Is the 2026 FIFA World Cup schedule at risk? FIFA addresses relocation fears amid rising security concerns | International Sports News - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/sports/international-sports/is-the-2026-fifa-world-cup-schedule-at-risk-fifa-addresses-relocation-fears-amid-rising-security-concerns/articleshow/128765913.cms",
+        "description": "International Sports News: People all over the world are getting more and more excited about the 2026 FIFA World Cup, but new security worries in Mexico have made people wonder .",
+        "age": "2 days ago"
+      },
+      {
+        "title": "How to watch FIFA World Cup 2026 free from anywhere in the world with this VPN deal | TechRadar",
+        "url": "https://www.techradar.com/how-to-watch/football/fifa-world-cup-2026-free-anywhere-vpn-deal",
+        "description": "How to watch FIFA World Cup 2026 for free from anywhere with a VPN. Top-ranked Spain, Kylian Mbappe's France and Lionel Messi's Argentina are amongst the favorites.",
+        "age": "16 hours ago"
+      }
+    ],
+    "query": "Will Netherlands win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

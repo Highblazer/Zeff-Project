@@ -1,0 +1,85 @@
+{
+  "id": "d6c8a665",
+  "title": "Polymarket research: Will Greg Abbott win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Greg Abbott win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.649134+00:00",
+  "updated_at": "2026-03-01T07:28:47.736532+00:00",
+  "claimed_at": "2026-03-01T07:28:45.791947+00:00",
+  "completed_at": "2026-03-01T07:28:47.736517+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Greg Abbott win the 2028 Republican presidential nomination?\n\nWeb Results (5):\n- Presidential candidates, 2028 - Ballotpedia: As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Republican presiden\n- Could Abbott run for president in 2028?: <strong>Greg Abbott is going to run for president in 2028</strong>, it starts now. With the Republican National Convention underway this week, Abbott \n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times: Who\u2019s in the mix for Democrats? Nate Silver, the author of the newsletter Silver Bulletin, recently participated in a fantasy-style draft of potential\n- Who Will Run in 2028? Seven Potential Republican Candidates - Newsweek: ... The 66-year-old Texas governor <strong>would be a strong candidate in the 2028 Republican primary</strong>, being a recognizable figure within the\n- 2028 United States presidential election - Wikipedia: Massie has not declared any ... his push for Epstein file releases. The following individuals have <strong>publicly denied interest in being a candida\n\nNews (5):\n- The potential 2028 Republican presidential candidates, ranked - The Washington Post (2 days ago)\n- Presidential election, 2028 - Ballotpedia (4 days ago)\n- Here's who is leading the 2028 presidential race: New poll (2 days ago)\n- Some Abbott-backed candidates face political headwinds in Republican primaries \u2013 Houston Public Media (1 week ago)\n- Texas governor's race: State of the Union gets Greg Abbott applause (4 days ago)",
+    "web_results": [
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Republican presidential nomination. This list does not reflect whether a candidate has said they do or do not plan on running. Greg Abbott, governor of Texas[1] Katie Britt, U.S."
+      },
+      {
+        "title": "Could Abbott run for president in 2028?",
+        "url": "https://link.houstonchronicle.com/public/36082813--",
+        "description": "<strong>Greg Abbott is going to run for president in 2028</strong>, it starts now. With the Republican National Convention underway this week, Abbott is carrying a newfound national profile and is well-positioned to make an even bigger splash among the GOP activists from every state who have descended upon ..."
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "Who\u2019s in the mix for Democrats? Nate Silver, the author of the newsletter Silver Bulletin, recently participated in a fantasy-style draft of potential 2028 Democratic contenders (with two of his former colleagues at FiveThirtyEight, Galen Druke and Clare Malone)."
+      },
+      {
+        "title": "Who Will Run in 2028? Seven Potential Republican Candidates - Newsweek",
+        "url": "https://www.newsweek.com/who-will-run-2028-seven-potential-republican-candidates-1981218",
+        "description": "... The 66-year-old Texas governor <strong>would be a strong candidate in the 2028 Republican primary</strong>, being a recognizable figure within the party and a mostly beloved politician in his home state."
+      },
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "Massie has not declared any ... his push for Epstein file releases. The following individuals have <strong>publicly denied interest in being a candidate</strong>: Greg Abbott, 48th governor of Texas (2015\u2013present)..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The potential 2028 Republican presidential candidates, ranked - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/02/27/2028-republican-presidential-candidates-trump-vance-rubio-gop/",
+        "description": "Most are all-in on MAGA \u00b7 Who is going to lead the Republican Party after a decade of President Donald Trump",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Here's who is leading the 2028 presidential race: New poll",
+        "url": "https://yahoo.com/news/articles/heres-leading-2028-presidential-race-110055055.html",
+        "description": "Speculation continues to swirl over who will run for the Democratic and Republican presidential tickets in the next election.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Some Abbott-backed candidates face political headwinds in Republican primaries \u2013 Houston Public Media",
+        "url": "https://www.houstonpublicmedia.org/articles/news/politics/2026/02/19/543857/greg-abbott-endorsements-texas-republican-primaries-trump/",
+        "description": "The governor is supporting two U.S. House candidates whose opponents were recently endorsed by President Donald Trump, while his picks for comptroller and agriculture commissioner are trailing in the polls.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Texas governor's race: State of the Union gets Greg Abbott applause",
+        "url": "https://www.elpasotimes.com/story/news/politics/elections/2026/02/25/texas-governors-race-state-of-the-union-gets-greg-abbott-applause/88855255007/",
+        "description": "Greg Abbott applauds State of the Union Address ahead of the 2026 Texas governor's race.",
+        "age": "4 days ago"
+      }
+    ],
+    "query": "Will Greg Abbott win the 2028 Republican presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

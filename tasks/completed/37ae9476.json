@@ -1,0 +1,85 @@
+{
+  "id": "37ae9476",
+  "title": "Polymarket research: Will Eric Trump win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Eric Trump win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:49.279144+00:00",
+  "updated_at": "2026-03-01T07:29:07.905002+00:00",
+  "claimed_at": "2026-03-01T07:29:05.844807+00:00",
+  "completed_at": "2026-03-01T07:29:07.904985+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Eric Trump win the 2028 US Presidential Election?\n\nWeb Results (5):\n- 2028 United States presidential election - Wikipedia: In the Electoral College, this results in major-party candidates primarily focusing their campaigns on swing states, which can swing between parties f\n- Presidential election, 2028 - Ballotpedia: Ballotpedia has compiled the names of politicians and public figures discussed as potential presidential contenders in 2028. Click here for more infor\n- Presidential candidates, 2028 - Ballotpedia: Ballotpedia has compiled the names of politicians and public figures expected to consider a presidential run or discussed as a potential contender in \n- AI reveals who would win the US presidential election if Trump ran against Obama in 2028: AI has shared a look at what could happen if Barack Obama and Donald Trump both ran for president in 2028.\n- AI reveals who would win the US presidential election if Trump ran against Obama in 2028: Of course, <strong>this remains purely hypothetical</strong>. Under the current legal framework Enshrined in the 22nd Amendment, no one, including Tru\n\nNews (5):\n- The potential 2028 Republican presidential candidates, ranked - The Washington Post (2 days ago)\n- AI reveals who would win the US presidential election if Trump ran against Obama in 2028 (5 days ago)\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (3 days ago)\n- Trump disapproval jumps, Newsom and Vance take early 2028 lead in poll (2 days ago)\n- Anti-Trump Republicans Face Divisions and an Uncertain Future - The New York Times (1 week ago)",
+    "web_results": [
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "In the Electoral College, this results in major-party candidates primarily focusing their campaigns on swing states, which can swing between parties from election to election. These states are critical for a presidential candidate&#x27;s path to victory. For 2028, the expected swing states likely include the Rust Belt states of Pennsylvania, Wisconsin, and Michigan, and the Sun Belt states of Arizona, Georgia, Nevada, and North Carolina, all of which narrowly voted for Trump in 2024."
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia has compiled the names of politicians and public figures discussed as potential presidential contenders in 2028. Click here for more information about the 2024 presidential election."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "Ballotpedia has compiled the names of politicians and public figures expected to consider a presidential run or discussed as a potential contender in 2028 below. To read more about the 2024 presidential election, click here."
+      },
+      {
+        "title": "AI reveals who would win the US presidential election if Trump ran against Obama in 2028",
+        "url": "https://www.unilad.com/news/us-news/trump-obama-ai-presidential-election-results-2028-966771-20260223",
+        "description": "AI has shared a look at what could happen if Barack Obama and Donald Trump both ran for president in 2028."
+      },
+      {
+        "title": "AI reveals who would win the US presidential election if Trump ran against Obama in 2028",
+        "url": "https://en.newsner.com/news/ai-reveals-who-would-win-us-election-if-trump-ran-against-obama-in-2028",
+        "description": "Of course, <strong>this remains purely hypothetical</strong>. Under the current legal framework Enshrined in the 22nd Amendment, no one, including Trump or Obama, can be elected president more than twice."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The potential 2028 Republican presidential candidates, ranked - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/02/27/2028-republican-presidential-candidates-trump-vance-rubio-gop/",
+        "description": "Most are all-in on MAGA \u00b7 Who is going to lead the Republican Party after a decade of President Donald Trump",
+        "age": "2 days ago"
+      },
+      {
+        "title": "AI reveals who would win the US presidential election if Trump ran against Obama in 2028",
+        "url": "https://www.unilad.com/news/us-news/trump-obama-ai-presidential-election-results-2028-966771-20260223",
+        "description": "The popular YouTube channel, I Ask AI, has shared a look at a hypothetical presidential election between Donald Trump and Barack Obama in 2028.",
+        "age": "5 days ago"
+      },
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc/",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Trump disapproval jumps, Newsom and Vance take early 2028 lead in poll",
+        "url": "https://www.usatoday.com/story/news/politics/2026/02/27/trump-approval-rating-2028-election-poll/88887054007/",
+        "description": "President Trump's disapproval rating climbs to 55%, while Gavin Newsom and JD Vance take early leads in 2028 race, new Emerson College poll shows.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Anti-Trump Republicans Face Divisions and an Uncertain Future - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/22/us/politics/anti-trump-republicans-divisions-2028-president.html",
+        "description": "Divisions over what and who should come next were evident as G.O.P. critics of the president, weakened in their party, gathered at a summit near Washington.",
+        "age": "1 week ago"
+      }
+    ],
+    "query": "Will Eric Trump win the 2028 US Presidential Election?",
+    "sources_count": 10
+  },
+  "error": null
+}

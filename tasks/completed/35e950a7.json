@@ -1,0 +1,85 @@
+{
+  "id": "35e950a7",
+  "title": "Polymarket research: Will Athletic Bilbao win the 2025\u201326 La Liga?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Athletic Bilbao win the 2025\u201326 La Liga?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:15.210923+00:00",
+  "updated_at": "2026-02-26T23:31:44.353850+00:00",
+  "claimed_at": "2026-02-26T23:31:42.343595+00:00",
+  "completed_at": "2026-02-26T23:31:44.353832+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Athletic Bilbao win the 2025\u201326 La Liga?\n\nWeb Results (5):\n- La Liga: Athletic Bilbao Standings: Is your team going to win the La Liga Championship, qualify for the UEFA Championship League, or be relegated? The La Liga Standings table presents th\n- 2024\u201325 Athletic Bilbao season - Wikipedia: <strong>Following a 2\u20130 victory over Getafe in the 36th round of La Liga</strong>, Athletic Bilbao successfully qualified for the UEFA Champions Leagu\n- Athletic Club Scores, Stats and Highlights - ESPN: Visit ESPN for Athletic Club live scores, video highlights, and latest news. Find standings and the full 2025-26 season schedule.\n- Athletic Bilbao | League Table | Spanish La Liga | 2025-2026 | Football Web Pages: Live Football Scores, League Tables, Form Guides, Attendances, Latest News and other stats from the Premier League, Football League and Non-League foo\n- 2025\u201326 La Liga - Wikipedia: ^ The 2025\u201326 Copa del Rey winners also qualify for the Europa League league phase. If the Copa del Rey winners finish in the top five, the Europa Lea\n\nNews (5):\n- Preview: Rayo Vallecano vs Athletic Bilbao - prediction, team news, lineups - Sports Mole (5 hours ago)\n- PREVIEW | Rayo Vallecano vs Athletic Bilbao - team news, lineups, predictions - Yahoo Sports (10 hours ago)\n- La Liga table \u2014 Standings, top scorers for 2025-26 season as Barcelona, Real Madrid chase glory - NBC Sports (4 days ago)\n- Rayo Vallecano vs. Athletic Bilbao en vivo: c\u00f3mo llegan al partido - TyC Sports (6 hours ago)\n- LALIGA official website | LALIGA (10 hours ago)",
+    "web_results": [
+      {
+        "title": "La Liga: Athletic Bilbao Standings",
+        "url": "http://www.playoffstatus.com/la-liga/athletic-bilbao-standings.html",
+        "description": "Is your team going to win the La Liga Championship, qualify for the UEFA Championship League, or be relegated? The La Liga Standings table presents the probabilities that <strong>Athletic Bilbao will win each table spot</strong>."
+      },
+      {
+        "title": "2024\u201325 Athletic Bilbao season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Athletic_Bilbao_season",
+        "description": "<strong>Following a 2\u20130 victory over Getafe in the 36th round of La Liga</strong>, Athletic Bilbao successfully qualified for the UEFA Champions League for the first time since the 2014\u201315 season. On 13 June, midfielder Ander Herrera had his contract renewed until the year 2025."
+      },
+      {
+        "title": "Athletic Club Scores, Stats and Highlights - ESPN",
+        "url": "https://www.espn.com/soccer/team/_/id/93/athletic-club",
+        "description": "Visit ESPN for Athletic Club live scores, video highlights, and latest news. Find standings and the full 2025-26 season schedule."
+      },
+      {
+        "title": "Athletic Bilbao | League Table | Spanish La Liga | 2025-2026 | Football Web Pages",
+        "url": "https://www.footballwebpages.co.uk/athletic-bilbao/league-table",
+        "description": "Live Football Scores, League Tables, Form Guides, Attendances, Latest News and other stats from the Premier League, Football League and Non-League football"
+      },
+      {
+        "title": "2025\u201326 La Liga - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+        "description": "^ The 2025\u201326 Copa del Rey winners also qualify for the Europa League league phase. If the Copa del Rey winners finish in the top five, the Europa League spot will be passed to the sixth-placed team. If the Copa del Rey winners finish in the top six, the Conference League spot will be passed to the seventh-placed team. ... Updated to match(es) played on 23 February 2026. Source: La Liga Legend: Blue = home team win; Yellow = draw; Red = away team win."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Preview: Rayo Vallecano vs Athletic Bilbao - prediction, team news, lineups - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/athletic-bilbao/preview/rayo-vallecano-vs-athletic-bilbao-prediction-team-news-lineups_592802.html",
+        "description": "Sports Mole previews Saturday's La Liga clash between Rayo Vallecano and Athletic Bilbao, including predictions, team news and possible lineups.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "PREVIEW | Rayo Vallecano vs Athletic Bilbao - team news, lineups, predictions - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/preview-rayo-vallecano-vs-athletic-130500095.html",
+        "description": "Rayo Vallecano and Athletic Bilbao clash this Saturday at the Estadio de Vallecas for matchweek 26 of the La Liga.Rayo Vallecano have won 26 points to date and are placed in 15th position. Last time o...",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "La Liga table \u2014 Standings, top scorers for 2025-26 season as Barcelona, Real Madrid chase glory - NBC Sports",
+        "url": "https://nbcsports.com/soccer/news/la-liga-2025-26-season-start-date-leading-scorers-table-more",
+        "description": "The 2025-26 La Liga season is here, as Real Madrid and Atletico Madrid are fighting to retake the division crown from Barcelona.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Rayo Vallecano vs. Athletic Bilbao en vivo: c\u00f3mo llegan al partido - TyC Sports",
+        "url": "https://www.tycsports.com/espana/la-liga/espana-laliga-2025-2026-rayo-vallecano-vs-athletic-bilbao-fecha-26-id715156.html",
+        "description": "Rayo Vallecano y Athletic Bilbao se enfrentar\u00e1n por La Liga de Espa\u00f1a el s\u00e1bado 28 de febrero. El partido se jugar\u00e1 a las 10:00hs. Seguilo en vivo.",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "LALIGA official website | LALIGA",
+        "url": "https://www.laliga.com/en-GB",
+        "description": "All the information of LALIGA EA SPORTS, LALIGA HYPERMOTION, and Liga F Moeve: schedules, results, standings, news, statistics, and much more",
+        "age": "10 hours ago"
+      }
+    ],
+    "query": "Will Athletic Bilbao win the 2025\u201326 La Liga?",
+    "sources_count": 10
+  },
+  "error": null
+}

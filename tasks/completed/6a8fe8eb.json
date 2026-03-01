@@ -1,0 +1,28 @@
+{
+  "id": "6a8fe8eb",
+  "title": "Polymarket research: Spread: Rockets (-2.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Rockets (-2.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T04:07:52.971167+00:00",
+  "updated_at": "2026-02-27T04:08:00.206417+00:00",
+  "claimed_at": "2026-02-27T04:07:58.630154+00:00",
+  "completed_at": "2026-02-27T04:08:00.206394+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Rockets (-2.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Rockets (-2.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

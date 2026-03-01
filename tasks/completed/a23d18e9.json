@@ -1,0 +1,85 @@
+{
+  "id": "a23d18e9",
+  "title": "Polymarket research: Will Glenn Youngkin win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Glenn Youngkin win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:08.229080+00:00",
+  "updated_at": "2026-02-26T23:34:31.242129+00:00",
+  "claimed_at": "2026-02-26T23:34:29.915821+00:00",
+  "completed_at": "2026-02-26T23:34:31.242110+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Glenn Youngkin win the 2028 US Presidential Election?\n\nWeb Results (5):\n- Presidential Election Winner 2028 Predictions & Odds | Polymarket: Glenn Youngkin \u00b7 $5,994,897 Vol. 1% <strong>Buy Yes</strong> 0.8\u00a2Buy No 99.3\u00a2 \u00b7 Stephen Smith \u00b7 $11,054,219 Vol. 1% <strong>Buy Yes</strong> 0.8\u00a2Buy N\n- Republican Presidential Nominee 2028 | Polymarket: Real-time odds on &quot;Will Glenn Youngkin win the 2028 Republican presidential nomination?&quot; as of <strong>November 23, 2025</strong>.\n- 2028 United States presidential election - Wikipedia: ^ Tulsi Gabbard 2%, Glenn Youngkin 2%, Someone else 6%\n- Presidential election, 2028 - Ballotpedia: <strong>Glenn Youngkin</strong>, former governor of Virginia[24] Steve Bannon, former senior advisor to Donald Trump (R)[30] Tucker Carlson, political\n- 7 most likely GOP successors to Trump in 2028: Youngkin notably did not stump alongside Trump during the election as Democrats sought to tie him to the former president. Trump formally backed Young\n\nNews (5):\n- Presidential election, 2028 - Ballotpedia (1 day ago)\n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times (1 week ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- Virginia Gov. Glenn Youngkin speaks in Iowa on education, 2021 election win \u2022 Missouri Independent (July 18, 2025)\n- Gavin Newsom's stumbles highlight Democrats' 2028 vacuum | Washington Times (1 day ago)",
+    "web_results": [
+      {
+        "title": "Presidential Election Winner 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/presidential-election-winner-2028/will-glenn-youngkin-win-the-2028-us-presidential-election",
+        "description": "Glenn Youngkin \u00b7 $5,994,897 Vol. 1% <strong>Buy Yes</strong> 0.8\u00a2Buy No 99.3\u00a2 \u00b7 Stephen Smith \u00b7 $11,054,219 Vol. 1% <strong>Buy Yes</strong> 0.8\u00a2Buy No 99.3\u00a2 \u00b7 Tulsi Gabbard \u00b7 $14,557,445 Vol. 1% <strong>Buy Yes</strong> 0.8\u00a2Buy No 99.3\u00a2 \u00b7 Nikki Haley \u00b7 $10,100,679 Vol."
+      },
+      {
+        "title": "Republican Presidential Nominee 2028 | Polymarket",
+        "url": "https://polymarket.com/event/republican-presidential-nominee-2028/will-glenn-youngkin-win-the-2028-republican-presidential-nomination",
+        "description": "Real-time odds on &quot;Will Glenn Youngkin win the 2028 Republican presidential nomination?&quot; as of <strong>November 23, 2025</strong>."
+      },
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "^ Tulsi Gabbard 2%, Glenn Youngkin 2%, Someone else 6%"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "<strong>Glenn Youngkin</strong>, former governor of Virginia[24] Steve Bannon, former senior advisor to Donald Trump (R)[30] Tucker Carlson, political commentator[31] Donald Trump Jr., businessman and political advisor[32] See also: List of registered 2028 presidential candidates \u00b7"
+      },
+      {
+        "title": "7 most likely GOP successors to Trump in 2028",
+        "url": "https://thehill.com/homenews/campaign/5139201-potential-republican-successors-to-trump/",
+        "description": "Youngkin notably did not stump alongside Trump during the election as Democrats sought to tie him to the former president. Trump formally backed Youngkin for the role. However, Youngkin, 58, has since built ties with Trump on and off of the campaign trail. The two leaders appeared together in public for the first time in June as polls showed Trump gaining steam in Virginia, a state that has been reliably blue at the presidential level in recent elections."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "By Nate Silver and John Guida \u00b7 Mr. Silver is the author of \u201cOn the Edge: The Art of Risking Everything.\u201d Mr. Guida is an editor in Times Opinion",
+        "age": "1 week ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Virginia Gov. Glenn Youngkin speaks in Iowa on education, 2021 election win \u2022 Missouri Independent",
+        "url": "https://missouriindependent.com/2025/07/18/virginia-gov-glenn-youngkin-speaks-in-iowa-on-education-2021-election-win/",
+        "description": "Though Virginia Gov. Glenn Youngkin has not said whether he is running for president in 2028, he said Thursday he supports keeping Iowa caucuses first in the nation.",
+        "age": "July 18, 2025"
+      },
+      {
+        "title": "Gavin Newsom's stumbles highlight Democrats' 2028 vacuum | Washington Times",
+        "url": "https://washingtontimes.com/news/2026/feb/25/gavin-newsoms-stumbles-highlight-democrats-2028-vacuum",
+        "description": "California Gov. Gavin Newsom has been in the headlines this week, but for all the wrong reasons, which analysts say underscores the plight of Democrats as they strategize how to win the next president",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Glenn Youngkin win the 2028 US Presidential Election?",
+    "sources_count": 10
+  },
+  "error": null
+}

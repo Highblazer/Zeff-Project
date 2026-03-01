@@ -1,0 +1,28 @@
+{
+  "id": "d486993d",
+  "title": "Polymarket research: Spread: Hornets (-12.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Hornets (-12.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T03:24:52.610665+00:00",
+  "updated_at": "2026-02-27T03:25:02.465698+00:00",
+  "claimed_at": "2026-02-27T03:25:01.006286+00:00",
+  "completed_at": "2026-02-27T03:25:02.465678+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Hornets (-12.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Hornets (-12.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

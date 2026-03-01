@@ -1,0 +1,31 @@
+{
+  "id": "01cc0212",
+  "title": "Research AI agent frameworks and orchestration tools \u2014 compare OpenClaw alternatives, find complementary tools (CrewAI, AutoGen, LangGraph, Composio, etc), and identify what we can integrate",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "AI agent frameworks orchestration tools 2026 autonomous trading",
+    "sources": [
+      "web",
+      "twitter",
+      "github"
+    ],
+    "scope": "Map the current AI agent tool landscape, identify tools that complement our OpenClaw setup, find integrations for trading/research/automation that could give us an edge"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "CEO",
+  "created_at": "2026-02-25T21:39:44.608644+00:00",
+  "updated_at": "2026-02-25T21:39:48.926374+00:00",
+  "claimed_at": "2026-02-25T21:39:47.972601+00:00",
+  "completed_at": "2026-02-25T21:39:48.926357+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: AI agent frameworks orchestration tools 2026 autonomous trading\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "AI agent frameworks orchestration tools 2026 autonomous trading",
+    "sources_count": 0
+  },
+  "error": null
+}

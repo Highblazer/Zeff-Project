@@ -1,0 +1,117 @@
+{
+  "id": "131a12b9",
+  "title": "new AI APIs tools monetization February 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "new AI APIs tools monetization February 2026",
+    "category": "revenue_opportunities"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T20:21:27.402362+00:00",
+  "updated_at": "2026-02-26T20:21:28.468450+00:00",
+  "claimed_at": "2026-02-26T20:21:27.412899+00:00",
+  "completed_at": "2026-02-26T20:21:28.468438+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: new AI APIs tools monetization February 2026\n\nFindings (8):\n- [revenue_opportunity] What Is API Monetization? - Revenera (action=0.55, impact=0.35)\n  \u2192 EVALUATE for integration \u2014 potential revenue\n- [revenue_opportunity] Compare AI monetization solutions for SaaS (2026 edition) (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Best API Monetization Platforms for Usage-Based Billing (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Anthropic touts new AI tools weeks after legal plug-in spurred market rout | Reuters (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] API Monetization Matters More Than Ever in the AI Age | Zuplo Blog (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "What Is API Monetization? - Revenera",
+        "url": "https://www.revenera.com/software-monetization/glossary/api-monetization",
+        "description": "The event will offer new insights and expertise into the latest monetization and pricing trends, practices and technologies and provide you with new ideas for how to make your business more successful in 2026. Join analysts, VDC, as they describe how intelligent device manufacturers can make softwar",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.55,
+        "impact_score": 0.35,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "EVALUATE for integration \u2014 potential revenue"
+      },
+      {
+        "title": "Compare AI monetization solutions for SaaS (2026 edition)",
+        "url": "https://blog.alguna.com/ai-monetization-solutions-saas/",
+        "description": "There are several proven AI SaaS monetization techniques, including tiered subscriptions (where higher tiers unlock AI features), usage-based pricing (charging per API call, token, or prediction), outcome-based models (charging for results like leads qualified or frauds prevented), and freemium or a",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Best API Monetization Platforms for Usage-Based Billing",
+        "url": "https://www.digitalapi.ai/blogs/best-api-monetization-platform-for-usage-based-billing",
+        "description": "Join us Live: Simplify API Discovery &amp; Adoption via AI \u00b7 Book a Demo \u00b7 Book a Demo \u00b7 Back to Blogs \u00b7 Blog \u00b7 written by \u00b7 Dhayalan Subramanian \u00b7 , Associate Director - Product Growth at DigitalAPI \u00b7 Updated on: February 5, 2026 \u00b7 TL;DR 1. Usage-based billing aligns API costs directly with value, ",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Anthropic touts new AI tools weeks after legal plug-in spurred market rout | Reuters",
+        "url": "https://www.reuters.com/business/finance/anthropic-touts-new-ai-tools-weeks-after-legal-plug-in-spurred-market-rout-2026-02-24/",
+        "description": "Anthropic unveiled 10 new ways for business customers to plug in its technology to their work.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "API Monetization Matters More Than Ever in the AI Age | Zuplo Blog",
+        "url": "https://zuplo.com/blog/api-monetization-matters-more-than-ever",
+        "description": "As AI technologies usher in more backend API calls, organizations are well-positioned to monetize access to valuable data and functionality.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "The AI pricing and monetization playbook - Bessemer Venture Partners",
+        "url": "https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook",
+        "description": "AI pricing strategy isn't like the SaaS. Bessemer's playbook breaks down how emerging AI business models price for outcomes, not access.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "2 weeks ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Artificial Intelligence - AI Update, February 20, 2026: AI News and Views From the Past Week",
+        "url": "https://www.marketingprofs.com/opinions/2026/54328/ai-update-february-20-2026-ai-news-and-views-from-the-past-week",
+        "description": "Artificial Intelligence - Catch up on select AI news and developments since the workweek ended February 13. Stay in the know.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.2,
+        "combined_score": 0.35,
+        "age": "1 week ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "IT Spending Will Exceed $6 Trillion for the First Time in 2026 Thanks to Artificial Intelligence (AI). Here's How to Invest. | The Motley Fool",
+        "url": "https://fool.com/investing/2026/02/25/it-spend-to-top-6-trillion-how-to-invest",
+        "description": "Both cautious and aggressive investors may benefit from the AI investing boom.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "new AI APIs tools monetization February 2026",
+    "sources_count": 10,
+    "findings_count": 8,
+    "market_movers": 0,
+    "opportunities": 6
+  },
+  "error": null
+}

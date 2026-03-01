@@ -1,0 +1,25 @@
+{
+  "id": "0c408fd8",
+  "title": "Close GBPUSD position",
+  "assigned_to": "tradebot",
+  "task_type": "close_position",
+  "params": {
+    "symbol": "GBPUSD",
+    "positionId": 585032883
+  },
+  "priority": 1,
+  "status": "completed",
+  "created_by": "user",
+  "created_at": "2026-02-25T23:45:54.444461+00:00",
+  "updated_at": "2026-02-25T23:46:16.683617+00:00",
+  "claimed_at": "2026-02-25T23:46:16.602864+00:00",
+  "completed_at": "2026-02-25T23:46:16.683599+00:00",
+  "retries": 0,
+  "result": {
+    "symbol": "GBPUSD",
+    "positionId": 585032883,
+    "closed": true,
+    "volume": 100000
+  },
+  "error": null
+}

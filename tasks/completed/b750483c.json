@@ -1,0 +1,85 @@
+{
+  "id": "b750483c",
+  "title": "Polymarket research: Chile Open: Cristian Garin vs Sebastian Baez",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Chile Open: Cristian Garin vs Sebastian Baez",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:29:36.619995+00:00",
+  "updated_at": "2026-02-27T00:29:56.879991+00:00",
+  "claimed_at": "2026-02-27T00:29:55.085962+00:00",
+  "completed_at": "2026-02-27T00:29:56.879975+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Chile Open: Cristian Garin vs Sebastian Baez\n\nWeb Results (5):\n- Cristian Gar\u00edn vs. Sebastian Baez Preview: Head-to-Head, Prediction for Chile Open 2026: Home favorite <strong>Cristian Gar\u00edn faces third seed Sebastian Baez in the second round of the Chile Open</strong>. Read our preview here.\n- Cristian Garin vs Sebasti\u00e1n B\u00e1ez por octavos del Chile Open: a qu\u00e9 hora juegan y d\u00f3nde verlo: Cristian Garin avanz\u00f3 a los octavos ... una notable remontada. <strong>En su pr\u00f3ximo duelo, se enfrentar\u00e1 a Sebasti\u00e1n B\u00e1ez, siendo el cuarto encuentro\n- Cristian Gar\u00edn en el Chile Open: Cu\u00e1ndo y d\u00f3nde ver EN VIVO partido vs Sebasti\u00e1n B\u00e1ez - Chilevisi\u00f3n: <strong>Cristian Gar\u00edn (93\u00b0) tiene un dur\u00edsimo desafio por la segunda ronda del Chile Open, chocando este jueves contra el argentino Sebasti\u00e1n B\u00e1ez (5\n- Garin vs. Sebastian Baez Prediction, Odds to Win Movistar Chile Open: In a match scheduled for Thursday, Sebastian Baez (No. 52 in rankings) will face Cristian Garin (No. 93) in the <strong>Round of 16</strong> at the Mo\n- Chile Open 2026 Day 4: Men's singles predictions ft. Sebastian Baez vs Cristian Garin, Emilio Nava vs Adolfo Daniel Vallejo: Former champions Sebastian Baez and Cristian Garin will lead action on <strong>Day 4 of the 2026 Chile Open</strong>. Both men are set to clash in a s\n\nNews (5):\n- Cristian Gar\u00edn vs. Sebastian Baez Preview: Head-to-Head, Prediction for Chile Open 2026 (10 hours ago)\n- Garin vs. Sebastian Baez Prediction, Odds to Win Movistar Chile Open (2 days ago)\n- Cristian Garin vs Sebastian Baez Preview & Prediction | 2026 Chile Open | Second Round - The Stats Zone (1 day ago)\n- ATP Santiago Day 4 Predictions Including Cristian Garin vs Sebastian Baez (19 hours ago)\n- Cristian Garin vs Sebasti\u00e1n B\u00e1ez por octavos del Chile Open: a qu\u00e9 hora juegan y d\u00f3nde verlo (5 hours ago)",
+    "web_results": [
+      {
+        "title": "Cristian Gar\u00edn vs. Sebastian Baez Preview: Head-to-Head, Prediction for Chile Open 2026",
+        "url": "https://www.profootballnetwork.com/tennis/cristian-garin-vs-sebastian-baez-preview-for-chile-open/",
+        "description": "Home favorite <strong>Cristian Gar\u00edn faces third seed Sebastian Baez in the second round of the Chile Open</strong>. Read our preview here."
+      },
+      {
+        "title": "Cristian Garin vs Sebasti\u00e1n B\u00e1ez por octavos del Chile Open: a qu\u00e9 hora juegan y d\u00f3nde verlo",
+        "url": "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/02/26/cristian-garin-vs-sebastian-baez-por-octavos-del-chile-open-a-que-hora-juegan-y-donde-verlo.shtml",
+        "description": "Cristian Garin avanz\u00f3 a los octavos ... una notable remontada. <strong>En su pr\u00f3ximo duelo, se enfrentar\u00e1 a Sebasti\u00e1n B\u00e1ez, siendo el cuarto encuentro entre ambos en el circuito, con ventaja para el argentino</strong>...."
+      },
+      {
+        "title": "Cristian Gar\u00edn en el Chile Open: Cu\u00e1ndo y d\u00f3nde ver EN VIVO partido vs Sebasti\u00e1n B\u00e1ez - Chilevisi\u00f3n",
+        "url": "https://www.chilevision.cl/chv-deportes/noticias/cristian-garin-vs-sebastian-baez-en-vivo-cuando-y-donde-ver-chile-open",
+        "description": "<strong>Cristian Gar\u00edn (93\u00b0) tiene un dur\u00edsimo desafio por la segunda ronda del Chile Open, chocando este jueves contra el argentino Sebasti\u00e1n B\u00e1ez (52\u00b0).</strong>"
+      },
+      {
+        "title": "Garin vs. Sebastian Baez Prediction, Odds to Win Movistar Chile Open",
+        "url": "https://sportsbookwire-eu.usatoday.com/story/sports/sports-betting/2026/02/25/cristian-garin-vs-sebastian-baez-movistar-chile-open-tennis-odds-lines-betting-2-26-2026/88857678007/",
+        "description": "In a match scheduled for Thursday, Sebastian Baez (No. 52 in rankings) will face Cristian Garin (No. 93) in the <strong>Round of 16</strong> at the Movistar Chile Open."
+      },
+      {
+        "title": "Chile Open 2026 Day 4: Men's singles predictions ft. Sebastian Baez vs Cristian Garin, Emilio Nava vs Adolfo Daniel Vallejo",
+        "url": "https://www.sportskeeda.com/tennis/chile-open-2026-day-4-men-s-singles-predictions-ft-sebastian-baez-vs-cristian-garin-emilio-nava-vs-adolfo-daniel-vallejo",
+        "description": "Former champions Sebastian Baez and Cristian Garin will lead action on <strong>Day 4 of the 2026 Chile Open</strong>. Both men are set to clash in a second-round encounter at the ATP 250 event."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Cristian Gar\u00edn vs. Sebastian Baez Preview: Head-to-Head, Prediction for Chile Open 2026",
+        "url": "https://www.profootballnetwork.com/tennis/cristian-garin-vs-sebastian-baez-preview-for-chile-open/",
+        "description": "Home favorite Cristian Gar\u00edn faces third seed Sebastian Baez in the second round of the Chile Open. Read our preview here.",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "Garin vs. Sebastian Baez Prediction, Odds to Win Movistar Chile Open",
+        "url": "https://sportsbookwire.usatoday.com/story/sports/sports-betting/2026/02/25/cristian-garin-vs-sebastian-baez-movistar-chile-open-tennis-odds-lines-betting-2-26-2026/88857678007/",
+        "description": "Preview the the 2026 Movistar Chile Open match between Cristian Garin vs. Sebastian Baez, plus betting odds, insights and head-to-head-stats.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Cristian Garin vs Sebastian Baez Preview & Prediction | 2026 Chile Open | Second Round - The Stats Zone",
+        "url": "https://www.thestatszone.com/cristian-garin-vs-sebastian-baez-preview-prediction-2026-chile-open-second-round-173077",
+        "description": "Cristian Garin vs Sebastian Baez 2026 Chile Open match preview: TV & streaming details, ticket information, free tips & prediction\u2026",
+        "age": "1 day ago"
+      },
+      {
+        "title": "ATP Santiago Day 4 Predictions Including Cristian Garin vs Sebastian Baez",
+        "url": "https://lastwordonsports.com/tennis/2026/02/26/atp-santiago-day-4-predictions-garin-baez-2/",
+        "description": "Day 4 at the ATP 250 event in Santiago will see the conclusion of the Round of 16, with several intriguing matchups.",
+        "age": "19 hours ago"
+      },
+      {
+        "title": "Cristian Garin vs Sebasti\u00e1n B\u00e1ez por octavos del Chile Open: a qu\u00e9 hora juegan y d\u00f3nde verlo",
+        "url": "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/02/26/cristian-garin-vs-sebastian-baez-por-octavos-del-chile-open-a-que-hora-juegan-y-donde-verlo.shtml",
+        "description": "Este jueves se disputa el partido entre Cristian Garin vs Sebasti\u00e1n B\u00e1ez (52\u00b0), en duelo v\u00e1lido por los octavos de...",
+        "age": "5 hours ago"
+      }
+    ],
+    "query": "Chile Open: Cristian Garin vs Sebastian Baez",
+    "sources_count": 10
+  },
+  "error": null
+}

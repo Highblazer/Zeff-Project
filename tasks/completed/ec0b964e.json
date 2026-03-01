@@ -1,0 +1,85 @@
+{
+  "id": "ec0b964e",
+  "title": "Polymarket research: Khamenei out as Supreme Leader of Iran by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Khamenei out as Supreme Leader of Iran by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:26.715965+00:00",
+  "updated_at": "2026-02-26T23:37:57.882548+00:00",
+  "claimed_at": "2026-02-26T23:37:56.357842+00:00",
+  "completed_at": "2026-02-26T23:37:57.882527+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Khamenei out as Supreme Leader of Iran by March 31?\n\nWeb Results (5):\n- Next Supreme Leader of Iran election - Wikipedia: <strong>An election for the third supreme leader of Iran will be held following the end of the current tenure of Ali Khamenei. As of January 2026, no \n- Khamenei out as Supreme Leader of Iran by March 31? Trading Odds & Predictions | Polymarket: Propose resolution<strong>This market will resolve to &quot;Yes&quot; if Iran&#x27;s Supreme Leader, Ali Khamenei, is removed from power for any lengt\n- Ali Khamenei out as Supreme Leader? Odds & Predictions 2026: Track what Kalshi&#x27;s markets predict for &quot;Ali Khamenei out as Supreme Leader?&quot;, or trade it yourself.\n- Khamenei out as Supreme Leader of Iran in 2025? Betting Odds & Predictions | Polymarket: Resolver0x6A9D22261...<strong>This market will resolve to &quot;Yes&quot; if Iran&#x27;s Supreme leader, Ali Khamenei, is removed from power for any l\n- Khamenei out as Supreme Leader of Iran by March 31? Odds & Predictions | Polymarket: This market will resolve to &quot;Yes&quot; if Iran&#x27;s Supreme Leader, Ali Khamenei, is removed from power for any length of time between this mar\n\nNews (5):\n- 'Not worried at all': Killing Khamenei would not trigger collapse of regime, Iran's Araghchi says (2 days ago)\n- Iran Supreme Leader Ali Khamenei runs 'state within state' shadow apparatus | Fox News (1 day ago)\n- Iran rejects \u2018fictional narratives\u2019 of power grab after protest killings | Protests News | Al Jazeera (1 day ago)\n- Ayatollah Khamenei's Politics of Martyrdom Means Iran Won't Surrender to Trump's United States (3 days ago)\n- Inside Iran\u2019s Preparations for War and Plans for Survival - The New York Times (5 days ago)",
+    "web_results": [
+      {
+        "title": "Next Supreme Leader of Iran election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Next_Supreme_Leader_of_Iran_election",
+        "description": "<strong>An election for the third supreme leader of Iran will be held following the end of the current tenure of Ali Khamenei. As of January 2026, no person has been officially declared as the heir to Khamenei nor as a nominee</strong>, though various sources such as Reuters and BBC News have reported on potential ..."
+      },
+      {
+        "title": "Khamenei out as Supreme Leader of Iran by March 31? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/khamenei-out-as-supreme-leader-of-iran-by-march-31",
+        "description": "Propose resolution<strong>This market will resolve to &quot;Yes&quot; if Iran&#x27;s Supreme Leader, Ali Khamenei, is removed from power for any length of time between this market&#x27;s creation and March 31, 2026, 11:59 PM ET</strong>. Otherwise, this market will resolve to &quot;No&quot;."
+      },
+      {
+        "title": "Ali Khamenei out as Supreme Leader? Odds & Predictions 2026",
+        "url": "https://kalshi.com/markets/kxkhameneiout/ali-khamenei-out/kxkhameneiout-akha",
+        "description": "Track what Kalshi&#x27;s markets predict for &quot;Ali Khamenei out as Supreme Leader?&quot;, or trade it yourself."
+      },
+      {
+        "title": "Khamenei out as Supreme Leader of Iran in 2025? Betting Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/khamenei-out-as-supreme-leader-of-iran-in-2025",
+        "description": "Resolver0x6A9D22261...<strong>This market will resolve to &quot;Yes&quot; if Iran&#x27;s Supreme leader, Ali Khamenei, is removed from power for any length of time between December 28, 2024, and December 31, 2025, 11:59 PM ET</strong>. Otherwise, this market will resolve to &quot;No&quot;."
+      },
+      {
+        "title": "Khamenei out as Supreme Leader of Iran by March 31? Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/khamenei-out-as-supreme-leader-of-iran-by-march-31/khamenei-out-as-supreme-leader-of-iran-by-march-31",
+        "description": "This market will resolve to &quot;Yes&quot; if Iran&#x27;s Supreme Leader, Ali Khamenei, is removed from power for any length of time between this market&#x27;s creation and the specified date and <strong>March 31, 2026, 11:59 PM ET</strong>. Otherwise, this market will resolve to &quot;No&quot;."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "'Not worried at all': Killing Khamenei would not trigger collapse of regime, Iran's Araghchi says",
+        "url": "https://www.jpost.com/middle-east/article-887959",
+        "description": "\"Our system does not depend on individuals. It is supported by the people. So I am not worried at all. Even in the middle of war, nothing collapsed,\" Araghchi said.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Iran Supreme Leader Ali Khamenei runs 'state within state' shadow apparatus | Fox News",
+        "url": "https://www.foxnews.com/world/irans-supreme-leader-runs-state-within-state-through-secret-4000-person-network-report-says",
+        "description": "New analysis argues that eliminating Iran's supreme leader alone would not weaken the regime, as his office has created an extensive institutional apparatus.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Iran rejects \u2018fictional narratives\u2019 of power grab after protest killings | Protests News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/25/iran-rejects-fictional-narratives-power-grab-after-protest-killings",
+        "description": "Former President Hassan Rouhani denies reports he wants to replace Supreme Leader Ali Khamenei, blames US and Israel.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Ayatollah Khamenei's Politics of Martyrdom Means Iran Won't Surrender to Trump's United States",
+        "url": "https://foreignpolicy.com/2026/02/24/iran-ayatollah-khamenei-martyrdom-surrender-war-united-states-trump/",
+        "description": "Iran\u2019s leader is unlikely to ever accept surrender to the United States.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Inside Iran\u2019s Preparations for War and Plans for Survival - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/22/world/middleeast/iran-larijani-khamenei-pezeshkian.html",
+        "description": "Ayatollah Ali Khamenei has entrusted Ali Larijani, the top national security official, to ensure the Islamic Republic endures any military attacks and targeted killings.",
+        "age": "5 days ago"
+      }
+    ],
+    "query": "Khamenei out as Supreme Leader of Iran by March 31?",
+    "sources_count": 10
+  },
+  "error": null
+}

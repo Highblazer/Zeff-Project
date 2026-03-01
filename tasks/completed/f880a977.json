@@ -1,0 +1,138 @@
+{
+  "id": "f880a977",
+  "title": "cTrader automated trading bots API strategies profitable 2026",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "cTrader automated trading bot API profitable strategies 2026 open API",
+    "count": 10
+  },
+  "priority": 2,
+  "status": "completed",
+  "created_by": "seth-ceo",
+  "created_at": "2026-02-25T21:48:47.578719+00:00",
+  "updated_at": "2026-02-25T21:48:53.497523+00:00",
+  "claimed_at": "2026-02-25T21:48:51.795148+00:00",
+  "completed_at": "2026-02-25T21:48:53.497507+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: cTrader automated trading bot API profitable strategies 2026 open API\n\nWeb Results (10):\n- Getting started - Open API - cTrader Help Centre: cTrader Open API is <strong>a service you can use to develop custom applications connected to the cTrader backend</strong>. This documentation provide\n- Introduction to trading bots in cTrader - Automated trading guide - cTrader Algo: In cTrader Windows and Mac, <strong>you can develop cBots using either C# or Python</strong>, allowing you to work in the programming language that yo\n- Daily Trading Strategy (Made with AlgoBuilderX) cBot - cTrader Store: <strong>AlgoBuilderX makes cBot creation easy \u2013 build and automate your trading strategies on cTrader with zero programming</strong>. Engulfing Strate\n- Free trading bot samples - cTrader Algo: <strong>The ExecuteMarketOrder() method can be called with additional arguments such as Label, StopLoss, TakeProfit and Comment</strong>. The example \n- cTrader | Open API. Get support for Open API.: cTrader Forum. Open API. Discussions about developing indicators and automated trading strategies, cBots, in Algo API and csharp.\n- Empower innovation with cTrader Open API: Anyone with a creative or breakthrough ... One of the most common use cases is <strong>using account information to broadcast trading strategies by po\n- Create a Python cBot with AI - cTrader Algo: Let&#x27;s build the trading bot and backtest it. <strong>Press Ctrl+B or click Build at the top of the code editor</strong>. Once the build succeeds,\n- cTrader Automate - cTrader API | Pepperstone: <strong>cTrader Automate lets you backtest and optimise your trading strategies by building automated trading robots and custom indicators using the h\n- cTrader API Guide: Python & OpenAPI Integration: This integrated feature thus <strong>enables the creation and testing of trading robots (cBots) and custom indicators using C#</strong>. Consequently,\n- Algorithmic trading using cTrader Algo - Python and C# algo trading with cTrader - cTrader Algo: <strong>Learn algo trading using cTrader Algo</strong>. Create trading bots, technical indicators, plugins and algos in Python or C#. Build automated \n\nNews (10):\n- Unlocking Market Profits: Your Guide to the Best AI Trading Bot in 2026 (2 days ago)\n- 10 Best Crypto Trading Bots in 2026 (Expert Review) (November 7, 2025)\n- Best AI for stock trading: 12 powerful tools for investors in 2026 (January 20, 2026)\n- How AI is helping retail traders exploit prediction market 'glitches' to make easy money (4 days ago)\n- 10 Best AI Crypto Trading Bots 2026: Automated High-Yield Profits (December 27, 2025)\n- 6 Best AI Stock Trading Bots and Software in 2026: Smart Automation for Modern Investors \u2022 Benzinga (2 weeks ago)\n- Top 20 Trading Bot Strategies for 2026 | QuantVPS (October 26, 2025)\n- Top 10 AI Day Trading Bots Using Technical Analysis (6 days ago)\n- TradeStation to leverage Capitalize\u2019s Rollover API to enhance user experience - FX News Group (1 day ago)\n- What Is Forex Robots Trading? What Is Automated Trading? (March 9, 2021)",
+    "web_results": [
+      {
+        "title": "Getting started - Open API - cTrader Help Centre",
+        "url": "https://help.ctrader.com/open-api/",
+        "description": "cTrader Open API is <strong>a service you can use to develop custom applications connected to the cTrader backend</strong>. This documentation provides everything you need to know including information about SDKs, structured tutorials, code snippets and more \u00b7 cTrader Open API is a service that allows anyone ..."
+      },
+      {
+        "title": "Introduction to trading bots in cTrader - Automated trading guide - cTrader Algo",
+        "url": "https://help.ctrader.com/ctrader-algo/documentation/cbots/",
+        "description": "In cTrader Windows and Mac, <strong>you can develop cBots using either C# or Python</strong>, allowing you to work in the programming language that you are most comfortable with. Both languages give you access to the same rich trading API, enabling you to build, test and refine automated strategies with ease."
+      },
+      {
+        "title": "Daily Trading Strategy (Made with AlgoBuilderX) cBot - cTrader Store",
+        "url": "https://ctrader.com/products/103",
+        "description": "<strong>AlgoBuilderX makes cBot creation easy \u2013 build and automate your trading strategies on cTrader with zero programming</strong>. Engulfing Strategy with Fixed Risk (Made with AlgoBuilderX) ..."
+      },
+      {
+        "title": "Free trading bot samples - cTrader Algo",
+        "url": "https://help.ctrader.com/ctrader-algo/documentation/cbots/cbot-code-samples/",
+        "description": "<strong>The ExecuteMarketOrder() method can be called with additional arguments such as Label, StopLoss, TakeProfit and Comment</strong>. The example below specifies the label (&quot;order 1&quot;), the stop-loss protection mechanism (10) and the take-profit level (10)."
+      },
+      {
+        "title": "cTrader | Open API. Get support for Open API.",
+        "url": "https://community.ctrader.com/forum/connect-api-support/",
+        "description": "cTrader Forum. Open API. Discussions about developing indicators and automated trading strategies, cBots, in Algo API and csharp."
+      },
+      {
+        "title": "Empower innovation with cTrader Open API",
+        "url": "https://www.spotware.com/ctrader/dev-resources/open-api/",
+        "description": "Anyone with a creative or breakthrough ... One of the most common use cases is <strong>using account information to broadcast trading strategies by populating an online profile, such as Myfxbook</strong>...."
+      },
+      {
+        "title": "Create a Python cBot with AI - cTrader Algo",
+        "url": "https://help.ctrader.com/ctrader-algo/how-tos/cbots/create-a-python-trading-bot-using-ai/",
+        "description": "Let&#x27;s build the trading bot and backtest it. <strong>Press Ctrl+B or click Build at the top of the code editor</strong>. Once the build succeeds, click any available instance under the cBot name. In the main grid, navigate to the Backtesting tab. Perform a one-year backtest using the default parameters to evaluate ..."
+      },
+      {
+        "title": "cTrader Automate - cTrader API | Pepperstone",
+        "url": "https://pepperstone.com/en/platforms/integrations/ctrader-automate/",
+        "description": "<strong>cTrader Automate lets you backtest and optimise your trading strategies by building automated trading robots and custom indicators using the highly functional cTrader API and the popular C# language</strong>."
+      },
+      {
+        "title": "cTrader API Guide: Python & OpenAPI Integration",
+        "url": "https://ctraderacademy.com/ctrader-api/",
+        "description": "This integrated feature thus <strong>enables the creation and testing of trading robots (cBots) and custom indicators using C#</strong>. Consequently, it allows for the automation of trading strategies and technical analysis."
+      },
+      {
+        "title": "Algorithmic trading using cTrader Algo - Python and C# algo trading with cTrader - cTrader Algo",
+        "url": "https://help.ctrader.com/ctrader-algo/",
+        "description": "<strong>Learn algo trading using cTrader Algo</strong>. Create trading bots, technical indicators, plugins and algos in Python or C#. Build automated trading strategies and develop trading tools for forex/FX, CFDs, stocks and more."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Unlocking Market Profits: Your Guide to the Best AI Trading Bot in 2026",
+        "url": "https://tradersdna.com/ai-trading-bot-2",
+        "description": "Alright, so you're thinking about getting into crypto trading, or maybe you're already in it and feeling a bit overwhelmed. It's a wild market out there,",
+        "age": "2 days ago"
+      },
+      {
+        "title": "10 Best Crypto Trading Bots in 2026 (Expert Review)",
+        "url": "https://nftplazas.com/best-crypto-trading-bot/",
+        "description": "Choose the best crypto trading bot 2026 to automate smarter trades. Compare features, pricing, and performance to find the top bot for you.",
+        "age": "November 7, 2025"
+      },
+      {
+        "title": "Best AI for stock trading: 12 powerful tools for investors in 2026",
+        "url": "https://monday.com/blog/ai-agents/best-ai-for-stock-trading/",
+        "description": "Discover the best AI for stock trading in 2026 & compare powerful tools for smarter analysis and faster decisions. Build your edge today.",
+        "age": "January 20, 2026"
+      },
+      {
+        "title": "How AI is helping retail traders exploit prediction market 'glitches' to make easy money",
+        "url": "https://coindesk.com/markets/2026/02/21/how-ai-is-helping-retail-traders-exploit-prediction-market-glitches-to-make-easy-money",
+        "description": "A fully automated bot quietly captured micro-arbitrage opportunities on short-term crypto prediction markets, netting nearly $150,000",
+        "age": "4 days ago"
+      },
+      {
+        "title": "10 Best AI Crypto Trading Bots 2026: Automated High-Yield Profits",
+        "url": "https://sarkariresulthq.com/best-ai-crypto-trading-bots-2026/",
+        "description": "Discover the Best AI Crypto Trading Bots 2026 for automated profits. Compare Pionex, 3Commas, and Cryptohopper with real stats, fees, and strategies.",
+        "age": "December 27, 2025"
+      },
+      {
+        "title": "6 Best AI Stock Trading Bots and Software in 2026: Smart Automation for Modern Investors \u2022 Benzinga",
+        "url": "https://benzinga.com/money/best-ai-stock-trading-bots-software",
+        "description": "Discover the top AI trading bots of 2026. Compare automated software that uses machine learning to adapt, analyze and execute trades with minimal manual input.",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "Top 20 Trading Bot Strategies for 2026 | QuantVPS",
+        "url": "https://www.quantvps.com/blog/trading-bot-strategies",
+        "description": "Explore the top 20 trading bot strategies for 2026, emphasizing automation, speed, and adaptability in evolving market conditions. | QuantVPS Blog",
+        "age": "October 26, 2025"
+      },
+      {
+        "title": "Top 10 AI Day Trading Bots Using Technical Analysis",
+        "url": "https://tickeron.com/trading-investing-101/ai-trading-bots-top-10-day-traders-virtual-accounts-on-december-2024",
+        "description": "Discover the top 10 AI-driven day trading bots of December 2024, leveraging technical analysis (TA) for precise signals. Optimize gains and manage risks in volatile stock markets with advanced trading strategies tailored for active traders.",
+        "age": "6 days ago"
+      },
+      {
+        "title": "TradeStation to leverage Capitalize\u2019s Rollover API to enhance user experience - FX News Group",
+        "url": "https://fxnewsgroup.com/forex-news/retail-forex/tradestation-to-leverage-capitalizes-rollover-api-to-enhance-user-experience",
+        "description": "TradeStation will embed Capitalize\u2019s Rollover API, enabling TradeStation users to transfer 401(k) assets into their IRAs through the TradeStation platform.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "What Is Forex Robots Trading? What Is Automated Trading?",
+        "url": "https://www.compareforexbrokers.com/awards/forex-robots-trading/",
+        "description": "Compare the best forex trading robots based on functionality and algorithmic features. View our 2026 best forex robots list.",
+        "age": "March 9, 2021"
+      }
+    ],
+    "query": "cTrader automated trading bot API profitable strategies 2026 open API",
+    "sources_count": 20
+  },
+  "error": null
+}

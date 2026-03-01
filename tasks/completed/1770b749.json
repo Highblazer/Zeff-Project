@@ -1,0 +1,85 @@
+{
+  "id": "1770b749",
+  "title": "Polymarket research: Will Silver (SI) hit (HIGH) $180 by end of February?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Silver (SI) hit (HIGH) $180 by end of February?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:10.420988+00:00",
+  "updated_at": "2026-02-26T23:35:04.289754+00:00",
+  "claimed_at": "2026-02-26T23:35:02.760763+00:00",
+  "completed_at": "2026-02-26T23:35:04.289738+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Silver (SI) hit (HIGH) $180 by end of February?\n\nWeb Results (5):\n- Will Silver (SI) hit__ by end of February? Trading Odds & Predictions | Polymarket: The current frontrunner for &quot;Will Silver (SI) hit__ by end of February?&quot; is &quot;<strong>\u2191 $110&quot; at 100%</strong>, meaning the market \n- Will Silver (SI) hit__ by end of February? | Prediction Market | Jupiter: Predict the outcome of Will Silver (SI) hit__ by end of February?. 20 markets available.\n- Will Silver (SI) hit__ by end of February? Prediction Market Prices - Yahoo Finance: This market will resolve based on the settlement price as it appears on the CME settlement page at the time it is first published for that trading day\n- Silver Predictions & Real-Time Odds | Polymarket: <strong>Yes</strong>. You can treat this page as a live data source and watch how the odds for Silver shift in real-time. It&#x27;s a free way to trac\n- Will Silver (SI) hit__ by end of February? Betting Odds & Predictions | Polymarket: This market will resolve based on the settlement price as it appears on the CME settlement page at the time it is first published for that trading day\n\nNews (5):\n- Current price of silver as of Tuesday, February 24, 2026 | Fortune (2 days ago)\n- Gold and silver price prediction today: Gold and silver price today: Gold again crosses $5,000 and silver touches $90 \u2014 will gold and silver continue to gain in this cycle to touch $6,300 and $125? - The Economic Times (3 weeks ago)\n- A Silver Rally to $122 Looks to be Next! - SilverTrade (8 hours ago)\n- Fortune (1 week ago)\n- Will silver hit $200 per ounce in 2026? Here's what some experts think. - CBS News (2 weeks ago)",
+    "web_results": [
+      {
+        "title": "Will Silver (SI) hit__ by end of February? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/will-silver-si-hit-by-end-of-february",
+        "description": "The current frontrunner for &quot;Will Silver (SI) hit__ by end of February?&quot; is &quot;<strong>\u2191 $110&quot; at 100%</strong>, meaning the market assigns a 100% chance to that outcome. The next closest outcome is &quot;\u2191 $105&quot; at 100%. These odds update in real-time as traders ..."
+      },
+      {
+        "title": "Will Silver (SI) hit__ by end of February? | Prediction Market | Jupiter",
+        "url": "https://jup.ag/prediction/POLY-189698",
+        "description": "Predict the outcome of Will Silver (SI) hit__ by end of February?. 20 markets available."
+      },
+      {
+        "title": "Will Silver (SI) hit__ by end of February? Prediction Market Prices - Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/prediction/event/will-silver-si-hit-by-end-of-february/",
+        "description": "This market will resolve based on the settlement price as it appears on the CME settlement page at the time it is first published for that trading day, regardless of any later corrections or updates. The resolution source for this market is the CME Group website \u2014 specifically, the daily &quot;Settlement&quot; price for the Active Month of Silver (SI) futures."
+      },
+      {
+        "title": "Silver Predictions & Real-Time Odds | Polymarket",
+        "url": "https://polymarket.com/predictions/silver",
+        "description": "<strong>Yes</strong>. You can treat this page as a live data source and watch how the odds for Silver shift in real-time. It&#x27;s a free way to track market sentiment on major outcomes like &quot;Will Silver (SI) hit__ by end of February?&quot; without ever needing to place ..."
+      },
+      {
+        "title": "Will Silver (SI) hit__ by end of February? Betting Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/will-silver-si-hit-by-end-of-february/will-silver-si-hit-low-90-by-end-of-february-439-518-716-416-258",
+        "description": "This market will resolve based on the settlement price as it appears on the CME settlement page at the time it is first published for that trading day, regardless of any later corrections or updates. The resolution source for this market is the CME Group website \u2014 specifically, the daily &quot;Settlement&quot; price for the Active Month of Silver (SI) futures."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Current price of silver as of Tuesday, February 24, 2026 | Fortune",
+        "url": "https://fortune.com/article/current-price-of-silver-2-24-2026",
+        "description": "If you\u2019re worried about increased inflation, adding precious metals like silver to your portfolio can be a smart choice.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Gold and silver price prediction today: Gold and silver price today: Gold again crosses $5,000 and silver touches $90 \u2014 will gold and silver continue to gain in this cycle to touch $6,300 and $125? - The Economic Times",
+        "url": "https://m.economictimes.com/news/international/us/gold-and-silver-price-today-gold-again-crosses-5000-and-silver-touches-90-will-gold-and-silver-continue-to-gain-in-this-cycle-to-touch-6300-and-125/articleshow/127910027.cms",
+        "description": "Gold and silver price today: Gold prices surged 2.7% to $5,071.79 on February 4, 2026. This move reclaimed the vital $5,000 psychological floor. Silver followed with an 8% jump to $89.92. Fresh U.S.-Iran tensions drove this safe-haven rally. J.P. Morgan now forecasts gold at $6,300 by year-end.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "A Silver Rally to $122 Looks to be Next! - SilverTrade",
+        "url": "https://silvertrade.com/news/precious-metals/silver-news/a-silver-rally-to-122-looks-to-be-next",
+        "description": "SilverTrade delivers daily gold and silver news, price analysis, market insights, and educational commentary for precious-metals investors. Stay informed with clear, trustworthy updates on what moves the metals markets.",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "Fortune",
+        "url": "https://fortune.com/article/current-price-of-silver-2-20-2026/",
+        "description": "At 8:30 a.m. Eastern Time on February 20, 2026, silver exchanged hands at $80.46 per ounce. That\u2019s a $2.40 uptick from 24 hours ago and more than a $47 gain over the past year \u00b7 Prices current as of February 20, 2026. Fortune publishes a daily price of silver post each weekday that data ...",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Will silver hit $200 per ounce in 2026? Here's what some experts think. - CBS News",
+        "url": "https://www.cbsnews.com/news/will-silver-hit-200-per-ounce-in-2026-heres-what-some-experts-think/",
+        "description": "A $200-per-ounce price is possible, experts say, but it would require some unique economic conditions to converge.",
+        "age": "2 weeks ago"
+      }
+    ],
+    "query": "Will Silver (SI) hit (HIGH) $180 by end of February?",
+    "sources_count": 10
+  },
+  "error": null
+}

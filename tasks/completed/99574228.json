@@ -1,0 +1,28 @@
+{
+  "id": "99574228",
+  "title": "Polymarket research: Will Santos FC win on 2026-02-26?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Santos FC win on 2026-02-26?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T01:49:45.336096+00:00",
+  "updated_at": "2026-02-27T01:49:58.239558+00:00",
+  "claimed_at": "2026-02-27T01:49:57.081576+00:00",
+  "completed_at": "2026-02-27T01:49:58.239537+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Santos FC win on 2026-02-26?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Santos FC win on 2026-02-26?",
+    "sources_count": 0
+  },
+  "error": null
+}

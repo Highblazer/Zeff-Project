@@ -1,0 +1,82 @@
+{
+  "id": "7ccce616",
+  "title": "machine learning infrastructure trends 2026",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "machine learning infrastructure trends 2026"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T16:18:10.509146+00:00",
+  "updated_at": "2026-02-26T16:18:12.360234+00:00",
+  "claimed_at": "2026-02-26T16:18:10.525566+00:00",
+  "completed_at": "2026-02-26T16:18:12.360219+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: machine learning infrastructure trends 2026\n\nWeb Results (5):\n- Five Trends in AI and Data Science for 2026 | Thomas H. Davenport and Randy Bean | MIT Sloan Management Review: MIT SMR columnists Thomas H. Davenport and Randy Bean see five AI trends to pay attention to in 2026: deflation of the AI bubble and subsequent hits t\n- 10 AI and machine learning trends to watch in 2026 | TechTarget: Expect a <strong>renewed emphasis on data center power and cooling energy efficiency</strong> in 2026 and beyond, especially for AI-optimized data cen\n- 10 Machine Learning Trends to Watch Out for in 2026 and Beyond: Learn about the biggest machine learning trends to expect in 2026, like <strong>Agentic AI</strong>, MLOps, LLMOps, AgentOps, explainable AI, and othe\n- Machine Learning Trends 2026: What C-Suite Leaders Must Prioritize Now: The priority for 2026 is clear. <strong>Identify time-critical processes, classify where edge is essential, and pilot focused deployments</strong>. Th\n- Data Center World 2026 | Data Center Frontier: AI / Machine Learning \u00b7 The theme of Data Center World 2026 is &quot;Innovation at Scale.&quot; Dates: April 20, 2026 - April 23, 2026 \u00b7 Website:https\n\nNews (5):\n- Cloud Infrastructure Market Size to Surpass USD 923.05 Billion by 2035 Driven by AI Workloads and Hybrid Cloud Adoption (5 hours ago)\n- Artificial Intelligence News -- ScienceDaily (1 day ago)\n- 10 Machine Learning Trends to Watch Out for in 2026 and Beyond (1 month ago)\n- Data Analytics Market Forecasted to Reach USD 785.62 Billion by 2035 Driven by AI, ML, and Real-Time Intelligence (2 days ago)\n- Tech Trends 2026: Navigating the Future of Innovation (2 days ago)",
+    "web_results": [
+      {
+        "title": "Five Trends in AI and Data Science for 2026 | Thomas H. Davenport and Randy Bean | MIT Sloan Management Review",
+        "url": "https://sloanreview.mit.edu/article/five-trends-in-ai-and-data-science-for-2026/",
+        "description": "MIT SMR columnists Thomas H. Davenport and Randy Bean see five AI trends to pay attention to in 2026: deflation of the AI bubble and subsequent hits to the economy; <strong>growth of the \u201cfactory\u201d infrastructure for all-in AI adapters</strong>; greater focus ..."
+      },
+      {
+        "title": "10 AI and machine learning trends to watch in 2026 | TechTarget",
+        "url": "https://www.techtarget.com/searchenterpriseai/tip/9-top-AI-and-machine-learning-trends",
+        "description": "Expect a <strong>renewed emphasis on data center power and cooling energy efficiency</strong> in 2026 and beyond, especially for AI-optimized data centers. This renewed attention to green computing must address issues of energy-efficient hardware, energy ..."
+      },
+      {
+        "title": "10 Machine Learning Trends to Watch Out for in 2026 and Beyond",
+        "url": "https://softteco.com/blog/machine-learning-trends",
+        "description": "Learn about the biggest machine learning trends to expect in 2026, like <strong>Agentic AI</strong>, MLOps, LLMOps, AgentOps, explainable AI, and others."
+      },
+      {
+        "title": "Machine Learning Trends 2026: What C-Suite Leaders Must Prioritize Now",
+        "url": "https://appinventiv.com/blog/machine-learning-trends/",
+        "description": "The priority for 2026 is clear. <strong>Identify time-critical processes, classify where edge is essential, and pilot focused deployments</strong>. This is where the latest trends in machine learning translate into operational resilience, not experimentation."
+      },
+      {
+        "title": "Data Center World 2026 | Data Center Frontier",
+        "url": "https://www.datacenterfrontier.com/machine-learning/event/55360115/data-center-world-2026",
+        "description": "AI / Machine Learning \u00b7 The theme of Data Center World 2026 is &quot;Innovation at Scale.&quot; Dates: April 20, 2026 - April 23, 2026 \u00b7 Website:https://datacenterworld.com/ Address: Washington, D.C. US \u00b7 Data Center World/Informa \u00b7 The AI revolution has ignited the fastest infrastructure expansion in human history."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Cloud Infrastructure Market Size to Surpass USD 923.05 Billion by 2035 Driven by AI Workloads and Hybrid Cloud Adoption",
+        "url": "https://globenewswire.com/news-release/2026/02/26/3245374/0/en/Cloud-Infrastructure-Market-Size-to-Surpass-USD-923-05-Billion-by-2035-Driven-by-AI-Workloads-and-Hybrid-Cloud-Adoption.html",
+        "description": "The global cloud infrastructure market size was evaluated at USD 294.99 billion in 2025 and is predicted to surpass around USD 923.05 billion by 2035,...",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Artificial Intelligence News -- ScienceDaily",
+        "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+        "description": "Artificial Intelligence News. Everything on AI including futuristic robots with artificial intelligence, computer models of human intelligence and more.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "10 Machine Learning Trends to Watch Out for in 2026 and Beyond",
+        "url": "https://softteco.com/blog/machine-learning-trends",
+        "description": "Learn about the biggest machine learning trends to expect in 2026, like Agentic AI, MLOps, LLMOps, AgentOps, explainable AI, and others.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Data Analytics Market Forecasted to Reach USD 785.62 Billion by 2035 Driven by AI, ML, and Real-Time Intelligence",
+        "url": "https://globenewswire.com/news-release/2026/02/24/3243617/0/en/Data-Analytics-Market-Forecasted-to-Reach-USD-785-62-Billion-by-2035-Driven-by-AI-ML-and-Real-Time-Intelligence.html",
+        "description": "According to Precedence Research, the global data analytics market size will grow from USD 83.79 billion in 2026 to nearly USD 785.62 billion by 2035,...",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Tech Trends 2026: Navigating the Future of Innovation",
+        "url": "https://careeraheadonline.com/tech-trends-2026-navigating-the-future-of-innovation",
+        "description": "Deloitte's Tech Trends 2026 report reveals significant shifts in technology adoption. Understand how these trends impact your career and what you can do to adapt.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "machine learning infrastructure trends 2026",
+    "sources_count": 10
+  },
+  "error": null
+}

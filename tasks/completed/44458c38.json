@@ -1,0 +1,85 @@
+{
+  "id": "44458c38",
+  "title": "Polymarket research: Kings vs. Mavericks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Kings vs. Mavericks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:29:36.575216+00:00",
+  "updated_at": "2026-02-27T00:29:56.191732+00:00",
+  "claimed_at": "2026-02-27T00:29:54.746052+00:00",
+  "completed_at": "2026-02-27T00:29:56.191712+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Kings vs. Mavericks\n\nWeb Results (5):\n- Mavericks 120-106 Kings (Apr 16, 2025) Final Score - ESPN: Game summary of the Dallas Mavericks vs. Sacramento Kings NBA game, final score <strong>120-106</strong>, from April 16, 2025 on ESPN.\n- Sacramento Kings vs Dallas Mavericks Odds - Thursday February 26 2026: Sacramento Kings vs Dallas Mavericks Odds - Thursday February 26 2026. Live betting odds and lines, betting trends, against the spread and over/under \n- Dallas Mavericks vs Sacramento Kings Dec 27, 2025 Game Summary | NBA.com: Dallas Mavericks vs Sacramento Kings <strong>Dec 27, 2025</strong> game result including recap, highlights and game information\n- Dallas plays Sacramento on 5-game home skid - ABC30 Fresno: Sacramento Kings (13-47, 15th in the Western Conference) vs. Dallas Mavericks <strong>(21-36, 12th in the Western Conference)</strong>\n- KSL.com Sports | Dallas Mavericks vs. Sacramento Kings | NBA Boxscore: \ud83c\udfc0 NBA \u00b7 Scores \u00b7 Teams \u00b7 Standings \u00b7 Player Stats \u00b7 Leaders \u00b7 Team Stats \u00b7 Pregame Info \u00b7 Matchup Leaders \u00b7 Box Score\n\nNews (5):\n- Mavs-Kings preview: Bagley been in his bag thus far with Mavs | Dallas Mavericks (1 day ago)\n- Sacramento Kings vs Dallas Mavericks Prediction, 2/26/2026 Preview and Pick (1 day ago)\n- Dallas plays Sacramento on 5-game home skid - The Washington Post (17 hours ago)\n- Kings vs Mavericks Prediction, Picks & Odds for Tonight\u2019s NBA Game - Yahoo Sports (5 hours ago)\n- Dallas Mavericks Make Cooper Flagg Announcement Before Kings Game (1 day ago)",
+    "web_results": [
+      {
+        "title": "Mavericks 120-106 Kings (Apr 16, 2025) Final Score - ESPN",
+        "url": "https://www.espn.com/nba/game/_/gameId/401766461/mavericks-kings",
+        "description": "Game summary of the Dallas Mavericks vs. Sacramento Kings NBA game, final score <strong>120-106</strong>, from April 16, 2025 on ESPN."
+      },
+      {
+        "title": "Sacramento Kings vs Dallas Mavericks Odds - Thursday February 26 2026",
+        "url": "https://www.oddsshark.com/nba/sacramento-dallas-odds-february-26-2026-2479359",
+        "description": "Sacramento Kings vs Dallas Mavericks Odds - Thursday February 26 2026. Live betting odds and lines, betting trends, against the spread and over/under trends, injury reports and matchup stats for bettors."
+      },
+      {
+        "title": "Dallas Mavericks vs Sacramento Kings Dec 27, 2025 Game Summary | NBA.com",
+        "url": "https://www.nba.com/game/dal-vs-sac-0022500432",
+        "description": "Dallas Mavericks vs Sacramento Kings <strong>Dec 27, 2025</strong> game result including recap, highlights and game information"
+      },
+      {
+        "title": "Dallas plays Sacramento on 5-game home skid - ABC30 Fresno",
+        "url": "https://abc30.com/post/dallas-plays-sacramento-5-game-home-skid/18652394/",
+        "description": "Sacramento Kings (13-47, 15th in the Western Conference) vs. Dallas Mavericks <strong>(21-36, 12th in the Western Conference)</strong>"
+      },
+      {
+        "title": "KSL.com Sports | Dallas Mavericks vs. Sacramento Kings | NBA Boxscore",
+        "url": "https://scoreboard.ksl.com/boxscore/nba/2914737/pregame-info/Dallas%20Mavericks-vs-Sacramento%20Kings",
+        "description": "\ud83c\udfc0 NBA \u00b7 Scores \u00b7 Teams \u00b7 Standings \u00b7 Player Stats \u00b7 Leaders \u00b7 Team Stats \u00b7 Pregame Info \u00b7 Matchup Leaders \u00b7 Box Score"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Mavs-Kings preview: Bagley been in his bag thus far with Mavs | Dallas Mavericks",
+        "url": "https://www.nba.com/mavs/news/mavs-kings-preview-bagley-been-in-his-bag-thus-far-with-mavs",
+        "description": "Shop All \u00b7 More News \u00b7 Latest news \u00b7 Loading news \u00b7 Highlights \u00b7 More Highlights \u00b7 community",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Sacramento Kings vs Dallas Mavericks Prediction, 2/26/2026 Preview and Pick",
+        "url": "https://www.docsports.com/free-picks/nba/2026/sacramento-kings-vs-dallas-mavericks-prediction-2-26-2026-preview-and-pick.html",
+        "description": "The Sacramento Kings will take on the Dallas Mavericks on 2/26/26. Doc's Sports Prediction, Preview, and Pick Inside",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Dallas plays Sacramento on 5-game home skid - The Washington Post",
+        "url": "https://www.washingtonpost.com/sports/nba/2026/02/26/kings-mavericks-preview/43d54b0a-12e1-11f1-8e8d-fe91db44677b_story.html",
+        "description": "Sacramento Kings (13-47, 15th in the Western Conference) vs. Dallas Mavericks (21-36, 12th in the Western Conference)",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Kings vs Mavericks Prediction, Picks & Odds for Tonight\u2019s NBA Game - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/kings-vs-mavericks-prediction-picks-192600842.html",
+        "description": "My Kings vs. Mavericks predictions for Thursday, February 26 features NBA picks on the Sacramento team total.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Dallas Mavericks Make Cooper Flagg Announcement Before Kings Game",
+        "url": "https://heavy.com/sports/nba/dallas-mavericks/dallas-mavericks-cooper-flagg-announcement-kings/",
+        "description": "The Dallas Mavericks announced that Cooper Flagg has been ruled out for Thursday's game against the Kings.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Kings vs. Mavericks",
+    "sources_count": 10
+  },
+  "error": null
+}

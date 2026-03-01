@@ -1,0 +1,85 @@
+{
+  "id": "d7e7c39f",
+  "title": "Polymarket research: Will the next Prime Minister of Hungary be L\u00e1szl\u00f3 Toroczkai?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the next Prime Minister of Hungary be L\u00e1szl\u00f3 Toroczkai?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:27.785728+00:00",
+  "updated_at": "2026-02-26T23:38:14.954449+00:00",
+  "claimed_at": "2026-02-26T23:38:13.522301+00:00",
+  "completed_at": "2026-02-26T23:38:14.954430+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the next Prime Minister of Hungary be L\u00e1szl\u00f3 Toroczkai?\n\nWeb Results (5):\n- Next Prime Minister of Hungary Betting Odds & Predictions (Apr. 12, 2026) | Polymarket: L\u00e1szl\u00f3 Toroczkai &lt;1% $12,327,923 Vol. $12,327,923 Vol. Apr 12, 2026 \u00b7 P\u00e9ter Magyar \u00b7 $2,095,881 Vol. 55% Buy Yes55\u00a2Buy No46\u00a2 \u00b7 Viktor Orb\u00e1n \u00b7 $1,56\n- Next Prime Minister of Hungary Trading Odds & Predictions (Apr. 12, 2026) | Polymarket: <strong>L\u00e1szl\u00f3 Toroczkai</strong> \u00b7 $8,446,321 Vol. 1% Buy Yes0.9\u00a2Buy No99.2\u00a2 \u00b7 Kl\u00e1ra Dobrev \u00b7 $2,517,641 Vol. &lt;1% Buy Yes0.2\u00a2Buy No99.9\u00a2 \u00b7 J\u00e1nos L\n- Bet On The Next Prime Minister of Hungary - Odds and An Analysis - GamingZion: Let\u2019s start our bet on the Next Prime Minister of Hungary with the most important thing: What not to do. <strong>Two names are surely not going to mak\n- Next Prime Minister of Hungary Predictions & Odds | Polymarket: L\u00e1szl\u00f3 Toroczkai &lt;1% Kl\u00e1ra Dobrev ... or May 2026. <strong>This market will resolve to the individual who is next officially appointed and confirme\n- Hungarian President Schedules General Election for 12 April 2026 - Hungarian Conservative: The leading candidates of the main parties are already known: Prime Minister Viktor Orb\u00e1n will head Fidesz\u2019s list, P\u00e9ter Magyar leads the Tisza Party,\n\nNews (5):\n- Hungary's Viktor Orb\u00e1n stakes his re-election on anti-Ukraine message (1 day ago)\n- Hungary's opposition Tisza party widens its lead ahead of Orban's Fidesz | Reuters (2 days ago)\n- New Poll Shows Orb\u00e1n Steadily Leading Ahead of April Election - Hungarian Conservative (5 hours ago)\n- Hungary is at a crossroads between Europe and 'dictators', opposition leader says | Reuters (10 hours ago)\n- Hungary\u2019s Orban says EU bigger threat than Russia before April elections | Politics News | Al Jazeera (2 weeks ago)",
+    "web_results": [
+      {
+        "title": "Next Prime Minister of Hungary Betting Odds & Predictions (Apr. 12, 2026) | Polymarket",
+        "url": "https://polymarket.com/event/next-prime-minister-of-hungary/will-the-next-prime-minister-of-hungary-be-lszl-toroczkai",
+        "description": "L\u00e1szl\u00f3 Toroczkai &lt;1% $12,327,923 Vol. $12,327,923 Vol. Apr 12, 2026 \u00b7 P\u00e9ter Magyar \u00b7 $2,095,881 Vol. 55% Buy Yes55\u00a2Buy No46\u00a2 \u00b7 Viktor Orb\u00e1n \u00b7 $1,564,555 Vol. 41% Buy Yes41\u00a2Buy No60\u00a2 \u00b7 Istv\u00e1n Kapit\u00e1ny \u00b7 $2,688,130 Vol. 4% Buy Yes3.8\u00a2Buy No96.4\u00a2 \u00b7"
+      },
+      {
+        "title": "Next Prime Minister of Hungary Trading Odds & Predictions (Apr. 12, 2026) | Polymarket",
+        "url": "https://polymarket.com/event/next-prime-minister-of-hungary",
+        "description": "<strong>L\u00e1szl\u00f3 Toroczkai</strong> \u00b7 $8,446,321 Vol. 1% Buy Yes0.9\u00a2Buy No99.2\u00a2 \u00b7 Kl\u00e1ra Dobrev \u00b7 $2,517,641 Vol. &lt;1% Buy Yes0.2\u00a2Buy No99.9\u00a2 \u00b7 J\u00e1nos L\u00e1z\u00e1r \u00b7 $877,257 Vol. &lt;1% Buy Yes0.2\u00a2Buy No99.9\u00a2 \u00b7 P\u00e9ter Magyar 63% Viktor Orb\u00e1n 37% Istv\u00e1n ..."
+      },
+      {
+        "title": "Bet On The Next Prime Minister of Hungary - Odds and An Analysis - GamingZion",
+        "url": "https://www.gamingzion.com/gambling/gambling-news/bet-on-the-next-prime-minister-of-hungary/",
+        "description": "Let\u2019s start our bet on the Next Prime Minister of Hungary with the most important thing: What not to do. <strong>Two names are surely not going to make it into a Presidential position</strong>. Namely Dobrev Kl\u00e1ra and Toroczkai L\u00e1szl\u00f3."
+      },
+      {
+        "title": "Next Prime Minister of Hungary Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/next-prime-minister-of-hungary/will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+        "description": "L\u00e1szl\u00f3 Toroczkai &lt;1% Kl\u00e1ra Dobrev ... or May 2026. <strong>This market will resolve to the individual who is next officially appointed and confirmed as Prime Minister of Hungary following the 2026 parliamentary election</strong>...."
+      },
+      {
+        "title": "Hungarian President Schedules General Election for 12 April 2026 - Hungarian Conservative",
+        "url": "https://www.hungarianconservative.com/articles/current/election-date-hungary-april-12/",
+        "description": "The leading candidates of the main parties are already known: Prime Minister Viktor Orb\u00e1n will head Fidesz\u2019s list, P\u00e9ter Magyar leads the Tisza Party, <strong>L\u00e1szl\u00f3 Toroczkai represents Our Homeland (Mi Haz\u00e1nk),</strong> Kl\u00e1ra Dobrev heads the Democratic ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Hungary's Viktor Orb\u00e1n stakes his re-election on anti-Ukraine message",
+        "url": "https://www.nbcnews.com/world/hungary/hungary-orban-stakes-reelection-anti-ukraine-message-rcna260628",
+        "description": "Orb\u00e1n, who is widely seen as the Kremlin's strongest ally in the E.U., has deepened cooperation with Russia in defiance of the rest of the bloc.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Hungary's opposition Tisza party widens its lead ahead of Orban's Fidesz | Reuters",
+        "url": "https://reuters.com/business/media-telecom/hungarys-opposition-tisza-party-widens-its-lead-ahead-orbans-fidesz-2026-02-25",
+        "description": "Hungary's centre-right opposition Tisza party has widened its lead over Prime Minister Viktor Orban's Fidesz in February, a highly regarded poll showed on Wednesday, ahead of an April 12 election in which the veteran nationalist is seeking reelection.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "New Poll Shows Orb\u00e1n Steadily Leading Ahead of April Election - Hungarian Conservative",
+        "url": "https://www.hungarianconservative.com/articles/current/viktor-orban-fidesz-kdnp-hungary-election-poll/",
+        "description": "Hungary\u2019s election campaign is entering a decisive phase as fresh polling by N\u00e9z\u0151pont Institute gives Fidesz\u2013KDNP a five-point advantage over the opposition Tisza party. With energy security and foreign pressure dominating political discourse, the latest figures point to a closely contested ...",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Hungary is at a crossroads between Europe and 'dictators', opposition leader says | Reuters",
+        "url": "https://www.reuters.com/world/hungary-is-crossroads-between-europe-dictators-opposition-leader-says-2026-02-26/",
+        "description": "Hungary's upcoming election is about whether it can cement its place as a European nation and revive its stagnating economy with crucial EU funds or drift eastwards into the authoritarian camp, opposition leader Peter Magyar told Reuters.",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "Hungary\u2019s Orban says EU bigger threat than Russia before April elections | Politics News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/14/hungarys-orban-says-eu-bigger-threat-than-russia-ahead-of-april-election",
+        "description": "'Illiberal' PM, endorsed by ally Trump this week, to receive US Secretary of State Marco Rubio on Sunday.",
+        "age": "2 weeks ago"
+      }
+    ],
+    "query": "Will the next Prime Minister of Hungary be L\u00e1szl\u00f3 Toroczkai?",
+    "sources_count": 10
+  },
+  "error": null
+}

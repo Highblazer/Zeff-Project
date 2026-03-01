@@ -1,0 +1,28 @@
+{
+  "id": "b005ac2f",
+  "title": "Polymarket research: Will GTA 6 cost $100+?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will GTA 6 cost $100+?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T02:29:42.583429+00:00",
+  "updated_at": "2026-02-27T02:30:08.531263+00:00",
+  "claimed_at": "2026-02-27T02:30:07.467116+00:00",
+  "completed_at": "2026-02-27T02:30:08.531243+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will GTA 6 cost $100+?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will GTA 6 cost $100+?",
+    "sources_count": 0
+  },
+  "error": null
+}

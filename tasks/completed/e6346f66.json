@@ -1,0 +1,28 @@
+{
+  "id": "e6346f66",
+  "title": "Polymarket research: Will Fenerbah\u00e7e SK win on 2026-02-26?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Fenerbah\u00e7e SK win on 2026-02-26?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T01:18:56.304223+00:00",
+  "updated_at": "2026-02-27T01:19:21.234082+00:00",
+  "claimed_at": "2026-02-27T01:19:19.603931+00:00",
+  "completed_at": "2026-02-27T01:19:21.234065+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Fenerbah\u00e7e SK win on 2026-02-26?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Fenerbah\u00e7e SK win on 2026-02-26?",
+    "sources_count": 0
+  },
+  "error": null
+}

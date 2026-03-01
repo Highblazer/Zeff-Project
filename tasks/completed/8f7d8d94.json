@@ -1,0 +1,85 @@
+{
+  "id": "8f7d8d94",
+  "title": "Polymarket research: Will Jared Polis win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Jared Polis win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:47.466877+00:00",
+  "updated_at": "2026-03-01T07:28:03.773644+00:00",
+  "claimed_at": "2026-03-01T07:28:01.678156+00:00",
+  "completed_at": "2026-03-01T07:28:03.773625+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Jared Polis win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket: <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president</str\n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times: Nate Silver, the author of the newsletter Silver Bulletin, recently participated in a fantasy-style draft of potential 2028 Democratic contenders (wit\n- Presidential candidates, 2028 - Ballotpedia: As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Democratic presiden\n- Possible Dem presidential contenders jostle over election results: He singled out Maryland, Illinois, and Colorado \u2014 states led by governors who are <strong>possible rivals for the 2028 presidential nomination</strong\n- 2028 Democratic Presidential Nomination | RealClearPolling: <strong>2028 Democratic Presidential Nomination</strong> | RealClearPolling\n\nNews (5):\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (3 days ago)\n- Presidential election, 2028 - Ballotpedia (4 days ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (5 days ago)\n- The next 2 years will be a bumpy ride for Democratic presidential candidates (4 days ago)\n- Veteran Pollster Warns GOP of Potential 2028 Defeat - San Francisco Today (10 hours ago)",
+    "web_results": [
+      {
+        "title": "Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
+        "description": "<strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president</strong>. Otherwise, this market will resolve to \u201cNo\u201d. The resolution source for this market will be a consensus ..."
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "Nate Silver, the author of the newsletter Silver Bulletin, recently participated in a fantasy-style draft of potential 2028 Democratic contenders (with two of his former colleagues at FiveThirtyEight, Galen Druke and Clare Malone). In a written conversation with John Guida, an editor in Times Opinion, he assessed the front-runners, the politicians and nonpoliticians \u2014 and what surprised him about the picks."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "As of February 2026, the following politicians and public figures were discussed in the media as potential candidates for the 2028 Democratic presidential nomination."
+      },
+      {
+        "title": "Possible Dem presidential contenders jostle over election results",
+        "url": "https://www.axios.com/2025/11/05/2028-democrats-jostle-2025-election",
+        "description": "He singled out Maryland, Illinois, and Colorado \u2014 states led by governors who are <strong>possible rivals for the 2028 presidential nomination</strong>: Wes Moore, JB Pritzker and Jared Polis, respectively."
+      },
+      {
+        "title": "2028 Democratic Presidential Nomination | RealClearPolling",
+        "url": "https://www.realclearpolling.com/polls/president/democratic-primary/2028/national",
+        "description": "<strong>2028 Democratic Presidential Nomination</strong> | RealClearPolling"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc/",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "4 days ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://www.newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "5 days ago"
+      },
+      {
+        "title": "The next 2 years will be a bumpy ride for Democratic presidential candidates",
+        "url": "https://thehill.com/opinion/campaign/5753519-democratic-presidential-race-2028/",
+        "description": "Early Democratic presidential race for 2028 is wide open. Newsom and Harris lead, but the field is volatile. Change is on voters' minds.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Veteran Pollster Warns GOP of Potential 2028 Defeat - San Francisco Today",
+        "url": "https://nationaltoday.com/us/ca/san-francisco/news/2026/02/28/veteran-pollster-warns-gop-of-potential-2028-defeat",
+        "description": "Veteran polling analyst Nate Silver has warned the Republican Party that their internal divisions and struggle to find a suitable successor to former President Donald Trump could lead to an inevitable Democratic victory in the 2028 presidential election. Silver believes that with a reasonable ...",
+        "age": "10 hours ago"
+      }
+    ],
+    "query": "Will Jared Polis win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

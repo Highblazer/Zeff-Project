@@ -1,0 +1,85 @@
+{
+  "id": "90c386f5",
+  "title": "Polymarket research: Khamenei out as Supreme Leader of Iran by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Khamenei out as Supreme Leader of Iran by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:44.834598+00:00",
+  "updated_at": "2026-03-01T07:26:58.218279+00:00",
+  "claimed_at": "2026-03-01T07:26:51.141548+00:00",
+  "completed_at": "2026-03-01T07:26:58.218256+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Khamenei out as Supreme Leader of Iran by March 31?\n\nWeb Results (5):\n- Next Supreme Leader of Iran election: Before Khamenei&#x27;s death, no person had been officially declared as the heir to Khamenei nor as a nominee, though various sources such as Reuters \n- Khamenei out as Supreme Leader of Iran by March 31? Trading Odds & Predictions | Polymarket: Resolver0x65070BE91...<strong>This market will resolve to &quot;Yes&quot; if Iran&#x27;s Supreme Leader, Ali Khamenei, is removed from power for any l\n- Live: Iran confirms supreme leader Khamenei is dead after US, Israeli attacks | Reuters: The United States and Israel launched the most ambitious attack on Iran in decades on Saturday, and <strong>Iranian state media has confirmed Supreme \n- Ali Khamenei out as Supreme Leader?: Trading on Kalshi involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You shoul\n- Khamenei out as Supreme Leader of Iran in 2025? Trading Odds & Predictions | Polymarket: Resolver0x6A9D22261...<strong>This market will resolve to &quot;Yes&quot; if Iran&#x27;s Supreme leader, Ali Khamenei, is removed from power for any l\n\nNews (5):\n- Iran's Supreme Leader Ayatollah Ali Khamenei killed in US-Israel attack - follow live - BBC News (1 day ago)\n- Live updates: Iran Supreme Leader Ali Khamenei is dead after U.S., Israel attack (1 day ago)\n- Exclusive: Prior to Iran attacks, CIA assessed Khamenei could be replaced by hardline IRGC elements if killed, sources say | Reuters (15 hours ago)\n- Iranian state media confirms Supreme Leader Khamenei is dead (6 hours ago)\n- Iranian officials, including Khamenei, killed in Israeli strikes, Israeli sources say (1 day ago)",
+    "web_results": [
+      {
+        "title": "Next Supreme Leader of Iran election",
+        "url": "https://en.wikipedia.org/wiki/Next_Supreme_Leader_of_Iran_election",
+        "description": "Before Khamenei&#x27;s death, no person had been officially declared as the heir to Khamenei nor as a nominee, though various sources such as Reuters and BBC News have reported on potential candidates. In 2014, it was reported that the succession of Khamenei is deemed to have been decided but not disclosed publicly."
+      },
+      {
+        "title": "Khamenei out as Supreme Leader of Iran by March 31? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/khamenei-out-as-supreme-leader-of-iran-by-march-31",
+        "description": "Resolver0x65070BE91...<strong>This market will resolve to &quot;Yes&quot; if Iran&#x27;s Supreme Leader, Ali Khamenei, is removed from power for any length of time between this market&#x27;s creation and March 31, 2026, 11:59 PM ET</strong>. Otherwise, this market will resolve to &quot;No&quot;."
+      },
+      {
+        "title": "Live: Iran confirms supreme leader Khamenei is dead after US, Israeli attacks | Reuters",
+        "url": "https://www.reuters.com/world/iran-crisis-live-explosions-tehran-israel-announces-strike-2026-02-28/",
+        "description": "The United States and Israel launched the most ambitious attack on Iran in decades on Saturday, and <strong>Iranian state media has confirmed Supreme Leader Ali Khamenei had been killed</strong>."
+      },
+      {
+        "title": "Ali Khamenei out as Supreme Leader?",
+        "url": "https://kalshi.com/markets/kxkhameneiout/ali-khamenei-out/kxkhameneiout-akha",
+        "description": "Trading on Kalshi involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading on Kalshi is appropriate for you in light of your investment experience and financial resources."
+      },
+      {
+        "title": "Khamenei out as Supreme Leader of Iran in 2025? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/khamenei-out-as-supreme-leader-of-iran-in-2025",
+        "description": "Resolver0x6A9D22261...<strong>This market will resolve to &quot;Yes&quot; if Iran&#x27;s Supreme leader, Ali Khamenei, is removed from power for any length of time between December 28, 2024, and December 31, 2025, 11:59 PM ET</strong>. Otherwise, this market will resolve to &quot;No&quot;."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Iran's Supreme Leader Ayatollah Ali Khamenei killed in US-Israel attack - follow live - BBC News",
+        "url": "https://www.bbc.com/news/live/cn5ge95q6y7t",
+        "description": "Iran's Revolutionary Guard Corps has vowed a \"devastating\" retaliation following the supreme leader's death.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Live updates: Iran Supreme Leader Ali Khamenei is dead after U.S., Israel attack",
+        "url": "https://www.nbcnews.com/world/iran/live-blog/israel-iran-live-updates-rcna261099",
+        "description": "Follow the latest news and live updates on the U.S. and Israeli strikes in Iran and the death of Supreme Leader Ali Khamenei.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Exclusive: Prior to Iran attacks, CIA assessed Khamenei could be replaced by hardline IRGC elements if killed, sources say | Reuters",
+        "url": "https://www.reuters.com/world/middle-east/prior-iran-attacks-cia-assessed-khamenei-would-be-replaced-by-hardline-irgc-2026-02-28/",
+        "description": "In the run-up to the U.S. and Israeli attacks on Saturday, the U.S. Central Intelligence Agency assessed that even if Iran's Supreme Leader Ayatollah Ali Khamenei was killed in the operation, he would likely be replaced by hardline figures from the Islamic Revolutionary Guard Corps (IRGC), ...",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "Iranian state media confirms Supreme Leader Khamenei is dead",
+        "url": "https://www.axios.com/2026/02/28/iran-khamenei-killed-israel",
+        "description": "His death could accelerate the collapse of Iran's regime.",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "Iranian officials, including Khamenei, killed in Israeli strikes, Israeli sources say",
+        "url": "https://www.jpost.com/israel-news/article-888248",
+        "description": "Israeli officials informed of Khamenei's assasination \u2022 Netanyahu says objective to end Ayatollah's regime \u2022 Trump confirms US operation in Iran, tells IRGC to lay down arms",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Khamenei out as Supreme Leader of Iran by March 31?",
+    "sources_count": 10
+  },
+  "error": null
+}

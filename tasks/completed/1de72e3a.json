@@ -1,0 +1,85 @@
+{
+  "id": "1de72e3a",
+  "title": "Polymarket research: Devils vs. Penguins",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Devils vs. Penguins",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:54:05.056369+00:00",
+  "updated_at": "2026-02-27T00:54:08.791152+00:00",
+  "claimed_at": "2026-02-27T00:54:07.316103+00:00",
+  "completed_at": "2026-02-27T00:54:08.791132+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Devils vs. Penguins\n\nWeb Results (5):\n- NJ Devils vs. Pittsburgh Penguins Tickets & History | Prudential Center: The Devils and Penguins compete in two more matchups during the 2025-26 season. Get tickets to see the Devils take on the Penguins at home on <strong>\n- Devils vs. Penguins live stream (2/26/26): How to watch NHL game online: The New Jersey Devils and U.S. Olympic hockey hero Jack Hughes take on the Pittsburgh Penguins on <strong>Thursday, Feb. 26,</strong> at PPG Paints Ar\n- New Jersey Devils - Pittsburgh Penguins - Nov 8, 2025 | NHL.com: NHL Gamecenter - New Jersey Devils vs. Pittsburgh Penguins, <strong>Nov 8, 2025</strong> - summary, stats, boxscore, play by play, recap and more.\n- How to watch Devils vs. Penguins: TV channel and streaming options for February 26 - The Athletic: ET on ESPN+. <strong>The Penguins rank sixth in the Eastern Conference with 70 points and the Devils are 15th in the Eastern Conference with 58 points\n- Is Sidney Crosby playing today for Penguins vs Devils after injury with Canada at 2026 Winter Olympics? - Bolavip US: The talk around Sidney Crosby heading into tonight\u2019s Penguins matchup isn\u2019t just a roster question, it\u2019s become the NHL\u2019s most discussed injury situat\n\nNews (5):\n- How to watch Devils vs. Penguins: TV channel and streaming options for February 26 - The Athletic (8 hours ago)\n- Penguins Game 57, They're Back! Lines, Goalies, and How to Watch vs. Devils (10 hours ago)\n- Penguins vs Devils NHL Prediction, Odds, Picks, Best Bets for Feb. 26 | FanDuel Research (19 hours ago)\n- Penguins' Sidney Crosby put on IR, to miss at least 4 weeks - ESPN (1 day ago)\n- 2025-26 Gamethread #59: New Jersey Devils at Pittsburgh Penguins | All About The Jersey (2 hours ago)",
+    "web_results": [
+      {
+        "title": "NJ Devils vs. Pittsburgh Penguins Tickets & History | Prudential Center",
+        "url": "https://www.prucenter.com/devils/pittsburgh-penguins",
+        "description": "The Devils and Penguins compete in two more matchups during the 2025-26 season. Get tickets to see the Devils take on the Penguins at home on <strong>April 9</strong>!"
+      },
+      {
+        "title": "Devils vs. Penguins live stream (2/26/26): How to watch NHL game online",
+        "url": "https://www.nj.com/tv/2026/02/devils-vs-penguins-live-stream-22626-how-to-watch-nhl-game-online.html",
+        "description": "The New Jersey Devils and U.S. Olympic hockey hero Jack Hughes take on the Pittsburgh Penguins on <strong>Thursday, Feb. 26,</strong> at PPG Paints Arena in Pittsburgh."
+      },
+      {
+        "title": "New Jersey Devils - Pittsburgh Penguins - Nov 8, 2025 | NHL.com",
+        "url": "https://www.nhl.com/gamecenter/njd-vs-pit/2025/11/08/2025020231",
+        "description": "NHL Gamecenter - New Jersey Devils vs. Pittsburgh Penguins, <strong>Nov 8, 2025</strong> - summary, stats, boxscore, play by play, recap and more."
+      },
+      {
+        "title": "How to watch Devils vs. Penguins: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7072915/2026/02/26/how-to-watch-devils-vs-penguins-tv-channel-and-streaming-options-for-february-26/",
+        "description": "ET on ESPN+. <strong>The Penguins rank sixth in the Eastern Conference with 70 points and the Devils are 15th in the Eastern Conference with 58 points</strong>."
+      },
+      {
+        "title": "Is Sidney Crosby playing today for Penguins vs Devils after injury with Canada at 2026 Winter Olympics? - Bolavip US",
+        "url": "https://bolavip.com/en/nhl/is-sidney-crosby-playing-today-for-penguins-vs-devils-after-injury-with-canada-at-2026-winter-olympics",
+        "description": "The talk around Sidney Crosby heading into tonight\u2019s Penguins matchup isn\u2019t just a roster question, it\u2019s become the NHL\u2019s most discussed injury situation this week. He will not be taking part in the game against the Devils."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "How to watch Devils vs. Penguins: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7072915/2026/02/26/how-to-watch-devils-vs-penguins-tv-channel-and-streaming-options-for-february-26/",
+        "description": "Find out how to watch the New Jersey Devils play the Pittsburgh Penguins, with time, TV channel and streaming information.",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "Penguins Game 57, They're Back! Lines, Goalies, and How to Watch vs. Devils",
+        "url": "https://pittsburghhockeynow.com/pittsburgh-penguins-game-57-theyre-back-lines-goalies-how-to-watch-vs-devils/",
+        "description": "The Olympic break is over, and the Sidney Crosby fallout begins for the Pittsburgh Penguins (29-15-12), who return to action Thursday against Team USA hero Jack Hughes and the New Jersey Devils at PPG Paints Arena.",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "Penguins vs Devils NHL Prediction, Odds, Picks, Best Bets for Feb. 26 | FanDuel Research",
+        "url": "https://www.fanduel.com/research/penguins-vs-devils-prediction-nhl-odds-2-26-2026",
+        "description": "Find Penguins vs. Devils predictions, betting odds, moneyline, puck line, over/under and more for the Feb. 26 NHL matchup.",
+        "age": "19 hours ago"
+      },
+      {
+        "title": "Penguins' Sidney Crosby put on IR, to miss at least 4 weeks - ESPN",
+        "url": "https://www.espn.com/nhl/story/_/id/48032582/penguins-sidney-crosby-put-ir-miss-least-4-weeks",
+        "description": "Moving Crosby, who leads the team in multiple offensive categories, to IR comes on the same day that the NHL returns from Olympic break. The Penguins will resume play Thursday when they face the New Jersey Devils.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "2025-26 Gamethread #59: New Jersey Devils at Pittsburgh Penguins | All About The Jersey",
+        "url": "https://www.allaboutthejersey.com/devils-games/67024/2025-26-gamethread-59-new-jersey-devils-at-pittsburgh-penguins",
+        "description": "PITTSBURGH, PA - JANUARY 08: Cody Glass #12 of the New Jersey Devils moves the puck against the Pittsburgh Penguins at PPG PAINTS Arena on January 8, 2026 in Pittsburgh, Pennsylvania.",
+        "age": "2 hours ago"
+      }
+    ],
+    "query": "Devils vs. Penguins",
+    "sources_count": 10
+  },
+  "error": null
+}

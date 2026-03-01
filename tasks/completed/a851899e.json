@@ -1,0 +1,85 @@
+{
+  "id": "a851899e",
+  "title": "Polymarket research: US strikes Iran by December 31, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "US strikes Iran by December 31, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:11.376700+00:00",
+  "updated_at": "2026-02-26T23:35:20.385316+00:00",
+  "claimed_at": "2026-02-26T23:35:18.941903+00:00",
+  "completed_at": "2026-02-26T23:35:20.385300+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: US strikes Iran by December 31, 2026?\n\nWeb Results (5):\n- 2026 Iran\u2013United States crisis - Wikipedia: Trump has sent warships, tankers and submarines to the Middle East to be ready for potential strikes as soon as 21 February, sources told CBS. In the \n- 2025\u20132026 Iran\u2013United States negotiations - Wikipedia: <strong>The United States also carried out a series of strikes on Iranian nuclear sites</strong>, negotiations between the United States and Iran were\n- US strikes Iran by...? Trading Odds & Predictions | Polymarket: If you buy &quot;Yes&quot; shares at 72\u00a2 and the outcome is correct, you receive $1.00 per share \u2014 a profit of 28\u00a2 per share. If incorrect, those shar\n- Exclusive: US military preparing for potentially weeks-long Iran operations | Reuters: Experts say the risks to U.S. forces would be far greater in such an operation against Iran, which boasts a formidable arsenal of missiles. Retaliator\n- 2026 United States\u2013Iran crisis - Wikipedia: The crisis unfolded against the backdrop of Iran&#x27;s deepening economic collapse and internal unrest, which had begun in late 2025 and continued in\n\nNews (5):\n- US re-asserts 2025 strikes \u2018obliterated\u2019 Iran\u2019s nuclear programme | Politics News | Al Jazeera (2 days ago)\n- Iran Update, February 24, 2026 | ISW (2 days ago)\n- Over 150 U.S. aircraft sweep into Europe, Middle East as Trump mulls strikes (3 days ago)\n- A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News (2 days ago)\n- 7 Experts on the Risk of a Wider War with Iran - POLITICO (2 days ago)",
+    "web_results": [
+      {
+        "title": "2026 Iran\u2013United States crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_crisis",
+        "description": "Trump has sent warships, tankers and submarines to the Middle East to be ready for potential strikes as soon as 21 February, sources told CBS. In the final week of January, President Donald Trump used Truth Social to issue a series of public warnings directed at Iran, marking one of the most visible escalations in U.S. messaging during the crisis. On 28 January 2026, Trump declared that &quot;a massive Armada is heading to Iran&quot;, describing it as moving &quot;with great power, enthusiasm, and purpose.&quot;"
+      },
+      {
+        "title": "2025\u20132026 Iran\u2013United States negotiations - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations",
+        "description": "<strong>The United States also carried out a series of strikes on Iranian nuclear sites</strong>, negotiations between the United States and Iran were subsequently suspended. They resumed in early 2026 after large-scale protests in Iran. Meanwhile, the U.S. military buildup in the Middle East as a threat of ..."
+      },
+      {
+        "title": "US strikes Iran by...? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/us-strikes-iran-by",
+        "description": "If you buy &quot;Yes&quot; shares at 72\u00a2 and the outcome is correct, you receive $1.00 per share \u2014 a profit of 28\u00a2 per share. If incorrect, those shares are worth $0. The &quot;US strikes Iran by...?&quot; market is <strong>scheduled to resolve on or around Jun 30, 2026</strong>."
+      },
+      {
+        "title": "Exclusive: US military preparing for potentially weeks-long Iran operations | Reuters",
+        "url": "https://www.reuters.com/world/middle-east/us-military-preparing-potentially-weeks-long-iran-operations-2026-02-13/",
+        "description": "Experts say the risks to U.S. forces would be far greater in such an operation against Iran, which boasts a formidable arsenal of missiles. Retaliatory Iranian strikes also increase the risk of a regional conflict."
+      },
+      {
+        "title": "2026 United States\u2013Iran crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States%E2%80%93Iran_crisis",
+        "description": "The crisis unfolded against the backdrop of Iran&#x27;s deepening economic collapse and internal unrest, which had begun in late 2025 and continued into early 2026. The escalation of the 2025 Iran\u2013Israel war, combined with <strong>United States strikes on Iranian nuclear sites</strong>, had a major influence on ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "US re-asserts 2025 strikes \u2018obliterated\u2019 Iran\u2019s nuclear programme | Politics News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/2/24/us-re-asserts-2025-strikes-obliterated-irans-nuclear-programme",
+        "description": "The White House comment comes after a senior Trump aide said Iran is a week away from having material for nuclear bomb.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Iran Update, February 24, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-24-2026/",
+        "description": "Iran is seeking support from US adversaries Russia and the People\u2019s Republic of China (PRC) to prepare for war against the United States.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Over 150 U.S. aircraft sweep into Europe, Middle East as Trump mulls strikes",
+        "url": "https://www.washingtonpost.com/investigations/2026/02/24/united-states-iran-buildup/",
+        "description": "The buildup comes after a round of nuclear talks between the two nations concluded last week without a deal.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "A timeline of tensions over Iran's nuclear program as talks with U.S. approach | PBS News",
+        "url": "https://www.pbs.org/newshour/world/a-timeline-of-tensions-over-irans-nuclear-program-as-talks-with-u-s-approach",
+        "description": "Iran and the United States are due to hold new talks in Geneva on Thursday over Tehran's nuclear program.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "7 Experts on the Risk of a Wider War with Iran - POLITICO",
+        "url": "https://www.politico.com/news/magazine/2026/02/24/iran-us-strikes-expert-forum-roundup-00794832",
+        "description": "As the threat of U.S. strikes intensifies, our experts weigh the risks of escalation.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "US strikes Iran by December 31, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

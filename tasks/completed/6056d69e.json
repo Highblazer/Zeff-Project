@@ -1,0 +1,28 @@
+{
+  "id": "6056d69e",
+  "title": "Polymarket research: Spurs vs. Nets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spurs vs. Nets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T04:20:07.624371+00:00",
+  "updated_at": "2026-02-27T04:20:16.352713+00:00",
+  "claimed_at": "2026-02-27T04:20:14.699042+00:00",
+  "completed_at": "2026-02-27T04:20:16.352696+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spurs vs. Nets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spurs vs. Nets",
+    "sources_count": 0
+  },
+  "error": null
+}

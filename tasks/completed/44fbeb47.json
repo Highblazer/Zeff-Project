@@ -1,0 +1,85 @@
+{
+  "id": "44fbeb47",
+  "title": "Polymarket research: Will Chelsea win the 2025\u201326 English Premier League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Chelsea win the 2025\u201326 English Premier League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:14.623970+00:00",
+  "updated_at": "2026-02-26T23:31:31.343959+00:00",
+  "claimed_at": "2026-02-26T23:31:29.404391+00:00",
+  "completed_at": "2026-02-26T23:31:31.343944+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Chelsea win the 2025\u201326 English Premier League?\n\nWeb Results (5):\n- 2025\u201326 Chelsea F.C. season - Wikipedia: On 17 June 2025, Chelsea announced that they would host a pre-season tournament playing against Bayer Leverkusen and Milan at Stamford Bridge. ... Upd\n- Chelsea Team News, Fixtures & Results 2025/26 | Premier League: For the latest news on Chelsea, including scores, fixtures, team news, results, form guide &amp; league position, visit the official website of the Pr\n- 2025-26 English Premier League Standings - ESPN: Get the 2025-26 season English Premier League standings on ESPN. Find the full standings with win, loss and draw record for each team.\n- Premier League 2025-26 table \u2014 Latest standings - NBC Sports: Who will be the surprise teams of 2025-26? Who will win it all? Which teams will come out on top in the incredible scrap for European qualification? R\n- Supercomputer Predicts Final 2025\u201326 Premier League Table on Christmas Day: <strong>The Reds are backed to fight their way up to fourth, surviving a battle with Chelsea which could ultimately be decided when these sides meet i\n\nNews (5):\n- Who will win Premier League 2025/26? Latest odds and betting for outright PL winner this season | Sporting News United Kingdom (3 days ago)\n- VOTE: Who will win the Premier League title? (5 days ago)\n- Premier League 2025-26 table \u2014 Latest standings - NBC Sports (2 days ago)\n- Chelsea have the Premier League\u2019s toughest run-in \u2013 but could it suit them? - The Athletic (2 days ago)\n- How Man Utd\u2019s Next Five Premier League Fixtures Compare to Liverpool, Chelsea (3 days ago)",
+    "web_results": [
+      {
+        "title": "2025\u201326 Chelsea F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Chelsea_F.C._season",
+        "description": "On 17 June 2025, Chelsea announced that they would host a pre-season tournament playing against Bayer Leverkusen and Milan at Stamford Bridge. ... Updated to match(es) played on 23 February 2026. Source: Premier League Rules for classification: 1) Points; 2) Goal difference; 3) Goals scored; 4) If the champions, relegated teams or qualified teams for UEFA competitions cannot be determined by rules 1 to 3, rules 4.1 to 4.3 are applied \u2013 4.1) Points gained in head-to-head record between such teams; 4.2) Away goals scored in head-to-head record between such teams; 4.3) Play-offs Notes:"
+      },
+      {
+        "title": "Chelsea Team News, Fixtures & Results 2025/26 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/8/chelsea/overview",
+        "description": "For the latest news on Chelsea, including scores, fixtures, team news, results, form guide &amp; league position, visit the official website of the Premier League."
+      },
+      {
+        "title": "2025-26 English Premier League Standings - ESPN",
+        "url": "https://www.espn.com/soccer/standings/_/league/eng.1",
+        "description": "Get the 2025-26 season English Premier League standings on ESPN. Find the full standings with win, loss and draw record for each team."
+      },
+      {
+        "title": "Premier League 2025-26 table \u2014 Latest standings - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-table-teams-standings-for-the-new-season",
+        "description": "Who will be the surprise teams of 2025-26? Who will win it all? Which teams will come out on top in the incredible scrap for European qualification? Read on for the current Premier League table."
+      },
+      {
+        "title": "Supercomputer Predicts Final 2025\u201326 Premier League Table on Christmas Day",
+        "url": "https://www.si.com/soccer/supercomputer-predicts-final-2025-26-premier-league-table-christmas-day",
+        "description": "<strong>The Reds are backed to fight their way up to fourth, surviving a battle with Chelsea which could ultimately be decided when these sides meet in the second week of May</strong>. Thankfully for Enzo Maresca, fifth is almost certain to be enough to guarantee ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Who will win Premier League 2025/26? Latest odds and betting for outright PL winner this season | Sporting News United Kingdom",
+        "url": "https://www.sportingnews.com/uk/betting/news/who-will-win-premier-league-2025-26-odds-betting-outright-pl-winner/da95ede27280d0ba01c80bd7",
+        "description": "The new Premier League season is almost upon us, but who will win the title this season? The Sporting News brings you all the latest odds and betting.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "VOTE: Who will win the Premier League title?",
+        "url": "https://www.premierleague.com/en/news/4488319/vote-who-will-win-the-premier-league-title-in-2025-26-season",
+        "description": "After Arsenal's 4-1 win over Spurs, who do YOU think will be crowned 2025/26 champions?",
+        "age": "5 days ago"
+      },
+      {
+        "title": "Premier League 2025-26 table \u2014 Latest standings - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-table-teams-standings-for-the-new-season",
+        "description": "The 2025-26 Premier League table is absolutely bonkers and so tight.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Chelsea have the Premier League\u2019s toughest run-in \u2013 but could it suit them? - The Athletic",
+        "url": "https://nytimes.com/athletic/7067849/2026/02/25/chelsea-tough-run-in-premier-league",
+        "description": "Chelsea might find more attacking space in the final 11 games of the season",
+        "age": "2 days ago"
+      },
+      {
+        "title": "How Man Utd\u2019s Next Five Premier League Fixtures Compare to Liverpool, Chelsea",
+        "url": "https://si.com/soccer/how-man-utd-next-five-premier-league-fixtures-compare-liverpool-chelsea-2-24-26",
+        "description": "The race for Champions League qualification is hotting up but the fixture difficulty for those in the hunt is dramatically different over the coming weeks.",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will Chelsea win the 2025\u201326 English Premier League?",
+    "sources_count": 10
+  },
+  "error": null
+}

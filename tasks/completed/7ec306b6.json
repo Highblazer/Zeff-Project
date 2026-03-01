@@ -1,0 +1,85 @@
+{
+  "id": "7ec306b6",
+  "title": "Polymarket research: Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:11.510216+00:00",
+  "updated_at": "2026-02-26T23:35:22.766177+00:00",
+  "claimed_at": "2026-02-26T23:35:21.377716+00:00",
+  "completed_at": "2026-02-26T23:35:22.766161+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?\n\nWeb Results (5):\n- Alexandria Ocasio-Cortez highlights poll showing her beating Vance in 2028: Rep. Alexandria Ocasio-Cortez (D-N.Y.) highlights a poll showing <strong>her beating VP Vance in a potential 2028 presidential matchup</strong>.\n- AOC's 2028 decision: Run for president or Senate: <strong>Some close allies believe that even if Ocasio-Cortez doesn&#x27;t think she could win</strong>, she may want to run for the White House to ens\n- Even a Fox News analyst admits that AOC could win the presidency in 2028 | The Independent: Even Fox News personalities are now admitting that <strong>Congresswoman Alexandria Ocasio-Cortez could win the 2028 U.S.</strong>\n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times: Guida: <strong>The second pick also comes from a blue coastal state, New York: \u200b\u200bRepresentative Alexandria Ocasio-Cortez</strong>. She was followed by\n- AOC Chances of Winning in 2028 as Report Says She\u2019s Weighing Run - Newsweek: Representative Alexandria Ocasio-Cortez, a New York Democrat, <strong>could be among the top contenders if she runs for Senate or even the White House\n\nNews (5):\n- Newsom, Vance top picks in 2028 US presidential election betting odds (1 day ago)\n- You Know What? Maybe the Time Is Right for an AOC Presidential Bid | The New Republic (2 weeks ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times (1 week ago)\n- Presidential election, 2028 - Ballotpedia (1 day ago)",
+    "web_results": [
+      {
+        "title": "Alexandria Ocasio-Cortez highlights poll showing her beating Vance in 2028",
+        "url": "https://thehill.com/homenews/house/5653788-poll-shows-ocasio-cortez-vance/",
+        "description": "Rep. Alexandria Ocasio-Cortez (D-N.Y.) highlights a poll showing <strong>her beating VP Vance in a potential 2028 presidential matchup</strong>."
+      },
+      {
+        "title": "AOC's 2028 decision: Run for president or Senate",
+        "url": "https://www.axios.com/2025/09/19/aoc-2028-democrats-president-senate",
+        "description": "<strong>Some close allies believe that even if Ocasio-Cortez doesn&#x27;t think she could win</strong>, she may want to run for the White House to ensure that the Democratic Party&#x27;s progressive wing is represented in the primary \u2014 just as Sanders did in 2016 against ..."
+      },
+      {
+        "title": "Even a Fox News analyst admits that AOC could win the presidency in 2028 | The Independent",
+        "url": "https://www.the-independent.com/news/world/americas/us-politics/fox-news-aoc-presidency-2028-b2887403.html",
+        "description": "Even Fox News personalities are now admitting that <strong>Congresswoman Alexandria Ocasio-Cortez could win the 2028 U.S.</strong>"
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "Guida: <strong>The second pick also comes from a blue coastal state, New York: \u200b\u200bRepresentative Alexandria Ocasio-Cortez</strong>. She was followed by Pete Buttigieg, the former Biden transportation secretary."
+      },
+      {
+        "title": "AOC Chances of Winning in 2028 as Report Says She\u2019s Weighing Run - Newsweek",
+        "url": "https://www.newsweek.com/aoc-chances-winning-2028-2132622",
+        "description": "Representative Alexandria Ocasio-Cortez, a New York Democrat, <strong>could be among the top contenders if she runs for Senate or even the White House in 2028</strong>, according to recent polls. Newsweek reached out to Ocasio-Cortez&#x27;s office for comment via email."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Newsom, Vance top picks in 2028 US presidential election betting odds",
+        "url": "https://app.com/story/news/politics/2026/02/25/presidential-election-2028-odds-ron-desantis-ivanka-trump-feb-25-update/88858090007",
+        "description": "Way-to-early betting odds for the 2028 Presidential Election has Gavin Newsom and JD Vance in a tight race.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "You Know What? Maybe the Time Is Right for an AOC Presidential Bid | The New Republic",
+        "url": "https://newrepublic.com/article/206593/alexandria-ocasio-cortez-presidential-bid",
+        "description": "She\u2019s only 36, and there\u2019s a good argument that she should run for Senate and bide her time. But she also could be a formidable White House candidate.",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://www.newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "Guida: The second pick also comes from a blue coastal state, New York: \u200b\u200bRepresentative Alexandria Ocasio-Cortez. She was followed by Pete Buttigieg, the former Biden transportation secretary. Maybe we can bring in some broader context here in terms of how you size up the Democratic Party ...",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+    "sources_count": 10
+  },
+  "error": null
+}

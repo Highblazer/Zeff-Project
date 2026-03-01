@@ -1,0 +1,28 @@
+{
+  "id": "abcc3130",
+  "title": "Polymarket research: Dota 2: PARIVISION vs Team Falcons (BO3) - DreamLeague Stage 2",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Dota 2: PARIVISION vs Team Falcons (BO3) - DreamLeague Stage 2",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T01:22:00.303363+00:00",
+  "updated_at": "2026-02-27T01:22:13.970665+00:00",
+  "claimed_at": "2026-02-27T01:22:12.936106+00:00",
+  "completed_at": "2026-02-27T01:22:13.970647+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Dota 2: PARIVISION vs Team Falcons (BO3) - DreamLeague Stage 2\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Dota 2: PARIVISION vs Team Falcons (BO3) - DreamLeague Stage 2",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "6be7c365",
+  "title": "Polymarket research: Will Iran close the Strait of Hormuz by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Iran close the Strait of Hormuz by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:45.717665+00:00",
+  "updated_at": "2026-03-01T07:27:09.779928+00:00",
+  "claimed_at": "2026-03-01T07:27:07.713177+00:00",
+  "completed_at": "2026-03-01T07:27:09.779902+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Iran close the Strait of Hormuz by March 31?\n\nWeb Results (5):\n- Can Iran Close The Strait Of Hormuz After U.S.-Israel Attacks?: <strong>The possibility of Iran officially shutting the Strait of Hormuz - a key lane for Middle Eastern oil and gas shipments - appears remote despit\n- Can Iran Close the Strait of Hormuz? Oil Market Impact Explained - Bloomberg: <strong>A semiofficial Iranian media outlet described the strait as effectively shut</strong>, and ships reported hearing a radio broadcast purporting\n- Strait of Hormuz - Wikipedia: <strong>The strait had never been closed for extended time during Middle East conflicts</strong> (unlike the Straits of Tiran/Bab-el-Mandeb) though Ir\n- Iran closes Strait of Hormuz -ANHA: The Iranian Revolutionary Guard announced on Saturday that <strong>the Strait of Hormuz has been closed to international navigation until further noti\n- Iran Reportedly Closes Strait of Hormuz, the World's Most Vital Oil Export Route - Middle East News: The U.K. Maritime Trade Operations agency said it received multiple reports from vessels in the Gulf that they had been notified of the Strait of Horm\n\nNews (5):\n- Can Iran Close The Strait Of Hormuz After U.S.-Israel Attacks? (10 hours ago)\n- Iran's revolutionary guards tell ships passage through Strait of Hormuz 'not allowed', EU naval mission official says | Reuters (16 hours ago)\n- Can Iran Close the Strait of Hormuz? Oil Market Impact Explained - Bloomberg (1 day ago)\n- After Iran Attacks, Ship Traffic Plummets in Strait of Hormuz - The New York Times (7 hours ago)\n- Oil Tankers Avoiding Vital Hormuz Strait After US Bombs Iran (19 hours ago)",
+    "web_results": [
+      {
+        "title": "Can Iran Close The Strait Of Hormuz After U.S.-Israel Attacks?",
+        "url": "https://www.forbes.com/sites/gauravsharma/2026/02/28/why-irans-threat-to-close-strait-of-hormuz-is-more-hype-than-reality/",
+        "description": "<strong>The possibility of Iran officially shutting the Strait of Hormuz - a key lane for Middle Eastern oil and gas shipments - appears remote despite ongoing hostilities</strong>."
+      },
+      {
+        "title": "Can Iran Close the Strait of Hormuz? Oil Market Impact Explained - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-28/can-iran-close-the-strait-of-hormuz-oil-market-impact-explained",
+        "description": "<strong>A semiofficial Iranian media outlet described the strait as effectively shut</strong>, and ships reported hearing a radio broadcast purporting to come from the Iranian navy announcing that transit through it was banned."
+      },
+      {
+        "title": "Strait of Hormuz - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Strait_of_Hormuz",
+        "description": "<strong>The strait had never been closed for extended time during Middle East conflicts</strong> (unlike the Straits of Tiran/Bab-el-Mandeb) though Iran occasionally had threatened to close the strait, and preparations to mine it have been undertaken. The first main closure started during the 2026 Israeli-United ..."
+      },
+      {
+        "title": "Iran closes Strait of Hormuz -ANHA",
+        "url": "https://hawarnews.com/en/iran-closes-strait-of-hormuz",
+        "description": "The Iranian Revolutionary Guard announced on Saturday that <strong>the Strait of Hormuz has been closed to international navigation until further notice</strong>, stating that the decision comes in response to what it described as \u201cU.S. and Israeli attacks\u201d ..."
+      },
+      {
+        "title": "Iran Reportedly Closes Strait of Hormuz, the World's Most Vital Oil Export Route - Middle East News",
+        "url": "https://www.haaretz.com/middle-east-news/2026-02-28/ty-article/.premium/iran-reportedly-closes-strait-of-hormuz-the-worlds-most-vital-oil-export-route/0000019c-a528-defa-abdf-bffd65440000",
+        "description": "The U.K. Maritime Trade Operations agency said it received multiple reports from vessels in the Gulf that they had been notified of the Strait of Hormuz&#x27;s closure. <strong>There was no immediate confirmation from Iran</strong>"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Can Iran Close The Strait Of Hormuz After U.S.-Israel Attacks?",
+        "url": "https://www.forbes.com/sites/gauravsharma/2026/02/28/why-irans-threat-to-close-strait-of-hormuz-is-more-hype-than-reality/",
+        "description": "The possibility of Iran officially shutting the Strait of Hormuz - a key lane for Middle Eastern oil and gas shipments - appears remote despite ongoing hostilities.",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "Iran's revolutionary guards tell ships passage through Strait of Hormuz 'not allowed', EU naval mission official says | Reuters",
+        "url": "https://www.reuters.com/world/middle-east/irans-revolutionary-guards-tell-ships-passage-through-strait-hormuz-not-allowed-2026-02-28/",
+        "description": "An official from the European Union's naval mission Aspides said on Saturday that vessels have been receiving VHF transmission from Iran's Revolutionary Guards saying \"no ship is allowed to pass the Strait of Hormuz\".",
+        "age": "16 hours ago"
+      },
+      {
+        "title": "Can Iran Close the Strait of Hormuz? Oil Market Impact Explained - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-28/can-iran-close-the-strait-of-hormuz-oil-market-impact-explained",
+        "description": "After coming under attack from the US and Israel, Iran appeared to exercise one of its options for retaliation: putting a squeeze on the strategic Strait of Hormuz. This narrow waterway at the mouth of the Persian Gulf handles about a quarter of the world\u2019s seaborne oil trade.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "After Iran Attacks, Ship Traffic Plummets in Strait of Hormuz - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/28/world/middleeast/strait-of-hormuz-ship-traffic.html",
+        "description": "One of the world\u2019s most vital maritime arteries saw a 70 percent drop in vessel traffic.",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "Oil Tankers Avoiding Vital Hormuz Strait After US Bombs Iran",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-28/oil-tankers-avoiding-vital-hormuz-strait-after-us-bombs-iran",
+        "description": "Oil shipping has largely paused in the Strait of Hormuz that links the oil-rich Persian Gulf to the open seas after the US and Israel bombed Iran, with Iranian media saying the waterway is \u201cpractically closed.\u201d",
+        "age": "19 hours ago"
+      }
+    ],
+    "query": "Will Iran close the Strait of Hormuz by March 31?",
+    "sources_count": 10
+  },
+  "error": null
+}

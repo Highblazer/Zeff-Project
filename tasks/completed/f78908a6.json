@@ -1,0 +1,28 @@
+{
+  "id": "f78908a6",
+  "title": "Polymarket research: USD.AI FDV above $300M one day after launch?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "USD.AI FDV above $300M one day after launch?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T06:13:50.564520+00:00",
+  "updated_at": "2026-02-27T06:14:11.092215+00:00",
+  "claimed_at": "2026-02-27T06:14:09.634630+00:00",
+  "completed_at": "2026-02-27T06:14:11.092197+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: USD.AI FDV above $300M one day after launch?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "USD.AI FDV above $300M one day after launch?",
+    "sources_count": 0
+  },
+  "error": null
+}

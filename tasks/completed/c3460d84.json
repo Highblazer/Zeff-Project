@@ -1,0 +1,85 @@
+{
+  "id": "c3460d84",
+  "title": "Polymarket research: LoL: Team Secret Whales vs Deep Cross Gaming - Game 1 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Team Secret Whales vs Deep Cross Gaming - Game 1 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:28:40.895296+00:00",
+  "updated_at": "2026-03-01T08:28:58.712015+00:00",
+  "claimed_at": "2026-03-01T08:28:57.092340+00:00",
+  "completed_at": "2026-03-01T08:28:58.711996+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Team Secret Whales vs Deep Cross Gaming - Game 1 Winner\n\nWeb Results (5):\n- r/leagueoflegends on Reddit: Team Secret Whales vs. Deep Cross Gaming / LCP 2026 Split 1 Playoffs - Winner's Bracket Round 3 / Post-Match Discussion: <strong>Team Secret Whales</strong> have triumphed over Deep Cross Gaming and are the first to qualify for Split 1\u2019s LCP Final! ... TSW | Leaguepedia \n- Secret Whales VS Deep Cross Gaming \u27a5 LoL \u27a5 Betting Tips, Stream, LiveScore, Results on EGW: Ground Zero GamingBo53 - 1WGAM ... - 2W<strong>Secret WhalesBo31 - 2WGround Zero GamingBo32 - 1LFukuoka SoftBank Hawks GamingBo32 - 0WKT Rolster Chall\n- Team Secret Whales \u2013 Deep Cross Gaming - Live score | Sofascore: Detailed statistics and overview of the match which includes winning and betting odds, H2H matches and standings!\n- Team Secret Whales vs Deep Cross Gaming: Real-time League of Legends trading odds for Gaming vs. Whales on Mar. 1, 2026. Predict the winner and track live stats on Polymarket.\n- Team Secret Whales - Leaguepedia | League of Legends Esports Wiki: October 19, TSW Naul: T\u1ee5i m\u00ecnh ... (Facebook) ... \u2191 2.00 2.01 2.02 2.03 2.04 2.05 2.06 2.07 2.08 2.09 Team Secret x <strong>Team Whales</strong> Union\n\nNews (5):\n- LoL: Team Secret Whales vs Deep Cross Gaming (BO5) - LCP Playoffs (3 days ago)\n- LCP 2026 Split 1 - Liquipedia League of Legends Wiki (1 day ago)\n- Movistar KOI defeats Team Secret Whales to keep Worlds 2025 run alive (October 23, 2025)\n- Kalshi (4 days ago)\n- 2026 LCK Cup Finals Preview - Inven Global (2 days ago)",
+    "web_results": [
+      {
+        "title": "r/leagueoflegends on Reddit: Team Secret Whales vs. Deep Cross Gaming / LCP 2026 Split 1 Playoffs - Winner's Bracket Round 3 / Post-Match Discussion",
+        "url": "https://www.reddit.com/r/leagueoflegends/comments/1rf68ea/team_secret_whales_vs_deep_cross_gaming_lcp_2026/",
+        "description": "<strong>Team Secret Whales</strong> have triumphed over Deep Cross Gaming and are the first to qualify for Split 1\u2019s LCP Final! ... TSW | Leaguepedia | Liquipedia | Website | Facebook DCG | Leaguepedia | Liquipedia | Youtube | Facebook | Instagram | TikTok ..."
+      },
+      {
+        "title": "Secret Whales VS Deep Cross Gaming \u27a5 LoL \u27a5 Betting Tips, Stream, LiveScore, Results on EGW",
+        "url": "https://egamersworld.com/lol/match/Vj0EYv0Yd/secret-whales-vs-deep-cross-gaming-b2wez7ruEw",
+        "description": "Ground Zero GamingBo53 - 1WGAM ... - 2W<strong>Secret WhalesBo31 - 2WGround Zero GamingBo32 - 1LFukuoka SoftBank Hawks GamingBo32 - 0WKT Rolster ChallengersBo32 - 0LEDward Gaming Youth TeamBo30 - 2W ... The match Secret Whales vs Deep Cross Gaming</strong> in the discipline ..."
+      },
+      {
+        "title": "Team Secret Whales \u2013 Deep Cross Gaming - Live score | Sofascore",
+        "url": "https://www.sofascore.com/esports/match/team-secret-whales-deep-cross-gaming/UmndsyUri",
+        "description": "Detailed statistics and overview of the match which includes winning and betting odds, H2H matches and standings!"
+      },
+      {
+        "title": "Team Secret Whales vs Deep Cross Gaming",
+        "url": "https://polymarket.com/sports/league-of-legends/lol-tsw-dcg-2026-03-01",
+        "description": "Real-time League of Legends trading odds for Gaming vs. Whales on Mar. 1, 2026. Predict the winner and track live stats on Polymarket."
+      },
+      {
+        "title": "Team Secret Whales - Leaguepedia | League of Legends Esports Wiki",
+        "url": "https://lol.fandom.com/wiki/Team_Secret_Whales",
+        "description": "October 19, TSW Naul: T\u1ee5i m\u00ecnh ... (Facebook) ... \u2191 2.00 2.01 2.02 2.03 2.04 2.05 2.06 2.07 2.08 2.09 Team Secret x <strong>Team Whales</strong> Union Announcement teamsecret.gg \u00b7 \u2191 3.0 3.1 Secret Whales&#x27; Facebook Post facebo..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "LoL: Team Secret Whales vs Deep Cross Gaming (BO5) - LCP Playoffs",
+        "url": "https://mlq.ai/prediction/market/lol-tsw-dcg-2026-02-26/",
+        "description": "This market refers to the LoL match between Team Secret Whales and Deep Cross Gaming in the LCP Playoffs, scheduled for February 26 at 1:00AM ET. This market will resolve to \"Team Secret Whales\" if \u2026",
+        "age": "3 days ago"
+      },
+      {
+        "title": "LCP 2026 Split 1 - Liquipedia League of Legends Wiki",
+        "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1",
+        "description": "LCP 2026 Split 1 is an offline Taiwanese LoL tournament organized by Riot Games. This S-Tier tournament takes place from Jan 16 to Mar 01 2026 featuring 8 teams.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Movistar KOI defeats Team Secret Whales to keep Worlds 2025 run alive",
+        "url": "https://esportsinsider.com/2025/10/movistar-koi-defeat-team-secret-whales-league-of-legends-worlds-2025",
+        "description": "Movistar KOI defeated Team Secret Whales at League of Legends Worlds 2025, surviving elimination and setting up a final BO3.",
+        "age": "October 23, 2025"
+      },
+      {
+        "title": "Kalshi",
+        "url": "https://kalshi.com/markets/kxlolgame/league-of-legends-game/kxlolgame-26feb26dcgtsw",
+        "description": "Trading on Kalshi involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading on Kalshi is appropriate for you in light of your investment experience and financial resources.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "2026 LCK Cup Finals Preview - Inven Global",
+        "url": "https://invenglobal.com/articles/20254/2026-lck-cup-finals-preview",
+        "description": "League of Legends: The 2026 LCK Cup Finals will take place in Hong Kong this weekend, marking the first time the League of Legends Champions Korea (LCK) has staged an official match overseas. Riot Games, the developer a",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "LoL: Team Secret Whales vs Deep Cross Gaming - Game 1 Winner",
+    "sources_count": 10
+  },
+  "error": null
+}

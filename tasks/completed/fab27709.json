@@ -1,0 +1,85 @@
+{
+  "id": "fab27709",
+  "title": "Polymarket research: Timberwolves vs. Clippers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Timberwolves vs. Clippers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:23:28.277344+00:00",
+  "updated_at": "2026-02-27T00:23:47.792180+00:00",
+  "claimed_at": "2026-02-27T00:23:46.328722+00:00",
+  "completed_at": "2026-02-27T00:23:47.792162+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Timberwolves vs. Clippers\n\nWeb Results (5):\n- Timberwolves vs. Clippers Prediction, Odds, Picks - Feb. 26 | FOX Sports: Kawhi Leonard and the Los Angeles ... 26, 2026 at Intuit Dome on Amazon Prime Video and FDSNX. <strong>The Timberwolves are currently 5-point favorite\n- Timberwolves vs. Clippers Predictions, Odds & Stats \u2013 Feb. 26 | KFAN FM 100.3: The Los Angeles Clippers (27-30) ... (third in the NBA with 29.6 PPG) and the Minnesota Timberwolves (36-23) on <strong>Thursday, February 26, 2026</s\n- LA Clippers vs Minnesota Timberwolves Feb 8, 2026 Game Summary | NBA.com: LA Clippers vs Minnesota Timberwolves <strong>Feb 8, 2026</strong> game result including recap, highlights and game information\n- Watch NBA on Prime Video: Magic vs. Clippers: Game highlights ... Trail Blazers vs. Suns: Game highlights ... Knicks vs. Bulls: Game highlights ... Timberwolves vs.\n- Leonard, Clippers take on the Timberwolves - ABC News: Their opponents have averaged 110.6 points per game. <strong>Timberwolves: 6-4, averaging 122.3 points, 43.7 rebounds, 25.5 assists, 9.1 steals and 6.\n\nNews (5):\n- Timberwolves vs. Clippers Injury Report \u2013 Feb. 26 | San Diego Sports 760 (1 day ago)\n- Minnesota Timberwolves vs Los Angeles Clippers Prediction, 2/26/2026 Preview and Pick (1 day ago)\n- Game Preview #60 - Timberwolves at Clippers | Canis Hoopus (1 day ago)\n- Timberwolves vs Clippers Prediction, Picks & Odds for Tonight\u2019s NBA Game - Yahoo Sports (5 hours ago)\n- GAME PREVIEW: 5 Things You Should Know About Clippers vs. Timberwolves | LA Clippers (5 hours ago)",
+    "web_results": [
+      {
+        "title": "Timberwolves vs. Clippers Prediction, Odds, Picks - Feb. 26 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/timberwolves-vs-clippers-prediction-odds-picks-feb-26",
+        "description": "Kawhi Leonard and the Los Angeles ... 26, 2026 at Intuit Dome on Amazon Prime Video and FDSNX. <strong>The Timberwolves are currently 5-point favorites against the Clippers</strong>...."
+      },
+      {
+        "title": "Timberwolves vs. Clippers Predictions, Odds & Stats \u2013 Feb. 26 | KFAN FM 100.3",
+        "url": "https://kfan.iheart.com/content/2026-02-25-timberwolves-vs-clippers-predictions-odds-stats-feb-26/",
+        "description": "The Los Angeles Clippers (27-30) ... (third in the NBA with 29.6 PPG) and the Minnesota Timberwolves (36-23) on <strong>Thursday, February 26, 2026</strong> at Intuit Dome...."
+      },
+      {
+        "title": "LA Clippers vs Minnesota Timberwolves Feb 8, 2026 Game Summary | NBA.com",
+        "url": "https://www.nba.com/game/lac-vs-min-0022500760",
+        "description": "LA Clippers vs Minnesota Timberwolves <strong>Feb 8, 2026</strong> game result including recap, highlights and game information"
+      },
+      {
+        "title": "Watch NBA on Prime Video",
+        "url": "https://www.amazon.com/gp/video/tournament/amzn1.dv.icid.cf75b42a-68cd-4a1c-993a-a0b3f0575c5f",
+        "description": "Magic vs. Clippers: Game highlights ... Trail Blazers vs. Suns: Game highlights ... Knicks vs. Bulls: Game highlights ... Timberwolves vs."
+      },
+      {
+        "title": "Leonard, Clippers take on the Timberwolves - ABC News",
+        "url": "https://abcnews.com/Sports/wireStory/leonard-clippers-timberwolves-130484140",
+        "description": "Their opponents have averaged 110.6 points per game. <strong>Timberwolves: 6-4, averaging 122.3 points, 43.7 rebounds, 25.5 assists, 9.1 steals and 6.5 blocks per game while shooting 49.9% from the field.</strong>"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Timberwolves vs. Clippers Injury Report \u2013 Feb. 26 | San Diego Sports 760",
+        "url": "https://1360sports.iheart.com/content/2026-02-26-timberwolves-vs-clippers-injury-report-feb-26/",
+        "description": "See who's in and who's out for the Minnesota Timberwolves vs. Los Angeles Clippers NBA game on February 26, 2026.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Minnesota Timberwolves vs Los Angeles Clippers Prediction, 2/26/2026 Preview and Pick",
+        "url": "https://www.docsports.com/free-picks/nba/2026/minnesota-timberwolves-vs-los-angeles-clippers-prediction-2-26-2026-preview-and-pick.html",
+        "description": "The Minnesota Timberwolves will take on the Los Angeles Clippers on 2/26/26. Doc's Sports Prediction, Preview, and Pick Inside",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Game Preview #60 - Timberwolves at Clippers | Canis Hoopus",
+        "url": "https://www.canishoopus.com/timberwolves-game-previews/64765/game-preview-60-timberwolves-at-clippers",
+        "description": "Your best source for quality Minnesota Timberwolves news, rumors, analysis, stats and scores from the fan perspective.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Timberwolves vs Clippers Prediction, Picks & Odds for Tonight\u2019s NBA Game - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/timberwolves-vs-clippers-prediction-picks-185600466.html",
+        "description": "These Timberwolves vs. Clippers predictions and NBA picks recognize Minnesota is no longer defense-first on Thursday, February 26.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "GAME PREVIEW: 5 Things You Should Know About Clippers vs. Timberwolves | LA Clippers",
+        "url": "https://www.nba.com/clippers/news/game-preview-5-things-you-should-know-about-clippers-vs-timberwolves-02-26-26",
+        "description": "The official site of the Los Angeles Clippers. Includes news, scores, schedules, statistics, photos and video.",
+        "age": "5 hours ago"
+      }
+    ],
+    "query": "Timberwolves vs. Clippers",
+    "sources_count": 10
+  },
+  "error": null
+}

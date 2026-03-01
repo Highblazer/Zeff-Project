@@ -1,0 +1,82 @@
+{
+  "id": "df7be3c8",
+  "title": "central bank interest rate decisions February 2026",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "central bank interest rate decisions February 2026"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T01:08:37.988793+00:00",
+  "updated_at": "2026-02-26T01:08:39.757551+00:00",
+  "claimed_at": "2026-02-26T01:08:37.995356+00:00",
+  "completed_at": "2026-02-26T01:08:39.757534+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: central bank interest rate decisions February 2026\n\nWeb Results (5):\n- ECB holds rates but it's not a 'non-event,' economists say. Here's why: ECB President Christine Lagarde said at a news conference Thursday that the central bank would maintain its data-dependent and &quot;meeting-by-meetin\n- A year in which the major central banks part ways | Reuters: LONDON, Feb 5 (Reuters) - Central banks in big economies are parting ways, with Australia this week raising interest rates for the first time in two y\n- Federal Reserve Board - H.15 - Selected Interest Rates (Daily) - February 25, 2026: This curve, which relates the yield on a security to its time to maturity, is based on the closing market bid yields on actively traded Treasury secur\n- Monetary policy decisions - European Central Bank: 5 February 2026 \u00b7 <strong>The Governing Council today decided to keep the three key ECB interest rates unchanged</strong>. Its updated assessment reco\n- The Key Interest Rate Decision Dates for 2026 | Morningstar Europe: These are the key dates that central banks will announce their interest rate decisions. ... <strong>Feb. 5, 2026</strong>.\n\nNews (5):\n- What's the mortgage interest rate forecast for March 2026? - CBS News (9 hours ago)\n- Fed officials split on where interest rates should go, minutes say (1 week ago)\n- Mortgage Rates Hover Near 3-Year Lows | Today, February 25, 2026 (2 days ago)\n- Bank of Korea to keep interest rates steady at 2.50% through 2026: Reuters poll | Reuters (2 days ago)\n- Fed\u2019s Interest Rate Decision: January 28, 2026 - dshort - Advisor Perspectives (1 month ago)",
+    "web_results": [
+      {
+        "title": "ECB holds rates but it's not a 'non-event,' economists say. Here's why",
+        "url": "https://www.cnbc.com/2026/02/05/ecb-rate-decision-economists-analysts-next-move.html",
+        "description": "ECB President Christine Lagarde said at a news conference Thursday that the central bank would maintain its data-dependent and &quot;meeting-by-meeting approach,&quot; and would not be &quot;precommitting to a particular rate path.&quot; &quot;In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it,&quot; she said. At first glance, Thursday&#x27;s decision looks like a non-event. Economists say it&#x27;s not. &quot;It would be wrong to characterize the February meeting as a non-event."
+      },
+      {
+        "title": "A year in which the major central banks part ways | Reuters",
+        "url": "https://www.reuters.com/world/americas/global-markets-central-banks-graphic-2026-02-05/",
+        "description": "LONDON, Feb 5 (Reuters) - Central banks in big economies are parting ways, with Australia this week raising interest rates for the first time in two years, while others are taking a more cautious approach even if they are likely done with easing. The European Central Bank and Bank of England held rates on Thursday, although the UK decision was seen by markets as dovish."
+      },
+      {
+        "title": "Federal Reserve Board - H.15 - Selected Interest Rates (Daily) - February 25, 2026",
+        "url": "https://www.federalreserve.gov/releases/h15/",
+        "description": "This curve, which relates the yield on a security to its time to maturity, is based on the closing market bid yields on actively traded Treasury securities in the over-the-counter market. These market yields are calculated from composites of quotations obtained by the Federal Reserve Bank of New York."
+      },
+      {
+        "title": "Monetary policy decisions - European Central Bank",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260205~001d26959b.en.html",
+        "description": "5 February 2026 \u00b7 <strong>The Governing Council today decided to keep the three key ECB interest rates unchanged</strong>. Its updated assessment reconfirms that inflation should stabilise at its 2% target in the medium term."
+      },
+      {
+        "title": "The Key Interest Rate Decision Dates for 2026 | Morningstar Europe",
+        "url": "https://global.morningstar.com/en-eu/economy/key-interest-rate-decision-dates-2026",
+        "description": "These are the key dates that central banks will announce their interest rate decisions. ... <strong>Feb. 5, 2026</strong>."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "What's the mortgage interest rate forecast for March 2026? - CBS News",
+        "url": "https://www.cbsnews.com/news/mortgage-interest-rate-forecast-for-march-2026/",
+        "description": "As of February 25, 2026, it's possible to secure a 30-year rate under 6% for qualified borrowers. With no Fed meeting in February, borrowers haven't had much to hang their hopes on. While the central bank doe not directly set mortgage interest rates, its policy decisions can have a broad influence ...",
+        "age": "9 hours ago"
+      },
+      {
+        "title": "Fed officials split on where interest rates should go, minutes say",
+        "url": "https://www.cnbc.com/2026/02/18/fed-minutes-january-2026.html",
+        "description": "The Federal Reserve on Wednesday released minutes from its Jan. 27-28 meeting.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Mortgage Rates Hover Near 3-Year Lows | Today, February 25, 2026",
+        "url": "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-february-24-2026",
+        "description": "While nobody can be sure where mortgage rates will go today and in the future, here's the information you need to make an informed choice.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bank of Korea to keep interest rates steady at 2.50% through 2026: Reuters poll | Reuters",
+        "url": "https://reuters.com/world/asia-pacific/bank-korea-keep-interest-rates-steady-250-through-2026-2026-02-24",
+        "description": "South Korea\u2019s central bank will keep its key interest rate unchanged at 2.50% on Thursday and through 2026, a Reuters poll forecasts, as policymakers grapple with a volatile currency and an overheating housing market.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Fed\u2019s Interest Rate Decision: January 28, 2026 - dshort - Advisor Perspectives",
+        "url": "https://www.advisorperspectives.com/dshort/updates/2026/01/29/feds-interest-rate-decision-january-28-2026",
+        "description": "The Federal Reserve concluded its first meeting of 2026 by holding the federal funds rate (FFR) steady in the 3.50%-3.75% range.",
+        "age": "1 month ago"
+      }
+    ],
+    "query": "central bank interest rate decisions February 2026",
+    "sources_count": 10
+  },
+  "error": null
+}

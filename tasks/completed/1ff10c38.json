@@ -1,0 +1,139 @@
+{
+  "id": "1ff10c38",
+  "title": "latest LLM model releases March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "latest LLM model releases March 2026",
+    "category": "landscape"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-01T05:38:45.531918+00:00",
+  "updated_at": "2026-03-01T05:38:47.385851+00:00",
+  "claimed_at": "2026-03-01T05:38:45.538124+00:00",
+  "completed_at": "2026-03-01T05:38:47.385833+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: latest LLM model releases March 2026\n\nFindings (10):\n- [tech_upgrade] LLM News Today (February 2026) \u2013 Open Source LLM Updates & AI Model Releases (action=0.6, impact=0.2)\n  \u2192 REVIEW for OpenClaw fleet upgrade\n- [tech_upgrade] AI Updates Today (February 2026) \u2013 Latest AI Model Releases (action=0.6, impact=0.2)\n  \u2192 REVIEW for OpenClaw fleet upgrade\n- [tech_upgrade] The AI Model War Is Over. Now Comes the Real Competition | by Claudio Lupi | Feb, 2026 | Medium (action=0.5, impact=0.26)\n  \u2192 LOG for awareness\n- [tech_upgrade] Guide Labs debuts a new kind of interpretable LLM | TechCrunch (action=0.5, impact=0.26)\n  \u2192 LOG for awareness\n- [tech_upgrade] Top 9 Large Language Models as of February 2026 | Shakudo (action=0.5, impact=0.26)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "LLM News Today (February 2026) \u2013 Open Source LLM Updates & AI Model Releases",
+        "url": "https://llm-stats.com/ai-news",
+        "description": "Visit our LLM Leaderboard to compare models side-by-side, or check the LLM Benchmark News section for the latest evaluation results and benchmark news today. Our AI Model Releases This Week section shows new AI model releases last 24 hours and large language model updates with benchmark performance ",
+        "category": "tech_upgrade",
+        "actionability_score": 0.6,
+        "impact_score": 0.2,
+        "combined_score": 0.4,
+        "age": "",
+        "recommended_action": "REVIEW for OpenClaw fleet upgrade"
+      },
+      {
+        "title": "AI Updates Today (February 2026) \u2013 Latest AI Model Releases",
+        "url": "https://llm-stats.com/llm-updates",
+        "description": "AI updates today: Track the latest LLM releases, API changes, new features, deprecations \u2013 updated daily.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.6,
+        "impact_score": 0.2,
+        "combined_score": 0.4,
+        "age": "",
+        "recommended_action": "REVIEW for OpenClaw fleet upgrade"
+      },
+      {
+        "title": "The AI Model War Is Over. Now Comes the Real Competition | by Claudio Lupi | Feb, 2026 | Medium",
+        "url": "https://medium.com/@claudio.a.lupi/the-ai-model-war-is-over-now-comes-the-real-competition-401e761cfdb1",
+        "description": "February 2026 delivered three major model drops in 15 days. I stopped caring about benchmarks after day two \u2014 and started asking the only\u2026",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.26,
+        "combined_score": 0.38,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Guide Labs debuts a new kind of interpretable LLM | TechCrunch",
+        "url": "https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/",
+        "description": "The company open sourced an 8-billion-parameter LLM, Steerling-8B, trained with a new architecture designed to make its actions easily interpretable.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.26,
+        "combined_score": 0.38,
+        "age": "5 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top 9 Large Language Models as of February 2026 | Shakudo",
+        "url": "https://www.shakudo.io/blog/top-9-large-language-models",
+        "description": "Meta continues to be a leader in the LLM space with its state-of-the-art Llama models, prioritizing an open-source approach. The latest major release is <strong>Llama 4,</strong> which includes natively multimodal models like Llama 4 Scout and Llama 4 Maverick.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.26,
+        "combined_score": 0.38,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Open Source LLM Leaderboard 2026: Rankings, Benchmarks & the Best Models Right Now - VERTU\u00ae Official Site",
+        "url": "https://vertu.com/lifestyle/open-source-llm-leaderboard-2026-rankings-benchmarks-the-best-models-right-now/",
+        "description": "Explore the 2026 open-source LLM leaderboard. Compare top models like GLM-4.7, Kimi K2.5, DeepSeek V3.2, and more across coding, reasoning, math, and chat benchmarks \u2014 with real scores and tier rankings.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.2,
+        "combined_score": 0.35,
+        "age": "5 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Scientel Announces Gensonix AI LLM For Intel ARC Series ...",
+        "url": "https://www.knoxnews.com/press-release/story/147236/scientel-announces-gensonix-ai-llm-for-intel-arc-series-gpus/",
+        "description": "You&#x27;re in luck, Knoxville. Top Workplaces 2026 deadline now extended",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.2,
+        "combined_score": 0.35,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "AI Timeline \u2014 Complete History of 194+ Large Language Models (2017\u20132026)",
+        "url": "https://llm-timeline.com/",
+        "description": "Track every major LLM from 2017 to 2026. From Transformers \u2192 GPT \u2192 ChatGPT \u2192 Claude \u2192 Gemini \u2192 DeepSeek and beyond.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.26,
+        "combined_score": 0.33,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "The Best AI Models So Far in 2026 | Design for Online\u00ae",
+        "url": "https://designforonline.com/the-best-ai-models-so-far-in-2026/",
+        "description": "Gemini 3.1 Pro, Claude Sonnet 4.6, Grok 4.20 and more dropped in February 2026. We rank the best AI models, benchmarks & break down costs.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "1 week ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Wall Street's Secret Weapon: This Artificial Intelligence (AI) Stock for 2026 | Nasdaq",
+        "url": "https://www.nasdaq.com/articles/wall-streets-secret-weapon-artificial-intelligence-ai-stock-2026",
+        "description": "Key PointsAlphabet has the most complete AI stack of any company.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "latest LLM model releases March 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

@@ -1,0 +1,139 @@
+{
+  "id": "739eab1f",
+  "title": "breaking forex market news February 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "breaking forex market news February 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T19:00:13.776890+00:00",
+  "updated_at": "2026-02-26T19:00:15.191824+00:00",
+  "claimed_at": "2026-02-26T19:00:13.783129+00:00",
+  "completed_at": "2026-02-26T19:00:15.191812+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: breaking forex market news February 2026\n\nFindings (10):\n- [market_mover] Stock market news for Feb. 23, 2026 (action=0.5, impact=0.52)\n  \u2192 LOG for awareness\n- [market_mover] Are we back to risk-on? \u2013 North American session Market wrap for February 25 | MarketPulse by OANDA Group (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Bitcoin Outlook: Is 60k the Bounce Zone or a Trap Door to 50k? (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] A light mean-reversion day \u2013 North American session Market wrap for February 24 | MarketPulse by OANDA Group (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Gold (XAU/USD) Price Forecast and Analysis for Today, Tomorrow, Next Week, and 30 Days | LiteFinance (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Stock market news for Feb. 23, 2026",
+        "url": "https://www.cnbc.com/2026/02/22/stock-market-today-live-updates.html",
+        "description": "The major averages were under pressure as worries over AI disruption and Trump's tariffs pulled stocks lower.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.52,
+        "combined_score": 0.51,
+        "age": "4 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Are we back to risk-on? \u2013 North American session Market wrap for February 25 | MarketPulse by OANDA Group",
+        "url": "https://marketpulse.com/markets/market-wrap-feb-25-2026",
+        "description": "February 25th 2026 North-American Session Recap \u2013 A strict risk-on session brings back hopes for better days ahead. Too soon?",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Bitcoin Outlook: Is 60k the Bounce Zone or a Trap Door to 50k?",
+        "url": "https://www.forex.com/en-us/news-and-analysis/bitcoin-outlook-is-60k-the-bounce-zone-or-a-trap-door-to-50k-2026-02-24/",
+        "description": "Bitcoin tests key 60k support after a 53% slide. Technical levels, RSI signals and downside risk towards 50k analysed.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "A light mean-reversion day \u2013 North American session Market wrap for February 24 | MarketPulse by OANDA Group",
+        "url": "https://marketpulse.com/markets/market-wrap-feb-24-2026",
+        "description": "February 24th 2026 North-American Session Recap \u2013 Stocks and sentiment rebound after a rough Monday.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Gold (XAU/USD) Price Forecast and Analysis for Today, Tomorrow, Next Week, and 30 Days | LiteFinance",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/",
+        "description": "Gold price prediction and analysis for tomorrow, next week, and 30 days. Key levels, sentiment, and events shaping gold short-term outlook.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "10 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Forex Seasonality \u2013 February 2026: Will Dollar Weakness Overwhelm Seasonal Tendencies?",
+        "url": "https://www.forex.com/en-us/news-and-analysis/forex-seasonality-february-2026-will-dollar-weakness-overwhelm-seasonal-tendencies/",
+        "description": "<strong>USD/JPY Recovery Rally, EUR/JPY, GBP/JPY in Front of ECB, BoE</strong> February 04, 2026 03:03 PM \u00b7 Oil Price Forecast: WTI Rebounds from Pivotal Support- Next Leg Hinges on the Break February 04, 2026 02:33 PM",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Weekly Forex Forecast - 16th to 20th February 2026 (Charts)",
+        "url": "https://www.dailyforex.com/forex-technical-analysis/2026/02/weekly-forex-forecast-16th-to-20th-02-2026/241174",
+        "description": "Overall, <strong>the CME FedWatch tool has narrowly moved in favour of expecting three rate cuts in 2026 of 0.25% (June, September, and December),</strong> which is a dovish change for the US Dollar.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Forex February 2026 Outlook | Forex Factory",
+        "url": "https://www.forexfactory.com/news/1381804-forex-february-2026-outlook",
+        "description": "The first week of February brings the RBA, the BoE, and the ECB. One is expected to hike, the others look to stay on hold. But, the nuances will be carefully watched.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Forex Market Analysis \u2013 February 25, 2026 | Daily FX Intelligence Report - Trade FX, CFD, Stocks, BTC, Indices, Gold & Oil - 1:1000 Leverage & Bonus - CSFX",
+        "url": "https://www.capitalstreetfx.com/forex-market-analysis-february-25-2026-daily-fx-intelligence-report/",
+        "description": "Traders should wait for either scenario to confirm before committing. ... <strong>GBP/USD is one of the cleaner trending pairs in 2026, having rallied from the 1.3347 yearly low to a high of 1.3867</strong>.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Weekly Pairs in Focus 23th to 27th February 2026 (Charts)",
+        "url": "https://www.dailyforex.com/forex-technical-analysis/2026/02/pairs-in-focus-22th-to-27th-february-2026/241491",
+        "description": "Weekly forecast on USD/MXN, S&amp;P 500, EUR/USD, Gold, Bitcoin &amp; more. Key support, resistance and breakout levels to watch.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "breaking forex market news February 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 8,
+    "opportunities": 1
+  },
+  "error": null
+}

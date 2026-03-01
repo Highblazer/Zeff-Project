@@ -1,0 +1,22 @@
+{
+  "id": "fad8693c",
+  "title": "Close DOGEUSD position",
+  "assigned_to": "tradebot",
+  "task_type": "close_position",
+  "params": {
+    "symbol": "DOGEUSD"
+  },
+  "priority": 1,
+  "status": "completed",
+  "created_by": "user",
+  "created_at": "2026-02-26T12:09:16.311916+00:00",
+  "updated_at": "2026-02-26T12:09:37.884470+00:00",
+  "claimed_at": "2026-02-26T12:09:37.877681+00:00",
+  "completed_at": "2026-02-26T12:09:37.884451+00:00",
+  "retries": 0,
+  "result": {
+    "error": "No broker position found for DOGEUSD",
+    "closed": false
+  },
+  "error": null
+}

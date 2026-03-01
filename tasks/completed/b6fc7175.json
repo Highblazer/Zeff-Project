@@ -1,0 +1,28 @@
+{
+  "id": "b6fc7175",
+  "title": "Polymarket research: Will Netherlands win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Netherlands win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T06:23:01.750381+00:00",
+  "updated_at": "2026-02-27T06:23:14.554871+00:00",
+  "claimed_at": "2026-02-27T06:23:13.408579+00:00",
+  "completed_at": "2026-02-27T06:23:14.554854+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Netherlands win the 2026 FIFA World Cup?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Netherlands win the 2026 FIFA World Cup?",
+    "sources_count": 0
+  },
+  "error": null
+}

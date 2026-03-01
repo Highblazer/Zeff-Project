@@ -1,0 +1,25 @@
+{
+  "id": "c1ceafa9",
+  "title": "Close AUDUSD position",
+  "assigned_to": "tradebot",
+  "task_type": "close_position",
+  "params": {
+    "symbol": "AUDUSD",
+    "positionId": 585086584
+  },
+  "priority": 1,
+  "status": "completed",
+  "created_by": "dashboard",
+  "created_at": "2026-02-26T08:36:24.709334+00:00",
+  "updated_at": "2026-02-26T08:36:41.139946+00:00",
+  "claimed_at": "2026-02-26T08:36:41.051173+00:00",
+  "completed_at": "2026-02-26T08:36:41.139929+00:00",
+  "retries": 0,
+  "result": {
+    "symbol": "AUDUSD",
+    "positionId": 585086584,
+    "closed": true,
+    "volume": 200000
+  },
+  "error": null
+}

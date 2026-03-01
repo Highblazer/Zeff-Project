@@ -1,0 +1,85 @@
+{
+  "id": "b6ade2d4",
+  "title": "Polymarket research: Will Mike Pence win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Mike Pence win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:28.380347+00:00",
+  "updated_at": "2026-02-26T23:38:24.683231+00:00",
+  "claimed_at": "2026-02-26T23:38:23.351932+00:00",
+  "completed_at": "2026-02-26T23:38:24.683214+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Mike Pence win the 2028 Republican presidential nomination?\n\nWeb Results (5):\n- Is Mike Pence running for president in 2028? What to know - Newsweek: POLITICO reported that its polling shows <strong>Pence had less than 1 percent of support as the 2028 nominee among Trump supporters</strong>. The pol\n- Presidential candidates, 2028 - Ballotpedia: \u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washing\n- Mike Pence just hinted that he's considering a 2028 run for ...: We cannot provide a description for this page right now\n- Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times: Do you see anyone in this pool of potential candidates who could be the remedy in 2028? Silver: I basically agree with that, but I think candidates te\n- 5 Republicans who could run for president in 2028 | LiveNOW from FOX: &quot;As soon as Trump became the nominee, we might even say as soon as Trump won the Iowa caucuses so overwhelmingly in January, it began,&quot; said\n\nNews (5):\n- Presidential election, 2028 - Ballotpedia (1 day ago)\n- The 2028 Republican Presidential Primary Race: JD Vance\u2019s Race to Lose? (2 days ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (14 hours ago)\n- Is Mike Pence running for president in 2028? What to know - Newsweek (November 10, 2025)",
+    "web_results": [
+      {
+        "title": "Is Mike Pence running for president in 2028? What to know - Newsweek",
+        "url": "https://www.newsweek.com/mike-pence-president-election-2028-11021035",
+        "description": "POLITICO reported that its polling shows <strong>Pence had less than 1 percent of support as the 2028 nominee among Trump supporters</strong>. The poll surveyed 2,051 U.S."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "\u2191 25.0 25.1 25.2 The Washington Post, &quot;Ranking the 2028 Republican presidential contenders,&quot; November 9, 2025 \u00b7 \u2191 26.0 26.1 26.2 The Washington Post, &quot;Trump has a lock on the 2024 nomination."
+      },
+      {
+        "title": "Mike Pence just hinted that he's considering a 2028 run for ...",
+        "url": "https://www.facebook.com/groups/1643427799249059/posts/4200989243492889/",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Opinion | The 2028 Democratic Presidential Contenders, Ranked by Nate Silver - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/20/opinion/2028-democrats-presidential-primary.html",
+        "description": "Do you see anyone in this pool of potential candidates who could be the remedy in 2028? Silver: I basically agree with that, but I think candidates tend more to follow zigzag patterns. They\u2019re sort of moving at 90-degree angles, not doing a full 180. On the one hand, they want to turn away from the failures of the incumbent president. On the other hand, they want to present something new and different and to also escape from the ghosts (or at least the failed nominees) of their own party\u2019s past."
+      },
+      {
+        "title": "5 Republicans who could run for president in 2028 | LiveNOW from FOX",
+        "url": "https://www.livenowfox.com/news/republicans-possible-candidates-president-2028",
+        "description": "&quot;As soon as Trump became the nominee, we might even say as soon as Trump won the Iowa caucuses so overwhelmingly in January, it began,&quot; said Iowa Republican Chairman Jeff Kaufmann, whose state will host the GOP\u2019s first 2028 caucuses about 39 months from now. READ MORE: Here&#x27;s what world leaders are saying after Trump wins election \u00b7 Here are five potential GOP presidential candidates for 2028:"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      },
+      {
+        "title": "The 2028 Republican Presidential Primary Race: JD Vance\u2019s Race to Lose?",
+        "url": "https://redstate.com/adam-turner/2026/02/25/the-2028-republican-presidential-primary-race-jd-vances-race-to-lose-n2199476",
+        "description": "Analysis of JD Vance\u2019s prospects in the 2028 Republican presidential primary race.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "Is Mike Pence running for president in 2028? What to know - Newsweek",
+        "url": "https://www.newsweek.com/mike-pence-president-election-2028-11021035",
+        "description": "Newsweek has broken down what Mike Pence has previously said about running for president.",
+        "age": "November 10, 2025"
+      }
+    ],
+    "query": "Will Mike Pence win the 2028 Republican presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,139 @@
+{
+  "id": "554a9e17",
+  "title": "cTrader API new features updates",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "cTrader API new features updates",
+    "category": "tech_upgrades"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T21:41:06.765823+00:00",
+  "updated_at": "2026-02-26T21:41:08.147270+00:00",
+  "claimed_at": "2026-02-26T21:41:06.784280+00:00",
+  "completed_at": "2026-02-26T21:41:08.147258+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: cTrader API new features updates\n\nFindings (10):\n- [revenue_opportunity] cTrader Forum - What's New in cTrader Automate API 3.5 (action=0.65, impact=0.35)\n  \u2192 EVALUATE for integration \u2014 potential revenue\n- [revenue_opportunity] Getting started - Open API - cTrader Help Centre (action=0.55, impact=0.35)\n  \u2192 EVALUATE for integration \u2014 potential revenue\n- [revenue_opportunity] TradeStation to leverage Capitalize\u2019s Rollover API to enhance user experience - FX News Group (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] cTrader Open API (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] cTrader Forum - New Features in cTrader Automate API 3.7 (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "cTrader Forum - What's New in cTrader Automate API 3.5",
+        "url": "https://communityuat.ctrader.com/forum/announcements/15847",
+        "description": "Dear traders, We would like to inform you that we have released cTrader Desktop v3.5! Below you can find the new features included in cTrader Automate API 3.5. Access to all symbols <strong>Now you can get all the symbols available in the platform using Symbols property</strong>.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.65,
+        "impact_score": 0.35,
+        "combined_score": 0.5,
+        "age": "",
+        "recommended_action": "EVALUATE for integration \u2014 potential revenue"
+      },
+      {
+        "title": "Getting started - Open API - cTrader Help Centre",
+        "url": "https://help.ctrader.com/open-api/",
+        "description": "A Telegram bot that automatically informs your followers of any new trades you may have placed. An app for wearables that displays the current P&amp;L of the five most recent positions opened by the user. A mobile app that gives a market overview by using a generative AI service. As you can see, cTr",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.55,
+        "impact_score": 0.35,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "EVALUATE for integration \u2014 potential revenue"
+      },
+      {
+        "title": "TradeStation to leverage Capitalize\u2019s Rollover API to enhance user experience - FX News Group",
+        "url": "https://fxnewsgroup.com/forex-news/retail-forex/tradestation-to-leverage-capitalizes-rollover-api-to-enhance-user-experience",
+        "description": "TradeStation will embed Capitalize\u2019s Rollover API, enabling TradeStation users to transfer 401(k) assets into their IRAs through the TradeStation platform.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "cTrader Open API",
+        "url": "https://openapi.ctrader.com/",
+        "description": "Integrate cTrader Open API into your website or app to allow users to trade or manage their cTrader accounts without leaving your platform.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "cTrader Forum - New Features in cTrader Automate API 3.7",
+        "url": "https://community.ctrader.com/forum/ctrader-blog/22440/",
+        "description": "As cTrader 3.7 introduces <strong>new smooth chart zooming</strong>, zoom values in API was changed. Old Chart.Zoom property is deprecated. It used to have range of possible values from 0 to 5, which reflected old zoom levels on the user interface. New Chart.ZoomLevel was added with values from 5 to",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Google Ads API Version 23.1 Now Out",
+        "url": "https://seroundtable.com/google-ads-api-version-231-40998.html",
+        "description": "Google has released a minor version update to the Google Ads API, version 23.1. This update has changes to account management, campaigns, conversions, incentives, planning, reporting and more.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.55,
+        "impact_score": 0.2,
+        "combined_score": 0.38,
+        "age": "9 hours ago",
+        "recommended_action": "REVIEW for OpenClaw fleet upgrade"
+      },
+      {
+        "title": "cTrader Open API 2.0 Released: Faster Apps with More Features",
+        "url": "https://www.spotware.com/news/ctrader-open-api-2-0-released-faster-apps-with-more-features/",
+        "description": "cTrader Open API v2.0 is the successor ... performance of apps and providing them with more functionality. ... <strong>cTrader Open API v2.0 will not feature any REST web services for account information retrieval</strong>....",
+        "category": "tech_upgrade",
+        "actionability_score": 0.55,
+        "impact_score": 0.2,
+        "combined_score": 0.38,
+        "age": "",
+        "recommended_action": "REVIEW for OpenClaw fleet upgrade"
+      },
+      {
+        "title": "cTrader Admin 9.9: Email tracking and new Workspace app",
+        "url": "https://www.fxstreet.com/press-releases/ctrader-admin-99-email-tracking-and-new-workspace-app-202602250816",
+        "description": "Spotware releases cTrader Admin 9.9 with email tracking in Sessions, a new Workspace settings app and a collapsible main menu, improving daily platform administration and ensuring consistent operational control.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.2,
+        "combined_score": 0.35,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Swyft Markets now delivers a best-in-class trading experience to South African traders",
+        "url": "https://financefeeds.com/swyft-markets-now-delivers-a-best-in-class-trading-experience-to-south-african-traders/",
+        "description": "Swyft Markets enhances its offering with cTrader, supporting South African traders with a premium, mobile-first trading experience, built around Traders First\u2122 approach",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.2,
+        "combined_score": 0.35,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "South Africa CFDs broker Swyft Markets adds cTrader - FX News Group",
+        "url": "https://fxnewsgroup.com/forex-news/platforms/south-africa-cfds-broker-swyft-markets-adds-ctrader/",
+        "description": "Swyft Markets enhances its offering with cTrader, supporting South African traders with a premium, mobile-first trading experience, built around Traders First\u2122 approach.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.45,
+        "impact_score": 0.2,
+        "combined_score": 0.32,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "cTrader API new features updates",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 0,
+    "opportunities": 5
+  },
+  "error": null
+}

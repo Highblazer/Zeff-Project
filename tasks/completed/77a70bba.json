@@ -1,0 +1,139 @@
+{
+  "id": "77a70bba",
+  "title": "new AI agent frameworks tools launched March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "new AI agent frameworks tools launched March 2026",
+    "category": "landscape"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-01T05:48:49.181203+00:00",
+  "updated_at": "2026-03-01T05:48:50.875976+00:00",
+  "claimed_at": "2026-03-01T05:48:49.187401+00:00",
+  "completed_at": "2026-03-01T05:48:50.875963+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: new AI agent frameworks tools launched March 2026\n\nFindings (10):\n- [revenue_opportunity] Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025 | News (action=0.55, impact=0.47)\n  \u2192 EVALUATE for integration \u2014 potential revenue\n- [revenue_opportunity] New Relic launches new AI agent platform and OpenTelemetry tools | TechCrunch (action=0.55, impact=0.35)\n  \u2192 EVALUATE for integration \u2014 potential revenue\n- [revenue_opportunity] Top 9 AI Agent Frameworks as of February 2026 | Shakudo (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] AI Agents in 2026: The Hype vs. The Reality - DEV Community (action=0.4, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] 7 Best AI Agent Platforms in 2026: Tested, Ranked & Honestly Reviewed | by Shanmugaraj Y | Feb, 2026 | Medium (action=0.4, impact=0.35)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025 | News",
+        "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+        "description": "The rise in AI health queries, covering everything from medication side effects to mental health support, coincides with OpenAI&#x27;s launch of &quot;<strong>ChatGPT Health</strong>,&quot; a specialized tool that integrates personal medical records and wellness data for tailored ...",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.55,
+        "impact_score": 0.47,
+        "combined_score": 0.51,
+        "age": "",
+        "recommended_action": "EVALUATE for integration \u2014 potential revenue"
+      },
+      {
+        "title": "New Relic launches new AI agent platform and OpenTelemetry tools | TechCrunch",
+        "url": "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/",
+        "description": "New Relic is giving enterprises more observability tools, letting them create and manage AI agents, and better integrate OTel data streams.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.55,
+        "impact_score": 0.35,
+        "combined_score": 0.45,
+        "age": "5 days ago",
+        "recommended_action": "EVALUATE for integration \u2014 potential revenue"
+      },
+      {
+        "title": "Top 9 AI Agent Frameworks as of February 2026 | Shakudo",
+        "url": "https://www.shakudo.io/blog/top-9-ai-agent-frameworks",
+        "description": "Because it sits on top of the Shakudo Operating System, every agent inherits secure VPC networking, role-based access control, and 200+ turnkey connectors for tools such as Qdrant, Supabase, and Weights &amp; Biases. This makes it especially appealing to mid-market and enterprise companies that want",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "AI Agents in 2026: The Hype vs. The Reality - DEV Community",
+        "url": "https://dev.to/agentq/ai-agents-in-2026-the-hype-vs-the-reality-1pb",
+        "description": "The hype around AI agents is reaching peak absurdity. Every other startup is suddenly an \"agentic AI...",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "2 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "7 Best AI Agent Platforms in 2026: Tested, Ranked & Honestly Reviewed | by Shanmugaraj Y | Feb, 2026 | Medium",
+        "url": "https://medium.com/@shanmugarajdigitalmarketer/7-best-ai-agent-platforms-in-2026-tested-ranked-honestly-reviewed-6b0120e01592",
+        "description": "7 Best AI Agent Platforms in 2026: Tested, Ranked & Honestly Reviewed I spent the better part of three months putting these platforms through their paces \u2014 building real workflows, deploying actual \u2026",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.4,
+        "impact_score": 0.35,
+        "combined_score": 0.38,
+        "age": "17 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "NIST Just Launched an AI Agent Standards Initiative. Here's What Developers Should Do Now. - DEV Community",
+        "url": "https://dev.to/wcamon/nist-just-launched-an-ai-agent-standards-initiative-heres-what-developers-should-do-now-11h8",
+        "description": "On February 17, 2026, NIST launched the AI Agent Standards Initiative \u2014 the first U.S. government framework specifically targeting autonomous AI agents. With deadlines in March and April, here's what",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.2,
+        "combined_score": 0.35,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "The Best AI Agents in 2026: Tools, Frameworks, and Platforms Compared | DataCamp",
+        "url": "https://www.datacamp.com/blog/best-ai-agents",
+        "description": "The <strong>OpenAI Agents SDK</strong> is a lightweight Python framework released in March 2025 that focuses on creating multi-agent workflows with comprehensive tracing and guardrails.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.2,
+        "combined_score": 0.35,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top 10 Agentic AI Frameworks In 2026 For Developers",
+        "url": "https://www.aitude.com/top-agentic-ai-frameworks-2026/",
+        "description": "Top agentic AI frameworks in 2026 for developers. Compare the best open source AI agent development frameworks for building autonomous agents.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.45,
+        "impact_score": 0.2,
+        "combined_score": 0.32,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "12 Best AI Agent Frameworks in 2026 | Data Science Collective",
+        "url": "https://medium.com/data-science-collective/the-best-ai-agent-frameworks-for-2026-tier-list-b3a4362fac0d",
+        "description": "Ranked by someone who shipped with all of them. <strong>LangGraph, CrewAI, AutoGen, Pydantic AI</strong>, and 8 more. What works, what doesn&#x27;t, and when to use each.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "r/AI_Agents on Reddit: Top tools to build AI agents in 2026 (no-code and high-code options)",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1qufj7n/top_tools_to_build_ai_agents_in_2026_nocode_and/",
+        "description": "10. <strong>AutoGen (Microsoft)</strong> One of the earlier autonomous agent frameworks. Still useful for learning and experimentation, though active maintenance appears limited. Curious what others are using.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "new AI agent frameworks tools launched March 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 0,
+    "opportunities": 5
+  },
+  "error": null
+}

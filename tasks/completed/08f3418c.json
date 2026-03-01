@@ -1,0 +1,85 @@
+{
+  "id": "08f3418c",
+  "title": "Polymarket research: Blue Jackets vs. Bruins",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Blue Jackets vs. Bruins",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T00:29:35.082570+00:00",
+  "updated_at": "2026-02-27T00:29:45.536734+00:00",
+  "claimed_at": "2026-02-27T00:29:44.032804+00:00",
+  "completed_at": "2026-02-27T00:29:45.536691+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Blue Jackets vs. Bruins\n\nWeb Results (5):\n- Boston Bruins vs. Columbus Blue Jackets Tickets Feb 26, 2026 Boston, MA | Ticketmaster: Buy Boston Bruins vs. Columbus Blue Jackets tickets at the TD Garden in Boston, MA for <strong>Feb 26, 2026</strong> at Ticketmaster.\n- Boston Bruins vs. Columbus Blue Jackets 2023 Matchup Tickets & Locations | SeatGeek: Blue Jackets tickets can be found for as low as $21.00, with an average price of $54.00. Those interested in catching a Bruins vs. Blue Jackets game s\n- Boston Bruins - Columbus Blue Jackets - Jan 2, 2024 | NHL.com: NHL Gamecenter - Boston Bruins vs. Columbus Blue Jackets, <strong>Jan 2, 2024</strong> - summary, stats, boxscore, play by play, recap and more.\n- Boston Bruins vs. Columbus Blue Jackets: Head-to-Head Reg Season and Playoffs Stats Comparison | Stathead: Compare Teams: Check out the head-to-head stats of Boston Bruins and Columbus Blue Jackets including their regular season and playoff stats, champions\n- Bruins vs. Blue Jackets tickets 2026 | Vivid Seats: Get your Bruins vs. Blue Jackets NHL tickets from Vivid Seats and be there when the puck drops!\n\nNews (5):\n- Columbus Blue Jackets (65 pts) vs. Boston Bruins (69 pts) Game Preview (12 hours ago)\n- How to watch Blue Jackets vs. Bruins: TV channel and streaming options for February 26 - The Athletic (8 hours ago)\n- Blue Jackets exit Olympic break with tough tests vs. Bruins, Islanders - The Athletic (9 hours ago)\n- Need to Know: Bruins vs. Blue Jackets | Boston Bruins (15 hours ago)\n- Blue Jackets vs Bruins Prediction, Odds and Picks - Pickswise (10 hours ago)",
+    "web_results": [
+      {
+        "title": "Boston Bruins vs. Columbus Blue Jackets Tickets Feb 26, 2026 Boston, MA | Ticketmaster",
+        "url": "https://www.ticketmaster.com/boston-bruins-vs-columbus-blue-jackets-boston-massachusetts-02-26-2026/event/010062E9CFFC6CDA",
+        "description": "Buy Boston Bruins vs. Columbus Blue Jackets tickets at the TD Garden in Boston, MA for <strong>Feb 26, 2026</strong> at Ticketmaster."
+      },
+      {
+        "title": "Boston Bruins vs. Columbus Blue Jackets 2023 Matchup Tickets & Locations | SeatGeek",
+        "url": "https://seatgeek.com/bruins-blue-jackets-tickets",
+        "description": "Blue Jackets tickets can be found for as low as $21.00, with an average price of $54.00. Those interested in catching a Bruins vs. Blue Jackets game should be excited regardless of where the game takes place, as both teams play at energetic venues that focus on fan experience."
+      },
+      {
+        "title": "Boston Bruins - Columbus Blue Jackets - Jan 2, 2024 | NHL.com",
+        "url": "https://www.nhl.com/gamecenter/bos-vs-cbj/2024/01/02/2023020574",
+        "description": "NHL Gamecenter - Boston Bruins vs. Columbus Blue Jackets, <strong>Jan 2, 2024</strong> - summary, stats, boxscore, play by play, recap and more."
+      },
+      {
+        "title": "Boston Bruins vs. Columbus Blue Jackets: Head-to-Head Reg Season and Playoffs Stats Comparison | Stathead",
+        "url": "https://www.sports-reference.com/stathead/hockey/vs/boston-bruins-vs-columbus-blue-jackets",
+        "description": "Compare Teams: Check out the head-to-head stats of Boston Bruins and Columbus Blue Jackets including their regular season and playoff stats, championships, win-loss %, and much more on Stathead"
+      },
+      {
+        "title": "Bruins vs. Blue Jackets tickets 2026 | Vivid Seats",
+        "url": "https://www.vividseats.com/bruins-vs-blue-jackets-tickets--sports-nhl-hockey/matchup/104-979",
+        "description": "Get your Bruins vs. Blue Jackets NHL tickets from Vivid Seats and be there when the puck drops!"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Columbus Blue Jackets (65 pts) vs. Boston Bruins (69 pts) Game Preview",
+        "url": "https://thehockeynews.com/nhl/columbus-blue-jackets/latest-news/columbus-blue-jackets-65-pts-vs-boston-bruins-69-pts-game-preview",
+        "description": "Columbus is 17-17-0-10 all-time, and 7-9-0-5 on the road vs. Boston.",
+        "age": "12 hours ago"
+      },
+      {
+        "title": "How to watch Blue Jackets vs. Bruins: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7072920/2026/02/26/how-to-watch-blue-jackets-vs-bruins-tv-channel-and-streaming-options-for-february-26/",
+        "description": "Find out how to watch the Columbus Blue Jackets play the Boston Bruins, with time, TV channel and streaming information.",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "Blue Jackets exit Olympic break with tough tests vs. Bruins, Islanders - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7071258/2026/02/26/blue-jackets-olympic-break-tough-tests/",
+        "description": "\"Every game gets tougher from here on in,\" coach Rick Bowness said. \"It will. We just have to be up for that challenge.\"",
+        "age": "9 hours ago"
+      },
+      {
+        "title": "Need to Know: Bruins vs. Blue Jackets | Boston Bruins",
+        "url": "https://www.nhl.com/bruins/news/need-to-know-bruins-vs-blue-jackets-x2686",
+        "description": "Joonas Korpisalo will start in net for Boston on Thursday at TD Garden",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "Blue Jackets vs Bruins Prediction, Odds and Picks - Pickswise",
+        "url": "https://www.pickswise.com/nhl/predictions/columbus-blue-jackets-vs-boston-bruins-predictions-503687/",
+        "description": "Columbus Blue Jackets vs Boston Bruins picks, predictions, odds and best bets for their NHL matchup on Thursday, February 26.",
+        "age": "10 hours ago"
+      }
+    ],
+    "query": "Blue Jackets vs. Bruins",
+    "sources_count": 10
+  },
+  "error": null
+}

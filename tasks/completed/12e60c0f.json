@@ -1,0 +1,139 @@
+{
+  "id": "12e60c0f",
+  "title": "MCP server new tools integrations 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "MCP server new tools integrations 2026",
+    "category": "tech_upgrades"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T21:56:11.501123+00:00",
+  "updated_at": "2026-02-26T21:56:13.405528+00:00",
+  "claimed_at": "2026-02-26T21:56:11.510502+00:00",
+  "completed_at": "2026-02-26T21:56:13.405510+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: MCP server new tools integrations 2026\n\nFindings (10):\n- [revenue_opportunity] Azure MCP Server Now Built-In with Visual Studio 2026: A New Era for Agentic Workflows - Visual Studio Blog (action=0.5, impact=0.41)\n  \u2192 LOG for awareness\n- [revenue_opportunity] Airia\u2019s MCP Gateway Surpasses 1,000 Pre-Configured Integrations, Delivering the Largest Enterprise-Ready MCP Catalog (action=0.55, impact=0.35)\n  \u2192 EVALUATE for integration \u2014 potential revenue\n- [revenue_opportunity] What's New in the MongoDB MCP Server: Winter 2026 Edition | MongoDB (action=0.5, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] 10 Best MCP Servers for Developers in 2026 (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n- [revenue_opportunity] How MCP Servers Will Enable Cross-Platform AI Tool Integration in 2026 (action=0.45, impact=0.35)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Azure MCP Server Now Built-In with Visual Studio 2026: A New Era for Agentic Workflows - Visual Studio Blog",
+        "url": "https://devblogs.microsoft.com/visualstudio/azure-mcp-server-now-built-in-with-visual-studio-2026-a-new-era-for-agentic-workflows/",
+        "description": "For more information, visit Get ... Learn. <strong>The integration of Azure MCP into Visual Studio 2026 marks a significant step toward agentic workflows\u2014where AI-driven automation meets developer creativity</strong>....",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.41,
+        "combined_score": 0.46,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Airia\u2019s MCP Gateway Surpasses 1,000 Pre-Configured Integrations, Delivering the Largest Enterprise-Ready MCP Catalog",
+        "url": "https://globenewswire.com/news-release/2026/02/26/3245517/0/en/Airia-s-MCP-Gateway-Surpasses-1-000-Pre-Configured-Integrations-Delivering-the-Largest-Enterprise-Ready-MCP-Catalog.html",
+        "description": "New integrations are added weekly, ... for stability, and full audit logging of every tool call. ... The 1,000-integration milestone follows a series of rapid advancements for Airia\u2019s MCP capabilities. In February 2026, Airia became the first enterprise AI platform to support ...",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.55,
+        "impact_score": 0.35,
+        "combined_score": 0.45,
+        "age": "9 hours ago",
+        "recommended_action": "EVALUATE for integration \u2014 potential revenue"
+      },
+      {
+        "title": "What's New in the MongoDB MCP Server: Winter 2026 Edition | MongoDB",
+        "url": "https://www.mongodb.com/company/blog/product-release-announcements/whats-new-mongodb-mcp-server-winter-2026-edition",
+        "description": "<strong>MongoDB is adding assistant tools that integrate with the MongoDB assistant for knowledge search and retrieval</strong>. These tools will allow the MCP to utilize the MongoDB knowledge base more efficiently than ever.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "10 Best MCP Servers for Developers in 2026",
+        "url": "https://firecrawl.dev/blog/best-mcp-servers-for-developers",
+        "description": "The best MCP servers for developers in 2026 \u2014 covering web scraping, design, browser automation, code execution, deployment, and more. Works with Claude Code, Cursor, VS Code, Windsurf, and any MCP-compatible client.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "How MCP Servers Will Enable Cross-Platform AI Tool Integration in 2026",
+        "url": "https://goldeneagle.ai/blog/artificial-intelligence/mcp-servers-cross-platform-ai-2026/",
+        "description": "Q4: Do we need to update the LLM code when adding new tools? A: No. Tools are added only to the Model Context Protocol MCP server\u2014LLMs automatically recognize them. ... A: Absolutely. MCP is designed for large, distributed, multi-platform AI ecosystems. ... Jan. 23, 2026, 2:05 p.m. How to Build a Re",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.45,
+        "impact_score": 0.35,
+        "combined_score": 0.4,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Model Context Protocol Server - Home Assistant",
+        "url": "https://www.home-assistant.io/integrations/mcp_server/",
+        "description": "2026.2.3 \u00b7 Prerequisites \u00b7 Configuration \u00b7 Configuration options \u00b7 Architecture overview \u00b7 Client configuration \u00b7 Access control \u00b7 Example: Claude for Desktop \u00b7 Example: Claude Code \u00b7 Example: Cursor \u00b7 Example: gemini-cli \u00b7 Supported functionality \u00b7 Tools \u00b7 Prompts \u00b7 Known Limitations \u00b7 Troubleshoot",
+        "category": "tech_upgrade",
+        "actionability_score": 0.45,
+        "impact_score": 0.2,
+        "combined_score": 0.32,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "15 Best MCP Gateways for Developers in 2026 - DEV Community",
+        "url": "https://dev.to/rebeccaws/15-best-mcp-gateways-for-developers-in-2026-4j9j",
+        "description": "If you search for \"best MCP gateway,\" you'll find plenty of articles ranking options by latency...",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "1 hour ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "I built an MCP server that forces AI to spec before it codes - DEV Community",
+        "url": "https://dev.to/hendryavila/i-built-an-mcp-server-that-forces-ai-to-spec-before-it-codes-236f",
+        "description": "I built an MCP server in Go that gives your AI persistent memory, structured specifications, and an...",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Why Model Context Protocol is suddenly on every executive agenda | CIO",
+        "url": "https://cio.com/article/4136548/why-model-context-protocol-is-suddenly-on-every-executive-agenda.html",
+        "description": "As AI agents begin operating across enterprise systems, MCP is emerging as the connective layer IT leaders can\u2019t afford to ignore.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Add and manage MCP servers in VS Code",
+        "url": "https://code.visualstudio.com/docs/copilot/customization/mcp-servers",
+        "description": "Use tools with agents \u00b7 Model Context Protocol Documentation \u00b7 MCP Apps support in VS Code \u00b7 02/04/2026",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "MCP server new tools integrations 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 0,
+    "opportunities": 5
+  },
+  "error": null
+}

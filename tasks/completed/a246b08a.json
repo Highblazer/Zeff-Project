@@ -1,0 +1,85 @@
+{
+  "id": "a246b08a",
+  "title": "Polymarket research: Spurs vs. Nets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spurs vs. Nets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:15.600320+00:00",
+  "updated_at": "2026-02-26T23:31:51.557628+00:00",
+  "claimed_at": "2026-02-26T23:31:50.189582+00:00",
+  "completed_at": "2026-02-26T23:31:51.557612+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spurs vs. Nets\n\nWeb Results (5):\n- Nets vs Spurs scores & predictions | Sofascore: Brooklyn Nets is playing against San Antonio Spurs on <strong>Feb 27, 2026 at 12:30:00 AM UTC</strong>.\n- Spurs 118-107 Nets (Oct 26, 2025) Final Score - ESPN: Game summary of the San Antonio Spurs vs. Brooklyn Nets NBA game, final score <strong>118-107</strong>, from October 26, 2025 on ESPN.\n- Long Island Nets vs. Birmingham Squadron - Game Highlights - OurSports Central: Clippers Lose Heartbreaker to Spurs in Overtime - San Diego Clippers \u00b7 Stars Grab Big Win out of All-Star Break over Oklahoma City Blue - Salt Lake Ci\n- Brooklyn Nets vs. San Antonio Spurs Live Score and Stats - October 26, 2025 Gametracker - CBS Sports: SAN ANTONIO (AP) Victor Wembanyama had 31 points, 14 rebounds and six blocks, and the San Antonio Spurs recovered after blowing a 26-point lead to bea\n- Spurs vs. Nets: Score, Video Highlights and Recap from Jan. 11: As if that isn&#x27;t enough, the Spurs are allowing the fewest points (89.7 PPG) in the league, which makes for a toxic combination for the Nets when\n\nNews (5):\n- Spurs vs. Nets odds, prediction, spread, time: 2026 NBA picks for Thursday, Feb. 26 from proven model (9 hours ago)\n- Game Preview: San Antonio Spurs vs. Brooklyn Nets | Pounding The Rock (16 hours ago)\n- What to Watch for in Brooklyn Nets vs. Spurs (12 hours ago)\n- Nets vs. Spurs game preview: How to watch, injuries, starting lineups - Yahoo Sports (7 hours ago)\n- Spurs vs Nets Prediction, Picks & Odds for Tonight\u2019s NBA Game (9 hours ago)",
+    "web_results": [
+      {
+        "title": "Nets vs Spurs scores & predictions | Sofascore",
+        "url": "https://www.sofascore.com/basketball/match/brooklyn-nets-san-antonio-spurs/EtbsLtb",
+        "description": "Brooklyn Nets is playing against San Antonio Spurs on <strong>Feb 27, 2026 at 12:30:00 AM UTC</strong>."
+      },
+      {
+        "title": "Spurs 118-107 Nets (Oct 26, 2025) Final Score - ESPN",
+        "url": "https://www.espn.com/nba/game/_/gameId/401809960/nets-spurs",
+        "description": "Game summary of the San Antonio Spurs vs. Brooklyn Nets NBA game, final score <strong>118-107</strong>, from October 26, 2025 on ESPN."
+      },
+      {
+        "title": "Long Island Nets vs. Birmingham Squadron - Game Highlights - OurSports Central",
+        "url": "https://www.oursportscentral.com/services/releases/long-island-nets-vs-birmingham-squadron--game-highlights/n-6327960",
+        "description": "Clippers Lose Heartbreaker to Spurs in Overtime - San Diego Clippers \u00b7 Stars Grab Big Win out of All-Star Break over Oklahoma City Blue - Salt Lake City Stars \u00b7 The opinions expressed in this article are those of the writer(s), and do not necessarily reflect the thoughts or opinions of OurSports Central or its staff. Nate Williams Earns Call-Up with Golden State Warriors \u00b7 Long Island Nets ..."
+      },
+      {
+        "title": "Brooklyn Nets vs. San Antonio Spurs Live Score and Stats - October 26, 2025 Gametracker - CBS Sports",
+        "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20251026_BKN@SA/",
+        "description": "SAN ANTONIO (AP) Victor Wembanyama had 31 points, 14 rebounds and six blocks, and the San Antonio Spurs recovered after blowing a 26-point lead to beat the Brooklyn Nets <strong>118-107</strong> on Sunday and remain unbeaten."
+      },
+      {
+        "title": "Spurs vs. Nets: Score, Video Highlights and Recap from Jan. 11",
+        "url": "https://bleacherreport.com/articles/2606943-spurs-vs-nets-score-video-highlights-and-recap-from-jan-11",
+        "description": "As if that isn&#x27;t enough, the Spurs are allowing the fewest points (89.7 PPG) in the league, which makes for a toxic combination for the Nets when added to their 29th-ranked offense (95.7 PPG)."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Spurs vs. Nets odds, prediction, spread, time: 2026 NBA picks for Thursday, Feb. 26 from proven model",
+        "url": "https://www.cbssports.com/nba/news/spurs-nets-odds-prediction-spread-time-2026-nba-picks-february-26/",
+        "description": "SportsLine's proven model has revealed its San Antonio Spurs vs. Brooklyn Nets NBA picks today",
+        "age": "9 hours ago"
+      },
+      {
+        "title": "Game Preview: San Antonio Spurs vs. Brooklyn Nets | Pounding The Rock",
+        "url": "https://www.poundingtherock.com/spurs-game-previews/95551/game-preview-san-antonio-spurs-vs-brooklyn-nets",
+        "description": "San Antonio looks to win its 11th straight on the second game of a back to back.",
+        "age": "16 hours ago"
+      },
+      {
+        "title": "What to Watch for in Brooklyn Nets vs. Spurs",
+        "url": "https://www.si.com/nba/nets/onsi/news/what-to-watch-for-in-brooklyn-nets-vs-spurs-feb-26",
+        "description": "The Brooklyn Nets will face off against the San Antonio Spurs for the second time this season, this time at home. The Nets fell to the Spurs 118-107 on Oct. 26,",
+        "age": "12 hours ago"
+      },
+      {
+        "title": "Nets vs. Spurs game preview: How to watch, injuries, starting lineups - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/nets-vs-spurs-game-preview-160912253.html",
+        "description": "Here is the game preview of the Brooklyn Nets' matchup against the San Antonio Spurs on Thursday.",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "Spurs vs Nets Prediction, Picks & Odds for Tonight\u2019s NBA Game",
+        "url": "https://www.covers.com/nba/spurs-vs-nets-prediction-picks-best-bets-sgp-thursday-2-26-2026",
+        "description": "Spurs vs. Nets predictions and NBA picks for Thursday, February 26. Expect enough scoring to clear the total.",
+        "age": "9 hours ago"
+      }
+    ],
+    "query": "Spurs vs. Nets",
+    "sources_count": 10
+  },
+  "error": null
+}

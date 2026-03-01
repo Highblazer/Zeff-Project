@@ -1,0 +1,28 @@
+{
+  "id": "3dcdad79",
+  "title": "Polymarket research: Hornets vs. Pacers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Hornets vs. Pacers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T03:24:51.399575+00:00",
+  "updated_at": "2026-02-27T03:24:56.765180+00:00",
+  "claimed_at": "2026-02-27T03:24:55.186932+00:00",
+  "completed_at": "2026-02-27T03:24:56.765162+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Hornets vs. Pacers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Hornets vs. Pacers",
+    "sources_count": 0
+  },
+  "error": null
+}

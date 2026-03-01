@@ -1,0 +1,85 @@
+{
+  "id": "c11d09e8",
+  "title": "Polymarket research: Will Jasmine Crockett win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Jasmine Crockett win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:09.486914+00:00",
+  "updated_at": "2026-02-26T23:34:53.710933+00:00",
+  "claimed_at": "2026-02-26T23:34:52.193359+00:00",
+  "completed_at": "2026-02-26T23:34:53.710916+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Jasmine Crockett win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- 2028 Democratic Presidential Power Rankings: The Ballad of Jasmine Chokeitt: It was only when she actually entered the race that things started to go wrong. With only a few weeks left to go before the actual primary, practicall\n- Should Jasmine Crockett be the 2028 Candidate? - Quora: Answer (1 of 7): If the Democrats are serious about the next presidency, they need to acknowledge reality. What recent elections have shown, especiall\n- Jasmine Crockett - Ballotpedia: Barbara Mallory Caraway (D), Frederick Haynes (D), and Rodney LaBruce (D) are running in the Democratic primary for U.S. House Texas District 30 on Ma\n- Jasmine Crockett up by double digits in Texas Senate Democratic primary poll: While the congresswoman outpaces Talarico on favorability \u2014 with 71 percent of Democratic voters viewing Crockett favorably and 59 percent viewing Tal\n- r/Defeat_Project_2025 on Reddit: As of now, I think Jasmine Crockett has the best chance of winning in 2028 if we start now.: I don\u2019t have any suggestions for a promising democratic nominee in 2028 yet. I hope with every atom of my being someone surfaces, though. ... Chris Mu\n\nNews (5):\n- Jasmine Crockett leads James Talarico by double digits in Senate Democratic primary, poll finds \u2013 Houston Public Media (1 day ago)\n- 2028 Democratic Presidential Power Rankings: The Ballad of Jasmine Chokeitt, Part II (3 days ago)\n- Jasmine Crockett up by double digits in Texas Senate Democratic primary poll (1 day ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- Crockett leads Talarico by double digits in Texas Senate poll (1 day ago)",
+    "web_results": [
+      {
+        "title": "2028 Democratic Presidential Power Rankings: The Ballad of Jasmine Chokeitt",
+        "url": "https://www.ettingermentum.news/p/2028-democratic-presidential-power-9bf",
+        "description": "It was only when she actually entered the race that things started to go wrong. With only a few weeks left to go before the actual primary, practically none of Crockett\u2019s strength as a representative of the Democratic Party has transferred into strength as an actual candidate."
+      },
+      {
+        "title": "Should Jasmine Crockett be the 2028 Candidate? - Quora",
+        "url": "https://www.quora.com/Should-Jasmine-Crockett-be-the-2028-Candidate",
+        "description": "Answer (1 of 7): If the Democrats are serious about the next presidency, they need to acknowledge reality. What recent elections have shown, especially the vitriol online surrounding them, is that the US voter population still will not accept a woman as President. This sucks. Hillary Clinton was..."
+      },
+      {
+        "title": "Jasmine Crockett - Ballotpedia",
+        "url": "https://ballotpedia.org/Jasmine_Crockett",
+        "description": "Barbara Mallory Caraway (D), Frederick Haynes (D), and Rodney LaBruce (D) are running in the Democratic primary for U.S. House Texas District 30 on March 3, 2026. ... The candidate list in this election may not be complete. Sholdon Daniels (R), Gregor Heise (R), Everett Jackson (R), and Nils Walker (R) are running in the Republican primary for U.S. House Texas District 30 on March 3, 2026. ... Crockett received the following endorsements. To send us additional endorsements, click here. ... Incumbent Jasmine Crockett defeated Jrmar Jefferson in the general election for U.S."
+      },
+      {
+        "title": "Jasmine Crockett up by double digits in Texas Senate Democratic primary poll",
+        "url": "https://thehill.com/homenews/campaign/5755382-jasmine-crockett-leads-texas-senate/",
+        "description": "While the congresswoman outpaces Talarico on favorability \u2014 with 71 percent of Democratic voters viewing Crockett favorably and 59 percent viewing Talarico favorably \u2014 more than a third of Democratic respondents say they don\u2019t know of or have strong feelings about Talarico."
+      },
+      {
+        "title": "r/Defeat_Project_2025 on Reddit: As of now, I think Jasmine Crockett has the best chance of winning in 2028 if we start now.",
+        "url": "https://www.reddit.com/r/Defeat_Project_2025/comments/1iz08d3/as_of_now_i_think_jasmine_crockett_has_the_best/",
+        "description": "I don\u2019t have any suggestions for a promising democratic nominee in 2028 yet. I hope with every atom of my being someone surfaces, though. ... Chris Murphy and Wes Moore are some good candidates that have the \u201cfight\u201d in them. ... I agree. I don&#x27;t think running a woman in 2028 is going to work. Which is so stupid. Honestly, I&#x27;d love Jamie Raskin to run. He&#x27;s pretty amazing. ... Yeah. He&#x27;s got similar politics to folks like Crockett (plus you could see him smirking when she cussed out MTG)."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Jasmine Crockett leads James Talarico by double digits in Senate Democratic primary, poll finds \u2013 Houston Public Media",
+        "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/02/25/544368/texas-senate-poll-crockett-talarico-university-of-texas-paxton-cornyn-hunt-2026/",
+        "description": "On the Republican side, Ken Paxton and John Cornyn were neck-and-neck and in position for a runoff, according to the poll from the University of Texas\u2019 Texas Politics Project.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "2028 Democratic Presidential Power Rankings: The Ballad of Jasmine Chokeitt, Part II",
+        "url": "https://www.ettingermentum.news/p/2028-democratic-presidential-power-1c4",
+        "description": "Going through the top five of the Democratic presidential field as the liberal base slowly backs away from the abyss.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Jasmine Crockett up by double digits in Texas Senate Democratic primary poll",
+        "url": "https://thehill.com/homenews/campaign/5755382-jasmine-crockett-leads-texas-senate/",
+        "description": "Rep. Jasmine Crockett (D-Texas) holds a double-digit lead over her opponent in a hypothetical Democratic primary for U.S. Senate in Texas, according to a survey released this week. The two-week Uni\u2026",
+        "age": "1 day ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Crockett leads Talarico by double digits in Texas Senate poll",
+        "url": "https://www.texastribune.org/2026/02/25/texas-senate-poll-crockett-talarico-university-of-texas-paxton-cornyn-hunt-2026/",
+        "description": "On the Republican side, Ken Paxton and John Cornyn were neck-and-neck and in position for a runoff, according to the poll from the University of Texas\u2019 Texas Politics Project.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Jasmine Crockett win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

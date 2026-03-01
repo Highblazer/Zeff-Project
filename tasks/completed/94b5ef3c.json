@@ -1,0 +1,28 @@
+{
+  "id": "94b5ef3c",
+  "title": "Polymarket research: Israel strikes Iran by February 28, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Israel strikes Iran by February 28, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T06:44:32.480530+00:00",
+  "updated_at": "2026-02-27T06:44:40.123682+00:00",
+  "claimed_at": "2026-02-27T06:44:38.499681+00:00",
+  "completed_at": "2026-02-27T06:44:40.123664+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Israel strikes Iran by February 28, 2026?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Israel strikes Iran by February 28, 2026?",
+    "sources_count": 0
+  },
+  "error": null
+}

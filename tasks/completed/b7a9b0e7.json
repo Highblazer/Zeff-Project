@@ -1,0 +1,128 @@
+{
+  "id": "b7a9b0e7",
+  "title": "machine learning infrastructure trends 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "machine learning infrastructure trends 2026",
+    "category": "landscape"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-02-26T22:37:04.575099+00:00",
+  "updated_at": "2026-02-26T22:37:05.969552+00:00",
+  "claimed_at": "2026-02-26T22:37:04.581672+00:00",
+  "completed_at": "2026-02-26T22:37:05.969536+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: machine learning infrastructure trends 2026\n\nFindings (9):\n- [market_mover] 10 AI and machine learning trends to watch in 2026 | TechTarget (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [tech_upgrade] Artificial Intelligence News -- ScienceDaily (action=0.45, impact=0.2)\n  \u2192 LOG for awareness\n- [tech_upgrade] 10 Machine Learning Trends to Watch Out for in 2026 and Beyond (action=0.4, impact=0.2)\n  \u2192 LOG for awareness\n- [tech_upgrade] Emerging Trends That Will Shape AI and Technology in 2026 (action=0.4, impact=0.2)\n  \u2192 LOG for awareness\n- [landscape] Machine Learning Trends 2026: What C-Suite Leaders Must Prioritize Now (action=0.35, impact=0.26)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "10 AI and machine learning trends to watch in 2026 | TechTarget",
+        "url": "https://www.techtarget.com/searchenterpriseai/tip/9-top-AI-and-machine-learning-trends",
+        "description": "Expect a <strong>renewed emphasis on data center power and cooling energy efficiency</strong> in 2026 and beyond, especially for AI-optimized data centers. This renewed attention to green computing must address issues of energy-efficient hardware, energy ...",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Artificial Intelligence News -- ScienceDaily",
+        "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+        "description": "Artificial Intelligence News. Everything on AI including futuristic robots with artificial intelligence, computer models of human intelligence and more.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.45,
+        "impact_score": 0.2,
+        "combined_score": 0.32,
+        "age": "17 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "10 Machine Learning Trends to Watch Out for in 2026 and Beyond",
+        "url": "https://softteco.com/blog/machine-learning-trends",
+        "description": "Learn about the biggest machine learning trends to expect in 2026, like Agentic AI, MLOps, LLMOps, AgentOps, explainable AI, and others.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "1 month ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Emerging Trends That Will Shape AI and Technology in 2026",
+        "url": "https://acldigital.com/blogs/emerging-trends-that-will-shape-ai-and-technology-in-2026",
+        "description": "Explore ACL Digital\u2019s latest blog on AI and technology trends for 2026, covering AI agents, quantum computing, Web3, robotics, and geopatriation.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Machine Learning Trends 2026: What C-Suite Leaders Must Prioritize Now",
+        "url": "https://appinventiv.com/blog/machine-learning-trends/",
+        "description": "The priority for 2026 is clear. <strong>Identify time-critical processes, classify where edge is essential, and pilot focused deployments</strong>. This is where the latest trends in machine learning translate into operational resilience, not experimentation.",
+        "category": "landscape",
+        "actionability_score": 0.35,
+        "impact_score": 0.26,
+        "combined_score": 0.3,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Cloud Infrastructure Market Size to Surpass USD 923.05 Billion by 2035 Driven by AI Workloads and Hybrid Cloud Adoption",
+        "url": "https://globenewswire.com/news-release/2026/02/26/3245374/0/en/Cloud-Infrastructure-Market-Size-to-Surpass-USD-923-05-Billion-by-2035-Driven-by-AI-Workloads-and-Hybrid-Cloud-Adoption.html",
+        "description": "The global cloud infrastructure market size was evaluated at USD 294.99 billion in 2025 and is predicted to surpass around USD 923.05 billion by 2035,...",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.26,
+        "combined_score": 0.28,
+        "age": "11 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Data Analytics Market Forecasted to Reach USD 785.62 Billion by 2035 Driven by AI, ML, and Real-Time Intelligence",
+        "url": "https://globenewswire.com/news-release/2026/02/24/3243617/0/en/Data-Analytics-Market-Forecasted-to-Reach-USD-785-62-Billion-by-2035-Driven-by-AI-ML-and-Real-Time-Intelligence.html",
+        "description": "According to Precedence Research, the global data analytics market size will grow from USD 83.79 billion in 2026 to nearly USD 785.62 billion by 2035,...",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.26,
+        "combined_score": 0.28,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Five Trends in AI and Data Science for 2026 | Thomas H. Davenport and Randy Bean | MIT Sloan Management Review",
+        "url": "https://sloanreview.mit.edu/article/five-trends-in-ai-and-data-science-for-2026/",
+        "description": "MIT SMR columnists Thomas H. Davenport and Randy Bean see five AI trends to pay attention to in 2026: deflation of the AI bubble and subsequent hits to the economy; <strong>growth of the \u201cfactory\u201d infrastructure for all-in AI adapters</strong>; greater focus ...",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Data Center World 2026 | Data Center Frontier",
+        "url": "https://www.datacenterfrontier.com/machine-learning/event/55360115/data-center-world-2026",
+        "description": "AI / Machine Learning \u00b7 The theme of Data Center World 2026 is &quot;Innovation at Scale.&quot; Dates: April 20, 2026 - April 23, 2026 \u00b7 Website:https://datacenterworld.com/ Address: Washington, D.C. US \u00b7 Data Center World/Informa \u00b7 The AI revolution has ignited the fastest infrastructure expansion ",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "machine learning infrastructure trends 2026",
+    "sources_count": 10,
+    "findings_count": 9,
+    "market_movers": 1,
+    "opportunities": 0
+  },
+  "error": null
+}

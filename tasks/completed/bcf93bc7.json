@@ -1,0 +1,85 @@
+{
+  "id": "bcf93bc7",
+  "title": "Polymarket research: Mexican Open: Flavio Cobolli vs Frances Tiafoe",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Mexican Open: Flavio Cobolli vs Frances Tiafoe",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:28:41.089115+00:00",
+  "updated_at": "2026-03-01T08:29:00.428834+00:00",
+  "claimed_at": "2026-03-01T08:28:58.721088+00:00",
+  "completed_at": "2026-03-01T08:29:00.428820+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Mexican Open: Flavio Cobolli vs Frances Tiafoe\n\nWeb Results (5):\n- Frances Tiafoe vs. Flavio Cobolli prediction, pick for 2026 Mexican Open Final: The match begins at 10 p.m. ET in Acapulco, Mexico. <strong>Tiafoe is a -125 favorite to win, while Cobolli is +103 to pull off the upset</strong>. Th\n- Frances Tiafoe vs Flavio Cobolli Final Preview: Head-to-Head, Prediction for Mexican Open, Acapulco 2026: <strong>The final of the 2026 Mexican Open will be played between the eighth-seeded Frances Tiafoe, who will take on the fifth-seeded Flavio Cobolli</\n- Flavio Cobolli vs Frances Tiafoe final live streaming, TV channel, where & how to watch: ATP Mexico Open 2026: <strong>Flavio Cobolli faces Frances Tiafoe in the Mexico Open 2026 final</strong>, with both players seeking their first title of the season. Cobolli\n- Flavio Cobolli vs. Frances Tiafoe: Prediction, Where to Watch: Frances Tiafoe finished the 2025 ... Credit: All-Pro Reels) ... World No. 20 <strong>Flavio Cobolli faces No. 28 Frances Tiafoe tonight in the final o\n- Frances Tiafoe vs Flavio Cobolli final preview, head-to-head, prediction, odds, pick, and betting tips | Mexican Open 2026: The Serb won the second set, but there was no stopping the Italian, and he ended up winning 7-6(5), 3-6, 6-4 to reach his third ATP 500 singles final.\n\nNews (5):\n- Frances Tiafoe vs. Flavio Cobolli prediction, pick for 2026 Mexican Open Final (10 hours ago)\n- Frances Tiafoe vs Flavio Cobolli Final Preview: Head-to-Head, Prediction for Mexican Open, Acapulco 2026 (1 day ago)\n- Flavio Cobolli vs Frances Tiafoe final live streaming, TV channel, where & how to watch: ATP Mexico Open 2026 (7 hours ago)\n- Mexican Open 2026: Cobolli downs Tiafoe in straight sets to claim title - Sportstar (2 hours ago)\n- Tennis, ATP \u2013 Abierto Mexicano Telcel presentado por HSBC 2026: Tiafoe takes out Nakashima - Tennis Majors (1 day ago)",
+    "web_results": [
+      {
+        "title": "Frances Tiafoe vs. Flavio Cobolli prediction, pick for 2026 Mexican Open Final",
+        "url": "https://dknetwork.draftkings.com/2026/02/28/frances-tiafoe-vs-flavio-cobolli-prediction-pick-for-2026-mexican-open-final/",
+        "description": "The match begins at 10 p.m. ET in Acapulco, Mexico. <strong>Tiafoe is a -125 favorite to win, while Cobolli is +103 to pull off the upset</strong>. This is my best bet to target on DraftKings Sportsbook for the Tiafoe vs."
+      },
+      {
+        "title": "Frances Tiafoe vs Flavio Cobolli Final Preview: Head-to-Head, Prediction for Mexican Open, Acapulco 2026",
+        "url": "https://www.profootballnetwork.com/tennis/frances-tiafoe-flavio-cobolli-final-mexican-open-prediction/",
+        "description": "<strong>The final of the 2026 Mexican Open will be played between the eighth-seeded Frances Tiafoe, who will take on the fifth-seeded Flavio Cobolli</strong>. This is the first final for both players this season, as they have played a high level of tennis for ..."
+      },
+      {
+        "title": "Flavio Cobolli vs Frances Tiafoe final live streaming, TV channel, where & how to watch: ATP Mexico Open 2026",
+        "url": "https://khelnow.com/tennis/where-to-watch-flavio-cobolli-vs-frances-tiafoe-final-202603",
+        "description": "<strong>Flavio Cobolli faces Frances Tiafoe in the Mexico Open 2026 final</strong>, with both players seeking their first title of the season. Cobolli\u2019s strong recent form meets Tiafoe\u2019s experience as they renew their rivalry in Acapulco."
+      },
+      {
+        "title": "Flavio Cobolli vs. Frances Tiafoe: Prediction, Where to Watch",
+        "url": "https://globelynews.com/sports/flavio-cobolli-vs-frances-tiafoe-prediction-where-to-watch/",
+        "description": "Frances Tiafoe finished the 2025 ... Credit: All-Pro Reels) ... World No. 20 <strong>Flavio Cobolli faces No. 28 Frances Tiafoe tonight in the final of the 2026 Mexico Open in Acapulco</strong>...."
+      },
+      {
+        "title": "Frances Tiafoe vs Flavio Cobolli final preview, head-to-head, prediction, odds, pick, and betting tips | Mexican Open 2026",
+        "url": "https://www.sportskeeda.com/tennis/frances-tiafoe-vs-flavio-cobolli-final-preview-head-to-head-prediction-odds-pick-betting-tips-mexican-open-2026",
+        "description": "The Serb won the second set, but there was no stopping the Italian, and he ended up winning 7-6(5), 3-6, 6-4 to reach his third ATP 500 singles final. ... <strong>Tiafoe holds a 2-0 head-to-head lead over Cobolli</strong>, having beaten him in straight sets ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Frances Tiafoe vs. Flavio Cobolli prediction, pick for 2026 Mexican Open Final",
+        "url": "https://dknetwork.draftkings.com/2026/02/28/frances-tiafoe-vs-flavio-cobolli-prediction-pick-for-2026-mexican-open-final/",
+        "description": "Blake Krass breaks down his best bet for the 2026 Mexican Open Final between Frances Tiafoe and Flavio Cobolli.",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "Frances Tiafoe vs Flavio Cobolli Final Preview: Head-to-Head, Prediction for Mexican Open, Acapulco 2026",
+        "url": "https://www.profootballnetwork.com/tennis/frances-tiafoe-flavio-cobolli-final-mexican-open-prediction/",
+        "description": "Here's the detailed preview of the final match between Frances Tiafoe and Flavio Cobolli at the 2026 Mexican Open.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Flavio Cobolli vs Frances Tiafoe final live streaming, TV channel, where & how to watch: ATP Mexico Open 2026",
+        "url": "https://khelnow.com/tennis/where-to-watch-flavio-cobolli-vs-frances-tiafoe-final-202603",
+        "description": "In the backdrop of a chaotic war and an ongoing armed conflict between the Mexican government and various drug trafficking syndicates, the Mexican Open 2026 competition finally awaits its winner. A new champion will be crowned, as fifth seed Flavio Cobolli will play eighth seed Frances Tiafoe.",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "Mexican Open 2026: Cobolli downs Tiafoe in straight sets to claim title - Sportstar",
+        "url": "https://sportstar.thehindu.com/tennis/cobolli-wins-mexican-open-2026-title-tiafoe-final-highlights-score-atp-career-news/article70690895.ece",
+        "description": "Italy\u2019s Flavio Cobolli defeated Frances Tiafoe of the United States in straight sets to claim the third ATP Tour title of his career at the Mexican Open in Acapulco on Saturday.",
+        "age": "2 hours ago"
+      },
+      {
+        "title": "Tennis, ATP \u2013 Abierto Mexicano Telcel presentado por HSBC 2026: Tiafoe takes out Nakashima - Tennis Majors",
+        "url": "https://www.tennismajors.com/atp/cobolli-and-tiafoe-to-clash-for-acapulco-glory-after-semi-final-thrillers-845499.html",
+        "description": "In a night of grinding attrition and high-stakes drama, Flavio Cobolli and Frances Tiafoe emerged from grueling three-set battles to secure their places in the 2026 in the Acapulco final.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Mexican Open: Flavio Cobolli vs Frances Tiafoe",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,138 @@
+{
+  "id": "1f52b7a2",
+  "title": "Anthropic Claude new features tools agents 2026",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Anthropic Claude new features tools agents capabilities 2026 update",
+    "count": 10
+  },
+  "priority": 2,
+  "status": "completed",
+  "created_by": "seth-ceo",
+  "created_at": "2026-02-25T21:48:48.198871+00:00",
+  "updated_at": "2026-02-25T21:49:22.179333+00:00",
+  "claimed_at": "2026-02-25T21:49:20.363533+00:00",
+  "completed_at": "2026-02-25T21:49:22.179319+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Anthropic Claude new features tools agents capabilities 2026 update\n\nWeb Results (10):\n- Anthropic Release Notes - February 2026 Latest Updates - Releasebot: Fixed read-only git commands triggering FSEvents file watcher loops on macOS by adding --no-optional-locks flag (anthropics/claude-code#25750) Fixed c\n- Claude Developer Platform - Claude API Docs: We&#x27;ve launched <strong>Agent Skills (skills-2025-10-02 beta),</strong> a new way to extend Claude&#x27;s capabilities. Skills are organized folde\n- Anthropic updates Claude Cowork tool built to give the average office worker a productivity boost: Starting Tuesday, organizations will be able to <strong>connect Claude Cowork to their existing tools like Google Drive, Gmail, DocuSign and FactSet</\n- Anthropic Pushes Claude Beyond Chat Into Enterprise Workflows | PYMNTS.com: New templates include <strong>agents for HR, design, engineering and operations, plus more specialized agents for financial analysis, investment banki\n- Anthropic: We\u2019ve added three new beta features ... seamlessly across hundreds or thousands of tools. <strong>An IDE assistant that integrates git operations, fil\n- Anthropic Expands Claude With Enterprise Plugins and Marketplace - gHacks Tech News: Anthropic has launched a new set of enterprise capabilities for its Claude AI platform, introducing <strong>department-specific plugins, custom plugin\n- Claude by Anthropic - Release Notes - February 2026 Latest Updates - Releasebot: Claude introduces Cowork desktop preview on macOS, bringing Code\u2019s agentic capabilities to knowledge work with local VM access.\n- Claude Code by Anthropic - Release Notes - February 2026 Latest Updates - Releasebot: Fixed compaction failing when ... to the compaction API (anthropics/claude-code#26188) <strong>Improved memory usage in long-running sessions by relea\n- Anthropic says Claude Code transformed programming. Now Claude Cowork is coming for the rest of the enterprise. | VentureBeat: Anthropic is making its boldest enterprise push yet with Claude Cowork, rolling out <strong>private plug-in marketplaces, deep integrations, and AI ag\n- Anthropic releases Opus 4.6 with new 'agent teams' | TechCrunch: The new version of Opus also <strong>integrates Claude directly into PowerPoint as an accessible side panel</strong>. This is a step up from PowerPoin\n\nNews (10):\n- Anthropic updates Claude Cowork tool built to give the average office worker a productivity boost (1 day ago)\n- Claude Developer Platform - Claude API Docs (5 hours ago)\n- Anthropic says Claude Code transformed programming. Now Claude Cowork is coming for the rest of the enterprise. | VentureBeat (1 day ago)\n- Anthropic launches new push for enterprise agents with plug-ins for finance, engineering, and design | TechCrunch (1 day ago)\n- Anthropic Targets More Industries With Claude Cowork Plugins (1 day ago)\n- Anthropic targets core business systems with new Claude plug-ins | CIO (18 hours ago)\n- Anthropic\u2019s Claude Cowork is plugging AI into more boring enterprise stuff | The Verge (1 day ago)\n- Anthropic Expands Enterprise AI Arsenal With Autonomous Tools Ahead Of Widely Expected IPO (4 hours ago)\n- Anthropic Expands Claude With Enterprise Plugins and Marketplace - gHacks Tech News (11 hours ago)\n- Anthropic is doubling down on the tech that raised questions about AI coming for office jobs | CNN Business (1 day ago)",
+    "web_results": [
+      {
+        "title": "Anthropic Release Notes - February 2026 Latest Updates - Releasebot",
+        "url": "https://releasebot.io/updates/anthropic",
+        "description": "Fixed read-only git commands triggering FSEvents file watcher loops on macOS by adding --no-optional-locks flag (anthropics/claude-code#25750) Fixed custom agents and skills not being discovered when running from a git worktree \u2014 project-level .claude/agents/ and .claude/skills/ from the main repository are now included (anthropics/claude-code#25816)"
+      },
+      {
+        "title": "Claude Developer Platform - Claude API Docs",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "description": "We&#x27;ve launched <strong>Agent Skills (skills-2025-10-02 beta),</strong> a new way to extend Claude&#x27;s capabilities. Skills are organized folders of instructions, scripts, and resources that Claude loads dynamically to perform specialized tasks."
+      },
+      {
+        "title": "Anthropic updates Claude Cowork tool built to give the average office worker a productivity boost",
+        "url": "https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html",
+        "description": "Starting Tuesday, organizations will be able to <strong>connect Claude Cowork to their existing tools like Google Drive, Gmail, DocuSign and FactSet</strong>. They can also deploy customizable plugins across domains like financial analysis, engineering and human ..."
+      },
+      {
+        "title": "Anthropic Pushes Claude Beyond Chat Into Enterprise Workflows | PYMNTS.com",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-pushes-claude-beyond-chat-into-enterprise-workflows/",
+        "description": "New templates include <strong>agents for HR, design, engineering and operations, plus more specialized agents for financial analysis, investment banking, equity research, private equity and wealth management</strong>."
+      },
+      {
+        "title": "Anthropic",
+        "url": "https://www.anthropic.com/engineering/advanced-tool-use",
+        "description": "We\u2019ve added three new beta features ... seamlessly across hundreds or thousands of tools. <strong>An IDE assistant that integrates git operations, file manipulation, package managers, testing frameworks, and deployment pipelines</strong>...."
+      },
+      {
+        "title": "Anthropic Expands Claude With Enterprise Plugins and Marketplace - gHacks Tech News",
+        "url": "https://www.ghacks.net/2026/02/25/anthropic-expands-claude-with-enterprise-plugins-and-marketplace/",
+        "description": "Anthropic has launched a new set of enterprise capabilities for its Claude AI platform, introducing <strong>department-specific plugins, custom plugin development tools, and a marketplace aimed at business customers</strong>."
+      },
+      {
+        "title": "Claude by Anthropic - Release Notes - February 2026 Latest Updates - Releasebot",
+        "url": "https://releasebot.io/updates/anthropic/claude",
+        "description": "Claude introduces Cowork desktop preview on macOS, bringing Code\u2019s agentic capabilities to knowledge work with local VM access."
+      },
+      {
+        "title": "Claude Code by Anthropic - Release Notes - February 2026 Latest Updates - Releasebot",
+        "url": "https://releasebot.io/updates/anthropic/claude-code",
+        "description": "Fixed compaction failing when ... to the compaction API (anthropics/claude-code#26188) <strong>Improved memory usage in long-running sessions by releasing API stream buffers, agent context, and skill state after use</strong> \u00b7 Improved startup performance by deferring SessionStart hook ..."
+      },
+      {
+        "title": "Anthropic says Claude Code transformed programming. Now Claude Cowork is coming for the rest of the enterprise. | VentureBeat",
+        "url": "https://venturebeat.com/orchestration/anthropic-says-claude-code-transformed-programming-now-claude-cowork-is",
+        "description": "Anthropic is making its boldest enterprise push yet with Claude Cowork, rolling out <strong>private plug-in marketplaces, deep integrations, and AI agent tools</strong> that are reshaping corporate adoption and rattling software markets."
+      },
+      {
+        "title": "Anthropic releases Opus 4.6 with new 'agent teams' | TechCrunch",
+        "url": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/",
+        "description": "The new version of Opus also <strong>integrates Claude directly into PowerPoint as an accessible side panel</strong>. This is a step up from PowerPoint\u2019s previous integration with the chatbot. Previously, a user could tell Claude to create a PowerPoint deck, ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Anthropic updates Claude Cowork tool built to give the average office worker a productivity boost",
+        "url": "https://cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html",
+        "description": "Companies can connect Claude Cowork to existing tools like Google Drive, Gmail and DocuSign.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Claude Developer Platform - Claude API Docs",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "description": "Updates to the Claude Developer Platform, including the Claude API, client SDKs, and the Claude Console.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Anthropic says Claude Code transformed programming. Now Claude Cowork is coming for the rest of the enterprise. | VentureBeat",
+        "url": "https://venturebeat.com/orchestration/anthropic-says-claude-code-transformed-programming-now-claude-cowork-is",
+        "description": "Anthropic is making its boldest enterprise push yet with Claude Cowork, rolling out private plug-in marketplaces, deep integrations, and AI agent tools that are reshaping corporate adoption and rattling software markets.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Anthropic launches new push for enterprise agents with plug-ins for finance, engineering, and design | TechCrunch",
+        "url": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design",
+        "description": "It's a major opportunity to grow Anthropic\u2019s enterprise client base \u2014 and a significant threat to SaaS products currently performing those functions.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Anthropic Targets More Industries With Claude Cowork Plugins",
+        "url": "https://aibusiness.com/agentic-ai/anthropic-targets-more-industries-with-plugins",
+        "description": "The update to Claude Cowork gives admins the ability to set up their own plugins and provides new prebuilt ones for specific industries.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Anthropic targets core business systems with new Claude plug-ins | CIO",
+        "url": "https://cio.com/article/4137146/anthropic-targets-core-business-systems-with-new-claude-plug-ins.html",
+        "description": "New integrations connect Claude to finance, HR, and engineering tools, as CIOs assess productivity gains against governance and data security risks.",
+        "age": "18 hours ago"
+      },
+      {
+        "title": "Anthropic\u2019s Claude Cowork is plugging AI into more boring enterprise stuff | The Verge",
+        "url": "https://theverge.com/ai-artificial-intelligence/883707/anthropic-claude-cowork-updates",
+        "description": "Anthropic has released new tools for its Claude Cowork platform, including new plugins and connectors, in its latest push into AI agents.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Anthropic Expands Enterprise AI Arsenal With Autonomous Tools Ahead Of Widely Expected IPO",
+        "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-claude-enterprise-ai-tools-software-cybersecurity-hr-investment-banking/cZRyaCIRIGk",
+        "description": "The San Francisco-based AI startup announced 10 new capabilities for enterprise customers to use its technology across functions such as coding, cybersecurity, human resources, and investment banking, among others.",
+        "age": "4 hours ago"
+      },
+      {
+        "title": "Anthropic Expands Claude With Enterprise Plugins and Marketplace - gHacks Tech News",
+        "url": "https://www.ghacks.net/2026/02/25/anthropic-expands-claude-with-enterprise-plugins-and-marketplace/",
+        "description": "Anthropic expands Claude with new plugins, and new enterprise integrations that deepen its role in business workflows.",
+        "age": "11 hours ago"
+      },
+      {
+        "title": "Anthropic is doubling down on the tech that raised questions about AI coming for office jobs | CNN Business",
+        "url": "https://cnn.com/2026/02/24/tech/anthropic-claude-plugins-office-jobs",
+        "description": "Just weeks after its AI tools shook software stocks, Anthropic is pushing even deeper into the workplace. The company is updating its Claude AI helper to perform better at tasks within specific jobs, such as design, human resources and wealth management roles, while also enabling it to work ...",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Anthropic Claude new features tools agents capabilities 2026 update",
+    "sources_count": 20
+  },
+  "error": null
+}

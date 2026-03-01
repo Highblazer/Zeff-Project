@@ -1,0 +1,85 @@
+{
+  "id": "7c90ab53",
+  "title": "Polymarket research: Will Uzbekistan win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Uzbekistan win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:37:24.821952+00:00",
+  "updated_at": "2026-02-26T23:37:31.615757+00:00",
+  "claimed_at": "2026-02-26T23:37:30.160696+00:00",
+  "completed_at": "2026-02-26T23:37:31.615736+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Uzbekistan win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- 2026 FIFA World Cup - Wikipedia: Cape Verde, Cura\u00e7ao, Jordan, and <strong>Uzbekistan will all make their World Cup debuts</strong>. Argentina is the defending champion, having won its\n- Uzbekistan at the FIFA World Cup - Wikipedia: <strong>Uzbekistan will appear in the finals of the FIFA World Cup for the first time in 2026</strong>. On 5 June 2025, they qualified for the finals \n- Uzbekistan qualify for the first time | FIFA World Cup 26: We cannot provide a description for this page right now\n- Uzbekistan World Cup history, records and 2026 fixtures: We cannot provide a description for this page right now\n- r/soccer on Reddit: Uzbekistan have qualified to the 2026 FIFA World Cup, it will be their first ever appearance at the tournament!: <strong>Uzbekistan have qualified for the 2026 World Cup</strong>, meaning that the trend of at least one newbie at every single single tournament, go\n\nNews (5):\n- FIFA issue statement on relocating 2026 World Cup matches (2 days ago)\n- Portugal vs Uzbekistan Tickets: Portugal Ready for Thrilling World Cup Clash with White Wolves - FIFA World Cup Tickets | Soccer World Cup Tickets | FIFA 2026 Tickets | FIFA 2026 Hospitality | FIFA World Cup 2026 Tickets | Rugby World Cup Tickets | FIFA World Cup Semi Final Tickets | T20 World Cup 2026 Tickets | Rugby World Cup 2027 Tickets (19 hours ago)\n- FIFA World Cup schedule 2026: Complete match dates, times, team fixtures for soccer tournament | Sporting News (2 days ago)\n- Uzbekistan Vs Colombia Tickets: FIFA Series 2026 Match Schedule Set for Uzbekistan (2 days ago)\n- FIFA Needs to Call Full Time on Discrimination | Human Rights Watch (3 days ago)",
+    "web_results": [
+      {
+        "title": "2026 FIFA World Cup - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+        "description": "Cape Verde, Cura\u00e7ao, Jordan, and <strong>Uzbekistan will all make their World Cup debuts</strong>. Argentina is the defending champion, having won its third World Cup title in 2022. The general idea of expanding the tournament had been suggested as early as 2013 by then UEFA president Michel Platini, and also ..."
+      },
+      {
+        "title": "Uzbekistan at the FIFA World Cup - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Uzbekistan_at_the_FIFA_World_Cup",
+        "description": "<strong>Uzbekistan will appear in the finals of the FIFA World Cup for the first time in 2026</strong>. On 5 June 2025, they qualified for the finals for the first time after an 0\u20130 away draw over the United Arab Emirates. This makes Uzbekistan the first Central Asian nation, as well as the third former Soviet ..."
+      },
+      {
+        "title": "Uzbekistan qualify for the first time | FIFA World Cup 26",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/uzbekistan-qualify-first-tournament",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Uzbekistan World Cup history, records and 2026 fixtures",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/uzbekistan-team-profile-history",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "r/soccer on Reddit: Uzbekistan have qualified to the 2026 FIFA World Cup, it will be their first ever appearance at the tournament!",
+        "url": "https://www.reddit.com/r/soccer/comments/1l4617v/uzbekistan_have_qualified_to_the_2026_fifa_world/",
+        "description": "<strong>Uzbekistan have qualified for the 2026 World Cup</strong>, meaning that the trend of at least one newbie at every single single tournament, going all the way back to 1930, shall carry on ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "FIFA issue statement on relocating 2026 World Cup matches",
+        "url": "https://www.sportbible.com/football/football-news/fifa-statement-relocate-world-cup-matches-234586-20260224",
+        "description": "The 2026 World Cup will take place across Mexico, Canada and the United States of America.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Portugal vs Uzbekistan Tickets: Portugal Ready for Thrilling World Cup Clash with White Wolves - FIFA World Cup Tickets | Soccer World Cup Tickets | FIFA 2026 Tickets | FIFA 2026 Hospitality | FIFA World Cup 2026 Tickets | Rugby World Cup Tickets | FIFA World Cup Semi Final Tickets | T20 World Cup 2026 Tickets | Rugby World Cup 2027 Tickets",
+        "url": "https://blog.eticketing.co/portugal-vs-uzbekistan-tickets-portugal-ready-for-thrilling-world-cup-clash-with-white-wolves/",
+        "description": "Portugal vs Uzbekistan Tickets | Soccer World Cup Tickets | World Cup Tickets | FIFA World Cup Tickets | FIFA 2026 Tickets",
+        "age": "19 hours ago"
+      },
+      {
+        "title": "FIFA World Cup schedule 2026: Complete match dates, times, team fixtures for soccer tournament | Sporting News",
+        "url": "https://sportingnews.com/us/soccer/news/world-cup-2026-schedule-fixtures/bd2ffea0a515a899ed06abdd",
+        "description": "The World Cup is going big for the 2026 edition of soccer's most illustrious tournament, expanding to 48 teams for the first time ever in the joint-hosted tournament held in USA, Canada, and Mexico.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Uzbekistan Vs Colombia Tickets: FIFA Series 2026 Match Schedule Set for Uzbekistan",
+        "url": "https://blog.worldwideticketsandhospitality.com/uzbekistan-vs-colombia-tickets-fifa-series-2026-match-schedule-set-for-uzbekistan/",
+        "description": "In Colombia FIFA World Cup Tickets, ... Cup Tickets General Keywords, Football World Cup 2026 Tickets, Football World Cup Final Tickets, Football World Cup Tickets, Portugal FIFA World Cup Tickets, Portugal vs Uzbekistan Tickets, Soccer World Cup Tickets, Uzbekistan FIFA World ...",
+        "age": "2 days ago"
+      },
+      {
+        "title": "FIFA Needs to Call Full Time on Discrimination | Human Rights Watch",
+        "url": "https://www.hrw.org/news/2026/02/24/fifa-needs-to-call-full-time-on-discrimination",
+        "description": "Just months before the 2026 FIFA World Cup kicks off, the world of football is again rocked by cases of discrimination both off and on the pitch.",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will Uzbekistan win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

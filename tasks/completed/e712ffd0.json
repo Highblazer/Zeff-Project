@@ -1,0 +1,85 @@
+{
+  "id": "e712ffd0",
+  "title": "Polymarket research: Will George Clooney win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:17.944817+00:00",
+  "updated_at": "2026-02-26T23:32:42.638991+00:00",
+  "claimed_at": "2026-02-26T23:32:40.599979+00:00",
+  "completed_at": "2026-02-26T23:32:42.638974+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will George Clooney win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- George Clooney Shares Who He Thinks Should Be 2028 Democratic Presidential Nominee: 'We Have to Find Somebody Soon': Questioned by Tapper about who Clooney has his &quot;eyes on,&quot; the Ocean&#x27;s Eleven star listed several contenders while predicting Maryland G\n- Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket: <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president</str\n- George Clooney praises Maryland's Wes Moore for 2028: 'He's a proper leader': Actor <strong>George Clooney praised Maryland Gov. Wes Moore (D) as a strong contender for the 2028 Democratic presidential nomination</strong> as the\n- Democrats could do worse than George Clooney for 2028 - Bleeding Heartland: He went on to state what so many Democrats thought but were too timid to say publicly: \u201cI saw Biden three weeks ago at my fundraiser for him. It\u2019s dev\n- George Clooney reveals which Dem he thinks can retake White House in 2028, \u2018He\u2019s a proper leader\u2019 | Hindustan Times: <strong>George Clooney has argued that Maryland Gov. Wes Moore is separating himself from the group of potential Democratic 2028 presidential contende\n\nNews (5):\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (14 hours ago)\n- The next 2 years will be a bumpy ride for Democratic presidential candidates (1 day ago)\n- Presidential election, 2028 - Ballotpedia (1 day ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)\n- George Clooney says there should have been a Democratic primary after Biden dropped out | CNN Politics (April 16, 2025)",
+    "web_results": [
+      {
+        "title": "George Clooney Shares Who He Thinks Should Be 2028 Democratic Presidential Nominee: 'We Have to Find Somebody Soon'",
+        "url": "https://okmagazine.com/p/george-clooney-predicts-2028-democratic-presidential-nominee/",
+        "description": "Questioned by Tapper about who Clooney has his &quot;eyes on,&quot; the Ocean&#x27;s Eleven star listed several contenders while predicting Maryland Governor Wes Moore could be a strong frontrunner for the next presidential election&#x27;s Democratic nominee."
+      },
+      {
+        "title": "Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028/will-george-clooney-win-the-2028-democratic-presidential-nomination",
+        "description": "<strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president</strong>. Otherwise, this market will resolve to \u201cNo\u201d. The resolution source for this market will be a consensus ..."
+      },
+      {
+        "title": "George Clooney praises Maryland's Wes Moore for 2028: 'He's a proper leader'",
+        "url": "https://thehill.com/blogs/in-the-know/5254307-clooney-praises-marylands-wes-moore-with-eye-on-2028-hes-a-proper-leader/",
+        "description": "Actor <strong>George Clooney praised Maryland Gov. Wes Moore (D) as a strong contender for the 2028 Democratic presidential nomination</strong> as the party looks to regain a voting base after their disastrous 2024."
+      },
+      {
+        "title": "Democrats could do worse than George Clooney for 2028 - Bleeding Heartland",
+        "url": "https://www.bleedingheartland.com/2025/08/14/democrats-could-do-worse-than-george-clooney-for-2028/",
+        "description": "He went on to state what so many Democrats thought but were too timid to say publicly: \u201cI saw Biden three weeks ago at my fundraiser for him. It\u2019s devastating to say it, but he is not the same man he was, and he won\u2019t win this fall.\u201d Clooney called for a new nominee, citing a possible primary at the Democratic National Convention."
+      },
+      {
+        "title": "George Clooney reveals which Dem he thinks can retake White House in 2028, \u2018He\u2019s a proper leader\u2019 | Hindustan Times",
+        "url": "https://www.hindustantimes.com/world-news/us-news/george-clooney-reveals-which-dem-he-thinks-can-retake-white-house-in-2028-he-s-a-proper-leader-101744868164588.html",
+        "description": "<strong>George Clooney has argued that Maryland Gov. Wes Moore is separating himself from the group of potential Democratic 2028 presidential contenders.</strong>"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "The next 2 years will be a bumpy ride for Democratic presidential candidates",
+        "url": "https://thehill.com/opinion/campaign/5753519-democratic-presidential-race-2028/",
+        "description": "Early Democratic presidential race for 2028 is wide open. Newsom and Harris lead, but the field is volatile. Change is on voters' minds.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "George Clooney says there should have been a Democratic primary after Biden dropped out | CNN Politics",
+        "url": "https://www.cnn.com/2025/04/16/politics/george-clooney-biden-wes-moore-cnntv",
+        "description": "Actor and major Democratic donor George Clooney told CNN there should have been a primary election last summer after then-President Joe Biden dropped out of the presidential race, while sharing which Democrat has caught his attention for 2028.",
+        "age": "April 16, 2025"
+      }
+    ],
+    "query": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

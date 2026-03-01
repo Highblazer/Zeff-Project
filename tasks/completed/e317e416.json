@@ -1,0 +1,28 @@
+{
+  "id": "e317e416",
+  "title": "Polymarket research: Will the US confirm that aliens exist before 2027?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the US confirm that aliens exist before 2027?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-27T04:10:53.805898+00:00",
+  "updated_at": "2026-02-27T04:11:03.726496+00:00",
+  "claimed_at": "2026-02-27T04:11:01.965000+00:00",
+  "completed_at": "2026-02-27T04:11:03.726477+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the US confirm that aliens exist before 2027?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the US confirm that aliens exist before 2027?",
+    "sources_count": 0
+  },
+  "error": null
+}

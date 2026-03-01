@@ -1,0 +1,85 @@
+{
+  "id": "364cb3fd",
+  "title": "Polymarket research: Will Bitcoin reach $100,000 in February?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $100,000 in February?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:11.468383+00:00",
+  "updated_at": "2026-02-26T23:35:21.693067+00:00",
+  "claimed_at": "2026-02-26T23:35:20.392444+00:00",
+  "completed_at": "2026-02-26T23:35:21.693049+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $100,000 in February?\n\nWeb Results (5):\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?: Bitcoin Price Prediction 2026: Based on the current daily structure, the bitcoin price prediction for February 20, 2026 suggests <strong>BTC is likely\n- Bitcoin (BTC) Price Prediction: Bitcoin Poised for Volatile $80K\u2013$100K Breakout Amid Compression and Liquidity Sweeps - Brave New Coin: February 4, 2026 \u2013 Bitcoin (BTC) is showing renewed consolidation after recent volatility, with <strong>technical signals suggesting a potential break\n- Bitcoin Surpasses $100,000: How BTC Crossed The $100K Mark | Ledger: Despite the February dip, <strong>Bitcoin once again defied the odds and surged back above $100,000 in May 2025</strong>.\n- Bitcoin Price Hits $100,000 for First Time Since February - Decrypt: <strong>Bitcoin has reclaimed the $100,000 price level for the first time since February</strong> amid upcoming US-China trade talks and a potential U\n- What price will Bitcoin hit in February? Betting Odds & Predictions | Polymarket: \u2191 105,000 \u00b7 $584,011 Vol. 1% Buy Yes 1.5\u00a2Buy No 98.7\u00a2 \u00b7 <strong>\u2191 100,000 \u00b7 $1,095,423 Vol.</strong> 2% Buy Yes 2.3\u00a2Buy No 98.0\u00a2 \u00b7 \u2191 95,000 \u00b7 $817,762\n\nNews (5):\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026? (3 days ago)\n- Bitcoin price news: BTC narrows big early losses, rallying back above $64,000 (2 days ago)\n- Prediction: Bitcoin Will Hit $100,000 in 2026 | The Motley Fool (3 weeks ago)\n- When will bitcoin cross back above $100K? See what prediction markets believe | Seeking Alpha (1 week ago)\n- Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go? (6 days ago)",
+    "web_results": [
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Bitcoin Price Prediction 2026: Based on the current daily structure, the bitcoin price prediction for February 20, 2026 suggests <strong>BTC is likely to consolidate between $65,000 support and $73,300 resistance unless a decisive breakout occurs</strong>."
+      },
+      {
+        "title": "Bitcoin (BTC) Price Prediction: Bitcoin Poised for Volatile $80K\u2013$100K Breakout Amid Compression and Liquidity Sweeps - Brave New Coin",
+        "url": "https://bravenewcoin.com/insights/bitcoin-btc-price-prediction-bitcoin-poised-for-volatile-80k-100k-breakout-amid-compression-and-liquidity-sweeps",
+        "description": "February 4, 2026 \u2013 Bitcoin (BTC) is showing renewed consolidation after recent volatility, with <strong>technical signals suggesting a potential breakout toward $100,000</strong>."
+      },
+      {
+        "title": "Bitcoin Surpasses $100,000: How BTC Crossed The $100K Mark | Ledger",
+        "url": "https://www.ledger.com/academy/topics/crypto/bitcoin-surpasses-100000-how-btc-crossed-the-100k-mark",
+        "description": "Despite the February dip, <strong>Bitcoin once again defied the odds and surged back above $100,000 in May 2025</strong>."
+      },
+      {
+        "title": "Bitcoin Price Hits $100,000 for First Time Since February - Decrypt",
+        "url": "https://decrypt.co/318527/bitcoin-price-100000-first-time-february",
+        "description": "<strong>Bitcoin has reclaimed the $100,000 price level for the first time since February</strong> amid upcoming US-China trade talks and a potential UK trade deal. Standard Chartered analyst Geoff Kendrick believes Bitcoin will reach $120,000 by the end of Q2, ..."
+      },
+      {
+        "title": "What price will Bitcoin hit in February? Betting Odds & Predictions | Polymarket",
+        "url": "https://pam.polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026/will-bitcoin-reach-100k-in-february-2026",
+        "description": "\u2191 105,000 \u00b7 $584,011 Vol. 1% Buy Yes 1.5\u00a2Buy No 98.7\u00a2 \u00b7 <strong>\u2191 100,000 \u00b7 $1,095,423 Vol.</strong> 2% Buy Yes 2.3\u00a2Buy No 98.0\u00a2 \u00b7 \u2191 95,000 \u00b7 $817,762 Vol. 3% Buy Yes 3.8\u00a2Buy No 96.9\u00a2 \u00b7 \u2191 90,000 \u00b7 $1,377,404 Vol."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Explore the latest Bitcoin price forecast for Feb 2026 as BTC slips below key support amid U.S. tariff tensions. Can it hold $60K? Read our analysis.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Bitcoin price news: BTC narrows big early losses, rallying back above $64,000",
+        "url": "https://coindesk.com/markets/2026/02/24/bitcoin-retakes-usd64-000-crypto-miners-rally-as-ai-related-software-rout-eases",
+        "description": "Sellers are taking a breather as bitcoin's Fear & Greed Index plunged to levels never seen before.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Prediction: Bitcoin Will Hit $100,000 in 2026 | The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/02/04/prediction-bitcoin-will-hit-100k-in-2026/",
+        "description": "The world's top cryptocurrency is down but not out.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "When will bitcoin cross back above $100K? See what prediction markets believe | Seeking Alpha",
+        "url": "https://seekingalpha.com/news/4553402-when-will-bitcoin-cross-back-above-100k-see-what-prediction-markets-believe",
+        "description": "Bitcoin tumbles below $70K after a 31% drop from its 2026 peak; see Kalshi odds for BTC reclaiming $100K by end-2026 and what it means\u2014read now.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go?",
+        "url": "https://coinpedia.org/price-prediction/bitcoin-price-prediction/",
+        "description": "Bitcoin price prediction 2023 - 2025 based on deals analysis and statistic. In depth view into BTC Price, analyst predictions until 2030.",
+        "age": "6 days ago"
+      }
+    ],
+    "query": "Will Bitcoin reach $100,000 in February?",
+    "sources_count": 10
+  },
+  "error": null
+}

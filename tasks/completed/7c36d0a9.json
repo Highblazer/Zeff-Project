@@ -1,0 +1,85 @@
+{
+  "id": "7c36d0a9",
+  "title": "Polymarket research: LoL: Sentinels vs LYON - Game 3 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Sentinels vs LYON - Game 3 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:48.690332+00:00",
+  "updated_at": "2026-03-01T07:28:49.546612+00:00",
+  "claimed_at": "2026-03-01T07:28:47.741032+00:00",
+  "completed_at": "2026-03-01T07:28:49.546595+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Sentinels vs LYON - Game 3 Winner\n\nWeb Results (5):\n- r/leagueoflegends on Reddit: Sentinels vs. LYON / LCS 2026 Lock-In - Lower Bracket Final / Game 1 Discussion: This is a subreddit devoted to the game League of Legends. ... Winner moves on to face Cloud9 in the LCS 2026 Lock-In Grand Finals for both the title \n- LYON vs. Sentinels Odds & Predictions (Feb. 28, 2026) | Polymarket: Sports\u00b7LoL \u00b7 Watch Stream \u00b7 Sentinels \u00b7 0 \u00b7 2 \u00b7 LIVE \u00b7 Game 3 \u2022 Best of 5 \u00b7 LYON \u00b7 $655.94K Vol. Series LinesGame 1Game 2Game 3Game 4Game 5 \u00b7 Sports\u00b7L\n- Sentinels vs LYON Live Score on 2026-02-28 of LoL League Championship Series (LCS) 2026 Lock-In | GosuGamers: Sentinels vs LYN Live Score : Get the Sentinels vs LYON live score and match statistics of LoL League Championship Series (LCS) 2026 Lock-In on 2026-0\n- LYON vs SEN Highlights Game 1 | LCS Lower Final 2026 Playoffs | LYON vs Sentinels G1 - YouTube: LYON vs Sentinels Highlights Game 1 | LCS Lower Final 2026 Playoffs | LYON vs SEN G1\ud83d\udd25 Subscribe for daily League of Legends Worlds highlights:https://\n- LYON vs SEN Highlights ALL GAMES | LCS Lower Final 2026 Playoffs | LYON vs Sentinels - YouTube: LYON vs SEN Highlights Game 1, Game 2, Game 3, Game 4, Game 5, ALL GAMES | LCS Lower Final 2026 Playoffs | LYON vs Sentinels\ud83d\udd25 Subscribe for daily Leag\n\nNews (5):\n- Deadspin | Saint steers LYON into lower-bracket semi at LCS Lock-In (20 hours ago)\n- Saint steers LYON into lower-bracket semi at LCS Lock-In | Yardbarker (20 hours ago)\n- Sentinels - Liquipedia VALORANT Wiki (4 days ago)\n- LYON vs Team Liquid 2026 LCS Lock-In predictions, key stats, odds & more (3 days ago)\n- Sentinels, Disguised win Round 3 mid matches at LCS Lock-In - Field Level Media - Professional sports content solutions | FLM (3 weeks ago)",
+    "web_results": [
+      {
+        "title": "r/leagueoflegends on Reddit: Sentinels vs. LYON / LCS 2026 Lock-In - Lower Bracket Final / Game 1 Discussion",
+        "url": "https://www.reddit.com/r/leagueoflegends/comments/1rhevre/sentinels_vs_lyon_lcs_2026_lockin_lower_bracket/",
+        "description": "This is a subreddit devoted to the game League of Legends. ... Winner moves on to face Cloud9 in the LCS 2026 Lock-In Grand Finals for both the title and the spot at First Stand 2026 \u00b7 LYON | Leaguepedia | Liquipedia | Twitter | Facebook | YouTube SEN | Leaguepedia | Liquipedia | Website | Twitter | Facebook | YouTube | Subreddit \u00b7 Winner: LYON in 31m | Runes Game Breakdown | Player of the Game: Berserker"
+      },
+      {
+        "title": "LYON vs. Sentinels Odds & Predictions (Feb. 28, 2026) | Polymarket",
+        "url": "https://polymarket.com/sports/league-of-legends/lol-sen-ly-2026-02-28",
+        "description": "Sports\u00b7LoL \u00b7 Watch Stream \u00b7 Sentinels \u00b7 0 \u00b7 2 \u00b7 LIVE \u00b7 Game 3 \u2022 Best of 5 \u00b7 LYON \u00b7 $655.94K Vol. Series LinesGame 1Game 2Game 3Game 4Game 5 \u00b7 Sports\u00b7LoL \u00b7 Watch Stream \u00b7 Sentinels \u00b7 0 \u00b7 2 \u00b7 LIVE \u00b7 Game 3 \u2022 Best of 5 \u00b7 LYON \u00b7 $655.94K Vol."
+      },
+      {
+        "title": "Sentinels vs LYON Live Score on 2026-02-28 of LoL League Championship Series (LCS) 2026 Lock-In | GosuGamers",
+        "url": "https://www.gosugamers.net/lol/tournaments/62571-league-championship-series-lcs-2026-lock-in/matches/637500-sentinels-vs-lyon",
+        "description": "Sentinels vs LYN Live Score : Get the Sentinels vs LYON live score and match statistics of LoL League Championship Series (LCS) 2026 Lock-In on 2026-02-28"
+      },
+      {
+        "title": "LYON vs SEN Highlights Game 1 | LCS Lower Final 2026 Playoffs | LYON vs Sentinels G1 - YouTube",
+        "url": "https://www.youtube.com/watch?v=5HyKlS1Q4Xo",
+        "description": "LYON vs Sentinels Highlights Game 1 | LCS Lower Final 2026 Playoffs | LYON vs SEN G1\ud83d\udd25 Subscribe for daily League of Legends Worlds highlights:https://www.yo..."
+      },
+      {
+        "title": "LYON vs SEN Highlights ALL GAMES | LCS Lower Final 2026 Playoffs | LYON vs Sentinels - YouTube",
+        "url": "https://www.youtube.com/watch?v=NMYcosqDBlM",
+        "description": "LYON vs SEN Highlights Game 1, Game 2, Game 3, Game 4, Game 5, ALL GAMES | LCS Lower Final 2026 Playoffs | LYON vs Sentinels\ud83d\udd25 Subscribe for daily League of ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Deadspin | Saint steers LYON into lower-bracket semi at LCS Lock-In",
+        "url": "https://deadspin.com/saint-steers-lyon-into-lower-bracket-semi-at-lcs-lock-in/",
+        "description": "Nov 5, 2022; San Francisco, California, ... between games of the League of Legends World Championships between T1 and DRX at Chase Center. Mandatory Credit: Kelley L Cox-Imagn Images \u00b7 South Korea's Kang \"Saint\" Seong-in played a starring role as LYON beat Team Liquid 3-1 on Friday in the lower-bracket semifinal of the League Championship Series 2026 Lock-In at Los Angeles. LYON advance to oppose Sentinels in the lower-bracket final on Saturday. The winner of that contest ...",
+        "age": "20 hours ago"
+      },
+      {
+        "title": "Saint steers LYON into lower-bracket semi at LCS Lock-In | Yardbarker",
+        "url": "https://yardbarker.com/general_sports/articles/saint_steers_lyon_into_lower_bracket_semi_at_lcs_lock_in/s1_17061_43529590",
+        "description": "South Korea's Kang \"Saint\" Seong-in played a starring role as LYON beat Team Liquid 3-1 on Friday in the lower-bracket semifinal of the League Championship Series 2026 Lock-In at Los Angeles. LYON advance to oppose Sentinels in the lower-bracket final on Saturday. The winner of that contest ...",
+        "age": "20 hours ago"
+      },
+      {
+        "title": "Sentinels - Liquipedia VALORANT Wiki",
+        "url": "https://liquipedia.net/valorant/Sentinels",
+        "description": "Sentinels is an American esports organization based in Los Angeles.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "LYON vs Team Liquid 2026 LCS Lock-In predictions, key stats, odds & more",
+        "url": "https://win.gg/lyon-team-liquid-lcs-lock-in-preview",
+        "description": "Team Liquid and LYON will compete in the 2026 LCS lock-in to determine which team goes on to face Sentinels in the lower bracket final.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Sentinels, Disguised win Round 3 mid matches at LCS Lock-In - Field Level Media - Professional sports content solutions | FLM",
+        "url": "https://fieldlevelmedia.com/esports/sentinels-disguised-win-round-3-mid-matches-at-lcs-lock-in",
+        "description": "Sentinels and Disguised each won their Round 3 mid matches on Saturday at the League Championship Series 2026 Lock-In in Los Angeles. Sentinels rallied from an early deficit to defeat...",
+        "age": "3 weeks ago"
+      }
+    ],
+    "query": "LoL: Sentinels vs LYON - Game 3 Winner",
+    "sources_count": 10
+  },
+  "error": null
+}

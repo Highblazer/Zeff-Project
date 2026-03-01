@@ -1,0 +1,85 @@
+{
+  "id": "f8e1ea02",
+  "title": "Polymarket research: Will Jamie Dimon win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Jamie Dimon win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:13:18.260769+00:00",
+  "updated_at": "2026-03-01T08:13:39.654343+00:00",
+  "claimed_at": "2026-03-01T08:13:38.207289+00:00",
+  "completed_at": "2026-03-01T08:13:39.654327+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Jamie Dimon win the 2028 US Presidential Election?\n\nWeb Results (5):\n- Why JPMorgan Chase\u2019s Jamie Dimon Could be the Right Candidate for President | Yale Insights: Of course, <strong>there may be practical reasons for Dimon to decide against a presidential bid in 2028</strong>, but even the best candidates with y\n- Will Jamie Dimon run for President? - Johanna Maska: It\u2019s hard, but let\u2019s try to imagine the America of 2028. If we&#x27;re facing the kind of disorder and chaos that feels increasingly possible \u2014 econom\n- 2028 US Presidential Election Odds at Prediction Markets: Track live 2028 US presidential election odds across prediction markets. Compare Kalshi vs. Polymarket probabilities, volume, momentum, and arbitrage \n- Will Jamie Dimon run for president of the United States by 2040? | Manifold: <strong>30% chance</strong>. (Resolves YES if Jamie Dimon runs for president of the United States in the 2024, 2028, 2032, 2036, or 2040 elections). J\n- r/PoliticalDiscussion on Reddit: Who is the \"heir apparent\" for the 2028 Presidential Election in either party?: The known quantities for both parties ... that are in the &#x27;very old&#x27; group. I think <strong>there is some possibility that Jaime Dimon runs \n\nNews (5):\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (3 days ago)\n- The next 2 years will be a bumpy ride for Democratic presidential candidates (4 days ago)\n- AI reveals who would win the US presidential election if Trump ran against Obama in 2028 (5 days ago)\n- AI's 'jaw-dropping' prediction on who will win the 2028 US presidential election (2 weeks ago)\n- 2028 Democratic Nominee Odds: Is Gavin Newsom Most Likely Challenger to JD Vance, Republicans in 2028? (4 days ago)",
+    "web_results": [
+      {
+        "title": "Why JPMorgan Chase\u2019s Jamie Dimon Could be the Right Candidate for President | Yale Insights",
+        "url": "https://insights.som.yale.edu/insights/why-jpmorgan-chases-jamie-dimon-could-be-the-right-candidate-for-president",
+        "description": "Of course, <strong>there may be practical reasons for Dimon to decide against a presidential bid in 2028</strong>, but even the best candidates with years of political experience carefully consider running for higher office."
+      },
+      {
+        "title": "Will Jamie Dimon run for President? - Johanna Maska",
+        "url": "https://www.johannamaska.com/p/will-jamie-dimon-run-for-president",
+        "description": "It\u2019s hard, but let\u2019s try to imagine the America of 2028. If we&#x27;re facing the kind of disorder and chaos that feels increasingly possible \u2014 economic uncertainty, market turmoil, continued global instability, a fractured political system \u2014 there\u2019s a strong case for a \u201csteady hand.\u201d \u00b7 Dimon has a compelling case as someone who steered the ship through multiple crises."
+      },
+      {
+        "title": "2028 US Presidential Election Odds at Prediction Markets",
+        "url": "https://defirate.com/prediction-markets/2028-presidential-election-odds/",
+        "description": "Track live 2028 US presidential election odds across prediction markets. Compare Kalshi vs. Polymarket probabilities, volume, momentum, and arbitrage opportunities with real-time updates."
+      },
+      {
+        "title": "Will Jamie Dimon run for president of the United States by 2040? | Manifold",
+        "url": "https://manifold.markets/sc5/will-jamie-dimon-run-for-president",
+        "description": "<strong>30% chance</strong>. (Resolves YES if Jamie Dimon runs for president of the United States in the 2024, 2028, 2032, 2036, or 2040 elections). Jamie Dimon is the chairman and CEO of JPMorgan Chase."
+      },
+      {
+        "title": "r/PoliticalDiscussion on Reddit: Who is the \"heir apparent\" for the 2028 Presidential Election in either party?",
+        "url": "https://www.reddit.com/r/PoliticalDiscussion/comments/1fjueb8/who_is_the_heir_apparent_for_the_2028/",
+        "description": "The known quantities for both parties ... that are in the &#x27;very old&#x27; group. I think <strong>there is some possibility that Jaime Dimon runs in 2028, especially if Trump wins this year.</strong>..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "3 days ago"
+      },
+      {
+        "title": "The next 2 years will be a bumpy ride for Democratic presidential candidates",
+        "url": "https://thehill.com/opinion/campaign/5753519-democratic-presidential-race-2028",
+        "description": "Early Democratic presidential race for 2028 is wide open. Newsom and Harris lead, but the field is volatile. Change is on voters' minds.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "AI reveals who would win the US presidential election if Trump ran against Obama in 2028",
+        "url": "https://www.unilad.com/news/us-news/trump-obama-ai-presidential-election-results-2028-966771-20260223",
+        "description": "The popular YouTube channel, I Ask AI, has shared a look at a hypothetical presidential election between Donald Trump and Barack Obama in 2028.",
+        "age": "5 days ago"
+      },
+      {
+        "title": "AI's 'jaw-dropping' prediction on who will win the 2028 US presidential election",
+        "url": "https://www.unilad.com/news/politics/us-presidential-election-2028-ai-prediction-310137-20260217",
+        "description": "A man asked Elon Musk's AI bot Grok to give its predictions for the next US election and who will likely be the chosen as candidates",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "2028 Democratic Nominee Odds: Is Gavin Newsom Most Likely Challenger to JD Vance, Republicans in 2028?",
+        "url": "https://oddschecker.com/us/insight/specials/politics/20260225-2028-democratic-nominee-odds-is-gavin-newsom-most-likely-challenger-to-jd-vance-republicans-in-2028",
+        "description": "Democrats are continued to be disappointed with President Trump's administration, and are sharing vocally after the State of the Union. But who will take over on their side to challenge Vance in the next election? Gavin Newsom continues to lead the charge, but a host of challengers linger including ...",
+        "age": "4 days ago"
+      }
+    ],
+    "query": "Will Jamie Dimon win the 2028 US Presidential Election?",
+    "sources_count": 10
+  },
+  "error": null
+}

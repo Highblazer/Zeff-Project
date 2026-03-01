@@ -1,0 +1,85 @@
+{
+  "id": "1715b779",
+  "title": "Polymarket research: Trail Blazers vs. Bulls",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Trail Blazers vs. Bulls",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:17.420269+00:00",
+  "updated_at": "2026-02-26T23:32:30.788002+00:00",
+  "claimed_at": "2026-02-26T23:32:29.158071+00:00",
+  "completed_at": "2026-02-26T23:32:30.787987+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Trail Blazers vs. Bulls\n\nWeb Results (5):\n- How to Watch Trail Blazers vs. Bulls, Injury Report, Preview: <strong>Trail Blazers vs. Bulls</strong> will air on the Rip City Television Network.\n- Trail Blazers vs. Bulls Prediction, Odds, Picks - Feb. 26 | FOX Sports: The Chicago Bulls (24-35) will ... Thursday&#x27;s matchup between the Trail Blazers and the Bulls features the <strong>Trail Blazers as 4-point favor\n- Chicago Bulls vs Portland Trail Blazers Nov 19, 2025 Game Summary: Chicago Bulls vs Portland Trail Blazers <strong>Nov 19, 2025</strong> game result including recap, highlights and game information\n- Bulls Vs Blazers Game Log | StatMuse: the Chicago Bulls games versus the Trail Blazers\n- Portland Trail Blazers vs Chicago Bulls Prediction, Picks & Odds | NBA Friday: <strong>The Bulls have won the last two meetings against the Blazers</strong>. They triumphed 118-113 at United Center and then 122-121 at Moda Center\n\nNews (5):\n- Blazers List Four Players Out, Two Questionable vs. Bulls (1 day ago)\n- How to Watch Trail Blazers vs. Bulls, Injury Report, Preview (11 hours ago)\n- Trail Blazers vs. Bulls Time, TV & Stream \u2013 Feb. 26 | Rip City Radio 620 Portland (1 day ago)\n- Portland Trail Blazers vs. Chicago Bulls odds, tips and betting trends | February 26, 2026 (15 hours ago)\n- How to watch Trail Blazers vs. Bulls: TV channel and streaming options for February 26 - The Athletic (3 hours ago)",
+    "web_results": [
+      {
+        "title": "How to Watch Trail Blazers vs. Bulls, Injury Report, Preview",
+        "url": "https://www.si.com/nba/trailblazers/onsi/news/how-to-watch-portland-trail-blazers-vs-chicago-bulls-injury-report-preview",
+        "description": "<strong>Trail Blazers vs. Bulls</strong> will air on the Rip City Television Network."
+      },
+      {
+        "title": "Trail Blazers vs. Bulls Prediction, Odds, Picks - Feb. 26 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nba/trail-blazers-vs-bulls-prediction-odds-picks-feb-26",
+        "description": "The Chicago Bulls (24-35) will ... Thursday&#x27;s matchup between the Trail Blazers and the Bulls features the <strong>Trail Blazers as 4-point favorites</strong>...."
+      },
+      {
+        "title": "Chicago Bulls vs Portland Trail Blazers Nov 19, 2025 Game Summary",
+        "url": "https://www.nba.com/blazers/game/0022500263",
+        "description": "Chicago Bulls vs Portland Trail Blazers <strong>Nov 19, 2025</strong> game result including recap, highlights and game information"
+      },
+      {
+        "title": "Bulls Vs Blazers Game Log | StatMuse",
+        "url": "https://www.statmuse.com/nba/ask/bulls-vs-blazers-game-log",
+        "description": "the Chicago Bulls games versus the Trail Blazers"
+      },
+      {
+        "title": "Portland Trail Blazers vs Chicago Bulls Prediction, Picks & Odds | NBA Friday",
+        "url": "https://www.sportsgambler.com/betting-tips/basketball/portland-trail-blazers-vs-chicago-bulls-prediction-odds-4929761/",
+        "description": "<strong>The Bulls have won the last two meetings against the Blazers</strong>. They triumphed 118-113 at United Center and then 122-121 at Moda Center. The past 10 clashes between these teams have seen seven Bulls wins."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Blazers List Four Players Out, Two Questionable vs. Bulls",
+        "url": "https://www.si.com/nba/trailblazers/onsi/news/portland-trail-blazers-list-four-players-out-two-questionable-vs-bulls",
+        "description": "The Portland Trail Blazers are a bit banged up before playing the Chicago Bulls.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "How to Watch Trail Blazers vs. Bulls, Injury Report, Preview",
+        "url": "https://www.si.com/nba/trailblazers/onsi/news/how-to-watch-portland-trail-blazers-vs-chicago-bulls-injury-report-preview",
+        "description": "The Portland Trail Blazers are hitting the road for a five-game trip that starts in the Windy City against the Chicago Bulls. The Bulls are one of the worst te",
+        "age": "11 hours ago"
+      },
+      {
+        "title": "Trail Blazers vs. Bulls Time, TV & Stream \u2013 Feb. 26 | Rip City Radio 620 Portland",
+        "url": "https://ripcityradio.iheart.com/content/2026-02-26-trail-blazers-vs-bulls-time-tv-stream-feb-26/",
+        "description": "Find out where to watch the Portland Trail Blazers vs. Chicago Bulls NBA game on February 26, 2026.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Portland Trail Blazers vs. Chicago Bulls odds, tips and betting trends | February 26, 2026",
+        "url": "https://sportsbookwire.usatoday.com/story/sports/sports-betting/2026/02/26/nba-portland-trail-blazers-vs-chicago-bulls-betting-odds-tips-trends-2-26-2026/88875180007/",
+        "description": "Preview the Portland Trail Blazers' NBA matchup with Chicago, including betting odds, tips, trends, and game information.",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "How to watch Trail Blazers vs. Bulls: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7073803/2026/02/26/trail-blazers-vs-bulls-stream-how-to-watch-feb-26/",
+        "description": "Find out how to watch the Portland Trail Blazers play the Chicago Bulls, with time, TV channel and streaming information.",
+        "age": "3 hours ago"
+      }
+    ],
+    "query": "Trail Blazers vs. Bulls",
+    "sources_count": 10
+  },
+  "error": null
+}

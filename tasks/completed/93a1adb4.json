@@ -1,0 +1,85 @@
+{
+  "id": "93a1adb4",
+  "title": "Polymarket research: LoL: Sentinels vs LYON (BO5) - LCS Lock In Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Sentinels vs LYON (BO5) - LCS Lock In Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T07:26:47.608980+00:00",
+  "updated_at": "2026-03-01T07:28:09.510725+00:00",
+  "claimed_at": "2026-03-01T07:28:07.849398+00:00",
+  "completed_at": "2026-03-01T07:28:09.510707+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Sentinels vs LYON (BO5) - LCS Lock In Playoffs\n\nWeb Results (5):\n- LCS 2026 Lock-In - Liquipedia League of Legends Wiki: LYON \u00b7 3:1(Bo5) Team Liquid \u00b7 37:13 \u00b7 33:05 \u00b7 27:48 \u00b7 34:55 \u00b7 View match details \u00b7 SentinelsSEN \u00b7 LYONLYON \u00b7 <strong>February 28, 2026 - 13:00 PST</st\n- Sentinels vs LYON: Betting TIp, Match Prediction. 28.02.2026 at 21:00. LoL, LCS 2026 Lock-In - Playoffs: EGamersWorld\u2615 - \u270bFree betting tips for Sentinels vs LYON, LoL \u27a6 Match date: <strong>28.02.2026 at 21:00</strong> \u27a6 Tournament: LCS 2026 Lock-In - Play\n- r/leagueoflegends on Reddit: Sentinels vs. LYON / LCS 2026 Lock-In - Lower Bracket Final / Game 1 Discussion: 121 votes, 40 comments. LCS 2026 LOCK-IN Official page | Leaguepedia | Liquipedia | Eventvods.com | New to LoL <strong>LYON 1-0 Sentinels</strong> Win\n- Sentinels vs LYON (2024 American Team) | LCS: BO5 \u2022 <strong>Feb 28, 2026 \u00b7 Scheduled for 21:00 \u00b7 Sentinels \u00b7 0:0LYON (2024 American Team)</strong> LCSBO5 \u00b7 Sentinels \u00b7 0:0LYON (2024 American Team)\n- LCS 2026 Lock-In - Playoffs - Liquipedia League of Legends Wiki: Sentinels \u00b7 0:2(Bo5) LYON \u00b7 Game 1 \u00b7 Game 2 \u00b7 Game 3 \u00b7 Game 4 \u00b7 Game 5 \u00b7 View match details \u00b7 Watch now \u00b7 Watch now \u00b7 Cloud9C9 \u00b7 <strong>March 1, 2026\n\nNews (5):\n- LYON vs Team Liquid 2026 LCS Lock-In predictions, key stats, odds & more (3 days ago)\n- Deadspin | Saint steers LYON into lower-bracket semi at LCS Lock-In (20 hours ago)\n- LCS 2026 Lock-In - Liquipedia League of Legends Wiki (2 weeks ago)\n- Saint steers LYON into lower-bracket semi at LCS Lock-In | Yardbarker (20 hours ago)\n- FEARX vs Dplus 2026 LCK Cup playoffs: Preview, predictions (2 days ago)",
+    "web_results": [
+      {
+        "title": "LCS 2026 Lock-In - Liquipedia League of Legends Wiki",
+        "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In",
+        "description": "LYON \u00b7 3:1(Bo5) Team Liquid \u00b7 37:13 \u00b7 33:05 \u00b7 27:48 \u00b7 34:55 \u00b7 View match details \u00b7 SentinelsSEN \u00b7 LYONLYON \u00b7 <strong>February 28, 2026 - 13:00 PST</strong> \u00b7 Sentinels \u00b7 vs(Bo5) LYON \u00b7 Game 1 \u00b7 Game 2 \u00b7 Game 3 \u00b7 Game 4 \u00b7 Game 5 \u00b7 View match ..."
+      },
+      {
+        "title": "Sentinels vs LYON: Betting TIp, Match Prediction. 28.02.2026 at 21:00. LoL, LCS 2026 Lock-In - Playoffs",
+        "url": "https://egamersworld.com/lol/tip/ATnwU1wtR/sentinels-vs-lyon-OX06ZueWI",
+        "description": "EGamersWorld\u2615 - \u270bFree betting tips for Sentinels vs LYON, LoL \u27a6 Match date: <strong>28.02.2026 at 21:00</strong> \u27a6 Tournament: LCS 2026 Lock-In - Playoffs \u27a6 Match shedule, Predictions, Streams, LiveScore, Betting Odds and Analytics."
+      },
+      {
+        "title": "r/leagueoflegends on Reddit: Sentinels vs. LYON / LCS 2026 Lock-In - Lower Bracket Final / Game 1 Discussion",
+        "url": "https://www.reddit.com/r/leagueoflegends/comments/1rhevre/sentinels_vs_lyon_lcs_2026_lockin_lower_bracket/",
+        "description": "121 votes, 40 comments. LCS 2026 LOCK-IN Official page | Leaguepedia | Liquipedia | Eventvods.com | New to LoL <strong>LYON 1-0 Sentinels</strong> Winner moves on to\u2026"
+      },
+      {
+        "title": "Sentinels vs LYON (2024 American Team) | LCS",
+        "url": "https://www.sheepesports.com/en/all/matches/LCS%2F2026%20Season%2FLock-In_Playoffs%20Round%203_1",
+        "description": "BO5 \u2022 <strong>Feb 28, 2026 \u00b7 Scheduled for 21:00 \u00b7 Sentinels \u00b7 0:0LYON (2024 American Team)</strong> LCSBO5 \u00b7 Sentinels \u00b7 0:0LYON (2024 American Team) Feb 28, 21:00 \u00b7 LoL-Guide \u00b7 1d \u00b7 LoL-LEC \u00b7 4d \u00b7 LCK-Business \u00b7 4d \u00b7 LoL-LEC \u00b7 4d \u00b7 [SOURCES]EWC-LoL \u00b7"
+      },
+      {
+        "title": "LCS 2026 Lock-In - Playoffs - Liquipedia League of Legends Wiki",
+        "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In/Playoffs",
+        "description": "Sentinels \u00b7 0:2(Bo5) LYON \u00b7 Game 1 \u00b7 Game 2 \u00b7 Game 3 \u00b7 Game 4 \u00b7 Game 5 \u00b7 View match details \u00b7 Watch now \u00b7 Watch now \u00b7 Cloud9C9 \u00b7 <strong>March 1, 2026 - 13:00 PST</strong> \u00b7 Cloud9 \u00b7 vs(Bo5) TBD \u00b7 Game 1 \u00b7 Game 2 \u00b7 Game 3 \u00b7 Game 4 \u00b7 Game 5 \u00b7 View match details \u00b7 Watch here \u00b7 Watch here ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "LYON vs Team Liquid 2026 LCS Lock-In predictions, key stats, odds & more",
+        "url": "https://win.gg/lyon-team-liquid-lcs-lock-in-preview",
+        "description": "Team Liquid and LYON will compete in the 2026 LCS lock-in to determine which team goes on to face Sentinels in the lower bracket final.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Deadspin | Saint steers LYON into lower-bracket semi at LCS Lock-In",
+        "url": "https://deadspin.com/saint-steers-lyon-into-lower-bracket-semi-at-lcs-lock-in/",
+        "description": "Deadspin | Saint steers LYON into lower-bracket semi at LCS Lock-In",
+        "age": "20 hours ago"
+      },
+      {
+        "title": "LCS 2026 Lock-In - Liquipedia League of Legends Wiki",
+        "url": "https://liquipedia.net/leagueoflegends/LCS/2026/Lock-In",
+        "description": "LCS 2026 Lock-In is an offline American LoL tournament organized by Riot Games. This S-Tier tournament takes place from Jan 24 to Mar 01 2026 featuring 8 teams.",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "Saint steers LYON into lower-bracket semi at LCS Lock-In | Yardbarker",
+        "url": "https://yardbarker.com/general_sports/articles/saint_steers_lyon_into_lower_bracket_semi_at_lcs_lock_in/s1_17061_43529590",
+        "description": "South Korea's Kang \"Saint\" Seong-in played a starring role as LYON beat Team Liquid 3-1 on Friday in the lower-bracket semifinal of the League Championship Series 2026 Lock-In at Los Angeles \u00b7 LYON advance to oppose Sentinels in the lower-bracket final on Saturday.",
+        "age": "20 hours ago"
+      },
+      {
+        "title": "FEARX vs Dplus 2026 LCK Cup playoffs: Preview, predictions",
+        "url": "https://win.gg/fearx-dplus-lck-cup-preview",
+        "description": "With only one spot left in the 2026 LCK Cup grand final, FEARX and Dplus will give it their all to win in the lower bracket final.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "LoL: Sentinels vs LYON (BO5) - LCS Lock In Playoffs",
+    "sources_count": 10
+  },
+  "error": null
+}

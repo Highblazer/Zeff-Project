@@ -1,0 +1,85 @@
+{
+  "id": "733b12f9",
+  "title": "Polymarket research: Will Trump nominate Kevin Warsh as the next Fed chair?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:16.467088+00:00",
+  "updated_at": "2026-02-26T23:32:10.488512+00:00",
+  "claimed_at": "2026-02-26T23:32:08.475611+00:00",
+  "completed_at": "2026-02-26T23:32:10.488497+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump nominate Kevin Warsh as the next Fed chair?\n\nWeb Results (5):\n- Trump nominates Federal Reserve critic Kevin Warsh as its next chair | Federal Reserve | The Guardian: Writing on his Truth Social platform, Trump said: \u201cI have known Kevin for a long period of time, and have no doubt that he will go down as one of the \n- Wide Acclaim for President Trump\u2019s Nomination of Kevin Warsh as Fed Chair \u2013 The White House: Marsha Blackburn: \u201c<strong>Kevin Warsh is exceptionally qualified to lead the Federal Reserve as Chairman. I look forward to supporting this nominatio\n- Trump nominates Kevin Warsh for Federal Reserve chair to succeed Jerome Powell: <strong>President Trump named Kevin Warsh to succeed Jerome Powell as Fed chair</strong>, ending an odyssey that has seen unprecedented turmoil around\n- Trump nominates Kevin Warsh as new Federal Reserve chair - BBC News: He believes Warsh is committed ... is &quot;the million dollar question&quot;, in his view. ... <strong>Donald Trump has nominated Kevin Warsh to be t\n- President Donald Trump's Nomination of Kevin Warsh to Become Fed Chair May Come With Unintended Consequences for Wall Street | The Motley Fool: Admittedly, <strong>we&#x27;re a long way from proclaiming Kevin Warsh as the next Fed chair</strong>. He first needs a majority of the Senate Banking\n\nNews (5):\n- Senate Passes Spending Package but Partial Shutdown Looms - The New York Times (1 month ago)\n- Why Trump\u2019s Federal Reserve Pick May Surprise Him - POLITICO (3 weeks ago)\n- President Donald Trump's Nomination of Kevin Warsh to Become Fed Chair May Come With Unintended Consequences for Wall Street | The Motley Fool (5 days ago)\n- Trump nominates Federal Reserve critic Kevin Warsh as its next chair | Federal Reserve | The Guardian (1 month ago)\n- Wide Acclaim for President Trump\u2019s Nomination of Kevin Warsh as Fed Chair \u2013 The White House (1 month ago)",
+    "web_results": [
+      {
+        "title": "Trump nominates Federal Reserve critic Kevin Warsh as its next chair | Federal Reserve | The Guardian",
+        "url": "https://www.theguardian.com/business/2026/jan/30/donald-trump-nominates-kevin-warsh-us-federal-reserve-chair",
+        "description": "Writing on his Truth Social platform, Trump said: \u201cI have known Kevin for a long period of time, and have no doubt that he will go down as one of the GREAT Fed Chairmen, maybe the best. On top of everything else, he is \u2018central casting\u2019, and he will never let you down.\u201d \u00b7 What is behind the extraordinary rise in investment into silver and gold? ... Warsh, 55, a former Federal Reserve governor who has deep ties to Wall Street, had previously interviewed for the job of chair in 2017 when the role went to Powell."
+      },
+      {
+        "title": "Wide Acclaim for President Trump\u2019s Nomination of Kevin Warsh as Fed Chair \u2013 The White House",
+        "url": "https://www.whitehouse.gov/articles/2026/01/wide-acclaim-for-president-trumps-nomination-of-kevin-warsh-as-fed-chair/",
+        "description": "Marsha Blackburn: \u201c<strong>Kevin Warsh is exceptionally qualified to lead the Federal Reserve as Chairman. I look forward to supporting this nomination in the Senate</strong>, and I am confident Kevin will help foster economic growth and create more opportunity ..."
+      },
+      {
+        "title": "Trump nominates Kevin Warsh for Federal Reserve chair to succeed Jerome Powell",
+        "url": "https://www.cnbc.com/2026/01/30/trump-nominates-kevin-warsh-for-federal-reserve-chair-to-succeed-jerome-powell.html",
+        "description": "<strong>President Trump named Kevin Warsh to succeed Jerome Powell as Fed chair</strong>, ending an odyssey that has seen unprecedented turmoil around the central bank."
+      },
+      {
+        "title": "Trump nominates Kevin Warsh as new Federal Reserve chair - BBC News",
+        "url": "https://www.bbc.com/news/live/ckgx1yldxg4t",
+        "description": "He believes Warsh is committed ... is &quot;the million dollar question&quot;, in his view. ... <strong>Donald Trump has nominated Kevin Warsh to be the next chair of the Federal Reserve.</strong>..."
+      },
+      {
+        "title": "President Donald Trump's Nomination of Kevin Warsh to Become Fed Chair May Come With Unintended Consequences for Wall Street | The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/02/21/trump-nominate-warsh-fed-unintended-consequences/",
+        "description": "Admittedly, <strong>we&#x27;re a long way from proclaiming Kevin Warsh as the next Fed chair</strong>. He first needs a majority of the Senate Banking Committee to support his nomination, and this is far from a guarantee, with Republicans holding a slim 13 to 11 ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Senate Passes Spending Package but Partial Shutdown Looms - The New York Times",
+        "url": "https://www.nytimes.com/live/2026/01/30/us/trump-news",
+        "description": "Kevin M. Warsh, a former Federal Reserve governor, was also a front-runner to lead the central bank during President Trump\u2019s first term.Credit...Tierney L. Cross/Bloomberg \u00b7 President Trump announced on Friday that he was nominating Kevin M. Warsh to serve as the next chair of the Federal ...",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Why Trump\u2019s Federal Reserve Pick May Surprise Him - POLITICO",
+        "url": "https://www.politico.com/news/magazine/2026/02/04/mag-guidaward-warshprofile-00761179",
+        "description": "A childhood job at a racetrack taught Kevin Warsh more than he realized about how to amass power.",
+        "age": "3 weeks ago"
+      },
+      {
+        "title": "President Donald Trump's Nomination of Kevin Warsh to Become Fed Chair May Come With Unintended Consequences for Wall Street | The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/02/21/trump-nominate-warsh-fed-unintended-consequences/",
+        "description": "The end of Jerome Powell's term as Federal Reserve chair brings about more questions than answers.",
+        "age": "5 days ago"
+      },
+      {
+        "title": "Trump nominates Federal Reserve critic Kevin Warsh as its next chair | Federal Reserve | The Guardian",
+        "url": "https://www.theguardian.com/business/2026/jan/30/donald-trump-nominates-kevin-warsh-us-federal-reserve-chair",
+        "description": "Pick of former Fed governor to replace Jerome Powell comes as White House seeks to tighten grip on central bank",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Wide Acclaim for President Trump\u2019s Nomination of Kevin Warsh as Fed Chair \u2013 The White House",
+        "url": "https://www.whitehouse.gov/articles/2026/01/wide-acclaim-for-president-trumps-nomination-of-kevin-warsh-as-fed-chair/",
+        "description": "Today, President Donald J. Trump announced his nomination of Kevin Warsh to serve as Chairman of the Board of Governors of the Federal Reserve System. Mr.",
+        "age": "1 month ago"
+      }
+    ],
+    "query": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+    "sources_count": 10
+  },
+  "error": null
+}

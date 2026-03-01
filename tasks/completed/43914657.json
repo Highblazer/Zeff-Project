@@ -1,0 +1,85 @@
+{
+  "id": "43914657",
+  "title": "Polymarket research: Will Barack Obama win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Barack Obama win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:18.257599+00:00",
+  "updated_at": "2026-02-26T23:32:49.645385+00:00",
+  "claimed_at": "2026-02-26T23:32:47.635121+00:00",
+  "completed_at": "2026-02-26T23:32:49.645368+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Barack Obama win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket: <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president</str\n- Presidential candidates, 2028 - Ballotpedia: \u2191 Politico, &quot;The Democrats and Republicans Best Positioned \u2014 Right Now \u2014 for 2028,&quot; December 30, 2024 \u00b7 \u2191 9.0 9.1 9.2 9.3 Semafor, &quot;Dem\n- Who will win the 2028 Democratic presidential nomination?: <strong>The contract that resolves to Yes shall be that which identifies the person who wins the 2028 nomination of the Democratic Party for U.S. pres\n- 2028 United States presidential election - Wikipedia: Incumbent president Trump, along with former presidents Bill Clinton, George W. Bush, and Barack Obama, are <strong>ineligible to be elected to a thir\n- It\u2019s Obama\u2019s victory over Trump too. Will it be Trump vs Obama in 2028?: In the first direct contest in nearly eight years, <strong>Obama beat Trump with a perfect 4-0 score</strong>. That has led to serious speculation ove\n\nNews (5):\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (14 hours ago)\n- The next 2 years will be a bumpy ride for Democratic presidential candidates (1 day ago)\n- AI reveals who would win the US presidential election if Trump ran against Obama in 2028 (3 days ago)\n- Presidential election, 2028 - Ballotpedia (1 day ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (3 days ago)",
+    "web_results": [
+      {
+        "title": "Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
+        "description": "<strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president</strong>. Otherwise, this market will resolve to \u201cNo\u201d. The resolution source for this market will be a consensus ..."
+      },
+      {
+        "title": "Presidential candidates, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_candidates,_2028",
+        "description": "\u2191 Politico, &quot;The Democrats and Republicans Best Positioned \u2014 Right Now \u2014 for 2028,&quot; December 30, 2024 \u00b7 \u2191 9.0 9.1 9.2 9.3 Semafor, &quot;Democrats, addicted to nominating senators, prepare for a 2028 pileup,&quot; May 19, 2025"
+      },
+      {
+        "title": "Who will win the 2028 Democratic presidential nomination?",
+        "url": "https://www.predictit.org/markets/detail/8153/Who-will-win-the-2028-Democratic-presidential-nomination",
+        "description": "<strong>The contract that resolves to Yes shall be that which identifies the person who wins the 2028 nomination of the Democratic Party for U.S. president</strong>. Replacement of the nominee for any reason prior to election day will have no impact on the ..."
+      },
+      {
+        "title": "2028 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_presidential_election",
+        "description": "Incumbent president Trump, along with former presidents Bill Clinton, George W. Bush, and Barack Obama, are <strong>ineligible to be elected to a third term</strong>, as the Twenty-second Amendment prohibits any person from being elected president more than twice."
+      },
+      {
+        "title": "It\u2019s Obama\u2019s victory over Trump too. Will it be Trump vs Obama in 2028?",
+        "url": "https://www.firstpost.com/world/barack-obama-donald-trump-2028-election-third-presidential-term-22nd-amendment-us-politics-democrats-republicans-13948040.html",
+        "description": "In the first direct contest in nearly eight years, <strong>Obama beat Trump with a perfect 4-0 score</strong>. That has led to serious speculation over whether the two may clash again in 2028. Ever since his 2008 presidential campaign, hope and faith in the ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "The next 2 years will be a bumpy ride for Democratic presidential candidates",
+        "url": "https://thehill.com/opinion/campaign/5753519-democratic-presidential-race-2028/",
+        "description": "Early Democratic presidential race for 2028 is wide open. Newsom and Harris lead, but the field is volatile. Change is on voters' minds.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "AI reveals who would win the US presidential election if Trump ran against Obama in 2028",
+        "url": "https://www.unilad.com/news/us-news/trump-obama-ai-presidential-election-results-2028-966771-20260223",
+        "description": "The popular YouTube channel, I Ask AI, has shared a look at a hypothetical presidential election between Donald Trump and Barack Obama in 2028",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "1 day ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will Barack Obama win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

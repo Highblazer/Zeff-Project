@@ -1,0 +1,138 @@
+{
+  "id": "7389d466",
+  "title": "Kalshi API automated trading bot prediction market arbitrage",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Kalshi API automated trading bot prediction market arbitrage strategies profitable",
+    "count": 10
+  },
+  "priority": 2,
+  "status": "completed",
+  "created_by": "seth-ceo",
+  "created_at": "2026-02-25T21:48:47.732193+00:00",
+  "updated_at": "2026-02-25T21:49:15.667864+00:00",
+  "claimed_at": "2026-02-25T21:49:13.937631+00:00",
+  "completed_at": "2026-02-25T21:49:15.667850+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Kalshi API automated trading bot prediction market arbitrage strategies profitable\n\nWeb Results (10):\n- GitHub - CarlosIbCu/polymarket-kalshi-btc-arbitrage-bot: Real-time arbitrage bot detecting risk-free opportunities in Bitcoin 1-Hour Price markets between Polymarket and Kalshi: <strong>If the total cost is less than $1.00, a risk-free profit opportunity exists</strong>. ... Python Backend: Fast and efficient data fetching and\n- r/algotrading on Reddit: I built a bot to automate 'risk-free' arbitrage between Kalshi and Polymarket. Here is the source code.: The strategy is simple: <strong>Synthetic Arbitrage</strong>. When the implied probability of an event (like a Fed Rate Cut) diverges between Kalshi a\n- GitHub - realfishsam/prediction-market-arbitrage-bot: A bot that detects and executes arbitrage strategies between Polymarket and Kalshi. auto-buy low/sell high. Built with https://pmxt.dev: POLYMARKET_PRIVATE_KEY=your_private_key_here KALSHI_API_KEY=your_api_key_here KALSHI_API_SECRET=your_api_secret_here ... Picks the strategy with maxim\n- GitHub - OctagonAI/kalshi-deep-trading-bot: A straightforward trading bot for Kalshi prediction markets that uses Octagon Deep Research for market analysis and OpenAI for structured betting decisions.: # Environment KALSHI_USE_DEMO=true # Use demo environment for testing # Limits MAX_EVENTS_TO_ANALYZE=50 # Number of top events to analyze by 24h volum\n- kalshi \u00b7 GitHub Topics \u00b7 GitHub: \ud83d\ude80 <strong>Execute profitable trades with this Rust-based arbitrage bot for Polymarket, monitoring BTC and SOL 15-minute price prediction markets</stro\n- Building a Prediction Market Arbitrage Bot: Technical Implementation: Research analyzed 86 million bets across 17,218 conditions.[1] <strong>When sum-price falls below $1.00, arbitrageurs buy both positions and realize g\n- GitHub - ryanfrigo/kalshi-ai-trading-bot: \ud83e\udd16 Advanced AI-powered trading system for Kalshi prediction markets. Features Grok-4 integration, multi-agent decision making, portfolio optimization, and real-time market analysis. Educational/research purposes only.: Kalshi AI Trading Bot INGEST DECIDE (Multi-Agent) EXECUTE TRACK -------- ---------------------- --------- -------- +--------------------+ Kalshi -----\n- GitHub - speedyhughes/kalshi-poly-arb: Polymarket arbitrage bot. Kalshi-Poly, Poly-Poly, and Kalshi-Kalshi arbitrage bot for automated cross-platform trading on Prediction Market.: Kalshi-Kalshi markets (same-platform arbitrage on Kalshi) <strong>The bot takes both sides of a market when YES and NO prices add up to less than $1.0\n- GitHub - vladmeer/kalshi-arbitrage-bot: Kalshi Arbitrage Bot. Kalshi trading bot. Kalshi Arbitrage Bot. Kalshi trading bot. Kalshi Arbitrage Bot. Kalshi trading bot. Kalshi Arbitrage Bot. Kalshi trading bot. Kalshi Arbitrage Bot. Kalshi trading bot.: The Kalshi Arbitrage Trading Bot is <strong>a professional-grade Python application that continuously monitors market conditions and identifies two di\n- GitHub - dexorynLabs/polymarket-kalshi-arbitrage-trading-bot-v1: Polymarket kalshi trading bot, To demonstrage kalshi arbitrage Trading bot on polymarket, polymarket kalshi Api: Default Behavior: <strong>The bot automatically scans both arbitrage and immediate trade opportunities, compares them, and shows recommendations</stro\n\nNews (10):\n- How AI is helping retail traders exploit prediction market 'glitches' to make easy money (4 days ago)\n- How Prediction Market Arbitrage Works (Polymarket, Kalshi) (1 month ago)\n- Prediction market Kalshi fines MrBeast editor over insider trading (3 hours ago)\n- Kalshi API Guide: How to Build Trading Bots and Automate\u2026 | Alphascope (4 weeks ago)\n- AI Prediction Market Arbitrage: $150k in 8,894 Trades (4 days ago)\n- Best Prediction Market Bots & Tools for Automated Trading (January 6, 2026)\n- Kalshi reveals insider trading case against editor for MrBeast (6 hours ago)\n- How Prediction Markets Polymarket and Kalshi Are Gamifying Truth (2 days ago)\n- Kalshi Trading Bot GitHub: Open-Source Bots, APIs, and Smarter Alternatives (4 weeks ago)\n- Kalshi Prediction Market: 7 Proven Strategies to Make Money (6 days ago)",
+    "web_results": [
+      {
+        "title": "GitHub - CarlosIbCu/polymarket-kalshi-btc-arbitrage-bot: Real-time arbitrage bot detecting risk-free opportunities in Bitcoin 1-Hour Price markets between Polymarket and Kalshi",
+        "url": "https://github.com/CarlosIbCu/polymarket-kalshi-btc-arbitrage-bot",
+        "description": "<strong>If the total cost is less than $1.00, a risk-free profit opportunity exists</strong>. ... Python Backend: Fast and efficient data fetching and arbitrage logic using FastAPI. Next.js Dashboard: A beautiful, real-time UI built with shadcn/ui to visualize ..."
+      },
+      {
+        "title": "r/algotrading on Reddit: I built a bot to automate 'risk-free' arbitrage between Kalshi and Polymarket. Here is the source code.",
+        "url": "https://www.reddit.com/r/algotrading/comments/1qebxud/i_built_a_bot_to_automate_riskfree_arbitrage/",
+        "description": "The strategy is simple: <strong>Synthetic Arbitrage</strong>. When the implied probability of an event (like a Fed Rate Cut) diverges between Kalshi and Polymarket, my bot automatically buys &quot;YES&quot; on one and &quot;NO&quot; on the other."
+      },
+      {
+        "title": "GitHub - realfishsam/prediction-market-arbitrage-bot: A bot that detects and executes arbitrage strategies between Polymarket and Kalshi. auto-buy low/sell high. Built with https://pmxt.dev",
+        "url": "https://github.com/realfishsam/prediction-market-arbitrage-bot",
+        "description": "POLYMARKET_PRIVATE_KEY=your_private_key_here KALSHI_API_KEY=your_api_key_here KALSHI_API_SECRET=your_api_secret_here ... Picks the strategy with maximum profit. Finds the best arbitrage opportunity (highest profit) ... Profit Taking: When markets converge (profit &lt; 1\u00a2), we sell to realize gains. Opportunity Rotation: If a better arbitrage opportunity appears (higher spread), we immediately exit the current position to rotate capital into the more profitable trade."
+      },
+      {
+        "title": "GitHub - OctagonAI/kalshi-deep-trading-bot: A straightforward trading bot for Kalshi prediction markets that uses Octagon Deep Research for market analysis and OpenAI for structured betting decisions.",
+        "url": "https://github.com/OctagonAI/kalshi-deep-trading-bot",
+        "description": "# Environment KALSHI_USE_DEMO=true # Use demo environment for testing # Limits MAX_EVENTS_TO_ANALYZE=50 # Number of top events to analyze by 24h volume MAX_BET_AMOUNT=25.0 # Maximum bet per market RESEARCH_BATCH_SIZE=10 # Number of parallel deep research requests SKIP_EXISTING_POSITIONS=true # Skip betting on markets where we already have positions # Risk Management / Hedging ENABLE_HEDGING=true # Enable hedging to minimize risk and protect downside HEDGE_RATIO=0.25 # Default hedge ratio (0.25 = hedge 25% of main bet on opposite side) MIN_CONFIDENCE_FOR_HEDGING=0.6 # Only hedge bets with confidence below this threshold MAX_HEDGE_AMOUNT=50.0 # Maximum hedge amount per bet in dollars # API Keys KALSHI_API_KEY=your_key KALSHI_PRIVATE_KEY=your_private_key OCTAGON_API_KEY=your_key OPENAI_API_KEY=your_key"
+      },
+      {
+        "title": "kalshi \u00b7 GitHub Topics \u00b7 GitHub",
+        "url": "https://github.com/topics/kalshi?o=desc&s=updated",
+        "description": "\ud83d\ude80 <strong>Execute profitable trades with this Rust-based arbitrage bot for Polymarket, monitoring BTC and SOL 15-minute price prediction markets</strong>. bot crypto bitcoin trading discord ethereum blockchain discord-bot grpc polygon profitable memecoin ..."
+      },
+      {
+        "title": "Building a Prediction Market Arbitrage Bot: Technical Implementation",
+        "url": "https://navnoorbawa.substack.com/p/building-a-prediction-market-arbitrage",
+        "description": "Research analyzed 86 million bets across 17,218 conditions.[1] <strong>When sum-price falls below $1.00, arbitrageurs buy both positions and realize guaranteed profit at resolution</strong>. Cross-platform fragmentation: Kalshi captured 62% of prediction market ..."
+      },
+      {
+        "title": "GitHub - ryanfrigo/kalshi-ai-trading-bot: \ud83e\udd16 Advanced AI-powered trading system for Kalshi prediction markets. Features Grok-4 integration, multi-agent decision making, portfolio optimization, and real-time market analysis. Educational/research purposes only.",
+        "url": "https://github.com/ryanfrigo/kalshi-ai-trading-bot",
+        "description": "Kalshi AI Trading Bot INGEST DECIDE (Multi-Agent) EXECUTE TRACK -------- ---------------------- --------- -------- +--------------------+ Kalshi --------&gt; | Grok-4 | REST API | (Forecaster, 30%) | +--------------------+ WebSocket --------&gt; +--------------------+ Stream | Claude Sonnet 4 | | (News Analyst,20%)| Kalshi Portfolio RSS/News --------&gt; +--------------------+ -----&gt; Order -----&gt; P&amp;L, Win Feeds | GPT-4o | Router Rate, | (Bull Case, 20%) | Sharpe, Volume &amp; --------&gt; +--------------------+ Kelly Drawdown Price Data | Gemini 2.5 Flash | Criterion Tracking | (Bear Case, 15%) | Sizing +--------------------+ Cost &amp; | DeepSeek R1 | Risk Budget | (Risk Mgr, 15%) | Parity Monitor +--------------------+ Alloc Debate &amp; Consensus Confidence Calibration"
+      },
+      {
+        "title": "GitHub - speedyhughes/kalshi-poly-arb: Polymarket arbitrage bot. Kalshi-Poly, Poly-Poly, and Kalshi-Kalshi arbitrage bot for automated cross-platform trading on Prediction Market.",
+        "url": "https://github.com/speedyhughes/kalshi-poly-arb",
+        "description": "Kalshi-Kalshi markets (same-platform arbitrage on Kalshi) <strong>The bot takes both sides of a market when YES and NO prices add up to less than $1.00, guaranteeing a risk-free profit at market expiry</strong>."
+      },
+      {
+        "title": "GitHub - vladmeer/kalshi-arbitrage-bot: Kalshi Arbitrage Bot. Kalshi trading bot. Kalshi Arbitrage Bot. Kalshi trading bot. Kalshi Arbitrage Bot. Kalshi trading bot. Kalshi Arbitrage Bot. Kalshi trading bot. Kalshi Arbitrage Bot. Kalshi trading bot.",
+        "url": "https://github.com/vladmeer/kalshi-arbitrage-bot",
+        "description": "The Kalshi Arbitrage Trading Bot is <strong>a professional-grade Python application that continuously monitors market conditions and identifies two distinct types of profitable trading opportunities</strong>."
+      },
+      {
+        "title": "GitHub - dexorynLabs/polymarket-kalshi-arbitrage-trading-bot-v1: Polymarket kalshi trading bot, To demonstrage kalshi arbitrage Trading bot on polymarket, polymarket kalshi Api",
+        "url": "https://github.com/dexorynLabs/polymarket-kalshi-arbitrage-trading-bot-v1",
+        "description": "Default Behavior: <strong>The bot automatically scans both arbitrage and immediate trade opportunities, compares them, and shows recommendations</strong>. The bot scans Kalshi markets for two types of profitable opportunities:"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "How AI is helping retail traders exploit prediction market 'glitches' to make easy money",
+        "url": "https://coindesk.com/markets/2026/02/21/how-ai-is-helping-retail-traders-exploit-prediction-market-glitches-to-make-easy-money",
+        "description": "A fully automated bot quietly captured micro-arbitrage opportunities on short-term crypto prediction markets, netting nearly $150,000",
+        "age": "4 days ago"
+      },
+      {
+        "title": "How Prediction Market Arbitrage Works (Polymarket, Kalshi)",
+        "url": "https://www.trevorlasn.com/blog/how-prediction-market-polymarket-kalshi-arbitrage-works",
+        "description": "Buy YES and NO for less than a dollar. One of them pays out a dollar. Keep the difference.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Prediction market Kalshi fines MrBeast editor over insider trading",
+        "url": "https://www.bbc.com/news/articles/c77ed1e2r6zo",
+        "description": "A former California governor candidate was also disciplined as the platform cracks down.",
+        "age": "3 hours ago"
+      },
+      {
+        "title": "Kalshi API Guide: How to Build Trading Bots and Automate\u2026 | Alphascope",
+        "url": "https://www.alphascope.app/blog/kalshi-api",
+        "description": "Everything you need to know about the Kalshi API\u2014authentication, endpoints, rate limits, and how to build automated trading systems.",
+        "age": "4 weeks ago"
+      },
+      {
+        "title": "AI Prediction Market Arbitrage: $150k in 8,894 Trades",
+        "url": "https://ainvest.com/news/ai-prediction-market-arbitrage-150k-8-894-trades-2602",
+        "description": "The bot's 8,894 trades were possible because each round-trip was small enough to fit within the market's daily flow without causing a price impact. In essence, the market's liquidity is a double-edged sword: it enables the strategy by providing a base of trading activity, but its thinness is what makes the arbitrage edge exist in the first place. The broader prediction market landscape shows a stark contrast. Platforms like Kalshi ...",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Best Prediction Market Bots & Tools for Automated Trading",
+        "url": "https://newyorkcityservers.com/blog/best-prediction-market-bots-tools",
+        "description": "Discover the best prediction market bots and tools for Polymarket and Kalshi. Covers arbitrage bots, AI agents, analytics platforms, and trading automation.",
+        "age": "January 6, 2026"
+      },
+      {
+        "title": "Kalshi reveals insider trading case against editor for MrBeast",
+        "url": "https://www.npr.org/2026/02/25/nx-s1-5726050/kalshi-insider-trading-enforcement-actions",
+        "description": "With prediction markets booming, so have concerns about insider trading. Now, Kalshi has disclosed its first public actions against accounts suspected of trading on confidential information.",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "How Prediction Markets Polymarket and Kalshi Are Gamifying Truth",
+        "url": "https://www.bloomberg.com/features/2026-prediction-markets-polymarket-kalshi/",
+        "description": "Traders on Kalshi and Polymarket are wagering on everything from championship games to Fed press conferences. Critics call it unregulated gambling.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Kalshi Trading Bot GitHub: Open-Source Bots, APIs, and Smarter Alternatives",
+        "url": "https://www.alphascope.app/blog/kalshi-trading-bot-github",
+        "description": "A breakdown of Kalshi trading bot projects on GitHub\u2014what they do, how they work, their limitations, and why AI-powered tools like Alphascope give you a real edge without writing a single line of code.",
+        "age": "4 weeks ago"
+      },
+      {
+        "title": "Kalshi Prediction Market: 7 Proven Strategies to Make Money",
+        "url": "https://laikalabs.ai/prediction-markets/kalshi-prediction-market-trading-strategies",
+        "description": "Learn how to profit on Kalshi prediction market with smart trading strategies, lower fees, maker rebates, and bias based probability edges.",
+        "age": "6 days ago"
+      }
+    ],
+    "query": "Kalshi API automated trading bot prediction market arbitrage strategies profitable",
+    "sources_count": 20
+  },
+  "error": null
+}

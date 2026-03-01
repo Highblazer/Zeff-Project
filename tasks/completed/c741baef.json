@@ -1,0 +1,85 @@
+{
+  "id": "c741baef",
+  "title": "Polymarket research: Blackhawks vs. Predators",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Blackhawks vs. Predators",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:34:10.512143+00:00",
+  "updated_at": "2026-02-26T23:35:05.677260+00:00",
+  "claimed_at": "2026-02-26T23:35:04.302360+00:00",
+  "completed_at": "2026-02-26T23:35:05.677241+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Blackhawks vs. Predators\n\nWeb Results (5):\n- Predators vs Blackhawks Prediction: Lineup, Last Games, Injury Report, Player Props, H2H & Best Picks - NHL Feb 26, 2026: The Nashville Predators return to Bridgestone Arena on <strong>February 26, 2026</strong>, to face the Chicago Blackhawks in a Central Division matchu\n- Chicago Blackhawks - Nashville Predators - Jan 10, 2026 | NHL.com: NHL Gamecenter - Chicago Blackhawks vs. Nashville Predators, <strong>Jan 10, 2026</strong> - summary, stats, boxscore, play by play, recap and more.\n- How to watch Blackhawks vs. Predators: TV channel and streaming options for February 26 - The Athletic: ET at Bridgestone Arena and broadcast on ESPN+. <strong>The Predators are 10th and the Blackhawks 13th in the Western Conference</strong>.\n- Blackhawks vs. Predators: Return From Break, Preview, Lineups, & How To Watch | Chicago Hockey Now: <strong>The Chicago Blackhawks (22-26-9) play their first game out of the Olympic break against the Nashville Predators (26-24-7)</strong> at Bridgest\n- Blackhawks 3-0 Predators (11 Jan, 2026) Game Recap - ESPN (AU): NASHVILLE, Tenn. -- \u2014 Drew Commesso made 37 saves for his first NHL shutout and victory, Connor Bedard set up the first two goals and the <strong>Chic\n\nNews (5):\n- Blackhawks vs. Predators: Return From Break, Preview, Lineups, & How To Watch | Chicago Hockey Now (8 hours ago)\n- How to watch Blackhawks vs. Predators: TV channel and streaming options for February 26 - The Athletic (3 hours ago)\n- Blackhawks vs. Predators prediction: Nashville favored to win Thursday's NHL matchup [2/26/2026] (11 hours ago)\n- GAME DAY: Blackhawks vs. Preds, February 26 | Nashville Predators (19 hours ago)\n- Blackhawks return to action against Predators (5 hours ago)",
+    "web_results": [
+      {
+        "title": "Predators vs Blackhawks Prediction: Lineup, Last Games, Injury Report, Player Props, H2H & Best Picks - NHL Feb 26, 2026",
+        "url": "https://www.sportpreferred.com/nhl/predators-vs-blackhawks-prediction-lineup-last-games-injury-report-player-props-h2h-best-picks-nhl-feb-26-2026/8322",
+        "description": "The Nashville Predators return to Bridgestone Arena on <strong>February 26, 2026</strong>, to face the Chicago Blackhawks in a Central Division matchup that could turn into a close and high-event contest."
+      },
+      {
+        "title": "Chicago Blackhawks - Nashville Predators - Jan 10, 2026 | NHL.com",
+        "url": "https://www.nhl.com/gamecenter/chi-vs-nsh/2026/01/10/2025020707",
+        "description": "NHL Gamecenter - Chicago Blackhawks vs. Nashville Predators, <strong>Jan 10, 2026</strong> - summary, stats, boxscore, play by play, recap and more."
+      },
+      {
+        "title": "How to watch Blackhawks vs. Predators: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7073786/2026/02/26/blackhawks-vs-predators-stream-how-to-watch-feb-26/",
+        "description": "ET at Bridgestone Arena and broadcast on ESPN+. <strong>The Predators are 10th and the Blackhawks 13th in the Western Conference</strong>."
+      },
+      {
+        "title": "Blackhawks vs. Predators: Return From Break, Preview, Lineups, & How To Watch | Chicago Hockey Now",
+        "url": "https://chicagohockeynow.com/2026/02/26/chicago-blackhawks-nashville-predators-return-olympics-preview-lineups-game-58/",
+        "description": "<strong>The Chicago Blackhawks (22-26-9) play their first game out of the Olympic break against the Nashville Predators (26-24-7)</strong> at Bridgestone Arena on Thursday. It\u2019s the start of the four-game road trip for the Blackhawks to begin their post-Olympic ..."
+      },
+      {
+        "title": "Blackhawks 3-0 Predators (11 Jan, 2026) Game Recap - ESPN (AU)",
+        "url": "https://www.espn.com.au/nhl/recap?gameId=401803058",
+        "description": "NASHVILLE, Tenn. -- \u2014 Drew Commesso made 37 saves for his first NHL shutout and victory, Connor Bedard set up the first two goals and the <strong>Chicago Blackhawks beat the Nashville Predators 3-0</strong> on Saturday night."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Blackhawks vs. Predators: Return From Break, Preview, Lineups, & How To Watch | Chicago Hockey Now",
+        "url": "https://chicagohockeynow.com/2026/02/26/chicago-blackhawks-nashville-predators-return-olympics-preview-lineups-game-58/",
+        "description": "The Chicago Blackhawks (22-26-9) play their first game out of the Olympic break against the Nashville Predators (26-24-7) at Bridgestone Arena on Thursday. It\u2019s the start of the four-game road trip for the Blackhawks to begin their post-Olympic schedule. Thursday marks the third of four meetings ...",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "How to watch Blackhawks vs. Predators: TV channel and streaming options for February 26 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7073786/2026/02/26/blackhawks-vs-predators-stream-how-to-watch-feb-26/",
+        "description": "Find out how to watch the Chicago Blackhawks play the Nashville Predators, with time, TV channel and streaming information.",
+        "age": "3 hours ago"
+      },
+      {
+        "title": "Blackhawks vs. Predators prediction: Nashville favored to win Thursday's NHL matchup [2/26/2026]",
+        "url": "https://www.dimers.com/news/chicago-blackhawks-vs-nashville-predators-prediction-nhl-thursday-02-26-2026-ac",
+        "description": "The Nashville Predators and Chicago Blackhawks will lock horns in the NHL at Bridgestone Arena on Thursday, starting at 8:00 PM ET.",
+        "age": "11 hours ago"
+      },
+      {
+        "title": "GAME DAY: Blackhawks vs. Preds, February 26 | Nashville Predators",
+        "url": "https://www.nhl.com/predators/news/game-day-blackhawks-vs-preds-february-26-2026-02-26",
+        "description": "Nashville Hosts Chicago as Preds Resume Schedule Following Olympic Break",
+        "age": "19 hours ago"
+      },
+      {
+        "title": "Blackhawks return to action against Predators",
+        "url": "https://blackhawkup.com/blackhawks-return-to-action-against-predators",
+        "description": "A four-game road trip starts a crazy finish to the Chicago Blackhawks' season.",
+        "age": "5 hours ago"
+      }
+    ],
+    "query": "Blackhawks vs. Predators",
+    "sources_count": 10
+  },
+  "error": null
+}

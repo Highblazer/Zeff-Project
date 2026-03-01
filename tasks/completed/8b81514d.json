@@ -1,0 +1,33 @@
+{
+  "id": "8b81514d",
+  "title": "Close all open positions \u2014 switching to new strategy",
+  "assigned_to": "tradebot",
+  "task_type": "close_all",
+  "params": {},
+  "priority": 1,
+  "status": "completed",
+  "created_by": "user",
+  "created_at": "2026-02-26T19:23:19.025670+00:00",
+  "updated_at": "2026-02-26T19:23:40.705433+00:00",
+  "claimed_at": "2026-02-26T19:23:40.223119+00:00",
+  "completed_at": "2026-02-26T19:23:40.705415+00:00",
+  "retries": 0,
+  "result": {
+    "closed": 3,
+    "positions": [
+      {
+        "symbol": "LTCUSD",
+        "positionId": 585231432
+      },
+      {
+        "symbol": "USDCHF",
+        "positionId": 585348554
+      },
+      {
+        "symbol": "EURUSD",
+        "positionId": 585348957
+      }
+    ]
+  },
+  "error": null
+}

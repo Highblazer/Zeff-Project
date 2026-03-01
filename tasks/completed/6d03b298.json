@@ -1,0 +1,85 @@
+{
+  "id": "6d03b298",
+  "title": "Polymarket research: LoL: Team Secret Whales vs Deep Cross Gaming (BO5) - LCP Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Team Secret Whales vs Deep Cross Gaming (BO5) - LCP Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T08:28:39.884535+00:00",
+  "updated_at": "2026-03-01T08:28:46.390816+00:00",
+  "claimed_at": "2026-03-01T08:28:44.786989+00:00",
+  "completed_at": "2026-03-01T08:28:46.390800+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Team Secret Whales vs Deep Cross Gaming (BO5) - LCP Playoffs\n\nWeb Results (5):\n- r/leagueoflegends on Reddit: Team Secret Whales vs. Deep Cross Gaming / LCP 2026 Split 1 Playoffs - Winner's Bracket Round 3 / Post-Match Discussion: LCP weakest region rn. No way these teams play like this and expect to beat any team from brazil eu na. my eyes burned from watching probably the most\n- LoL: Team Secret Whales vs Deep Cross Gaming (BO5) - LCP Playoffs: This market refers to the LoL match between Team Secret Whales and Deep Cross Gaming in the LCP Playoffs, scheduled for <strong>February 26 at 1:00AM \n- Team Secret Whales vs Deep Cross Gaming | LCP Split 1 2026 Playoffs | Feb 26 | LoL | Stream, LiveScore, Results. Twitch, YouTube: Team Secret Whales vs Deep Cross Gaming League of Legends match ended 3 - 2 in favour of Team Secret Whales and was played on <strong>Feb 26, 2026 at \n- Secret Whales VS Deep Cross Gaming \u27a5 LoL \u27a5 Betting Tips, Stream, LiveScore, Results on EGW: 1WinsLCP 2026 Season Kickoff - PlayoffsSecret Whales3 - 2LCP 2026 Season Kickoff - Regular SeasonDeep Cross Gaming1 - 2 \u00b7 The match Secret Whales vs D\n- Team Secret Whales \u2013 Deep Cross Gaming - Live score | Sofascore: Team Secret Whales \u2013 Deep Cross Gaming match starts on <strong>1 Mar 2026 at 06:00 UTC</strong> in LCP \u041f\u043b\u0435\u0439-\u043e\u0444\u0444 \u2013 LoL. On Sofascore you can find Team \n\nNews (5):\n- LoL: Team Secret Whales vs Deep Cross Gaming (BO5) - LCP Playoffs (3 days ago)\n- LCP 2026 Split 1 - Liquipedia League of Legends Wiki (1 day ago)\n- All Teams Qualified For First Stand 2026 - Hotspawn (1 day ago)\n- League of Legends Esports Matches & Live Score | LOLTV.gg (2 days ago)\n- LoL Esports Week 5 Results Recap: Another First Stand Represenative Eliminated - Total Apex Entertainment (2 weeks ago)",
+    "web_results": [
+      {
+        "title": "r/leagueoflegends on Reddit: Team Secret Whales vs. Deep Cross Gaming / LCP 2026 Split 1 Playoffs - Winner's Bracket Round 3 / Post-Match Discussion",
+        "url": "https://www.reddit.com/r/leagueoflegends/comments/1rf68ea/team_secret_whales_vs_deep_cross_gaming_lcp_2026/",
+        "description": "LCP weakest region rn. No way these teams play like this and expect to beat any team from brazil eu na. my eyes burned from watching probably the most horrible bo5 between #1 and #2 seed of a region"
+      },
+      {
+        "title": "LoL: Team Secret Whales vs Deep Cross Gaming (BO5) - LCP Playoffs",
+        "url": "https://mlq.ai/prediction/market/lol-tsw-dcg-2026-02-26/",
+        "description": "This market refers to the LoL match between Team Secret Whales and Deep Cross Gaming in the LCP Playoffs, scheduled for <strong>February 26 at 1:00AM ET</strong>. This market will resolve to &quot;Team Secret Whales&quot; if \u2026"
+      },
+      {
+        "title": "Team Secret Whales vs Deep Cross Gaming | LCP Split 1 2026 Playoffs | Feb 26 | LoL | Stream, LiveScore, Results. Twitch, YouTube",
+        "url": "https://www.strafe.com/match/team-secret-whales-vs-deep-cross-gaming-playoffs-playoffs-split-1-2026-72da7d/",
+        "description": "Team Secret Whales vs Deep Cross Gaming League of Legends match ended 3 - 2 in favour of Team Secret Whales and was played on <strong>Feb 26, 2026 at 6:00 AM</strong> . The match was a Best of 5 series and part of the LCP Split 1 2026 Playoffs Playoffs."
+      },
+      {
+        "title": "Secret Whales VS Deep Cross Gaming \u27a5 LoL \u27a5 Betting Tips, Stream, LiveScore, Results on EGW",
+        "url": "https://egamersworld.com/lol/match/7uSfu4E5Z/secret-whales-vs-deep-cross-gaming-g57KiUrqv",
+        "description": "1WinsLCP 2026 Season Kickoff - PlayoffsSecret Whales3 - 2LCP 2026 Season Kickoff - Regular SeasonDeep Cross Gaming1 - 2 \u00b7 The match Secret Whales vs Deep Cross Gaming in the discipline LoL will take place on <strong>01.03.2026 at 06:00</strong> in the format BO5."
+      },
+      {
+        "title": "Team Secret Whales \u2013 Deep Cross Gaming - Live score | Sofascore",
+        "url": "https://www.sofascore.com/esports/match/team-secret-whales-deep-cross-gaming/UmndsyUri",
+        "description": "Team Secret Whales \u2013 Deep Cross Gaming match starts on <strong>1 Mar 2026 at 06:00 UTC</strong> in LCP \u041f\u043b\u0435\u0439-\u043e\u0444\u0444 \u2013 LoL. On Sofascore you can find Team Secret Whales vs Deep Cross Gaming results from all of their previous H2H matches."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "LoL: Team Secret Whales vs Deep Cross Gaming (BO5) - LCP Playoffs",
+        "url": "https://mlq.ai/prediction/market/lol-tsw-dcg-2026-02-26/",
+        "description": "This market refers to the LoL match between Team Secret Whales and Deep Cross Gaming in the LCP Playoffs, scheduled for February 26 at 1:00AM ET. This market will resolve to \"Team Secret Whales\" if \u2026",
+        "age": "3 days ago"
+      },
+      {
+        "title": "LCP 2026 Split 1 - Liquipedia League of Legends Wiki",
+        "url": "https://liquipedia.net/leagueoflegends/LCP/2026/Split_1",
+        "description": "LCP 2026 Split 1 is an offline Taiwanese LoL tournament organized by Riot Games. This S-Tier tournament takes place from Jan 16 to Mar 01 2026 featuring 8 teams.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "All Teams Qualified For First Stand 2026 - Hotspawn",
+        "url": "https://hotspawn.com/league-of-legends/news/first-stand-2026-teams",
+        "description": "First Stand 2026 will take place in S\u00e3o Paulo, Brazil, between March 16 and March 22. Let's take a look at all of the teams qualified for FST 2026.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "League of Legends Esports Matches & Live Score | LOLTV.gg",
+        "url": "https://loltv.gg/matches",
+        "description": "Discover a centralized hub for all upcoming League of Legends Esports matches and events. Explore comprehensive details, including live scores, player lineups, statistics, and much more!",
+        "age": "2 days ago"
+      },
+      {
+        "title": "LoL Esports Week 5 Results Recap: Another First Stand Represenative Eliminated - Total Apex Entertainment",
+        "url": "https://totalapexentertainment.com/gaming/e-sports/tournaments/lol-esports-wk5-recap",
+        "description": "The fifth week of LoL Esports saw a shock victory for FearX and CTBC Flying Oyster out of contention for the First Stand event later this year.",
+        "age": "2 weeks ago"
+      }
+    ],
+    "query": "LoL: Team Secret Whales vs Deep Cross Gaming (BO5) - LCP Playoffs",
+    "sources_count": 10
+  },
+  "error": null
+}

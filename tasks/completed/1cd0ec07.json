@@ -1,0 +1,138 @@
+{
+  "id": "1cd0ec07",
+  "title": "Research Claude AI agent tools, Claude Code CLI features, MCP servers, and Anthropic SDK capabilities \u2014 find articles, tweets, and tutorials on building autonomous agents with Claude",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Claude Code CLI AI agent tools MCP servers Anthropic 2026",
+    "count": 10
+  },
+  "priority": 2,
+  "status": "completed",
+  "created_by": "CEO",
+  "created_at": "2026-02-25T21:41:49.904564+00:00",
+  "updated_at": "2026-02-25T21:41:58.874693+00:00",
+  "claimed_at": "2026-02-25T21:41:57.014733+00:00",
+  "completed_at": "2026-02-25T21:41:58.874678+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Claude Code CLI AI agent tools MCP servers Anthropic 2026\n\nWeb Results (10):\n- Claude Code Complete Guide 2026: From Basics to Advanced MCP, Agents & Git Workflows: Quick Answer: Claude Code is <strong>Anthropic&#x27;s official AI-powered command-line interface (CLI) that runs directly in your terminal, providing \n- Connect Claude Code to tools via MCP - Claude Code Docs: # Add a user server claude mcp add --transport http hubspot --scope user https://mcp.hubspot.com/anthropic\n- r/Anthropic on Reddit: Using Claude Code with local tools via MCP (custom servers, CLI, stdio): \u00b2\u2309 If your problem requires Anthropic&#x27;s help, visit https://support.anthropic.com/ This subreddit is not the right place to fix your account issu\n- Anthropic: An IDE assistant that integrates git operations, file manipulation, package managers, testing frameworks, and deployment pipelines. <strong>An operati\n- Anthropic just released a mobile version of Claude Code called Remote Control | VentureBeat: This ensures that local context\u2014filesystem access, environment variables, and Model Context Protocol (MCP)servers\u2014remains active and reachable even if\n- Claude Code CLI: The Definitive Technical Reference: Master Claude Code CLI with this 5,000+ line reference. <strong>Covers hooks, MCP servers, subagents, skills, permissions, and enterprise patterns for\n- Anthropic says Claude Code transformed programming. Now Claude Cowork is coming for the rest of the enterprise. | VentureBeat: Anthropic is making its boldest enterprise push yet with Claude Cowork, <strong>rolling out private plug-in marketplaces, deep integrations, and AI ag\n- A Guide to Claude Code 2.0 and getting better at using coding agents | sankalp's blog: (Tools: All tools) - claude-code-guide: Use this agent when the user asks questions (&quot;Can Claude...&quot;, &quot;Does Claude...&quot;, &quot;How \n- Cooking with Claude Code: The Complete Tutorial & Guide | Sid Bharath: <strong>Updated for February 2026</strong> \u2014 I first wrote this guide on July 4, 2025 (freedom!) and have been updating it regularly as new features c\n- Claude Agent SDK | Promptfoo: To opt back into caching for deterministic MCP tools (e.g., code search, static knowledge bases), set cache_mcp: true: providers: - id: anthropic:clau\n\nNews (10):\n- The Ultimate Claude Code Resource List (2026 Edition) (2 days ago)\n- Anthropic says Claude Code transformed programming. Now Claude Cowork is coming for the rest of the enterprise. | VentureBeat (1 day ago)\n- Claude Developer Platform - Claude API Docs (5 hours ago)\n- Anthropic just released a mobile version of Claude Code called Remote Control | VentureBeat (19 hours ago)\n- Why Anthropic Launching Claude Code Security Is Great News for the Industry | Snyk (3 days ago)\n- Anthropic Links AI Agent With Tools for Investment Banking, HR - Bloomberg (1 day ago)\n- Infosec community panics over Anthropic Claude Code Security \u2022 The Register (2 days ago)\n- Anthropic Targets More Industries With Claude Cowork Plugins (1 day ago)\n- Anthropic targets core business systems with new Claude plug-ins | CIO (18 hours ago)\n- Anthropic\u2019s Claude Cowork is plugging AI into more boring enterprise stuff | The Verge (1 day ago)",
+    "web_results": [
+      {
+        "title": "Claude Code Complete Guide 2026: From Basics to Advanced MCP, Agents & Git Workflows",
+        "url": "https://www.jitendrazaa.com/blog/ai/claude-code-complete-guide-2026-from-basics-to-advanced-mcp-2/",
+        "description": "Quick Answer: Claude Code is <strong>Anthropic&#x27;s official AI-powered command-line interface (CLI) that runs directly in your terminal, providing intelligent coding assistance with full file system access, Git integration, and extensibility through MCP servers</strong>..."
+      },
+      {
+        "title": "Connect Claude Code to tools via MCP - Claude Code Docs",
+        "url": "https://code.claude.com/docs/en/mcp",
+        "description": "# Add a user server claude mcp add --transport http hubspot --scope user https://mcp.hubspot.com/anthropic"
+      },
+      {
+        "title": "r/Anthropic on Reddit: Using Claude Code with local tools via MCP (custom servers, CLI, stdio)",
+        "url": "https://www.reddit.com/r/Anthropic/comments/1puq34k/using_claude_code_with_local_tools_via_mcp_custom/",
+        "description": "\u00b2\u2309 If your problem requires Anthropic&#x27;s help, visit https://support.anthropic.com/ This subreddit is not the right place to fix your account issues. \u00b3\u2309 For more help, check the resources below. \u2074\u2309 Please read the rules before posting. ... I automated the Claude Code and codex workflow into a single CLI tool: they debate, review, and fix code together ... Accessibility Reddit, Inc. \u00a9 2026."
+      },
+      {
+        "title": "Anthropic",
+        "url": "https://www.anthropic.com/engineering/advanced-tool-use",
+        "description": "An IDE assistant that integrates git operations, file manipulation, package managers, testing frameworks, and deployment pipelines. <strong>An operations coordinator that connects Slack, GitHub, Google Drive, Jira, company databases, and dozens of MCP servers simultaneously</strong>."
+      },
+      {
+        "title": "Anthropic just released a mobile version of Claude Code called Remote Control | VentureBeat",
+        "url": "https://venturebeat.com/orchestration/anthropic-just-released-a-mobile-version-of-claude-code-called-remote",
+        "description": "This ensures that local context\u2014filesystem access, environment variables, and Model Context Protocol (MCP)servers\u2014remains active and reachable even if the user is miles away from their desk. Claude Code Remote Control functions as a secure bridge between your local terminal and Anthropic\u2019s cloud interface, which provides the Anthropic AI models, Opus 4.6 and Sonnet 4.6, that power Claude Code."
+      },
+      {
+        "title": "Claude Code CLI: The Definitive Technical Reference",
+        "url": "https://blakecrosley.com/en/guides/claude-code",
+        "description": "Master Claude Code CLI with this 5,000+ line reference. <strong>Covers hooks, MCP servers, subagents, skills, permissions, and enterprise patterns for 2026</strong>."
+      },
+      {
+        "title": "Anthropic says Claude Code transformed programming. Now Claude Cowork is coming for the rest of the enterprise. | VentureBeat",
+        "url": "https://venturebeat.com/orchestration/anthropic-says-claude-code-transformed-programming-now-claude-cowork-is",
+        "description": "Anthropic is making its boldest enterprise push yet with Claude Cowork, <strong>rolling out private plug-in marketplaces, deep integrations, and AI agent tools that are reshaping corporate adoption and rattling software markets</strong>."
+      },
+      {
+        "title": "A Guide to Claude Code 2.0 and getting better at using coding agents | sankalp's blog",
+        "url": "https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/",
+        "description": "(Tools: All tools) - claude-code-guide: Use this agent when the user asks questions (&quot;Can Claude...&quot;, &quot;Does Claude...&quot;, &quot;How do I...&quot;) about: (1) Claude Code (the CLI tool) - features, hooks, slash commands, MCP servers, settings, IDE integrations, keyboard shortcuts; (2) Claude Agent SDK - building custom agents; (3) Claude API (formerly Anthropic API) - API usage, tool use, Anthropic SDK usage."
+      },
+      {
+        "title": "Cooking with Claude Code: The Complete Tutorial & Guide | Sid Bharath",
+        "url": "https://www.siddharthbharath.com/claude-code-the-complete-guide/",
+        "description": "<strong>Updated for February 2026</strong> \u2014 I first wrote this guide on July 4, 2025 (freedom!) and have been updating it regularly as new features come out. This latest revision covers Opus 4.6, Agent Teams, automatic memory, fast mode, and more."
+      },
+      {
+        "title": "Claude Agent SDK | Promptfoo",
+        "url": "https://www.promptfoo.dev/docs/providers/claude-agent-sdk/",
+        "description": "To opt back into caching for deterministic MCP tools (e.g., code search, static knowledge bases), set cache_mcp: true: providers: - id: anthropic:claude-agent-sdk config: cache_mcp: true mcp: servers: - command: npx args: [&#x27;-y&#x27;, &#x27;@my/deterministic-mcp-server&#x27;] name: my-server"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The Ultimate Claude Code Resource List (2026 Edition)",
+        "url": "https://www.scriptbyai.com/claude-code-resource-list/",
+        "description": "Supercharge Anthropic's Claude Code with this curated list of 100+ free agents, skills, plugins, and more. Hand-picked and verified for pragmatic developers.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Anthropic says Claude Code transformed programming. Now Claude Cowork is coming for the rest of the enterprise. | VentureBeat",
+        "url": "https://venturebeat.com/orchestration/anthropic-says-claude-code-transformed-programming-now-claude-cowork-is",
+        "description": "Anthropic is making its boldest enterprise push yet with Claude Cowork, rolling out private plug-in marketplaces, deep integrations, and AI agent tools that are reshaping corporate adoption and rattling software markets.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Claude Developer Platform - Claude API Docs",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "description": "Updates to the Claude Developer Platform, including the Claude API, client SDKs, and the Claude Console.",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Anthropic just released a mobile version of Claude Code called Remote Control | VentureBeat",
+        "url": "https://venturebeat.com/orchestration/anthropic-just-released-a-mobile-version-of-claude-code-called-remote",
+        "description": "Unofficial solutions, while functional, were often brittle and prone to timeout issues. Remote Control replaces these workarounds with a native streaming connection",
+        "age": "19 hours ago"
+      },
+      {
+        "title": "Why Anthropic Launching Claude Code Security Is Great News for the Industry | Snyk",
+        "url": "https://snyk.io/articles/anthropic-launches-claude-code-security/",
+        "description": "Is Anthropic's Claude Code Security a disruption? Learn how Snyk's platform leverages layered AI and deterministic analysis for complete vulnerability detection and automated remediation.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Anthropic Links AI Agent With Tools for Investment Banking, HR - Bloomberg",
+        "url": "https://bloomberg.com/news/articles/2026-02-24/anthropic-links-ai-agent-with-tools-for-investment-banking-hr",
+        "description": "Anthropic PBC is expanding the reach of its Claude chatbot into new sectors, weeks after the startup sparked a market meltdown with the release of tools that raised questions about AI\u2019s potential to render entire businesses obsolete.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Infosec community panics over Anthropic Claude Code Security \u2022 The Register",
+        "url": "https://www.theregister.com/2026/02/23/claude_code_security_panic/",
+        "description": "ai-pocalypse Anthropic sent the infosec community into a tizzy on Friday when it rolled out Claude Code Security, a new feature that scans codebases for vulnerabilities and suggests patches to fix the issues \u00b7 The new security capability is currently available as a limited research preview ...",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Anthropic Targets More Industries With Claude Cowork Plugins",
+        "url": "https://aibusiness.com/agentic-ai/anthropic-targets-more-industries-with-plugins",
+        "description": "The update to Claude Cowork gives admins the ability to set up their own plugins and provides new prebuilt ones for specific industries.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Anthropic targets core business systems with new Claude plug-ins | CIO",
+        "url": "https://cio.com/article/4137146/anthropic-targets-core-business-systems-with-new-claude-plug-ins.html",
+        "description": "New integrations connect Claude to finance, HR, and engineering tools, as CIOs assess productivity gains against governance and data security risks.",
+        "age": "18 hours ago"
+      },
+      {
+        "title": "Anthropic\u2019s Claude Cowork is plugging AI into more boring enterprise stuff | The Verge",
+        "url": "https://theverge.com/ai-artificial-intelligence/883707/anthropic-claude-cowork-updates",
+        "description": "Anthropic has released new tools for its Claude Cowork platform, including new plugins and connectors, in its latest push into AI agents.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Claude Code CLI AI agent tools MCP servers Anthropic 2026",
+    "sources_count": 20
+  },
+  "error": null
+}

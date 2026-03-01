@@ -1,0 +1,85 @@
+{
+  "id": "e4784235",
+  "title": "Polymarket research: Will Liverpool win the 2025\u201326 English Premier League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Liverpool win the 2025\u201326 English Premier League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-02-26T23:31:15.547136+00:00",
+  "updated_at": "2026-02-26T23:31:51.073650+00:00",
+  "claimed_at": "2026-02-26T23:31:49.158045+00:00",
+  "completed_at": "2026-02-26T23:31:51.073634+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Liverpool win the 2025\u201326 English Premier League?\n\nWeb Results (5):\n- Why Liverpool Will Win the 2025-26 Premier League and Why Arsenal and Man City Won't: It\u2019s time for Liverpool to defend the Premier League title. The English champions blew prospective contenders away last season, finishing 10 points cl\n- VOTE: Who will win the Premier League title?: Chelsea dropped two points after Burnley&#x27;s Zian Flemming netted a stoppage-time equaliser at Stamford Bridge, while <strong>Liverpool also needed\n- English Premier League Winner Predictions & Odds | Polymarket: Propose resolutionThis is a polymarket on whether the listed club will win the 2025\u201326 English Premier League. This market will resolve to &quot;Yes&q\n- 2025\u201326 Liverpool F.C. season - Wikipedia: <strong>As the reigning champions in the Premier League</strong>, Liverpool entered the UEFA Champions League in the league phase. The league phase dr\n- Liverpool Fixtures & Results 2025/2026 | Premier League: View Liverpool scores, fixtures and results for matches played in all competitions, on the official website of the Premier League.\n\nNews (5):\n- Premier League 2025-26 table \u2014 Latest standings - NBC Sports (2 days ago)\n- VOTE: Who will win the Premier League title? (5 days ago)\n- Champions League: Premier League clubs to learn last-16 opponents in Friday's draw | Football News | Sky Sports (13 hours ago)\n- Premier League relegation battle 2025/26: Odds, table, fixtures and predictions | Football News | Sky Sports (3 days ago)\n- 2025/26 Champions League: All the fixtures and results | UEFA Champions League | UEFA.com (1 day ago)",
+    "web_results": [
+      {
+        "title": "Why Liverpool Will Win the 2025-26 Premier League and Why Arsenal and Man City Won't",
+        "url": "https://bleacherreport.com/articles/25233745-why-liverpool-will-win-2025-26-premier-league-and-why-arsenal-and-man-city-wont",
+        "description": "It\u2019s time for Liverpool to defend the Premier League title. The English champions blew prospective contenders away last season, finishing 10 points clear of second-place Arsenal, 13 ahead of previous winners Manchester City and 15 beyond Chelsea in fourth."
+      },
+      {
+        "title": "VOTE: Who will win the Premier League title?",
+        "url": "https://www.premierleague.com/en/news/4488319/vote-who-will-win-the-premier-league-title-in-2025-26-season",
+        "description": "Chelsea dropped two points after Burnley&#x27;s Zian Flemming netted a stoppage-time equaliser at Stamford Bridge, while <strong>Liverpool also needed a late goal from Alexis Mac Allister to win 1-0 at Nottingham Forest.</strong>"
+      },
+      {
+        "title": "English Premier League Winner Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/english-premier-league-winner/will-liverpool-win-the-202526-english-premier-league",
+        "description": "Propose resolutionThis is a polymarket on whether the listed club will win the 2025\u201326 English Premier League. This market will resolve to &quot;Yes&quot; if the listed club is officially crowned the winner of the 2025\u201326 English Premier League. Otherwise, it will resolve to &quot;No&quot;."
+      },
+      {
+        "title": "2025\u201326 Liverpool F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Liverpool_F.C._season",
+        "description": "<strong>As the reigning champions in the Premier League</strong>, Liverpool entered the UEFA Champions League in the league phase. The league phase draw was held on 28 August 2025."
+      },
+      {
+        "title": "Liverpool Fixtures & Results 2025/2026 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/14/liverpool/matches",
+        "description": "View Liverpool scores, fixtures and results for matches played in all competitions, on the official website of the Premier League."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Premier League 2025-26 table \u2014 Latest standings - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-table-teams-standings-for-the-new-season",
+        "description": "The 2025-26 Premier League table is absolutely bonkers and so tight.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "VOTE: Who will win the Premier League title?",
+        "url": "https://www.premierleague.com/en/news/4488319/vote-who-will-win-the-premier-league-title-in-2025-26-season",
+        "description": "After Arsenal's 4-1 win over Spurs, who do YOU think will be crowned 2025/26 champions?",
+        "age": "5 days ago"
+      },
+      {
+        "title": "Champions League: Premier League clubs to learn last-16 opponents in Friday's draw | Football News | Sky Sports",
+        "url": "https://www.skysports.com/football/news/11945/13511136/champions-league-premier-league-clubs-to-learn-last-16-opponents-in-fridays-draw",
+        "description": "Newcastle progress to join Arsenal, Manchester City, Liverpool, Chelsea and Tottenham in Champions League last 16; Magpies will face Chelsea or Barcelona in knockout tie with draw on Friday at 11am",
+        "age": "13 hours ago"
+      },
+      {
+        "title": "Premier League relegation battle 2025/26: Odds, table, fixtures and predictions | Football News | Sky Sports",
+        "url": "https://skysports.com/football/news/11661/13509977/premier-league-relegation-battle-2025-26-odds-table-fixtures-and-predictions",
+        "description": "Leeds, Tottenham, Nottingham Forest and West Ham are the clubs currently in danger of Premier League relegation alongside Wolves and Burnley with 11 games left of the season - here, we look at each teams fixtures and probability of going down...",
+        "age": "3 days ago"
+      },
+      {
+        "title": "2025/26 Champions League: All the fixtures and results | UEFA Champions League | UEFA.com",
+        "url": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a2f63fe2d-ebf9ad643892-1000--2025-26-champions-league-all-the-fixtures-and-results/",
+        "description": "Check out all the 2025/26 UEFA Champions League fixtures and results.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Liverpool win the 2025\u201326 English Premier League?",
+    "sources_count": 10
+  },
+  "error": null
+}
