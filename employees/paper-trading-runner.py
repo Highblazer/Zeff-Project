@@ -9,19 +9,19 @@ import requests
 import json
 import os
 import time as _time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 # Safety imports
 import sys
 sys.path.insert(0, '/root/.openclaw/workspace')
-from lib.trading_safety import check_kill_switch, validate_price, pre_trade_checks, estimate_dollar_risk
+from lib.trading_safety import check_kill_switch, validate_price, pre_trade_checks, estimate_dollar_risk, validate_rr, MIN_RR_RATIO
 from lib.credentials import get_icm_credentials
 from lib.atomic_write import atomic_json_write
 from lib.task_dispatch import (
     get_pending_tasks, claim_task, complete_task, fail_task,
 )
 from lib.zeffbot_report import report_trade_opened, report_trade_closed
-from lib.telegram import send_message as telegram_send
+from lib.telegram import send_message as telegram_send, send_premium_signal
 
 # Twisted + cTrader API
 from twisted.internet import reactor, task, defer, threads
@@ -33,9 +33,12 @@ from ctrader_open_api.messages.OpenApiMessages_pb2 import (
     ProtoOASubscribeSpotsReq, ProtoOAUnsubscribeSpotsReq,
     ProtoOAGetPositionUnrealizedPnLReq,
     ProtoOAAmendPositionSLTPReq,
+    ProtoOAGetTrendbarsReq,
+    ProtoOASubscribeDepthQuotesReq,
+    ProtoOADealListReq,
 )
 from ctrader_open_api.messages.OpenApiModelMessages_pb2 import (
-    ProtoOAOrderType, ProtoOATradeSide,
+    ProtoOAOrderType, ProtoOATradeSide, ProtoOATrendbarPeriod,
 )
 
 # Load credentials
@@ -81,56 +84,59 @@ ID_TO_SYMBOL = {v: k for k, v in SYMBOL_IDS.items()}
 # volume = cTrader units. Forex: 100000 = 0.01 lot. CFDs vary.
 PAIRS = {
     # ── Forex Majors ──
-    # volume 100000 = 0.01 lot (micro). Smaller to fit more positions on $200 balance.
+    # Volumes target ~4% of balance ($18) risk per trade. _calc_safe_volume adjusts dynamically.
     # R:R 1:3 + trailing stop. trail_trigger = 1× risk, trail_step = 0.5× risk.
-    'EURUSD':  {'name': 'EUR/USD',  'type': 'forex',  'volume': 100000, 'risk_pips': 10, 'reward_pips': 30, 'trail_trigger_pips': 10, 'trail_step_pips': 5},
-    'GBPUSD':  {'name': 'GBP/USD',  'type': 'forex',  'volume': 100000, 'risk_pips': 12, 'reward_pips': 36, 'trail_trigger_pips': 12, 'trail_step_pips': 6},
-    'USDJPY':  {'name': 'USD/JPY',  'type': 'forex',  'volume': 100000, 'risk_pips': 12, 'reward_pips': 36, 'trail_trigger_pips': 12, 'trail_step_pips': 6},
-    'AUDUSD':  {'name': 'AUD/USD',  'type': 'forex',  'volume': 100000, 'risk_pips': 10, 'reward_pips': 30, 'trail_trigger_pips': 10, 'trail_step_pips': 5},
-    'USDCAD':  {'name': 'USD/CAD',  'type': 'forex',  'volume': 100000, 'risk_pips': 12, 'reward_pips': 36, 'trail_trigger_pips': 12, 'trail_step_pips': 6},
-    'USDCHF':  {'name': 'USD/CHF',  'type': 'forex',  'volume': 100000, 'risk_pips': 12, 'reward_pips': 36, 'trail_trigger_pips': 12, 'trail_step_pips': 6},
-    'NZDUSD':  {'name': 'NZD/USD',  'type': 'forex',  'volume': 100000, 'risk_pips': 10, 'reward_pips': 30, 'trail_trigger_pips': 10, 'trail_step_pips': 5},
+    # est_spread_pips = estimated spread deducted from TP to model real execution cost.
+    'EURUSD':  {'name': 'EUR/USD',  'type': 'forex',  'volume': 1500000, 'risk_pips': 10, 'reward_pips': 30, 'trail_trigger_pips': 10, 'trail_step_pips': 5, 'est_spread_pips': 1},
+    'GBPUSD':  {'name': 'GBP/USD',  'type': 'forex',  'volume': 1500000, 'risk_pips': 12, 'reward_pips': 36, 'trail_trigger_pips': 12, 'trail_step_pips': 4, 'est_spread_pips': 2},
+    'USDJPY':  {'name': 'USD/JPY',  'type': 'forex',  'volume': 2300000, 'risk_pips': 12, 'reward_pips': 36, 'trail_trigger_pips': 12, 'trail_step_pips': 4, 'est_spread_pips': 2},
+    'AUDUSD':  {'name': 'AUD/USD',  'type': 'forex',  'volume': 1500000, 'risk_pips': 10, 'reward_pips': 30, 'trail_trigger_pips': 10, 'trail_step_pips': 5, 'est_spread_pips': 2},
+    'USDCAD':  {'name': 'USD/CAD',  'type': 'forex',  'volume': 1500000, 'risk_pips': 12, 'reward_pips': 36, 'trail_trigger_pips': 12, 'trail_step_pips': 4, 'est_spread_pips': 2},
+    'USDCHF':  {'name': 'USD/CHF',  'type': 'forex',  'volume': 1500000, 'risk_pips': 12, 'reward_pips': 36, 'trail_trigger_pips': 12, 'trail_step_pips': 4, 'est_spread_pips': 2},
+    'NZDUSD':  {'name': 'NZD/USD',  'type': 'forex',  'volume': 1500000, 'risk_pips': 10, 'reward_pips': 30, 'trail_trigger_pips': 10, 'trail_step_pips': 5, 'est_spread_pips': 2},
     # ── Forex Crosses ──
-    'EURJPY':  {'name': 'EUR/JPY',  'type': 'forex',  'volume': 100000, 'risk_pips': 15, 'reward_pips': 45, 'trail_trigger_pips': 15, 'trail_step_pips': 8},
-    'GBPJPY':  {'name': 'GBP/JPY',  'type': 'forex',  'volume': 100000, 'risk_pips': 18, 'reward_pips': 54, 'trail_trigger_pips': 18, 'trail_step_pips': 9},
-    'EURGBP':  {'name': 'EUR/GBP',  'type': 'forex',  'volume': 100000, 'risk_pips': 10, 'reward_pips': 30, 'trail_trigger_pips': 10, 'trail_step_pips': 5},
+    'EURJPY':  {'name': 'EUR/JPY',  'type': 'forex',  'volume': 1100000, 'risk_pips': 20, 'reward_pips': 60, 'trail_trigger_pips': 20, 'trail_step_pips': 10, 'est_spread_pips': 3},
+    'GBPJPY':  {'name': 'GBP/JPY',  'type': 'forex',  'volume': 900000,  'risk_pips': 25, 'reward_pips': 75, 'trail_trigger_pips': 25, 'trail_step_pips': 12, 'est_spread_pips': 4},
+    'EURGBP':  {'name': 'EUR/GBP',  'type': 'forex',  'volume': 1200000, 'risk_pips': 10, 'reward_pips': 30, 'trail_trigger_pips': 10, 'trail_step_pips': 5, 'est_spread_pips': 2},
     # ── Crypto ──
-    # cTrader CFD: volume / 100 = broker units. Min from broker error messages.
-    'BTCUSD':  {'name': 'BTC/USD',  'type': 'crypto', 'volume': 100,    'risk_pips': 500, 'reward_pips': 1500, 'trail_trigger_pips': 500, 'trail_step_pips': 250},
-    'ETHUSD':  {'name': 'ETH/USD',  'type': 'crypto', 'volume': 100,    'risk_pips': 30,  'reward_pips': 90,   'trail_trigger_pips': 30,  'trail_step_pips': 15},
-    'SOLUSD':  {'name': 'SOL/USD',  'type': 'crypto', 'volume': 100,    'risk_pips': 200, 'reward_pips': 600,  'trail_trigger_pips': 200, 'trail_step_pips': 100},
-    'XRPUSD':  {'name': 'XRP/USD',  'type': 'crypto', 'volume': 100,    'risk_pips': 50,  'reward_pips': 150,  'trail_trigger_pips': 50,  'trail_step_pips': 25},
-    'LTCUSD':  {'name': 'LTC/USD',  'type': 'crypto', 'volume': 100,    'risk_pips': 200, 'reward_pips': 600,  'trail_trigger_pips': 200, 'trail_step_pips': 100},
-    'ADAUSD':  {'name': 'ADA/USD',  'type': 'crypto', 'volume': 100,    'risk_pips': 50,  'reward_pips': 150,  'trail_trigger_pips': 50,  'trail_step_pips': 25},
-    'DOGEUSD': {'name': 'DOGE/USD', 'type': 'crypto', 'volume': 10000,  'risk_pips': 20,  'reward_pips': 60,   'trail_trigger_pips': 20,  'trail_step_pips': 10},
-    'LNKUSD':  {'name': 'LINK/USD', 'type': 'crypto', 'volume': 100,    'risk_pips': 100, 'reward_pips': 300,  'trail_trigger_pips': 100, 'trail_step_pips': 50},
+    # cTrader CFD: volume / 100 = contract units (100 vol = 1.0 unit). Min 100 vol.
+    # Volumes target ~4% risk ($18) per trade. pip_val = 0.01 for all crypto.
+    'BTCUSD':  {'name': 'BTC/USD',  'type': 'crypto', 'volume': 400,     'risk_pips': 500, 'reward_pips': 1500, 'trail_trigger_pips': 500, 'trail_step_pips': 250, 'est_spread_pips': 50},
+    'ETHUSD':  {'name': 'ETH/USD',  'type': 'crypto', 'volume': 6000,    'risk_pips': 30,  'reward_pips': 90,   'trail_trigger_pips': 30,  'trail_step_pips': 15, 'est_spread_pips': 5},
+    'SOLUSD':  {'name': 'SOL/USD',  'type': 'crypto', 'volume': 900,     'risk_pips': 200, 'reward_pips': 600,  'trail_trigger_pips': 200, 'trail_step_pips': 100, 'est_spread_pips': 20},
+    'XRPUSD':  {'name': 'XRP/USD',  'type': 'crypto', 'volume': 3600,    'risk_pips': 50,  'reward_pips': 150,  'trail_trigger_pips': 50,  'trail_step_pips': 25, 'est_spread_pips': 5},
+    'LTCUSD':  {'name': 'LTC/USD',  'type': 'crypto', 'volume': 900,     'risk_pips': 200, 'reward_pips': 600,  'trail_trigger_pips': 200, 'trail_step_pips': 100, 'est_spread_pips': 20},
+    'ADAUSD':  {'name': 'ADA/USD',  'type': 'crypto', 'volume': 3600,    'risk_pips': 50,  'reward_pips': 150,  'trail_trigger_pips': 50,  'trail_step_pips': 25, 'est_spread_pips': 5},
+    'DOGEUSD': {'name': 'DOGE/USD', 'type': 'crypto', 'volume': 9000,    'risk_pips': 20,  'reward_pips': 60,   'trail_trigger_pips': 20,  'trail_step_pips': 10, 'est_spread_pips': 3},
+    'LNKUSD':  {'name': 'LINK/USD', 'type': 'crypto', 'volume': 1800,    'risk_pips': 100, 'reward_pips': 300,  'trail_trigger_pips': 100, 'trail_step_pips': 50, 'est_spread_pips': 10},
     # ── Commodities ──
-    # These need significant margin — may get NOT_ENOUGH_MONEY on small accounts.
-    'XAUUSD':  {'name': 'Gold',     'type': 'commodity', 'volume': 100, 'risk_pips': 200, 'reward_pips': 600, 'trail_trigger_pips': 200, 'trail_step_pips': 100},
-    'XAGUSD':  {'name': 'Silver',   'type': 'commodity', 'volume': 5000,'risk_pips': 30,  'reward_pips': 90,  'trail_trigger_pips': 30,  'trail_step_pips': 15},
-    'XTIUSD':  {'name': 'WTI Oil',  'type': 'commodity', 'volume': 5000,'risk_pips': 30,  'reward_pips': 90,  'trail_trigger_pips': 30,  'trail_step_pips': 15},
-    'XBRUSD':  {'name': 'Brent Oil','type': 'commodity', 'volume': 5000,'risk_pips': 30,  'reward_pips': 90,  'trail_trigger_pips': 30,  'trail_step_pips': 15},
-    'XNGUSD':  {'name': 'Nat Gas',  'type': 'commodity', 'volume': 500000,'risk_pips': 20,'reward_pips': 60,  'trail_trigger_pips': 20,  'trail_step_pips': 10},
+    # pip_val = 0.01 (metals, oil), 0.001 (nat gas)
+    'XAUUSD':  {'name': 'Gold',     'type': 'commodity', 'volume': 900,  'risk_pips': 200, 'reward_pips': 600, 'trail_trigger_pips': 200, 'trail_step_pips': 100, 'est_spread_pips': 30},
+    'XAGUSD':  {'name': 'Silver',   'type': 'commodity', 'volume': 6000, 'risk_pips': 30,  'reward_pips': 90,  'trail_trigger_pips': 30,  'trail_step_pips': 15, 'est_spread_pips': 3},
+    # 'XTIUSD' disabled — 0W/3L, -$6.00 (worst dollar loser)
+    'XBRUSD':  {'name': 'Brent Oil','type': 'commodity', 'volume': 6000, 'risk_pips': 30,  'reward_pips': 90,  'trail_trigger_pips': 30,  'trail_step_pips': 15, 'est_spread_pips': 5},
+    'XNGUSD':  {'name': 'Nat Gas',  'type': 'commodity', 'volume': 90000,'risk_pips': 20,  'reward_pips': 60,  'trail_trigger_pips': 20,  'trail_step_pips': 10, 'est_spread_pips': 5},
     # ── Indices ──
-    # Index volume: may need substantial margin on small accounts.
-    'US500':   {'name': 'S&P 500',  'type': 'index', 'volume': 100,    'risk_pips': 50,  'reward_pips': 150, 'trail_trigger_pips': 50,  'trail_step_pips': 25},
-    'US30':    {'name': 'Dow Jones', 'type': 'index', 'volume': 100,    'risk_pips': 80,  'reward_pips': 240, 'trail_trigger_pips': 80,  'trail_step_pips': 40},
-    'USTEC':   {'name': 'Nasdaq',    'type': 'index', 'volume': 100,    'risk_pips': 70,  'reward_pips': 210, 'trail_trigger_pips': 70,  'trail_step_pips': 35},
-    'UK100':   {'name': 'FTSE 100',  'type': 'index', 'volume': 100,    'risk_pips': 40,  'reward_pips': 120, 'trail_trigger_pips': 40,  'trail_step_pips': 20},
-    'DE30':    {'name': 'DAX',       'type': 'index', 'volume': 100,    'risk_pips': 50,  'reward_pips': 150, 'trail_trigger_pips': 50,  'trail_step_pips': 25},
-    'JP225':   {'name': 'Nikkei',    'type': 'index', 'volume': 100,    'risk_pips': 80,  'reward_pips': 240, 'trail_trigger_pips': 80,  'trail_step_pips': 40},
-    'AUS200':  {'name': 'ASX 200',   'type': 'index', 'volume': 100,    'risk_pips': 30,  'reward_pips': 90,  'trail_trigger_pips': 30,  'trail_step_pips': 15},
+    # pip_val = 1.0 (JP225, US30), 0.1 (all others). Min broker vol = 100.
+    # US30/JP225 at 100 vol risk ~$80 (broker minimum, can't reduce).
+    'US500':   {'name': 'S&P 500',  'type': 'index', 'volume': 400,     'risk_pips': 50,  'reward_pips': 150, 'trail_trigger_pips': 50,  'trail_step_pips': 25, 'est_spread_pips': 5},
+    'US30':    {'name': 'Dow Jones', 'type': 'index', 'volume': 100,     'risk_pips': 80,  'reward_pips': 240, 'trail_trigger_pips': 80,  'trail_step_pips': 40, 'est_spread_pips': 10},
+    'USTEC':   {'name': 'Nasdaq',    'type': 'index', 'volume': 300,     'risk_pips': 70,  'reward_pips': 210, 'trail_trigger_pips': 70,  'trail_step_pips': 35, 'est_spread_pips': 10},
+    'UK100':   {'name': 'FTSE 100',  'type': 'index', 'volume': 500,     'risk_pips': 40,  'reward_pips': 120, 'trail_trigger_pips': 40,  'trail_step_pips': 20, 'est_spread_pips': 5},
+    'DE30':    {'name': 'DAX',       'type': 'index', 'volume': 400,     'risk_pips': 50,  'reward_pips': 150, 'trail_trigger_pips': 50,  'trail_step_pips': 25, 'est_spread_pips': 5},
+    'JP225':   {'name': 'Nikkei',    'type': 'index', 'volume': 100,     'risk_pips': 80,  'reward_pips': 240, 'trail_trigger_pips': 80,  'trail_step_pips': 40, 'est_spread_pips': 10},
+    'AUS200':  {'name': 'ASX 200',   'type': 'index', 'volume': 600,     'risk_pips': 30,  'reward_pips': 90,  'trail_trigger_pips': 30,  'trail_step_pips': 15, 'est_spread_pips': 5},
 }
 
 CONFIG = {
     'max_positions': 5,       # max 5 simultaneous trades
-    'max_bonus_positions': 2, # up to 2 extra "can't resist" trades (score 7 = all layers + news)
+    'max_bonus_positions': 0, # disabled — no bonus trades
     'check_interval': 30,     # 30s cycles — faster for 1M entries
-    'cooldown_minutes': 3,    # 3 min cooldown — shorter timeframes move faster
+    'cooldown_minutes': 15,   # 15 min cooldown — prevents rapid re-entry into losing pairs
 }
 
 # Multi-timeframe cache TTL (seconds) — reduces Yahoo Finance requests
-MTF_CACHE_TTL = {'15m': 300, '5m': 120, '1m': 0}  # 15M=5min, 5M=2min, 1M=always fresh
+MTF_CACHE_TTL = {'15m': 300, '5m': 120, '1m': 30}  # 15M=5min, 5M=2min, 1M=30s
 
 # ── News intelligence integration ──
 NEWS_INTEL_PATH = '/root/.openclaw/workspace/memory/tradebot-intel.md'
@@ -184,15 +190,53 @@ yahoo_symbols = {
 # Module-level MTF cache: symbol -> {tf: {'data': ..., 'fetched_at': timestamp}}
 _mtf_cache = {}
 
+# ── Signal archival ──
+SIGNAL_HISTORY_PATH = '/root/.openclaw/workspace/employees/signal_history.jsonl'
+
+def archive_signal(symbol, signal, score, layers, price, session_name):
+    """Append a non-HOLD signal to the signal history JSONL file."""
+    try:
+        entry = {
+            'timestamp': datetime.now(timezone.utc).isoformat(),
+            'symbol': symbol,
+            'signal': signal,
+            'score': score,
+            'layers': layers,
+            'price': price,
+            'session': session_name,
+        }
+        with open(SIGNAL_HISTORY_PATH, 'a') as f:
+            f.write(json.dumps(entry) + '\n')
+    except Exception as e:
+        print(f"  [ARCHIVE] Failed to write signal: {e}")
+
+
+# ── cTrader trendbar cache (populated by reactor thread, read by worker thread) ──
+# Maps: (symbol, period_str) -> {'data': {...}, 'fetched_at': timestamp}
+_ctrader_trendbar_cache = {}
+
+# cTrader trendbar period map (interval string -> protobuf enum value)
+_CTRADER_PERIOD_MAP = {
+    '1m': 1,   # M1
+    '5m': 5,   # M5
+    '15m': 7,  # M15
+}
+
+
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# Shared requests session — reuses TCP+TLS connections across all Yahoo calls
+_yahoo_session = requests.Session()
+_yahoo_session.headers.update({'User-Agent': 'Mozilla/5.0'})
+
 
 def _fetch_candles(yahoo, interval, range_str):
     """Fetch OHLC candle data from Yahoo Finance for a given interval/range.
     Returns {'opens': [...], 'highs': [...], 'lows': [...], 'closes': [...]} or None.
     """
     try:
-        headers = {'User-Agent': 'Mozilla/5.0'}
         url = f"https://query1.finance.yahoo.com/v8/finance/chart/{yahoo}?interval={interval}&range={range_str}"
-        r = requests.get(url, headers=headers, timeout=10)
+        r = _yahoo_session.get(url, timeout=10)
         data = r.json()
         if 'result' not in data['chart'] or not data['chart']['result']:
             return None
@@ -208,31 +252,33 @@ def _fetch_candles(yahoo, interval, range_str):
         return None
 
 
-def get_mtf_data(symbol):
+def get_mtf_data(symbol, live_prices=None):
     """Fetch multi-timeframe candle data: 15M, 5M, 1M with caching.
+
+    Uses cTrader live price if available, then cTrader trendbar cache for candles,
+    falling back to Yahoo Finance only when needed.
 
     Returns: (current_price, tf_15m, tf_5m, tf_1m) where each tf is
     {'opens': [...], 'highs': [...], 'lows': [...], 'closes': [...]} or None.
-
-    Cache TTLs reduce Yahoo Finance requests:
-    - 15M data: cached 5 min (only changes every 15 min anyway)
-    - 5M data: cached 2 min
-    - 1M data: always fresh (entry trigger)
-    - Current price: always fresh
     """
     yahoo = yahoo_symbols.get(symbol, symbol)
-    headers = {'User-Agent': 'Mozilla/5.0'}
 
-    # Get current price
-    try:
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{yahoo}"
-        r = requests.get(url, headers=headers, timeout=10)
-        data = r.json()
-        if 'result' not in data['chart'] or not data['chart']['result']:
+    # Get current price — prefer cTrader live price (no HTTP call needed)
+    price = None
+    if live_prices:
+        price = live_prices.get(symbol)
+
+    # Fallback: Yahoo Finance for current price
+    if price is None:
+        try:
+            url = f"https://query1.finance.yahoo.com/v8/finance/chart/{yahoo}"
+            r = _yahoo_session.get(url, timeout=10)
+            data = r.json()
+            if 'result' not in data['chart'] or not data['chart']['result']:
+                return None, None, None, None
+            price = data['chart']['result'][0]['meta']['regularMarketPrice']
+        except Exception:
             return None, None, None, None
-        price = data['chart']['result'][0]['meta']['regularMarketPrice']
-    except Exception:
-        return None, None, None, None
 
     now = _time.time()
     if symbol not in _mtf_cache:
@@ -252,10 +298,20 @@ def get_mtf_data(symbol):
         cached = cache.get(key)
         if cached and ttl > 0 and (now - cached['fetched_at']) < ttl:
             results[key] = cached['data']
-        else:
-            tf_data = _fetch_candles(yahoo, interval, range_str)
-            cache[key] = {'data': tf_data, 'fetched_at': now}
-            results[key] = tf_data
+            continue
+
+        # Try cTrader trendbar cache first
+        ct_key = (symbol, key)
+        ct_cached = _ctrader_trendbar_cache.get(ct_key)
+        if ct_cached and (now - ct_cached['fetched_at']) < max(ttl, 30):
+            results[key] = ct_cached['data']
+            cache[key] = {'data': ct_cached['data'], 'fetched_at': ct_cached['fetched_at']}
+            continue
+
+        # Fallback: Yahoo Finance
+        tf_data = _fetch_candles(yahoo, interval, range_str)
+        cache[key] = {'data': tf_data, 'fetched_at': now}
+        results[key] = tf_data
 
     return price, results.get('15m'), results.get('5m'), results.get('1m')
 
@@ -473,7 +529,7 @@ def get_mtf_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias=None):
       Layer C — 1M Entry Trigger (2 pts): EMA 5/13 alignment + price confirmation
       Bonus  — News (1 pt): supports direction, hard block if contradicts
 
-    Total: 0-7 points. Entry threshold: score >= 5 with A>=1, B>=1, C>=1.
+    Total: 0-7 points. Entry threshold: score >= 6 with A>=2, B>=1, C>=1.
     Args:
       news_bias: Pre-fetched news bias dict (from get_news_bias()). If None, fetches fresh.
     Returns: (signal, reason, score, layer_scores)
@@ -493,8 +549,19 @@ def get_mtf_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias=None):
         return 'HOLD', '15M EMAs not ready', 0, layers
 
     # Check if 15M EMAs are tangled (flat/unclear trend)
+    # Dynamic threshold: higher for volatile/high-price assets (e.g. Gold $5000+)
+    # Use recent 15M ATR as volatility proxy; fallback to 0.05% minimum
     ema_spread_15m = abs(ema_20_15m - ema_50_15m) / ema_50_15m * 100
-    if ema_spread_15m < 0.01:
+    _highs_15m = tf_15m.get('highs', [])
+    _lows_15m = tf_15m.get('lows', [])
+    if len(_highs_15m) >= 14 and len(_lows_15m) >= 14:
+        _atr_vals = [_highs_15m[i] - _lows_15m[i] for i in range(-14, 0)]
+        _atr_14 = sum(_atr_vals) / len(_atr_vals)
+        _atr_pct = (_atr_14 / ema_50_15m * 100) if ema_50_15m else 0
+        ema_tangle_threshold = max(0.05, _atr_pct * 0.15)  # 15% of ATR%, floor 0.05%
+    else:
+        ema_tangle_threshold = 0.05
+    if ema_spread_15m < ema_tangle_threshold:
         return 'HOLD', '15M trend unclear (EMAs tangled)', 0, layers
 
     # Determine bias from 15M
@@ -540,12 +607,12 @@ def get_mtf_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias=None):
             has_momentum_buy = bias == 'bullish' and ema_gap_5m > 0.02
             has_momentum_sell = bias == 'bearish' and ema_gap_5m < -0.02
 
-            # 5M breakout of recent 12-candle range (1 hour of 5M data)
+            # 5M breakout of recent 20-candle range (~1.5 hours of 5M data)
             breaking_up = False
             breaking_down = False
-            if len(highs_5m) >= 12 and len(lows_5m) >= 12:
-                high_12 = max(highs_5m[-12:])
-                low_12 = min(lows_5m[-12:])
+            if len(highs_5m) >= 20 and len(lows_5m) >= 20:
+                high_12 = max(highs_5m[-20:])
+                low_12 = min(lows_5m[-20:])
                 breaking_up = closes_5m[-1] >= high_12
                 breaking_down = closes_5m[-1] <= low_12
 
@@ -575,6 +642,19 @@ def get_mtf_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias=None):
             elif bias == 'bearish' and closes_1m[-1] < ema_5_1m:
                 c_score_sell += 1
 
+    # ── SESSION OPEN BOOST: +1 to Layer C during London/NY opens (±30 min) ──
+    _utc_now = datetime.now(timezone.utc)
+    _utc_hour = _utc_now.hour
+    _utc_min = _utc_now.minute
+    _minutes_into_day = _utc_hour * 60 + _utc_min
+    # London open ~08:00, NY open ~13:00 UTC (±30 min window)
+    _at_session_open = (abs(_minutes_into_day - 480) <= 30 or abs(_minutes_into_day - 780) <= 30)
+    if _at_session_open:
+        if c_score_buy >= 1:
+            c_score_buy = min(c_score_buy + 1, 2)  # cap at 2
+        if c_score_sell >= 1:
+            c_score_sell = min(c_score_sell + 1, 2)
+
     # ── NEWS BONUS ──
     in_session, session_name = is_market_open()
     news_buy = news_supports_direction(symbol, 'BUY', news_bias)
@@ -587,11 +667,11 @@ def get_mtf_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias=None):
     total_sell = a_score_sell + b_score_sell + c_score_sell + news_score_sell
 
     # ── Decision ──
-    # Entry: score >= 5, with at least 1 point from each layer (A, B, C)
+    # Entry: score >= 6, with full 15M trend (A=2) + at least 1 from B and C
     # News contradiction = hard block regardless of score
 
-    if total_buy >= 5 and total_buy > total_sell:
-        if a_score_buy >= 1 and b_score_buy >= 1 and c_score_buy >= 1:
+    if total_buy >= 6 and total_buy > total_sell:
+        if a_score_buy >= 2 and b_score_buy >= 1 and c_score_buy >= 1:
             if news_buy < 0:
                 layers = {'a': a_score_buy, 'b': b_score_buy, 'c': c_score_buy, 'news': 0}
                 return 'HOLD', f'News blocks BUY ({news_bias["usd_bias"]})', total_buy, layers
@@ -601,8 +681,8 @@ def get_mtf_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias=None):
                 reason += f' +news({news_bias["usd_bias"]})'
             return 'BUY', reason, total_buy, layers
 
-    if total_sell >= 5 and total_sell > total_buy:
-        if a_score_sell >= 1 and b_score_sell >= 1 and c_score_sell >= 1:
+    if total_sell >= 6 and total_sell > total_buy:
+        if a_score_sell >= 2 and b_score_sell >= 1 and c_score_sell >= 1:
             if news_sell < 0:
                 layers = {'a': a_score_sell, 'b': b_score_sell, 'c': c_score_sell, 'news': 0}
                 return 'HOLD', f'News blocks SELL ({news_bias["usd_bias"]})', total_sell, layers
@@ -635,15 +715,21 @@ class TradeBotEngine:
         self.local_positions = {}  # symbol -> local tracking (for dashboard)
         self.closed_trades = []
         self.last_trade_time = {}
+        self.consecutive_losses = {}  # symbol -> count; reset on win, >=2 triggers 60min lockout
+        self.pair_trade_results = {}  # symbol -> list of last N (bool: True=win) for rolling WR
+        self.pair_disabled_until = {}  # symbol -> datetime; auto-disable if WR < 30% over 10 trades
         self._reconnect_count = 0
         self._consecutive_failures = 0
         self._last_disconnect_alert = 0  # timestamp of last Telegram alert
         self._last_connected_at = None
+        self._last_authenticated_at = None  # tracks when we last had a working session
         self._trading_loop = None
         self._task_loop = None
+        self._watchdog_loop = None
         self._skip_symbols = set()  # symbols that errored — skip for rest of session
         self._pending_order_configs = {}  # symbol -> {direction, entry_price, config} awaiting fill
         self.trailing_state = {}   # positionId -> {phase, entry_price, direction, symbol, current_sl, trail_activated, last_amend_time, scaled_out, original_volume}
+        self._saved_trailing_state = self._load_trailing_state()  # Restored from disk
         self._last_prices = {}     # symbol -> latest price from cycle
         self._last_candles = {}    # symbol -> candle data (highs, lows, closes) for reversal detection
         self._live_prices = {}     # symbol -> real-time bid/ask from cTrader spot subscription
@@ -656,10 +742,26 @@ class TradeBotEngine:
         print("TradeBot - IC Markets cTrader Demo")
         print("Strategy: Multi-Timeframe (15M/5M/1M) + News Bias | R:R 1:3 + Trailing Stop")
         print("=" * 60)
+
+        # ── Startup R:R validation — catch config errors before any trade fires ──
+        print("[STARTUP] Validating R:R for all pairs...")
+        for sym, cfg in PAIRS.items():
+            rr_ok, eff_rr, rr_reason = validate_rr(
+                cfg['risk_pips'], cfg['reward_pips'], cfg.get('est_spread_pips', 0))
+            if not rr_ok:
+                print(f"  [RR-WARN] {sym}: WOULD FAIL — {rr_reason}")
+            else:
+                print(f"  [RR-OK] {sym}: effective R:R = {eff_rr:.2f}:1")
+
         self.client.setConnectedCallback(self._on_connected)
         self.client.setDisconnectedCallback(self._on_disconnected)
         self.client.setMessageReceivedCallback(self._on_message)
         self.client.startService()
+
+        # Start watchdog — runs every 30s regardless of connection state
+        self._watchdog_loop = task.LoopingCall(self._watchdog)
+        self._watchdog_loop.start(30, now=False)
+
         reactor.run()
 
     def _on_connected(self, client):
@@ -718,6 +820,7 @@ class TradeBotEngine:
     def _on_account_auth(self, msg):
         print(f"[{self._ts()}] Account {CTID} authenticated (DEMO)")
         self.authenticated = True
+        self._last_authenticated_at = datetime.now(timezone.utc)
         self._alert(f"Account authenticated (DEMO). Reconciling positions...")
         # Get account balance
         req = ProtoOATraderReq()
@@ -756,46 +859,99 @@ class TradeBotEngine:
             self.positions[pos.positionId] = {
                 'symbol': symbol, 'symbolId': sym_id, 'side': side,
                 'volume': volume, 'positionId': pos.positionId,
+                'entry_price': entry, 'stop_loss': sl, 'take_profit': tp,
+                'lot_size': volume / 10000000,
+                'open_time': datetime.now().isoformat(),
             }
             self.local_positions[symbol] = {
                 'direction': side,
                 'entry_price': entry,
-                'lot_size': volume / 10000000,  # 100000 vol = 0.01 lot
+                'lot_size': volume / 10000000,
                 'stop_loss': sl,
                 'take_profit': tp,
                 'open_time': datetime.now().isoformat(),
                 'positionId': pos.positionId,
                 'bot': 'tradebot',
             }
-            # Rebuild trailing state from broker position
-            broker_trailing = getattr(pos, 'trailingStopLoss', False)
-            if broker_trailing:
-                phase = 'trailing'
-            elif sl and entry:
-                # Detect if SL has been moved to break-even
-                config = PAIRS.get(symbol, {})
-                pip_val = 0.01 if ('JPY' in symbol and config.get('type') == 'forex') else 0.0001 if config.get('type') == 'forex' else 0.01
-                if side == 'BUY' and sl >= entry - (pip_val * 0.5):
-                    phase = 'breakeven'
-                elif side == 'SELL' and sl <= entry + (pip_val * 0.5):
-                    phase = 'breakeven'
+            # Rebuild trailing state from broker position (or restore from saved state)
+            saved = self._saved_trailing_state.get(str(pos.positionId))
+            # Sanity check: if broker SL is wildly wrong (>10x risk from entry), it's corrupted
+            config = PAIRS.get(symbol, {})
+            pip_val = self._get_pip_value(symbol, config.get('type', 'forex'))
+            max_sane_distance = config.get('risk_pips', 100) * pip_val * 10
+            sl_distance = abs(sl - entry) if sl and entry else 0
+            sl_is_corrupted = sl and entry and sl_distance > max_sane_distance
+            if sl_is_corrupted:
+                print(f"  [SL-SANITY] {symbol} posId={pos.positionId}: broker SL={sl:.5f} is {sl_distance/pip_val:.0f} pips from entry={entry:.5f} — CORRUPTED, will recalculate")
+            if sl_is_corrupted:
+                # SL is corrupted — recalculate from entry using correct pip_value
+                risk_pips = config.get('risk_pips', 20)
+                if side == 'BUY':
+                    corrected_sl = round(entry - risk_pips * pip_val, 5)
+                else:
+                    corrected_sl = round(entry + risk_pips * pip_val, 5)
+                print(f"  [SL-SANITY] Correcting SL: {sl:.5f} -> {corrected_sl:.5f} (entry={entry:.5f}, {risk_pips} pips risk)")
+                sl = corrected_sl
+                # Update local position with corrected SL
+                self.local_positions[symbol] = {
+                    'direction': side, 'entry_price': entry,
+                    'lot_size': volume / 10000000, 'stop_loss': sl,
+                    'take_profit': tp, 'open_time': datetime.now().isoformat(),
+                    'positionId': pos.positionId, 'bot': 'tradebot',
+                }
+                # Amend SL on broker
+                self._amend_sl(pos.positionId, symbol, corrected_sl)
+                # Reset trailing state to initial
+                self.trailing_state[pos.positionId] = {
+                    'phase': 'initial', 'entry_price': entry, 'direction': side,
+                    'symbol': symbol, 'current_sl': corrected_sl,
+                    'trail_activated': False, 'last_amend_time': 0,
+                    'scaled_out': False, 'original_volume': volume,
+                }
+                print(f"  [SL-SANITY] {symbol} posId={pos.positionId} trailing state reset to initial")
+            elif saved:
+                # Restore persisted trailing state from disk
+                self.trailing_state[pos.positionId] = saved
+                self.trailing_state[pos.positionId]['current_sl'] = sl  # sync with broker
+                print(f"  Restored trail state for {symbol} posId={pos.positionId}: "
+                      f"phase={saved['phase']}, scaled_out={saved.get('scaled_out', False)}")
+            else:
+                broker_trailing = getattr(pos, 'trailingStopLoss', False)
+                tp_val = tp if tp else 0
+                if broker_trailing:
+                    phase = 'trailing'
+                    trail_active = True
+                elif sl and entry:
+                    if side == 'BUY':
+                        sl_vs_entry = (sl - entry) / pip_val
+                    else:
+                        sl_vs_entry = (entry - sl) / pip_val
+                    if sl_vs_entry > 0.5:
+                        phase = 'trailing'
+                        trail_active = (tp_val == 0)
+                    elif sl_vs_entry >= -0.5:
+                        phase = 'breakeven'
+                        trail_active = False
+                    else:
+                        phase = 'initial'
+                        trail_active = False
                 else:
                     phase = 'initial'
-            else:
-                phase = 'initial'
-            self.trailing_state[pos.positionId] = {
-                'phase': phase,
-                'entry_price': entry,
-                'direction': side,
-                'symbol': symbol,
-                'current_sl': sl,
-                'trail_activated': broker_trailing,
-                'last_amend_time': 0,
-                'scaled_out': broker_trailing,  # If already trailing, assume scale-out happened
-                'original_volume': volume,
-            }
-            # Subscribe to live spot prices for open positions
+                    trail_active = False
+                self.trailing_state[pos.positionId] = {
+                    'phase': phase,
+                    'entry_price': entry,
+                    'direction': side,
+                    'symbol': symbol,
+                    'current_sl': sl,
+                    'trail_activated': trail_active,
+                    'last_amend_time': 0,
+                    'scaled_out': False,
+                    'original_volume': volume,
+                }
+            # Subscribe to live spot prices + depth data for open positions
             self._subscribe_spots(symbol)
+            self._subscribe_depth(symbol)
         print(f"[{self._ts()}] Reconciled {len(self.positions)} open positions from broker")
         self._alert(
             f"ONLINE — {len(self.positions)} positions reconciled\n"
@@ -808,6 +964,10 @@ class TradeBotEngine:
             print(f"  {p['side']} {sym} vol={p['volume']} ({lots:g}lot) @ {entry:.5f} posId={pid}")
 
         self._save_state()
+
+        # Fetch deal history for analytics (Phase 2C)
+        self._fetch_deal_history(days=7)
+
         # Start the trading loop
         if self._trading_loop and self._trading_loop.running:
             self._trading_loop.stop()
@@ -821,6 +981,199 @@ class TradeBotEngine:
         self._task_loop = task.LoopingCall(self._check_tasks)
         self._task_loop.start(30, now=False)
         print(f"[{self._ts()}] Task dispatch loop started (every 30s)")
+
+    # ── cTrader Trendbar Fetching (Phase 2A) ──
+
+    def _fetch_ctrader_trendbars(self):
+        """Fetch 15M, 5M, 1M candle data from cTrader native API for all active pairs.
+        Populates the module-level _ctrader_trendbar_cache so the worker thread can use it.
+        """
+        if not self.authenticated:
+            return
+
+        now_ms = int(_time.time() * 1000)
+        period_configs = [
+            ('15m', _CTRADER_PERIOD_MAP['15m'], 5 * 24 * 3600 * 1000),   # 5 days
+            ('5m', _CTRADER_PERIOD_MAP['5m'], 2 * 24 * 3600 * 1000),     # 2 days
+            ('1m', _CTRADER_PERIOD_MAP['1m'], 24 * 3600 * 1000),         # 1 day
+        ]
+
+        # Only fetch for pairs with active positions or top-priority pairs
+        priority_symbols = list(self.local_positions.keys())
+        # Add forex majors as always-fetch
+        for sym in ('EURUSD', 'GBPUSD', 'USDJPY', 'XAUUSD', 'BTCUSD', 'US500'):
+            if sym not in priority_symbols and sym in SYMBOL_IDS:
+                priority_symbols.append(sym)
+
+        for symbol in priority_symbols[:10]:  # Limit to 10 symbols to avoid API overload
+            sym_id = SYMBOL_IDS.get(symbol)
+            if not sym_id:
+                continue
+            for period_str, period_enum, lookback_ms in period_configs:
+                try:
+                    req = ProtoOAGetTrendbarsReq()
+                    req.ctidTraderAccountId = CTID
+                    req.symbolId = sym_id
+                    req.period = period_enum
+                    req.fromTimestamp = now_ms - lookback_ms
+                    req.toTimestamp = now_ms
+                    d = self.client.send(req, responseTimeoutInSeconds=10)
+                    d.addCallback(self._on_trendbar_response, symbol, period_str)
+                    d.addErrback(lambda f, s=symbol, p=period_str:
+                                 print(f"  [TRENDBAR] Failed {s} {p}: {f.getErrorMessage()}"))
+                except Exception as e:
+                    print(f"  [TRENDBAR] Error requesting {symbol} {period_str}: {e}")
+
+    def _on_trendbar_response(self, msg, symbol, period_str):
+        """Process trendbar response and populate cache."""
+        try:
+            payload = Protobuf.extract(msg)
+            bars = getattr(payload, 'trendbar', [])
+            if not bars:
+                return
+
+            opens, highs, lows, closes = [], [], [], []
+            for bar in bars:
+                # cTrader trendbars: low is the base, others are deltas from low
+                low = bar.low / 100000.0 if hasattr(bar, 'low') else 0
+                delta_open = bar.deltaOpen / 100000.0 if hasattr(bar, 'deltaOpen') else 0
+                delta_high = bar.deltaHigh / 100000.0 if hasattr(bar, 'deltaHigh') else 0
+                delta_close = bar.deltaClose / 100000.0 if hasattr(bar, 'deltaClose') else 0
+                opens.append(low + delta_open)
+                highs.append(low + delta_high)
+                lows.append(low)
+                closes.append(low + delta_close)
+
+            if closes:
+                _ctrader_trendbar_cache[(symbol, period_str)] = {
+                    'data': {'opens': opens, 'highs': highs, 'lows': lows, 'closes': closes},
+                    'fetched_at': _time.time(),
+                }
+        except Exception as e:
+            print(f"  [TRENDBAR] Parse error {symbol} {period_str}: {e}")
+
+    # ── Depth Data (Phase 2B) ──
+
+    _depth_data = {}  # symbol -> {'bids': [...], 'asks': [...], 'imbalance': float}
+    _depth_subscriptions = set()
+
+    def _subscribe_depth(self, symbol):
+        """Subscribe to Level 2 depth quotes for a symbol."""
+        if symbol in self._depth_subscriptions or not self.authenticated:
+            return
+        sym_id = SYMBOL_IDS.get(symbol)
+        if not sym_id:
+            return
+        try:
+            req = ProtoOASubscribeDepthQuotesReq()
+            req.ctidTraderAccountId = CTID
+            req.symbolId.append(sym_id)
+            d = self.client.send(req, responseTimeoutInSeconds=10)
+            d.addCallback(lambda _: self._depth_subscriptions.add(symbol))
+            d.addErrback(lambda f: print(f"  [DEPTH] Subscribe failed {symbol}: {f.getErrorMessage()}"))
+        except Exception as e:
+            print(f"  [DEPTH] Error subscribing {symbol}: {e}")
+
+    def _process_depth_update(self, payload, symbol):
+        """Process depth quote update and calculate order book imbalance."""
+        try:
+            bids = [(q.price, q.size) for q in getattr(payload, 'bid', [])]
+            asks = [(q.price, q.size) for q in getattr(payload, 'ask', [])]
+            total_bid = sum(size for _, size in bids) if bids else 0
+            total_ask = sum(size for _, size in asks) if asks else 0
+            total = total_bid + total_ask
+            imbalance = (total_bid - total_ask) / total if total > 0 else 0.0
+
+            self._depth_data[symbol] = {
+                'bids': bids[:5],
+                'asks': asks[:5],
+                'bid_volume': total_bid,
+                'ask_volume': total_ask,
+                'imbalance': round(imbalance, 3),
+                'updated_at': _time.time(),
+            }
+        except Exception:
+            pass
+
+    def get_depth_score(self, symbol, direction):
+        """Get Layer D score (0-1) based on order book imbalance.
+        BUY: positive imbalance (more bids) = 1 point.
+        SELL: negative imbalance (more asks) = 1 point.
+        """
+        depth = self._depth_data.get(symbol)
+        if not depth or (_time.time() - depth.get('updated_at', 0)) > 60:
+            return 0  # No data or stale
+        imb = depth['imbalance']
+        if direction == 'BUY' and imb > 0.2:
+            return 1
+        elif direction == 'SELL' and imb < -0.2:
+            return 1
+        return 0
+
+    # ── Deal History (Phase 2C) ──
+
+    def _fetch_deal_history(self, days=7):
+        """Fetch historical deals from broker for better P&L analytics."""
+        if not self.authenticated:
+            return
+        now_ms = int(_time.time() * 1000)
+        from_ms = now_ms - (days * 24 * 3600 * 1000)
+        try:
+            req = ProtoOADealListReq()
+            req.ctidTraderAccountId = CTID
+            req.fromTimestamp = from_ms
+            req.toTimestamp = now_ms
+            req.maxRows = 1000
+            d = self.client.send(req, responseTimeoutInSeconds=15)
+            d.addCallback(self._on_deal_history)
+            d.addErrback(lambda f: print(f"  [DEALS] Failed: {f.getErrorMessage()}"))
+        except Exception as e:
+            print(f"  [DEALS] Error: {e}")
+
+    def _on_deal_history(self, msg):
+        """Process deal history and write to trade_history.jsonl."""
+        try:
+            payload = Protobuf.extract(msg)
+            deals = getattr(payload, 'deal', [])
+            if not deals:
+                return
+
+            history_path = '/root/.openclaw/workspace/employees/trade_history.jsonl'
+            # Read existing deal IDs to avoid duplicates
+            existing_ids = set()
+            try:
+                with open(history_path) as f:
+                    for line in f:
+                        entry = json.loads(line.strip())
+                        existing_ids.add(entry.get('deal_id'))
+            except FileNotFoundError:
+                pass
+
+            new_deals = 0
+            with open(history_path, 'a') as f:
+                for deal in deals:
+                    deal_id = deal.dealId
+                    if deal_id in existing_ids:
+                        continue
+                    symbol = ID_TO_SYMBOL.get(deal.symbolId, f'ID_{deal.symbolId}')
+                    entry = {
+                        'deal_id': deal_id,
+                        'symbol': symbol,
+                        'side': 'BUY' if deal.tradeSide == 1 else 'SELL',
+                        'volume': deal.volume,
+                        'entry_price': deal.executionPrice,
+                        'close_pnl': deal.closePositionDetail.grossProfit / 100 if deal.HasField('closePositionDetail') else None,
+                        'commission': deal.commission / 100 if deal.commission else 0,
+                        'timestamp': deal.executionTimestamp,
+                        'deal_status': deal.dealStatus,
+                    }
+                    f.write(json.dumps(entry) + '\n')
+                    new_deals += 1
+
+            if new_deals:
+                print(f"  [DEALS] Archived {new_deals} new deals from broker")
+        except Exception as e:
+            print(f"  [DEALS] Parse error: {e}")
 
     # ── Message handler for execution reports ──
 
@@ -838,85 +1191,124 @@ class TradeBotEngine:
                     vol = pos.tradeData.volume
                     pid = pos.positionId
 
-                    if etype == 2 and vol > 0:  # ORDER_FILLED with volume = new/open
+                    if etype == 2 and vol > 0:  # ORDER_FILLED with volume > 0
                         lots = vol / 10000000
-                        print(f"  [FILL] {side} {sym} vol={vol} ({lots:g}lot) @ {pos.price:.5f} posId={pid}")
-                        self.positions[pid] = {
-                            'symbol': sym, 'symbolId': pos.tradeData.symbolId,
-                            'side': side, 'volume': vol, 'positionId': pid,
-                        }
-                        # Get SL/TP from broker fill, fall back to pending config
-                        sl_price = pos.stopLoss if pos.stopLoss else 0
-                        tp_price = pos.takeProfit if pos.takeProfit else 0
-                        pending = self._pending_order_configs.pop(sym, None)
 
-                        # LAYER 1 SL-GUARD: If broker didn't return SL/TP, compute from pending config
-                        if pending and (not sl_price or not tp_price):
-                            cfg = pending['config']
-                            ep = pos.price
-                            asset_type = cfg.get('type', 'forex')
-                            if 'JPY' in sym and asset_type == 'forex':
-                                pip_val = 0.01
-                            elif asset_type == 'forex':
-                                pip_val = 0.0001
-                            elif asset_type == 'crypto':
-                                pip_val = 0.01
-                            elif sym in ('XAUUSD', 'XAGUSD'):
-                                pip_val = 0.01
-                            elif asset_type in ('commodity', 'index'):
-                                pip_val = 0.01
-                            else:
-                                pip_val = 0.0001
-                            if not sl_price:
-                                if side == 'BUY':
-                                    sl_price = round(ep - cfg['risk_pips'] * pip_val, 5)
-                                else:
-                                    sl_price = round(ep + cfg['risk_pips'] * pip_val, 5)
-                            if not tp_price:
-                                if side == 'BUY':
-                                    tp_price = round(ep + cfg['reward_pips'] * pip_val, 5)
-                                else:
-                                    tp_price = round(ep - cfg['reward_pips'] * pip_val, 5)
-                            print(f"  [SL-GUARD] Broker returned SL=0 — computed SL={sl_price:.5f} TP={tp_price:.5f}")
+                        # ── Detect PARTIAL CLOSE (scale-out) vs NEW OPEN ──
+                        # If position already exists and volume decreased, this is a partial close fill
+                        existing = self.positions.get(pid)
+                        if existing and vol < existing.get('volume', 0):
+                            old_vol = existing['volume']
+                            closed_vol = old_vol - vol
+                            closed_lots = closed_vol / 10000000
+                            print(f"  [SCALE-OUT FILL] {sym} posId={pid} partial close confirmed: "
+                                  f"{closed_lots:g}lot closed, {lots:g}lot remaining")
+                            # Update volume in all state dicts
+                            existing['volume'] = vol
+                            existing['lot_size'] = lots
+                            if sym in self.local_positions:
+                                self.local_positions[sym]['lot_size'] = lots
+                            # Mark scale-out as confirmed on FILL (not on ACK)
+                            state = self.trailing_state.get(pid)
+                            if state:
+                                state['scaled_out'] = True
+                                state.pop('_scale_out_pending', None)
+                            self._save_state()
 
-                        self.local_positions[sym] = {
-                            'direction': side,
-                            'entry_price': pos.price,
-                            'lot_size': lots,
-                            'stop_loss': sl_price,
-                            'take_profit': tp_price,
-                            'open_time': datetime.now().isoformat(),
-                            'positionId': pid,
-                            'bot': 'tradebot',
-                        }
-                        self._save_state()
+                            # Calculate profit for alert
+                            profit_display = ''
+                            price = self._live_prices.get(sym) or self._last_prices.get(sym)
+                            if price and state:
+                                entry = state['entry_price']
+                                config = PAIRS.get(sym, {})
+                                asset_type = config.get('type', 'forex')
+                                pv = self._get_pip_value(sym, asset_type)
+                                pp = (price - entry) / pv if state['direction'] == 'BUY' else (entry - price) / pv
+                                profit_display = f" at +{pp:.0f} pips"
 
-                        # SAFETY NET: If SL is missing on broker, force-amend it
-                        if not pos.stopLoss and sl_price:
-                            print(f"  [SL-GUARD] Amending SL onto {sym} posId={pid}")
-                            self._amend_sl(pid, sym, sl_price)
+                            self._alert(
+                                f"SCALE-OUT: {sym}\n"
+                                f"Closed {closed_lots:g}lot{profit_display}\n"
+                                f"Remaining {lots:g}lot trailing"
+                            )
+                        else:
+                            # ── NEW POSITION OPEN ──
+                            print(f"  [FILL] {side} {sym} vol={vol} ({lots:g}lot) @ {pos.price:.5f} posId={pid}")
+                            # Get SL/TP from broker fill, fall back to pending config
+                            sl_price = pos.stopLoss if pos.stopLoss else 0
+                            tp_price = pos.takeProfit if pos.takeProfit else 0
+                            pending = self._pending_order_configs.pop(sym, None)
 
-                        # Report to Telegram
-                        if pending:
-                            reason = pending['config'].get('_reason', '')
-                            try:
-                                report_trade_opened(sym, side, pos.price, lots, sl_price, tp_price, reason)
-                            except Exception as e:
-                                print(f"  Warning: Telegram report failed: {e}")
-                        # Initialize trailing stop state for this position
-                        self.trailing_state[pid] = {
-                            'phase': 'initial',
-                            'entry_price': pos.price,
-                            'direction': side,
-                            'symbol': sym,
-                            'current_sl': sl_price,
-                            'trail_activated': False,
-                            'last_amend_time': 0,
-                            'scaled_out': False,
-                            'original_volume': vol,
-                        }
-                        # Subscribe to live spot prices for this symbol
-                        self._subscribe_spots(sym)
+                            # LAYER 1 SL-GUARD: If broker didn't return SL/TP, compute from pending config
+                            if pending and (not sl_price or not tp_price):
+                                cfg = pending['config']
+                                ep = pos.price
+                                asset_type = cfg.get('type', 'forex')
+                                pip_val = self._get_pip_value(sym, asset_type)
+                                # Use spread-adjusted reward for TP computation
+                                eff_reward = cfg['reward_pips'] - cfg.get('est_spread_pips', 0)
+                                if not sl_price:
+                                    if side == 'BUY':
+                                        sl_price = round(ep - cfg['risk_pips'] * pip_val, 5)
+                                    else:
+                                        sl_price = round(ep + cfg['risk_pips'] * pip_val, 5)
+                                if not tp_price:
+                                    if side == 'BUY':
+                                        tp_price = round(ep + eff_reward * pip_val, 5)
+                                    else:
+                                        tp_price = round(ep - eff_reward * pip_val, 5)
+                                # Validate R:R of computed SL/TP
+                                rr_ok, eff_rr, _ = validate_rr(cfg['risk_pips'], cfg['reward_pips'], cfg.get('est_spread_pips', 0))
+                                rr_tag = f" R:R={eff_rr:.1f}:1" if rr_ok else f" R:R={eff_rr:.1f}:1 WARNING"
+                                print(f"  [SL-GUARD] Broker returned SL=0 — computed SL={sl_price:.5f} TP={tp_price:.5f}{rr_tag}")
+
+                            self.positions[pid] = {
+                                'symbol': sym, 'symbolId': pos.tradeData.symbolId,
+                                'side': side, 'volume': vol, 'positionId': pid,
+                                'entry_price': pos.price, 'stop_loss': sl_price,
+                                'take_profit': tp_price, 'lot_size': lots,
+                                'open_time': datetime.now().isoformat(),
+                            }
+                            self.local_positions[sym] = {
+                                'direction': side,
+                                'entry_price': pos.price,
+                                'lot_size': lots,
+                                'stop_loss': sl_price,
+                                'take_profit': tp_price,
+                                'open_time': datetime.now().isoformat(),
+                                'positionId': pid,
+                                'bot': 'tradebot',
+                            }
+                            self._save_state()
+
+                            # SAFETY NET: If SL is missing on broker, force-amend it
+                            if not pos.stopLoss and sl_price:
+                                print(f"  [SL-GUARD] Amending SL onto {sym} posId={pid}")
+                                self._amend_sl(pid, sym, sl_price)
+
+                            # Report to Telegram
+                            if pending:
+                                reason = pending['config'].get('_reason', '')
+                                try:
+                                    report_trade_opened(sym, side, pos.price, lots, sl_price, tp_price, reason)
+                                except Exception as e:
+                                    print(f"  Warning: Telegram report failed: {e}")
+                            # Initialize trailing stop state for this position
+                            self.trailing_state[pid] = {
+                                'phase': 'initial',
+                                'entry_price': pos.price,
+                                'direction': side,
+                                'symbol': sym,
+                                'current_sl': sl_price,
+                                'trail_activated': False,
+                                'last_amend_time': 0,
+                                'scaled_out': False,
+                                'original_volume': vol,
+                            }
+                            # Set cooldown on confirmed FILL (not order ACK)
+                            self.last_trade_time[sym] = datetime.now()
+                            # Subscribe to live spot prices for this symbol
+                            self._subscribe_spots(sym)
                     elif etype == 2 and vol == 0:  # FILLED with 0 volume = position closed
                         if pid in self.positions:
                             closed_sym = self.positions[pid]['symbol']
@@ -972,6 +1364,8 @@ class TradeBotEngine:
                 if pid in self.trailing_state:
                     sym = self.trailing_state[pid]['symbol']
                     self.trailing_state[pid]['current_sl'] = new_sl
+                    if pid in self.positions:
+                        self.positions[pid]['stop_loss'] = new_sl
                     if sym in self.local_positions:
                         self.local_positions[sym]['stop_loss'] = new_sl
                     print(f"  [TRAIL-UPDATE] {sym} SL trailed to {new_sl:.5f} by broker")
@@ -997,11 +1391,26 @@ class TradeBotEngine:
                         divisor = 100.0        # 2 decimal places
                     elif symbol in ('XAUUSD', 'XAGUSD'):
                         divisor = 100.0        # 2 decimal places
+                    elif symbol == 'XNGUSD':
+                        divisor = 100000.0     # 5 digits precision (raw 300200 = 3.00200)
+                    elif symbol == 'JP225':
+                        divisor = 1.0          # whole numbers (e.g., 39000)
                     elif asset_type in ('commodity', 'index'):
                         divisor = 100.0        # 2 decimal places
                     else:
                         divisor = 100000.0
                     self._live_prices[symbol] = payload.bid / divisor
+            except Exception:
+                pass
+
+        # Depth quote update from cTrader (Level 2 data)
+        elif msg.payloadType == 2155:  # ProtoOADepthEvent
+            try:
+                payload = Protobuf.extract(msg)
+                sym_id = payload.symbolId
+                symbol = ID_TO_SYMBOL.get(sym_id)
+                if symbol:
+                    self._process_depth_update(payload, symbol)
             except Exception:
                 pass
 
@@ -1056,11 +1465,35 @@ class TradeBotEngine:
             'asset_type': PAIRS.get(symbol, {}).get('type', 'forex'),
         }
         self.closed_trades.append(trade_record)
+        # Persist every trade to JSONL for full history (not just last 50)
+        try:
+            with open('/root/.openclaw/workspace/employees/trade_history.jsonl', 'a') as _fh:
+                _fh.write(json.dumps(trade_record) + '\n')
+        except Exception as _e:
+            print(f"  Warning: failed to append trade history: {_e}")
         pnl_val = broker_pnl if broker_pnl is not None else 0.0
         result = 'WIN' if pnl_val > 0 else 'LOSS'
+        # Track consecutive losses per symbol for lockout logic
+        if pnl_val > 0:
+            self.consecutive_losses[symbol] = 0
+        else:
+            self.consecutive_losses[symbol] = self.consecutive_losses.get(symbol, 0) + 1
+        # Track rolling win rate per pair (last 10 trades)
+        if symbol not in self.pair_trade_results:
+            self.pair_trade_results[symbol] = []
+        self.pair_trade_results[symbol].append(pnl_val > 0)
+        self.pair_trade_results[symbol] = self.pair_trade_results[symbol][-10:]  # keep last 10
+        # Auto-disable pair for 24h if WR < 30% over 10+ trades
+        results = self.pair_trade_results[symbol]
+        if len(results) >= 10:
+            wr = sum(results) / len(results)
+            if wr < 0.30:
+                self.pair_disabled_until[symbol] = datetime.now() + timedelta(hours=24)
+                print(f"  [AUTO-DISABLE] {symbol} — win rate {wr*100:.0f}% over last {len(results)} trades, disabled for 24h")
+
         print(f"  [RECORD] {result} {symbol} {closed_pos.get('direction','?')} "
               f"P&L=${pnl_val:.2f} "
-              f"(total: {len(self.closed_trades)} trades)")
+              f"(total: {len(self.closed_trades)} trades, consec_losses={self.consecutive_losses.get(symbol, 0)})")
 
     def _report_close(self, symbol, closed_pos, close_price, broker_pnl=None):
         """Report a closed position to Zeff.bot → Telegram."""
@@ -1084,14 +1517,14 @@ class TradeBotEngine:
     # ── Trading cycle ──
 
     @staticmethod
-    def _fetch_all_signals(pairs_dict):
+    def _fetch_all_signals(pairs_dict, live_prices=None):
         """Blocking worker: fetch MTF data + compute signals for all pairs.
 
         Runs in a thread via deferToThread so the Twisted reactor stays free
         for spot price updates, execution reports, and trailing stop management.
 
-        Includes a 0.1s stagger between symbols to avoid Yahoo Finance rate-limit
-        bursts (especially on cold start when all caches are empty).
+        Uses ThreadPoolExecutor to fetch all pairs in parallel (~6s total
+        instead of ~10min sequential).
 
         Returns: (prices, candles, signals, news_bias, log_lines)
         """
@@ -1109,12 +1542,25 @@ class TradeBotEngine:
             f"Conf={news_bias['confidence']:.1f} | Session={session_name}"
         )
 
-        for i, (symbol, config) in enumerate(pairs_dict.items()):
-            # Stagger: 0.1s between symbols to avoid HTTP bursts
-            if i > 0:
-                _time.sleep(0.1)
+        # Fetch all pairs in parallel (8 workers keeps Yahoo happy, 29 pairs finish in ~20s worst case)
+        def _fetch_one(symbol):
+            return symbol, get_mtf_data(symbol, live_prices=live_prices)
 
-            price, tf_15m, tf_5m, tf_1m = get_mtf_data(symbol)
+        pair_data = {}
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            futures = {pool.submit(_fetch_one, sym): sym for sym in pairs_dict}
+            for future in as_completed(futures):
+                try:
+                    symbol, result = future.result(timeout=30)
+                    pair_data[symbol] = result
+                except Exception:
+                    pass  # skip pairs that error
+
+        # Process results in original order for consistent log output
+        for symbol, config in pairs_dict.items():
+            if symbol not in pair_data:
+                continue
+            price, tf_15m, tf_5m, tf_1m = pair_data[symbol]
             if price and (tf_15m or tf_5m or tf_1m):
                 if not validate_price(price, symbol):
                     continue
@@ -1127,6 +1573,32 @@ class TradeBotEngine:
                     f"  {config['name']}: {price:.5f} | {signal} "
                     f"(A:{layers['a']} B:{layers['b']} C:{layers['c']} N:{layers['news']}) {reason}"
                 )
+                # Archive non-HOLD signals for history API + paid channel
+                if signal != 'HOLD':
+                    archive_signal(symbol, signal, score, layers, price, session_name)
+                    # Broadcast to premium Telegram channel
+                    _pair_cfg = PAIRS.get(symbol, {})
+                    _pip_val = TradeBotEngine._get_pip_value(symbol, _pair_cfg.get('type', 'forex'))
+                    _risk = _pair_cfg.get('risk_pips', 10) * _pip_val
+                    _reward = _pair_cfg.get('reward_pips', 30) * _pip_val
+                    _spread = _pair_cfg.get('est_spread_pips', 0)
+                    if signal == 'BUY':
+                        _sl = round(price - _risk, 5)
+                        _tp = round(price + _reward, 5)
+                    else:
+                        _sl = round(price + _risk, 5)
+                        _tp = round(price - _reward, 5)
+                    _eff_reward = _pair_cfg.get('reward_pips', 30) - _spread
+                    _rr = _eff_reward / _pair_cfg.get('risk_pips', 10) if _pair_cfg.get('risk_pips') else 3.0
+                    try:
+                        send_premium_signal(
+                            symbol=symbol, direction=signal, price=price,
+                            stop_loss=_sl, take_profit=_tp,
+                            score=score, layers=layers, risk_reward=_rr,
+                            session=session_name, est_spread_pips=_spread,
+                        )
+                    except Exception:
+                        pass  # non-critical — don't block signal processing
 
         return prices, candles, signals, news_bias, log_lines
 
@@ -1200,6 +1672,9 @@ class TradeBotEngine:
                 self.positions[pid] = {
                     'symbol': sym, 'symbolId': bp['symbolId'], 'side': bp['side'],
                     'volume': bp['volume'], 'positionId': pid,
+                    'entry_price': bp['entry'], 'stop_loss': bp['sl'],
+                    'take_profit': bp['tp'], 'lot_size': bp['volume'] / 10000000,
+                    'open_time': datetime.now().isoformat(),
                 }
                 self.local_positions[sym] = {
                     'direction': bp['side'], 'entry_price': bp['entry'],
@@ -1208,13 +1683,18 @@ class TradeBotEngine:
                     'open_time': datetime.now().isoformat(),
                     'positionId': pid, 'bot': 'tradebot',
                 }
-                self.trailing_state[pid] = {
-                    'phase': 'initial', 'entry_price': bp['entry'],
-                    'direction': bp['side'], 'symbol': sym,
-                    'current_sl': bp['sl'], 'trail_activated': False,
-                    'last_amend_time': 0, 'scaled_out': False,
-                    'original_volume': bp['volume'],
-                }
+                saved = self._saved_trailing_state.get(str(pid))
+                if saved:
+                    self.trailing_state[pid] = saved
+                    self.trailing_state[pid]['current_sl'] = bp['sl']
+                else:
+                    self.trailing_state[pid] = {
+                        'phase': 'initial', 'entry_price': bp['entry'],
+                        'direction': bp['side'], 'symbol': sym,
+                        'current_sl': bp['sl'], 'trail_activated': False,
+                        'last_amend_time': 0, 'scaled_out': False,
+                        'original_volume': bp['volume'],
+                    }
                 self._subscribe_spots(sym)
             self._save_state()
 
@@ -1222,40 +1702,65 @@ class TradeBotEngine:
         if changes:
             print(f"  [RECONCILE] Sync complete — {len(ghost_pids)} ghosts, {len(orphan_syms)} orphans, {len(missing_pids)} missing. Now: {len(self.positions)} positions")
 
-        # ── LAYER 3 SL-GUARD: scan ALL broker positions for missing stop losses ──
+        # ── LAYER 3 SL-GUARD: scan ALL broker positions for missing SL or TP ──
         for pid, bp in broker_positions.items():
-            if bp['sl'] == 0:
+            if bp['sl'] == 0 or bp['tp'] == 0:
                 sym = bp['symbol']
                 config = PAIRS.get(sym)
                 if not config:
-                    print(f"  [SL-GUARD] WARNING: {sym} posId={pid} has NO SL and no config — cannot compute SL!")
+                    if bp['sl'] == 0:
+                        print(f"  [SL-GUARD] WARNING: {sym} posId={pid} has NO SL and no config — cannot compute SL!")
                     continue
-                # Compute SL from config
                 ep = bp['entry']
                 asset_type = config.get('type', 'forex')
-                if 'JPY' in sym and asset_type == 'forex':
-                    pip_value = 0.01
-                elif asset_type == 'forex':
-                    pip_value = 0.0001
-                elif asset_type == 'crypto':
-                    pip_value = 0.01
-                elif sym in ('XAUUSD', 'XAGUSD'):
-                    pip_value = 0.01
-                elif asset_type in ('commodity', 'index'):
-                    pip_value = 0.01
-                else:
-                    pip_value = 0.0001
-                if bp['side'] == 'BUY':
-                    sl_price = round(ep - config['risk_pips'] * pip_value, 5)
-                else:
-                    sl_price = round(ep + config['risk_pips'] * pip_value, 5)
-                print(f"  [SL-GUARD] {sym} posId={pid} has NO STOP LOSS! Amending SL={sl_price:.5f}")
-                self._amend_sl(pid, sym, sl_price)
-                # Update local state too
-                if sym in self.local_positions:
-                    self.local_positions[sym]['stop_loss'] = sl_price
-                if pid in self.trailing_state:
-                    self.trailing_state[pid]['current_sl'] = sl_price
+                pip_value = self._get_pip_value(sym, asset_type)
+                eff_reward = config['reward_pips'] - config.get('est_spread_pips', 0)
+
+                # Compute missing SL
+                sl_price = bp['sl']
+                if bp['sl'] == 0:
+                    if bp['side'] == 'BUY':
+                        sl_price = round(ep - config['risk_pips'] * pip_value, 5)
+                    else:
+                        sl_price = round(ep + config['risk_pips'] * pip_value, 5)
+
+                # Compute missing TP (only if not in trailing phase with TP already removed)
+                tp_price = bp['tp']
+                trail_state = self.trailing_state.get(pid, {})
+                if bp['tp'] == 0 and not trail_state.get('tp_removed', False):
+                    if bp['side'] == 'BUY':
+                        tp_price = round(ep + eff_reward * pip_value, 5)
+                    else:
+                        tp_price = round(ep - eff_reward * pip_value, 5)
+
+                if bp['sl'] == 0 or (bp['tp'] == 0 and tp_price):
+                    sl_tag = f"SL={sl_price:.5f}" if bp['sl'] == 0 else ""
+                    tp_tag = f"TP={tp_price:.5f}" if bp['tp'] == 0 and tp_price else ""
+                    print(f"  [SL-GUARD] {sym} posId={pid} missing {sl_tag} {tp_tag} — amending")
+                    # Amend: set both SL and TP
+                    req = ProtoOAAmendPositionSLTPReq()
+                    req.ctidTraderAccountId = CTID
+                    req.positionId = pid
+                    req.stopLoss = sl_price
+                    if tp_price:
+                        req.takeProfit = tp_price
+                    d = self.client.send(req, responseTimeoutInSeconds=10)
+                    d.addCallback(lambda msg, s=sym: print(f"  << SL-GUARD AMEND OK: {s}"))
+                    d.addErrback(lambda f, s=sym: print(f"  << SL-GUARD AMEND FAILED: {s}: {f.getErrorMessage()}"))
+
+                # Update all state dicts
+                if bp['sl'] == 0:
+                    if pid in self.positions:
+                        self.positions[pid]['stop_loss'] = sl_price
+                    if sym in self.local_positions:
+                        self.local_positions[sym]['stop_loss'] = sl_price
+                    if pid in self.trailing_state:
+                        self.trailing_state[pid]['current_sl'] = sl_price
+                if bp['tp'] == 0 and tp_price:
+                    if pid in self.positions:
+                        self.positions[pid]['take_profit'] = tp_price
+                    if sym in self.local_positions:
+                        self.local_positions[sym]['take_profit'] = tp_price
                 self._save_state()
 
     def _trading_cycle(self):
@@ -1271,9 +1776,12 @@ class TradeBotEngine:
 
         print(f"\n[{self._ts()}] Checking {len(PAIRS)} pairs...")
 
+        # Fetch cTrader trendbars to populate cache (non-blocking, reactor thread)
+        self._fetch_ctrader_trendbars()
+
         # Reconcile with broker FIRST, then fetch signals
         d = self._cycle_reconcile()
-        d.addCallback(lambda _: threads.deferToThread(self._fetch_all_signals, dict(PAIRS)))
+        d.addCallback(lambda _: threads.deferToThread(self._fetch_all_signals, dict(PAIRS), dict(self._live_prices)))
         d.addCallback(self._process_signals)
         d.addErrback(self._on_fetch_error)
 
@@ -1300,6 +1808,10 @@ class TradeBotEngine:
         max_pos = CONFIG['max_positions']
         max_bonus = CONFIG['max_bonus_positions']
 
+        # Count how many bonus ("can't resist") positions are already open
+        # Any positions beyond max_positions are bonus trades by definition
+        existing_bonus = max(0, total_open - max_pos)
+
         for symbol, config in PAIRS.items():
             if symbol not in signals:
                 continue
@@ -1307,14 +1819,28 @@ class TradeBotEngine:
             if signal == 'HOLD':
                 continue
 
+            # Session filter: only enter during London+NY hours (08-21 UTC)
+            current_utc_hour = datetime.now(timezone.utc).hour
+            if current_utc_hour < 8 or current_utc_hour >= 21:
+                continue
+
+            # Per-pair auto-disable: skip if win rate too low (disabled for 24h)
+            if symbol in self.pair_disabled_until:
+                if datetime.now() < self.pair_disabled_until[symbol]:
+                    continue
+                else:
+                    del self.pair_disabled_until[symbol]  # expired, re-enable
+
             # Already have a position in this symbol?
             if symbol in self.local_positions:
                 continue
 
-            # Cooldown check
+            # Cooldown check (15 min default, 60 min if 2+ consecutive losses)
             if symbol in self.last_trade_time:
                 elapsed = (datetime.now() - self.last_trade_time[symbol]).total_seconds()
-                if elapsed < CONFIG['cooldown_minutes'] * 60:
+                consec = self.consecutive_losses.get(symbol, 0)
+                lockout_minutes = 60 if consec >= 2 else CONFIG['cooldown_minutes']
+                if elapsed < lockout_minutes * 60:
                     continue
 
             current_count = total_open + orders_sent_this_cycle
@@ -1324,12 +1850,12 @@ class TradeBotEngine:
                 entry_price = prices[symbol]
                 self._execute_order(symbol, signal, entry_price, config, reason)
                 orders_sent_this_cycle += 1
-            elif current_count < (max_pos + max_bonus) and score >= 7:
+            elif (existing_bonus + bonus_orders_sent) < max_bonus and score >= 7:
                 # All slots full but this is a perfect setup (score 7 = all layers + news)
                 # Can't resist — take the bonus trade
                 entry_price = prices[symbol]
                 bonus_orders_sent += 1
-                print(f"  ** BONUS TRADE #{bonus_orders_sent}: {signal} {symbol} (perfect score {score}/7) **")
+                print(f"  ** BONUS TRADE #{existing_bonus + bonus_orders_sent}: {signal} {symbol} (perfect score {score}/7) **")
                 self._execute_order(symbol, signal, entry_price, config, f"BONUS|{reason}")
                 orders_sent_this_cycle += 1
                 self._alert(
@@ -1358,17 +1884,10 @@ class TradeBotEngine:
         now = _time.time()
 
         for pid, state in list(self.trailing_state.items()):
-            if state['trail_activated']:
-                continue  # Broker is auto-trailing, nothing to do
-
             symbol = state['symbol']
             # Prefer real-time cTrader spot price, fall back to Yahoo
             price = self._live_prices.get(symbol) or self._last_prices.get(symbol)
             if not price:
-                continue
-
-            # Throttle: max one amend per 30s per position
-            if now - state['last_amend_time'] < 30:
                 continue
 
             config = PAIRS.get(symbol, {})
@@ -1379,22 +1898,90 @@ class TradeBotEngine:
             direction = state['direction']
             asset_type = config.get('type', 'forex')
 
-            # pip_value: price distance per pip
-            if 'JPY' in symbol and asset_type == 'forex':
-                pip_value = 0.01
-            elif asset_type == 'forex':
-                pip_value = 0.0001
-            else:
-                pip_value = 0.01  # crypto, commodity, index
-
-            trigger_pips = config.get('trail_trigger_pips', config['risk_pips'])
-            step_pips = config.get('trail_step_pips', config['risk_pips'] // 2)
+            pip_value = self._get_pip_value(symbol, asset_type)
 
             # Calculate profit in pips
             if direction == 'BUY':
                 profit_pips = (price - entry) / pip_value
             else:
                 profit_pips = (entry - price) / pip_value
+
+            # Scale-out at 2× risk: percentage varies by asset class
+            # Forex: 60% (lock more profit), Crypto/Commodity: 30% (let more ride)
+            risk_pips = config['risk_pips']
+            _scale_pct = {'forex': 0.60, 'crypto': 0.30, 'commodity': 0.30, 'index': 0.50}
+            if (state.get('trail_activated')
+                    and not state.get('scaled_out')
+                    and not state.get('_scale_out_pending')
+                    and profit_pips >= (risk_pips * 2)):
+                original_vol = state.get('original_volume', 0)
+                close_vol = int(original_vol * _scale_pct.get(asset_type, 0.50))
+                if close_vol > 0 and pid in self.positions:
+                    pct = _scale_pct.get(asset_type, 0.50)
+                    print(f"  [SCALE-OUT] {symbol} closing {pct*100:.0f}% ({close_vol} vol) at {profit_pips:.1f} pips profit")
+                    state['_scale_out_pending'] = True
+                    remaining_vol = original_vol - close_vol
+                    self._execute_scale_out(symbol, pid, close_vol, remaining_vol)
+
+            # Ratchet SL forward for trailing positions using our own step_pips
+            if state['trail_activated']:
+                trigger_pips = config.get('trail_trigger_pips', config['risk_pips'])
+                step_pips = config.get('trail_step_pips', config['risk_pips'] // 2)
+                current_sl = state['current_sl']
+
+                # Calculate the ideal SL: entry + N*step_offset (for BUY)
+                # SL ratchets up in step_pips increments as profit grows
+                step_offset = step_pips * pip_value
+                steps_in_profit = int((profit_pips - trigger_pips) / step_pips)
+                if steps_in_profit > 0:
+                    if direction == 'BUY':
+                        ideal_sl = round(entry + (steps_in_profit * step_offset), 5)
+                    else:
+                        ideal_sl = round(entry - (steps_in_profit * step_offset), 5)
+
+                    # Minimum SL distance guard — SL must be >= step_pips from current price
+                    min_sl_distance = step_pips * pip_value
+                    if direction == 'BUY' and price - ideal_sl < min_sl_distance:
+                        ideal_sl = round(price - min_sl_distance, 5)
+                    elif direction == 'SELL' and ideal_sl - price < min_sl_distance:
+                        ideal_sl = round(price + min_sl_distance, 5)
+
+                    # Only move SL forward, never backward
+                    should_amend = False
+                    if direction == 'BUY' and ideal_sl > current_sl + (pip_value * 0.5):
+                        should_amend = True
+                    elif direction == 'SELL' and ideal_sl < current_sl - (pip_value * 0.5):
+                        should_amend = True
+
+                    if should_amend and (now - state['last_amend_time'] >= 30):
+                        # Remove TP once SL locks in >= 1x risk (trigger_pips) of profit
+                        sl_locked_pips = abs(ideal_sl - entry) / pip_value
+                        clear_tp = not state.get('tp_removed', False) and sl_locked_pips >= trigger_pips
+                        if clear_tp:
+                            print(f"  [TRAIL-TP-REMOVED] {symbol} SL locks {sl_locked_pips:.1f} pips >= {trigger_pips} trigger — removing TP")
+                            state['tp_removed'] = True
+
+                        print(f"  [TRAIL-RATCHET] {symbol} SL {current_sl:.5f} -> {ideal_sl:.5f} "
+                              f"(+{profit_pips:.1f} pips, step #{steps_in_profit})")
+                        self._amend_sl(pid, symbol, ideal_sl, trailing=True, clear_tp=clear_tp)
+                        state['current_sl'] = ideal_sl
+                        state['last_amend_time'] = now
+                        # Update both position dicts
+                        if pid in self.positions:
+                            self.positions[pid]['stop_loss'] = ideal_sl
+                            if clear_tp:
+                                self.positions[pid]['take_profit'] = 0
+                        if symbol in self.local_positions:
+                            self.local_positions[symbol]['stop_loss'] = ideal_sl
+                        self._save_state()
+                continue
+
+            # Throttle: max one amend per 30s per position
+            if now - state['last_amend_time'] < 30:
+                continue
+
+            trigger_pips = config.get('trail_trigger_pips', config['risk_pips'])
+            step_pips = config.get('trail_step_pips', config['risk_pips'] // 2)
 
             phase = state['phase']
 
@@ -1406,71 +1993,104 @@ class TradeBotEngine:
                 state['phase'] = 'breakeven'
                 state['current_sl'] = new_sl
                 state['last_amend_time'] = now
+                if pid in self.positions:
+                    self.positions[pid]['stop_loss'] = new_sl
                 if symbol in self.local_positions:
                     self.local_positions[symbol]['stop_loss'] = new_sl
                 self._save_state()
                 self._alert(f"TRAIL {symbol} -> BREAK-EVEN\nSL moved to entry {new_sl:.5f}")
 
             # Phase: breakeven -> trailing (profit >= 1.5x risk)
+            # TP is kept until SL locks in >= 1x risk of profit
             elif phase == 'breakeven' and profit_pips >= (trigger_pips + step_pips):
                 step_offset = step_pips * pip_value
                 if direction == 'BUY':
                     new_sl = round(entry + step_offset, 5)
                 else:
                     new_sl = round(entry - step_offset, 5)
-                print(f"  [TRAIL] {symbol} -> TRAILING ACTIVE (profit {profit_pips:.1f} pips, SL={new_sl:.5f})")
-                self._amend_sl(pid, symbol, new_sl, trailing=True, clear_tp=True)
+                # Calculate how many pips SL locks in from entry
+                sl_lock_pips = step_pips  # first step = step_pips above entry
+                should_clear_tp = sl_lock_pips >= trigger_pips
+                tp_status = "TP removed" if should_clear_tp else "TP kept"
+                print(f"  [TRAIL] {symbol} -> TRAILING ACTIVE (profit {profit_pips:.1f} pips, SL={new_sl:.5f}, {tp_status})")
+                self._amend_sl(pid, symbol, new_sl, trailing=True, clear_tp=should_clear_tp)
                 state['phase'] = 'trailing'
                 state['current_sl'] = new_sl
                 state['trail_activated'] = True
+                state['tp_removed'] = should_clear_tp
                 state['last_amend_time'] = now
+                if pid in self.positions:
+                    self.positions[pid]['stop_loss'] = new_sl
+                    if should_clear_tp:
+                        self.positions[pid]['take_profit'] = 0
                 if symbol in self.local_positions:
                     self.local_positions[symbol]['stop_loss'] = new_sl
                 self._save_state()
-                self._alert(f"TRAIL {symbol} -> TRAILING ACTIVE\nSL={new_sl:.5f}, TP removed — riding trend until reversal")
-
-            # Scale-out: close 50% at 2× risk to lock in guaranteed profit
-            risk_pips = config['risk_pips']
-            if state.get('trail_activated') and not state.get('scaled_out') and profit_pips >= (risk_pips * 2):
-                original_vol = state.get('original_volume', 0)
-                close_vol = original_vol // 2
-                if close_vol > 0 and pid in self.positions:
-                    print(f"  [SCALE-OUT] {symbol} closing 50% ({close_vol} vol) at {profit_pips:.1f} pips profit")
-                    self._execute_close(symbol, pid, close_vol)
-                    state['scaled_out'] = True
-                    # Update tracked volume
-                    remaining_vol = original_vol - close_vol
-                    self.positions[pid]['volume'] = remaining_vol
-                    if symbol in self.local_positions:
-                        self.local_positions[symbol]['lot_size'] = remaining_vol / 10000000
-                    self._save_state()
-                    self._alert(
-                        f"SCALE-OUT: {symbol}\n"
-                        f"Closed 50% at +{profit_pips:.0f} pips profit\n"
-                        f"Remaining 50% trailing with no TP"
-                    )
+                self._alert(f"TRAIL {symbol} -> TRAILING ACTIVE\nSL={new_sl:.5f}, {tp_status}")
 
     def _check_reversal_exits(self, signals, news_bias):
-        """Proactively close trailing positions when market signals a reversal.
+        """Proactively close positions when market signals a reversal.
 
-        Uses the bot's full intelligence — EMA trend, momentum, news bias —
-        to detect when a trend has turned against an open trailing position.
-        Only applies to positions where trailing is active (TP removed).
-        Uses 5M candle data (stored in _last_candles) for faster reversal detection.
+        Two modes:
+          1. Initial-phase positions: if 15M trend (Layer A) fully flips against the
+             position, close at market to cut losses early (don't wait for full SL hit).
+          2. Trailing positions: use full intelligence (EMA, momentum, news) with
+             profit guards to detect when trend has turned.
 
-        Profit guard:
+        Profit guard (trailing only):
           - Strong reversal (MTF signal flip score >= 3/7): close at any profit level
           - Weak reversal (news + EMA, momentum + EMA): only close if profit >= 2× risk
-            This prevents premature exits on noise when the trade just started trailing.
 
-        Reversal triggers:
+        Reversal triggers (trailing):
           1. MTF signal engine generates opposite direction with score >= 3 (STRONG)
           2. News contradicts position AND EMA trend has flipped (WEAK — needs profit guard)
           3. Momentum reversed + EMA trend flipped (WEAK — needs profit guard)
         """
         for pid, state in list(self.trailing_state.items()):
+            # ── Early exit for INITIAL phase: 15M trend flipped against position ──
+            if not state['trail_activated'] and state['phase'] == 'initial':
+                symbol = state['symbol']
+                direction = state['direction']
+
+                # Grace period: don't close positions in the first 5 minutes
+                # Gives the trade time to develop — prevents instant close on noisy signals
+                open_time_str = None
+                if pid in self.positions:
+                    open_time_str = self.positions[pid].get('open_time')
+                elif symbol in self.local_positions:
+                    open_time_str = self.local_positions[symbol].get('open_time')
+                if open_time_str:
+                    try:
+                        open_dt = datetime.fromisoformat(open_time_str)
+                        if not open_dt.tzinfo:
+                            open_dt = open_dt.replace(tzinfo=timezone.utc)
+                        age_minutes = (datetime.now(timezone.utc) - open_dt).total_seconds() / 60
+                        if age_minutes < 5:
+                            continue  # Too young — let the trade breathe
+                    except (ValueError, TypeError):
+                        pass
+
+                if symbol in signals:
+                    signal, reason, score, layers = signals[symbol]
+                    # Layer A fully against us AND overall score >= 3
+                    # (Layer A alone flips too easily on volatile instruments like Gold)
+                    opposite = (direction == 'BUY' and signal == 'SELL' and layers.get('a', 0) >= 2 and score >= 3)
+                    opposite = opposite or (direction == 'SELL' and signal == 'BUY' and layers.get('a', 0) >= 2 and score >= 3)
+                    if opposite:
+                        broker_pos = self.positions.get(pid)
+                        if broker_pos:
+                            price = self._live_prices.get(symbol) or self._last_prices.get(symbol)
+                            print(f"  [REVERSAL-EARLY] {symbol} — 15M trend flipped against {direction} (score {score}/7), closing initial position")
+                            self._execute_close(symbol, pid, broker_pos['volume'])
+                            self._alert(
+                                f"EARLY EXIT: {symbol} ({direction})\n"
+                                f"15M trend fully reversed (score {score}/7) — cutting loss before SL\n"
+                                f"{reason}"
+                            )
+                continue  # Skip trailing logic for non-trailing positions
+
             if not state['trail_activated']:
-                continue  # Only check positions riding the trend (TP removed)
+                continue  # Breakeven phase — let trailing logic handle it
 
             symbol = state['symbol']
             direction = state['direction']
@@ -1487,12 +2107,7 @@ class TradeBotEngine:
             if not config:
                 continue
             asset_type = config.get('type', 'forex')
-            if 'JPY' in symbol and asset_type == 'forex':
-                pip_value = 0.01
-            elif asset_type == 'forex':
-                pip_value = 0.0001
-            else:
-                pip_value = 0.01
+            pip_value = self._get_pip_value(symbol, asset_type)
             if direction == 'BUY':
                 profit_pips = (price - entry) / pip_value
             else:
@@ -1655,20 +2270,53 @@ class TradeBotEngine:
 
     @staticmethod
     def _get_pip_multiplier(symbol, asset_type):
-        """cTrader points per pip for SL/TP calculation."""
+        """cTrader points per pip for relative SL/TP calculation.
+
+        pip_multiplier = pip_value / point_size, where point_size = 10^(-broker_decimals)
+
+        Confirmed from broker fill prices:
+          Forex (5 dec): EURUSD 1.08123 → point=0.00001, pip=0.0001, mult=10
+          JPY forex (3 dec): USDJPY 156.018 → point=0.001, pip=0.01, mult=10
+          Crypto (2 dec): BTCUSD 66000.12, ETHUSD 2006.04 → point=0.01, pip=0.01, mult=1
+          Gold/Oil (2 dec): XAUUSD 5186.12, XBRUSD 71.27 → point=0.01, pip=0.01, mult=1
+          Silver (3 dec): XAGUSD 88.679 → point=0.001, pip=0.01, mult=10
+          Nat Gas (3 dec): XNGUSD ~2.960 → point=0.001, pip=0.001, mult=1
+          Indices (0 dec): JP225 58657, US30 49192 → point=1, pip=1.0, mult=1
+          Indices (1 dec): US500 5500.1, AUS200 9069.6 → point=0.1, pip=0.1, mult=1
+        """
+        if asset_type == 'forex':
+            return 10      # All forex: 10 (5-dec and 3-dec JPY both use mult=10)
+        elif symbol == 'XAGUSD':
+            return 10      # Silver: 3 decimals
+        else:
+            return 1       # All other CFDs: crypto, gold, oil, nat gas, all indices
+
+    @staticmethod
+    def _get_pip_value(symbol, asset_type):
+        """Price distance per pip.
+        Used for SL/TP price calculation, profit measurement, and trailing stops.
+
+        Index pip values calibrated from cTrader price feeds:
+          JP225 58657.00 — moves in whole numbers, 1 pip = 1.0
+          US30  42000.00 — moves in whole numbers, 1 pip = 1.0
+          US500  5500.10 — moves in 0.10, 1 pip = 0.1
+          USTEC 19000.10 — moves in 0.10, 1 pip = 0.1
+          UK100 10896.60 — moves in 0.10, 1 pip = 0.1
+          DE30  25000.10 — moves in 0.10, 1 pip = 0.1
+          AUS200 9198.60 — moves in 0.10, 1 pip = 0.1
+        """
         if 'JPY' in symbol and asset_type == 'forex':
-            return 100     # JPY forex: 3 decimals, 1 pip = 100 points
+            return 0.01
         elif asset_type == 'forex':
-            return 10      # Standard forex: 5 decimals, 1 pip = 10 points
-        elif asset_type == 'crypto':
-            return 100     # Crypto: 2 decimals on cTrader
-        elif symbol in ('XAUUSD', 'XAGUSD'):
-            return 100     # Metals: 2-3 decimals
-        elif symbol in ('XTIUSD', 'XBRUSD', 'XNGUSD'):
-            return 100     # Energy: 2-3 decimals
+            return 0.0001
+        elif symbol == 'XNGUSD':
+            return 0.001    # Natural gas: 3 decimals (e.g. 2.972)
+        elif symbol in ('JP225', 'US30'):
+            return 1.0      # Whole-number indices
         elif asset_type == 'index':
-            return 100     # Indices: 1-2 decimals
-        return 10
+            return 0.1      # Most indices move in 0.10 increments
+        else:
+            return 0.01     # crypto, commodity (metals, oil)
 
     def _calc_safe_volume(self, symbol, config, entry_price):
         """Calculate the maximum safe volume that keeps dollar risk within limits.
@@ -1719,7 +2367,8 @@ class TradeBotEngine:
 
         asset_type = config.get('type', 'forex')
 
-        # ── SAFETY GATE: pre-trade checks (kill switch, drawdown, position limits) ──
+        # ── SAFETY GATE: pre-trade checks (kill switch, drawdown, position limits, R:R) ──
+        est_spread = config.get('est_spread_pips', 0)
         can_trade, check_reason = pre_trade_checks(
             volume=config['volume'],
             balance=self.balance,
@@ -1730,9 +2379,18 @@ class TradeBotEngine:
             symbol=symbol,
             asset_type=asset_type,
             sl_pips=config['risk_pips'],
+            reward_pips=config['reward_pips'],
+            est_spread_pips=est_spread,
         )
         if not can_trade:
             print(f"  [BLOCKED] {symbol}: {check_reason}")
+            return
+
+        # ── HARD R:R GATE: reject if effective R:R < 2:1 after spread ──
+        effective_reward = config['reward_pips'] - est_spread
+        if config['risk_pips'] > 0 and effective_reward / config['risk_pips'] < MIN_RR_RATIO:
+            print(f"  [RR-BLOCK] {symbol}: effective R:R {effective_reward/config['risk_pips']:.2f}:1 < {MIN_RR_RATIO}:1 "
+                  f"(reward={config['reward_pips']} - spread={est_spread} = {effective_reward} vs risk={config['risk_pips']})")
             return
 
         # ── DYNAMIC POSITION SIZING: scale volume to keep risk within budget ──
@@ -1740,12 +2398,16 @@ class TradeBotEngine:
 
         side = ProtoOATradeSide.Value('BUY') if direction == 'BUY' else ProtoOATradeSide.Value('SELL')
 
-        # Relative SL/TP in cTrader points (smallest price increment)
+        # Relative SL/TP in cTrader points
+        # Convert: price_distance = pips * pip_value, then to points using pip_multiplier
         pip_multiplier = self._get_pip_multiplier(symbol, asset_type)
-        risk_points = int(config['risk_pips'] * pip_multiplier)
-        reward_points = int(config['reward_pips'] * pip_multiplier)
+        risk_points = int(round(config['risk_pips'] * pip_multiplier))
+        reward_points = int(round(effective_reward * pip_multiplier))
 
         # Final dollar risk sanity log
+        pip_value = self._get_pip_value(symbol, asset_type)
+        sl_dist = config['risk_pips'] * pip_value
+        tp_dist = effective_reward * pip_value
         final_risk = estimate_dollar_risk(volume, entry_price, config['risk_pips'], symbol, asset_type)
 
         req = ProtoOANewOrderReq()
@@ -1761,7 +2423,8 @@ class TradeBotEngine:
 
         lot_display = volume / 10000000  # Display as lots
         print(f"  >> SENDING {direction} {symbol} vol={volume} ({lot_display:g}lot) "
-              f"SL={config['risk_pips']}pip TP={config['reward_pips']}pip risk=${final_risk:.2f}")
+              f"SL={config['risk_pips']}pip TP={config['reward_pips']}pip risk=${final_risk:.2f} "
+              f"(SL_dist={sl_dist:.4f} TP_dist={tp_dist:.4f} pts={risk_points}/{reward_points})")
 
         d = self.client.send(req, responseTimeoutInSeconds=10)
         config_with_reason = dict(config, _reason=reason, _actual_volume=volume)
@@ -1773,7 +2436,7 @@ class TradeBotEngine:
         # It is NOT confirmation of a fill — the actual fill comes via _on_message
         # (ProtoOAExecutionEvent with etype==2, vol>0). We only set cooldown here
         # and store the config so _on_message can build the local_positions entry.
-        self.last_trade_time[symbol] = datetime.now()
+        # Note: cooldown (last_trade_time) is set on FILL, not here — see _on_message etype==2
         self._pending_order_configs[symbol] = {
             'direction': direction, 'entry_price': entry_price, 'config': config,
         }
@@ -1785,6 +2448,47 @@ class TradeBotEngine:
         # Skip this symbol for the rest of the session to avoid log spam
         self._skip_symbols.add(symbol)
         print(f"  [SKIP] {symbol} — will not retry this session")
+
+    # ── Scale-out (partial close with callback confirmation) ──
+
+    def _execute_scale_out(self, symbol, pid, close_vol, remaining_vol):
+        """Close half the position and confirm scaled_out in the callback."""
+        if not self.authenticated:
+            print(f"  Cannot scale-out {symbol} — not authenticated")
+            return
+
+        req = ProtoOAClosePositionReq()
+        req.ctidTraderAccountId = CTID
+        req.positionId = pid
+        req.volume = close_vol
+
+        lot_display = close_vol / 10000000
+        print(f"  >> SCALE-OUT {symbol} posId={pid} closing {lot_display:g}lot")
+
+        d = self.client.send(req, responseTimeoutInSeconds=10)
+        d.addCallback(lambda msg, s=symbol, p=pid, rv=remaining_vol, cv=close_vol:
+                      self._on_scale_out_response(msg, s, p, rv, cv))
+        d.addErrback(lambda f, s=symbol, p=pid:
+                     self._on_scale_out_error(f, s, p))
+
+    def _on_scale_out_response(self, msg, symbol, pid, remaining_vol, closed_vol):
+        """Broker ACK for scale-out request. NOT a fill confirmation.
+
+        Do NOT set scaled_out=True or update volumes here — that happens
+        in _on_message when the execution event (etype=2) confirms the
+        partial close with the reduced volume. This callback only logs
+        that the broker accepted the request.
+        """
+        print(f"  << SCALE-OUT ACCEPTED: {symbol} posId={pid} — awaiting fill confirmation")
+
+    def _on_scale_out_error(self, failure, symbol, pid):
+        err = failure.getErrorMessage()
+        print(f"  << SCALE-OUT FAILED for {symbol}: {err}")
+        # Clear pending flag so it retries next cycle
+        state = self.trailing_state.get(pid)
+        if state:
+            state.pop('_scale_out_pending', None)
+        self._alert(f"SCALE-OUT FAILED: {symbol}\n{err}")
 
     # ── Close position via cTrader API ──
 
@@ -1822,6 +2526,50 @@ class TradeBotEngine:
             self.balance = payload.trader.balance / 100
         except Exception:
             pass
+
+    # ── Watchdog — keeps state fresh and force-reconnects if stuck ──
+
+    def _watchdog(self):
+        """Runs every 30s regardless of connection state.
+        - Saves state so the dashboard always has a fresh timestamp.
+        - If disconnected for > 3 minutes, force-restart the client connection.
+        """
+        self._save_state()
+
+        if self.authenticated:
+            return  # All good — trading loop handles everything
+
+        # Not authenticated — check how long we've been down
+        if self._last_authenticated_at:
+            down_seconds = (datetime.now(timezone.utc) - self._last_authenticated_at).total_seconds()
+        elif self._last_connected_at:
+            down_seconds = (datetime.now(timezone.utc) - self._last_connected_at).total_seconds()
+        else:
+            # Never connected yet — give initial startup 3 minutes
+            down_seconds = 0
+
+        if down_seconds > 180:  # 3 minutes disconnected
+            print(f"[{self._ts()}] WATCHDOG: Disconnected for {down_seconds:.0f}s — force-restarting connection")
+            self._alert(
+                f"WATCHDOG: Force-restarting connection\n"
+                f"Disconnected for {down_seconds:.0f}s ({self._consecutive_failures} failures)\n"
+                f"Open positions: {len(self.positions)} UNMONITORED"
+            )
+            try:
+                self.client.stopService()
+            except Exception as e:
+                print(f"[{self._ts()}] WATCHDOG: stopService error (ignored): {e}")
+            # Reset failure counters so backoff starts fresh
+            self._consecutive_failures = 0
+            self._reconnect_count = 0
+            self._last_authenticated_at = datetime.now(timezone.utc)  # Reset timer to avoid rapid restarts
+            try:
+                self.client.startService()
+                print(f"[{self._ts()}] WATCHDOG: Connection restarted")
+            except Exception as e:
+                print(f"[{self._ts()}] WATCHDOG: startService error: {e}")
+        elif down_seconds > 0:
+            print(f"[{self._ts()}] WATCHDOG: Waiting for reconnect ({down_seconds:.0f}s down, attempt {self._consecutive_failures})")
 
     # ── Error handling ──
 
@@ -2000,32 +2748,88 @@ class TradeBotEngine:
 
         return {'closed': len(closed), 'positions': closed}
 
+    # ── Trailing state persistence ──
+
+    TRAIL_STATE_FILE = '/root/.openclaw/workspace/employees/trailing_state.json'
+
+    @staticmethod
+    def _load_trailing_state() -> dict:
+        """Load persisted trailing state from disk. Returns {str(pid): state_dict}."""
+        _path = '/root/.openclaw/workspace/employees/trailing_state.json'
+        try:
+            if os.path.isfile(_path):
+                with open(_path, 'r') as fh:
+                    data = json.load(fh)
+                if isinstance(data, dict):
+                    print(f"  Loaded trailing state: {len(data)} positions from disk")
+                    return data
+        except Exception as e:
+            print(f"  Warning: failed to load trailing state: {e}")
+        return {}
+
+    def _persist_trailing_state(self):
+        """Save trailing state to disk for crash recovery."""
+        # Convert int pid keys to strings for JSON, skip transient fields
+        saveable = {}
+        for pid, state in self.trailing_state.items():
+            s = dict(state)
+            s.pop('_scale_out_pending', None)  # transient
+            s['last_amend_time'] = 0  # reset throttle on restart
+            saveable[str(pid)] = s
+        try:
+            atomic_json_write(self.TRAIL_STATE_FILE, saveable)
+        except Exception as e:
+            print(f"  Warning: failed to persist trailing state: {e}")
+
     # ── State persistence (for dashboard) ──
 
     def _save_state(self):
+        pnls = [t.get('pnl', 0) for t in self.closed_trades]
+        gross_wins = sum(p for p in pnls if p > 0)
+        gross_losses = abs(sum(p for p in pnls if p <= 0))
         stats = {
             'balance': round(self.balance, 2),
             'open': len(self.positions),
             'total': len(self.closed_trades),
-            'wins': len([t for t in self.closed_trades if t.get('pnl', 0) > 0]),
-            'losses': len([t for t in self.closed_trades if t.get('pnl', 0) <= 0]),
+            'wins': len([p for p in pnls if p > 0]),
+            'losses': len([p for p in pnls if p <= 0]),
             'win_rate': 0,
-            'total_pnl': round(sum(t.get('pnl', 0) for t in self.closed_trades), 2),
+            'total_pnl': round(sum(pnls), 2),
+            'profit_factor': round(gross_wins / gross_losses, 2) if gross_losses > 0 else 0.0,
+            'sharpe_ratio': 0.0,
         }
         if stats['total'] > 0:
             stats['win_rate'] = round(stats['wins'] / stats['total'] * 100, 1)
+        # Sharpe ratio: mean(returns) / std(returns) — annualized is overkill for live paper
+        if len(pnls) >= 2:
+            import statistics
+            _mean = statistics.mean(pnls)
+            _stdev = statistics.stdev(pnls)
+            stats['sharpe_ratio'] = round(_mean / _stdev, 2) if _stdev > 0 else 0.0
 
         # Enrich positions with trail phase for dashboard visibility
+        # Use pid-keyed positions for accuracy (handles duplicate symbols)
         positions_with_trail = {}
-        for sym, pos in self.local_positions.items():
-            pos_data = dict(pos)
-            # Find trailing state by positionId
-            pid = pos.get('positionId')
-            if pid and pid in self.trailing_state:
+        for pid, pos in self.positions.items():
+            sym = pos.get('symbol', '?')
+            # Build display data from pid-keyed position (accurate per-position)
+            pos_data = {
+                'direction': pos.get('side', '?'),
+                'entry_price': pos.get('entry_price', 0),
+                'lot_size': pos.get('lot_size', 0),
+                'stop_loss': pos.get('stop_loss', 0),
+                'take_profit': pos.get('take_profit', 0),
+                'open_time': pos.get('open_time', ''),
+                'positionId': pid,
+                'bot': 'tradebot',
+            }
+            if pid in self.trailing_state:
                 pos_data['trail_phase'] = self.trailing_state[pid]['phase']
                 pos_data['trail_activated'] = self.trailing_state[pid]['trail_activated']
                 pos_data['scaled_out'] = self.trailing_state[pid].get('scaled_out', False)
-            positions_with_trail[sym] = pos_data
+            # Use pid-based key to handle duplicate symbols in dashboard
+            display_key = f"{sym}_{pid}" if sym in positions_with_trail else sym
+            positions_with_trail[display_key] = pos_data
 
         state_data = {
             'balance': self.balance,
@@ -2056,6 +2860,9 @@ class TradeBotEngine:
             atomic_json_write('/root/.openclaw/workspace/employees/trading_status.json', status_data)
         except Exception as e:
             print(f"Warning: failed to save status: {e}")
+
+        # Persist trailing state for crash recovery
+        self._persist_trailing_state()
 
     # ── Alerting ──
 

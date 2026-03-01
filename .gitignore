@@ -1,0 +1,57 @@
+# === CREDENTIALS & SECRETS ===
+.env
+.env.*
+!.env.example
+conf/
+credentials/
+*.key
+*.pem
+*.cert
+api_keys.json
+
+# === STATE FILES (contain account info, regenerated at runtime) ===
+*_state.json
+*_status.json
+*_trading_state.json
+trading_state.json
+trailing_state.json
+paper-trading-state.json
+system-status.json
+.prev_prices.json
+polybot_research_cache.json
+polybot.pid
+
+# === LARGE DATA FILES ===
+signal_history.jsonl
+trade_history.jsonl
+
+# === CONFIG WITH POTENTIAL SECRETS ===
+dist/tradebot/config.json
+dist/tradebot-local/config.json
+employees/ego_trading/config.json
+
+# === LOGS ===
+logs/
+*.log
+cloudflared.log
+ngrok.log
+
+# === TUNNEL URLS ===
+tunnel-url.txt
+
+# === PYTHON CACHE ===
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# === ARCHIVES ===
+*.zip
+
+# === OS FILES ===
+.DS_Store
+Thumbs.db
+
+# === OPENCLAW INTERNAL ===
+.openclaw/
+.pi/

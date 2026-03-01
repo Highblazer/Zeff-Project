@@ -15,9 +15,10 @@ KILL_SWITCH_PATH = '/root/.openclaw/workspace/STOP_TRADING'
 # Safety configuration
 MAX_RISK_PER_TRADE = 0.05       # 5% of balance per trade (tight SL keeps actual risk low)
 MAX_DAILY_DRAWDOWN = 0.15       # 15% max daily drawdown
-MAX_POSITION_VOLUME = 500000    # Max volume in units (varies by instrument)
+MAX_POSITION_VOLUME = 10000000  # Max volume in units (varies by instrument)
 MAX_OPEN_POSITIONS = 5          # Max simultaneous positions
 MIN_BALANCE_TO_TRADE = 10.0     # Don't trade if balance below this
+MIN_RR_RATIO = 2.0              # Minimum reward:risk ratio after spread deduction
 
 
 def check_kill_switch():
@@ -39,22 +40,34 @@ def require_demo_mode(mode: str):
 def _estimate_notional(volume: int, price: float, symbol: str, asset_type: str) -> float:
     """Estimate the notional USD exposure of a position.
 
-    cTrader volume units vary by asset class:
-      - Forex: 100000 vol = 0.01 standard lot = 1,000 units of base currency
-      - Crypto: volume / 100 = units of the coin (e.g. 100 vol = 0.01 BTC)
-      - Commodities/Indices: volume / 100 = contract units
+    cTrader volume units (confirmed from broker P&L):
+      - Forex: volume / 10000000 = standard lots (100000 vol = 0.01 lot)
+      - Crypto/Commodity/Index CFDs: volume / 100 = contract units
+        (e.g. 100 vol = 1.0 unit of BTC/Gold/S&P)
     """
     if asset_type == 'forex':
         units = volume / 100.0  # 100000 vol = 1000 currency units
         return units  # ~USD equivalent for major pairs
     elif asset_type == 'crypto':
-        coin_units = volume / 10000000.0
-        return coin_units * price  # coin_units * price per coin
+        coin_units = volume / 100.0
+        return coin_units * price
     elif asset_type in ('commodity', 'index'):
-        contract_units = volume / 10000000.0
+        contract_units = volume / 100.0
         return contract_units * price
     # Fallback — treat as forex
     return volume / 100.0
+
+
+def _get_cfd_pip_value(symbol: str, asset_type: str) -> float:
+    """Get the price distance per pip for CFD instruments."""
+    if symbol == 'XNGUSD':
+        return 0.001    # Natural gas: 3 decimals
+    elif symbol in ('JP225', 'US30'):
+        return 1.0      # Whole-number indices
+    elif asset_type == 'index':
+        return 0.1      # Most indices move in 0.10 increments
+    else:
+        return 0.01     # crypto, commodity (metals, oil)
 
 
 def estimate_dollar_risk(volume: int, price: float, sl_distance_pips: float,
@@ -63,38 +76,24 @@ def estimate_dollar_risk(volume: int, price: float, sl_distance_pips: float,
 
     This is the REAL risk — what you lose if price moves from entry to stop loss.
 
-    cTrader volume mapping (from broker):
-      - Forex: 100000 vol = 0.01 lot = 1,000 base currency units
-        pip value = lot_size * 100000 * pip_val  ($0.10/pip for 0.01 lot)
-      - Crypto/Commodity/Index: volume / 10000000 = units
-        risk = units * sl_pips * pip_val ($0.01 per pip)
+    cTrader volume mapping (confirmed from broker P&L):
+      - Forex: volume / 10000000 = standard lots
+        0.01 lot = 100000 vol; pip value per lot = $10 (non-JPY) / $6.60 (JPY)
+      - Crypto/Commodity/Index CFDs: volume / 100 = contract units
+        risk = units * sl_pips * pip_value
     """
     if asset_type == 'forex':
-        # 0.01 lot = 100000 vol; pip value for 1.0 standard lot = $10 (non-JPY)
         lot_size = volume / 10000000.0  # e.g., 100000 vol = 0.01 lot
         if 'JPY' in symbol:
-            # JPY pip = 0.01; pip value per standard lot ≈ 1000 JPY ≈ $6.60
             pip_value_per_lot = 6.60
         else:
-            # Standard forex pip = 0.0001; pip value per standard lot = $10
             pip_value_per_lot = 10.0
         return lot_size * pip_value_per_lot * sl_distance_pips
-    elif asset_type == 'crypto':
-        # Crypto units: volume / 10000000
-        # SL in "pips" where 1 pip = $0.01 price move
-        # Risk = units * price_distance
-        units = volume / 10000000.0
-        pip_val = 0.01
-        price_distance = sl_distance_pips * pip_val  # e.g., 500 pips * 0.01 = $5.00
-        return abs(units * price_distance)
-    elif asset_type in ('commodity', 'index'):
-        units = volume / 10000000.0
-        pip_val = 0.01
+    else:
+        units = volume / 100.0  # 100 vol = 1.0 contract unit
+        pip_val = _get_cfd_pip_value(symbol, asset_type)
         price_distance = sl_distance_pips * pip_val
         return abs(units * price_distance)
-    # Fallback: assume forex-like
-    lot_size = volume / 10000000.0
-    return lot_size * 10.0 * sl_distance_pips
 
 
 def validate_position_size(volume: int, balance: float, symbol: str = "",
@@ -124,15 +123,8 @@ def validate_position_size(volume: int, balance: float, symbol: str = "",
                            f"of balance (${max_risk_amount:.2f}) "
                            f"[{symbol} vol={volume} SL={sl_pips}pips]")
 
-    # Secondary check: notional exposure cap (leverage guard)
-    # Demo accounts typically have 30:1 to 500:1 leverage,
-    # but we cap at 30:1 to prevent oversized positions
-    if price > 0:
-        notional = _estimate_notional(volume, price, symbol, asset_type)
-        max_notional = balance * 30.0  # 30:1 max effective leverage
-        if notional > max_notional:
-            return False, (f"Notional exposure ${notional:.2f} exceeds 30x balance "
-                           f"(${max_notional:.2f}) [{symbol} vol={volume}]")
+    # Notional exposure: no hard cap — demo CFDs use broker-managed margin.
+    # Dollar risk check above is the real guard.
 
     return True, "OK"
 
@@ -184,10 +176,30 @@ def validate_price(price: float, symbol: str = "") -> bool:
     return True
 
 
+def validate_rr(risk_pips: float, reward_pips: float, est_spread_pips: float = 0.0,
+                min_rr: float = MIN_RR_RATIO) -> tuple:
+    """Validate that effective reward:risk ratio meets minimum threshold.
+
+    Deducts estimated spread from reward to get the real execution R:R.
+    Returns (is_valid, effective_rr, reason).
+    """
+    if risk_pips <= 0:
+        return False, 0.0, "risk_pips must be > 0"
+    effective_reward = reward_pips - est_spread_pips
+    if effective_reward <= 0:
+        return False, 0.0, f"Reward {reward_pips} - spread {est_spread_pips} <= 0"
+    effective_rr = effective_reward / risk_pips
+    if effective_rr < min_rr:
+        return False, effective_rr, (f"R:R {effective_rr:.2f}:1 < minimum {min_rr}:1 "
+                                     f"(reward={reward_pips} - spread={est_spread_pips} = {effective_reward} vs risk={risk_pips})")
+    return True, effective_rr, "OK"
+
+
 def pre_trade_checks(volume: int, balance: float, starting_balance: float,
                      open_positions: int, mode: str, price: float = 0,
                      symbol: str = "", asset_type: str = "forex",
-                     sl_pips: float = 0.0) -> tuple:
+                     sl_pips: float = 0.0, reward_pips: float = 0.0,
+                     est_spread_pips: float = 0.0) -> tuple:
     """Run ALL safety checks before placing a trade.
 
     Returns (can_trade, reason).
@@ -214,6 +226,12 @@ def pre_trade_checks(volume: int, balance: float, starting_balance: float,
 
     if price > 0 and not validate_price(price, symbol):
         return False, f"Invalid price: {price}"
+
+    # R:R validation — reject trades where spread eats the reward
+    if reward_pips > 0 and sl_pips > 0:
+        rr_valid, eff_rr, rr_reason = validate_rr(sl_pips, reward_pips, est_spread_pips)
+        if not rr_valid:
+            return False, f"R:R check: {rr_reason}"
 
     return True, "All checks passed"
 

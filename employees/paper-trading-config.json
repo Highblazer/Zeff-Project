@@ -1,0 +1,14 @@
+{
+  "initial_balance": 200,
+  "current_balance": 200,
+  "risk_per_trade": 0.01,
+  "max_daily_loss": 0.05,
+  "max_positions": 3,
+  "strategies": [
+    "EMA_Trend",
+    "RSI_Reversion",
+    "MACD_Momentum"
+  ],
+  "active": true,
+  "started_at": "2026-02-22T22:41:16.462799"
+}

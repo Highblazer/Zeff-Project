@@ -193,3 +193,85 @@ def update_memory_files():
         filepath = os.path.join(MEMORY_DIR, filename)
         atomic_text_write(filepath, '\n'.join(lines) + '\n')
         log.info(f'Wrote {filepath} ({len(articles)} articles)')
+
+
+def get_natalia_intel(hours: int = 24) -> list:
+    """Read Natalia's analyzed intelligence from memory/tradebot-intel-natalia.md.
+
+    Returns a list of dicts with keys: title, impact, action, timestamp.
+    Trading bots can call this to get Natalia's curated market intelligence
+    separate from the auto-generated headline feed.
+    """
+    filepath = os.path.join(MEMORY_DIR, 'tradebot-intel-natalia.md')
+    if not os.path.isfile(filepath):
+        return []
+
+    try:
+        with open(filepath, 'r') as f:
+            content = f.read()
+    except OSError as e:
+        log.warning(f'Failed to read natalia intel: {e}')
+        return []
+
+    entries = []
+    current_ts = ''
+    current_entry = None
+
+    for line in content.split('\n'):
+        line = line.strip()
+
+        # Parse timestamp headers: ### 2026-02-26 14:30 UTC
+        if line.startswith('### ') and 'UTC' in line:
+            current_ts = line[4:].strip()
+            continue
+
+        # Parse finding lines: - **Title** (impact: 0.7)
+        if line.startswith('- **') and '(impact:' in line:
+            # Save previous entry
+            if current_entry:
+                entries.append(current_entry)
+
+            # Extract title and impact
+            try:
+                title_end = line.index('** (impact:')
+                title = line[4:title_end]
+                impact_str = line[title_end + 11:].rstrip(')')
+                impact = float(impact_str)
+            except (ValueError, IndexError):
+                title = line[4:].split('**')[0]
+                impact = 0.0
+
+            current_entry = {
+                'title': title,
+                'impact': impact,
+                'action': '',
+                'description': '',
+                'timestamp': current_ts,
+            }
+            continue
+
+        # Parse description: > Some description text
+        if line.startswith('> ') and current_entry:
+            current_entry['description'] = line[2:]
+            continue
+
+        # Parse action: Action: ALERT trading bots...
+        if line.startswith('Action:') and current_entry:
+            current_entry['action'] = line[7:].strip()
+            continue
+
+    # Don't forget the last entry
+    if current_entry:
+        entries.append(current_entry)
+
+    # Filter by recency if hours specified
+    if hours and entries:
+        try:
+            cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+            cutoff_str = cutoff.strftime('%Y-%m-%d %H:%M')
+            entries = [e for e in entries
+                       if e.get('timestamp', '') >= cutoff_str or not e.get('timestamp')]
+        except Exception:
+            pass  # Return all entries if filtering fails
+
+    return entries

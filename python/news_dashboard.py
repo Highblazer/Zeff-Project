@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-News Intelligence Dashboard — Streamlit app (port 8502).
+News Intelligence Dashboard — Streamlit app (port 8503).
 
 Displays categorized news intelligence for TradeBot and Natalia,
 with auto-collection, filtering, and cyberpunk AWO theme.
 
-Run: streamlit run python/news_dashboard.py --server.port 8502
+Run: streamlit run python/news_dashboard.py --server.port 8503
 """
 
 import sys

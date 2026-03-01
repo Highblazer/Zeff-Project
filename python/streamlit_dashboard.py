@@ -28,6 +28,17 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+# Auto-refresh every 30 seconds
+try:
+    from streamlit_autorefresh import st_autorefresh
+    st_autorefresh(interval=30000, key="fleet_refresh")
+except ImportError:
+    # Fallback: use JavaScript-based auto-refresh
+    st.markdown(
+        '<meta http-equiv="refresh" content="30">',
+        unsafe_allow_html=True
+    )
+
 # ══════════════════════════════════════════════════════════════
 #  LOGO + CSS
 # ══════════════════════════════════════════════════════════════
@@ -314,6 +325,7 @@ STATE_FILE = '/root/.openclaw/workspace/employees/trading_state.json'
 PREV_PRICES_FILE = '/root/.openclaw/workspace/employees/.prev_prices.json'
 TASKS_ROOT = '/root/.openclaw/workspace/tasks'
 KILL_SWITCH_PATH = '/root/.openclaw/workspace/STOP_TRADING'
+TRADE_HISTORY_FILE = '/root/.openclaw/workspace/employees/trade_history.jsonl'
 
 def _load_json(path, default=None):
     try:
@@ -321,6 +333,37 @@ def _load_json(path, default=None):
             return json.load(f)
     except Exception:
         return default if default is not None else {}
+
+def _load_trade_history(limit=50):
+    """Load recent closed trades from JSONL file."""
+    trades = []
+    try:
+        if os.path.exists(TRADE_HISTORY_FILE):
+            with open(TRADE_HISTORY_FILE, 'r') as f:
+                for line in f:
+                    line = line.strip()
+                    if line:
+                        try:
+                            trades.append(json.loads(line))
+                        except json.JSONDecodeError:
+                            pass
+    except Exception:
+        pass
+    # Also load from trading_state.json closed_trades
+    state = _load_json(STATE_FILE)
+    for ct in state.get('closed_trades', []):
+        trades.append(ct)
+    # Deduplicate by positionId
+    seen = set()
+    unique = []
+    for t in trades:
+        pid = t.get('positionId', t.get('position_id', id(t)))
+        if pid not in seen:
+            seen.add(pid)
+            unique.append(t)
+    # Sort by close_time descending, most recent first
+    unique.sort(key=lambda x: x.get('close_time', ''), reverse=True)
+    return unique[:limit]
 
 def get_uptime():
     try:
@@ -577,7 +620,7 @@ st.markdown(f"""
         {now.strftime('%Y-%m-%d %H:%M:%S')} LOCAL<br>
         {utc_now.strftime('%H:%M:%S')} UTC<br>
         UPTIME {sys_stats['uptime']}<br>
-        <a href="http://62.171.152.37:8502" target="_blank"
+        <a href="http://62.171.152.37:8503" target="_blank"
            style="color:#00e5ff;text-decoration:none;border:1px solid rgba(0,229,255,0.35);
                   padding:4px 14px;border-radius:4px;font-size:11px;font-weight:600;
                   letter-spacing:1.5px;margin-top:4px;display:inline-block;">NEWS INTEL &rarr;</a>
@@ -1429,6 +1472,41 @@ with tab_system:
                 Demo mode enforced: Yes
             </div>
         </div>""", unsafe_allow_html=True)
+
+
+# ══════════════════════════════════════════════════════════════
+#  TRADE HISTORY
+# ══════════════════════════════════════════════════════════════
+
+st.markdown('<div class="section-hdr">Recent Trade History</div>', unsafe_allow_html=True)
+
+trade_history = _load_trade_history()
+if trade_history:
+    history_html = '<div class="awo-card"><div class="card-body"><table style="width:100%;font-size:12px;font-family:\'JetBrains Mono\',monospace;">'
+    history_html += '<tr style="color:#5a7a8a;border-bottom:1px solid rgba(0,229,255,0.1);"><th style="padding:4px 8px;">Symbol</th><th>Direction</th><th>Entry</th><th>Close</th><th>P&L</th><th>Time</th></tr>'
+    for trade in trade_history[:20]:
+        symbol = trade.get('symbol', '?')
+        direction = trade.get('direction', '?')
+        entry = trade.get('entry_price', 0)
+        close = trade.get('close_price', 0)
+        pnl = trade.get('pnl', 0)
+        close_time = trade.get('close_time', '?')
+        if isinstance(close_time, str) and len(close_time) > 16:
+            close_time = close_time[:16]
+        pnl_color = '#00e676' if pnl >= 0 else '#ff1744'
+        dir_color = '#00e676' if direction == 'BUY' else '#ff1744'
+        history_html += f'<tr style="border-bottom:1px solid rgba(0,229,255,0.05);">'
+        history_html += f'<td style="padding:4px 8px;color:#e0e6ed;">{symbol}</td>'
+        history_html += f'<td style="color:{dir_color};">{direction}</td>'
+        history_html += f'<td style="color:#e0e6ed;">{entry:.5f}</td>'
+        history_html += f'<td style="color:#e0e6ed;">{close:.5f}</td>'
+        history_html += f'<td style="color:{pnl_color};font-weight:600;">${pnl:+.2f}</td>'
+        history_html += f'<td style="color:#5a7a8a;">{close_time}</td>'
+        history_html += '</tr>'
+    history_html += '</table></div></div>'
+    st.markdown(history_html, unsafe_allow_html=True)
+else:
+    st.markdown('<div class="awo-card"><div class="card-body" style="color:#5a7a8a;">No trade history available</div></div>', unsafe_allow_html=True)
 
 
 # ══════════════════════════════════════════════════════════════
