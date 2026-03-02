@@ -1,0 +1,85 @@
+{
+  "id": "becb182a",
+  "title": "Polymarket research: Bitcoin Up or Down on March 1?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bitcoin Up or Down on March 1?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:08:48.093712+00:00",
+  "updated_at": "2026-03-01T16:08:59.673192+00:00",
+  "claimed_at": "2026-03-01T16:08:58.299190+00:00",
+  "completed_at": "2026-03-01T16:08:59.673173+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bitcoin Up or Down on March 1?\n\nWeb Results (5):\n- Bitcoin Up or Down - 15 Minutes Predictions & Odds | Polymarket: To trade on &quot;Bitcoin Up or Down - March 1, 9:45PM-10:00PM ET,&quot; decide whether you believe Bitcoin&#x27;s price will finish above or below th\n- Bitcoin Up or Down - 5 Minutes Predictions & Odds | Polymarket: The &quot;Bitcoin Up or Down - March 1, 1:25PM-1:30PM ET&quot; market <strong>resolves based on whether Bitcoin&#x27;s price at the end of the 5-minut\n- Bitcoin Up or Down - Hourly Predictions & Odds | Polymarket: On Polymarket, the price of each outcome represents the market&#x27;s implied probability. A price of 50\u00a2 for &quot;Up&quot; in the &quot;Bitcoin Up o\n- Bitcoin Up or Down - 4 Hour Predictions & Odds | Polymarket: The &quot;Bitcoin Up or Down - March 1, 4:00AM-8:00AM ET&quot; market <strong>resolves based on whether Bitcoin&#x27;s price at the end of the 4-hour \n- Bitcoin (BTC) Price Prediction & Forecast 2026, 2027, 2028-2030 | Binance: On the 1 day time frame, Bitcoin is currently <strong>trending bearish</strong> with the 50 day moving average currently sloping down and below the cu\n\nNews (5):\n- Bitcoin Price Prediction After Middle-East Shock: Breakout or Fake Rally? (3 hours ago)\n- BTC price analysis: Bitcoin market bottom may be nearing, at least if measured against gold (1 hour ago)\n- Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go? (2 days ago)\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026? (2 days ago)\n- The worst may lie ahead. BTC price chart revisits historic pattern: Crypto Daybook Americas (2 days ago)",
+    "web_results": [
+      {
+        "title": "Bitcoin Up or Down - 15 Minutes Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/btc-updown-15m-1772419500",
+        "description": "To trade on &quot;Bitcoin Up or Down - March 1, 9:45PM-10:00PM ET,&quot; decide whether you believe Bitcoin&#x27;s price will finish above or below the opening &quot;Price to Beat&quot; by 10:00PM ET. <strong>Buy &quot;Up&quot; if you think the price will rise, or &quot;Down&quot; if you think it will fall</strong>. Enter your amount and click &quot;Trade.&quot;"
+      },
+      {
+        "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/btc-updown-5m-1772389500",
+        "description": "The &quot;Bitcoin Up or Down - March 1, 1:25PM-1:30PM ET&quot; market <strong>resolves based on whether Bitcoin&#x27;s price at the end of the 5-minute window is greater than or equal to its price at the start of that window \u2014 if so, the outcome is &quot;Up&quot;; otherwise it is &quot;Down.&quot;</strong> The resolution source is the Chainlink ..."
+      },
+      {
+        "title": "Bitcoin Up or Down - Hourly Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-march-1-3pm-et",
+        "description": "On Polymarket, the price of each outcome represents the market&#x27;s implied probability. A price of 50\u00a2 for &quot;Up&quot; in the &quot;Bitcoin Up or Down - March 1, 3PM ET&quot; market means <strong>traders collectively believe there is roughly a 50% chance that Bitcoin&#x27;s price will finish up over this hourly window</strong>."
+      },
+      {
+        "title": "Bitcoin Up or Down - 4 Hour Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/btc-updown-4h-1772355600",
+        "description": "The &quot;Bitcoin Up or Down - March 1, 4:00AM-8:00AM ET&quot; market <strong>resolves based on whether Bitcoin&#x27;s price at the end of the 4-hour window is greater than or equal to its price at the start of that window \u2014 if so, the outcome is &quot;Up&quot;; otherwise it is &quot;Down.&quot;</strong> The resolution source is the Chainlink ..."
+      },
+      {
+        "title": "Bitcoin (BTC) Price Prediction & Forecast 2026, 2027, 2028-2030 | Binance",
+        "url": "https://www.binance.com/en/price-prediction/bitcoin",
+        "description": "On the 1 day time frame, Bitcoin is currently <strong>trending bearish</strong> with the 50 day moving average currently sloping down and below the current Bitcoin price, which could act as a support the next time it interacts with it. Bitcoin\u2019s 200 day moving average is sloping up and has been doing so since ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bitcoin Price Prediction After Middle-East Shock: Breakout or Fake Rally?",
+        "url": "https://coinpedia.org/news/bitcoin-price-prediction-after-middle-east-shock-breakout-or-fake-rally",
+        "description": "Bitcoin is starting the week on firmer ground after a dramatic 24 hours that shook global markets. Following geopolitical escalation involving U.S.",
+        "age": "3 hours ago"
+      },
+      {
+        "title": "BTC price analysis: Bitcoin market bottom may be nearing, at least if measured against gold",
+        "url": "https://coindesk.com/markets/2026/03/01/bitcoin-market-bottom-may-be-nearing-at-least-if-measured-against-gold-analyst-says",
+        "description": "Historically, bitcoin bear markets have lasted 12-13 months, suggesting a potential downturn until late 2026 if priced in USD.",
+        "age": "1 hour ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go?",
+        "url": "https://coinpedia.org/price-prediction/bitcoin-price-prediction",
+        "description": "Bitcoin price prediction 2023 - 2025 based on deals analysis and statistic. In depth view into BTC Price, analyst predictions until 2030.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Explore the latest Bitcoin price forecast for Feb 2026 as BTC attempts to reclaim the $68,300 area amid a cooldown phase Can it hold $67K? Read our analysis.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "The worst may lie ahead. BTC price chart revisits historic pattern: Crypto Daybook Americas",
+        "url": "https://coindesk.com/daybook-us/2026/02/27/the-worst-may-lie-ahead-bitcoin-chart-revisits-historic-pattern",
+        "description": "Bitcoin recently traded near $66,100, down 3% in 24 hours. Other major tokens and the CoinDesk 20 Index lost even more. Still, U.S.-listed spot bitcoin ETFs have pulled in over $1 billion in three days.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Bitcoin Up or Down on March 1?",
+    "sources_count": 10
+  },
+  "error": null
+}

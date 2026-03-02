@@ -1,0 +1,85 @@
+{
+  "id": "d05d4af0",
+  "title": "Polymarket research: Will Manchester United FC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Manchester United FC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:33:16.218195+00:00",
+  "updated_at": "2026-03-01T16:33:23.773703+00:00",
+  "claimed_at": "2026-03-01T16:33:21.940167+00:00",
+  "completed_at": "2026-03-01T16:33:23.773689+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Manchester United FC win on 2026-03-01?\n\nWeb Results (5):\n- 2025\u201326 Manchester United F.C. season - Wikipedia: The 2025\u201326 season is the 139th season in the history of Manchester United, their 34th season in the Premier League and their 51st consecutive and 101\n- Manchester United vs Crystal Palace live: Score and latest Premier League updates: Last updated 01 March 2026 3:09pm GMT \u00b7 Share article \u00b7 Log in or Subscribe \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 Copy link \u00b7 twitter \n- Manchester United-Crystal Palace - Premier League 2025/2026 Statistical Preview: For all of the team news and statistics, including injuries and suspensions, probable line-ups and predictions with facts and odds, read our detailed \n- Manchester United Live Score, 2025-2026 Fixtures, Results - AiScore: <strong>Manchester United is going to play their next match on 2026/03/01 UTC against Crystal Palace</strong> in -. When the match begin, you will be \n- Manchester United FC vs Crystal Palace FC - March 1, 2026 - Premier League 2025/2026 - Soccer | Global Sports Archive: Manchester United FC \u00b7 Man United \u00b7 Break&#x27; 0 \u00b7 - 1 \u00b7 Crystal Palace FC \u00b7 Crystal Palace \u00b7 Overview Preview Player stats Shot chart \u00b7 Timeline \u00b7 1\n\nNews (5):\n- Team news for Man Utd v Crystal Palace | 1 March 2026 | Manchester United (2 days ago)\n- Manchester United v Crystal Palace: Premier League \u2013 as it happened | Premier League | The Guardian (7 minutes ago)\n- Champions League last-16 draw live updates: Real Madrid draw Manchester City, PSG vs Chelsea and more - The Athletic (2 days ago)\n- Premier League 2025-26 table \u2014 Latest standings - NBC Sports (32 minutes ago)\n- Highlights and goals of Manchester United (2-1) vs Crystal Palace in Premier League | 03/01/2026 - VAVEL USA (24 minutes ago)",
+    "web_results": [
+      {
+        "title": "2025\u201326 Manchester United F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Manchester_United_F.C._season",
+        "description": "The 2025\u201326 season is the 139th season in the history of Manchester United, their 34th season in the Premier League and their 51st consecutive and 101st overall season in the top flight of English football. The club is competing in the Premier League and competed in the FA Cup and EFL Cup, ..."
+      },
+      {
+        "title": "Manchester United vs Crystal Palace live: Score and latest Premier League updates",
+        "url": "https://www.telegraph.co.uk/football/2026/03/01/man-utd-vs-crystal-palace-live-score-premier-league-watch/",
+        "description": "Last updated 01 March 2026 3:09pm GMT \u00b7 Share article \u00b7 Log in or Subscribe \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 43 mins <strong>Manchester United 0 Crystal Palace 1</strong> \u00b7 ..."
+      },
+      {
+        "title": "Manchester United-Crystal Palace - Premier League 2025/2026 Statistical Preview",
+        "url": "https://www.whoscored.com/matches/1903410/preview/england-premier-league-2025-2026-manchester-united-crystal-palace",
+        "description": "For all of the team news and statistics, including injuries and suspensions, probable line-ups and predictions with facts and odds, read our detailed Premier League match preview of Manchester United vs Crystal Palace. Kick off 01/03/2026"
+      },
+      {
+        "title": "Manchester United Live Score, 2025-2026 Fixtures, Results - AiScore",
+        "url": "https://m.aiscore.com/en/team-manchester-united-fc/4ndqmlin95agkve",
+        "description": "<strong>Manchester United is going to play their next match on 2026/03/01 UTC against Crystal Palace</strong> in -. When the match begin, you will be able to follow Manchester United vs Crystal Palace live score, H2H, standings, minute by minute updated live results and match statistics."
+      },
+      {
+        "title": "Manchester United FC vs Crystal Palace FC - March 1, 2026 - Premier League 2025/2026 - Soccer | Global Sports Archive",
+        "url": "https://globalsportsarchive.com/en/soccer/match/2026-03-01/manchester-united-fc-vs-crystal-palace-fc/3739819",
+        "description": "Manchester United FC \u00b7 Man United \u00b7 Break&#x27; 0 \u00b7 - 1 \u00b7 Crystal Palace FC \u00b7 Crystal Palace \u00b7 Overview Preview Player stats Shot chart \u00b7 Timeline \u00b7 1st Half - Diogo Dalot \u00b7 (Foul) 36\u2019 \u00b7 Noussair Mazraoui \u00b7 Luke Shaw \u00b7 24\u2019 \u00b7 6\u2019 \u00b7 Daichi Kamada \u00b7 (Foul) 4\u2019 \u00b7 Maxence Lacroix \u00b7 (0-1) assist by Brennan Johnson \u00b7 Match info \u00b7 Date: 01.03.26 / 15:00 \u00b7"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Team news for Man Utd v Crystal Palace | 1 March 2026 | Manchester United",
+        "url": "https://www.manutd.com/en/news/detail/team-news-for-man-utd-v-crystal-palace-1-march-2026",
+        "description": "Head coach Michael Carrick provides an injury update ahead of Sunday's Old Trafford contest.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Manchester United v Crystal Palace: Premier League \u2013 as it happened | Premier League | The Guardian",
+        "url": "https://www.theguardian.com/football/live/2026/mar/01/manchester-united-v-crystal-palace-premier-league-live",
+        "description": "Maxence Lacroix put Palace ahead before being sent off after conceding the penalty from which Bruno Fernandes equalised, then Benjamin Sesko headed the winner",
+        "age": "7 minutes ago"
+      },
+      {
+        "title": "Champions League last-16 draw live updates: Real Madrid draw Manchester City, PSG vs Chelsea and more - The Athletic",
+        "url": "https://www.nytimes.com/athletic/live-blogs/champions-league-last-16-draw-live-updates/Y4Ivqpp0la5L/",
+        "description": "Follow live reaction after the draw for the Champions League last 16 was made in Nyon.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Premier League 2025-26 table \u2014 Latest standings - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-table-teams-standings-for-the-new-season",
+        "description": "The 2025-26 Premier League table is absolutely bonkers and so tight.",
+        "age": "32 minutes ago"
+      },
+      {
+        "title": "Highlights and goals of Manchester United (2-1) vs Crystal Palace in Premier League | 03/01/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/03/01/1252567-manchester-united-vs-crystal-palace-live-score-premier-league.html",
+        "description": "The 'Red Devils' prevailed as home against the 'Eagles' in a compromise that shifted pace in the second half after the expulsion of a visiting defender and allowed them to hold onto third place on the table.",
+        "age": "24 minutes ago"
+      }
+    ],
+    "query": "Will Manchester United FC win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

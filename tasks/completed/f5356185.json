@@ -1,0 +1,85 @@
+{
+  "id": "f5356185",
+  "title": "Polymarket research: Will USD reach 1.7M Iranian rials by February 28?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will USD reach 1.7M Iranian rials by February 28?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T12:33:51.841999+00:00",
+  "updated_at": "2026-03-01T12:34:14.046891+00:00",
+  "claimed_at": "2026-03-01T12:34:12.187296+00:00",
+  "completed_at": "2026-03-01T12:34:14.046876+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will USD reach 1.7M Iranian rials by February 28?\n\nWeb Results (5):\n- Will USD reach 1.7M Iranian rials by February 28? Trading Odds & Predictions | Polymarket: As of today, &quot;Will USD reach 1.7M Iranian rials by February 28?&quot; <strong>has generated $139.6K in total trading volume since the market laun\n- Will USD reach 1.7M Iranian rials by February 28? Betting Odds & Predictions | Polymarket: Propose resolution<strong>This market will resolve to \u201cYes\u201d if the finalized USD exchange rate on Bonbast reaches or exceeds 170,000 Iranian toman (eq\n- Israel vs Iran Currency: Iranian Rial Crashes to 1.7 Million \u2014 Whose Currency is Stronger Against US Dollar, Indian Rupee? How Israel's Attack Crushed Iran's Currency Amid War: The Israeli Shekel stayed resilient at 3.14 per dollar, while the Iranian Rial slid to an all-time low of <strong>1.75 million per dollar</strong>, re\n- Will USD reach 1.7M Iranian rials by February 28?: Institutional-grade data, AI-powered insights, and tools for investors \u00b7 Advanced Micro Devices announced a landmark multi-year partnership with Meta \n- USD to IRR: Convert US Dollars to Iranian Rials: Check the latest currency exchange rates for the US Dollar, Iranian Rial and all major world currencies. Our currency converter is simple to use and a\n\nNews (5):\n- U.S.-Israel strikes Iran: What we know as markets brace for turmoil (3 hours ago)\n- Israel vs Iran Currency: Iranian Rial Crashes to 1.7 Million \u2014 Whose Currency is Stronger Against US Dollar, Indian Rupee? How Israel's Attack Crushed Iran's Currency Amid War (15 hours ago)\n- Iran Update Evening Special Report, February 28, 2026 | ISW (18 hours ago)\n- U.S.-Iran war updates: Polymarket traders bet record $500 million on U.S.-Iran war (8 hours ago)\n- Iran strike raises market uncertainty: Weekly Market Recap - Growbeansprout.com (9 hours ago)",
+    "web_results": [
+      {
+        "title": "Will USD reach 1.7M Iranian rials by February 28? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/will-usd-reach-1pt7m-iranian-rials-by-february-28/will-usd-reach-1pt7m-iranian-rials-by-february-28",
+        "description": "As of today, &quot;Will USD reach 1.7M Iranian rials by February 28?&quot; <strong>has generated $139.6K in total trading volume since the market launched on Feb 4, 2026</strong>. This level of trading activity reflects strong engagement from the Polymarket community ..."
+      },
+      {
+        "title": "Will USD reach 1.7M Iranian rials by February 28? Betting Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/will-usd-reach-1pt7m-iranian-rials-by-february-28",
+        "description": "Propose resolution<strong>This market will resolve to \u201cYes\u201d if the finalized USD exchange rate on Bonbast reaches or exceeds 170,000 Iranian toman (equivalent to 1,700,000 Iranian rials) at any point between market creation and February 28, 2026</strong>."
+      },
+      {
+        "title": "Israel vs Iran Currency: Iranian Rial Crashes to 1.7 Million \u2014 Whose Currency is Stronger Against US Dollar, Indian Rupee? How Israel's Attack Crushed Iran's Currency Amid War",
+        "url": "https://sundayguardianlive.com/business/israel-vs-iran-currency-iranian-rial-crashes-to-17-million-whose-currency-is-stronger-against-us-dollar-indian-rupee-how-israels-attack-crushed-irans-currency-amid-war-173113/",
+        "description": "The Israeli Shekel stayed resilient at 3.14 per dollar, while the Iranian Rial slid to an all-time low of <strong>1.75 million per dollar</strong>, reflecting sharply different economic conditions."
+      },
+      {
+        "title": "Will USD reach 1.7M Iranian rials by February 28?",
+        "url": "https://mlq.ai/prediction/market/will-usd-reach-1pt7m-iranian-rials-by-february-28/",
+        "description": "Institutional-grade data, AI-powered insights, and tools for investors \u00b7 Advanced Micro Devices announced a landmark multi-year partnership with Meta Platforms to supply up to 6 gigawatts of Instinct GPUs starting with a custom MI450-based chip in late 2026, alongside EPY\u2026"
+      },
+      {
+        "title": "USD to IRR: Convert US Dollars to Iranian Rials",
+        "url": "https://www.exchange-rates.org/converter/usd-irr",
+        "description": "Check the latest currency exchange rates for the US Dollar, Iranian Rial and all major world currencies. Our currency converter is simple to use and also shows the latest currency rates. ... This chart shows data from 2025-2-28 to 2026-2-27."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "U.S.-Israel strikes Iran: What we know as markets brace for turmoil",
+        "url": "https://cnbc.com/2026/03/01/iran-khamenei-trump-us-investors-markets.html",
+        "description": "The Middle East has been thrust into a widening conflict, causing investors to brace for risk-off trades once markets reopen.",
+        "age": "3 hours ago"
+      },
+      {
+        "title": "Israel vs Iran Currency: Iranian Rial Crashes to 1.7 Million \u2014 Whose Currency is Stronger Against US Dollar, Indian Rupee? How Israel's Attack Crushed Iran's Currency Amid War",
+        "url": "https://sundayguardianlive.com/business/israel-vs-iran-currency-iranian-rial-crashes-to-17-million-whose-currency-is-stronger-against-us-dollar-indian-rupee-how-israels-attack-crushed-irans-currency-amid-war-173113/",
+        "description": "Israel vs Iran Currency: Israeli Shekel vs Iranian Rial: 1 USD = 3.14 ILS vs 1 USD = 1.75 million IRR after Iran attacks. Full currency comparison, why Shekel is strong, why Rial collapsed, and impact on Indian rupee.",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "Iran Update Evening Special Report, February 28, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-february-28-2026",
+        "description": "The combined US-Israeli force killed Iranian Supreme Leader Ali Khamenei, and it is unclear who is currently ruling Iran.",
+        "age": "18 hours ago"
+      },
+      {
+        "title": "U.S.-Iran war updates: Polymarket traders bet record $500 million on U.S.-Iran war",
+        "url": "https://coindesk.com/markets/2026/03/01/iran-war-becomes-usd50-million-betting-frenzy-on-polymarket",
+        "description": "A prediction market about military strikes on a sovereign nation now sits alongside presidential election bets as one of the most-traded contracts the platform has ever hosted.",
+        "age": "8 hours ago"
+      },
+      {
+        "title": "Iran strike raises market uncertainty: Weekly Market Recap - Growbeansprout.com",
+        "url": "https://growbeansprout.com/weekly-update-1-mar-2026",
+        "description": "Stocks fell on AI concerns and trade tensions, with fresh geopolitical risks adding to volatility",
+        "age": "9 hours ago"
+      }
+    ],
+    "query": "Will USD reach 1.7M Iranian rials by February 28?",
+    "sources_count": 10
+  },
+  "error": null
+}

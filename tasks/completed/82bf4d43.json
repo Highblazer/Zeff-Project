@@ -1,0 +1,85 @@
+{
+  "id": "82bf4d43",
+  "title": "Polymarket research: LoL: G2 Esports vs Karmine Corp (BO5) - LEC Versus Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: G2 Esports vs Karmine Corp (BO5) - LEC Versus Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:57:57.179524+00:00",
+  "updated_at": "2026-03-01T16:58:05.613953+00:00",
+  "claimed_at": "2026-03-01T16:58:03.930657+00:00",
+  "completed_at": "2026-03-01T16:58:05.613942+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: G2 Esports vs Karmine Corp (BO5) - LEC Versus Playoffs\n\nWeb Results (5):\n- LEC Versus 2026 Playoffs: Karmine Corp Secure a Spot in the Finals Following a Tense 3:2 Win Against MKOI: Currently, the competition has reached its climax: only the grand final remains on the schedule, which will take place on <strong>March 1st</strong>. \n- r/leagueoflegends on Reddit: Karmine Corp vs. G2 Esports / LEC 2026 Versus Playoffs - Upper Bracket Round 2 / Post-Match Discussion: 1.6K votes, 719 comments. LEC 2026 VERSUS PLAYOFFS Official page | Leaguepedia | Liquipedia | Eventvods.com | New to LoL <strong>G2 Esports 2-0 Karmin\n- LEC Versus 2026 Playoffs: G2 Esports Sweep Karmine Corp 2-0 in a Hard-Fought Battle: ... 75ChillplayLEC Versus 2026 Playoffs: <strong>Karmine Corp Defeat Team Vitality 2:1</strong> And Advance to the Lower Bracket SemifinalKarmine Corp\n- G2 Esports vs Karmine Corp: Head to Head LoL Score History | Tips.GG: During the last 12 months, G2 Esports and Karmine Corp went head-to-head 7 times: <strong>G2 Esports won 4 times, Karmine Corp won 3 times</strong>. T\n- G2 Esports vs Karmine Corp | LEC: LEC \u00b7 G2 Esports- Karmine Corp- 16:00 \u00b7 BO5 \u00b7 G2 Esports- Karmine Corp- 21:00BO5 \u00b7 LCS \u00b7 Cloud9- LYON (2024 American Team)- 21:00 \u00b7 BO5 \u00b7 Cloud9- LYON\n\nNews (5):\n- LEC Versus 2026 Playoffs: Karmine Corp Secure a Spot in the Finals Following a Tense 3:2 Win Against MKOI (17 hours ago)\n- Playoffs LEC Versus 2026: Karmine Corp avanza a la final tras una re\u00f1ida victoria por 3:2 sobre MKOI. LoL noticias - eSports revisi\u00f3n de eventos, an\u00e1lisis, anuncios, entrevistas, estad\u00edsticas - EGW (17 hours ago)\n- Karmine Corp Sweep GIANTX 3-0 to Secure Lower Bracket Final Spot (2 days ago)\n- LEC Versus 2026 Playoffs: G2 Esports Sweep Karmine Corp 2-0 in a Hard-Fought Battle (1 week ago)\n- LEC 2026 Versus - Liquipedia League of Legends Wiki (2 days ago)",
+    "web_results": [
+      {
+        "title": "LEC Versus 2026 Playoffs: Karmine Corp Secure a Spot in the Finals Following a Tense 3:2 Win Against MKOI",
+        "url": "https://egamersworld.com/lol/news/32862/lec-versus-2026-playoffs-karmine-corp-advance-to-t-4egzGYDUh",
+        "description": "Currently, the competition has reached its climax: only the grand final remains on the schedule, which will take place on <strong>March 1st</strong>. The championship will be decided in a matchup between G2 Esports and Karmine Corp, who will play the decisive ..."
+      },
+      {
+        "title": "r/leagueoflegends on Reddit: Karmine Corp vs. G2 Esports / LEC 2026 Versus Playoffs - Upper Bracket Round 2 / Post-Match Discussion",
+        "url": "https://www.reddit.com/r/leagueoflegends/comments/1ra5ack/karmine_corp_vs_g2_esports_lec_2026_versus/",
+        "description": "1.6K votes, 719 comments. LEC 2026 VERSUS PLAYOFFS Official page | Leaguepedia | Liquipedia | Eventvods.com | New to LoL <strong>G2 Esports 2-0 Karmine Corp</strong>\u2026"
+      },
+      {
+        "title": "LEC Versus 2026 Playoffs: G2 Esports Sweep Karmine Corp 2-0 in a Hard-Fought Battle",
+        "url": "https://egamersworld.com/lol/news/32715/lec-versus-2026-playoffs-g2-esports-overcome-karmi-qvr6uuiaf",
+        "description": "... 75ChillplayLEC Versus 2026 Playoffs: <strong>Karmine Corp Defeat Team Vitality 2:1</strong> And Advance to the Lower Bracket SemifinalKarmine Corp defeats Team Vitality 2:1 in the LEC Versus 2026 Lower Bracket Quarterfinals."
+      },
+      {
+        "title": "G2 Esports vs Karmine Corp: Head to Head LoL Score History | Tips.GG",
+        "url": "https://tips.gg/archive/g2-esports-lol-vs-karmine-corp-lol/",
+        "description": "During the last 12 months, G2 Esports and Karmine Corp went head-to-head 7 times: <strong>G2 Esports won 4 times, Karmine Corp won 3 times</strong>. The map score for the past 12 months is 10 : 8 in favor of G2 Esports. The last match between the teams happened on 14.01.2024 as part of the LEC Winter 2024."
+      },
+      {
+        "title": "G2 Esports vs Karmine Corp | LEC",
+        "url": "https://www.sheepesports.com/en/lol/matches/LEC%2F2026%20Season%2FVersus%20Playoffs_Finals_1",
+        "description": "LEC \u00b7 G2 Esports- Karmine Corp- 16:00 \u00b7 BO5 \u00b7 G2 Esports- Karmine Corp- 21:00BO5 \u00b7 LCS \u00b7 Cloud9- LYON (2024 American Team)- 21:00 \u00b7 BO5 \u00b7 Cloud9- LYON (2024 American Team)- Mar 2 \u00b7 09:00BO5 \u00b7 LPL \u00b7 Weibo Gaming- Top Esports- 09:00 \u00b7 BO5 \u00b7 Weibo Gaming- Top Esports- Mar 3 \u00b7"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "LEC Versus 2026 Playoffs: Karmine Corp Secure a Spot in the Finals Following a Tense 3:2 Win Against MKOI",
+        "url": "https://egamersworld.com/lol/news/32862/lec-versus-2026-playoffs-karmine-corp-advance-to-t-4egzGYDUh",
+        "description": "Karmine Corp defeats MKOI 3:2 in a tense LEC Versus 2026 Playoffs match. Read the full recap and see how KC secured their spot in the Grand Final against G2 Esports for the First Stand ticket.",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Playoffs LEC Versus 2026: Karmine Corp avanza a la final tras una re\u00f1ida victoria por 3:2 sobre MKOI. LoL noticias - eSports revisi\u00f3n de eventos, an\u00e1lisis, anuncios, entrevistas, estad\u00edsticas - EGW",
+        "url": "https://es.egamersworld.com/lol/news/32862/lec-versus-2026-playoffs-karmine-corp-advance-to-t-4egzGYDUh",
+        "description": "EGamersWorld\u2615 - \u270bPlayoffs LEC Versus 2026: Karmine Corp avanza a la final tras una re\u00f1ida victoria por 3:2 sobre MKOI \u27a6 LoL noticias recientes \u27a6 Rese\u00f1as y an\u00e1lisis de expertos de los eSports \u27a6 Informaci\u00f3n operativa sobre torneos y partidos.",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Karmine Corp Sweep GIANTX 3-0 to Secure Lower Bracket Final Spot",
+        "url": "https://egamersworld.com/lol/news/32841/lec-versus-2026-playoffs-karmine-corp-defeat-giant-EBP0IMiGt",
+        "description": "Karmine Corp sweep GIANTX 3-0 in the LEC Versus 2026 Lower Bracket Semifinal. Read our full recap as KC advances to the finals while GIANTX finishes their historic Winter Split in 4th place.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "LEC Versus 2026 Playoffs: G2 Esports Sweep Karmine Corp 2-0 in a Hard-Fought Battle",
+        "url": "https://egamersworld.com/lol/news/32715/lec-versus-2026-playoffs-g2-esports-overcome-karmi-qvr6uuiaf",
+        "description": "Dive into the G2 vs KC match review from the LEC Versus 2026 Playoffs. See how G2 Esports overcame Karmine Corp 2-0 to advance to the Upper Bracket Final and secure a top 4 spot.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "LEC 2026 Versus - Liquipedia League of Legends Wiki",
+        "url": "https://liquipedia.net/leagueoflegends/LEC/2026/Versus",
+        "description": "LEC 2026 Versus is an offline German LoL tournament organized by Riot Games. This S-Tier tournament takes place from Jan 17 to Mar 01 2026 featuring 12 teams.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "LoL: G2 Esports vs Karmine Corp (BO5) - LEC Versus Playoffs",
+    "sources_count": 10
+  },
+  "error": null
+}

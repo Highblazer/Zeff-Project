@@ -1,0 +1,85 @@
+{
+  "id": "18d7dbea",
+  "title": "Polymarket research: Will Reza Pahlavi enter Iran by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Reza Pahlavi enter Iran by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T11:29:27.772295+00:00",
+  "updated_at": "2026-03-01T11:29:41.956363+00:00",
+  "claimed_at": "2026-03-01T11:29:39.598352+00:00",
+  "completed_at": "2026-03-01T11:29:41.956346+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Reza Pahlavi enter Iran by March 31?\n\nWeb Results (5):\n- Will Reza Pahlavi enter Iran by...? Predictions & Odds | Polymarket: Propose resolution<strong>If Reza Pahlavi visits Iran between market creation and February 28, 2026, 11:59 PM ET, this market will resolve to &quot;Ye\n- How Will Reza Pahlavi Return to Iran? And Can He Stay Alive When He Gets There? - Middle East Forum: Iran\u2019s former Crown Prince Reza Pahlavi at a session of European Parliament in Brussels, Belgium, on <strong>March 1, 2023</strong>.\n- Will Reza Pahlavi visit Iran this year?: Trading on Kalshi involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You shoul\n- Reza Pahlavi - Wikipedia: Reza Pahlavi (born 31 October 1960) is an Iranian political activist and dissident in exile in the United States. A member of the Pahlavi dynasty, he \n- Reza Pahlavi, Crown Prince of Iran: Reza Pahlavi (born 31 October 1960) is an Iranian political activist and dissident in exile in the United States. A member of the Pahlavi dynasty, he \n\nNews (5):\n- Reza Pahlavi calls US-Israel strikes aid to help topple Iran regime | Fox News (20 hours ago)\n- What to know about Reza Pahlavi, a potential successor to lead Iran (1 day ago)\n- Opinion | Reza Pahlavi: The hour of Iran\u2019s freedom is at hand - The Washington Post (12 hours ago)\n- Could Reza Pahlavi, the son of Iran\u2019s last Shah, return after Khamenei\u2019s death? (3 hours ago)\n- Iran Strike Scenarios: Retaliation, Transition, and the Path Forward - Middle East Forum (16 hours ago)",
+    "web_results": [
+      {
+        "title": "Will Reza Pahlavi enter Iran by...? Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/will-reza-pahlavi-enter-iran-by-june-30",
+        "description": "Propose resolution<strong>If Reza Pahlavi visits Iran between market creation and February 28, 2026, 11:59 PM ET, this market will resolve to &quot;Yes&quot;.</strong> Otherwise, this market will resolve to &quot;No&quot;."
+      },
+      {
+        "title": "How Will Reza Pahlavi Return to Iran? And Can He Stay Alive When He Gets There? - Middle East Forum",
+        "url": "https://www.meforum.org/mef-observer/how-will-reza-pahlavi-return-to-iran-and-can-he-stay-alive-when-he-gets-there",
+        "description": "Iran\u2019s former Crown Prince Reza Pahlavi at a session of European Parliament in Brussels, Belgium, on <strong>March 1, 2023</strong>."
+      },
+      {
+        "title": "Will Reza Pahlavi visit Iran this year?",
+        "url": "https://kalshi.com/markets/kxpahlavivisita/will-reza-pahlavi-enter-iran-before-september/kxpahlavivisita",
+        "description": "Trading on Kalshi involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading on Kalshi is appropriate for you in light of your investment experience and financial resources."
+      },
+      {
+        "title": "Reza Pahlavi - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Reza_Pahlavi",
+        "description": "Reza Pahlavi (born 31 October 1960) is an Iranian political activist and dissident in exile in the United States. A member of the Pahlavi dynasty, he is the eldest son of Mohammad Reza Pahlavi, the last shah of Iran, and his wife the empress Farah Diba."
+      },
+      {
+        "title": "Reza Pahlavi, Crown Prince of Iran",
+        "url": "https://en.wikipedia.org/wiki/Reza_Pahlavi,_Crown_Prince_of_Iran",
+        "description": "Reza Pahlavi (born 31 October 1960) is an Iranian political activist and dissident in exile in the United States. A member of the Pahlavi dynasty, he is the eldest son of Mohammad Reza Pahlavi, the last shah of Iran, and his wife the empress Farah Diba."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Reza Pahlavi calls US-Israel strikes aid to help topple Iran regime | Fox News",
+        "url": "https://www.foxnews.com/world/exiled-crown-prince-calls-on-iranian-people-finish-job-cheers-trump-humanitarian-intervention",
+        "description": "Exiled Iranian Crown Prince Reza Pahlavi calls U.S.-Israel strikes \"humanitarian aid\" and urges Iranian security forces to defect from Ayatollah Ali Khamenei's regime.",
+        "age": "20 hours ago"
+      },
+      {
+        "title": "What to know about Reza Pahlavi, a potential successor to lead Iran",
+        "url": "https://www.axios.com/2026/02/28/us-iran-leader-crown-prince-reza-pahlavi",
+        "description": "Pahlavi called the U.S. strikes \"a humanitarian intervention, and its target is the Islamic Republic.\"",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Opinion | Reza Pahlavi: The hour of Iran\u2019s freedom is at hand - The Washington Post",
+        "url": "https://www.washingtonpost.com/opinions/2026/02/28/reza-pahlavi-iran-freedom-trump/",
+        "description": "Our path forward is a new constitution followed by free elections under international oversight.",
+        "age": "12 hours ago"
+      },
+      {
+        "title": "Could Reza Pahlavi, the son of Iran\u2019s last Shah, return after Khamenei\u2019s death?",
+        "url": "https://www.firstpost.com/explainers/reza-pahlavi-son-of-iran-last-shah-return-khamenei-death-iran-israel-13984966.html",
+        "description": "Reza Pahlavi, the exiled former crown prince of Iran, has hailed the killing of Iran\u2019s Supreme Leader Ayatollah Ali Khamenei. The 65-year-old has presented himself as a \u2018transitional leader\u2019 if the regime collapses",
+        "age": "3 hours ago"
+      },
+      {
+        "title": "Iran Strike Scenarios: Retaliation, Transition, and the Path Forward - Middle East Forum",
+        "url": "https://www.meforum.org/mef-reports/iran-strike-scenarios-retaliation-transition-and-the-path-forward",
+        "description": "protests were the largest since the 1979 revolution. Starting December 28 with bazaari shopkeepers shuttering over the rial\u2019s collapse, the uprising spread to all 31 provinces within days. On January 8, Reza Pahlavi called for unified nationwide demonstrations.",
+        "age": "16 hours ago"
+      }
+    ],
+    "query": "Will Reza Pahlavi enter Iran by March 31?",
+    "sources_count": 10
+  },
+  "error": null
+}

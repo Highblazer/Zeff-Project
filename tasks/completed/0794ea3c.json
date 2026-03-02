@@ -1,0 +1,85 @@
+{
+  "id": "0794ea3c",
+  "title": "Polymarket research: Will the Iranian regime fall by June 30?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Iranian regime fall by June 30?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T13:56:44.531802+00:00",
+  "updated_at": "2026-03-01T13:56:48.768042+00:00",
+  "claimed_at": "2026-03-01T13:56:46.646682+00:00",
+  "completed_at": "2026-03-01T13:56:48.768024+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Iranian regime fall by June 30?\n\nWeb Results (5):\n- Will the Iranian regime fall by June 30? Trading Odds & Predictions | Polymarket: To trade on &quot;Will the Iranian regime fall by June 30?,&quot; simply <strong>choose whether you believe the answer is &quot;Yes&quot; or &quot;No.\n- The Iranian Regime Could Fall | Foreign Affairs: The United States \u201cwill start shooting too,\u201d he warned on January 6, if Iranian protesters keep getting killed. Tehran\u2019s heavily armed troops and mili\n- 2025\u2013present Iran internal crisis - Wikipedia: Following the initial strikes on 13 June, Iranian opposition leader Reza Pahlavi told Iranians that the time has come to &quot;overthrow the Islamic R\n- Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council: He can now claim he made good, perhaps belatedly, on his pledge to Iranian protesters in January that \u201chelp is on the way.\u201d And many protesters may in\n- The Iranian Regime\u2019s Existential Crisis\u2014and What Might Come After Khamenei | Foreign Affairs: But if you\u2019re an opponent of ... upon Iranians. As a result of these military attacks, people won\u2019t really switch teams. If there is any rally-around-\n\nNews (5):\n- Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council (1 day ago)\n- What It Will Take to Change the Regime in Iran | Foreign Affairs (2 days ago)\n- The Iranian Regime\u2019s Existential Crisis\u2014and What Might Come After Khamenei | Foreign Affairs (17 hours ago)\n- Iran Update, February 26, 2026 | ISW (3 days ago)\n- Trump\u2019s Iran Strike: What It Says About Russia\u2014and Us | Washington Monthly (12 hours ago)",
+    "web_results": [
+      {
+        "title": "Will the Iranian regime fall by June 30? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-june-30",
+        "description": "To trade on &quot;Will the Iranian regime fall by June 30?,&quot; simply <strong>choose whether you believe the answer is &quot;Yes&quot; or &quot;No.&quot;</strong> Each side has a current price that reflects the market&#x27;s implied probability."
+      },
+      {
+        "title": "The Iranian Regime Could Fall | Foreign Affairs",
+        "url": "https://www.foreignaffairs.com/iran/iranian-regime-could-fall",
+        "description": "The United States \u201cwill start shooting too,\u201d he warned on January 6, if Iranian protesters keep getting killed. Tehran\u2019s heavily armed troops and militias have brutally suppressed previous demonstrations, and there is a genuine need to prevent a larger massacre. Moreover, the Islamic Republic appears more fragile than ever after last June\u2019s 12-day war. The regime seems incapable of addressing the root causes of the economic crisis that has driven its people to the streets; protests have spread from Tehran to every corner of the country, revealing Iranians\u2019 widespread lack of faith that their current leaders can set the country on a better course."
+      },
+      {
+        "title": "2025\u2013present Iran internal crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%93present_Iran_internal_crisis",
+        "description": "Following the initial strikes on 13 June, Iranian opposition leader Reza Pahlavi told Iranians that the time has come to &quot;overthrow the Islamic Republic through street protests and nationwide strikes&quot;. Speaking of the government of Iran, he claimed that &quot;<strong>it could fall</strong>."
+      },
+      {
+        "title": "Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council",
+        "url": "https://www.atlanticcouncil.org/dispatches/experts-react-the-us-and-israel-just-unleashed-a-major-attack-on-iran-whats-next/",
+        "description": "He can now claim he made good, perhaps belatedly, on his pledge to Iranian protesters in January that \u201chelp is on the way.\u201d And many protesters may indeed welcome strikes against regime leaders and security organs that crushed the protests. But the linear progression suggested by his statement\u2014US and Israeli strikes on nuclear, missile, and regime targets, leading to renewed protests, leading to the fall of the regime\u2014is far from certain."
+      },
+      {
+        "title": "The Iranian Regime\u2019s Existential Crisis\u2014and What Might Come After Khamenei | Foreign Affairs",
+        "url": "https://www.foreignaffairs.com/iran/iranian-regimes-existential-crisis-and-what-might-come-after-khamenei-trump",
+        "description": "But if you\u2019re an opponent of ... upon Iranians. As a result of these military attacks, people won\u2019t really switch teams. If there is any rally-around-the-flag effect, it would be what happened last June, what I described as just a temporary sugar high. Once the dust settles, even if this regime manages to stay afloat, in time the daily economic, political, and social indignities of life in Iran will ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council",
+        "url": "https://www.atlanticcouncil.org/dispatches/experts-react-the-us-and-israel-just-unleashed-a-major-attack-on-iran-whats-next/",
+        "description": "Atlantic Council experts assess the unfolding Operation Epic Fury against the Iranian regime and where it goes from here.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "What It Will Take to Change the Regime in Iran | Foreign Affairs",
+        "url": "https://www.foreignaffairs.com/iran/what-it-will-take-change-regime-iran",
+        "description": "The U.S. military must go big\u2014and then let Iranians do the rest.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "The Iranian Regime\u2019s Existential Crisis\u2014and What Might Come After Khamenei | Foreign Affairs",
+        "url": "https://www.foreignaffairs.com/iran/iranian-regimes-existential-crisis-and-what-might-come-after-khamenei-trump",
+        "description": "But if you\u2019re an opponent of ... upon Iranians. As a result of these military attacks, people won\u2019t really switch teams. If there is any rally-around-the-flag effect, it would be what happened last June, what I described as just a temporary sugar high. Once the dust settles, even if this regime manages to stay afloat, in time the daily economic, political, and social indignities of life in Iran will ...",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Iran Update, February 26, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-26-2026",
+        "description": "Iran is unlikely to accept reported US demands to destroy its nuclear facilities and commit to a permanent deal.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Trump\u2019s Iran Strike: What It Says About Russia\u2014and Us | Washington Monthly",
+        "url": "https://washingtonmonthly.com/2026/02/28/trumps-iran-strike-what-it-says-about-russia-and-us",
+        "description": "If Russia were stronger, this never would have happened. If Trump weren\u2019t so authoritarian, he might not have risked it.",
+        "age": "12 hours ago"
+      }
+    ],
+    "query": "Will the Iranian regime fall by June 30?",
+    "sources_count": 10
+  },
+  "error": null
+}

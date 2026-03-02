@@ -1,0 +1,85 @@
+{
+  "id": "98909967",
+  "title": "Polymarket research: Will the US strike Iran next?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the US strike Iran next?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T12:58:20.821993+00:00",
+  "updated_at": "2026-03-01T12:58:39.450073+00:00",
+  "claimed_at": "2026-03-01T12:58:37.321400+00:00",
+  "completed_at": "2026-03-01T12:58:39.450053+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the US strike Iran next?\n\nWeb Results (5):\n- Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian: The remarks came at the White House on Friday after talks between the US and Iran on Tehran\u2019s nuclear programme ended inconclusively, with a suggestio\n- Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council: The question is, will the United States help the Iranian people chart a positive path forward, or will it leave them to the wolves after the bombs sto\n- Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing: President Trump said that <strong>&quot;heavy and pinpoint bombing&quot; of Iran would &quot;continue, uninterrupted throughout the week or, as long a\n- Why did the US attack Iran? Is the US at war? Here's what to know: In counterattacks, Iran also fired drones and missiles at Bahrain, Kuwait and Qatar the UAE, all of which have a US military presence. One person was \n- Why Iran Will Escalate: U.S. Military Strikes and the Risk of a Quagmire: The Islamic Republic now believes that Israel and the United States intend to repeatedly strike its ballistic missile program\u2014the foundation of Irania\n\nNews (5):\n- What we know \u2014 and still don\u2019t \u2014 about the Iran strikes - POLITICO (20 hours ago)\n- What to Know About the U.S. Attacks on Iran - The New York Times (1 day ago)\n- Iran and Israel launch fresh attacks after Iran's Supreme Leader Khamenei killed - live updates - BBC News (1 day ago)\n- Live updates: Iran vows to avenge supreme leader\u2019s death as Israel renews attack on Tehran | CNN (1 day ago)\n- Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian (1 day ago)",
+    "web_results": [
+      {
+        "title": "Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/27/us-urges-citizens-leave-israel-threat-strike-iran",
+        "description": "The remarks came at the White House on Friday after talks between the US and Iran on Tehran\u2019s nuclear programme ended inconclusively, with a suggestion that further discussions would be held next week. Trump told reporters he favoured diplomacy but repeated his insistence that Iran could not possess a nuclear weapon. \u201cIt\u2019d be wonderful if they negotiated in \u2026 good faith and conscience but they are not getting there so far,\u201d he said. Asked whether US strikes could lead to regime change in Iran, he said: \u201cNobody knows."
+      },
+      {
+        "title": "Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council",
+        "url": "https://www.atlanticcouncil.org/dispatches/experts-react-the-us-and-israel-just-unleashed-a-major-attack-on-iran-whats-next/",
+        "description": "The question is, will the United States help the Iranian people chart a positive path forward, or will it leave them to the wolves after the bombs stop falling? \u2014\u2014Kelly J. Shannon is a visiting scholar at the Institute for Middle East Studies at George Washington University. She is also a member of the Atlantic Council\u2019s Iran Strategy Project working group. Ten predictions for the potential US strikes on Iran \u00b7 Iran\u2019s regime is suffering from strategic vertigo. Its next misstep may be its last."
+      },
+      {
+        "title": "Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing",
+        "url": "https://www.cbsnews.com/live-updates/israel-us-attack-iran-trump-says-major-combat-operations/",
+        "description": "President Trump said that <strong>&quot;heavy and pinpoint bombing&quot; of Iran would &quot;continue, uninterrupted throughout the week or, as long as necessary</strong>.&quot;"
+      },
+      {
+        "title": "Why did the US attack Iran? Is the US at war? Here's what to know",
+        "url": "https://www.bbc.com/news/articles/c626ljyvmg3o",
+        "description": "In counterattacks, Iran also fired drones and missiles at Bahrain, Kuwait and Qatar the UAE, all of which have a US military presence. One person was killed in Abu Dhabi, UAE state media said. Trump warned bombing would continue throughout the week, so the death toll may rise. ... British military personnel at a base in Bahrain were &quot;within several hundred yards&quot; of a strike, the defence secretary says."
+      },
+      {
+        "title": "Why Iran Will Escalate: U.S. Military Strikes and the Risk of a Quagmire",
+        "url": "https://www.foreignaffairs.com/middle-east/why-iran-will-escalate",
+        "description": "The Islamic Republic now believes that Israel and the United States intend to repeatedly strike its ballistic missile program\u2014the foundation of Iranian self-defense\u2014and that it must be more aggressive to forestall the kind of perpetual assault that could topple it altogether. Trump\u2019s own behavior also increases the risk of escalation. The president\u2019s ever-intensifying wish to be seen as a historic peacemaker has led him to an unnecessarily binary choice\u2014strong-arm Tehran into a major new deal or use substantial force."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "What we know \u2014 and still don\u2019t \u2014 about the Iran strikes - POLITICO",
+        "url": "https://www.politico.com/news/2026/02/28/iran-strike-middle-east-us-trump-00805729",
+        "description": "Iran\u2019s Assembly of Religious Experts could also go in a different direction in naming the next supreme leader. At this point, it is unclear just how much Khamenei\u2019s killing has impacted the clerics within the system who will pick the next leader. There is also the possibility the strikes do ...",
+        "age": "20 hours ago"
+      },
+      {
+        "title": "What to Know About the U.S. Attacks on Iran - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-attacks-what-to-know.html",
+        "description": "Iran\u2019s supreme leader, Ayatollah Ali Khamenei, was killed in the major assault launched by the United States and Israel.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Iran and Israel launch fresh attacks after Iran's Supreme Leader Khamenei killed - live updates - BBC News",
+        "url": "https://www.bbc.com/news/live/cn5ge95q6y7t",
+        "description": "In Iran, there are celebrations ... Persian the \"world has become a better place\" after Khamenei's death \u00b7 What now for Iran's leadership? In this moment of turmoil, Iranian authorities will want to project stability and a seamless transition, writes our chief international correspondent ... 0:44BBC's Barbara Plett Usher reports in Doha as Iran resumes air strikes...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Live updates: Iran vows to avenge supreme leader\u2019s death as Israel renews attack on Tehran | CNN",
+        "url": "https://www.cnn.com/world/live-news/israel-iran-attack-02-28-26-hnk-intl",
+        "description": "North Korea: North Korea\u2019s foreign ... on Iran and the US military operation constitute \u201cillegal aggression\u201d as well as a violation of national sovereignty, according to state media Korean Central News Agency. We will continue to bring you more reactions as we get them. ... Link Copied! ... The Strait of Hormuz, a major shipping route between the Persian Gulf and the Gulf of Oman, is facing a fresh day of disruption amid ongoing strikes across the ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/27/us-urges-citizens-leave-israel-threat-strike-iran",
+        "description": "Vance is reputedly the senior member ... military strike will not change Iran\u2019s basic negotiating stance. ... Oman\u2019s foreign minister, Badr Albusaidi (r) with Steve Witkoff (c) and Jared Kushner in Geneva. Photograph: AP \u00b7 However, Washington has formally announced that Marco Rubio will travel to Israel for meetings early next week. It is unlikely Israel or the US would launch ...",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will the US strike Iran next?",
+    "sources_count": 10
+  },
+  "error": null
+}

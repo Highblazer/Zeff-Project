@@ -1,0 +1,85 @@
+{
+  "id": "b1c80966",
+  "title": "Polymarket research: Will Elon Musk post 200-219 tweets from February 24 to March 3, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Elon Musk post 200-219 tweets from February 24 to March 3, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T09:33:00.474714+00:00",
+  "updated_at": "2026-03-01T09:33:17.187554+00:00",
+  "claimed_at": "2026-03-01T09:33:15.463601+00:00",
+  "completed_at": "2026-03-01T09:33:17.187538+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Elon Musk post 200-219 tweets from February 24 to March 3, 2026?\n\nWeb Results (5):\n- Elon Musk # tweets February 24 - March 3, 2026? Trading Odds & Predictions (Feb. 24, 2026) | Polymarket: <strong>The next closest outcome is &quot;200-219&quot; at 17%</strong>. These odds update in real-time as traders buy and sell shares, so they reflec\n- Prediction Market Bets on Elon Musk's Tweets: 20% Chance of 280-299 Posts: Elon Musk&#x27;s tweeting activity is under the microscope, with <strong>prediction markets showing a 20% chance of 280-299 tweets from February 24 to\n- Will Elon Musk post 160-179 tweets from February 24 to March 3, 2026?: This market will resolve according to the number of times Elon Musk (@elonmusk), <strong>posts on X from February 24 12:00 PM ET to March 3, 2026 12:0\n- Will Elon Musk post 140-159 tweets from February 24 to March 3, 2026?: This market will resolve according to the number of times Elon Musk (@elonmusk), <strong>posts on X from February 24 12:00 PM ET to March 3, 2026 12:0\n- Elon Musk Tweets (Daily Updated): Checking your browser before accessing www.kaggle.com \u00b7 Click here if you are not automatically redirected after 5 seconds\n\nNews (5):\n- Prediction Market Bets on Elon Musk's Tweets: 20% Chance of 280-299 Posts (2 days ago)\n- Elon Musk posted about race almost every day in January | Elon Musk | The Guardian (2 weeks ago)\n- Prediction Markets: Live Volume from Kalshi & Polymarket (October 23, 2025)\n- Who is in the Epstein files? (1 month ago)\n- Elon Is Back? (Edit: He Never Really Left.) \u2013 Mother Jones (2 weeks ago)",
+    "web_results": [
+      {
+        "title": "Elon Musk # tweets February 24 - March 3, 2026? Trading Odds & Predictions (Feb. 24, 2026) | Polymarket",
+        "url": "https://polymarket.com/event/elon-musk-of-tweets-february-24-march-3",
+        "description": "<strong>The next closest outcome is &quot;200-219&quot; at 17%</strong>. These odds update in real-time as traders buy and sell shares, so they reflect the latest collective view of what&#x27;s most likely to happen."
+      },
+      {
+        "title": "Prediction Market Bets on Elon Musk's Tweets: 20% Chance of 280-299 Posts",
+        "url": "https://mlq.ai/prediction/news/prediction-market-bets-on-elon-musks-tweets-20-chance-of-280-299-posts-202602271130/",
+        "description": "Elon Musk&#x27;s tweeting activity is under the microscope, with <strong>prediction markets showing a 20% chance of 280-299 tweets from February 24 to March 3, 2026</strong>."
+      },
+      {
+        "title": "Will Elon Musk post 160-179 tweets from February 24 to March 3, 2026?",
+        "url": "https://polymarket.com/event/elon-musk-of-tweets-february-24-march-3/elon-musk-of-tweets-february-24-march-3-160-179",
+        "description": "This market will resolve according to the number of times Elon Musk (@elonmusk), <strong>posts on X from February 24 12:00 PM ET to March 3, 2026 12:00 PM ET</strong>. For the purposes of this market, only main feed posts, quote posts and reposts will count."
+      },
+      {
+        "title": "Will Elon Musk post 140-159 tweets from February 24 to March 3, 2026?",
+        "url": "https://polymarket.com/event/elon-musk-of-tweets-february-24-march-3/elon-musk-of-tweets-february-24-march-3-140-159",
+        "description": "This market will resolve according to the number of times Elon Musk (@elonmusk), <strong>posts on X from February 24 12:00 PM ET to March 3, 2026 12:00 PM ET</strong>. For the purposes of this market, only main feed posts, quote posts and reposts will count."
+      },
+      {
+        "title": "Elon Musk Tweets (Daily Updated)",
+        "url": "https://www.kaggle.com/datasets/aryansingh0909/elon-musk-tweets-updated-daily",
+        "description": "Checking your browser before accessing www.kaggle.com \u00b7 Click here if you are not automatically redirected after 5 seconds"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Prediction Market Bets on Elon Musk's Tweets: 20% Chance of 280-299 Posts",
+        "url": "https://mlq.ai/prediction/news/prediction-market-bets-on-elon-musks-tweets-20-chance-of-280-299-posts-202602271130",
+        "description": "Elon Musk's tweeting activity is under the microscope, with prediction markets showing a 20% chance of 280-299 tweets from February 24 to March 3, 2026.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Elon Musk posted about race almost every day in January | Elon Musk | The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/feb/12/elon-musk-posts-january-white-supremacists",
+        "description": "Many social media posts by Tesla CEO on his platform are indiscernible from those of white supremacists, say experts",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "Prediction Markets: Live Volume from Kalshi & Polymarket",
+        "url": "https://defirate.com/prediction-markets/",
+        "description": "Our live dashboard tracks the prediction market landscape in real-time, comparing Kalshi and Polymarket across the metrics that matter: weekly volume, 85,000+ active markets, transaction counts, and category-level breakdowns.",
+        "age": "October 23, 2025"
+      },
+      {
+        "title": "Who is in the Epstein files?",
+        "url": "https://www.bbc.com/news/articles/cqxynz2l0g2o",
+        "description": "Millions of Epstein-related documents released by the US justice department include the names of the world's rich and powerful.",
+        "age": "1 month ago"
+      },
+      {
+        "title": "Elon Is Back? (Edit: He Never Really Left.) \u2013 Mother Jones",
+        "url": "https://motherjones.com/politics/2026/02/elon-is-back-edit-he-never-really-left",
+        "description": "In addition to getting back into the White House social circuit and pouring money into campaigns, Musk has been ceaselessly posting political recommendations on X.",
+        "age": "2 weeks ago"
+      }
+    ],
+    "query": "Will Elon Musk post 200-219 tweets from February 24 to March 3, 2026?",
+    "sources_count": 10
+  },
+  "error": null
+}

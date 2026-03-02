@@ -1,0 +1,85 @@
+{
+  "id": "c7830f9d",
+  "title": "Polymarket research: Will Crystal Palace FC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Crystal Palace FC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:13.257200+00:00",
+  "updated_at": "2026-03-01T16:30:35.550401+00:00",
+  "claimed_at": "2026-03-01T16:30:33.740405+00:00",
+  "completed_at": "2026-03-01T16:30:35.550383+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Crystal Palace FC win on 2026-03-01?\n\nWeb Results (5):\n- Crystal Palace Fixtures & Results 2025/2026 | Premier League: View Crystal Palace scores, fixtures and results for matches played in all competitions, on the official website of the Premier League.\n- Manchester United vs Crystal Palace live: Score and latest Premier League updates: Last updated 01 March 2026 3:09pm GMT \u00b7 Share article \u00b7 Log in or Subscribe \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 Copy link \u00b7 twitter \n- Manchester United vs Crystal Palace Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026: Manchester United vs <strong>Crystal Palace</strong> prediction and betting tips. Premier League preview with odds, team news and lineups. Free footba\n- Crystal Palace Fixtures & Results 2025/2026 Season | Goal.com US: View all Crystal Palace match fixtures &amp; results from the 2025/2026 season, including dates and kick off times with GOAL.\n- Crystal Palace - fixtures, team info and top players: Crystal Palace - results, fixtures, latest news and standings\n\nNews (5):\n- Manchester United vs Crystal Palace Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026 (2 days ago)\n- Manchester United 2-1 Crystal Palace: Red Devils top 10-man Eagles, go third - NBC Sports (24 minutes ago)\n- Team news for Man Utd v Crystal Palace | 1 March 2026 | Manchester United (2 days ago)\n- Manchester United vs Crystal Palace live: Score and latest Premier League updates (1 hour ago)\n- Manchester United 2-1 Crystal Palace: Hosts fight back to win and go third - BBC Sport (23 minutes ago)",
+    "web_results": [
+      {
+        "title": "Crystal Palace Fixtures & Results 2025/2026 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/31/crystal-palace/matches",
+        "description": "View Crystal Palace scores, fixtures and results for matches played in all competitions, on the official website of the Premier League."
+      },
+      {
+        "title": "Manchester United vs Crystal Palace live: Score and latest Premier League updates",
+        "url": "https://www.telegraph.co.uk/football/2026/03/01/man-utd-vs-crystal-palace-live-score-premier-league-watch/",
+        "description": "Last updated 01 March 2026 3:09pm GMT \u00b7 Share article \u00b7 Log in or Subscribe \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 43 mins <strong>Manchester United 0 Crystal Palace 1</strong> \u00b7 ..."
+      },
+      {
+        "title": "Manchester United vs Crystal Palace Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/manchester-united-vs-crystal-palace-prediction-lineups-odds-2026-03-01/",
+        "description": "Manchester United vs <strong>Crystal Palace</strong> prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions."
+      },
+      {
+        "title": "Crystal Palace Fixtures & Results 2025/2026 Season | Goal.com US",
+        "url": "https://www.goal.com/en-us/team/crystal-palace/fixtures-results/1c8m2ko0wxq1asfkuykurdr0y",
+        "description": "View all Crystal Palace match fixtures &amp; results from the 2025/2026 season, including dates and kick off times with GOAL."
+      },
+      {
+        "title": "Crystal Palace - fixtures, team info and top players",
+        "url": "https://www.fotmob.com/teams/9826/overview/crystal-palace",
+        "description": "Crystal Palace - results, fixtures, latest news and standings"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Manchester United vs Crystal Palace Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/manchester-united-vs-crystal-palace-prediction-lineups-odds-2026-03-01/",
+        "description": "Manchester United vs Crystal Palace prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Manchester United 2-1 Crystal Palace: Red Devils top 10-man Eagles, go third - NBC Sports",
+        "url": "https://nbcsports.com/soccer/news/manchester-united-vs-crystal-palace-live-updates-score-highlights-stats-watch",
+        "description": "Manchester United are third on the Premier League table after stretching their unbeaten streak to 10 games with a 2-1 comeback win over 10-man Crystal Palacel on Sunday at Old Trafford.",
+        "age": "24 minutes ago"
+      },
+      {
+        "title": "Team news for Man Utd v Crystal Palace | 1 March 2026 | Manchester United",
+        "url": "https://www.manutd.com/en/news/detail/team-news-for-man-utd-v-crystal-palace-1-march-2026",
+        "description": "Head coach Michael Carrick provides an injury update ahead of Sunday's Old Trafford contest.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Manchester United vs Crystal Palace live: Score and latest Premier League updates",
+        "url": "https://telegraph.co.uk/football/2026/03/01/man-utd-vs-crystal-palace-live-score-premier-league-watch",
+        "description": "Last updated 01 March 2026 3:09pm GMT \u00b7 Share article \u00b7 Log in or Subscribe \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 Copy link \u00b7 twitter \u00b7 facebook \u00b7 whatsapp \u00b7 email \u00b7 43 mins Manchester United 0 Crystal Palace 1 \u00b7 Casemiro wastes good chance to equalise for hosts \u00b7",
+        "age": "1 hour ago"
+      },
+      {
+        "title": "Manchester United 2-1 Crystal Palace: Hosts fight back to win and go third - BBC Sport",
+        "url": "https://www.bbc.co.uk/sport/football/live/c043rw2p0pgt",
+        "description": "Manchester United fight back to beat 10-man Crystal Palace and go third in the Premier League amid a controversial penalty and red card decision.",
+        "age": "23 minutes ago"
+      }
+    ],
+    "query": "Will Crystal Palace FC win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

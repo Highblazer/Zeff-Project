@@ -1,0 +1,28 @@
+{
+  "id": "6f22e9f8",
+  "title": "Polymarket research: Blues vs. Wild",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Blues vs. Wild",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T21:53:29.180716+00:00",
+  "updated_at": "2026-03-01T21:53:55.003123+00:00",
+  "claimed_at": "2026-03-01T21:53:53.292049+00:00",
+  "completed_at": "2026-03-01T21:53:55.003109+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Blues vs. Wild\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Blues vs. Wild",
+    "sources_count": 0
+  },
+  "error": null
+}

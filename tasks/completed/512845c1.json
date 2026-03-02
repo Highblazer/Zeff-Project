@@ -1,0 +1,28 @@
+{
+  "id": "512845c1",
+  "title": "Polymarket research: Timberwolves vs. Nuggets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Timberwolves vs. Nuggets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T00:42:02.957412+00:00",
+  "updated_at": "2026-03-02T00:42:09.367709+00:00",
+  "claimed_at": "2026-03-02T00:42:07.429236+00:00",
+  "completed_at": "2026-03-02T00:42:09.367691+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Timberwolves vs. Nuggets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Timberwolves vs. Nuggets",
+    "sources_count": 0
+  },
+  "error": null
+}

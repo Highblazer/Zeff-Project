@@ -1,0 +1,85 @@
+{
+  "id": "313bf112",
+  "title": "Polymarket research: Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T09:33:00.523001+00:00",
+  "updated_at": "2026-03-01T09:33:19.500116+00:00",
+  "claimed_at": "2026-03-01T09:33:17.193285+00:00",
+  "completed_at": "2026-03-01T09:33:19.500102+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Oprah Winfrey win the 2028 Democratic presidential nomination?\n\nWeb Results (5):\n- Democratic Presidential Nominee 2028 [2028] Odds & Predic...: <strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president</str\n- Be Honest: if Oprah ran for President in 2028, would she ...: We cannot provide a description for this page right now\n- Be honest: how would you feel if Oprah ran for President in ...: We cannot provide a description for this page right now\n- Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket: The resolution rules for &quot;Democratic Presidential Nominee 2028&quot; define exactly what needs to happen for each outcome to be declared a winner\n- r/HistoryWhatIf on Reddit: What if the Democratic Party nominated Oprah Winfrey for the 2024 presidential race?: Oprah Winfrey Was Never \u2018Paid a Personal Fee\u2019 by Harris Campaign, Production Company Denies Rumor\n\nNews (5):\n- The 2028 Democratic presidential contenders, ranked - The Washington Post (3 days ago)\n- The next 2 years will be a bumpy ride for Democratic presidential candidates (4 days ago)\n- 2028 Democratic Presidential Power Rankings: The Ballad of Jasmine Chokeitt, Part II (5 days ago)\n- Presidential election, 2028 - Ballotpedia (4 days ago)\n- New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek (5 days ago)",
+    "web_results": [
+      {
+        "title": "Democratic Presidential Nominee 2028 [2028] Odds & Predic...",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028/will-oprah-winfrey-win-the-2028-democratic-presidential-nomination",
+        "description": "<strong>This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president</strong>. Otherwise, this market will resolve to \u201cNo\u201d. The resolution source for this market will be a consensus ..."
+      },
+      {
+        "title": "Be Honest: if Oprah ran for President in 2028, would she ...",
+        "url": "https://www.facebook.com/OpposingViewsUSA/posts/be-honest-if-oprah-ran-for-president-in-2028-would-she-have-your-vote/1309564244538808/",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Be honest: how would you feel if Oprah ran for President in ...",
+        "url": "https://www.facebook.com/MyAmericaNow/posts/be-honest-how-would-you-feel-if-oprah-ran-for-president-in-2028-/1145974617701004/",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Democratic Presidential Nominee 2028 Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
+        "description": "The resolution rules for &quot;Democratic Presidential Nominee 2028&quot; define exactly what needs to happen for each outcome to be declared a winner \u2014 including the official data sources used to determine the result. You can review the complete resolution criteria in the &quot;Rules&quot; section on this page above the comments."
+      },
+      {
+        "title": "r/HistoryWhatIf on Reddit: What if the Democratic Party nominated Oprah Winfrey for the 2024 presidential race?",
+        "url": "https://www.reddit.com/r/HistoryWhatIf/comments/1gltz7g/what_if_the_democratic_party_nominated_oprah/",
+        "description": "Oprah Winfrey Was Never \u2018Paid a Personal Fee\u2019 by Harris Campaign, Production Company Denies Rumor"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "The 2028 Democratic presidential contenders, ranked - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/02/26/2028-democratic-presidential-candidates-newsom-shapiro-harris-kelly-aoc/",
+        "description": "The early race is wide open \u00b7 While no one has officially declared their candidacy just yet, the unofficial 2028 Democratic presidential field is taking shape \u2014 and it\u2019s sprawling",
+        "age": "3 days ago"
+      },
+      {
+        "title": "The next 2 years will be a bumpy ride for Democratic presidential candidates",
+        "url": "https://thehill.com/opinion/campaign/5753519-democratic-presidential-race-2028/",
+        "description": "Early Democratic presidential race for 2028 is wide open. Newsom and Harris lead, but the field is volatile. Change is on voters' minds.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "2028 Democratic Presidential Power Rankings: The Ballad of Jasmine Chokeitt, Part II",
+        "url": "https://www.ettingermentum.news/p/2028-democratic-presidential-power-1c4",
+        "description": "Going through the top five of the Democratic presidential field as the liberal base slowly backs away from the abyss.",
+        "age": "5 days ago"
+      },
+      {
+        "title": "Presidential election, 2028 - Ballotpedia",
+        "url": "https://ballotpedia.org/Presidential_election,_2028",
+        "description": "Ballotpedia: The Encyclopedia of American Politics",
+        "age": "4 days ago"
+      },
+      {
+        "title": "New Poll Shows Top 2028 Democratic, Republican Candidates for President - Newsweek",
+        "url": "https://newsweek.com/new-poll-shows-top-2028-democratic-republican-candidates-for-president-11569922",
+        "description": "Polling offers insight into potential candidate viability, voter sentiment and evolving party dynamics.",
+        "age": "5 days ago"
+      }
+    ],
+    "query": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
+    "sources_count": 10
+  },
+  "error": null
+}

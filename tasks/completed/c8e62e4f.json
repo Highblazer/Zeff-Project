@@ -1,0 +1,85 @@
+{
+  "id": "c8e62e4f",
+  "title": "Polymarket research: Will Tottenham Hotspur FC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Tottenham Hotspur FC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:14.751807+00:00",
+  "updated_at": "2026-03-01T16:30:48.493477+00:00",
+  "claimed_at": "2026-03-01T16:30:46.497669+00:00",
+  "completed_at": "2026-03-01T16:30:48.493459+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Tottenham Hotspur FC win on 2026-03-01?\n\nWeb Results (5):\n- Tottenham Hotspur Scores & Fixtures - This Month's Schedule of Football Matches: Sky Sports brings you today&#x27;s football schedule - filter by date or competition and never miss another match. Get all of the latest fixtures, liv\n- Brighton & Hove Albion FC VS Tottenham Hotspur FC \u27a5 EA SPORTS FC \u27a5 Betting Tips, Stream, LiveScore, Results on EGW\u2615: ePremier League 2026 - Finals: ...2614:40Bo1<strong>Tottenham Hotspur FC1.8 ... Predict the result of the match and get a prize! ... Manchester CityBo\n- Fulham FC - Tottenham Hotspur prediction & tips 01.03.2026: <strong>Fulham FC welcome Tottenham Hotspur to Craven Cottage on Sunday, 1st March 2026, at 15:00 for Matchday 28 of the Premier League season</strong\n- Tottenham Hotspur live score, schedule & player stats | Sofascore: <strong>Tottenham Hotspur will play the next match against Fulham on Mar 1, 2026, 2:00:00 PM UTC</strong> in Premier League.\n- Fulham vs Tottenham live: Score and latest Premier League updates: <strong>Fulham 2 Tottenham Hotspur 0</strong> (Iwobi) It goes from bad to worse for Spurs but it\u2019s a really nice goal from the hosts.\n\nNews (5):\n- Fulham vs Tottenham Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026 (2 days ago)\n- Fulham FC - Tottenham Hotspur prediction & tips 01.03.2026 (4 days ago)\n- Fulham vs. Tottenham prediction, where to watch, time for Premier League match (6 hours ago)\n- Premier League 2025-26 table \u2014 Latest standings - NBC Sports (30 minutes ago)\n- Tottenham Hotspur Team News and Predicted Lineup vs Fulham (8 hours ago)",
+    "web_results": [
+      {
+        "title": "Tottenham Hotspur Scores & Fixtures - This Month's Schedule of Football Matches",
+        "url": "https://www.skysports.com/tottenham-hotspur-scores-fixtures/2026-03-01",
+        "description": "Sky Sports brings you today&#x27;s football schedule - filter by date or competition and never miss another match. Get all of the latest fixtures, live scores and results. Find the latest football scores and results from major competitions, including the Premier League and Champions League."
+      },
+      {
+        "title": "Brighton & Hove Albion FC VS Tottenham Hotspur FC \u27a5 EA SPORTS FC \u27a5 Betting Tips, Stream, LiveScore, Results on EGW\u2615",
+        "url": "https://egamersworld.com/fifa/match/JNAZRj5SQ/brighton-hove-albion-fc-vs-tottenham-hotspur-fc-rkw0Q7LPe",
+        "description": "ePremier League 2026 - Finals: ...2614:40Bo1<strong>Tottenham Hotspur FC1.8 ... Predict the result of the match and get a prize! ... Manchester CityBo17 - 0LNewcastle United FCBo16 - 2WBrentford FCBo11 - 7WArsenal FCBo11 - 1DManchester United FCBo10 - 6WLiverpool FCBo13 - 1W ... The match Brighton &amp; Hove Albion FC vs Tottenham Hotspur FC in the discipline EA SPORTS FC will take place on 01.03.2026 at 19:40 in the format BO1.</strong>..."
+      },
+      {
+        "title": "Fulham FC - Tottenham Hotspur prediction & tips 01.03.2026",
+        "url": "https://www.transfermarkt.co.uk/betting/tips-today/fulham-fc-vs-tottenham-hotspur-prediction-01-03-2026/",
+        "description": "<strong>Fulham FC welcome Tottenham Hotspur to Craven Cottage on Sunday, 1st March 2026, at 15:00 for Matchday 28 of the Premier League season</strong>. The Cottagers currently occupy 10th position with 37 points from 27 matches, while Spurs find themselves ..."
+      },
+      {
+        "title": "Tottenham Hotspur live score, schedule & player stats | Sofascore",
+        "url": "https://www.sofascore.com/football/team/tottenham-hotspur/33",
+        "description": "<strong>Tottenham Hotspur will play the next match against Fulham on Mar 1, 2026, 2:00:00 PM UTC</strong> in Premier League."
+      },
+      {
+        "title": "Fulham vs Tottenham live: Score and latest Premier League updates",
+        "url": "https://www.telegraph.co.uk/football/2026/03/01/fulham-vs-tottenham-live-score-latest-premier-league-watch/",
+        "description": "<strong>Fulham 2 Tottenham Hotspur 0</strong> (Iwobi) It goes from bad to worse for Spurs but it\u2019s a really nice goal from the hosts."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Fulham vs Tottenham Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://sportsgambler.com/betting-tips/football/fulham-vs-tottenham-prediction-lineups-odds-2026-03-01",
+        "description": "Fulham vs Tottenham Hotspur prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Fulham FC - Tottenham Hotspur prediction & tips 01.03.2026",
+        "url": "https://www.transfermarkt.co.uk/betting/tips-today/fulham-fc-vs-tottenham-hotspur-prediction-01-03-2026/",
+        "description": "Prediction & betting tips for Fulham FC vs. Tottenham Hotspur at the Premier League 2025/2026.",
+        "age": "4 days ago"
+      },
+      {
+        "title": "Fulham vs. Tottenham prediction, where to watch, time for Premier League match",
+        "url": "https://www.usatoday.com/story/sports/soccer/epl/2026/03/01/where-to-watch-fulham-tottenham-prediction-odds-stream/88924558007/",
+        "description": "Fulham welcomes Tottenham to Craven Cottage on Sunday in a Premier League London derby.",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "Premier League 2025-26 table \u2014 Latest standings - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/premier-league-2025-26-table-teams-standings-for-the-new-season",
+        "description": "The 2025-26 Premier League table is absolutely bonkers and so tight.",
+        "age": "30 minutes ago"
+      },
+      {
+        "title": "Tottenham Hotspur Team News and Predicted Lineup vs Fulham",
+        "url": "https://lastwordonsports.com/football/2026/03/01/tottenham-hotspur-team-news-predicted-lineup-vs-fulham",
+        "description": "Tottenham team news and predicted lineup vs Fulham as Igor Tudor seeks Spurs\u2019 first Premier League win of 2026 at Craven Cottage.",
+        "age": "8 hours ago"
+      }
+    ],
+    "query": "Will Tottenham Hotspur FC win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

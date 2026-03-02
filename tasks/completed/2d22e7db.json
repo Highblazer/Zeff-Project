@@ -1,0 +1,85 @@
+{
+  "id": "2d22e7db",
+  "title": "Polymarket research: Will Atalanta BC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Atalanta BC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:14.710866+00:00",
+  "updated_at": "2026-03-01T16:30:46.493196+00:00",
+  "claimed_at": "2026-03-01T16:30:44.696985+00:00",
+  "completed_at": "2026-03-01T16:30:46.493178+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Atalanta BC win on 2026-03-01?\n\nWeb Results (5):\n- Preview: Atalanta BC vs Roma - prediction, team news, lineups - Sports Mole: Atalanta \u00b7 Jan 3, 2026 7.45pm \u00b7 Roma \u00b7 By Jonathan O&#x27;Shea | 01 Jan 2026 12:13, Last updated: 03 Jan 2026 14:57 \u00b7 Marking the return of a club leg\n- Atalanta live score, schedule & player stats | Sofascore: <strong>Atalanta will play the next match against Sassuolo on Mar 1, 2026, 2:00:00 PM UTC</strong> in Serie A.\n- Atalanta BC - AS Roma prediction & tips 03.01.2026: The most recent meeting between these sides resulted in a <strong>2-1 home victory for Atalanta</strong>, continuing their impressive dominance in thi\n- US Sassuolo Calcio - Atalanta BC betting tip & best odds | 01.03.2026: They are currently 7th in the league standing and have a decent away record with 4 wins, 5 draws, and 3 losses. With odds of 2.03, an away win looks l\n- Preview: Sassuolo vs Atalanta BC - prediction, team news, lineups - Sports Mole: Sports Mole previews Sunday&#x27;s Serie A clash between Sassuolo and Atalanta BC, including predictions, team news and possible lineups.\n\nNews (5):\n- Preview: Sassuolo vs Atalanta BC - prediction, team news, lineups - Sports Mole (2 days ago)\n- REACTION: Champions League RO16 draw sees Atalanta set to face SIX-time winners Bayern Munich - Get Italian Football News (2 days ago)\n- Atalanta BC vs Borussia Dortmund - Champions League - February 25, 2026 - Match Guide, Data Analysis, Standings - Football - Sports Mole (1 week ago)\n- Bayern Munich draws Atalanta in the Champions League | Bavarian Football Works (2 days ago)\n- US Sassuolo Calcio - Atalanta BC betting tip & best odds | 01.03.2026 (4 days ago)",
+    "web_results": [
+      {
+        "title": "Preview: Atalanta BC vs Roma - prediction, team news, lineups - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/atalanta-bc/preview/atalanta-vs-roma-prediction-team-news-lineups_588927.html",
+        "description": "Atalanta \u00b7 Jan 3, 2026 7.45pm \u00b7 Roma \u00b7 By Jonathan O&#x27;Shea | 01 Jan 2026 12:13, Last updated: 03 Jan 2026 14:57 \u00b7 Marking the return of a club legend, Atalanta BC will host Roma when the clubs kick off 2026 with a Saturday night contest. Gian Piero Gasperini heads back to Bergamo for the first time since leaving as La Dea&#x27;s most successful manager, but there is no room for sentiment as Serie A&#x27;s top-four race heats up."
+      },
+      {
+        "title": "Atalanta live score, schedule & player stats | Sofascore",
+        "url": "https://www.sofascore.com/football/team/atalanta/2686",
+        "description": "<strong>Atalanta will play the next match against Sassuolo on Mar 1, 2026, 2:00:00 PM UTC</strong> in Serie A."
+      },
+      {
+        "title": "Atalanta BC - AS Roma prediction & tips 03.01.2026",
+        "url": "https://www.transfermarkt.com/betting/tips/atalanta-bergamo-vs-as-roma-prediction-03-01-2026/",
+        "description": "The most recent meeting between these sides resulted in a <strong>2-1 home victory for Atalanta</strong>, continuing their impressive dominance in this fixture. Examining the head-to-head record from their last five encounters across all competitions reveals ..."
+      },
+      {
+        "title": "US Sassuolo Calcio - Atalanta BC betting tip & best odds | 01.03.2026",
+        "url": "https://www.futbol24.com/betting-tips/preview/01-03-2026-us-sassuolo-calcio-atalanta-bc-betting-tip/",
+        "description": "They are currently 7th in the league standing and have a decent away record with 4 wins, 5 draws, and 3 losses. With odds of 2.03, an away win looks like a strong betting tip today. Both Teams to Score: Yes Given both teams&#x27; recent scoring form, with Sassuolo scoring 32 and Atalanta 36 this season, there is a high likelihood that both teams will find the net."
+      },
+      {
+        "title": "Preview: Sassuolo vs Atalanta BC - prediction, team news, lineups - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/sassuolo/preview/sassuolo-vs-atalanta-prediction-team-news-lineups_592837.html",
+        "description": "Sports Mole previews Sunday&#x27;s Serie A clash between Sassuolo and Atalanta BC, including predictions, team news and possible lineups."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Preview: Sassuolo vs Atalanta BC - prediction, team news, lineups - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/sassuolo/preview/sassuolo-vs-atalanta-prediction-team-news-lineups_592837.html",
+        "description": "Sports Mole previews Sunday's Serie A clash between Sassuolo and Atalanta BC, including predictions, team news and possible lineups.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "REACTION: Champions League RO16 draw sees Atalanta set to face SIX-time winners Bayern Munich - Get Italian Football News",
+        "url": "https://www.getfootballnewsitaly.com/2026/reaction-champions-league-ro16-draw-sees-atalanta-face-bayern-munich/",
+        "description": "Atalanta have been drawn against Bayern Munich in the Champions League's Round of 16, with the first leg set for the 10th of March in Bergamo.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Atalanta BC vs Borussia Dortmund - Champions League - February 25, 2026 - Match Guide, Data Analysis, Standings - Football - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/champions-league/atalanta-bc-vs-borussia-dortmund_game_241667.html",
+        "description": "Full coverage of Atalanta BC vs Borussia Dortmund game on Wednesday 25th of February 2026 at 5:45 pm including match guide, data analysis, probability analysis, standings",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Bayern Munich draws Atalanta in the Champions League | Bavarian Football Works",
+        "url": "https://www.bavarianfootballworks.com/bayern-munich-champions-league/172325/breaking-bayern-munich-draws-atalanta-in-the-champions-league",
+        "description": "FC Bayern vs. Atalanta in the Champions League\u2026are you ready?",
+        "age": "2 days ago"
+      },
+      {
+        "title": "US Sassuolo Calcio - Atalanta BC betting tip & best odds | 01.03.2026",
+        "url": "https://www.futbol24.com/betting-tips/preview/01-03-2026-us-sassuolo-calcio-atalanta-bc-betting-tip/",
+        "description": "The Serie A game between US Sassuolo Calcio and Atalanta BC will take place on the 01.03.2026. All betting tips and further information on the match:",
+        "age": "4 days ago"
+      }
+    ],
+    "query": "Will Atalanta BC win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

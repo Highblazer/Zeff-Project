@@ -1,0 +1,139 @@
+{
+  "id": "95cfde5d",
+  "title": "AI industry news summary March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "AI industry news summary March 2026",
+    "category": "landscape"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-01T09:27:22.216579+00:00",
+  "updated_at": "2026-03-01T09:27:23.906668+00:00",
+  "claimed_at": "2026-03-01T09:27:22.223915+00:00",
+  "completed_at": "2026-03-01T09:27:23.906658+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: AI industry news summary March 2026\n\nFindings (10):\n- [market_mover] Ads funded by AI industry are flooding the 2026 election. They're about everything except AI. (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n- [tech_upgrade] Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025 | News (action=0.5, impact=0.26)\n  \u2192 LOG for awareness\n- [tech_upgrade] Artificial Intelligence - AI Update, February 27, 2026: AI News and Views From the Past Week (action=0.5, impact=0.2)\n  \u2192 LOG for awareness\n- [landscape] What's the hottest job in AI right now? | Reuters (action=0.4, impact=0.26)\n  \u2192 LOG for awareness\n- [tech_upgrade] In 2026, AI will move from hype to pragmatism | TechCrunch (action=0.4, impact=0.2)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Ads funded by AI industry are flooding the 2026 election. They're about everything except AI.",
+        "url": "https://www.nbcnews.com/politics/2026-election/ads-ai-industry-are-flooding-2026-election-artificial-intelligence-rcna260782",
+        "description": "Competing super PACs backed by the AI industry are already pouring money into the 2026 midterms, starting with the year\u2019s first primaries in Texas and North Carolina.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Latest AI News and AI Breakthroughs that Matter Most: 2026 & 2025 | News",
+        "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+        "description": "<strong>The update is targeted for a March 2026 release alongside iOS 26.4</strong>, following rigorous internal testing to ensure the new system meets Apple\u2019s reliability and quality benchmarks.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.26,
+        "combined_score": 0.38,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Artificial Intelligence - AI Update, February 27, 2026: AI News and Views From the Past Week",
+        "url": "https://marketingprofs.com/opinions/2026/54358/ai-update-february-27-2026-ai-news-and-views-from-the-past-week",
+        "description": "Artificial Intelligence - Catch up on select AI news and developments since the workweek ended February 20. Stay in the know.",
+        "category": "tech_upgrade",
+        "actionability_score": 0.5,
+        "impact_score": 0.2,
+        "combined_score": 0.35,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "What's the hottest job in AI right now? | Reuters",
+        "url": "https://reuters.com/technology/artificial-intelligence/artificial-intelligencer-hottest-job-ai-right-now-2026-02-26",
+        "description": "This was originally published in the Artificial Intelligencer newsletter, which is issued every Wednesday. Sign up here to learn about the latest breakthroughs in AI and tech.",
+        "category": "landscape",
+        "actionability_score": 0.4,
+        "impact_score": 0.26,
+        "combined_score": 0.33,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "In 2026, AI will move from hype to pragmatism | TechCrunch",
+        "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/",
+        "description": "With MCP reducing the friction of connecting agents to real systems, <strong>2026 is likely to be the year agentic workflows finally move from demos into day-to-day practice</strong>. Rajeev Dham, a partner at Sapphire Ventures, says these advancements will ...",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "17 predictions for AI in 2026",
+        "url": "https://www.understandingai.org/p/17-predictions-for-ai-in-2026",
+        "description": "But if Waymo\u2019s supply chain ramps slower than expected due to unforeseen problems or delays \u2014 and Chinese players continue to ramp up production volume \u2014 then at least one of them could surpass Waymo in total global robotaxi fleet size by the end of 2026. Sophia Tung, content editor of the Ride AI n",
+        "category": "landscape",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "The trends that will shape AI and tech in 2026 | IBM",
+        "url": "https://www.ibm.com/think/news/ai-tech-trends-predictions-2026",
+        "description": "\u201c<strong>The industry validated the thesis that smaller, domain-optimized models would become central</strong>,\u201d White recently told IBM Think. \u201cAdvances in distillation, quantization and memory-efficient runtimes pushed inference to edge clusters and ...",
+        "category": "tech_upgrade",
+        "actionability_score": 0.4,
+        "impact_score": 0.2,
+        "combined_score": 0.3,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Wall St Week Ahead AI disruption looms over markets with US jobs data on tap | Reuters",
+        "url": "https://reuters.com/business/wall-st-week-ahead-ai-disruption-looms-over-markets-with-us-jobs-data-tap-2026-02-27",
+        "description": "Prospects for artificial intelligence to disrupt business sectors should keep the U.S. stock market on edge in the coming week, as Wall Street looks for more insight into how the emerging technology will reverberate through the economy.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.26,
+        "combined_score": 0.28,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "FinancialContent - The Great AI Handover: Why 2026 is the Year the Market Dumped Chips for Code",
+        "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-26-the-great-ai-handover-why-2026-is-the-year-the-market-dumped-chips-for-code",
+        "description": "The Great AI Handover: Why 2026 is the Year the Market Dumped Chips for Code",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "What\u2019s next in AI: 7 trends to watch in 2026",
+        "url": "https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026",
+        "description": "But the next leap is coming. In 2026, AI won\u2019t just summarize papers, answer questions and write reports \u2014 <strong>it will actively join the process of discovery in physics, chemistry and biology</strong>.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "AI industry news summary March 2026",
+    "sources_count": 10,
+    "findings_count": 10,
+    "market_movers": 1,
+    "opportunities": 0
+  },
+  "error": null
+}

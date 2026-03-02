@@ -1,0 +1,85 @@
+{
+  "id": "d37f799d",
+  "title": "Polymarket research: Will the Iranian regime fall by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Iranian regime fall by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:54:52.499719+00:00",
+  "updated_at": "2026-03-01T16:55:00.543002+00:00",
+  "claimed_at": "2026-03-01T16:54:59.142921+00:00",
+  "completed_at": "2026-03-01T16:55:00.542986+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Iranian regime fall by March 31?\n\nWeb Results (5):\n- Will the Iranian regime fall by March 31? Trading Odds & Predictions | Polymarket: To trade on &quot;Will the Iranian regime fall by March 31?,&quot; simply <strong>choose whether you believe the answer is &quot;Yes&quot; or &quot;No\n- Will the Iranian regime fall by March 31? Odds & Predictions | Polymarket: This market will resolve to &quot;Yes&quot; if the Islamic Republic of Iran\u2019s current ruling regime is overthrown, collapsed, or otherwise ceases to g\n- 2025\u2013present Iran internal crisis - Wikipedia: Following the initial strikes on ... told Iranians that the time has come to &quot;overthrow the Islamic Republic through street protests and nationwi\n- Iran: What challenges face the country in 2026? - House of Commons Library: German Institute for Global and Area Studies, Ten things to watch in the Middle East and North Africa in 2026, January 2026 \u00b7 Middle East Institute, I\n- Iran\u2019s coming reckoning: Regime collapse is likely \u2014 democracy is not - Middle East Institute: For years, the regime defended these failures by pointing to one remaining pillar of legitimacy: security. That pillar has now collapsed as well. The \n\nNews (5):\n- What It Will Take to Change the Regime in Iran | Foreign Affairs (2 days ago)\n- Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council (1 day ago)\n- Iran\u2019s Regime May Survive, but the Middle East Will Be Changed - The New York Times (2 hours ago)\n- Trump's bet on Iranian regime change could be his biggest gamble yet (15 hours ago)\n- The Iranian Regime\u2019s Existential Crisis\u2014and What Might Come After Khamenei | Foreign Affairs (20 hours ago)",
+    "web_results": [
+      {
+        "title": "Will the Iranian regime fall by March 31? Trading Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-march-31",
+        "description": "To trade on &quot;Will the Iranian regime fall by March 31?,&quot; simply <strong>choose whether you believe the answer is &quot;Yes&quot; or &quot;No.&quot;</strong> Each side has a current price that reflects the market&#x27;s implied probability."
+      },
+      {
+        "title": "Will the Iranian regime fall by March 31? Odds & Predictions | Polymarket",
+        "url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-march-31/will-the-iranian-regime-fall-by-march-31",
+        "description": "This market will resolve to &quot;Yes&quot; if the Islamic Republic of Iran\u2019s current ruling regime is overthrown, collapsed, or otherwise ceases to govern by <strong>March 31, 2026, 11:59 PM ET</strong>."
+      },
+      {
+        "title": "2025\u2013present Iran internal crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%93present_Iran_internal_crisis",
+        "description": "Following the initial strikes on ... told Iranians that the time has come to &quot;overthrow the Islamic Republic through street protests and nationwide strikes&quot;. Speaking of the government of Iran, he claimed that &quot;<strong>it could fall</strong>. As I have told my compatriots: Iran is yours and yours to reclaim."
+      },
+      {
+        "title": "Iran: What challenges face the country in 2026? - House of Commons Library",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10456/",
+        "description": "German Institute for Global and Area Studies, Ten things to watch in the Middle East and North Africa in 2026, January 2026 \u00b7 Middle East Institute, Iran\u2019s political deadlock \u2014 and a way out <strong>the regime is unlikely to take</strong>, January 2026"
+      },
+      {
+        "title": "Iran\u2019s coming reckoning: Regime collapse is likely \u2014 democracy is not - Middle East Institute",
+        "url": "https://mei.edu/commentary/irans-coming-reckoning-regime-collapse-is-likely-democracy-is-not/",
+        "description": "For years, the regime defended these failures by pointing to one remaining pillar of legitimacy: security. That pillar has now collapsed as well. The humiliating outcome of the recent Israeli-Iranian 12-day war shattered the last vestige of the regime\u2019s implicit social contract."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "What It Will Take to Change the Regime in Iran | Foreign Affairs",
+        "url": "https://www.foreignaffairs.com/iran/what-it-will-take-change-regime-iran",
+        "description": "The U.S. military must go big\u2014and then let Iranians do the rest.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council",
+        "url": "https://www.atlanticcouncil.org/dispatches/experts-react-the-us-and-israel-just-unleashed-a-major-attack-on-iran-whats-next/",
+        "description": "Atlantic Council experts assess the unfolding Operation Epic Fury against the Iranian regime and where it goes from here.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Iran\u2019s Regime May Survive, but the Middle East Will Be Changed - The New York Times",
+        "url": "https://nytimes.com/2026/03/01/world/europe/iran-regime-middle-east-khamenei.html",
+        "description": "A badly weakened Iran will no longer intimidate or threaten its neighbors in the same way. The regional impact could be comparable to the collapse of the Soviet Union.",
+        "age": "2 hours ago"
+      },
+      {
+        "title": "Trump's bet on Iranian regime change could be his biggest gamble yet",
+        "url": "https://www.bbc.com/news/articles/cn48dwm818no",
+        "description": "The US president may be forced to wage a political battle at home while presiding over a new war in the Middle East.",
+        "age": "15 hours ago"
+      },
+      {
+        "title": "The Iranian Regime\u2019s Existential Crisis\u2014and What Might Come After Khamenei | Foreign Affairs",
+        "url": "https://www.foreignaffairs.com/iran/iranian-regimes-existential-crisis-and-what-might-come-after-khamenei-trump",
+        "description": "Internally, the regime could emerge intact and become as brutal as North Korea\u2014even more brutal than it has been in recent weeks after killing thousands of Iranians. There\u2019s also the possibility of state collapse and a potential civil war, given how polarized Iranians are and because of agitation among ethnic groups. But one can still hope that Iran fulfills its enormous potential as a nation. As I wrote last fall...",
+        "age": "20 hours ago"
+      }
+    ],
+    "query": "Will the Iranian regime fall by March 31?",
+    "sources_count": 10
+  },
+  "error": null
+}

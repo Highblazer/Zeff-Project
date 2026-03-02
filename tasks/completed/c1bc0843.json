@@ -1,0 +1,28 @@
+{
+  "id": "c1bc0843",
+  "title": "Polymarket research: 76ers vs. Celtics",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "76ers vs. Celtics",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T00:51:17.909424+00:00",
+  "updated_at": "2026-03-02T00:52:30.339394+00:00",
+  "claimed_at": "2026-03-02T00:52:28.503081+00:00",
+  "completed_at": "2026-03-02T00:52:30.339376+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: 76ers vs. Celtics\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "76ers vs. Celtics",
+    "sources_count": 0
+  },
+  "error": null
+}

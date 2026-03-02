@@ -1,0 +1,28 @@
+{
+  "id": "aaa39d23",
+  "title": "Polymarket research: Grizzlies vs. Pacers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Grizzlies vs. Pacers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T00:23:32.741235+00:00",
+  "updated_at": "2026-03-02T00:23:42.770049+00:00",
+  "claimed_at": "2026-03-02T00:23:40.953746+00:00",
+  "completed_at": "2026-03-02T00:23:42.770029+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Grizzlies vs. Pacers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Grizzlies vs. Pacers",
+    "sources_count": 0
+  },
+  "error": null
+}

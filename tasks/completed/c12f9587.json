@@ -1,0 +1,128 @@
+{
+  "id": "c12f9587",
+  "title": "cryptocurrency regulatory news March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "cryptocurrency regulatory news March 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-01T14:25:11.625541+00:00",
+  "updated_at": "2026-03-01T14:25:13.080260+00:00",
+  "claimed_at": "2026-03-01T14:25:11.632593+00:00",
+  "completed_at": "2026-03-01T14:25:13.080249+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: cryptocurrency regulatory news March 2026\n\nFindings (9):\n- [market_mover] Global Crypto Regulation Snapshot Of 2026 (action=0.45, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] US Crypto Policy Tracker Regulatory Developments (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Key dates for US crypto regulation in 2026 \u2014 \u2018We are closer than ever\u2019 \u2013 DL News (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Fear Index at 14: Where Does Global Crypto Regulation Stand in March 2026? (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Is 2026 the Year Banks Finally Adopt XRP? Clarity Act and Ripple's Next Move (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Global Crypto Regulation Snapshot Of 2026",
+        "url": "https://livenewschat.eu/crypto-regulation-updates-whats-legal-whats-not-key-markets/",
+        "description": "Review the latest crypto regulation updates and understand what is legal and restricted across major global markets.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.46,
+        "combined_score": 0.45,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "US Crypto Policy Tracker Regulatory Developments",
+        "url": "https://www.lw.com/en/us-crypto-policy-tracker/regulatory-developments",
+        "description": "The FRB\u2019s goal is to have skinny master accounts available by the fourth quarter of 2026.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Key dates for US crypto regulation in 2026 \u2014 \u2018We are closer than ever\u2019 \u2013 DL News",
+        "url": "https://www.dlnews.com/articles/regulation/key-dates-for-us-crypto-regulation-in-2026/",
+        "description": "<strong>Crypto market structure and implementation of the Genius Act will dominate US policy discussion in 2026</strong>. A tax bill is also in the works. But both might hinge on midterm elections in November, which could change the balance of power in Washington, ...",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Fear Index at 14: Where Does Global Crypto Regulation Stand in March 2026?",
+        "url": "https://spotedcrypto.com/global-crypto-regulation-comparison-march-2026",
+        "description": "With the Fear & Greed Index at ... peak, regulatory clarity has never mattered more. We compare frameworks across the US, EU, South Korea, Japan, and Hong Kong. The global cryptocurrency market is deep in fear territory \u2014 the Fear & Greed Index reads 14 (Extreme Fear) as of March 1, 2026, while tota",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "3 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Is 2026 the Year Banks Finally Adopt XRP? Clarity Act and Ripple's Next Move",
+        "url": "https://coinpedia.org/news/is-2026-the-year-banks-finally-adopt-xrp-clarity-act-and-ripples-next-move",
+        "description": "Clarity Act faces March deadline as banks signal readiness for XRP adoption. What Ripple's full-stack strategy means for 2026.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top 5 Cryptocurrencies for Long-Term Investment in 2026: BTC, ETH, and SOL Analysis - MoneyCheck",
+        "url": "https://moneycheck.com/top-5-cryptocurrencies-for-long-term-investment-in-2026-btc-eth-and-sol-analysis",
+        "description": "Explore the top 5 cryptocurrencies for long-term investment in 2026: Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Chainlink (LINK), and Avalanche (AVAX).",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "3 hours ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Crypto Market Update: Bitcoin Price Retreats Again After Mid-week Rise | INN",
+        "url": "https://investingnews.com/cryptocurrency-market-recap/",
+        "description": "Bitcoin (BTC) fell 3.6% to $65,260.11 amid market volatility and \"Extreme Fear.\" Ether (ETH) dropped 5.5% to $1,917.34. Vitalik Buterin sold $43M in ETH for privacy initiatives. Marathon Digital partners with Starwood on AI data centers. How will geopolitical pressures impact crypto prices?",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "2026 Digital Assets Regulatory Update: A Landmark 2025 . . . But More Developments on the Horizon | Publications | Cleary Gottlieb",
+        "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/2026-digital-assets-regulatory-update-a-landmark-2025-but-more-developments-on-the-horizon",
+        "description": "<strong>The GENIUS Act</strong> will likely not only legitimate stablecoins and give the market confidence that they can use and transact in such instruments subject to a comprehensive federal regulatory framework, but it will also create a blueprint to incorporate ...",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Elliptic's 2026 regulatory and policy outlook: 5 crypto trends to expect in 2026",
+        "url": "https://www.elliptic.co/blog/regulatory-and-policy-crypto-trends-to-except-in-2026",
+        "description": "In late 2025, Australian regulators ... In 2026, <strong>we will see more and more jurisdictions, including the US, consider similar arrangements to boost the development and maturation of digital asset markets</strong>....",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "cryptocurrency regulatory news March 2026",
+    "sources_count": 10,
+    "findings_count": 9,
+    "market_movers": 9,
+    "opportunities": 0
+  },
+  "error": null
+}

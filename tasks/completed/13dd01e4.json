@@ -1,0 +1,85 @@
+{
+  "id": "13dd01e4",
+  "title": "Polymarket research: Fulham FC vs. Tottenham Hotspur FC: O/U 2.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Fulham FC vs. Tottenham Hotspur FC: O/U 2.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:12.970225+00:00",
+  "updated_at": "2026-03-01T16:30:28.461371+00:00",
+  "claimed_at": "2026-03-01T16:30:26.605348+00:00",
+  "completed_at": "2026-03-01T16:30:28.461348+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Fulham FC vs. Tottenham Hotspur FC: O/U 2.5\n\nWeb Results (5):\n- Fulham 2-1 Tottenham Hotspur: Cottagers climbing, Spurs sinking - NBC Sports: To make matters worse, it was an Arsenal academy product, Alex Iwobi, who doubled Fulham\u2019s lead in the with a sensational strike from the edge of the \n- Fulham vs Tottenham Hotspur live score, H2H and lineups | Sofascore: DATE: <strong>1 Mar 2026</strong> TIME: 14:00 UTC VENUE: Craven Cottage, London, England More details:Fulham live score, schedule and resultsTottenham\n- Fulham vs Tottenham Hotspur Head to Head History - AiScore: Last 5 , <strong>Fulham Win 2 , Draw 0 , Lose 3 , Score Win Prob: 40.00% ,Asian Handicap Win%: 40.0% Total Goals Over%: 80.0%</strong> ... Last 5 , To\n- Fulham FC vs Tottenham: Prediction, kick-off time, team news, TV, live stream, h2h results, odds today | The Standard: There is an argument that Fulham\u2019s ... take full advantage of their rivals\u2019 current plight and secure all three points. <strong>Fulham to win, 2-0</st\n- Fulham vs Tottenham: Odds, Lineups, Prediction, and 13/2 Bet Builder Tip | Oddschecker: <strong>Fulham are the clear betting favourites to win at Craven Cottage</strong>. Latest odds implies around a 50% chance of a Fulham victory, with T\n\nNews (5):\n- Fulham vs Tottenham Hotspur LIVE updates, watch live, score, analysis, highlights - NBC Sports (1 hour ago)\n- Fulham 2-1 Tottenham Hotspur: Cottagers climbing, Spurs sinking - NBC Sports (15 minutes ago)\n- Fulham vs Tottenham LIVE: Premier League result, latest updates and fan reaction | The Standard (9 minutes ago)\n- Fulham vs Tottenham LIVE: Richarlison heads home after Harry Wilson and Alex Iwobi score - football.london (33 minutes ago)\n- How to watch Fulham vs Tottenham: Free Streams & TV Details with Spurs in desperate need of three points (6 hours ago)",
+    "web_results": [
+      {
+        "title": "Fulham 2-1 Tottenham Hotspur: Cottagers climbing, Spurs sinking - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/fulham-vs-tottenham-hotspur-live-updates-score-highlights-stats-watch",
+        "description": "To make matters worse, it was an Arsenal academy product, Alex Iwobi, who doubled Fulham\u2019s lead in the with a sensational strike from the edge of the box in the 34th minute. Spurs came to life after Mathys Tel and Richarlison came off the bench just before the hour mark, and the former helped set up the latter to pull a goal back in the 66th, but that\u2019s as close as the visitors would get \u2014 still in with a shout to a few fantastic saves by Guglielmo Vicario in the second half that limited the damage in a flattering way."
+      },
+      {
+        "title": "Fulham vs Tottenham Hotspur live score, H2H and lineups | Sofascore",
+        "url": "https://www.sofascore.com/football/match/fulham-tottenham-hotspur/IsT",
+        "description": "DATE: <strong>1 Mar 2026</strong> TIME: 14:00 UTC VENUE: Craven Cottage, London, England More details:Fulham live score, schedule and resultsTottenham Hotspur live score, schedule and resultsSofascore livescore is available as iPhone and iPad app, Android app ..."
+      },
+      {
+        "title": "Fulham vs Tottenham Hotspur Head to Head History - AiScore",
+        "url": "https://m.aiscore.com/head-to-head/soccer-fulham-vs-tottenham-hotspur",
+        "description": "Last 5 , <strong>Fulham Win 2 , Draw 0 , Lose 3 , Score Win Prob: 40.00% ,Asian Handicap Win%: 40.0% Total Goals Over%: 80.0%</strong> ... Last 5 , Tottenham Hotspur Win 1 , Draw 1 , Lose 3 , Score Win Prob: 20.00% ,Asian Handicap Win%: 40.0% Total Goals Over%: 60.0%"
+      },
+      {
+        "title": "Fulham FC vs Tottenham: Prediction, kick-off time, team news, TV, live stream, h2h results, odds today | The Standard",
+        "url": "https://www.standard.co.uk/sport/football/fulham-fc-vs-tottenham-prediction-kick-off-time-latest-team-news-tv-live-stream-h2h-results-odds-premier-league-2026-preview-today-b1272571.html",
+        "description": "There is an argument that Fulham\u2019s ... take full advantage of their rivals\u2019 current plight and secure all three points. <strong>Fulham to win, 2-0</strong>...."
+      },
+      {
+        "title": "Fulham vs Tottenham: Odds, Lineups, Prediction, and 13/2 Bet Builder Tip | Oddschecker",
+        "url": "https://www.oddschecker.com/tips/football/premier-league/fulham-vs-tottenham-odds-lineups-prediction-and-13-2-bet-builder-tip",
+        "description": "<strong>Fulham are the clear betting favourites to win at Craven Cottage</strong>. Latest odds implies around a 50% chance of a Fulham victory, with Tottenham Hotspur\u2019s chances of a win placed closer to 25%."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Fulham vs Tottenham Hotspur LIVE updates, watch live, score, analysis, highlights - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/how-to-watch-fulham-vs-tottenham-hotspur-live-stream-link-tv-channel-latest-team-news-prediction",
+        "description": "It's take two for Tottenham Hotspur boss Igor Tudor when he leads relegation-threatened Spurs into Craven Cottage for a Sunday scrap in the Premier League.",
+        "age": "1 hour ago"
+      },
+      {
+        "title": "Fulham 2-1 Tottenham Hotspur: Cottagers climbing, Spurs sinking - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/fulham-vs-tottenham-hotspur-live-updates-score-highlights-stats-watch",
+        "description": "Tottenham Hotspur took another dangerous step toward relegation from the Premier League on Sunday, as they fell 2-1 to Fulham and extended their own winless run to 10 games.",
+        "age": "15 minutes ago"
+      },
+      {
+        "title": "Fulham vs Tottenham LIVE: Premier League result, latest updates and fan reaction | The Standard",
+        "url": "https://www.standard.co.uk/sport/football/fulham-fc-vs-tottenham-live-stream-latest-score-updates-result-premier-league-b1272940.html",
+        "description": "Spurs running out of opportunities in relegation battle",
+        "age": "9 minutes ago"
+      },
+      {
+        "title": "Fulham vs Tottenham LIVE: Richarlison heads home after Harry Wilson and Alex Iwobi score - football.london",
+        "url": "https://www.football.london/tottenham-hotspur-fc/fixtures-results/fulham-vs-tottenham-live-kick-33510516",
+        "description": "football.london is live from Craven Cottage to bring you all of the action from Tottenham's Premier League match against Fulham on Sunday",
+        "age": "33 minutes ago"
+      },
+      {
+        "title": "How to watch Fulham vs Tottenham: Free Streams & TV Details with Spurs in desperate need of three points",
+        "url": "https://www.fourfourtwo.com/competition/watch-fulham-vs-tottenham-premier-league-2025-26",
+        "description": "Fulham host Tottenham at Craven Cottage in one of three 2pm kick-offs on Sunday in the Premier League \u2013 here's how to watch the game online and on TV from anywhere.",
+        "age": "6 hours ago"
+      }
+    ],
+    "query": "Fulham FC vs. Tottenham Hotspur FC: O/U 2.5",
+    "sources_count": 10
+  },
+  "error": null
+}

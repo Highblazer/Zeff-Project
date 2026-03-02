@@ -1,0 +1,85 @@
+{
+  "id": "dee860ba",
+  "title": "Polymarket research: Will Bitcoin reach $150,000 in March?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $150,000 in March?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:57:57.624211+00:00",
+  "updated_at": "2026-03-01T16:58:08.663181+00:00",
+  "claimed_at": "2026-03-01T16:58:07.292744+00:00",
+  "completed_at": "2026-03-01T16:58:08.663161+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $150,000 in March?\n\nWeb Results (5):\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?: <strong>Bitcoin will likely continue to rise and gain more momentum during March 2026 if it succeeds in overcoming the psychological barrier of the $7\n- Bitcoin price prediction 2026-2032: Will BTC hit $150k soon?: However, top analysts are bullish on BTC price prediction this year. Charles Hoskinson, the founder of Cardano, has predicted that <strong>Bitcoin cou\n- Can Bitcoin Hit $150K In 2025? | Nasdaq: The OG cryptocurrency crossed $100,000 ... developments, limited availability, and global macroeconomic uncertainty could put Bitcoin above $150,000 <\n- Can Bitcoin\u2019s Price Hit $150,000 In 2025? Analyzing The Outlook For BTC: After breaching six figures for the first time in March and notching an all-time high near $112,000 in May, the world\u2019s largest digital asset has slip\n- r/Bitcoin on Reddit: Betting if BTC Will Reach 150k by Dec. 31, 2025: Unlike traditional currencies such ... it is more resistant to wild inflation and corrupt banks. With Bitcoin, you can be your own bank. ... <strong>B\n\nNews (5):\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026? (2 days ago)\n- Bitcoin Is Headed to $500,000. This Wall Street Analyst Explains Why. | The Motley Fool (14 hours ago)\n- Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go? (2 days ago)\n- Bitcoin at $100,000 in 2026: Analyst Predictions and Key Factors | Fibo (2 days ago)\n- Bitcoin Needs a Huge Rally to Hit $150,000 by December -- Are Polymarket's 12% Odds Too Low, Too High, or Just About Right? | The Motley Fool (1 day ago)",
+    "web_results": [
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "<strong>Bitcoin will likely continue to rise and gain more momentum during March 2026 if it succeeds in overcoming the psychological barrier of the $70,000 price level</strong>. Besides that, jumping over the long-term moving averages and the strengthening of momentum will only serve to bring in more investors."
+      },
+      {
+        "title": "Bitcoin price prediction 2026-2032: Will BTC hit $150k soon?",
+        "url": "https://www.cryptopolitan.com/bitcoin-price-prediction/",
+        "description": "However, top analysts are bullish on BTC price prediction this year. Charles Hoskinson, the founder of Cardano, has predicted that <strong>Bitcoin could reach about $250,000 by 2026</strong>. He bases this view on Bitcoin\u2019s limited supply and the possibility that institutions and major companies will continue ..."
+      },
+      {
+        "title": "Can Bitcoin Hit $150K In 2025? | Nasdaq",
+        "url": "https://www.nasdaq.com/articles/can-bitcoin-hit-150k-2025",
+        "description": "The OG cryptocurrency crossed $100,000 ... developments, limited availability, and global macroeconomic uncertainty could put Bitcoin above $150,000 <strong>by the end of 2025</strong>...."
+      },
+      {
+        "title": "Can Bitcoin\u2019s Price Hit $150,000 In 2025? Analyzing The Outlook For BTC",
+        "url": "https://www.forbes.com/sites/digital-assets/article/can-bitcoin-price-hit-150000-2025/",
+        "description": "After breaching six figures for the first time in March and notching an all-time high near $112,000 in May, the world\u2019s largest digital asset has slipped into a tight $103,000-$108,000 range. Traders are asking the same question they posed during every post-halving cycle: how high can the bitcoin price go\u2014and could $150,000 arrive as soon as next year?"
+      },
+      {
+        "title": "r/Bitcoin on Reddit: Betting if BTC Will Reach 150k by Dec. 31, 2025",
+        "url": "https://www.reddit.com/r/Bitcoin/comments/1mhzrth/betting_if_btc_will_reach_150k_by_dec_31_2025/",
+        "description": "Unlike traditional currencies such ... it is more resistant to wild inflation and corrupt banks. With Bitcoin, you can be your own bank. ... <strong>BTC will break $150K soon</strong>, I believe!!!!..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Explore the latest Bitcoin price forecast for Feb 2026 as BTC attempts to reclaim the $68,300 area amid a cooldown phase Can it hold $67K? Read our analysis.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin Is Headed to $500,000. This Wall Street Analyst Explains Why. | The Motley Fool",
+        "url": "https://fool.com/investing/2026/02/28/bitcoin-is-headed-to-500000-this-wall-street-analy",
+        "description": "Bitcoin investors may soon forget the recent correction.",
+        "age": "14 hours ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go?",
+        "url": "https://coinpedia.org/price-prediction/bitcoin-price-prediction/",
+        "description": "Bitcoin price prediction 2023 - 2025 based on deals analysis and statistic. In depth view into BTC Price, analyst predictions until 2030.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin at $100,000 in 2026: Analyst Predictions and Key Factors | Fibo",
+        "url": "https://fibo-crypto.fr/en/blog/bitcoin-100000-2026-predictions-analysts",
+        "description": "Most analysts predict Bitcoin will not only reach but exceed $100,000 in 2026. Consensus forecasts range from $120,000-$175,000, with Standard Chartered targeting $150,000.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin Needs a Huge Rally to Hit $150,000 by December -- Are Polymarket's 12% Odds Too Low, Too High, or Just About Right? | The Motley Fool",
+        "url": "https://fool.com/investing/2026/02/28/bitcoin-needs-a-huge-rally-to-hit-150000-by-decemb",
+        "description": "Bitcoin may have a better chance of hitting $150,000 this year than you think.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Bitcoin reach $150,000 in March?",
+    "sources_count": 10
+  },
+  "error": null
+}

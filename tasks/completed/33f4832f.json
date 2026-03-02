@@ -1,0 +1,28 @@
+{
+  "id": "33f4832f",
+  "title": "Polymarket research: Bitcoin Up or Down - March 1, 1PM ET",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bitcoin Up or Down - March 1, 1PM ET",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T20:30:40.718751+00:00",
+  "updated_at": "2026-03-01T20:30:54.344740+00:00",
+  "claimed_at": "2026-03-01T20:30:52.618243+00:00",
+  "completed_at": "2026-03-01T20:30:54.344719+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bitcoin Up or Down - March 1, 1PM ET\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Bitcoin Up or Down - March 1, 1PM ET",
+    "sources_count": 0
+  },
+  "error": null
+}

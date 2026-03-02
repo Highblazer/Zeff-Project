@@ -1,0 +1,28 @@
+{
+  "id": "8fe6703d",
+  "title": "cryptocurrency regulatory news March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "cryptocurrency regulatory news March 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-01T21:54:15.085830+00:00",
+  "updated_at": "2026-03-01T21:54:16.719749+00:00",
+  "claimed_at": "2026-03-01T21:54:15.091040+00:00",
+  "completed_at": "2026-03-01T21:54:16.719731+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: cryptocurrency regulatory news March 2026\n\nFindings (0):\n",
+    "findings": [],
+    "query": "cryptocurrency regulatory news March 2026",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "41d93f7f",
+  "title": "Polymarket research: Will US or Israel strike Iran first?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will US or Israel strike Iran first?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T09:45:12.858386+00:00",
+  "updated_at": "2026-03-01T09:45:26.044518+00:00",
+  "claimed_at": "2026-03-01T09:45:23.695770+00:00",
+  "completed_at": "2026-03-01T09:45:26.044475+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will US or Israel strike Iran first?\n\nWeb Results (5):\n- Twelve-Day War - Wikipedia: The White House declared that Iran ... <strong>before Israel&#x27;s strikes</strong>. On 31 May 2025, The IAEA issued a report in which it stated that\n- US and Israel launch strikes on Iran: what we know so far | US-Israel war on Iran | The Guardian: Aftermath of an Israeli strike on a school in Minab on Saturday. Photograph: Abbas Zakeri/Mehr News/Wana/Reuters ... Iran\u2019s supreme leader Ali Khamene\n- Trump warns Iran not to retaliate after Ayatollah Ali Khamenei is killed : NPR: There&#x27;s no sign the U.S. will send ground troops into Iran, and military analysts say it will be extremely difficult to topple the government wit\n- Iran Update Special Report: US and Israeli Strikes, February 28, 2026: Iran has responded immediately to the US and Israeli strikes. Iran has launched multiple barrages at Israel in recent hours. An Israeli media correspo\n- Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council: But the linear progression suggested by his statement\u2014US and Israeli strikes on nuclear, missile, and regime targets, leading to renewed protests, lea\n\nNews (5):\n- Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing (1 day ago)\n- Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times (1 day ago)\n- What we know about the US-Israeli attack on Iran and Tehran\u2019s retaliation | CNN (1 day ago)\n- Live updates: Iran vows to avenge supreme leader\u2019s death as Israel renews attack on Tehran | CNN (1 day ago)\n- Israel and Iran exchange fresh attacks after Iran's Supreme Leader Khamenei killed - live updates - BBC News (1 day ago)",
+    "web_results": [
+      {
+        "title": "Twelve-Day War - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Israel_war",
+        "description": "The White House declared that Iran ... <strong>before Israel&#x27;s strikes</strong>. On 31 May 2025, The IAEA issued a report in which it stated that Iran had enough Uranium enriched up to 60% for the production of nine nuclear weapons, and enough for additional weapons at lower enrichment levels."
+      },
+      {
+        "title": "US and Israel launch strikes on Iran: what we know so far | US-Israel war on Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/28/us-israel-launch-strikes-attack-iran-what-we-know-so-far-latest",
+        "description": "Aftermath of an Israeli strike on a school in Minab on Saturday. Photograph: Abbas Zakeri/Mehr News/Wana/Reuters ... Iran\u2019s supreme leader Ali Khamenei has been killed as the US and Israel launch a war on Iran to trigger regime change, Donald Trump has claimed."
+      },
+      {
+        "title": "Trump warns Iran not to retaliate after Ayatollah Ali Khamenei is killed : NPR",
+        "url": "https://www.npr.org/2026/03/01/nx-s1-5731333/iran-us-israel-strikes",
+        "description": "There&#x27;s no sign the U.S. will send ground troops into Iran, and military analysts say it will be extremely difficult to topple the government with air power alone. Therefore, it&#x27;s impossible to say whether Iran&#x27;s leadership might be vulnerable to a domestic uprising, or if it would be able to crush protests as it did earlier this year. United Nations Secretary-General Ant\u00f3nio Guterres on Saturday condemned the strikes by the U.S. and Israel, as well as the retaliatory strikes by Iran."
+      },
+      {
+        "title": "Iran Update Special Report: US and Israeli Strikes, February 28, 2026",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-us-and-israeli-strikes-february-28-2026/",
+        "description": "Iran has responded immediately to the US and Israeli strikes. Iran has launched multiple barrages at Israel in recent hours. An Israeli media correspondent reported that Iran had launched around 35 missiles at Israel as of 5:42 AM ET.[23] Iran has reportedly launched Emad and Ghadr missiles at Israel.[24] Iran has used Emad and Ghadr missiles to attack Israel during previous conflicts, including in June 2025.[25] A ballistic missile expert also reported that Iran may have used Kheybar Shekan or Fatah-1 missiles to attack Israel in the current conflict.[26] An OSINT account based in Bahrain claimed that Iran has launched between two to four missiles per barrage.[27] Iran previously struggled to coordinate large-scale missile barrages during the Israel-Iran war and may again be struggling due to the disruption imposed by US and Israeli strikes."
+      },
+      {
+        "title": "Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council",
+        "url": "https://www.atlanticcouncil.org/dispatches/experts-react-the-us-and-israel-just-unleashed-a-major-attack-on-iran-whats-next/",
+        "description": "But the linear progression suggested by his statement\u2014US and Israeli strikes on nuclear, missile, and regime targets, leading to renewed protests, leading to the fall of the regime\u2014is far from certain. Iran\u2019s air defenses, highly degraded in the twelve-day war in June, is no match for the combined power of the US and Israeli militaries. Iran will suffer severe damage, which could well weaken the regime. But Iran will land some blows as well, as it already has on the first day, with missile strikes against US bases and dozens of missiles launched toward Israel."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Live Updates: U.S.-Israel launch another round of strikes on Iran following Khamenei's killing",
+        "url": "https://www.cbsnews.com/live-updates/israel-us-attack-iran-trump-says-major-combat-operations/",
+        "description": "Two U.S. officials had previously ... of strikes on Iran following Saturday's initial attack. ... British author and political commentator Douglas Murray told CBS News that Israel's hacking of a popular Iranian prayer app to urge Iranian Revolutionary Guard members to exit the force and liberate the country is a tactic it has used before. \"First of all, it's ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times",
+        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+        "description": "The death of Ayatollah Ali Khamenei raised questions about leadership succession as attacks on Iran, and its responses, continued.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "What we know about the US-Israeli attack on Iran and Tehran\u2019s retaliation | CNN",
+        "url": "https://www.cnn.com/2026/02/28/middleeast/israel-attack-iran-intl-hnk",
+        "description": "The United States and Israel have launched a major attack on Iran, which President Donald Trump said would lay waste to the country\u2019s military, obliterate its military program, and could even topple its regime.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Live updates: Iran vows to avenge supreme leader\u2019s death as Israel renews attack on Tehran | CNN",
+        "url": "https://www.cnn.com/world/live-news/israel-iran-attack-02-28-26-hnk-intl",
+        "description": "While the US and Israel claim highly ... smoke rising over a docked Iranian warship. Some suggest it will take at least 48 hours to get solid information \u2013 and more satellite photo evidence \u2013 on how successful the first day of US-Israeli strikes were....",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Israel and Iran exchange fresh attacks after Iran's Supreme Leader Khamenei killed - live updates - BBC News",
+        "url": "https://www.bbc.com/news/live/cn5ge95q6y7t",
+        "description": "This morning in Israel, air raid ... out as Iran continues to fire ballistic missiles. Almost all have been shot down by Israel\u2019s air defence system. But some have got through: in Tel Aviv, a missile strike killed a woman, the first Israeli fatality of this war. The ambulance service says another 120 people have been injured, most of them lightly. ... US Secretary of State Marco Rubio will hold a call ...",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will US or Israel strike Iran first?",
+    "sources_count": 10
+  },
+  "error": null
+}

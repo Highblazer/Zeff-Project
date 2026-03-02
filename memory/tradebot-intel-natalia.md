@@ -4,60 +4,6 @@
 
 *(older entries pruned)*
 
-- **Crypto Brief - February 26, 2026 | Lowenstein Sandler LLP** (impact: 0.4)
-  > Lowenstein Crypto Newsletter By Ethan L. Silver and William Brannan · Lowenstein Crypto advises leading digital asset and cryptocurrency projects, exc
-  Action: LOG for awareness
-
-- **FinancialContent - Federal Legitimacy: How the Stablecoin Regulatory Wave of 2026 is Redefining U.S. Financial Markets** (impact: 0.4)
-  > Federal Legitimacy: How the Stablecoin Regulatory Wave of 2026 is Redefining U.S. Financial Markets
-  Action: LOG for awareness
-
-### 2026-02-27 00:09 UTC
-
-- **Can an Automated Trading Strategy Teach You How to Trade?** (impact: 0.4)
-  > Strategy 3 was originally published on January 14, 2021. You can view the original here. It is still one of my favorite strategies. The edge is proven
-  Action: LOG for awareness
-
-### 2026-02-27 00:15 UTC
-
-- **Can an Automated Trading Strategy Teach You How to Trade?** (impact: 0.4)
-  > Strategy 3 was originally published on January 14, 2021. You can view the original here. It is still one of my favorite strategies. The edge is proven
-  Action: LOG for awareness
-
-### 2026-03-01 00:01 UTC
-
-- **The 2026 AI Cost Crisis: The Rise of One API Aggregation Platforms and Their Potential to Deliver 80% Savings** (impact: 0.46)
-  > SINGAPORE, SINGAPORE, SINGAPORE, March 1, 2026 /EINPresswire.com/ -- As the generative AI market hurtles toward a projected $1 trillion valuation by t
-  Action: LOG for awareness
-
-### 2026-03-01 00:06 UTC
-
-- **MyFxBots Blog | Which Trading Strategies Give You the Edge in 2026 — Practical Guide for Traders** (impact: 0.4)
-  > Which Trading Strategies Give You the Edge in 2026 — Practical Guide for Traders Nova vs Legacy: Risk‑Adjusted Returns That Matter AI in Automated Tra
-  Action: LOG for awareness
-
-### 2026-03-01 01:27 UTC
-
-- **Highest Paying Programming Languages Worldwide in 2026** (impact: 0.4)
-  > In the fast-moving world of technology, software development remains one of the most lucrative career paths. As businesses increasingly automate, digi
-  Action: LOG for awareness
-
-- **Chainguard extends secure libraries to Python, Java, JS** (impact: 0.4)
-  > Chainguard expands its rebuilt-from-source Libraries to Python, Java and JavaScript, targeting malware risks in AI-driven software supply chains.
-  Action: LOG for awareness
-
-### 2026-03-01 02:02 UTC
-
-- **Ads funded by AI industry are flooding the 2026 election. They're about everything except AI.** (impact: 0.4)
-  > Competing super PACs backed by the AI industry are already pouring money into the 2026 midterms, starting with the year’s first primaries in Texas and
-  Action: LOG for awareness
-
-### 2026-03-01 02:17 UTC
-
-- **Weekly Trader's Stock Market Outlook | Charles Schwab** (impact: 0.52)
-  > Major indices are on track for modest losses as investors navigate concerns around AI disruption, private credit, and geopolitics.
-  Action: LOG for awareness
-
 - **XRP Price Prediction for March: Rally, Stuck, or Drop Below $1?** (impact: 0.4)
   > XRP price prediction for March 2026 highlights capitulation signals, seasonality strength and importance of defending $1.27 support level.
   Action: LOG for awareness
@@ -198,5 +144,59 @@
 
 - **Global Crypto Policy Review Outlook 2025/26 Report | TRM Labs** (impact: 0.4)
   > In 2026, <strong>we will be watching for more licensing activity, as well as whether the regulator will step up enforcement action against unlicensed 
+  Action: LOG for awareness
+
+### 2026-03-01 09:58 UTC
+
+- **March 2026 Monthly | Seeking Alpha** (impact: 0.4)
+  > March seems to be more about the unfolding of current forces driving the capital markets rather than new forces or policies. Read more here.
+  Action: LOG for awareness
+
+### 2026-03-01 12:37 UTC
+
+- **pandas 3.0 Lands Breaking Changes and Other Python News for February 2026 – Real Python** (impact: 0.4)
+  > Catch up on the latest Python news: pandas 3.0 breaking changes, Python 3.15 alpha JIT gains, PyTorch 2.10 deprecations, and PSF updates.
+  Action: LOG for awareness
+
+### 2026-03-01 13:28 UTC
+
+- **Week Ahead Economic Preview: Week of 2 March 2026 | S&P Global** (impact: 0.4)
+  > The week ahead sees PMI data for manufacturing and services released around the world, providing a prelude to the publication of the monthly US employ
+  Action: LOG for awareness
+
+- **Top Market Opportunity in 2026: A Rise in Volatility Across Markets** (impact: 0.4)
+  > Risk appetite swelled and collapsed across the markets after the Liberation Day reciprocal tariffs were announced in April and reversed soon after · W
+  Action: LOG for awareness
+
+### 2026-03-01 13:43 UTC
+
+- **BPInsights: February 28, 2026 - Bank Policy Institute** (impact: 0.4)
+  > FinCEN Should Reassert Leadership of AML Policy The U.S. Treasury Department’s Financial Crimes Enforcement Network should reclaim its role in dictati
+  Action: LOG for awareness
+
+- **Central bank scanner: Rate cuts will abate in 2026** (impact: 0.4)
+  > Core inflation remains above the central bank’s target range. A third quarter contraction pulled down Banxico’s growth forecast for 2025, which was a 
+  Action: LOG for awareness
+
+### 2026-03-01 14:09 UTC
+
+- **Iran Attacks: How Oil, Stock Markets Could React to New Middle East War - Business Insider** (impact: 0.4)
+  > The attacks on Iran are likely to send oil prices surging. Barclays says Brent crude could test $100 a barrel on Monday.
+  Action: LOG for awareness
+
+### 2026-03-01 14:15 UTC
+
+- **Fear Index at 14: Where Does Global Crypto Regulation Stand in March 2026?** (impact: 0.4)
+  > With the Fear & Greed Index at ... peak, regulatory clarity has never mattered more. We compare frameworks across the US, EU, South Korea, Japan, and 
+  Action: LOG for awareness
+
+- **Top 5 Cryptocurrencies for Long-Term Investment in 2026: BTC, ETH, and SOL Analysis - MoneyCheck** (impact: 0.4)
+  > Explore the top 5 cryptocurrencies for long-term investment in 2026: Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Chainlink (LINK), and Avalanche (AVA
+  Action: LOG for awareness
+
+### 2026-03-01 14:45 UTC
+
+- **Enterprises Are Spending 15% More on Software in 2026, Thanks to AI. Here's How to Profit. | The Motley Fool** (impact: 0.4)
+  > This is a rare opportunity to buy these software leaders at a discount.
   Action: LOG for awareness
 

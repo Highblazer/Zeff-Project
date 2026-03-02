@@ -1,0 +1,85 @@
+{
+  "id": "17245944",
+  "title": "Polymarket research: Will Jordan Spieth win the 2026 Masters tournament?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Jordan Spieth win the 2026 Masters tournament?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:15.768565+00:00",
+  "updated_at": "2026-03-01T16:31:05.027021+00:00",
+  "claimed_at": "2026-03-01T16:31:03.253571+00:00",
+  "completed_at": "2026-03-01T16:31:05.027004+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Jordan Spieth win the 2026 Masters tournament?\n\nWeb Results (5):\n- 5 (extremely) bold predictions for the 2026 PGA Tour season: The second player who will accomplish it this year? He&#x27;ll actually do it before Scheffler, and that&#x27;s Jordan Spieth, who <strong>will win th\n- Jordan Spieth Has Made A Big Prediction For His 2026 Season - Yahoo Sports: With a Masters, Open Championship and U.S. Open under his belt, Spieth needs to win a PGA Championship to join McIlroy, Tiger, Jack and all of those o\n- Masters Tournament 2026: How players qualified for 90th edition - Golf Channel: Here\u2019s a look at players who are eligible to compete, based on the tournament\u2019s qualifying criteria. Players are listed only in the first category for\n- Jordan Spieth 2026 Golf Tournaments Played - ESPN: View the 2026 golf tournament results for Jordan Spieth on ESPN. Includes tournaments played, final position and earnings.\n- Jordan Spieth predicts the score which will win the tournament at Pebble Beach as he expects big change - Yahoo Sports: Whoever wins this week will be the player who can master the conditions, and with all his experience, <strong>Spieth is in prime position to do that.<\n\nNews (5):\n- 2026 Masters odds, picks: Proven golf model reveals projected leaderboard, surprising predictions - SportsLine.com (3 days ago)\n- Masters winners: Full list of champions, scores, results and records - Golf Channel (2 weeks ago)\n- 5 (extremely) bold predictions for the 2026 PGA Tour season (January 4, 2026)\n- Jordan Spieth got his 'weapon' back but has work to do before the Masters (1 week ago)\n- Why Jordan Spieth could regret skipping this year\u2019s Cognizant Classic - Yahoo Sports (1 day ago)",
+    "web_results": [
+      {
+        "title": "5 (extremely) bold predictions for the 2026 PGA Tour season",
+        "url": "https://golfweek.usatoday.com/story/sports/golf/pga/2026/01/04/bold-predictions-2026-pga-tour-season/88018572007/",
+        "description": "The second player who will accomplish it this year? He&#x27;ll actually do it before Scheffler, and that&#x27;s Jordan Spieth, who <strong>will win the PGA Championship at Aronimink for his fourth major</strong>."
+      },
+      {
+        "title": "Jordan Spieth Has Made A Big Prediction For His 2026 Season - Yahoo Sports",
+        "url": "https://sports.yahoo.com/article/jordan-spieth-made-big-prediction-213341797.html",
+        "description": "With a Masters, Open Championship and U.S. Open under his belt, Spieth needs to win a PGA Championship to join McIlroy, Tiger, Jack and all of those other legends. ... It&#x27;s just going to be hard to take Spieth seriously as a real contender until he finally starts winning events again. In the eight years since he won the 2017 Open Championship he has won a grand total of two events and none since the 2022 RBC Heritage. Related: Jordan Spieth And His Girlfriend Annie Verret Have Gotten Engaged"
+      },
+      {
+        "title": "Masters Tournament 2026: How players qualified for 90th edition - Golf Channel",
+        "url": "https://www.golfchannel.com/pga-tour/news/masters-tournament-2026-how-players-qualified-for-90th-edition",
+        "description": "Here\u2019s a look at players who are eligible to compete, based on the tournament\u2019s qualifying criteria. Players are listed only in the first category for which they are eligible (a = amateur): Rory McIlroy \u00b7 Scottie Scheffler \u00b7 Jon Rahm \u00b7 Hideki Matsuyama \u00b7 Dustin Johnson \u00b7 Tiger Woods \u00b7 Patrick Reed \u00b7 Sergio Garcia \u00b7 Danny Willett \u00b7 Jordan Spieth \u00b7"
+      },
+      {
+        "title": "Jordan Spieth 2026 Golf Tournaments Played - ESPN",
+        "url": "https://www.espn.com/golf/player/results/_/id/5467/jordan-spieth",
+        "description": "View the 2026 golf tournament results for Jordan Spieth on ESPN. Includes tournaments played, final position and earnings."
+      },
+      {
+        "title": "Jordan Spieth predicts the score which will win the tournament at Pebble Beach as he expects big change - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/jordan-spieth-predicts-score-win-143000866.html",
+        "description": "Whoever wins this week will be the player who can master the conditions, and with all his experience, <strong>Spieth is in prime position to do that.</strong>"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "2026 Masters odds, picks: Proven golf model reveals projected leaderboard, surprising predictions - SportsLine.com",
+        "url": "https://sportsline.com/insiders/2026-masters-odds-picks-proven-golf-model-reveals-projected-leaderboard-surprising-predictions",
+        "description": "With the West Coast Swing of the PGA Tour in the rearview mirror, that means the 2026 Masters Tournament is on the horizon. The 90th playing of t...",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Masters winners: Full list of champions, scores, results and records - Golf Channel",
+        "url": "https://www.golfchannel.com/pga-tour/masters-winners-champions-results-scores-records-every-year",
+        "description": "The players who have prevailed at the Masters Tournament, from 1934-2025, and their winning scores.",
+        "age": "2 weeks ago"
+      },
+      {
+        "title": "5 (extremely) bold predictions for the 2026 PGA Tour season",
+        "url": "https://golfweek.usatoday.com/story/sports/golf/pga/2026/01/04/bold-predictions-2026-pga-tour-season/88018572007/",
+        "description": "Here's a look at five (extremely) bold predictions for the 2026 PGA Tour season.",
+        "age": "January 4, 2026"
+      },
+      {
+        "title": "Jordan Spieth got his 'weapon' back but has work to do before the Masters",
+        "url": "https://golf.com/news/jordan-spieth-putting-masters-weapon/",
+        "description": "Jordan Spieth believes he got his \"weapon\" back during a confidence-building West Coast swing. But he has work to do before the Masters arrives.",
+        "age": "1 week ago"
+      },
+      {
+        "title": "Why Jordan Spieth could regret skipping this year\u2019s Cognizant Classic - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/why-jordan-spieth-could-regret-102226960.html",
+        "description": "With the PGA Tour schedule picking up pace, Jordan Spieth is among several top players who\u2019ve chosen to sit out this week\u2019s Cognizant Classic. Surrounded by four major stops on the calendar, the Cognizant Classic has struggled to draw a strong field.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will Jordan Spieth win the 2026 Masters tournament?",
+    "sources_count": 10
+  },
+  "error": null
+}

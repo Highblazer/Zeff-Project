@@ -1,0 +1,85 @@
+{
+  "id": "8cf6d65f",
+  "title": "Polymarket research: Spread: Golden Knights (-1.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Golden Knights (-1.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:36:22.676124+00:00",
+  "updated_at": "2026-03-01T16:36:42.078006+00:00",
+  "claimed_at": "2026-03-01T16:36:40.379458+00:00",
+  "completed_at": "2026-03-01T16:36:42.077992+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Golden Knights (-1.5)\n\nWeb Results (5):\n- Golden Knights vs. Penguins Prediction & Odds | NHL Picks for Sunday, March 1: The odds for the Golden Knights spread (-1.5) lengthened from +145 to <strong>+160</strong>.\n- Vegas Golden Knights at Pittsburgh Penguins odds, picks and predictions: Puck line (PL)/Against the spread (ATS): <strong>Golden Knights -1.5 (+155)</strong> | Penguins +1.5 (-190)\n- Kings vs Golden Knights NHL Prediction, Odds, Picks, Best Bets for Feb. 25 | FanDuel Research: The Golden Knights are underdogs by 1.5 goals. The Golden Knights are <strong>-225</strong> to cover the spread, and the Kings are +180.\n- Vegas Golden Knights vs Pittsburgh Penguins Odds - SportsBetting3.com: The Vegas Golden Knights are <strong>-1.5 +155 puck line favorites</strong> at BetMGM, while the Pittsburgh Penguins are +1.5 -190 puck line underdogs\n- How to watch Golden Knights vs. Penguins: TV channel and streaming ...: The Vegas Golden Knights (28-17-14) ... TNT. The Golden Knights are fourth (with 70 points) in the Western Conference and the Penguins are sixth (73 p\n\nNews (5):\n- Golden Knights vs Penguins Prediction, Picks & Odds for Today\u2019s NHL Game (3 hours ago)\n- Golden Knights vs. Penguins Prediction & Odds | NHL Picks for Sunday, March 1 (6 hours ago)\n- Capitals vs. Golden Knights Prediction, Odds, Picks - Feb. 27 | FOX Sports (3 days ago)\n- How to watch Golden Knights vs. Penguins: TV channel and streaming options for March 1 - The Athletic (6 hours ago)\n- Vegas Golden Knights must answer on William Karlsson before NHL trade deadline | Golden Knights | Sports (16 hours ago)",
+    "web_results": [
+      {
+        "title": "Golden Knights vs. Penguins Prediction & Odds | NHL Picks for Sunday, March 1",
+        "url": "https://www.sportsbookreview.com/picks/nhl/golden-knights-vs-penguins-prediction-odds-picks-march-1-2026/",
+        "description": "The odds for the Golden Knights spread (-1.5) lengthened from +145 to <strong>+160</strong>."
+      },
+      {
+        "title": "Vegas Golden Knights at Pittsburgh Penguins odds, picks and predictions",
+        "url": "https://eu.aledotimesrecord.com/story/sports/nhl/2026/03/01/golden-knights-at-penguins-odds-picks-and-predictions/88927519007/",
+        "description": "Puck line (PL)/Against the spread (ATS): <strong>Golden Knights -1.5 (+155)</strong> | Penguins +1.5 (-190)"
+      },
+      {
+        "title": "Kings vs Golden Knights NHL Prediction, Odds, Picks, Best Bets for Feb. 25 | FanDuel Research",
+        "url": "https://www.fanduel.com/research/kings-vs-golden-knights-prediction-nhl-odds-2-25-2026",
+        "description": "The Golden Knights are underdogs by 1.5 goals. The Golden Knights are <strong>-225</strong> to cover the spread, and the Kings are +180."
+      },
+      {
+        "title": "Vegas Golden Knights vs Pittsburgh Penguins Odds - SportsBetting3.com",
+        "url": "https://www.sportsbetting3.com/nhl-matchups/vegas-golden-knights-vs-pittsburgh-penguins-nhl-betting-odds",
+        "description": "The Vegas Golden Knights are <strong>-1.5 +155 puck line favorites</strong> at BetMGM, while the Pittsburgh Penguins are +1.5 -190 puck line underdogs at BetMGM."
+      },
+      {
+        "title": "How to watch Golden Knights vs. Penguins: TV channel and streaming ...",
+        "url": "https://www.nytimes.com/athletic/7078612/2026/03/01/golden-knights-vs-penguins-stream-how-to-watch-march-1/",
+        "description": "The Vegas Golden Knights (28-17-14) ... TNT. The Golden Knights are fourth (with 70 points) in the Western Conference and the Penguins are sixth (73 points) in the Eastern Conference. ... Time: 1 p.m. ET ... Watching in person? Get tickets on StubHub. Puck Line: Vegas -1.5 (+155), Pittsburgh ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Golden Knights vs Penguins Prediction, Picks & Odds for Today\u2019s NHL Game",
+        "url": "https://www.covers.com/nhl/golden-knights-vs-penguins-prediction-picks-best-bets-sgp-sunday-3-1-2026",
+        "description": "Let\u2019s take a closer look at my NHL picks for Sunday, March 1. Golden Knights vs Penguins best bet: Mark Stone Over 0.5 assists (-135)",
+        "age": "3 hours ago"
+      },
+      {
+        "title": "Golden Knights vs. Penguins Prediction & Odds | NHL Picks for Sunday, March 1",
+        "url": "https://www.sportsbookreview.com/picks/nhl/golden-knights-vs-penguins-prediction-odds-picks-march-1-2026/",
+        "description": "The odds for the Golden Knights spread (-1.5) lengthened from +145 to +160.",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "Capitals vs. Golden Knights Prediction, Odds, Picks - Feb. 27 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/nhl/capitals-vs-golden-knights-prediction-odds-picks-feb-27",
+        "description": "The two teams combine to score 6.6 goals per game, 1.1 more than this game's total. These teams surrender 5.9 goals per game combined, 0.4 more than the over/under for this game. The Golden Knights are eighth in the league in goals scored, compared to the 12th-ranked Capitals.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "How to watch Golden Knights vs. Penguins: TV channel and streaming options for March 1 - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7078612/2026/03/01/golden-knights-vs-penguins-stream-how-to-watch-march-1/",
+        "description": "The Vegas Golden Knights (28-17-14) ... TNT. The Golden Knights are fourth (with 70 points) in the Western Conference and the Penguins are sixth (73 points) in the Eastern Conference. ... Time: 1 p.m. ET ... Watching in person? Get tickets on StubHub. Puck Line: Vegas -1.5 (+155), Pittsburgh ...",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "Vegas Golden Knights must answer on William Karlsson before NHL trade deadline | Golden Knights | Sports",
+        "url": "https://www.reviewjournal.com/sports/goldenknights/4-questions-surrounding-the-golden-knights-ahead-of-trade-deadline-3713305/",
+        "description": "The NHL\u2019s trade deadline is Friday, and the Golden Knights are expected to be involved in some capacity. But how big will they swing?",
+        "age": "16 hours ago"
+      }
+    ],
+    "query": "Spread: Golden Knights (-1.5)",
+    "sources_count": 10
+  },
+  "error": null
+}

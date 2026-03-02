@@ -1,0 +1,28 @@
+{
+  "id": "c939ea31",
+  "title": "Polymarket research: Will Lille OSC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Lille OSC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T22:14:53.199248+00:00",
+  "updated_at": "2026-03-01T22:15:11.299908+00:00",
+  "claimed_at": "2026-03-01T22:15:09.596638+00:00",
+  "completed_at": "2026-03-01T22:15:11.299891+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Lille OSC win on 2026-03-01?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Lille OSC win on 2026-03-01?",
+    "sources_count": 0
+  },
+  "error": null
+}

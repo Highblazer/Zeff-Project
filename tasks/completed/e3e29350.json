@@ -1,0 +1,28 @@
+{
+  "id": "e3e29350",
+  "title": "Polymarket research: Spread: Golden Knights (-1.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Golden Knights (-1.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T19:44:41.442700+00:00",
+  "updated_at": "2026-03-01T19:45:06.064942+00:00",
+  "claimed_at": "2026-03-01T19:45:05.008572+00:00",
+  "completed_at": "2026-03-01T19:45:06.064925+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Golden Knights (-1.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Golden Knights (-1.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

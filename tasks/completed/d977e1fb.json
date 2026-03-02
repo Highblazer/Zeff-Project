@@ -1,0 +1,85 @@
+{
+  "id": "d977e1fb",
+  "title": "Polymarket research: LoL: Gen.G vs BNK FEARX (BO5) - LCK Cup Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Gen.G vs BNK FEARX (BO5) - LCK Cup Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T09:45:13.291886+00:00",
+  "updated_at": "2026-03-01T09:45:28.791708+00:00",
+  "claimed_at": "2026-03-01T09:45:27.485134+00:00",
+  "completed_at": "2026-03-01T09:45:28.791695+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Gen.G vs BNK FEARX (BO5) - LCK Cup Playoffs\n\nWeb Results (5):\n- r/leagueoflegends on Reddit: Gen.G vs. BNK FEARX / LCK Cup 2026 Playoffs - Upper Bracket Finals / Post-Match Discussion: 580 votes, 296 comments. LCK CUP 2026 PLAYOFFS Official page | Leaguepedia | Liquipedia | Eventvods.com | New to LoL <strong>Gen.G 3-1 BNK FEARX</stro\n- GEN - BFX, March 1, 2026 - match stream, live broadcast - LCK Cup 2026 - LoL \u2014 Escorenews: Live Streams <strong>March 1, 2026</strong> Gen.G vs BNK FearX on LCK Cup 2026 LoL. Phase 2 / Final\n- FEARX vs. Gen.G Odds & Predictions (Mar. 1, 2026) | Polymarket: Real-time League of Legends trading odds for FEARX vs. Gen.G on <strong>Mar. 1, 2026</strong>. Predict the winner and track live stats on Polymarket.\n- LoL: Gen.G vs BNK FEARX (BO5) - LCK Cup Playoffs: <strong>LoL: Gen.G vs BNK FEARX (BO5) - LCK Cup Playoffs</strong> | Predict\n- GEN vs BFX Highlights ALL GAMES | LCK CUP 2026 Playoffs | Gen.G vs BNK FEARX - YouTube: Check out more OPLoLReplay Videos Here:- https://www.youtube.com/watch?v=efCeUGIGPRE\u2713 Turn on the &#x27;\ud83d\udd14&#x27; to get notifications for new uploads!D\n\nNews (5):\n- BNK FEARX qualify for First Stand 2026 against all odds (19 hours ago)\n- LCK Cup 2026 Playoffs: Gen.G and BNK FearX Advance as T1 Faces Elimination Gauntlet - Inven Global (1 week ago)\n- LoL: BNK FEARX vs Dplus KIA (BO5) - LCK Cup Playoffs (2 days ago)\n- Diable dazzles as BFX clinch LCK Cup finals slot, First Stand 2026 ticket (17 hours ago)\n- Gen.G vs FEARX in League of Legends LCK Cup 2026 Grand Final: Prediction, livestream details, and more (17 hours ago)",
+    "web_results": [
+      {
+        "title": "r/leagueoflegends on Reddit: Gen.G vs. BNK FEARX / LCK Cup 2026 Playoffs - Upper Bracket Finals / Post-Match Discussion",
+        "url": "https://www.reddit.com/r/leagueoflegends/comments/1raoqz9/geng_vs_bnk_fearx_lck_cup_2026_playoffs_upper/",
+        "description": "580 votes, 296 comments. LCK CUP 2026 PLAYOFFS Official page | Leaguepedia | Liquipedia | Eventvods.com | New to LoL <strong>Gen.G 3-1 BNK FEARX</strong> - Gen.G\u2026"
+      },
+      {
+        "title": "GEN - BFX, March 1, 2026 - match stream, live broadcast - LCK Cup 2026 - LoL \u2014 Escorenews",
+        "url": "https://escorenews.com/en/lol/lck-cup-2026/playoff/gen-g-vs-fearx-633511",
+        "description": "Live Streams <strong>March 1, 2026</strong> Gen.G vs BNK FearX on LCK Cup 2026 LoL. Phase 2 / Final"
+      },
+      {
+        "title": "FEARX vs. Gen.G Odds & Predictions (Mar. 1, 2026) | Polymarket",
+        "url": "https://polymarket.com/sports/league-of-legends/lol-gen-fox1-2026-03-01",
+        "description": "Real-time League of Legends trading odds for FEARX vs. Gen.G on <strong>Mar. 1, 2026</strong>. Predict the winner and track live stats on Polymarket."
+      },
+      {
+        "title": "LoL: Gen.G vs BNK FEARX (BO5) - LCK Cup Playoffs",
+        "url": "https://predict.fun/market/lol-gen-fox1-2026-02-21",
+        "description": "<strong>LoL: Gen.G vs BNK FEARX (BO5) - LCK Cup Playoffs</strong> | Predict"
+      },
+      {
+        "title": "GEN vs BFX Highlights ALL GAMES | LCK CUP 2026 Playoffs | Gen.G vs BNK FEARX - YouTube",
+        "url": "https://www.youtube.com/watch?v=DIxUqqStKgw",
+        "description": "Check out more OPLoLReplay Videos Here:- https://www.youtube.com/watch?v=efCeUGIGPRE\u2713 Turn on the &#x27;\ud83d\udd14&#x27; to get notifications for new uploads!DISCLAIMER:This C..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "BNK FEARX qualify for First Stand 2026 against all odds",
+        "url": "https://www.strafe.com/news/read/bnk-fearx-qualify-for-first-stand-2026-against-all-odds/",
+        "description": "BNK FEARX defeated Dplus KIA at the 2026 LCK Cup Lower Finals and will join Gen.G at First Stand.",
+        "age": "19 hours ago"
+      },
+      {
+        "title": "LCK Cup 2026 Playoffs: Gen.G and BNK FearX Advance as T1 Faces Elimination Gauntlet - Inven Global",
+        "url": "https://www.invenglobal.com/articles/20218/lck-cup-2026-playoffs-geng-and-bnk-fearx-advance-as-t1-faces-elimination-gauntlet",
+        "description": "Gen.G and BNK FearX have secured the first two berths to Hong Kong following the opening week of the 2026 LCK Cup Playoffs, setting the stage for a tense race for the final remaining spot. Their victo",
+        "age": "1 week ago"
+      },
+      {
+        "title": "LoL: BNK FEARX vs Dplus KIA (BO5) - LCK Cup Playoffs",
+        "url": "https://mlq.ai/prediction/market/lol-fox1-dk-2026-02-28/",
+        "description": "This market refers to the LoL match between BNK FEARX and Dplus KIA in the LCK Cup Playoffs, scheduled for February 28 at 3:00AM ET. This market will resolve to \"BNK FEARX\" if BNK FEARX win the matc\u2026",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Diable dazzles as BFX clinch LCK Cup finals slot, First Stand 2026 ticket",
+        "url": "https://dotesports.com/league-of-legends/news/diable-bfx-lck-finals-first-stand-2026",
+        "description": "Published: Feb 28, 2026 11:31 am \u00b7 After a setback against Gen.G in the upper bracket, BNK FEARX stormed through the lower bracket with a commanding 3-0 sweep of Dplus KIA to book a rematch in the LCK Cup finals",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Gen.G vs FEARX in League of Legends LCK Cup 2026 Grand Final: Prediction, livestream details, and more",
+        "url": "https://sportskeeda.com/esports/gen-g-vs-fearx-league-legends-lck-cup-2026-grand-final",
+        "description": "With the League of Legends LCK Cup 2026 reaching its concluding stage, Gen. G and FEARX will face off in the Grand Final on March 1, 2026.",
+        "age": "17 hours ago"
+      }
+    ],
+    "query": "LoL: Gen.G vs BNK FEARX (BO5) - LCK Cup Playoffs",
+    "sources_count": 10
+  },
+  "error": null
+}

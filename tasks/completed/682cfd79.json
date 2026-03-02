@@ -1,0 +1,28 @@
+{
+  "id": "682cfd79",
+  "title": "Polymarket research: LoL: G2 Esports vs Karmine Corp (BO5) - LEC Versus Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: G2 Esports vs Karmine Corp (BO5) - LEC Versus Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T17:44:23.978432+00:00",
+  "updated_at": "2026-03-01T17:44:29.988133+00:00",
+  "claimed_at": "2026-03-01T17:44:28.933909+00:00",
+  "completed_at": "2026-03-01T17:44:29.988116+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: G2 Esports vs Karmine Corp (BO5) - LEC Versus Playoffs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: G2 Esports vs Karmine Corp (BO5) - LEC Versus Playoffs",
+    "sources_count": 0
+  },
+  "error": null
+}

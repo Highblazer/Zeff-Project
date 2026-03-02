@@ -1,0 +1,85 @@
+{
+  "id": "c5b8f51e",
+  "title": "Polymarket research: Will Brighton & Hove Albion FC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Brighton & Hove Albion FC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:14.065646+00:00",
+  "updated_at": "2026-03-01T16:30:42.561145+00:00",
+  "claimed_at": "2026-03-01T16:30:40.676557+00:00",
+  "completed_at": "2026-03-01T16:30:42.561127+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Brighton & Hove Albion FC win on 2026-03-01?\n\nWeb Results (5):\n- Fixtures - First Team Men: Brighton &amp; Hove Albion \u00b7 BHA \u00b7 01 Mar 2026 2:00 PM American Express Stadium \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 7 \u00b7 8 \u00b7 9 \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 \n- Brighton & Hove Albion - Nottingham Forest FC prediction & tips 01.03.2026: <strong>Brighton &amp; Hove Albion welcome Nottingham Forest to the Amex Stadium on Sunday, March 1st, 2026, at 15:00 for Matchday 28 of the Premier L\n- Brighton and Hove Albion Fixtures & Results 2025/2026 | Premier League: View Brighton and Hove Albion scores, fixtures and results for matches played in all competitions, on the official website of the Premier League.\n- Brighton & Hove Albion: 01 Mar 2026 2:00 PM American Express Stadium \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 7 \u00b7 8 \u00b7 9 \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 7 \u00b7 8 \u00b7 9 \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7\n- Brighton vs Nottingham Forest prediction, betting tips, odds, head to head, and more!: Prediction for Brighton vs Nottingham Forest in the Premier League, taking place on 01/03/2026. Analysis, odds, and everything you need to bet on the \n\nNews (5):\n- Brighton & Hove Albion vs. Nottingham Forest Prediction, Picks, Live Odds - March 1 - Bleacher Nation (12 hours ago)\n- Brighton vs Nottingham Forest LIVE Score Updates: A flurry of goals at the start (2-1) | 03/01/2026 - VAVEL USA (2 hours ago)\n- Brighton\u2019s James Milner unsure whether he will continue playing next season - The Athletic (2 days ago)\n- Preview: Brighton & Hove Albion vs. Nottingham Forest - prediction, team news, lineups - Sports Mole (2 days ago)\n- Brighton & Hove Albion - Nottingham Forest FC prediction & tips 01.03.2026 (4 days ago)",
+    "web_results": [
+      {
+        "title": "Fixtures - First Team Men",
+        "url": "https://www.brightonandhovealbion.com/fixtures-first-team-men",
+        "description": "Brighton &amp; Hove Albion \u00b7 BHA \u00b7 01 Mar 2026 2:00 PM American Express Stadium \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 7 \u00b7 8 \u00b7 9 \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 7 \u00b7 8 \u00b7 9 \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 7 \u00b7 8 \u00b7 9 \u00b7 : 0 \u00b7 1 \u00b7 2 \u00b7 0 \u00b7 1 \u00b7 2 \u00b7"
+      },
+      {
+        "title": "Brighton & Hove Albion - Nottingham Forest FC prediction & tips 01.03.2026",
+        "url": "https://www.transfermarkt.com/betting/tips/brighton-hove-albion-vs-nottingham-forest-prediction-01-03-2026/",
+        "description": "<strong>Brighton &amp; Hove Albion welcome Nottingham Forest to the Amex Stadium on Sunday, March 1st, 2026, at 15:00 for Matchday 28 of the Premier League season</strong>. The Seagulls currently occupy 14th position with 34 points from 27 matches, while Forest ..."
+      },
+      {
+        "title": "Brighton and Hove Albion Fixtures & Results 2025/2026 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/36/brighton-and-hove-albion/matches",
+        "description": "View Brighton and Hove Albion scores, fixtures and results for matches played in all competitions, on the official website of the Premier League."
+      },
+      {
+        "title": "Brighton & Hove Albion",
+        "url": "https://www.brightonandhovealbion.com/home",
+        "description": "01 Mar 2026 2:00 PM American Express Stadium \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 7 \u00b7 8 \u00b7 9 \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 7 \u00b7 8 \u00b7 9 \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 7 \u00b7 8 \u00b7 9 \u00b7 : 0 \u00b7 1 \u00b7 2 \u00b7 0 \u00b7 1 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 \u00b7 6 \u00b7 7 \u00b7 8 \u00b7"
+      },
+      {
+        "title": "Brighton vs Nottingham Forest prediction, betting tips, odds, head to head, and more!",
+        "url": "https://www.apwin.com/predictions/brighton-hove-albion-vs-nottingham-forest-prediction-premier-league-01-03-2026/",
+        "description": "Prediction for Brighton vs Nottingham Forest in the Premier League, taking place on 01/03/2026. Analysis, odds, and everything you need to bet on the game!"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Brighton & Hove Albion vs. Nottingham Forest Prediction, Picks, Live Odds - March 1 - Bleacher Nation",
+        "url": "https://www.bleachernation.com/picks/2026/02/28/brighton-hove-albion-vs-nottingham-forest-prediction-picks-live-odds-march-1/",
+        "description": "Brighton & Hove Albion (14th) and Nottingham Forest (17th) are both in the bottom half of the table, and they square off in the Premier League on Sunday.",
+        "age": "12 hours ago"
+      },
+      {
+        "title": "Brighton vs Nottingham Forest LIVE Score Updates: A flurry of goals at the start (2-1) | 03/01/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/03/01/1252493-brighton-vs-nottingham-live-score-premier-league.html",
+        "description": "Get real-time updates on Brighton vs Nottingham live coverage, minute by minute of the match, score, how to watch, stream information and latest updates of 2025-26 Premier League Matchday 28 with VAVEL. Game will start at 9:00 AM ET on march 1st, 2025.",
+        "age": "2 hours ago"
+      },
+      {
+        "title": "Brighton\u2019s James Milner unsure whether he will continue playing next season - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7070384/2026/02/27/james-milner-brighton-future-record/",
+        "description": "The 40-year-old midfielder broke Gareth Barry's record of 653 games by starting Brighton's 2-0 win at Brentford.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Preview: Brighton & Hove Albion vs. Nottingham Forest - prediction, team news, lineups - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/brighton-and-hove-albion/relegation-battle/preview/brighton-vs-nottm-forest-prediction-team-news-lineups_592840.html",
+        "description": "Sports Mole previews Sunday's Premier League clash between Brighton & Hove Albion and Nottingham Forest, including predictions, team news and possible lineups.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Brighton & Hove Albion - Nottingham Forest FC prediction & tips 01.03.2026",
+        "url": "https://www.transfermarkt.com/betting/tips/brighton-hove-albion-vs-nottingham-forest-prediction-01-03-2026/",
+        "description": "Prediction & betting tips for Brighton & Hove Albion vs. Nottingham Forest FC at the Premier League 2025/2026.",
+        "age": "4 days ago"
+      }
+    ],
+    "query": "Will Brighton & Hove Albion FC win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

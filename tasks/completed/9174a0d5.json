@@ -1,0 +1,85 @@
+{
+  "id": "9174a0d5",
+  "title": "Polymarket research: Will Chelsea FC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Chelsea FC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T17:01:02.220456+00:00",
+  "updated_at": "2026-03-01T17:01:14.119645+00:00",
+  "claimed_at": "2026-03-01T17:01:12.347678+00:00",
+  "completed_at": "2026-03-01T17:01:14.119629+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Chelsea FC win on 2026-03-01?\n\nWeb Results (5):\n- 01/03/2026 - Chelsea - Premier League - Men - H: Browse all the build up, action, reports and reaction from Arsenal vs Chelsea, including match highlights video and post-match analysis after the fina\n- Arsenal vs Chelsea Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026: Arsenal vs Chelsea \u00b7 EFL Cup: 03/02 2026 Arsenal 1 Chelsea 0 \u00b7 EFL Cup: 14/01 2026 Chelsea 2 Arsenal 3 \u00b7 Premier League: 30/11 2025 Chelsea 1 Arsenal \n- 2025\u201326 Chelsea F.C. season - Wikipedia: The 2025\u201326 season is the 120th season in the history of Chelsea Football Club, and their 34th consecutive season in Premier League as well as their 3\n- Chelsea Fixtures & Results 2025/2026 | Premier League: View Chelsea scores, fixtures and results for matches played in all competitions, on the official website of the Premier League.\n- Arsenal vs Chelsea LIVE Score Updates: Inicia el derbi en el Emirates Stadium (0-0) | 03/01/2026 - VAVEL USA: Get real-time updates on Arsenal vs Chelsea live coverage, minute by minute of the match, score, stream information and latest updates of the 2025-26 \n\nNews (5):\n- Arsenal vs Chelsea Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026 (2 days ago)\n- Champions League last-16 draw: Date, time, how to watch & who Chelsea can face (3 days ago)\n- Arsenal FC vs. Chelsea FC Prediction, Odds, Picks - Mar 1 | FOX Sports (17 hours ago)\n- Champions League last 16: Manchester City face Real Madrid; Europa League draw \u2013 as it happened | Football | The Guardian (2 days ago)\n- Arsenal vs. Chelsea LIVE Updates: Minute-by-Minute Coverage of the 2025-26 Premier League Match - World Soccer Talk (2 hours ago)",
+    "web_results": [
+      {
+        "title": "01/03/2026 - Chelsea - Premier League - Men - H",
+        "url": "https://www.arsenal.com/fixture/arsenal/2026-Mar-01/chelsea",
+        "description": "Browse all the build up, action, reports and reaction from Arsenal vs Chelsea, including match highlights video and post-match analysis after the final whistle."
+      },
+      {
+        "title": "Arsenal vs Chelsea Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/arsenal-vs-chelsea-prediction-lineups-odds-2026-03-01/",
+        "description": "Arsenal vs Chelsea \u00b7 EFL Cup: 03/02 2026 Arsenal 1 Chelsea 0 \u00b7 EFL Cup: 14/01 2026 Chelsea 2 Arsenal 3 \u00b7 Premier League: 30/11 2025 Chelsea 1 Arsenal 1 \u00b7 Premier League: 16/03 2025 Arsenal 1 Chelsea 0 \u00b7 Premier League: 10/11 2024 Chelsea 1 Arsenal 1 \u00b7 Premier League: 23/04 2024 Arsenal 5 Chelsea 0 \u00b7"
+      },
+      {
+        "title": "2025\u201326 Chelsea F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Chelsea_F.C._season",
+        "description": "The 2025\u201326 season is the 120th season in the history of Chelsea Football Club, and their 34th consecutive season in Premier League as well as their 37th consecutive season in the English top flight. In addition to the domestic league, the club is participating in the FA Cup, the EFL Cup ..."
+      },
+      {
+        "title": "Chelsea Fixtures & Results 2025/2026 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/8/chelsea/matches",
+        "description": "View Chelsea scores, fixtures and results for matches played in all competitions, on the official website of the Premier League."
+      },
+      {
+        "title": "Arsenal vs Chelsea LIVE Score Updates: Inicia el derbi en el Emirates Stadium (0-0) | 03/01/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/03/01/1252546-arsenal-vs-chelsea-live-score-premier-league.html",
+        "description": "Get real-time updates on Arsenal vs Chelsea live coverage, minute by minute of the match, score, stream information and latest updates of the 2025-26 Premier League Matchday 28 with VAVEL. Game will start at 11:30 AM ET on March 1st, 2026."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Arsenal vs Chelsea Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/arsenal-vs-chelsea-prediction-lineups-odds-2026-03-01/",
+        "description": "Arsenal vs Chelsea prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Champions League last-16 draw: Date, time, how to watch & who Chelsea can face",
+        "url": "https://si.com/onsi/soccer/chelsea/news/champions-league-last-16-draw-date-time-how-to-watch-who-chelsea-can-face-01kjdpxha8rx",
+        "description": "Chelsea will soon discover their fate over who they will face in the 2025/26 Champions League last-16.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "Arsenal FC vs. Chelsea FC Prediction, Odds, Picks - Mar 1 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/soccer/arsenal-fc-vs-chelsea-fc-prediction-odds-picks-mar-1",
+        "description": "Preview the matchup between Arsenal FC and Chelsea FC with predictions, odds, over/under, betting lines and more.",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Champions League last 16: Manchester City face Real Madrid; Europa League draw \u2013 as it happened | Football | The Guardian",
+        "url": "https://theguardian.com/football/live/2026/feb/27/champions-league-draw-premier-league-news-and-more-football-live",
+        "description": "Our writers with the latest news, comment and previews as the draws for the Uefa competitions were made",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Arsenal vs. Chelsea LIVE Updates: Minute-by-Minute Coverage of the 2025-26 Premier League Match - World Soccer Talk",
+        "url": "https://worldsoccertalk.com/amp/news/arsenal-vs-chelsea-live-updates-minute-by-minute-coverage-of-the-2025-26-premier-league-match/",
+        "description": "Arsenal face Chelsea, seeking a victory that would consolidate them as the undisputed leaders of the Premier League. While the Gunners arrive as clear favorites, the Blues come in full form, promising a highly competitive match.",
+        "age": "2 hours ago"
+      }
+    ],
+    "query": "Will Chelsea FC win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

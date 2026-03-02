@@ -1,0 +1,128 @@
+{
+  "id": "48e136a1",
+  "title": "breaking forex market news March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "breaking forex market news March 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-01T13:38:54.982572+00:00",
+  "updated_at": "2026-03-01T13:38:56.380270+00:00",
+  "claimed_at": "2026-03-01T13:38:54.986746+00:00",
+  "completed_at": "2026-03-01T13:38:56.380260+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: breaking forex market news March 2026\n\nFindings (9):\n- [market_mover] Forex News | Forex Factory (action=0.55, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] MyFxBots Blog | Which Trading Strategies Give You the Edge in 2026 \u2014 Practical Guide for Traders (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Week Ahead Economic Preview: Week of 2 March 2026 | S&P Global (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Forex and Currency News - Investing.com (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Top Market Opportunity in 2026: A Rise in Volatility Across Markets (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "Forex News | Forex Factory",
+        "url": "https://www.forexfactory.com/news",
+        "description": "The group led by Saudi Arabia and ... market share, several ... ... <strong>March seems to be more about the unfolding of current forces driving the capital markets, rather than new forces or policies</strong>....",
+        "category": "market_mover",
+        "actionability_score": 0.55,
+        "impact_score": 0.4,
+        "combined_score": 0.48,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "MyFxBots Blog | Which Trading Strategies Give You the Edge in 2026 \u2014 Practical Guide for Traders",
+        "url": "https://myfxbots.com/blog/forex-brokers/icmarkets/which-trading-strategies-edge-2026.html",
+        "description": "Top 15 trading strategies for 2026 explained for beginners and pros: news, trend, range, scalping, algorithmic and more \u2014 practical tips and tools.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Week Ahead Economic Preview: Week of 2 March 2026 | S&P Global",
+        "url": "https://spglobal.com/marketintelligence/en/mi/research-analysis/week-ahead-economic-preview-week-of-2-march-2026.html",
+        "description": "The week ahead sees PMI data for manufacturing and services released around the world, providing a prelude to the publication of the monthly US employment report on Friday.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Forex and Currency News - Investing.com",
+        "url": "https://www.investing.com/news/forex-news",
+        "description": "Investing.com covers the latest forex news in the currency market and breaking financial news stories.",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Top Market Opportunity in 2026: A Rise in Volatility Across Markets",
+        "url": "https://www.forex.com/en-us/news-and-analysis/top-market-opportunity-in-2026-a-rise-in-volatility-across-markets/",
+        "description": "Risk appetite swelled and collapsed across the markets after the Liberation Day reciprocal tariffs were announced in April and reversed soon after \u00b7 What was initially an opportunistic bid on the dip after the tariff discount, turned into justification through AI and other themes that grew increasin",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Gold (XAU/USD) Price Forecast and Analysis for Today, Tomorrow, Next Week, and 30 Days | LiteFinance",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/",
+        "description": "Gold price prediction and analysis for tomorrow, next week, and 30 days. Key levels, sentiment, and events shaping gold short-term outlook.",
+        "category": "revenue_opportunity",
+        "actionability_score": 0.5,
+        "impact_score": 0.35,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Financial & Forex Market Recap: Feb. 26, 2026 - Babypips.com",
+        "url": "https://www.babypips.com/news/daily-forex-financial-market-news-recap-2026-02-26",
+        "description": "Oil whipsaws on US-Iran talks while BOJ hawk talk lifts yen. Stocks slide on AI concerns. Thursday's market wrap.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "People's Bank of China scraps 20% forex reserve ratio | Dukascopy Bank SA",
+        "url": "https://www.dukascopy.com/swiss/english/marketwatch/market-news/Market-News-and-Research/154409",
+        "description": "Fri, 27 Feb 2026 21:30:05 GMT Source: Dukascopy Bank SA. <strong>People&#x27;s Bank of China will scrap the 20% forex risk reserve ratio from March 2, 2026</strong>, cutting hedging costs and supporting market stability. Back to articles...",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Weekly Pairs in Focus 1st to 6th March 2026 (Charts)",
+        "url": "https://dailyforex.com/forex-technical-analysis/2026/03/pairs-in-focus-1st-to-6th-march-2026/241824",
+        "description": "Weekly forecast on USD, EUR, Bitcoin, DAX, Nasdaq and more with key levels, trends, and breakout signals for traders.",
+        "category": "landscape",
+        "actionability_score": 0.3,
+        "impact_score": 0.2,
+        "combined_score": 0.25,
+        "age": "6 hours ago",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "breaking forex market news March 2026",
+    "sources_count": 10,
+    "findings_count": 9,
+    "market_movers": 7,
+    "opportunities": 1
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "43cb4be4",
+  "title": "Polymarket research: Cavaliers vs. Nets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Cavaliers vs. Nets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T22:54:41.949195+00:00",
+  "updated_at": "2026-03-01T22:54:51.820650+00:00",
+  "claimed_at": "2026-03-01T22:54:50.134575+00:00",
+  "completed_at": "2026-03-01T22:54:51.820633+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Cavaliers vs. Nets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Cavaliers vs. Nets",
+    "sources_count": 0
+  },
+  "error": null
+}

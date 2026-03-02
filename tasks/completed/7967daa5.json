@@ -1,0 +1,85 @@
+{
+  "id": "7967daa5",
+  "title": "Polymarket research: Will Fulham FC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Fulham FC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:57:55.976830+00:00",
+  "updated_at": "2026-03-01T16:58:00.700119+00:00",
+  "claimed_at": "2026-03-01T16:57:59.120105+00:00",
+  "completed_at": "2026-03-01T16:58:00.700103+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Fulham FC win on 2026-03-01?\n\nWeb Results (5):\n- Fulham FC - Tottenham Hotspur prediction & tips 01.03.2026: Both sides enter this encounter ... the North London Derby. Our betting tip for this Premier League encounter is a <strong>home victory for Fulham FC<\n- Fulham Fixtures & Results 2025/2026 | Premier League: View Fulham scores, fixtures and results for matches played in all competitions, on the official website of the Premier League.\n- Fulham-Tottenham - Premier League 2025/2026 Statistical Preview: <strong>Fulham&#x27;s came up with a timely first away victory of 2026 at Sunderland</strong> on the same weekend none of the European rivals managed \n- Fulham vs Tottenham Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026: Fulham vs Tottenham Hotspur prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions.\n- 2025\u201326 Fulham F.C. season - Wikipedia: Updated to match(es) played on 22 February 2026. Source: Premier League A = Away; H = Home; W = Win; D = Draw; L = Loss; P = Postponed \u00b7 On 18 June, t\n\nNews (5):\n- Fulham vs Tottenham live: Score and latest Premier League updates (2 hours ago)\n- Fulham FC vs Tottenham: Prediction, kick-off time, team news, TV, live stream, h2h results, odds today | The Standard (5 hours ago)\n- Fulham vs Tottenham Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026 (2 days ago)\n- Fulham vs Tottenham: Betting Tips & Odds for the match - 1 March 2026 (1 day ago)\n- Fulham FC - Tottenham Hotspur prediction & tips 01.03.2026 (4 days ago)",
+    "web_results": [
+      {
+        "title": "Fulham FC - Tottenham Hotspur prediction & tips 01.03.2026",
+        "url": "https://www.transfermarkt.co.uk/betting/tips-today/fulham-fc-vs-tottenham-hotspur-prediction-01-03-2026/",
+        "description": "Both sides enter this encounter ... the North London Derby. Our betting tip for this Premier League encounter is a <strong>home victory for Fulham FC</strong> (Tip 1), available at attractive odds of 2.16 with 1win...."
+      },
+      {
+        "title": "Fulham Fixtures & Results 2025/2026 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/54/fulham/matches",
+        "description": "View Fulham scores, fixtures and results for matches played in all competitions, on the official website of the Premier League."
+      },
+      {
+        "title": "Fulham-Tottenham - Premier League 2025/2026 Statistical Preview",
+        "url": "https://www.whoscored.com/matches/1903404/preview/england-premier-league-2025-2026-fulham-tottenham",
+        "description": "<strong>Fulham&#x27;s came up with a timely first away victory of 2026 at Sunderland</strong> on the same weekend none of the European rivals managed to win."
+      },
+      {
+        "title": "Fulham vs Tottenham Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/fulham-vs-tottenham-prediction-lineups-odds-2026-03-01/",
+        "description": "Fulham vs Tottenham Hotspur prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions."
+      },
+      {
+        "title": "2025\u201326 Fulham F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Fulham_F.C._season",
+        "description": "Updated to match(es) played on 22 February 2026. Source: Premier League A = Away; H = Home; W = Win; D = Draw; L = Loss; P = Postponed \u00b7 On 18 June, the Premier League fixtures were released, with Fulham kicking off the season away to Brighton &amp; Hove Albion."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Fulham vs Tottenham live: Score and latest Premier League updates",
+        "url": "https://www.telegraph.co.uk/football/2026/03/01/fulham-vs-tottenham-live-score-latest-premier-league-watch/",
+        "description": "We are back underway at Craven Cottage, with Spurs kicking things off, going from left to right in this second period as they look to get back into this contest \u00b7 There are no changes from either side at the break",
+        "age": "2 hours ago"
+      },
+      {
+        "title": "Fulham FC vs Tottenham: Prediction, kick-off time, team news, TV, live stream, h2h results, odds today | The Standard",
+        "url": "https://www.standard.co.uk/sport/football/fulham-fc-vs-tottenham-prediction-kick-off-time-latest-team-news-tv-live-stream-h2h-results-odds-premier-league-2026-preview-today-b1272571.html",
+        "description": "Spurs still seeking their first Premier League win of 2026",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Fulham vs Tottenham Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/fulham-vs-tottenham-prediction-lineups-odds-2026-03-01/",
+        "description": "Fulham vs Tottenham Hotspur prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Fulham vs Tottenham: Betting Tips & Odds for the match - 1 March 2026",
+        "url": "https://www.telecomasia.net/sports-betting/tips/football/fulham-vs-tottenham-prediction-for-the-match-on-march-1-2026/",
+        "description": "Prediction and betting tips on the Fulham vs Tottenham 01.03.2026: match preview, lineups, odds for the game.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Fulham FC - Tottenham Hotspur prediction & tips 01.03.2026",
+        "url": "https://www.transfermarkt.co.uk/betting/tips-today/fulham-fc-vs-tottenham-hotspur-prediction-01-03-2026/",
+        "description": "Prediction & betting tips for Fulham FC vs. Tottenham Hotspur at the Premier League 2025/2026.",
+        "age": "4 days ago"
+      }
+    ],
+    "query": "Will Fulham FC win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

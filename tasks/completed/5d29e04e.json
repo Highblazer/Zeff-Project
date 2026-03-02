@@ -1,0 +1,85 @@
+{
+  "id": "5d29e04e",
+  "title": "Polymarket research: Will Ghana win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Ghana win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:14.846247+00:00",
+  "updated_at": "2026-03-01T16:30:52.245423+00:00",
+  "claimed_at": "2026-03-01T16:30:50.332171+00:00",
+  "completed_at": "2026-03-01T16:30:52.245406+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Ghana win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- Ghana | FIFA World Cup 2026\u2122: We cannot provide a description for this page right now\n- Ghana World Cup 2026 Preview: Best Players, Roster, History | FOX Sports: England \u2014 Boston Stadium in Foxborough, Massachusetts (4 p.m. ET) ... Ghana vs. Croatia \u2014 Philadelphia Stadium (5 p.m. ET) <strong>Group L is set for \n- Ghana World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports: <strong>Andr\u00e9 Ayew and Ghana now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents, which \n- Final Draw results | FIFA World Cup 2026: We cannot provide a description for this page right now\n- 2026 FIFA World Cup - Wikipedia: Two of the teams will be seeded based on the World Rankings, and they will play the winners of two knockout games between the four unseeded teams for \n\nNews (5):\n- Ghana close to agreeing pre-World Cup friendly with Wales | Flashscore.com (2 days ago)\n- GHANA FOOTBALL ASSOCIATION SELECTS BRYANT AS TEAM BASE CAMP TRAINING SITE FOR FIFA WORLD CUP 26\u2122 - Bryant University (2 days ago)\n- Providence will be Ghana's base came for the 2026 World Cup. What to know. (3 days ago)\n- FIFA to 'monitor developments' in Iran ahead of 2026 World Cup - ESPN (1 day ago)\n- IFAB To Implement New Time Wasting Rule In 2026 World Cup (19 hours ago)",
+    "web_results": [
+      {
+        "title": "Ghana | FIFA World Cup 2026\u2122",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/ghana/team-news",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Ghana World Cup 2026 Preview: Best Players, Roster, History | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/ghana-world-cup-2026-preview-best-players-roster-history-jersey-predictions",
+        "description": "England \u2014 Boston Stadium in Foxborough, Massachusetts (4 p.m. ET) ... Ghana vs. Croatia \u2014 Philadelphia Stadium (5 p.m. ET) <strong>Group L is set for the 2026 FIFA World Cup, featuring England, Croatia, Ghana, and Panama</strong>. ... I\u00f1aki Williams ..."
+      },
+      {
+        "title": "Ghana World Cup 2026 Schedule: Locations, Dates, Times | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/ghana-world-cup-2026-schedule-locations-dates-times",
+        "description": "<strong>Andr\u00e9 Ayew and Ghana now know their path to glory in the 2026 FIFA World Cup final</strong> after learning their group stage opponents, which stadiums they will play at, and the times for the games."
+      },
+      {
+        "title": "Final Draw results | FIFA World Cup 2026",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-draw-results",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "2026 FIFA World Cup - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+        "description": "Two of the teams will be seeded based on the World Rankings, and they will play the winners of two knockout games between the four unseeded teams for the two FIFA World Cup berths. The four-game tournament is to be played in one or more of the host countries, and will also be used as a test event for the FIFA World Cup. The ratification of slot allocation also gives the OFC a guaranteed berth in the final tournament for the first time: the 2026 FIFA World Cup will be the first tournament in which all six confederations have at least one guaranteed berth and also the first time since the 2010 edition in which all confederations have a team qualified for the World Cup finals."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Ghana close to agreeing pre-World Cup friendly with Wales | Flashscore.com",
+        "url": "https://www.flashscore.com/news/soccer-world-cup-ghana-close-to-agreeing-pre-world-cup-friendly-with-wales/tMdb8JX1/",
+        "description": "Ghana are in advanced discussions with Wales to play a friendly game before the 2026 World Cup in North America.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "GHANA FOOTBALL ASSOCIATION SELECTS BRYANT AS TEAM BASE CAMP TRAINING SITE FOR FIFA WORLD CUP 26\u2122 - Bryant University",
+        "url": "https://bryantbulldogs.com/news/2026/2/27/general-ghana-football-association-selects-bryant-as-team-base-camp-training-site-for-fifa-world-cup-26.aspx",
+        "description": "GHANA FOOTBALL ASSOCIATION SELECTS BRYANT UNIVERSITY AS TEAM BASE CAMP TRAINING SITE FOR FIFA WORLD CUP 2026\u2122 SMITHFIELD, RHODE ISLAND, February 26, 2026: The Ghana Football Association wishes to announce that Providence, Rhode Island, has been selected as our Team Base Camp for the FIFA ...",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Providence will be Ghana's base came for the 2026 World Cup. What to know.",
+        "url": "https://www.providencejournal.com/story/sports/2026/02/26/ghana-will-use-providence-bryant-university-as-2026-world-cup-base-camp/88843378007/",
+        "description": "The Ghanaian team will train at Bryant, and a traveling Ghanaian contingent will stay in Providence.",
+        "age": "3 days ago"
+      },
+      {
+        "title": "FIFA to 'monitor developments' in Iran ahead of 2026 World Cup - ESPN",
+        "url": "https://www.espn.com/soccer/story/_/id/48060986/fifa-monitor-developments-iran-ahead-2026-world-cup",
+        "description": "FIFA will \"monitor developments\" in Iran following the outbreak of military action by the United States -- the co-hosts of this summer's men's World Cup -- against the Middle Eastern nation.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "IFAB To Implement New Time Wasting Rule In 2026 World Cup",
+        "url": "https://en.africatopsports.com/2026/02/28/ifab-to-implement-new-time-wasting-rule-in-2026-world-cup/",
+        "description": "The International Football Association Board (IFAB) has approved a sweeping package of rule changes aimed at increasing match tempo and clamping down on time-wasting, with the new measures set to take effect at the 2026 FIFA World Cup and across all competitions worldwide.",
+        "age": "19 hours ago"
+      }
+    ],
+    "query": "Will Ghana win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

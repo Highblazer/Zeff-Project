@@ -1,0 +1,75 @@
+{
+  "id": "e4498bc3",
+  "title": "Polymarket research: Bitcoin Up or Down - March 1, 5AM ET",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bitcoin Up or Down - March 1, 5AM ET",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T10:52:38.792292+00:00",
+  "updated_at": "2026-03-01T10:52:40.531155+00:00",
+  "claimed_at": "2026-03-01T10:52:38.876478+00:00",
+  "completed_at": "2026-03-01T10:52:40.531136+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bitcoin Up or Down - March 1, 5AM ET\n\nWeb Results (3):\n- Bitcoin Up or Down - 5 Minutes Predictions & Odds | Polymarket: To trade on &quot;Bitcoin Up or Down - March 1, 7:50PM-7:55PM ET,&quot; <strong>decide whether you believe Bitcoin&#x27;s price will finish above or b\n- Bitcoin Up or Down - 15 Minutes Predictions & Odds | Polymarket: To trade on &quot;Bitcoin Up or Down - March 1, 8:15PM-8:30PM ET,&quot; <strong>decide whether you believe Bitcoin&#x27;s price will finish above or b\n- Bitcoin Up or Down - Hourly Predictions & Odds | Polymarket: <strong>Buy &quot;Up&quot; if you think the close price will be higher than the open, or &quot;Down&quot; if you think it will be lower</strong>. Ente\n\nNews (5):\n- Market analysts spar as bitcoin heads for worst five-month losing streak since 2018 (1 day ago)\n- Bitcoin price news: BTC slides to $65,000, Solana, XRP, dogecoin down 6% (1 day ago)\n- Bitcoin options traders bet on $90K rebound as analysts flag early signs of market base forming | The Block (2 days ago)\n- Bitcoin's $68k Bounce: Flow Signals a Fragile Relief Rally (5 hours ago)\n- Bitcoin recovers instantly after Iran war crashes price but one Monday number could flip the next move (15 hours ago)",
+    "web_results": [
+      {
+        "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/btc-updown-5m-1772412600",
+        "description": "To trade on &quot;Bitcoin Up or Down - March 1, 7:50PM-7:55PM ET,&quot; <strong>decide whether you believe Bitcoin&#x27;s price will finish above or below the opening &quot;Price to Beat&quot; by 7:55PM ET</strong>. Buy &quot;Up&quot; if you think the price will rise, or &quot;Down&quot; if you think it ..."
+      },
+      {
+        "title": "Bitcoin Up or Down - 15 Minutes Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/btc-updown-15m-1772414100",
+        "description": "To trade on &quot;Bitcoin Up or Down - March 1, 8:15PM-8:30PM ET,&quot; <strong>decide whether you believe Bitcoin&#x27;s price will finish above or below the opening &quot;Price to Beat&quot; by 8:30PM ET</strong>. Buy &quot;Up&quot; if you think the price will rise, or &quot;Down&quot; if you think it ..."
+      },
+      {
+        "title": "Bitcoin Up or Down - Hourly Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-march-3-3am-et",
+        "description": "<strong>Buy &quot;Up&quot; if you think the close price will be higher than the open, or &quot;Down&quot; if you think it will be lower</strong>. Enter your amount and click &quot;Trade.&quot; If your chosen outcome is correct at resolution, each share pays out $1.00."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Market analysts spar as bitcoin heads for worst five-month losing streak since 2018",
+        "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-set-for-worst-5-month-streak-since-2018-as-usd3-8-billion-etf-outflows-mount",
+        "description": "Down more than 50% from its peak, bitcoin is diverging from stocks as geopolitical tensions, tariffs and ETF outflows deepen its slump, analysts told CoinDesk.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Bitcoin price news: BTC slides to $65,000, Solana, XRP, dogecoin down 6%",
+        "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-slides-to-usd65-000-in-weekend-sell-off-with-solana-xrp-dogecoin-down-6",
+        "description": "The pullback erased most of Wednesday's push toward $70,000 as hot producer-price data and a post-earnings Nvidia decline dragged risk assets lower heading into the weekend.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Bitcoin options traders bet on $90K rebound as analysts flag early signs of market base forming | The Block",
+        "url": "https://www.theblock.co/post/391560/bitcoin-options-traders-bet-on-90k-rebound-as-analysts-flag-early-signs-of-market-base-forming",
+        "description": "Derive said options positioning and easing downside skew show traders cautiously preparing for a potential bitcoin recovery.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin's $68k Bounce: Flow Signals a Fragile Relief Rally",
+        "url": "https://www.ainvest.com/news/bitcoin-68k-bounce-flow-signals-fragile-relief-rally-2603/",
+        "description": "Bitcoin's $68k Bounce: Flow Signals a Fragile Relief Rally",
+        "age": "5 hours ago"
+      },
+      {
+        "title": "Bitcoin recovers instantly after Iran war crashes price but one Monday number could flip the next move",
+        "url": "https://cryptoslate.com/bitcoin-recovers-instantly-after-iran-war-crashes-price-but-one-monday-number-could-flip-the-next-move/",
+        "description": "Bitcoin defends $64K after U.S., Israel strikes on Iran as ETF flows return to center stage Bitcoin traded through a weekend macro shock after U.S. and Israeli strikes on Iran sparked regional retaliation. The largest price swings occurred during low-liquidity hours, leaving spot BTC back near ...",
+        "age": "15 hours ago"
+      }
+    ],
+    "query": "Bitcoin Up or Down - March 1, 5AM ET",
+    "sources_count": 8
+  },
+  "error": null
+}

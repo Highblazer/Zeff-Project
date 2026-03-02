@@ -1,0 +1,85 @@
+{
+  "id": "4be94cd3",
+  "title": "Polymarket research: Elche CF vs. RCD Espanyol de Barcelona: O/U 2.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Elche CF vs. RCD Espanyol de Barcelona: O/U 2.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:13.629833+00:00",
+  "updated_at": "2026-03-01T16:30:40.670459+00:00",
+  "claimed_at": "2026-03-01T16:30:38.918076+00:00",
+  "completed_at": "2026-03-01T16:30:40.670442+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Elche CF vs. RCD Espanyol de Barcelona: O/U 2.5\n\nWeb Results (5):\n- Elche vs RCD Espanyol de Barcelona Prediction - AiScore: Elche have a good home record with 3 wins and 5 draws from their last 10 games in front of their own fans. <strong>Elche have a good record when hosti\n- Elche vs Espanyol Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026: If Elche and Espanyol play out ... would mean a full payout at 2.04. For the Total Goals market, <strong>Under 2.5 is the shortest price for this inte\n- Elche CF vs RCD Espanyol | LaLiga EA Sports 25-26: Elche CF y RCD Espanyol se enfrentan este domingo 1 de marzo, a las 13:00 horas (hora canaria) en el Estadio Mart\u00ednez Valero, en el partido correspond\n- Elche vs. Espanyol prediction, odds, La Liga picks [3/1/2026]: According to our computer model, <strong>Elche has a 41.1% win probability on Sunday, Espanyol has a 32.4% win probability</strong>, and there is a 26\n- Elche CF vs RCD Espanyol de Barcelona - LALIGA HYPERMOTION | LALIGA: \u00c1lvaro Aguado (Espanyol) wins a free kick in the attacking half. ... Goal! <strong>Elche 2, Espanyol 2.</strong> John Donald (Elche) left footed shot \n\nNews (5):\n- Elche vs Espanyol Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026 (2 days ago)\n- Elche vs. Espanyol prediction, odds, La Liga picks [3/1/2026] (2 days ago)\n- Elche vs Espanyol Preview: Team News & Prediction - The Stats Zone (2 days ago)\n- Preview: Elche vs Espanyol - prediction, team news, lineups - Sports Mole (2 days ago)\n- Elche CF vs RCD Espanyol | LaLiga EA Sports 25-26 (6 hours ago)",
+    "web_results": [
+      {
+        "title": "Elche vs RCD Espanyol de Barcelona Prediction - AiScore",
+        "url": "https://m.aiscore.com/prediction/football-elche-vs-rcd-espanyol-de-barcelona-prediction",
+        "description": "Elche have a good home record with 3 wins and 5 draws from their last 10 games in front of their own fans. <strong>Elche have a good record when hosting RCD Espanyol de Barcelona having drawn 2 and won 2 of the last five head to head games</strong>."
+      },
+      {
+        "title": "Elche vs Espanyol Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/elche-vs-espanyol-prediction-lineups-odds-2026-03-01/",
+        "description": "If Elche and Espanyol play out ... would mean a full payout at 2.04. For the Total Goals market, <strong>Under 2.5 is the shortest price for this interesting contest</strong>...."
+      },
+      {
+        "title": "Elche CF vs RCD Espanyol | LaLiga EA Sports 25-26",
+        "url": "https://rtvc.es/elche-cf-vs-rcd-espanyol-j26-laliga-ea-sports-25-26/",
+        "description": "Elche CF y RCD Espanyol se enfrentan este domingo 1 de marzo, a las 13:00 horas (hora canaria) en el Estadio Mart\u00ednez Valero, en el partido correspondiente a la jornada 26 de LaLiga EA Sports <strong>25-26</strong>."
+      },
+      {
+        "title": "Elche vs. Espanyol prediction, odds, La Liga picks [3/1/2026]",
+        "url": "https://www.dimers.com/news/elche-vs-espanyol-prediction-la-liga-sunday-03-01-2026-ac",
+        "description": "According to our computer model, <strong>Elche has a 41.1% win probability on Sunday, Espanyol has a 32.4% win probability</strong>, and there is a 26.5% chance that the game will end in a draw."
+      },
+      {
+        "title": "Elche CF vs RCD Espanyol de Barcelona - LALIGA HYPERMOTION | LALIGA",
+        "url": "https://www.laliga.com/en-GB/match/temporada-2023-2024-laliga-hypermotion-elche-cf-rcd-espanyol-de-barcelona-37",
+        "description": "\u00c1lvaro Aguado (Espanyol) wins a free kick in the attacking half. ... Goal! <strong>Elche 2, Espanyol 2.</strong> John Donald (Elche) left footed shot from the centre of the box to the top left corner."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Elche vs Espanyol Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/elche-vs-espanyol-prediction-lineups-odds-2026-03-01/",
+        "description": "Elche vs Espanyol prediction and betting tips. La Liga preview with odds, team news and lineups. Free football predictions.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Elche vs. Espanyol prediction, odds, La Liga picks [3/1/2026]",
+        "url": "https://www.dimers.com/news/elche-vs-espanyol-prediction-la-liga-sunday-03-01-2026-ac",
+        "description": "La Liga action continues on Sunday at 8:00 AM ET as Espanyol squares off with Elche at .",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Elche vs Espanyol Preview: Team News & Prediction - The Stats Zone",
+        "url": "https://www.thestatszone.com/elche-vs-espanyol-preview-team-news-prediction-173824",
+        "description": "Elche vs Espanyol 2025-26 Spanish Primera match preview: free tips & prediction\u2026",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Preview: Elche vs Espanyol - prediction, team news, lineups - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/espanyol/preview/elche-vs-espanyol-prediction-team-news-lineups_592877.html",
+        "description": "Sports Mole previews Sunday's La Liga clash between Elche and Espanyol, including predictions, team news and possible lineups.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Elche CF vs RCD Espanyol | LaLiga EA Sports 25-26",
+        "url": "https://rtvc.es/elche-cf-vs-rcd-espanyol-j26-laliga-ea-sports-25-26/",
+        "description": "Consulta el horario del Elche CF vs RCD Espanyol, las alineaciones y el minuto a minuto en la J26 de LaLiga EA Sports 25-26",
+        "age": "6 hours ago"
+      }
+    ],
+    "query": "Elche CF vs. RCD Espanyol de Barcelona: O/U 2.5",
+    "sources_count": 10
+  },
+  "error": null
+}

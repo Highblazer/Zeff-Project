@@ -1,0 +1,28 @@
+{
+  "id": "b68d8aad",
+  "title": "Polymarket research: Pistons vs. Magic",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pistons vs. Magic",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T00:57:22.415287+00:00",
+  "updated_at": "2026-03-02T00:57:33.966095+00:00",
+  "claimed_at": "2026-03-02T00:57:32.332012+00:00",
+  "completed_at": "2026-03-02T00:57:33.966077+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pistons vs. Magic\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Pistons vs. Magic",
+    "sources_count": 0
+  },
+  "error": null
+}

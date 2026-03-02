@@ -1,0 +1,85 @@
+{
+  "id": "82522605",
+  "title": "Polymarket research: Will the US strike Iran next?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the US strike Iran next?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:33:16.787430+00:00",
+  "updated_at": "2026-03-01T16:33:26.846453+00:00",
+  "claimed_at": "2026-03-01T16:33:25.136775+00:00",
+  "completed_at": "2026-03-01T16:33:26.846436+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the US strike Iran next?\n\nWeb Results (5):\n- Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian: The remarks came at the White House on Friday after talks between the US and Iran on Tehran\u2019s nuclear programme ended inconclusively, with a suggestio\n- U.S.-Israel launch another round of strikes on Iran following Khamenei's killing: President Trump said that <strong>&quot;heavy and pinpoint bombing&quot; of Iran would &quot;continue, uninterrupted throughout the week or, as long a\n- Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council: The question is, will the United States help the Iranian people chart a positive path forward, or will it leave them to the wolves after the bombs sto\n- Six questions to answer about US-Israeli attack on Iran: Three US service members have been killed in action and five seriously injured as part of the operation in Iran, the US Central Command said on Sunday\n- 2026 Israeli\u2013United States strikes on Iran - Wikipedia: In retaliation, Iran launched dozens of its drones and ballistic missiles throughout the Persian Gulf in addition to targeting Israel as well as US mi\n\nNews (5):\n- Three US service members killed in Iran operation as Israeli rescuers say nine dead in Iran strike - BBC News (1 day ago)\n- What we know \u2014 and still don\u2019t \u2014 about the Iran strikes - POLITICO (1 day ago)\n- U.S.-Israel launch another round of strikes on Iran following Khamenei's killing (1 day ago)\n- US, Israel attack Iran live: Khamenei killed, Tehran launches attacks | Israel-Iran conflict News | Al Jazeera (1 day ago)\n- Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian (2 days ago)",
+    "web_results": [
+      {
+        "title": "Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/27/us-urges-citizens-leave-israel-threat-strike-iran",
+        "description": "The remarks came at the White House on Friday after talks between the US and Iran on Tehran\u2019s nuclear programme ended inconclusively, with a suggestion that further discussions would be held next week. Trump told reporters he favoured diplomacy but repeated his insistence that Iran could not possess a nuclear weapon. \u201cIt\u2019d be wonderful if they negotiated in \u2026 good faith and conscience but they are not getting there so far,\u201d he said. Asked whether US strikes could lead to regime change in Iran, he said: \u201cNobody knows."
+      },
+      {
+        "title": "U.S.-Israel launch another round of strikes on Iran following Khamenei's killing",
+        "url": "https://www.cbsnews.com/live-updates/israel-us-attack-iran-trump-says-major-combat-operations/",
+        "description": "President Trump said that <strong>&quot;heavy and pinpoint bombing&quot; of Iran would &quot;continue, uninterrupted throughout the week or, as long as necessary</strong>.&quot;"
+      },
+      {
+        "title": "Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council",
+        "url": "https://www.atlanticcouncil.org/dispatches/experts-react-the-us-and-israel-just-unleashed-a-major-attack-on-iran-whats-next/",
+        "description": "The question is, will the United States help the Iranian people chart a positive path forward, or will it leave them to the wolves after the bombs stop falling? \u2014\u2014Kelly J. Shannon is a visiting scholar at the Institute for Middle East Studies at George Washington University. She is also a member of the Atlantic Council\u2019s Iran Strategy Project working group. Ten predictions for the potential US strikes on Iran \u00b7 Iran\u2019s regime is suffering from strategic vertigo. Its next misstep may be its last."
+      },
+      {
+        "title": "Six questions to answer about US-Israeli attack on Iran",
+        "url": "https://www.bbc.com/news/articles/c626ljyvmg3o",
+        "description": "Three US service members have been killed in action and five seriously injured as part of the operation in Iran, the US Central Command said on Sunday, without identifying the deceased. Trump warned of that possibility when announcing the strikes on Saturday, saying &quot;the lives of courageous American heroes may be lost&quot;."
+      },
+      {
+        "title": "2026 Israeli\u2013United States strikes on Iran - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Israeli%E2%80%93United_States_strikes_on_Iran",
+        "description": "In retaliation, Iran launched dozens of its drones and ballistic missiles throughout the Persian Gulf in addition to targeting Israel as well as US military bases in Jordan, Kuwait, Bahrain, Qatar, Iraq, Saudi Arabia, and the United Arab Emirates. Additionally, Iran has reportedly launched strikes on civilian aviation facilities, including international airports in Kuwait and the UAE, and Iranian missiles were fired at British military bases in Cyprus. The retaliatory strikes have killed one civilian in Israel. Furthermore, the Yemen-based Houthis have announced that they will resume their attacks in the Red Sea."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Three US service members killed in Iran operation as Israeli rescuers say nine dead in Iran strike - BBC News",
+        "url": "https://www.bbc.com/news/live/cn5ge95q6y7t",
+        "description": "What next for Iran? It is still early to say if the bombing will lead to a resurgence of the anti-government movement, after thousands of protesters were killed earlier this year, writes our Middle East correspondent ... 0:52BBC reports from scene of Israel blast. 00:00:52, play videoBBC reports from scene of Israel blast \u00b7 0:30Aftermath of deadly Iranian strike ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "What we know \u2014 and still don\u2019t \u2014 about the Iran strikes - POLITICO",
+        "url": "https://www.politico.com/news/2026/02/28/iran-strike-middle-east-us-trump-00805729",
+        "description": "Iran\u2019s Assembly of Religious Experts could also go in a different direction in naming the next supreme leader. At this point, it is unclear just how much Khamenei\u2019s killing has impacted the clerics within the system who will pick the next leader. There is also the possibility the strikes do ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "U.S.-Israel launch another round of strikes on Iran following Khamenei's killing",
+        "url": "https://www.cbsnews.com/live-updates/israel-us-attack-iran-trump-says-major-combat-operations/",
+        "description": "Mark Montgomery said the strikes ... for follow-on strikes over the next, I would suggest, two weeks, where would go after the other targets\u2026that didn't need the surprise that the targeting of the Iranian leadership did.\" He said the next few days will involve a \"race\" between ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "US, Israel attack Iran live: Khamenei killed, Tehran launches attacks | Israel-Iran conflict News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran",
+        "description": "Iran declares 40 days of mourning and launches attacks after supreme leader's killing; Israel strikes Tehran.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/27/us-urges-citizens-leave-israel-threat-strike-iran",
+        "description": "Vance is reputedly the senior member ... military strike will not change Iran\u2019s basic negotiating stance. ... Oman\u2019s foreign minister, Badr Albusaidi (r) with Steve Witkoff (c) and Jared Kushner in Geneva. Photograph: AP \u00b7 However, Washington has formally announced that Marco Rubio will travel to Israel for meetings early next week. It is unlikely Israel or the US would launch ...",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will the US strike Iran next?",
+    "sources_count": 10
+  },
+  "error": null
+}

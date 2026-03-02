@@ -1,0 +1,85 @@
+{
+  "id": "931ec298",
+  "title": "Polymarket research: Ethereum Up or Down - March 1, 5AM ET",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Ethereum Up or Down - March 1, 5AM ET",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T10:31:12.419293+00:00",
+  "updated_at": "2026-03-01T10:31:31.602473+00:00",
+  "claimed_at": "2026-03-01T10:31:29.913656+00:00",
+  "completed_at": "2026-03-01T10:31:31.602451+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Ethereum Up or Down - March 1, 5AM ET\n\nWeb Results (5):\n- Ethereum Up or Down - Hourly Predictions & Odds | Polymarket: If incorrect, shares are worth $0. The current probability for &quot;Ethereum Up or Down - March 1, 5PM ET&quot; is <strong>50% for &quot;Up,&quot;</s\n- Ethereum Up or Down - 5 Minutes Predictions & Odds | Polymarket: To trade on &quot;Ethereum Up or Down - March 1, 12:00AM-12:05AM ET,&quot; <strong>decide whether you believe Ethereum&#x27;s price will finish above \n- Ethereum Up or Down - 15 Minutes Predictions & Odds | Polymarket: The current probability for &quot;Ethereum Up or Down - March 1, 5:15PM-5:30PM ET&quot; is <strong>51%</strong> for &quot;Down,&quot; meaning the Poly\n- Ethereum Up or Down on March 1? Trading Odds & Predictions (Feb. 28, 2026) | Polymarket: The &quot;Ethereum Up or Down on March ... 1-minute candle close prices. <strong>If the March 1 noon price is higher, the outcome is &quot;Up&quot;; i\n- Ethereum Up or Down on March 2? Trading Odds & Predictions (Mar. 1, 2026) | Polymarket: The &quot;Ethereum Up or Down on March ... 1-minute candle close prices. <strong>If the March 2 noon price is higher, the outcome is &quot;Up&quot;; i\n\nNews (5):\n- Ethereum Price In Trouble Again? Big Liquidation Risk Builds (2 days ago)\n- Ethereum price tests $1,950 as ratio hints pivot (2 days ago)\n- Whale's Insight: Surface Weakness Masks Whale Accumulation In ETH | Seeking Alpha (2 days ago)\n- Ethereum Price Prediction 2026, 2027 - 2030: Can ETH Reach $10k? (2 days ago)\n- Ethereum Weekly Price Forecast: US interest returns, but bearish outlook remains (1 day ago)",
+    "web_results": [
+      {
+        "title": "Ethereum Up or Down - Hourly Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/ethereum-up-or-down-march-1-5pm-et",
+        "description": "If incorrect, shares are worth $0. The current probability for &quot;Ethereum Up or Down - March 1, 5PM ET&quot; is <strong>50% for &quot;Up,&quot;</strong> meaning the Polymarket crowd currently assigns a 50% chance that Ethereum&#x27;s price will finish up over this hourly window."
+      },
+      {
+        "title": "Ethereum Up or Down - 5 Minutes Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/eth-updown-5m-1772341200",
+        "description": "To trade on &quot;Ethereum Up or Down - March 1, 12:00AM-12:05AM ET,&quot; <strong>decide whether you believe Ethereum&#x27;s price will finish above or below the opening &quot;Price to Beat&quot; by 12:05AM ET</strong>. Buy &quot;Up&quot; if you think the price will rise, or &quot;Down&quot; if you think ..."
+      },
+      {
+        "title": "Ethereum Up or Down - 15 Minutes Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/eth-updown-15m-1772403300",
+        "description": "The current probability for &quot;Ethereum Up or Down - March 1, 5:15PM-5:30PM ET&quot; is <strong>51%</strong> for &quot;Down,&quot; meaning the Polymarket crowd currently assigns a <strong>51%</strong> chance that Ethereum&#x27;s price will finish down over this 15-minute window."
+      },
+      {
+        "title": "Ethereum Up or Down on March 1? Trading Odds & Predictions (Feb. 28, 2026) | Polymarket",
+        "url": "https://polymarket.com/event/ethereum-up-or-down-on-march-1",
+        "description": "The &quot;Ethereum Up or Down on March ... 1-minute candle close prices. <strong>If the March 1 noon price is higher, the outcome is &quot;Up&quot;; if lower, &quot;Down&quot;; if equal, the market resolves 50-50</strong>...."
+      },
+      {
+        "title": "Ethereum Up or Down on March 2? Trading Odds & Predictions (Mar. 1, 2026) | Polymarket",
+        "url": "https://polymarket.com/event/ethereum-up-or-down-on-march-2",
+        "description": "The &quot;Ethereum Up or Down on March ... 1-minute candle close prices. <strong>If the March 2 noon price is higher, the outcome is &quot;Up&quot;; if lower, &quot;Down&quot;; if equal, the market resolves 50-50</strong>...."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Ethereum Price In Trouble Again? Big Liquidation Risk Builds",
+        "url": "https://beincrypto.com/ethereum-price-liquidation-risk-crash-analysis/",
+        "description": "Ethereum price faces rising liquidation risk as leverage crosses $1 billion and support weakens. Two other alarming metrics surface.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Ethereum price tests $1,950 as ratio hints pivot",
+        "url": "https://crypto.news/ethereum-price-outlook-buy-2026/",
+        "description": "Ethereum price holds near $1,950 as Binance buy/sell ratio data suggests a potential pivot. $2,200 remains key to shifting the trend.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Whale's Insight: Surface Weakness Masks Whale Accumulation In ETH | Seeking Alpha",
+        "url": "https://seekingalpha.com/article/4876368-whales-insight-surface-weakness-masks-whale-accumulation-in-eth",
+        "description": "ETH is enduring its longest weekly losing streak since 2022, yet whale behavior quietly shifts to active accumulation at discounted prices. Read more here.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Ethereum Price Prediction 2026, 2027 - 2030: Can ETH Reach $10k?",
+        "url": "https://coinpedia.org/price-prediction/market-price-prediction-ethereum-2019/",
+        "description": "Ethereum rebounds above $2,700 after a sell-off, amid ETF outflows and weak sentiment. Explore ETH price predictions from 2026 to 2030.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Ethereum Weekly Price Forecast: US interest returns, but bearish outlook remains",
+        "url": "https://www.mitrade.com/au/insights/news/live-news/article-3-1512056-20260228",
+        "description": "Ethereum saw renewed US interest this week, prompting prices to briefly reclaim $2,110 before facing downside pressure.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Ethereum Up or Down - March 1, 5AM ET",
+    "sources_count": 10
+  },
+  "error": null
+}

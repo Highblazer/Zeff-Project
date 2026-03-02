@@ -1,0 +1,85 @@
+{
+  "id": "7c02e315",
+  "title": "Polymarket research: Will Arsenal FC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Arsenal FC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T17:00:59.593103+00:00",
+  "updated_at": "2026-03-01T17:01:12.342781+00:00",
+  "claimed_at": "2026-03-01T17:01:10.556584+00:00",
+  "completed_at": "2026-03-01T17:01:12.342767+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Arsenal FC win on 2026-03-01?\n\nWeb Results (5):\n- 01/03/2026 - Chelsea - Premier League - Men - H: Browse all the build up, action, reports and reaction from Arsenal vs Chelsea, including match highlights video and post-match analysis after the fina\n- Arsenal Fixtures & Results 2025/2026 | Premier League: View Arsenal scores, fixtures and results for matches played in all competitions, on the official website of the Premier League.\n- Arsenal FC - Chelsea FC prediction & tips 01.03.2026: With <strong>odds of 1.67 available at 1win for an Arsenal victory</strong>, this represents solid value considering their current form and league pos\n- 2025\u201326 Arsenal F.C. season - Wikipedia: The 2025\u201326 season is Arsenal Football Club&#x27;s 34th season in the Premier League, their 100th consecutive season in the top flight of English foot\n- Arsenal FC vs. Chelsea FC Prediction, Odds, Picks - Mar 1 | FOX Sports: Preview the matchup between Arsenal FC and Chelsea FC with predictions, odds, over/under, betting lines and more.\n\nNews (5):\n- Arsenal vs Chelsea: Premier League \u2013 preview, team news, start, lineups | Football News | Al Jazeera (1 day ago)\n- Arsenal vs Chelsea Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026 (2 days ago)\n- Arsenal - Scores & Fixtures - Football - BBC Sport (16 hours ago)\n- Arsenal FC vs. Chelsea FC Prediction, Picks, Live Odds - March 1 - Bleacher Nation (10 hours ago)\n- How to Watch Arsenal FC vs. Chelsea FC: Live Stream, TV Channel, Start Time | 3/1/2026 (4 days ago)",
+    "web_results": [
+      {
+        "title": "01/03/2026 - Chelsea - Premier League - Men - H",
+        "url": "https://www.arsenal.com/fixture/arsenal/2026-Mar-01/chelsea",
+        "description": "Browse all the build up, action, reports and reaction from Arsenal vs Chelsea, including match highlights video and post-match analysis after the final whistle."
+      },
+      {
+        "title": "Arsenal Fixtures & Results 2025/2026 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/3/arsenal/matches",
+        "description": "View Arsenal scores, fixtures and results for matches played in all competitions, on the official website of the Premier League."
+      },
+      {
+        "title": "Arsenal FC - Chelsea FC prediction & tips 01.03.2026",
+        "url": "https://www.transfermarkt.com/betting/tips/arsenal-fc-vs-chelsea-fc-prediction-01-03-2026/",
+        "description": "With <strong>odds of 1.67 available at 1win for an Arsenal victory</strong>, this represents solid value considering their current form and league position advantage over their London rivals. ... There have been over 3.5 goals scored in 3 of Arsenal FC&#x27;s last ..."
+      },
+      {
+        "title": "2025\u201326 Arsenal F.C. season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Arsenal_F.C._season",
+        "description": "The 2025\u201326 season is Arsenal Football Club&#x27;s 34th season in the Premier League, their 100th consecutive season in the top flight of English football, becoming the first team to spend 100 seasons straight in the English top flight, and 109th season in the top flight overall. In addition to the domestic league, Arsenal are also participating in this season&#x27;s editions of the FA Cup, EFL Cup and UEFA Champions League, the latter of which is their 40th European campaign. The season covers the period from 1 July 2025 to 24 May 2026."
+      },
+      {
+        "title": "Arsenal FC vs. Chelsea FC Prediction, Odds, Picks - Mar 1 | FOX Sports",
+        "url": "https://www.foxsports.com/articles/soccer/arsenal-fc-vs-chelsea-fc-prediction-odds-picks-mar-1",
+        "description": "Preview the matchup between Arsenal FC and Chelsea FC with predictions, odds, over/under, betting lines and more."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Arsenal vs Chelsea: Premier League \u2013 preview, team news, start, lineups | Football News | Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/2/28/arsenal-vs-chelsea-premier-league-preview-team-news-start-lineups",
+        "description": "League leaders Arsenal desperate for a win over Chelsea to keep resurgent Manchester City at bay.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Arsenal vs Chelsea Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://sportsgambler.com/betting-tips/football/arsenal-vs-chelsea-prediction-lineups-odds-2026-03-01",
+        "description": "Arsenal vs Chelsea prediction and betting tips. Premier League preview with odds, team news and lineups. Free football predictions.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Arsenal - Scores & Fixtures - Football - BBC Sport",
+        "url": "https://www.bbc.com/sport/football/teams/arsenal/scores-fixtures",
+        "description": "Arsenal scores, results and fixtures on BBC Sport, including live football scores",
+        "age": "16 hours ago"
+      },
+      {
+        "title": "Arsenal FC vs. Chelsea FC Prediction, Picks, Live Odds - March 1 - Bleacher Nation",
+        "url": "https://www.bleachernation.com/picks/2026/03/01/arsenal-fc-vs-chelsea-fc-prediction-picks-live-odds-march-1/",
+        "description": "The upcoming fixture list in the Premier League includes first-place Arsenal FC hosting sixth-place Chelsea FC -- coming off a win and a draw, respectively --",
+        "age": "10 hours ago"
+      },
+      {
+        "title": "How to Watch Arsenal FC vs. Chelsea FC: Live Stream, TV Channel, Start Time | 3/1/2026",
+        "url": "https://prosoccerwire.usatoday.com/story/sports/2026/02/25/how-to-watch-arsenal-fc-vs-chelsea-fc-live-stream-tv-3-1-2026/88862248007/",
+        "description": "Find out where to watch the Premier League matchup between Arsenal FC and Chelsea FC streaming live online or on TV.",
+        "age": "4 days ago"
+      }
+    ],
+    "query": "Will Arsenal FC win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

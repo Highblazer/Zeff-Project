@@ -1,0 +1,85 @@
+{
+  "id": "77bf8a7e",
+  "title": "Polymarket research: Will Lille OSC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Lille OSC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:13.309191+00:00",
+  "updated_at": "2026-03-01T16:30:37.355531+00:00",
+  "claimed_at": "2026-03-01T16:30:35.560326+00:00",
+  "completed_at": "2026-03-01T16:30:37.355466+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Lille OSC win on 2026-03-01?\n\nWeb Results (5):\n- Lille OSC vs FC Nantes | Pron\u00f3stico y cuotas 01.03.2026: <strong>Nuestro pron\u00f3stico del partido predice una victoria local para el OSC Lille</strong>. Lille ha demostrado ser un equipo s\u00f3lido en casa y se en\n- Lille OSC vs. FC Nantes Prediction, Picks, Live Odds - March 1 - Bleacher Nation: <strong>Lille OSC will play at home versus FC Nantes on Sunday</strong>, after each won their most recent game in Ligue 1 -- beating Angers SCO and Le\n- Lille vs Nantes live score - Ligue 1 1 March 2026: The most common result of matches between Lille OSC and FC Nantes when Lille OSC is playing at home is <strong>2-0</strong>. 7 matches have ended with\n- 2025\u201326 Lille OSC season - Wikipedia: The draw for the round of 16 will be held on 27 February 2026.\n- Lille OSC vs. Stade Rennes Prediction, Picks, Live Odds - January 3 - Bleacher Nation: Bedard scored 19 goals with 23 assists for 44 points in 31 games before injuring his shoulder late in the Blackhawks&#x27; game... ... <strong>Both Li\n\nNews (5):\n- Lille OSC vs. FC Nantes Prediction, Picks, Live Odds - March 1 - Bleacher Nation (9 hours ago)\n- Where to Watch Lille OSC vs. FC Nantes: TV Channel, Start Time and Live Stream - Bleacher Nation (1 day ago)\n- Lille vs Nantes Prediction 1/03/2026 \u2013 Odds, Tips & Analysis - Football (1 day ago)\n- Lille vs Nantes Prediction - Ligue 1 - 01/03/2026 (2 days ago)\n- Europa League: Lille Faces Crucial Challenge Against Red Star - FilmoGaz (3 days ago)",
+    "web_results": [
+      {
+        "title": "Lille OSC vs FC Nantes | Pron\u00f3stico y cuotas 01.03.2026",
+        "url": "https://www.transfermarkt.es/apuestas/pronosticos-deportivos/osc-lille-vs-fc-nantes-pronostico-apuestas-01-03-2026/",
+        "description": "<strong>Nuestro pron\u00f3stico del partido predice una victoria local para el OSC Lille</strong>. Lille ha demostrado ser un equipo s\u00f3lido en casa y se enfrenta a un Nantes que ha tenido dificultades para obtener resultados positivos fuera de su estadio."
+      },
+      {
+        "title": "Lille OSC vs. FC Nantes Prediction, Picks, Live Odds - March 1 - Bleacher Nation",
+        "url": "https://www.bleachernation.com/picks/2026/03/01/lille-osc-vs-fc-nantes-prediction-picks-live-odds-march-1/",
+        "description": "<strong>Lille OSC will play at home versus FC Nantes on Sunday</strong>, after each won their most recent game in Ligue 1 -- beating Angers SCO and Le Havre AC, respectively."
+      },
+      {
+        "title": "Lille vs Nantes live score - Ligue 1 1 March 2026",
+        "url": "https://www.sportytrader.com/en/results-live/lille-osc-nantes-7680829/",
+        "description": "The most common result of matches between Lille OSC and FC Nantes when Lille OSC is playing at home is <strong>2-0</strong>. 7 matches have ended with this result. Lille - Nantes is a Football game from Ligue 1. Date and time of live: 01/03/2026, 08:15."
+      },
+      {
+        "title": "2025\u201326 Lille OSC season - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Lille_OSC_season",
+        "description": "The draw for the round of 16 will be held on 27 February 2026."
+      },
+      {
+        "title": "Lille OSC vs. Stade Rennes Prediction, Picks, Live Odds - January 3 - Bleacher Nation",
+        "url": "https://www.bleachernation.com/picks/2026/01/03/lille-osc-vs-stade-rennes-prediction-picks-live-odds-january-3/",
+        "description": "Bedard scored 19 goals with 23 assists for 44 points in 31 games before injuring his shoulder late in the Blackhawks&#x27; game... ... <strong>Both Lille OSC (fourth in Ligue 1) and Stade Rennes (sixth) are coming off a victory</strong>, and they will face off on ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Lille OSC vs. FC Nantes Prediction, Picks, Live Odds - March 1 - Bleacher Nation",
+        "url": "https://www.bleachernation.com/picks/2026/03/01/lille-osc-vs-fc-nantes-prediction-picks-live-odds-march-1/",
+        "description": "Lille OSC will play at home versus FC Nantes on Sunday, after each won their most recent game in Ligue 1 -- beating Angers SCO and Le Havre AC, respectively.",
+        "age": "9 hours ago"
+      },
+      {
+        "title": "Where to Watch Lille OSC vs. FC Nantes: TV Channel, Start Time and Live Stream - Bleacher Nation",
+        "url": "https://www.bleachernation.com/how-to-watch/2026/02/28/where-to-watch-lille-osc-vs-fc-nantes-tv-channel-start-time-and-live-stream-2/",
+        "description": "Ligue 1's sixth-place club, Lille OSC, hosts 17th-place FC Nantes on Sunday at 11:15 a.m. ET.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Lille vs Nantes Prediction 1/03/2026 \u2013 Odds, Tips & Analysis - Football",
+        "url": "https://scores24.live/en/soccer/m-01-03-2026-lille-nantes-prediction",
+        "description": "Lille vs Nantes predictions and match analysis: team form, H2H stats, key trends, and the best betting tips with up-to-date odds.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Lille vs Nantes Prediction - Ligue 1 - 01/03/2026",
+        "url": "https://sportytrader.com/en/betting-tips/lille-osc-nantes-331023",
+        "description": "Lille vs Nantes prediction and preview for this Ligue 1 match on 01/03/2026 from our Football experts. Betting tips, lineup, stats and H2H included.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Europa League: Lille Faces Crucial Challenge Against Red Star - FilmoGaz",
+        "url": "https://www.filmogaz.com/170103",
+        "description": "Lille OSC faces a pivotal moment as they prepare to meet Red Star Belgrade in the return leg of the Europa League playoffs. After a 1-0 defeat in the first match, Lille must secure a win in Belgrade to advance to the Round of 16. This critical match is scheduled for Thursday at 18:45 local \u2026",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will Lille OSC win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e06da9a5",
+  "title": "Polymarket research: Will Arsenal FC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Arsenal FC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T19:56:54.591839+00:00",
+  "updated_at": "2026-03-01T19:56:59.558890+00:00",
+  "claimed_at": "2026-03-01T19:56:58.022238+00:00",
+  "completed_at": "2026-03-01T19:56:59.558870+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Arsenal FC win on 2026-03-01?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Arsenal FC win on 2026-03-01?",
+    "sources_count": 0
+  },
+  "error": null
+}

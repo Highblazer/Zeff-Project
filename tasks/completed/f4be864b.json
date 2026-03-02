@@ -1,0 +1,85 @@
+{
+  "id": "f4be864b",
+  "title": "Polymarket research: Counter-Strike: NIP vs Legacy (BO3) - ESL Pro League Stage 1",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: NIP vs Legacy (BO3) - ESL Pro League Stage 1",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:15.496793+00:00",
+  "updated_at": "2026-03-01T16:31:01.339078+00:00",
+  "claimed_at": "2026-03-01T16:30:59.738219+00:00",
+  "completed_at": "2026-03-01T16:31:01.339052+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: NIP vs Legacy (BO3) - ESL Pro League Stage 1\n\nWeb Results (5):\n- ESL Pro League Season 23: Online Stage - Stage 1 - Liquipedia Counter-Strike Wiki: vs(Bo3) M80 \u00b7 Watch here \u00b7 Watch here \u00b7 NIP \u00b7 Legacy \u00b7 <strong>March 1, 2026 - 16:30 CET</strong> \u00b7 NIP \u00b7 vs(Bo3) Legacy \u00b7 Watch here \u00b7 Watch here \u00b7 L\n- ESL Pro League Season 23: Online Stage - Liquipedia Counter-Strike Wiki: &quot;High&quot; matches are Bo3; Winners advance to the next stage\n- Ninjas in Pyjamas vs. Legacy at ESL Pro League Season 23 Stage 1 | HLTV.org: Complete overview of the Ninjas in Pyjamas vs. Legacy matchup at ESL Pro League Season 23 Stage 1!\n- Counter-Strike Wiki | CS2 | Liquipedia: ESL Pro League Season 23 - Round 1 \u00b7 <strong>March 1, 2026 - 16:30 CET</strong> \u00b7 NIP \u00b7 vs(Bo3) Legacy \u00b7 ESL Pro League Season 23 - Round 1 \u00b7 March 1,\n- [FIL] ESL Pro League S23 Day 1 - HEROIC vs NRG, G2 vs GG, NIP vs Legacy, Liquid vs Passion UA - YouTube: ESL Pro League Season 23 Official Filipino Broadcast!Match Schedule: (BO3)HEROIC vs NRG (6:30PM PHT)G2 Esports vs Gaimin Gladiators (9:00PM PHT)NIP vs\n\nNews (5):\n- Six teams to follow at EPL S23 Stage 1: Stream, schedule, and results \u00bb Esports | Esports.gg | esports.gg (1 day ago)\n- ESL Pro League Season 23: Teams, Prize Pool, Schedule, and more (1 day ago)\n- ESL Pro League Season 23: Online Stage Preview - , Gaming Blog (2 days ago)\n- ESL Pro League Season 23 Power Rankings: Vitality's Skip Opens The Door - Hotspawn (2 days ago)\n- ESL Pro League Season 23 Stage 1 overview | HLTV.org (9 hours ago)",
+    "web_results": [
+      {
+        "title": "ESL Pro League Season 23: Online Stage - Stage 1 - Liquipedia Counter-Strike Wiki",
+        "url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_23/Online_Stage/Stage_1",
+        "description": "vs(Bo3) M80 \u00b7 Watch here \u00b7 Watch here \u00b7 NIP \u00b7 Legacy \u00b7 <strong>March 1, 2026 - 16:30 CET</strong> \u00b7 NIP \u00b7 vs(Bo3) Legacy \u00b7 Watch here \u00b7 Watch here \u00b7 Liquid \u00b7 P.UA \u00b7 March 1, 2026 - 19:00 CET \u00b7 Liquid \u00b7 vs(Bo3) P.UA \u00b7 Watch here \u00b7 Watch here \u00b7 3DMAX \u00b7 paiN \u00b7"
+      },
+      {
+        "title": "ESL Pro League Season 23: Online Stage - Liquipedia Counter-Strike Wiki",
+        "url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_23/Online_Stage",
+        "description": "&quot;High&quot; matches are Bo3; Winners advance to the next stage"
+      },
+      {
+        "title": "Ninjas in Pyjamas vs. Legacy at ESL Pro League Season 23 Stage 1 | HLTV.org",
+        "url": "https://www.hltv.org/matches/2391015/ninjas-in-pyjamas-vs-legacy-esl-pro-league-season-23-stage-1",
+        "description": "Complete overview of the Ninjas in Pyjamas vs. Legacy matchup at ESL Pro League Season 23 Stage 1!"
+      },
+      {
+        "title": "Counter-Strike Wiki | CS2 | Liquipedia",
+        "url": "https://liquipedia.net/counterstrike/Main_Page",
+        "description": "ESL Pro League Season 23 - Round 1 \u00b7 <strong>March 1, 2026 - 16:30 CET</strong> \u00b7 NIP \u00b7 vs(Bo3) Legacy \u00b7 ESL Pro League Season 23 - Round 1 \u00b7 March 1, 2026 - 19:00 CET \u00b7 Liquid \u00b7 vs(Bo3) P.UA \u00b7 ESL Pro League Season 23 - Round 1 \u00b7 March 1, 2026 - 19:00 ..."
+      },
+      {
+        "title": "[FIL] ESL Pro League S23 Day 1 - HEROIC vs NRG, G2 vs GG, NIP vs Legacy, Liquid vs Passion UA - YouTube",
+        "url": "https://www.youtube.com/watch?v=eyhMBnwGnbE",
+        "description": "ESL Pro League Season 23 Official Filipino Broadcast!Match Schedule: (BO3)HEROIC vs NRG (6:30PM PHT)G2 Esports vs Gaimin Gladiators (9:00PM PHT)NIP vs Legacy..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Six teams to follow at EPL S23 Stage 1: Stream, schedule, and results \u00bb Esports | Esports.gg | esports.gg",
+        "url": "https://esports.gg/news/counter-strike-2/stage-1-epl-season-23-details-results/",
+        "description": "ESL Pro League Season 23 starts with Stage 1 matches. It\u2019s a chance for smaller teams to break to the top: following them is a thrill.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "ESL Pro League Season 23: Teams, Prize Pool, Schedule, and more",
+        "url": "https://dotesports.com/counter-strike/news/esl-pro-league-season-23",
+        "description": "With Vitality skipping the event, who will lift the ESL Pro League Season 23 trophy at the LAN finals in Stockholm?",
+        "age": "1 day ago"
+      },
+      {
+        "title": "ESL Pro League Season 23: Online Stage Preview - , Gaming Blog",
+        "url": "https://egamersworld.com/blog/esl-pro-league-season-23-online-stage-preview-w4vNvqzLN",
+        "description": "ESL Pro League Season 23 kicks off with the Online Stage on March 1. Check out the format, schedule, prize pool, favorites, and underdogs in our full preview.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "ESL Pro League Season 23 Power Rankings: Vitality's Skip Opens The Door - Hotspawn",
+        "url": "https://www.hotspawn.com/counter-strike/news/esl-pro-league-season-23-power-rankings",
+        "description": "Vitality have opted to skip ESL Pro League Season 23, a surprise decision that allows the dominant Counter-Strike team to rest and recuperate. But the brutal",
+        "age": "2 days ago"
+      },
+      {
+        "title": "ESL Pro League Season 23 Stage 1 overview | HLTV.org",
+        "url": "https://www.hltv.org/events/8241/esl-pro-league-season-23-stage-1",
+        "description": "Complete overview of ESL Pro League Season 23 Stage 1 here. See prize distribution, attending teams, brackets and much more!",
+        "age": "9 hours ago"
+      }
+    ],
+    "query": "Counter-Strike: NIP vs Legacy (BO3) - ESL Pro League Stage 1",
+    "sources_count": 10
+  },
+  "error": null
+}

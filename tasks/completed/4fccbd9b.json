@@ -1,0 +1,75 @@
+{
+  "id": "4fccbd9b",
+  "title": "Polymarket research: Bitcoin Up or Down - March 1, 5AM ET",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bitcoin Up or Down - March 1, 5AM ET",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T10:31:10.702532+00:00",
+  "updated_at": "2026-03-01T10:31:29.906644+00:00",
+  "claimed_at": "2026-03-01T10:31:28.074163+00:00",
+  "completed_at": "2026-03-01T10:31:29.906631+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bitcoin Up or Down - March 1, 5AM ET\n\nWeb Results (3):\n- Bitcoin Up or Down - 5 Minutes Predictions & Odds | Polymarket: To trade on &quot;Bitcoin Up or Down - March 1, 7:50PM-7:55PM ET,&quot; <strong>decide whether you believe Bitcoin&#x27;s price will finish above or b\n- Bitcoin Up or Down - 15 Minutes Predictions & Odds | Polymarket: To trade on &quot;Bitcoin Up or Down - March 1, 8:15PM-8:30PM ET,&quot; <strong>decide whether you believe Bitcoin&#x27;s price will finish above or b\n- Bitcoin Up or Down - Hourly Predictions & Odds | Polymarket: <strong>Buy &quot;Up&quot; if you think the close price will be higher than the open, or &quot;Down&quot; if you think it will be lower</strong>. Ente\n\nNews (5):\n- Bitcoin options traders bet on $90K rebound as analysts flag early signs of market base forming | The Block (2 days ago)\n- Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026? (2 days ago)\n- Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go? (2 days ago)\n- The worst may lie ahead. BTC price chart revisits historic pattern: Crypto Daybook Americas (2 days ago)\n- Insider Trading Allegations Are Yet Another Example of Crypto Being No Different From Wall Street (2 days ago)",
+    "web_results": [
+      {
+        "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/btc-updown-5m-1772412600",
+        "description": "To trade on &quot;Bitcoin Up or Down - March 1, 7:50PM-7:55PM ET,&quot; <strong>decide whether you believe Bitcoin&#x27;s price will finish above or below the opening &quot;Price to Beat&quot; by 7:55PM ET</strong>. Buy &quot;Up&quot; if you think the price will rise, or &quot;Down&quot; if you think it ..."
+      },
+      {
+        "title": "Bitcoin Up or Down - 15 Minutes Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/btc-updown-15m-1772414100",
+        "description": "To trade on &quot;Bitcoin Up or Down - March 1, 8:15PM-8:30PM ET,&quot; <strong>decide whether you believe Bitcoin&#x27;s price will finish above or below the opening &quot;Price to Beat&quot; by 8:30PM ET</strong>. Buy &quot;Up&quot; if you think the price will rise, or &quot;Down&quot; if you think it ..."
+      },
+      {
+        "title": "Bitcoin Up or Down - Hourly Predictions & Odds | Polymarket",
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-march-3-3am-et",
+        "description": "<strong>Buy &quot;Up&quot; if you think the close price will be higher than the open, or &quot;Down&quot; if you think it will be lower</strong>. Enter your amount and click &quot;Trade.&quot; If your chosen outcome is correct at resolution, each share pays out $1.00."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Bitcoin options traders bet on $90K rebound as analysts flag early signs of market base forming | The Block",
+        "url": "https://www.theblock.co/post/391560/bitcoin-options-traders-bet-on-90k-rebound-as-analysts-flag-early-signs-of-market-base-forming",
+        "description": "Derive said options positioning and easing downside skew show traders cautiously preparing for a potential bitcoin recovery.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026\u20132031: Can BTC Reclaim $100K in Feb 2026?",
+        "url": "https://coindcx.com/blog/price-predictions/bitcoin-price-weekly/",
+        "description": "Explore the latest Bitcoin price forecast for Feb 2026 as BTC attempts to reclaim the $68,300 area amid a cooldown phase Can it hold $67K? Read our analysis.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Bitcoin Price Prediction 2026, 2027 - 2030: How High Will BTC Price Go?",
+        "url": "https://coinpedia.org/price-prediction/bitcoin-price-prediction/",
+        "description": "Bitcoin price prediction 2023 - 2025 based on deals analysis and statistic. In depth view into BTC Price, analyst predictions until 2030.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "The worst may lie ahead. BTC price chart revisits historic pattern: Crypto Daybook Americas",
+        "url": "https://coindesk.com/daybook-us/2026/02/27/the-worst-may-lie-ahead-bitcoin-chart-revisits-historic-pattern",
+        "description": "If you're not already subscribed to the newsletter email, click here \u00b7 By Omkar Godbole (All times ET unless indicated otherwise)",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Insider Trading Allegations Are Yet Another Example of Crypto Being No Different From Wall Street",
+        "url": "https://gizmodo.com/insider-trading-allegations-are-yet-another-example-of-crypto-being-no-different-from-wall-street-2000727568",
+        "description": "Crypto is crashing but the outlook for insider trading scams is bullish.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Bitcoin Up or Down - March 1, 5AM ET",
+    "sources_count": 8
+  },
+  "error": null
+}

@@ -1,0 +1,128 @@
+{
+  "id": "1bee5185",
+  "title": "central bank surprise decisions March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "central bank surprise decisions March 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-01T13:48:58.777158+00:00",
+  "updated_at": "2026-03-01T13:49:00.452555+00:00",
+  "claimed_at": "2026-03-01T13:48:58.784312+00:00",
+  "completed_at": "2026-03-01T13:49:00.452544+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: central bank surprise decisions March 2026\n\nFindings (9):\n- [market_mover] A year in which the major central banks part ways | Reuters (action=0.45, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] Fed Leaves Rates Unchanged to Start 2026: Is a Cut Coming in March? | J.P. Morgan (action=0.5, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] Fed signals rate hikes still possible in 2026 - TheStreet (action=0.45, impact=0.46)\n  \u2192 LOG for awareness\n- [market_mover] World\u2019s central banks brace for intense policy decisions in March (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n- [market_mover] BPInsights: February 28, 2026 - Bank Policy Institute (action=0.45, impact=0.4)\n  \u2192 LOG for awareness\n",
+    "findings": [
+      {
+        "title": "A year in which the major central banks part ways | Reuters",
+        "url": "https://www.reuters.com/world/americas/global-markets-central-banks-graphic-2026-02-05/",
+        "description": "Central banks in big economies are parting ways, with Australia this week raising interest rates for the first time in two years, while others are taking a more cautious approach even if they are likely done with easing.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.46,
+        "combined_score": 0.45,
+        "age": "3 weeks ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Fed Leaves Rates Unchanged to Start 2026: Is a Cut Coming in March? | J.P. Morgan",
+        "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/fed-meeting-january-2026",
+        "description": "The Federal Reserve paused its interest rate cuts in January and is expected to do the same at its March meeting. Trends around inflation and employment will continue to influence the central bank\u2019s decisions in the months ahead. Consider talking to a J.P. Morgan advisor to learn how to potentially ",
+        "category": "market_mover",
+        "actionability_score": 0.5,
+        "impact_score": 0.4,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Fed signals rate hikes still possible in 2026 - TheStreet",
+        "url": "https://www.thestreet.com/fed/federal-reserve-officials-signal-shocking-twist-on-2026-interest-rate-cuts",
+        "description": "View post: Fed official signals <strong>surprise rate-cut shift</strong> ... Softer inflation data revive hopes for easing borrowing costs in 2026.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.46,
+        "combined_score": 0.45,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "World\u2019s central banks brace for intense policy decisions in March",
+        "url": "https://www.aa.com.tr/en/economy/world-s-central-banks-brace-for-intense-policy-decisions-in-march/3842186",
+        "description": "Fed, European Central Bank, and Bank of Japan expect to maintain rates, Bank of England to cut, while Australia to hike rates, as investors closely monitor changes for future policy guidance - Anadolu Ajans\u0131",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "BPInsights: February 28, 2026 - Bank Policy Institute",
+        "url": "https://bpi.com/bpinsights-february-28-2026/",
+        "description": "FinCEN Should Reassert Leadership of AML Policy The U.S. Treasury Department\u2019s Financial Crimes Enforcement Network should reclaim its role in dictating",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "1 day ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+        "url": "https://www.ecb.europa.eu/press/govcdec/otherdec/2026/html/ecb.gc260227~a3ad2bb150.en.html",
+        "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "3 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Under siege from politics, central bankers fight back - at a cost | Reuters",
+        "url": "https://reuters.com/business/finance/under-siege-politics-central-bankers-fight-back-cost-2026-02-27",
+        "description": "Under pressure from politicians, central bankers are fighting back. However, their efforts are exposing a delicate trade-off: defending independence may preserve inflation credibility, but at the cost of appearing political themselves.",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "2 days ago",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "The Key Interest Rate Decision Dates for 2026 | Morningstar Europe",
+        "url": "https://global.morningstar.com/en-eu/economy/key-interest-rate-decision-dates-2026",
+        "description": "March 18, 2026. April 29, 2026. June 17, 2026. July 29, 2026. Sept. 16, 2026. Oct. 28, 2026. Dec. 9, 2026. The author or authors do not own shares in any securities mentioned in this article. Find out about Morningstar&#x27;s editorial policies. ... Inflation is expected to come in below the ECB\u2019s t",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      },
+      {
+        "title": "Central bank scanner: Rate cuts will abate in 2026",
+        "url": "https://kpmg.com/us/en/articles/2026/january-2026-central-bank-scanner.html",
+        "description": "Core inflation remains above the central bank\u2019s target range. A third quarter contraction pulled down Banxico\u2019s growth forecast for 2025, which was a key driver of the cut. Upcoming (February 5): No change in the policy rate is expected. Policymakers have struck a cautious tone of late. The recent c",
+        "category": "market_mover",
+        "actionability_score": 0.45,
+        "impact_score": 0.4,
+        "combined_score": 0.42,
+        "age": "",
+        "recommended_action": "LOG for awareness"
+      }
+    ],
+    "query": "central bank surprise decisions March 2026",
+    "sources_count": 10,
+    "findings_count": 9,
+    "market_movers": 9,
+    "opportunities": 0
+  },
+  "error": null
+}

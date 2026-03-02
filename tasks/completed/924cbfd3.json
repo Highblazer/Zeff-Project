@@ -1,0 +1,85 @@
+{
+  "id": "924cbfd3",
+  "title": "Polymarket research: Will the US strike Iran next?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the US strike Iran next?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T09:45:12.715892+00:00",
+  "updated_at": "2026-03-01T09:45:23.690483+00:00",
+  "claimed_at": "2026-03-01T09:45:22.177327+00:00",
+  "completed_at": "2026-03-01T09:45:23.690467+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the US strike Iran next?\n\nWeb Results (5):\n- Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council: The question is, will the United States help the Iranian people chart a positive path forward, or will it leave them to the wolves after the bombs sto\n- 2026 Israeli\u2013United States strikes on Iran - Wikipedia: Kamal Penhasi had issued an urgent warning to Iranian civilians residing near military industries and infrastructure to evacuate immediately, stating \n- Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times: Israel, using U.S. intelligence and its own, would execute an operation it had been planning for months: the targeted killing of Iran\u2019s senior leaders\n- Why Iran Will Escalate: U.S. Military Strikes and the Risk of a Quagmire: The Islamic Republic now believes that Israel and the United States intend to repeatedly strike its ballistic missile program\u2014the foundation of Irania\n- Iran Update Special Report: US and Israeli Strikes, February 28, 2026: Iran has attacked US bases in Bahrain, Qatar, the United Arab Emirates, Kuwait, Jordan, and Saudi Arabia.[28] Khatam ol Anbia Central Headquarters Com\n\nNews (5):\n- Israel and Iran exchange fresh attacks after Iran's Supreme Leader Khamenei killed - live updates - BBC News (1 day ago)\n- What we know \u2014 and still don\u2019t \u2014 about the Iran strikes - POLITICO (17 hours ago)\n- Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian (1 day ago)\n- What to Know About the U.S. Attacks on Iran - The New York Times (1 day ago)\n- Anxious days inside Iran as speculation grows of US strikes (2 days ago)",
+    "web_results": [
+      {
+        "title": "Experts react: The US and Israel just unleashed a major attack on Iran. What\u2019s next? - Atlantic Council",
+        "url": "https://www.atlanticcouncil.org/dispatches/experts-react-the-us-and-israel-just-unleashed-a-major-attack-on-iran-whats-next/",
+        "description": "The question is, will the United States help the Iranian people chart a positive path forward, or will it leave them to the wolves after the bombs stop falling? \u2014\u2014Kelly J. Shannon is a visiting scholar at the Institute for Middle East Studies at George Washington University. She is also a member of the Atlantic Council\u2019s Iran Strategy Project working group. Ten predictions for the potential US strikes on Iran \u00b7 Iran\u2019s regime is suffering from strategic vertigo. Its next misstep may be its last."
+      },
+      {
+        "title": "2026 Israeli\u2013United States strikes on Iran - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Israeli\u2013United_States_strikes_on_Iran",
+        "description": "Kamal Penhasi had issued an urgent warning to Iranian civilians residing near military industries and infrastructure to evacuate immediately, stating &quot;Your presence in these areas puts your life at risk.&quot; According to a US official, dozens of US strikes are being carried out by attack planes based at bases around the Middle East from one or more aircraft carriers. Reuters reported that strikes will ..."
+      },
+      {
+        "title": "Iran Says Supreme Leader Killed in U.S.-Israeli Strikes - The New York Times",
+        "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+        "description": "Israel, using U.S. intelligence and its own, would execute an operation it had been planning for months: the targeted killing of Iran\u2019s senior leaders. The United States and Israeli governments, which had originally planned to launch a strike at night under the cover of darkness, made the decision to adjust the timing to take advantage of the information about the gathering at the government compound in Tehran on Saturday morning."
+      },
+      {
+        "title": "Why Iran Will Escalate: U.S. Military Strikes and the Risk of a Quagmire",
+        "url": "https://www.foreignaffairs.com/middle-east/why-iran-will-escalate",
+        "description": "The Islamic Republic now believes that Israel and the United States intend to repeatedly strike its ballistic missile program\u2014the foundation of Iranian self-defense\u2014and that it must be more aggressive to forestall the kind of perpetual assault that could topple it altogether. Trump\u2019s own behavior also increases the risk of escalation. The president\u2019s ever-intensifying wish to be seen as a historic peacemaker has led him to an unnecessarily binary choice\u2014strong-arm Tehran into a major new deal or use substantial force."
+      },
+      {
+        "title": "Iran Update Special Report: US and Israeli Strikes, February 28, 2026",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-us-and-israeli-strikes-february-28-2026/",
+        "description": "Iran has attacked US bases in Bahrain, Qatar, the United Arab Emirates, Kuwait, Jordan, and Saudi Arabia.[28] Khatam ol Anbia Central Headquarters Commander Major General Ali Abdollahi Ali Abadi confirmed that Iranian forces have conducted missile strikes against Israel and US bases in the region and stated that Iran will continue to retaliate until the United States and Israel are \u201cdefinitively defeated,\u201d signaling the Iranian intention to sustain military action rather than conduct a limited retaliatory strike.[29] IRGC-affiliated media claimed that Iran has targeted 14 US bases thus far.[30]"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Israel and Iran exchange fresh attacks after Iran's Supreme Leader Khamenei killed - live updates - BBC News",
+        "url": "https://www.bbc.com/news/live/cn5ge95q6y7t",
+        "description": "Iran has warned of \"devastating\" ... by the US and Iran that killed Supreme Leader Ayatollah Ali Khamenei. Some Iranians have been celebrating the news of Ali Khamenei's death, while others have been seen mourning in the streets. Saturday saw Tehran retaliate with strikes reported across the Middle East, and the Islamic Revolutionary Guard Corps (IRGC) warned that they will attack Israel ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "What we know \u2014 and still don\u2019t \u2014 about the Iran strikes - POLITICO",
+        "url": "https://www.politico.com/news/2026/02/28/iran-strike-middle-east-us-trump-00805729",
+        "description": "Iran\u2019s Assembly of Religious Experts could also go in a different direction in naming the next supreme leader. At this point, it is unclear just how much Khamenei\u2019s killing has impacted the clerics within the system who will pick the next leader. There is also the possibility the strikes do ...",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/27/us-urges-citizens-leave-israel-threat-strike-iran",
+        "description": "Vance is reputedly the senior member ... military strike will not change Iran\u2019s basic negotiating stance. ... Oman\u2019s foreign minister, Badr Albusaidi (r) with Steve Witkoff (c) and Jared Kushner in Geneva. Photograph: AP \u00b7 However, Washington has formally announced that Marco Rubio will travel to Israel for meetings early next week. It is unlikely Israel or the US would launch ...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "What to Know About the U.S. Attacks on Iran - The New York Times",
+        "url": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-attacks-what-to-know.html",
+        "description": "Iran\u2019s supreme leader, Ayatollah Ali Khamenei, was killed in the major assault launched by the United States and Israel.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Anxious days inside Iran as speculation grows of US strikes",
+        "url": "https://www.bbc.com/news/articles/cm2reey52n9o",
+        "description": "Although some opposition figures ... of a US intervention as a targeted strike, others warn of the potential for a broader and more devastating military operation. The sense of uncertainty is not confined to Iran. Several countries have advised their citizens to leave - and as regional tensions escalate, the stakes of the next round of talks ...",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will the US strike Iran next?",
+    "sources_count": 10
+  },
+  "error": null
+}

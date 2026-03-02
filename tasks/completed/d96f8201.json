@@ -1,0 +1,85 @@
+{
+  "id": "d96f8201",
+  "title": "Polymarket research: Counter-Strike: Heroic vs NRG (BO3) - ESL Pro League Stage 1",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: Heroic vs NRG (BO3) - ESL Pro League Stage 1",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T12:30:46.308380+00:00",
+  "updated_at": "2026-03-01T12:31:03.713449+00:00",
+  "claimed_at": "2026-03-01T12:31:02.352883+00:00",
+  "completed_at": "2026-03-01T12:31:03.713430+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: Heroic vs NRG (BO3) - ESL Pro League Stage 1\n\nWeb Results (5):\n- HEROIC vs. NRG at ESL Pro League Season 23 Stage 1 | HLTV.org: <strong>NRG 2-0</strong>. I don&#x27;t see Heroic winning a map here.\n- Prediction for HEROIC vs NRG \u2014 ESL Pro League Season 23: In the Swiss Bo3 format, every series carries strategic weight: <strong>an early win creates a comfortable path through the bracket, while a loss imme\n- Heroic vs NRG 01.03.2026 at ESL Pro League Season 23 | CS2 (CS:GO) | Tips.GG: On <strong>Sunday 01.03.2026 at 02:31</strong>, a match in a BO3 format in CS2 (CS:GO) between Heroic (Europe) and NRG (United States) will take place\n- LIVE: HEROIC vs NRG - ESL Pro League Season 23 - Stage 1 - YouTube: Join the discussion:http://www.twitter.com/eslcshttp://www.facebook.com/eslcshttp://www.instagram.com/eslcshttp://www.twitter.com/iemhttp://www.facebo\n- ESL Pro League Season 21: Stage 1 - Liquipedia Counter-Strike Wiki: HEROIC \u00b7 0:2(Bo3) 3DMAX \u00b7 Nuke \u00b7 Train \u00b7 Anubis \u00b7 \u00b7\u00b7 \u00b7 FURIA \u00b7 0 \u00b7 2 \u00b7 MIBR \u00b7 March 3, 2025 - 16:20 CET \u00b7 FURIA \u00b7 0:2(Bo3) MIBR \u00b7 Anubis \u00b7 Nuke \u00b7 Mira\n\nNews (5):\n- ESL Pro League Season 23: Format, Teams, Schedule, and How to Watch \u2013 blix.gg (2 days ago)\n- Prediction for HEROIC vs NRG \u2014 ESL Pro League Season 23 (2 days ago)\n- Six teams to follow at EPL S23 Stage 1: Stream, schedule, and results \u00bb Esports | Esports.gg | esports.gg (1 day ago)\n- ESL Pro League Season 23 Power Rankings: Vitality's Skip Opens The Door - Hotspawn (2 days ago)\n- All results and schedules for ESL Pro League Season 23 Stage 1 \u21d2 Pley (1 day ago)",
+    "web_results": [
+      {
+        "title": "HEROIC vs. NRG at ESL Pro League Season 23 Stage 1 | HLTV.org",
+        "url": "https://www.hltv.org/matches/2391011/heroic-vs-nrg-esl-pro-league-season-23-stage-1",
+        "description": "<strong>NRG 2-0</strong>. I don&#x27;t see Heroic winning a map here."
+      },
+      {
+        "title": "Prediction for HEROIC vs NRG \u2014 ESL Pro League Season 23",
+        "url": "https://community.skin.club/en/news/prediction-for-heroic-vs-nrg-esl-pro-league-season-23",
+        "description": "In the Swiss Bo3 format, every series carries strategic weight: <strong>an early win creates a comfortable path through the bracket, while a loss immediately places a team under increased tournament pressure</strong>."
+      },
+      {
+        "title": "Heroic vs NRG 01.03.2026 at ESL Pro League Season 23 | CS2 (CS:GO) | Tips.GG",
+        "url": "https://tips.gg/matches/counter-strike/01-03-2026/heroic-vs-nrg/05-00/",
+        "description": "On <strong>Sunday 01.03.2026 at 02:31</strong>, a match in a BO3 format in CS2 (CS:GO) between Heroic (Europe) and NRG (United States) will take place. This event is a part of the Stage 1 stage of the ESL Pro League Season 23 tournament."
+      },
+      {
+        "title": "LIVE: HEROIC vs NRG - ESL Pro League Season 23 - Stage 1 - YouTube",
+        "url": "https://www.youtube.com/watch?v=6mnkgdgFFO4",
+        "description": "Join the discussion:http://www.twitter.com/eslcshttp://www.facebook.com/eslcshttp://www.instagram.com/eslcshttp://www.twitter.com/iemhttp://www.facebook.com/..."
+      },
+      {
+        "title": "ESL Pro League Season 21: Stage 1 - Liquipedia Counter-Strike Wiki",
+        "url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_21/Stage_1",
+        "description": "HEROIC \u00b7 0:2(Bo3) 3DMAX \u00b7 Nuke \u00b7 Train \u00b7 Anubis \u00b7 \u00b7\u00b7 \u00b7 FURIA \u00b7 0 \u00b7 2 \u00b7 MIBR \u00b7 March 3, 2025 - 16:20 CET \u00b7 FURIA \u00b7 0:2(Bo3) MIBR \u00b7 Anubis \u00b7 Nuke \u00b7 Mirage \u00b7 \u00b7\u00b7 \u00b7 EF \u00b7 2 \u00b7 0 \u00b7 NRG \u00b7 March 3, 2025 - 18:30 CET \u00b7 EF \u00b7 2:0(Bo3) NRG \u00b7 Mirage \u00b7 Nuke \u00b7"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "ESL Pro League Season 23: Format, Teams, Schedule, and How to Watch \u2013 blix.gg",
+        "url": "https://blix.gg/blog/news/cs-2/esl-pro-league-season-23-format-teams-schedule",
+        "description": "The ESL Pro League Season 23 kicks off on March 1 with Stage 1 action and runs through March 15, featuring a total prize pool of $1 million. The tournament",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Prediction for HEROIC vs NRG \u2014 ESL Pro League Season 23",
+        "url": "https://community.skin.club/en/news/prediction-for-heroic-vs-nrg-esl-pro-league-season-23",
+        "description": "Prediction for the HEROIC vs NRG match at ESL Pro League Season 23 Stage 1. Analysis of team form, head-to-head, map pool, veto, and the final winner selection.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Six teams to follow at EPL S23 Stage 1: Stream, schedule, and results \u00bb Esports | Esports.gg | esports.gg",
+        "url": "https://esports.gg/news/counter-strike-2/stage-1-epl-season-23-details-results/",
+        "description": "ESL Pro League Season 23 starts with Stage 1 matches. It\u2019s a chance for smaller teams to break to the top: following them is a thrill.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "ESL Pro League Season 23 Power Rankings: Vitality's Skip Opens The Door - Hotspawn",
+        "url": "https://www.hotspawn.com/counter-strike/news/esl-pro-league-season-23-power-rankings",
+        "description": "Vitality have opted to skip ESL Pro League Season 23, a surprise decision that allows the dominant Counter-Strike team to rest and recuperate. But the brutal",
+        "age": "2 days ago"
+      },
+      {
+        "title": "All results and schedules for ESL Pro League Season 23 Stage 1 \u21d2 Pley",
+        "url": "https://pley.gg/cs2/all-results-and-schedules-for-esl-pro-league-season-23-stage-1",
+        "description": "Sixteen teams are set to clash in the initial online Swiss format, all fighting for a top eight finish to advance to Stage 2 and take one step closer to the $1,000,000 prize pool and the LAN Playoffs in Stockholm.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Counter-Strike: Heroic vs NRG (BO3) - ESL Pro League Stage 1",
+    "sources_count": 10
+  },
+  "error": null
+}

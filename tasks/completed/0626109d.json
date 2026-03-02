@@ -1,0 +1,28 @@
+{
+  "id": "0626109d",
+  "title": "Polymarket research: Bucks vs. Bulls",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bucks vs. Bulls",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T23:13:04.084617+00:00",
+  "updated_at": "2026-03-01T23:13:10.960570+00:00",
+  "claimed_at": "2026-03-01T23:13:09.315065+00:00",
+  "completed_at": "2026-03-01T23:13:10.960552+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bucks vs. Bulls\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Bucks vs. Bulls",
+    "sources_count": 0
+  },
+  "error": null
+}

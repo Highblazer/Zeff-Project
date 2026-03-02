@@ -1,0 +1,85 @@
+{
+  "id": "83707130",
+  "title": "Polymarket research: Manchester United FC vs. Crystal Palace FC: O/U 2.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Manchester United FC vs. Crystal Palace FC: O/U 2.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:15.340483+00:00",
+  "updated_at": "2026-03-01T16:30:58.149462+00:00",
+  "claimed_at": "2026-03-01T16:30:56.359226+00:00",
+  "completed_at": "2026-03-01T16:30:58.149447+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Manchester United FC vs. Crystal Palace FC: O/U 2.5\n\nWeb Results (5):\n- Manchester United 2-1 Crystal Palace: Red Devils top 10-man Eagles, go third - NBC Sports: Palace are coming off a Thursday ... a point or three \u2014 and will be favored to continue with that trend. <strong>Manchester United 2-1 Crystal Palace<\n- Man Utd 2-1 Crystal Palace: Benjamin Sesko completes turnaround vs 10-man Eagles to continue Michael Carrick's unbeaten start: Benjamin Sesko celebrated his first start under Michael Carrick by netting the winner as <strong>Manchester United came from behind to beat 10-man Cry\n- Man United handed red card and penalty verdict vs Crystal Palace as VAR decision explained - Manchester Evening News: Crystal Palace were reduced to 10 men when Maxence Lacroix was sent off, and it ultimately helped Manchester United turn the game around at Old Traffo\n- Manchester United vs Crystal Palace Head to Head History - AiScore: In the last 6 matches, <strong>Manchester United Win 2, Draw 1, Lose 3; Crystal Palace Win 3, Draw 1, Lose 2</strong> ... Last 5 , Manchester United W\n- Man United vs Crystal Palace LIVE: Score and goal updates as Sesko scores again after Fernandes - Manchester Evening News: <strong>Manchester United can do the double over Crystal Palace today when the two teams meet at Old Trafford in the Premier League.</strong>\n\nNews (5):\n- Manchester United 2-1 Crystal Palace: Red Devils top 10-man Eagles, go third - NBC Sports (24 minutes ago)\n- Manchester United vs Crystal Palace LIVE updates, watch live, score, analysis, highlights - Yahoo Sports (4 hours ago)\n- Man United vs Crystal Palace LIVE: Score and goal updates as Sesko scores again after Fernandes - Manchester Evening News (32 minutes ago)\n- Team news for Man Utd v Crystal Palace | 1 March 2026 | Manchester United (2 days ago)\n- Man Utd vs. Crystal Palace: Preview, Predictions and Lineups (16 hours ago)",
+    "web_results": [
+      {
+        "title": "Manchester United 2-1 Crystal Palace: Red Devils top 10-man Eagles, go third - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/manchester-united-vs-crystal-palace-live-updates-score-highlights-stats-watch",
+        "description": "Palace are coming off a Thursday ... a point or three \u2014 and will be favored to continue with that trend. <strong>Manchester United 2-1 Crystal Palace</strong>...."
+      },
+      {
+        "title": "Man Utd 2-1 Crystal Palace: Benjamin Sesko completes turnaround vs 10-man Eagles to continue Michael Carrick's unbeaten start",
+        "url": "https://www.skysports.com/football/manchester-united-vs-crystal-palace/531406",
+        "description": "Benjamin Sesko celebrated his first start under Michael Carrick by netting the winner as <strong>Manchester United came from behind to beat 10-man Crystal Palace 2-1</strong> at Old Trafford."
+      },
+      {
+        "title": "Man United handed red card and penalty verdict vs Crystal Palace as VAR decision explained - Manchester Evening News",
+        "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-red-card-palace-33511754",
+        "description": "Crystal Palace were reduced to 10 men when Maxence Lacroix was sent off, and it ultimately helped Manchester United turn the game around at Old Trafford as they won 2-1"
+      },
+      {
+        "title": "Manchester United vs Crystal Palace Head to Head History - AiScore",
+        "url": "https://m.aiscore.com/head-to-head/soccer-crystal-palace-vs-manchester-united",
+        "description": "In the last 6 matches, <strong>Manchester United Win 2, Draw 1, Lose 3; Crystal Palace Win 3, Draw 1, Lose 2</strong> ... Last 5 , Manchester United Win 4 , Draw 1 , Lose 0 , Score Win Prob: 80.00% ,Asian Handicap Win%: 80.0% Total Goals Over%: 40.0%"
+      },
+      {
+        "title": "Man United vs Crystal Palace LIVE: Score and goal updates as Sesko scores again after Fernandes - Manchester Evening News",
+        "url": "https://www.manchestereveningnews.co.uk/sport/football/man-united-vs-crystal-palace-33510186",
+        "description": "<strong>Manchester United can do the double over Crystal Palace today when the two teams meet at Old Trafford in the Premier League.</strong>"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Manchester United 2-1 Crystal Palace: Red Devils top 10-man Eagles, go third - NBC Sports",
+        "url": "https://www.nbcsports.com/soccer/news/manchester-united-vs-crystal-palace-live-updates-score-highlights-stats-watch",
+        "description": "Manchester United are third on the Premier League table after stretching their unbeaten streak to 10 games with a 2-1 comeback win over 10-man Crystal Palacel on Sunday at Old Trafford.",
+        "age": "24 minutes ago"
+      },
+      {
+        "title": "Manchester United vs Crystal Palace LIVE updates, watch live, score, analysis, highlights - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/watch-manchester-united-vs-crystal-120500300.html",
+        "description": "Manchester United looks to stretch its unbeaten run to 10 games when Michael Carrick's Red Devils host Crystal Palace on Sunday at Old Trafford.",
+        "age": "4 hours ago"
+      },
+      {
+        "title": "Man United vs Crystal Palace LIVE: Score and goal updates as Sesko scores again after Fernandes - Manchester Evening News",
+        "url": "https://www.manchestereveningnews.co.uk/sport/football/man-united-vs-crystal-palace-33510186",
+        "description": "Manchester United can do the double over Crystal Palace today when the two teams meet at Old Trafford in the Premier League.",
+        "age": "32 minutes ago"
+      },
+      {
+        "title": "Team news for Man Utd v Crystal Palace | 1 March 2026 | Manchester United",
+        "url": "https://www.manutd.com/en/news/detail/team-news-for-man-utd-v-crystal-palace-1-march-2026",
+        "description": "Head coach Michael Carrick provides an injury update ahead of Sunday's Old Trafford contest.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Man Utd vs. Crystal Palace: Preview, Predictions and Lineups",
+        "url": "https://www.si.com/soccer/man-utd-vs-crystal-palace-preview-predictions-lineups-3-1-26",
+        "description": "The Red Devils are the Premier League\u2018s form team since Michael Carrick took charge.",
+        "age": "16 hours ago"
+      }
+    ],
+    "query": "Manchester United FC vs. Crystal Palace FC: O/U 2.5",
+    "sources_count": 10
+  },
+  "error": null
+}

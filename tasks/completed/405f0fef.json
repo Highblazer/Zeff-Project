@@ -1,0 +1,28 @@
+{
+  "id": "405f0fef",
+  "title": "Polymarket research: Thunder vs. Mavericks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Thunder vs. Mavericks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T21:28:56.673173+00:00",
+  "updated_at": "2026-03-01T21:29:20.090595+00:00",
+  "claimed_at": "2026-03-01T21:29:18.407017+00:00",
+  "completed_at": "2026-03-01T21:29:20.090578+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Thunder vs. Mavericks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Thunder vs. Mavericks",
+    "sources_count": 0
+  },
+  "error": null
+}

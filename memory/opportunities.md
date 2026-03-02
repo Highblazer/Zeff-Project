@@ -4,51 +4,6 @@
 
 *(older entries pruned)*
 
-- 💰 **High-Income Freelancing Skills That Pay $50+ Per Hour in 2026 – GyaanVibes**
-  Actionability: 0.45 | Impact: 0.35
-  > Freelancing in 2026 has evolved into a serious high-income career path. Companies worldwide are outsourcing specialized work to skilled professionals,
-  Recommended: LOG for awareness
-
-### 2026-03-01 00:52 UTC
-
-- 💰 **What is API Monetization? - Models, Examples, Benefits (2026)**
-  Actionability: 0.6 | Impact: 0.35
-  > SaaS APIs extend product functionality and open new revenue streams by offering value-added access to external users. Tiered subscription or usage-bas
-  Recommended: EVALUATE for integration — potential revenue
-
-- 💰 **API Product Strategy for Digital Platforms | ITeXchange Blog**
-  Actionability: 0.45 | Impact: 0.35
-  > Treating APIs as products transforms them into strategic growth engines for digital platforms.
-  Recommended: LOG for awareness
-
-- 💰 **API Economy 2026: $16.29B Market Your Business Can't Ignore**
-  Actionability: 0.45 | Impact: 0.35
-  > The API economy 2026 is about a radical change where APIs are no longer seen as mere technical infrastructure but as business products that can create
-  Recommended: LOG for awareness
-
-### 2026-03-01 01:07 UTC
-
-- 💰 **7 Best AI Agent Platforms in 2026: Tested, Ranked & Honestly Reviewed | by Shanmugaraj Y | Feb, 2026 | Medium**
-  Actionability: 0.4 | Impact: 0.35
-  > I spent the better part of three ... actual agents, and stress-testing the tools against production-level requirements. What you are reading is not a 
-  Recommended: LOG for awareness
-
-### 2026-03-01 01:17 UTC
-
-- 💰 **cTrader Forum - What's New in cTrader Automate API 3.5**
-  Actionability: 0.65 | Impact: 0.35
-  > Dear traders, We would like to inform you that we have released cTrader Desktop v3.5! Below you can find the new features included in cTrader Automate
-  Recommended: EVALUATE for integration — potential revenue
-
-- 💰 **Getting started - Open API - cTrader Help Centre**
-  Actionability: 0.55 | Impact: 0.35
-  > A Telegram bot that automatically informs your followers of any new trades you may have placed. An app for wearables that displays the current P&amp;L
-  Recommended: EVALUATE for integration — potential revenue
-
-- 💰 **cTrader Open API**
-  Actionability: 0.5 | Impact: 0.35
-  > Integrate cTrader Open API into your website or app to allow users to trade or manage their cTrader accounts without leaving your platform.
-  Recommended: LOG for awareness
 
 ### 2026-03-01 01:27 UTC
 
@@ -198,5 +153,50 @@
 - 💰 **MCP SERVERS: The Tool Awakens. Hi folks, | by Kostiantyn Teltov | Feb, 2026 | Medium**
   Actionability: 0.45 | Impact: 0.35
   > One important note: VS Code is ... (January 2026), as it does not provide native MCP support. ... For a better experience, I recommend using tools wit
+  Recommended: LOG for awareness
+
+### 2026-03-01 11:15 UTC
+
+- 💰 **20 Automated Trading Strategies 2026**
+  Actionability: 0.45 | Impact: 0.35
+  > Volatility Trading: Focuses on profiting from changes in market volatility.​ · Advantages: Automated trading offers benefits such as:​ ... To capitali
+  Recommended: LOG for awareness
+
+- 💰 **Avatrade**
+  Actionability: 0.4 | Impact: 0.35
+  > Allows investors to explore a wide ... and strategies in the market without any human burnout · Improves order execution, allowing trades to be entere
+  Recommended: LOG for awareness
+
+### 2026-03-01 11:31 UTC
+
+- 💰 **Top SaaS Trends in 2026: AI, Security & Growth Models - Innovecs**
+  Actionability: 0.45 | Impact: 0.35
+  > From advanced analytics to AI-driven automation, the SaaS ecosystem is evolving faster than ever, shaping the way businesses approach productivity, cu
+  Recommended: LOG for awareness
+
+- 💰 **Is AI Killing SaaS? Why Most SaaS Products Are Built to Last | by Stas Chernychko | Feb, 2026 | Medium**
+  Actionability: 0.4 | Impact: 0.35
+  > AI is transforming industries, but the core value of SaaS remains strong — here’s why AI and SaaS might grow together, not apart.
+  Recommended: LOG for awareness
+
+### 2026-03-01 13:13 UTC
+
+- 💰 **India Built the World’s Back Office. A.I. Is Starting to Shrink It. - The New York Times**
+  Actionability: 0.45 | Impact: 0.35
+  > Artificial intelligence promises to automate the white-collar work that made India a tech powerhouse. The country is racing to adapt before it’s too l
+  Recommended: LOG for awareness
+
+### 2026-03-01 15:16 UTC
+
+- 💰 **SaaS in, SaaS out: Here's what's driving the SaaSpocalypse | TechCrunch**
+  Actionability: 0.45 | Impact: 0.35
+  > What's behind the SaaSpocalypse? It simply seems a new supreme has risen.
+  Recommended: LOG for awareness
+
+### 2026-03-01 15:46 UTC
+
+- 💰 **API Monetization Model Definition & Meaning | PartnerStack**
+  Actionability: 0.5 | Impact: 0.35
+  > The 2026 PartnerStack Network Report is hereDownload free report -&gt; ... An Application Programming Interface (API) monetization model is a strategy
   Recommended: LOG for awareness
 

@@ -1,0 +1,28 @@
+{
+  "id": "e3f5b94f",
+  "title": "Polymarket research: Will the Miami Heat win the 2026 NBA Finals?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Miami Heat win the 2026 NBA Finals?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T21:44:18.220960+00:00",
+  "updated_at": "2026-03-01T21:44:43.956639+00:00",
+  "claimed_at": "2026-03-01T21:44:42.189439+00:00",
+  "completed_at": "2026-03-01T21:44:43.956621+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Miami Heat win the 2026 NBA Finals?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Miami Heat win the 2026 NBA Finals?",
+    "sources_count": 0
+  },
+  "error": null
+}

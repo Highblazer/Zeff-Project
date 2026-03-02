@@ -1,0 +1,85 @@
+{
+  "id": "9ec33ccb",
+  "title": "Polymarket research: Will the US next strike Iran on February 27, 2026 (ET)?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the US next strike Iran on February 27, 2026 (ET)?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T10:58:46.621854+00:00",
+  "updated_at": "2026-03-01T10:58:53.189327+00:00",
+  "claimed_at": "2026-03-01T10:58:51.723153+00:00",
+  "completed_at": "2026-03-01T10:58:53.189301+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the US next strike Iran on February 27, 2026 (ET)?\n\nWeb Results (5):\n- 2026 Israeli\u2013United States strikes on Iran - Wikipedia: On 6 February 2026, Iran and the US held indirect nuclear negotiations in Oman&#x27;s capital, Muscat. Iran emphasized that progress depends on consul\n- 2026 Iran\u2013United States crisis - Wikipedia: One source, however, cautioned that Trump had privately argued both for and against military action and, polling advisers and allies on what the best \n- Iran Update Special Report: US and Israeli Strikes, February 28, 2026: Iran has responded immediately to the US and Israeli strikes. Iran has launched multiple barrages at Israel in recent hours. An Israeli media correspo\n- Iran Update, February 26, 2026 | ISW: US officials have previously stated that <strong>the US would strike Iran if the two sides cannot reach a deal</strong>.[1] The United States and Iran\n- Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian: Sat 28 Feb 2026 03.46 CETFirst published on Fri 27 Feb 2026 14.25 CET \u00b7 Share \u00b7 Prefer the Guardian on Google \u00b7 <strong>Donald Trump says he has not m\n\nNews (5):\n- Iran's supreme leader, Ayatollah Ali Khamenei, has been killed : NPR (1 day ago)\n- Iran Update Special Report: US and Israeli Strikes, February 28, 2026 (17 hours ago)\n- Iran Update, February 26, 2026 | ISW (2 days ago)\n- What we know about the US-Israeli attack on Iran and Tehran\u2019s retaliation | CNN (1 day ago)\n- US and Israel launch \"pre-emptive\" attack against Iran | Reuters (1 day ago)",
+    "web_results": [
+      {
+        "title": "2026 Israeli\u2013United States strikes on Iran - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Israeli%E2%80%93United_States_strikes_on_Iran",
+        "description": "On 6 February 2026, Iran and the US held indirect nuclear negotiations in Oman&#x27;s capital, Muscat. Iran emphasized that progress depends on consultations back in capitals. A second round of nuclear talks is scheduled in Geneva. Between 15 to 20 February, Iran increased its oil exports to 3 times normal rate, and reduced oil storage. Just before the strikes began, on 27 February 2026, Oman&#x27;s Foreign Minister Badr Al-Busaidi said a &quot;breakthrough&quot; had been reached and Iran had agreed both to never stockpile enriched uranium and to full verification by the International Atomic Energy Agency (IAEA); further Iran had agreed to irreversibly downgrade its current enriched uranium to &quot;the lowest level possible&quot;."
+      },
+      {
+        "title": "2026 Iran\u2013United States crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_crisis",
+        "description": "One source, however, cautioned that Trump had privately argued both for and against military action and, polling advisers and allies on what the best course of action is. On 19 February 2026, according to reports <strong>The US could launch military strikes on Iran within days</strong> as the White House issued ..."
+      },
+      {
+        "title": "Iran Update Special Report: US and Israeli Strikes, February 28, 2026",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-us-and-israeli-strikes-february-28-2026/",
+        "description": "Iran has responded immediately to the US and Israeli strikes. Iran has launched multiple barrages at Israel in recent hours. An Israeli media correspondent reported that Iran had launched around 35 missiles at Israel as of 5:42 AM ET. Iran has also attacked numerous US bases across the region. Iran has attacked US bases in Bahrain, Qatar, the United Arab Emirates, Kuwait, Jordan, and Saudi Arabia. This update is the first of multiple Iran Updates that ISW-CTP will publish over the next 24 hours."
+      },
+      {
+        "title": "Iran Update, February 26, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-26-2026/",
+        "description": "US officials have previously stated that <strong>the US would strike Iran if the two sides cannot reach a deal</strong>.[1] The United States and Iran held a third round of nuclear talks on February 26 in Geneva, Switzerland.[2] Omani Foreign Affairs Minister ..."
+      },
+      {
+        "title": "Trump \u2018not happy\u2019 with Iran situation and says military force is still an option | Iran | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/feb/27/us-urges-citizens-leave-israel-threat-strike-iran",
+        "description": "Sat 28 Feb 2026 03.46 CETFirst published on Fri 27 Feb 2026 14.25 CET \u00b7 Share \u00b7 Prefer the Guardian on Google \u00b7 <strong>Donald Trump says he has not made a final decision on whether to launch strikes on Iran</strong> but is \u201cnot happy\u201d with the situation ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Iran's supreme leader, Ayatollah Ali Khamenei, has been killed : NPR",
+        "url": "https://www.npr.org/2026/02/28/nx-s1-5730158/israel-iran-strikes-trump-us",
+        "description": "The Iranian government has declared 40 days of national mourning after Khamenei was killed in a U.S.\u2013Israeli attack on Saturday.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Iran Update Special Report: US and Israeli Strikes, February 28, 2026",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-us-and-israeli-strikes-february-28-2026/",
+        "description": "The United States and Israel have launched a strike campaign into Iran in order to topple the Islamic Republic, among other objectives.",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Iran Update, February 26, 2026 | ISW",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-february-26-2026/",
+        "description": "Iran is unlikely to accept reported US demands to destroy its nuclear facilities and commit to a permanent deal.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "What we know about the US-Israeli attack on Iran and Tehran\u2019s retaliation | CNN",
+        "url": "https://www.cnn.com/2026/02/28/middleeast/israel-attack-iran-intl-hnk",
+        "description": "The United States and Israel have launched a major attack on Iran, which President Donald Trump said would lay waste to the country\u2019s military, obliterate its military program, and could even topple its regime.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "US and Israel launch \"pre-emptive\" attack against Iran | Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/",
+        "description": "Israel said it launched a pre-emptive attack against Iran on Saturday, pushing the Middle East into a renewed military confrontation and further dimming hopes for a diplomatic solution to Tehran's long-running nuclear dispute with the West.",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Will the US next strike Iran on February 27, 2026 (ET)?",
+    "sources_count": 10
+  },
+  "error": null
+}

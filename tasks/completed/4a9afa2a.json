@@ -1,0 +1,85 @@
+{
+  "id": "4a9afa2a",
+  "title": "Polymarket research: Will AC Milan win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will AC Milan win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:13.011377+00:00",
+  "updated_at": "2026-03-01T16:30:30.375079+00:00",
+  "claimed_at": "2026-03-01T16:30:28.470636+00:00",
+  "completed_at": "2026-03-01T16:30:30.375063+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will AC Milan win on 2026-03-01?\n\nWeb Results (5):\n- Cremonese v AC Milan, Serie A Enilive 2025/2026: stats, table, referee and suspensions | AC Milan: Their last victory dates back to 7 December (a 2-0 win over Lecce), and they&#x27;ve picked up just three points in 2026, courtesy of home draws again\n- Cremonese vs AC Milan prediction, odds & betting tips \u2013 01/03/2026: AC Milan are in strong away form heading into this clash and we expect them to get a win against the hosts, who are struggling. <strong>We predict a 2\n- US Cremonese - AC Milan prediction & tips 01.03.2026: Our betting tip for this Serie A clash <strong>strongly favors an away victory for AC Milan</strong>, with the visitors priced at attractive odds of 1\n- Cremonese vs Milan LIVE Score: Milan goal (0-2) | 03/01/2026 - VAVEL USA: It&#x27;s going to be a lively game; Milan will likely sit back, drawing defenders into their own half and counter-attacking quickly, while Cremonese \n- Cremonese x-x AC Milan, Serie A 2025/2026: the stats | AC Milan: <strong>AC Milan returns home with three valuable points following a 2-0 victory against Cremonese</strong>. The Rossoneri broke the deadlock in the 8\n\nNews (5):\n- Cremonese v AC Milan, Serie A Enilive 2025/2026: stats, table, referee and suspensions | AC Milan (17 hours ago)\n- Why Milan's win over Cremonese could be huge in the Serie A season - Get Italian Football News (2 hours ago)\n- Serie A 2025-26: AC Milan consolidates top-four credentials with win at Cremonese - Sportstar (3 hours ago)\n- Cremonese vs AC Milan prediction, odds & betting tips \u2013 01/03/2026 (2 days ago)\n- Cremonese vs Milan LIVE Score: Milan goal (0-2) | 03/01/2026 - VAVEL USA (3 hours ago)",
+    "web_results": [
+      {
+        "title": "Cremonese v AC Milan, Serie A Enilive 2025/2026: stats, table, referee and suspensions | AC Milan",
+        "url": "https://www.acmilan.com/en/news/articles/serie-a/2026-03-01/cremonese-v-ac-milan-match-preview",
+        "description": "Their last victory dates back to 7 December (a 2-0 win over Lecce), and they&#x27;ve picked up just three points in 2026, courtesy of home draws against Cagliari, Hellas Verona and Genoa. The clash with AC Milan will be followed by a series of crucial six-pointers in the battle for survival, so thoughts may also be turning to the games ahead."
+      },
+      {
+        "title": "Cremonese vs AC Milan prediction, odds & betting tips \u2013 01/03/2026",
+        "url": "https://footballwhispers.com/blog/cremonese-vs-ac-milan-prediction-01-03-2026/",
+        "description": "AC Milan are in strong away form heading into this clash and we expect them to get a win against the hosts, who are struggling. <strong>We predict a 2-0 victory for Milan</strong> as they look to keep the pace at the top of the standings."
+      },
+      {
+        "title": "US Cremonese - AC Milan prediction & tips 01.03.2026",
+        "url": "https://www.transfermarkt.com/betting/tips/cremonese-vs-ac-milan-prediction-01-03-2026/",
+        "description": "Our betting tip for this Serie A clash <strong>strongly favors an away victory for AC Milan</strong>, with the visitors priced at attractive odds of 1.56 at 1win. Despite their recent setback against Parma, Milan&#x27;s superior quality and impressive away record ..."
+      },
+      {
+        "title": "Cremonese vs Milan LIVE Score: Milan goal (0-2) | 03/01/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/03/01/1252513-cremonese-vs-milan-live-score-serie-a.html",
+        "description": "It&#x27;s going to be a lively game; Milan will likely sit back, drawing defenders into their own half and counter-attacking quickly, while Cremonese will play further forward and maintain possession in the attacking third. For Milan, winning is crucial to prevent Inter Milan from pulling further ahead and to keep their Italian title dream alive."
+      },
+      {
+        "title": "Cremonese x-x AC Milan, Serie A 2025/2026: the stats | AC Milan",
+        "url": "https://www.acmilan.com/en/news/articles/stats/2026-03-01/cremonese-v-ac-milan-all-the-numbers-from-the-game",
+        "description": "<strong>AC Milan returns home with three valuable points following a 2-0 victory against Cremonese</strong>. The Rossoneri broke the deadlock in the 89th minute with Pavlovi\u0107, followed by Rafael Le\u00e3o&#x27;s goal in the 94th minute."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Cremonese v AC Milan, Serie A Enilive 2025/2026: stats, table, referee and suspensions | AC Milan",
+        "url": "https://www.acmilan.com/en/news/articles/serie-a/2026-03-01/cremonese-v-ac-milan-match-preview",
+        "description": "The lowdown on the lunchtime fixture that opens AC Milan's March",
+        "age": "17 hours ago"
+      },
+      {
+        "title": "Why Milan's win over Cremonese could be huge in the Serie A season - Get Italian Football News",
+        "url": "https://www.getfootballnewsitaly.com/2026/why-milans-win-over-cremonese-could-be-huge-in-the-serie-a-season/",
+        "description": "Somehow, Milan managed to go past Cremonese in the Serie A, thanks to late goals from Rafael Leao and Strahinja Pavlovic. The triumph helps Milan return to",
+        "age": "2 hours ago"
+      },
+      {
+        "title": "Serie A 2025-26: AC Milan consolidates top-four credentials with win at Cremonese - Sportstar",
+        "url": "https://sportstar.thehindu.com/football/serie-a-2025-26-ac-milan-vs-cremonese-score-result-points-table-latest-updates/article70691813.ece",
+        "description": "AC Milan moved closer to Champions League football next season after two late strikes gave it a 2-0 win at Cremonese on Sunday.",
+        "age": "3 hours ago"
+      },
+      {
+        "title": "Cremonese vs AC Milan prediction, odds & betting tips \u2013 01/03/2026",
+        "url": "https://footballwhispers.com/blog/cremonese-vs-ac-milan-prediction-01-03-2026/",
+        "description": "Cremonese vs AC Milan prediction, odds & betting tips \u2013 01/03/2026 - Posted on February 28, 2026 in Serie A predictions & betting tips",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Cremonese vs Milan LIVE Score: Milan goal (0-2) | 03/01/2026 - VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/03/01/1252513-cremonese-vs-milan-live-score-serie-a.html",
+        "description": "Get real-time updates on Cremonese vs Milan live coverage, minute by minute of the match, score, how to watch, stream information and latest updates of 2025-26 Serie A Matchday 27 with VAVEL. The game will start at 6:30 AM ET on March 1st, 2026.",
+        "age": "3 hours ago"
+      }
+    ],
+    "query": "Will AC Milan win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "50c6f6e5",
+  "title": "Polymarket research: US Sassuolo Calcio vs. Atalanta BC: O/U 2.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "US Sassuolo Calcio vs. Atalanta BC: O/U 2.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:15.719608+00:00",
+  "updated_at": "2026-03-01T16:31:03.242811+00:00",
+  "claimed_at": "2026-03-01T16:31:01.348551+00:00",
+  "completed_at": "2026-03-01T16:31:03.242794+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: US Sassuolo Calcio vs. Atalanta BC: O/U 2.5\n\nWeb Results (5):\n- Sassuolo vs Atalanta live score, H2H and lineups | Sofascore: Sassuolo is going head to head with Atalanta starting on <strong>1 Mar 2026 at 14:00 UTC</strong> at Mapei Stadium stadium, Reggio Emilia city, Italy.\n- Preview: Sassuolo vs Atalanta BC - prediction, team news, lineups - Sports Mole: Sports Mole previews Sunday&#x27;s Serie A clash between Sassuolo and Atalanta BC, including predictions, team news and possible lineups.\n- US Sassuolo Calcio - Atalanta BC prediction & tips 01.03.2026: <strong>There have been over 2.5 goals scored in 4 of Atalanta Bergamo&#x27;s last 7 matches</strong>. ... Sassuolo Calcio have won or lost 3 of their\n- Atalanta vs Sassuolo Prediction - AiScore: Sassuolo odds, and make our expert ITA Serie A picks and predictions. <strong>Atalanta have a good home record with 3 wins and 6 draws</strong> from t\n- Sassuolo Calcio x Atalanta h2h - Sassuolo Calcio x Atalanta head to head results: The match Sassuolo Calcio - Atalanta is scheduled on <strong>01 Mar 2026</strong> and will be viewable on livescores.biz on any device with an interne\n\nNews (5):\n- Sassuolo vs Atalanta: Serie A stats & head-to-head - BBC Sport (27 minutes ago)\n- Sassuolo vs Atalanta Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026 (2 days ago)\n- Preview: Sassuolo vs Atalanta BC - prediction, team news, lineups - Sports Mole (2 days ago)\n- Sassuolo vs Atalanta Prediction 1/03/2026 \u2013 Odds, Tips & Analysis - Football (2 days ago)\n- US Sassuolo Calcio vs Atalanta BC | Pron\u00f3stico y cuotas 01.03.2026 (4 days ago)",
+    "web_results": [
+      {
+        "title": "Sassuolo vs Atalanta live score, H2H and lineups | Sofascore",
+        "url": "https://www.sofascore.com/football/match/sassuolo-atalanta/LdbsTfb",
+        "description": "Sassuolo is going head to head with Atalanta starting on <strong>1 Mar 2026 at 14:00 UTC</strong> at Mapei Stadium stadium, Reggio Emilia city, Italy. The match is a part of the Serie A.Sassuolo played against Atalanta in 1 matches this season."
+      },
+      {
+        "title": "Preview: Sassuolo vs Atalanta BC - prediction, team news, lineups - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/sassuolo/preview/sassuolo-vs-atalanta-prediction-team-news-lineups_592837.html",
+        "description": "Sports Mole previews Sunday&#x27;s Serie A clash between Sassuolo and Atalanta BC, including predictions, team news and possible lineups."
+      },
+      {
+        "title": "US Sassuolo Calcio - Atalanta BC prediction & tips 01.03.2026",
+        "url": "https://www.transfermarkt.com/betting/tips/sassuolo-calcio-vs-atalanta-bergamo-prediction-01-03-2026/",
+        "description": "<strong>There have been over 2.5 goals scored in 4 of Atalanta Bergamo&#x27;s last 7 matches</strong>. ... Sassuolo Calcio have won or lost 3 of their last 3 matches."
+      },
+      {
+        "title": "Atalanta vs Sassuolo Prediction - AiScore",
+        "url": "https://m.aiscore.com/prediction/football-atalanta-vs-sassuolo-prediction",
+        "description": "Sassuolo odds, and make our expert ITA Serie A picks and predictions. <strong>Atalanta have a good home record with 3 wins and 6 draws</strong> from their last 10 games in front of their own fans."
+      },
+      {
+        "title": "Sassuolo Calcio x Atalanta h2h - Sassuolo Calcio x Atalanta head to head results",
+        "url": "https://livescores.biz/h2h/atalanta-vs-sassuolo-cf",
+        "description": "The match Sassuolo Calcio - Atalanta is scheduled on <strong>01 Mar 2026</strong> and will be viewable on livescores.biz on any device with an internet connection. Moreover, the website offers all fans to follow all H2H matches and H2H livescore in one place without registration."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Sassuolo vs Atalanta: Serie A stats & head-to-head - BBC Sport",
+        "url": "https://bbc.com/sport/football/live/c043rw2p4pet",
+        "description": "Follow live text commentary, score updates and match stats from Sassuolo vs Atalanta in the Serie A",
+        "age": "27 minutes ago"
+      },
+      {
+        "title": "Sassuolo vs Atalanta Prediction, Betting Tips, Lineups & Odds | 01 Mar 2026",
+        "url": "https://sportsgambler.com/betting-tips/football/sassuolo-vs-atalanta-prediction-lineups-odds-2026-03-01",
+        "description": "Sassuolo vs Atalanta prediction and betting tips. Serie A preview with odds, team news and lineups. Free football predictions.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Preview: Sassuolo vs Atalanta BC - prediction, team news, lineups - Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/sassuolo/preview/sassuolo-vs-atalanta-prediction-team-news-lineups_592837.html",
+        "description": "Sports Mole previews Sunday's Serie A clash between Sassuolo and Atalanta BC, including predictions, team news and possible lineups.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Sassuolo vs Atalanta Prediction 1/03/2026 \u2013 Odds, Tips & Analysis - Football",
+        "url": "https://scores24.live/en/soccer/m-01-03-2026-sassuolo-calcio-atalanta-prediction",
+        "description": "Sassuolo vs Atalanta predictions and match analysis: team form, H2H stats, key trends, and the best betting tips with up-to-date odds.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "US Sassuolo Calcio vs Atalanta BC | Pron\u00f3stico y cuotas 01.03.2026",
+        "url": "https://www.transfermarkt.es/apuestas/pronosticos-deportivos/sassuolo-calcio-vs-atalanta-pronostico-apuestas-01-03-2026/",
+        "description": "Pronostico y apuestas para US Sassuolo Calcio vs. Atalanta BC at the Serie A 2025/2026.",
+        "age": "4 days ago"
+      }
+    ],
+    "query": "US Sassuolo Calcio vs. Atalanta BC: O/U 2.5",
+    "sources_count": 10
+  },
+  "error": null
+}

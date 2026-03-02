@@ -1,0 +1,85 @@
+{
+  "id": "e7c2ecf5",
+  "title": "Polymarket research: Will Australia win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Australia win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T11:04:56.427626+00:00",
+  "updated_at": "2026-03-01T11:05:00.885774+00:00",
+  "claimed_at": "2026-03-01T11:04:59.122471+00:00",
+  "completed_at": "2026-03-01T11:05:00.885757+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Australia win the 2026 FIFA World Cup?\n\nWeb Results (5):\n- Australia | FIFA World Cup 2026\u2122: We cannot provide a description for this page right now\n- Australia World Cup history, records and 2026 fixtures: We cannot provide a description for this page right now\n- 2026 FIFA World Cup - Wikipedia: Two of the teams will be seeded ... play the winners of two knockout games between the four unseeded teams for the two FIFA World Cup berths. The four\n- Australia World Cup 2026 Preview: Best Players, Roster, History | FOX Sports: Published Jan. 2, 2026 1:51 p.m. ET ... <strong>A recent coaching change provided the necessary boost for Australia to book a sixth straight World Cup\n- Australia World Cup 2026 qualifying | Fixtures and results: We cannot provide a description for this page right now\n\nNews (5):\n- Australia will elevate Women's Asian Cup profile and profitability, says AFC | Reuters (2 days ago)\n- After World Cup success, Australia looks to grow women\u2019s soccer as host of the Asian Cup - The Athletic (6 hours ago)\n- FIFA World Cup 2026 Tickets: How to buy, sales phases, and resale pricing (2 days ago)\n- 2026 World Cup Schedule | Full Match List & Key Dates (2 days ago)\n- Australia look to revive 'Matildas mania' in Women's Asian Cup | Reuters (3 days ago)",
+    "web_results": [
+      {
+        "title": "Australia | FIFA World Cup 2026\u2122",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/australia/team-news",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "Australia World Cup history, records and 2026 fixtures",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/australia-team-profile-history",
+        "description": "We cannot provide a description for this page right now"
+      },
+      {
+        "title": "2026 FIFA World Cup - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+        "description": "Two of the teams will be seeded ... play the winners of two knockout games between the four unseeded teams for the two FIFA World Cup berths. The four-game tournament is to be played in one or more of the host countries, and will also be used as a test event for the FIFA World Cup. The ratification of slot allocation also gives the OFC a guaranteed berth in the final tournament for the first time: the 2026 FIFA World ..."
+      },
+      {
+        "title": "Australia World Cup 2026 Preview: Best Players, Roster, History | FOX Sports",
+        "url": "https://www.foxsports.com/stories/soccer/australia-world-cup-2026-preview-best-players-roster-history-jersey-predictions",
+        "description": "Published Jan. 2, 2026 1:51 p.m. ET ... <strong>A recent coaching change provided the necessary boost for Australia to book a sixth straight World Cup spot</strong>. Similar to the U.S. in which soccer is behind other more popular sports, the growth of its domestic ..."
+      },
+      {
+        "title": "Australia World Cup 2026 qualifying | Fixtures and results",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/australia-socceroos-qualification-results-fixtures",
+        "description": "We cannot provide a description for this page right now"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Australia will elevate Women's Asian Cup profile and profitability, says AFC | Reuters",
+        "url": "https://www.reuters.com/sports/soccer/australia-will-elevate-womens-asian-cup-profile-profitability-says-afc-2026-02-27/",
+        "description": "Australia's experience of hosting the Women's World Cup will provide a platform to take next month's Asian Cup to new levels of professionalism and profitability, the region's football governing body has told Reuters.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "After World Cup success, Australia looks to grow women\u2019s soccer as host of the Asian Cup - The Athletic",
+        "url": "https://nytimes.com/athletic/7041606/2026/03/01/australia-women-soccer-growth-challenges",
+        "description": "Women's soccer has grown across the world, but 2023 World Cup host Australia is working to push past a plateau",
+        "age": "6 hours ago"
+      },
+      {
+        "title": "FIFA World Cup 2026 Tickets: How to buy, sales phases, and resale pricing",
+        "url": "https://www.businessinsider.com/guides/tickets/fifa-world-cup-2026-tickets-prices-dates",
+        "description": "Learn how to buy World Cup 2026 tickets, including FIFA sale phases, verified resellers, and current pricing trends.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "2026 World Cup Schedule | Full Match List & Key Dates",
+        "url": "https://sportsbookreview.com/picks/soccer/world-cup-full-schedule-dates-2026",
+        "description": "View the full 2026 World Cup schedule. Track every match from the June 11 opener to the July 19 final. Includes dates, kick-off times, and all 16 host cities.",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Australia look to revive 'Matildas mania' in Women's Asian Cup | Reuters",
+        "url": "https://www.reuters.com/sports/soccer/australia-look-revive-matildas-mania-womens-asian-cup-2026-02-26/",
+        "description": "Hosts Australia will hope to revive the 'Matildas mania' that swept the nation during their run to the 2023 World Cup semi-finals as they bid for a second Women's Asian Cup title.",
+        "age": "3 days ago"
+      }
+    ],
+    "query": "Will Australia win the 2026 FIFA World Cup?",
+    "sources_count": 10
+  },
+  "error": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "f587b6f1",
+  "title": "Polymarket research: ODI Series Australia vs India, Women: Australia vs India",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "ODI Series Australia vs India, Women: Australia vs India",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T10:43:29.414971+00:00",
+  "updated_at": "2026-03-01T10:43:35.483118+00:00",
+  "claimed_at": "2026-03-01T10:43:34.041581+00:00",
+  "completed_at": "2026-03-01T10:43:35.483100+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: ODI Series Australia vs India, Women: Australia vs India\n\nWeb Results (5):\n- Australia v India: third women\u2019s one-day cricket international \u2013 live | Australia women's cricket team | The Guardian: Over-by-over report: <strong>Australia set India 410 for victory</strong> as they attempt to sweep the ODI leg of series. Join our writers for update\n- Australia v India ODIs - Women: View matches, standings, news, videos, statistics and teams for Australia v India ODIs - Women.\n- India vs Australia Highlights, 2nd Women ODI: Australia women's team seals three-match series against India with five-wicket win in second ODI in Hobart - The Times of India: India vs Australia Highlights, 2nd Women ODI: <strong>Australia women&#x27;s team seals three-match series against India with five-wicket win in secon\n- Australia beat India by six wickets in first women\u2019s cricket one-day international \u2013 as it happened | Cricket | The Guardian: <strong>Australia level the multi-format series at 4-4 with an emphatic victory over India with 70 balls to spare in the ODI in Brisbane</strong> ... \n- India Women in Australia 2025/26, AUS-W vs IND-W 2nd ODI Match Report, February 27, 2026 - Voll and Litchfield bludgeon India to set up 2-0 ODI series win: <strong>Georgia Voll bludgeoned a century and Phoebe Litchfield cracked 80 as Australia issued a reminder of their 50-over mastery after crushing Worl\n\nNews (5):\n- Australia vs India: Third women's ODI, Hobart - cricket score & radio commentary - BBC Sport (1 day ago)\n- India vs Australia Highlights, 2nd Women ODI: Australia women's team seals three-match series against India with five-wicket win in second ODI in Hobart - The Times of India (2 days ago)\n- India Women in Australia 2025/26, AUS-W vs IND-W 2nd ODI Match Report, February 27, 2026 - Voll and Litchfield bludgeon India to set up 2-0 ODI series win (2 days ago)\n- Australia v India: third women\u2019s one-day cricket international \u2013 live | Australia women's cricket team | The Guardian (5 minutes ago)\n- India vs Australia, 3rd Women's ODI Live Score Updates | Cricket News (7 hours ago)",
+    "web_results": [
+      {
+        "title": "Australia v India: third women\u2019s one-day cricket international \u2013 live | Australia women's cricket team | The Guardian",
+        "url": "https://www.theguardian.com/sport/live/2026/mar/01/australia-vs-india-third-womens-cricket-odi-one-day-international-aus-v-ind-live-scores-updates",
+        "description": "Over-by-over report: <strong>Australia set India 410 for victory</strong> as they attempt to sweep the ODI leg of series. Join our writers for update"
+      },
+      {
+        "title": "Australia v India ODIs - Women",
+        "url": "https://www.cricket.com.au/matches/series/CA:3125/australia-v-india-odis-women",
+        "description": "View matches, standings, news, videos, statistics and teams for Australia v India ODIs - Women."
+      },
+      {
+        "title": "India vs Australia Highlights, 2nd Women ODI: Australia women's team seals three-match series against India with five-wicket win in second ODI in Hobart - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-australia-live-score-2nd-odi-women-ind-w-vs-aus-w-live-updates-harmanpreet-kaur-smriti-mandhana/liveblog/128836218.cms",
+        "description": "India vs Australia Highlights, 2nd Women ODI: <strong>Australia women&#x27;s team seals three-match series against India with five-wicket win in second ODI in Hobart</strong>"
+      },
+      {
+        "title": "Australia beat India by six wickets in first women\u2019s cricket one-day international \u2013 as it happened | Cricket | The Guardian",
+        "url": "https://www.theguardian.com/sport/live/2026/feb/24/australia-vs-india-first-womens-cricket-odi-one-day-international-aus-v-ind-live-scores-updates",
+        "description": "<strong>Australia level the multi-format series at 4-4 with an emphatic victory over India with 70 balls to spare in the ODI in Brisbane</strong> ... Alyssa Healy plays a shot in the first women\u2019s ODI as Australia defeat India by six wickets in Brisbane."
+      },
+      {
+        "title": "India Women in Australia 2025/26, AUS-W vs IND-W 2nd ODI Match Report, February 27, 2026 - Voll and Litchfield bludgeon India to set up 2-0 ODI series win",
+        "url": "https://www.espncricinfo.com/series/india-women-in-australia-2025-26-1478874/australia-women-vs-india-women-2nd-odi-1478916/match-report",
+        "description": "<strong>Georgia Voll bludgeoned a century and Phoebe Litchfield cracked 80 as Australia issued a reminder of their 50-over mastery after crushing World Cup champions India at Bellerive Oval to clinch the ODI leg 2-0</strong>. Chasing India&#x27;s middling total of ..."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Australia vs India: Third women's ODI, Hobart - cricket score & radio commentary - BBC Sport",
+        "url": "https://www.bbc.com/sport/cricket/live/c39wvv04v44t",
+        "description": "Australia face India in the third women's ODI at Ninja Stadium in Hobart - follow live scores and radio commentary.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "India vs Australia Highlights, 2nd Women ODI: Australia women's team seals three-match series against India with five-wicket win in second ODI in Hobart - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-australia-live-score-2nd-odi-women-ind-w-vs-aus-w-live-updates-harmanpreet-kaur-smriti-mandhana/liveblog/128836218.cms",
+        "description": "India vs Australia Highlights, 2nd Women ODI: ) Georgia Voll shone with a scintillating hundred as Australia defeated India by five wickets to seal the three-match Women's ODI series here on Friday. Batting first, India rode on half-centuries from skipper Harmanpreet Kaur (54 off 70 balls) ...",
+        "age": "2 days ago"
+      },
+      {
+        "title": "India Women in Australia 2025/26, AUS-W vs IND-W 2nd ODI Match Report, February 27, 2026 - Voll and Litchfield bludgeon India to set up 2-0 ODI series win",
+        "url": "https://www.espncricinfo.com/series/india-women-in-australia-2025-26-1478874/australia-women-vs-india-women-2nd-odi-1478916/match-report",
+        "description": "Georgia Voll bludgeoned a century ... the ODI leg 2-0. Chasing India's middling total of 251 for 9 on a very good batting surface, Litchfield and Voll combined for a second-wicket partnership of 119 in rapid time as Australia reached the finish line in the 37th over. Australia now leads 6-4 on points in the multi-format series with just ...",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Australia v India: third women\u2019s one-day cricket international \u2013 live | Australia women's cricket team | The Guardian",
+        "url": "https://www.theguardian.com/sport/live/2026/mar/01/australia-vs-india-third-womens-cricket-odi-one-day-international-aus-v-ind-live-scores-updates",
+        "description": "Over-by-over report: Australia set India 410 for victory as they attempt to sweep the ODI leg of series. Join our writers for update",
+        "age": "5 minutes ago"
+      },
+      {
+        "title": "India vs Australia, 3rd Women's ODI Live Score Updates | Cricket News",
+        "url": "https://sports.ndtv.com/cricket/india-vs-australia-3rd-womens-odi-live-score-ind-vs-aus-wodi-live-updates-scorecard-harmanpreet-kaur-smriti-mandhana-11152589",
+        "description": "India Women vs Australia Women Live Score, 3rd Women's ODI: Captain Alyssa Healy drew curtains on her international career on a high, smashing 158 to power Australia to a mammoth 409 for seven against India in the third and final women's ODI.",
+        "age": "7 hours ago"
+      }
+    ],
+    "query": "ODI Series Australia vs India, Women: Australia vs India",
+    "sources_count": 10
+  },
+  "error": null
+}

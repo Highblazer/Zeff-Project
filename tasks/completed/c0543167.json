@@ -1,0 +1,85 @@
+{
+  "id": "c0543167",
+  "title": "Polymarket research: Spread: Manchester United FC (-1.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Manchester United FC (-1.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:15.041732+00:00",
+  "updated_at": "2026-03-01T16:30:56.353238+00:00",
+  "claimed_at": "2026-03-01T16:30:54.377333+00:00",
+  "completed_at": "2026-03-01T16:30:56.353220+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Manchester United FC (-1.5)\n\nWeb Results (5):\n- Manchester United live score, schedule & player stats | Sofascore: Manchester United live score, fixtures, player ratings and statistics.\n- Manchester United Team News, Fixtures & Results 2025/26 | Premier League: For the latest news on Manchester United, including scores, fixtures, team news, results, form guide &amp; league position, visit the official website\n- Manchester United Scores, Stats and Highlights - ESPN: Manchester United vs Crystal PalaceOld Trafford - Sun 3/1/26, 9:00Tickets as low as $294 \u00b7 Buy Manchester United tickets with VividSeats \u00b7 Terms of Us\n- Manchester United Scores & Fixtures - This Month's Schedule of Football Matches: Manchester United, 2. Tottenham Hotspur, 0. Full time. ... FT Full Time. ... West Ham United, 1. Manchester United, 1.\n- Manchester United Scores & Latest Results Today | LiveScore: Manchester United scores with the latest results, fixtures and tables. View up-to-date results live as they happen.\n\nNews (5):\n- Man United vs Crystal Palace LIVE: Score and goal updates as Sesko scores again after Fernandes - Manchester Evening News (32 minutes ago)\n- Leeds United vs Manchester City \u2013 Predicted lineup and team news - Yahoo Sports (1 day ago)\n- The Premier League relegation battle analysed: Where race to beat drop will be won and lost - The Athletic (2 days ago)\n- Manchester United 2-1 Crystal Palace: Hosts fight back to win and go third - BBC Sport (23 minutes ago)\n- Manchester United vs Crystal Palace predictions, team news, betting tips, odds and Bet Builder | Racing Post (1 day ago)",
+    "web_results": [
+      {
+        "title": "Manchester United live score, schedule & player stats | Sofascore",
+        "url": "https://www.sofascore.com/football/team/manchester-united/35",
+        "description": "Manchester United live score, fixtures, player ratings and statistics."
+      },
+      {
+        "title": "Manchester United Team News, Fixtures & Results 2025/26 | Premier League",
+        "url": "https://www.premierleague.com/en/clubs/1/manchester-united/overview",
+        "description": "For the latest news on Manchester United, including scores, fixtures, team news, results, form guide &amp; league position, visit the official website of the Premier League."
+      },
+      {
+        "title": "Manchester United Scores, Stats and Highlights - ESPN",
+        "url": "https://www.espn.com/soccer/team/_/id/360",
+        "description": "Manchester United vs Crystal PalaceOld Trafford - Sun 3/1/26, 9:00Tickets as low as $294 \u00b7 Buy Manchester United tickets with VividSeats \u00b7 Terms of Use \u00b7 Privacy Policy \u00b7 Your US State Privacy Rights \u00b7 Children&#x27;s Online Privacy Policy \u00b7 Interest-Based Ads \u00b7"
+      },
+      {
+        "title": "Manchester United Scores & Fixtures - This Month's Schedule of Football Matches",
+        "url": "https://www.skysports.com/manchester-united-scores-fixtures",
+        "description": "Manchester United, 2. Tottenham Hotspur, 0. Full time. ... FT Full Time. ... West Ham United, 1. Manchester United, 1."
+      },
+      {
+        "title": "Manchester United Scores & Latest Results Today | LiveScore",
+        "url": "https://www.livescore.com/en/football/team/manchester-united/2810/overview/",
+        "description": "Manchester United scores with the latest results, fixtures and tables. View up-to-date results live as they happen."
+      }
+    ],
+    "news_results": [
+      {
+        "title": "Man United vs Crystal Palace LIVE: Score and goal updates as Sesko scores again after Fernandes - Manchester Evening News",
+        "url": "https://www.manchestereveningnews.co.uk/sport/football/man-united-vs-crystal-palace-33510186",
+        "description": "Manchester United can do the double over Crystal Palace today when the two teams meet at Old Trafford in the Premier League.",
+        "age": "32 minutes ago"
+      },
+      {
+        "title": "Leeds United vs Manchester City \u2013 Predicted lineup and team news - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/leeds-united-vs-manchester-city-065500521.html",
+        "description": "Leeds United host Manchester City at Elland Road on Saturday evening, aiming to extend their unbeaten home run and secure a vital result in their battle for Premier League survival.The Whites have mov...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "The Premier League relegation battle analysed: Where race to beat drop will be won and lost - The Athletic",
+        "url": "https://www.nytimes.com/athletic/7072769/2026/02/27/premier-league-relegation-leeds-tottenham-nottingham-forest-west-ham-burnley-wolves/",
+        "description": "Toughest fixtures, squad strengths and set-piece weaknesses. This is what each team circling the drain has going for them, and against them",
+        "age": "2 days ago"
+      },
+      {
+        "title": "Manchester United 2-1 Crystal Palace: Hosts fight back to win and go third - BBC Sport",
+        "url": "https://www.bbc.co.uk/sport/football/live/c043rw2p0pgt",
+        "description": "Manchester United fight back to beat 10-man Crystal Palace and go third in the Premier League amid a controversial penalty and red card decision.",
+        "age": "23 minutes ago"
+      },
+      {
+        "title": "Manchester United vs Crystal Palace predictions, team news, betting tips, odds and Bet Builder | Racing Post",
+        "url": "https://www.racingpost.com/sport/football-tips/premier-league/manchester-united-vs-crystal-palace-predictions-team-news-betting-tips-odds-and-bet-builder-anMFt9F1aQmY/",
+        "description": "Manchester United vs Crystal Palace in the Premier League. Get match details, betting tips, predictions and TV info for the big game at Old Trafford",
+        "age": "1 day ago"
+      }
+    ],
+    "query": "Spread: Manchester United FC (-1.5)",
+    "sources_count": 10
+  },
+  "error": null
+}

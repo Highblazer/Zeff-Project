@@ -1,0 +1,85 @@
+{
+  "id": "7eecbc57",
+  "title": "Polymarket research: Will 1. FC Magdeburg win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will 1. FC Magdeburg win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-01T16:30:14.802266+00:00",
+  "updated_at": "2026-03-01T16:30:50.327455+00:00",
+  "claimed_at": "2026-03-01T16:30:48.503160+00:00",
+  "completed_at": "2026-03-01T16:30:50.327442+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will 1. FC Magdeburg win on 2026-03-01?\n\nWeb Results (5):\n- Magdeburg gegen Karlsruhe \u2013 Tipp, Prognose & Quoten am 01.03.2026: Februar 2026. ... Trotz der defensiven Schw\u00e4chen beider Mannschaften bleibt die Offensivleistung intakt, sodass beide Seiten treffen d\u00fcrften. Magdebur\n- 1. Magdeburg - Karlsruher score today \u221a 01.03.2026 \u221a Match score \u227b fscore.net: FC player Karlsruher steps up for 1. Magdeburg\u2019s goal kick, aiming to shift momentum at MDCC-Arena. ... Atik Baris (1. Magdeburg) wins a corner for 1.\n- 1. FC Magdeburg Live Score, 2025-2026 Fixtures, Results: Feb 2026 \u00b7 Next \u00b7 07 Feb 01:30 German Bundesliga 2 SpVgg Greuther F\u00fcrth 4 - 5 1. FC Magdeburg \u00b7 15 Feb 20:30 German Bundesliga 2 1. FC Magdeburg 0 - 2\n- Magdeburg vs Karlsruher SC Prediction: Match Preview and Analysis | 2. Bundesliga 01-03-2026 | BetMines: FC Magdeburg vs Karlsruher SC prediction by BetMines: <strong>Away Win (2) with 33% probability</strong>.\n- 1. FC Magdeburg Standings, 2025-2026 Tables: AiScore App \u00b7 Watch Live Stream For Free \u00b7 Download \u00b7 Football Live Score \u00b7 Tables \u00b7 German Bundesliga 2 2025-2026 \u00b7 All Home Away \u00b7 # Team \u00b7 PWDLGPTS\n\nNews (5):\n- 2. Bundesliga preview: 1. FC Magdeburg vs. Karlsruher SC - Yahoo Sports (1 day ago)\n- Magdeburg gegen Karlsruhe \u2013 Tipp, Prognose & Quoten am 01.03.2026 (1 day ago)\n- 2. Bundesliga heute: Magdeburg - KSC LIVE im TV, Liveticker & Livestream (7 hours ago)\n- 1.FC Magdeburg - Club profile | Transfermarkt\n- Magdeburg vs Karlsruher SC Prediction: Match Preview and Analysis | 2. Bundesliga 01-03-2026 | BetMines (2 days ago)",
+    "web_results": [
+      {
+        "title": "Magdeburg gegen Karlsruhe \u2013 Tipp, Prognose & Quoten am 01.03.2026",
+        "url": "https://sportwetten.bild.de/tipps/1-fc-magdeburg-karlsruher-sc-prognose-01-03-2026/",
+        "description": "Februar 2026. ... Trotz der defensiven Schw\u00e4chen beider Mannschaften bleibt die Offensivleistung intakt, sodass beide Seiten treffen d\u00fcrften. Magdeburg hat in 80 % der letzten Spiele getroffen, Karlsruhe ebenfalls in 80 %. Keine der beiden Mannschaften konnte zuletzt die Null halten, und mit mehreren Ausf\u00e4llen in der Defensive auf beiden Seiten werden die Angreifer die L\u00fccken ausnutzen."
+      },
+      {
+        "title": "1. Magdeburg - Karlsruher score today \u221a 01.03.2026 \u221a Match score \u227b fscore.net",
+        "url": "https://fscore.net/game_info/1-fc-magdeburg-karlsruher-sc-2026-03-01",
+        "description": "FC player Karlsruher steps up for 1. Magdeburg\u2019s goal kick, aiming to shift momentum at MDCC-Arena. ... Atik Baris (1. Magdeburg) wins a corner for 1."
+      },
+      {
+        "title": "1. FC Magdeburg Live Score, 2025-2026 Fixtures, Results",
+        "url": "https://www.aiscore.com/team-1-fc-magdeburg/8vrqwniw4lbdqn2",
+        "description": "Feb 2026 \u00b7 Next \u00b7 07 Feb 01:30 German Bundesliga 2 SpVgg Greuther F\u00fcrth 4 - 5 1. FC Magdeburg \u00b7 15 Feb 20:30 German Bundesliga 2 1. FC Magdeburg 0 - 2 Arminia Bielefeld \u00b7 22 Feb 03:30 German Bundesliga 2 Schalke 04 - 1. FC Magdeburg \u00b7 1. FC Magdeburg Stats 25-26 \u00b7"
+      },
+      {
+        "title": "Magdeburg vs Karlsruher SC Prediction: Match Preview and Analysis | 2. Bundesliga 01-03-2026 | BetMines",
+        "url": "https://betmines.com/match-preview/magdeburg-vs-karlsruher-sc-prediction-match-preview-and-analysis-2-bundesliga-01-03-2026",
+        "description": "FC Magdeburg vs Karlsruher SC prediction by BetMines: <strong>Away Win (2) with 33% probability</strong>."
+      },
+      {
+        "title": "1. FC Magdeburg Standings, 2025-2026 Tables",
+        "url": "https://m.aiscore.com/team-1-fc-magdeburg/8vrqwniw4lbdqn2/standings",
+        "description": "AiScore App \u00b7 Watch Live Stream For Free \u00b7 Download \u00b7 Football Live Score \u00b7 Tables \u00b7 German Bundesliga 2 2025-2026 \u00b7 All Home Away \u00b7 # Team \u00b7 PWDLGPTS \u00b7 SV Darmstadt 98"
+      }
+    ],
+    "news_results": [
+      {
+        "title": "2. Bundesliga preview: 1. FC Magdeburg vs. Karlsruher SC - Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/2-bundesliga-preview-1-fc-093300372.html",
+        "description": "1. FC MagdeburgWith light seemingly beginning to appear under Petrik Sander, Magdeburg have once again stumbled at a crucial juncture. Just one win in their last five has dragged them back into the re...",
+        "age": "1 day ago"
+      },
+      {
+        "title": "Magdeburg gegen Karlsruhe \u2013 Tipp, Prognose & Quoten am 01.03.2026",
+        "url": "https://sportwetten.bild.de/tipps/1-fc-magdeburg-karlsruher-sc-prognose-01-03-2026/",
+        "description": "1. FC Magdeburg gegen Karlsruher SC am 01.03.2026, 13:30: Unser Tipp mit Form\u2011Check, Head\u2011to\u2011Head\u2011Statistiken & den besten Quoten \u2013 alle Fakten zur 2. Bundesliga-Partie in einer Minute gelesen.",
+        "age": "1 day ago"
+      },
+      {
+        "title": "2. Bundesliga heute: Magdeburg - KSC LIVE im TV, Liveticker & Livestream",
+        "url": "https://www.sport1.de/news/fussball/2-bundesliga/2026/03/2-bundesliga-heute-magdeburg-ksc-live-im-tv-liveticker-livestream",
+        "description": "Der 1. FC Magdeburg empf\u00e4ngt heute den Karlsruher SC. Der Ansto\u00df ist um 13:30 Uhr in der Avnet Arena. SPORT1 erkl\u00e4rt Ihnen, wo Sie das Spiel im TV, Livestream und Liveticker verfolgen k\u00f6nnen.",
+        "age": "7 hours ago"
+      },
+      {
+        "title": "1.FC Magdeburg - Club profile | Transfermarkt",
+        "url": "https://www.transfermarkt.us/1_fc_magdeburg/startseite/verein/187/saison_id/2026",
+        "description": "All information about 1.FC Magdeburg (2. Bundesliga) \u27a4 current squad with market values \u27a4 transfers \u27a4 rumours \u27a4 player stats \u27a4 fixtures \u27a4 news",
+        "age": ""
+      },
+      {
+        "title": "Magdeburg vs Karlsruher SC Prediction: Match Preview and Analysis | 2. Bundesliga 01-03-2026 | BetMines",
+        "url": "https://betmines.com/match-preview/magdeburg-vs-karlsruher-sc-prediction-match-preview-and-analysis-2-bundesliga-01-03-2026",
+        "description": "The upcoming 2. Bundesliga clash between FC Magdeburg and Karlsruher SC promises to be an intriguing encounter between two sides with contrasting recent form. Scheduled for March 1, 2026, this fixture could have significant implications for both ends of the table.",
+        "age": "2 days ago"
+      }
+    ],
+    "query": "Will 1. FC Magdeburg win on 2026-03-01?",
+    "sources_count": 10
+  },
+  "error": null
+}

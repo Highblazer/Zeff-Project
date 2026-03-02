@@ -4,120 +4,6 @@
 
 *(older entries pruned)*
 
-- 📊 **[market_mover]** Fed Leaves Rates Unchanged to Start 2026: Is a Cut Coming in March? | J.P. Morgan
-  Score: 0.45 | Action: LOG for awareness
-  > The Federal Reserve paused its interest rate cuts in January and is expected to do the same at its March meeting. Trends around inflation and employme
-
-- 📊 **[market_mover]** The Key Interest Rate Decision Dates for 2026 | Morningstar Europe
-  Score: 0.45 | Action: LOG for awareness
-  > These are the key dates that central banks will announce their interest rate decisions. ... Feb. 5, 2026. <strong>March 19, 2026</strong>.
-
-- 📊 **[market_mover]** What to Expect from Central Banks in 2026? - Funds Society
-  Score: 0.45 | Action: LOG for awareness
-  > Her view is that the Federal Reserve and the Bank of England will continue cutting rates, “but the direction the European Central Bank (ECB) will take
-
-## 2026-03-01 02:47 UTC — geopolitical events affecting markets March 2026
-
-- 📊 **[market_mover]** Global Risks Report 2026: Geopolitical and Economic Risks Rise in New Age of Competition > Press releases | World Economic Forum
-  Score: 0.48 | Action: LOG for awareness
-  > The report analyses risks across three timeframes: immediate (2026); short-to-medium term (the next two years); and long term (the next 10 years). In 
-
-- 📊 **[market_mover]** Schwab Market Update | Charles Schwab
-  Score: 0.42 | Action: LOG for awareness
-  > Inflation appears a lingering issue after the Producer Price Index for December showed wholesale prices rose 0.5%, above expectations, suggesting the 
-
-- 📊 **[market_mover]** Analysts hike oil outlook on geopolitical risks, oversupply concerns limit upside | Reuters
-  Score: 0.42 | Action: LOG for awareness
-  > Supply risks from ongoing geopolitical tensions have prompted analysts to raise their oil price forecasts for the year, despite concerns that an overs
-
-- 📊 **[market_mover]** Geopolitical Tensions Drive Oil Price Surge In 2026 - Grand Pinnacle Tribune
-  Score: 0.42 | Action: LOG for awareness
-  > Oil markets are once again in the global spotlight as prices edge higher on the back of mounting geopolitical tensions and shifting market expectation
-
-- 📊 **[market_mover]** Geopolitical turmoil gives OPEC+ cover for cautious output hike | Reuters
-  Score: 0.42 | Action: LOG for awareness
-  > OPEC+ meets on Sunday to set its next production move amid heightened geopolitical friction affecting nearly a third of its output. That volatility ma
-
-## 2026-03-01 03:02 UTC — cryptocurrency regulatory news March 2026
-
-- 📊 **[market_mover]** Global Crypto Regulation Snapshot Of 2026
-  Score: 0.45 | Action: LOG for awareness
-  > Review the latest crypto regulation updates and understand what is legal and restricted across major global markets.
-
-- 📊 **[market_mover]** Crypto Exchange Roundup: Best Platforms Heading Into March 2026
-  Score: 0.45 | Action: LOG for awareness
-  > - - Thailand's prepaid card market projected to reach $30.87B by 2030 as digital adoption and regulatory support drive fintech expansion in Southeast 
-
-- 📊 **[market_mover]** Key dates for US crypto regulation in 2026 — ‘We are closer than ever’ – DL News
-  Score: 0.45 | Action: LOG for awareness
-  > <strong>Crypto market structure and implementation of the Genius Act will dominate US policy discussion in 2026</strong>. A tax bill is also in the wo
-
-- 📊 **[market_mover]** US Crypto Regulation in 2026: Key Laws, SEC Changes, and What Comes Next
-  Score: 0.45 | Action: LOG for awareness
-  > <strong>A mix of legislative deadlines, new rules, and political shifts is beginning to define how digital assets will be regulated, traded, and used 
-
-- 📊 **[market_mover]** Is 2026 the Year Banks Finally Adopt XRP? Clarity Act and Ripple's Next Move
-  Score: 0.42 | Action: LOG for awareness
-  > Clarity Act faces March deadline as banks signal readiness for XRP adoption. What Ripple's full-stack strategy means for 2026.
-
-## 2026-03-01 03:18 UTC — economic calendar high impact events this week
-
-- 📊 **[market_mover]** 5 Things to Know Before the Stock Market Opens
-  Score: 0.5 | Action: LOG for awareness
-  > Stock futures are lower ahead of a key inflation report as the market gets set to wrap up a volatile month of trading. Here's what investors need to k
-
-- 📊 **[market_mover]** Economic Calendar - FXStreet
-  Score: 0.45 | Action: LOG for awareness
-  > The Economic Calendar covers the most important economic events in the world in real time. Follow the latest news on the indicators that move the mark
-
-- 📊 **[market_mover]** PPI data highlights economic calendar for Friday By Investing.com
-  Score: 0.42 | Action: LOG for awareness
-  > Netflix soars after declining to match Paramount Skydance bid for Warner Bros · Where Bernstein sees gold prices ending the decade after latest update
-
-- 📊 **[market_mover]** Economic Calendar - Bloomberg - Bloomberg Markets
-  Score: 0.42 | Action: LOG for awareness
-  > Check economic calendar events in real time on Bloomberg and see the global financial market impact by country and importance with previous, forecast 
-
-- 📊 **[market_mover]** Economic Calendar — World Economic Events — TradingView
-  Score: 0.42 | Action: LOG for awareness
-  > All events are in chronological order and linked with economic indicators like interest rates or GDP. The calendar is customizable: one click will giv
-
-## 2026-03-01 03:33 UTC — new AI APIs tools monetization March 2026
-
-- 💰 **[revenue_opportunity]** The 2026 AI Monetization Crisis: 6 Hidden Business Models Cashing In on the Economy’s Hardest Problems | by Mohammed ALHAJJ | Feb, 2026 | Medium
-  Score: 0.43 | Action: LOG for awareness
-  > On February 27, 2026, the AI industry is facing an uncomfortable truth: scaling is easy, monetization is hard. With $700 billion in capital…
-
-## 2026-03-01 03:48 UTC — automated trading strategies profitable 2026
-
-- 💰 **[revenue_opportunity]** Algorithmic Trading Strategies 2026 – (Backtests, Rules And Settings) - QuantifiedStrategies.com
-  Score: 0.43 | Action: LOG for awareness
-  > This approach requires a deep understanding of market mechanics, access to comprehensive historical data, and the ability to implement and execute tra
-
-## 2026-03-01 04:03 UTC — AI SaaS micro-products revenue 2026
-
-- 💰 **[revenue_opportunity]** Top 8 Micro SaaS Ideas to Launch Your Startup in 2026 | Proven SaaS
-  Score: 0.4 | Action: LOG for awareness
-  > Finding a profitable niche is the toughest part of building a software business. The right idea can be the difference between a thriving venture and a
-
-## 2026-03-01 04:18 UTC — freelance automation AI services demand 2026
-
-- 💰 **[revenue_opportunity]** Is generative AI a job killer? Evidence from the freelance market | Brookings
-  Score: 0.4 | Action: LOG for awareness
-  > <strong>When AI can perform a particular set of tasks at equal quality and lower cost than a human employee, the demand for human labor in those areas
-
-## 2026-03-01 04:33 UTC — API monetization developer tools revenue 2026
-
-- 💰 **[revenue_opportunity]** Top 12 API Management Tools and Platforms for 2026
-  Score: 0.42 | Action: LOG for awareness
-  > The platform supports consistent policy enforcement, robust access control, deep analytics, and a seamless developer experience. DigitalAPI includes a
-
-## 2026-03-01 04:53 UTC — AI agent framework comparison 2026
-
-- 💰 **[revenue_opportunity]** AI Agents in 2026: The Hype vs. The Reality - DEV Community
-  Score: 0.38 | Action: LOG for awareness
-  > The hype around AI agents is reaching peak absurdity. Every other startup is suddenly an "agentic AI...
-
 ## 2026-03-01 04:58 UTC — cTrader API new features updates
 
 - 💰 **[revenue_opportunity]** cTrader Integration Brings Social Trading to South African CFD Broker Swyft Markets
@@ -199,4 +85,118 @@
 - 🔧 **[tech_upgrade]** Introducing Atlassian's Remote Model Context Protocol (MCP) Server - Work Life by Atlassian
   Score: 0.32 | Action: LOG for awareness
   > Unlike locally hosted MCP servers, our Remote MCP Server is run by Atlassian to ensure a secure, supported experience. As always, we’ve embraced priva
+
+## 2026-03-01 09:58 UTC — central bank surprise decisions March 2026
+
+- 📊 **[market_mover]** March 2026 Monthly | Seeking Alpha
+  Score: 0.48 | Action: LOG for awareness
+  > March seems to be more about the unfolding of current forces driving the capital markets rather than new forces or policies. Read more here.
+
+## 2026-03-01 11:15 UTC — automated trading strategies profitable 2026
+
+- 💰 **[revenue_opportunity]** 20 Automated Trading Strategies 2026
+  Score: 0.4 | Action: LOG for awareness
+  > Volatility Trading: Focuses on profiting from changes in market volatility.​ · Advantages: Automated trading offers benefits such as:​ ... To capitali
+
+- 💰 **[revenue_opportunity]** Avatrade
+  Score: 0.38 | Action: LOG for awareness
+  > Allows investors to explore a wide ... and strategies in the market without any human burnout · Improves order execution, allowing trades to be entere
+
+## 2026-03-01 11:31 UTC — AI SaaS micro-products revenue 2026
+
+- 💰 **[revenue_opportunity]** Top SaaS Trends in 2026: AI, Security & Growth Models - Innovecs
+  Score: 0.4 | Action: LOG for awareness
+  > From advanced analytics to AI-driven automation, the SaaS ecosystem is evolving faster than ever, shaping the way businesses approach productivity, cu
+
+- 💰 **[revenue_opportunity]** Is AI Killing SaaS? Why Most SaaS Products Are Built to Last | by Stas Chernychko | Feb, 2026 | Medium
+  Score: 0.38 | Action: LOG for awareness
+  > AI is transforming industries, but the core value of SaaS remains strong — here’s why AI and SaaS might grow together, not apart.
+
+## 2026-03-01 12:37 UTC — Python trading libraries new releases 2026
+
+- 📊 **[market_mover]** pandas 3.0 Lands Breaking Changes and Other Python News for February 2026 – Real Python
+  Score: 0.45 | Action: LOG for awareness
+  > Catch up on the latest Python news: pandas 3.0 breaking changes, Python 3.15 alpha JIT gains, PyTorch 2.10 deprecations, and PSF updates.
+
+## 2026-03-01 12:48 UTC — MCP server new tools integrations 2026
+
+- 🔧 **[tech_upgrade]** Enterprise MCP adoption is outpacing security controls | VentureBeat
+  Score: 0.32 | Action: LOG for awareness
+  > Enterprise leaders say MCP servers are "extremely permissive" and existing security tools weren't built for AI agents. Here's what security teams can 
+
+## 2026-03-01 13:13 UTC — AI industry news summary March 2026
+
+- 💰 **[revenue_opportunity]** India Built the World’s Back Office. A.I. Is Starting to Shrink It. - The New York Times
+  Score: 0.4 | Action: LOG for awareness
+  > Artificial intelligence promises to automate the white-collar work that made India a tech powerhouse. The country is racing to adapt before it’s too l
+
+- 🔧 **[tech_upgrade]** Reuters AI News | Latest Headlines and Developments | Reuters
+  Score: 0.35 | Action: LOG for awareness
+  > <strong>OpenAI reaches deal to deploy AI models on U.S.</strong>
+
+## 2026-03-01 13:28 UTC — breaking forex market news March 2026
+
+- 📊 **[market_mover]** Week Ahead Economic Preview: Week of 2 March 2026 | S&P Global
+  Score: 0.45 | Action: LOG for awareness
+  > The week ahead sees PMI data for manufacturing and services released around the world, providing a prelude to the publication of the monthly US employ
+
+- 📊 **[market_mover]** Top Market Opportunity in 2026: A Rise in Volatility Across Markets
+  Score: 0.45 | Action: LOG for awareness
+  > Risk appetite swelled and collapsed across the markets after the Liberation Day reciprocal tariffs were announced in April and reversed soon after · W
+
+## 2026-03-01 13:43 UTC — central bank surprise decisions March 2026
+
+- 📊 **[market_mover]** BPInsights: February 28, 2026 - Bank Policy Institute
+  Score: 0.42 | Action: LOG for awareness
+  > FinCEN Should Reassert Leadership of AML Policy The U.S. Treasury Department’s Financial Crimes Enforcement Network should reclaim its role in dictati
+
+- 📊 **[market_mover]** Central bank scanner: Rate cuts will abate in 2026
+  Score: 0.42 | Action: LOG for awareness
+  > Core inflation remains above the central bank’s target range. A third quarter contraction pulled down Banxico’s growth forecast for 2025, which was a 
+
+## 2026-03-01 14:09 UTC — geopolitical events affecting markets March 2026
+
+- 📊 **[market_mover]** Iran Attacks: How Oil, Stock Markets Could React to New Middle East War - Business Insider
+  Score: 0.45 | Action: LOG for awareness
+  > The attacks on Iran are likely to send oil prices surging. Barclays says Brent crude could test $100 a barrel on Monday.
+
+## 2026-03-01 14:15 UTC — cryptocurrency regulatory news March 2026
+
+- 📊 **[market_mover]** Fear Index at 14: Where Does Global Crypto Regulation Stand in March 2026?
+  Score: 0.42 | Action: LOG for awareness
+  > With the Fear & Greed Index at ... peak, regulatory clarity has never mattered more. We compare frameworks across the US, EU, South Korea, Japan, and 
+
+- 📊 **[market_mover]** Top 5 Cryptocurrencies for Long-Term Investment in 2026: BTC, ETH, and SOL Analysis - MoneyCheck
+  Score: 0.42 | Action: LOG for awareness
+  > Explore the top 5 cryptocurrencies for long-term investment in 2026: Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Chainlink (LINK), and Avalanche (AVA
+
+## 2026-03-01 14:45 UTC — new AI APIs tools monetization March 2026
+
+- 📊 **[market_mover]** Enterprises Are Spending 15% More on Software in 2026, Thanks to AI. Here's How to Profit. | The Motley Fool
+  Score: 0.42 | Action: LOG for awareness
+  > This is a rare opportunity to buy these software leaders at a discount.
+
+## 2026-03-01 15:16 UTC — AI SaaS micro-products revenue 2026
+
+- 💰 **[revenue_opportunity]** SaaS in, SaaS out: Here's what's driving the SaaSpocalypse | TechCrunch
+  Score: 0.4 | Action: LOG for awareness
+  > What's behind the SaaSpocalypse? It simply seems a new supreme has risen.
+
+## 2026-03-01 15:46 UTC — API monetization developer tools revenue 2026
+
+- 💰 **[revenue_opportunity]** API Monetization Model Definition & Meaning | PartnerStack
+  Score: 0.42 | Action: LOG for awareness
+  > The 2026 PartnerStack Network Report is hereDownload free report -&gt; ... An Application Programming Interface (API) monetization model is a strategy
+
+## 2026-03-01 16:22 UTC — Python trading libraries new releases 2026
+
+- 🔧 **[tech_upgrade]** PyAlgoTrade - Python Algorithmic Trading Library
+  Score: 0.35 | Action: LOG for awareness
+  > PyAlgoTrade is a Python Algorithmic Trading Library with focus on backtesting and support for paper-trading and live-trading. Let’s say you have an id
+
+## 2026-03-01 16:58 UTC — AI industry news summary March 2026
+
+- 🔧 **[tech_upgrade]** AI Product Launches March 2026: All Major Announcements | TLDL
+  Score: 0.43 | Action: REVIEW for OpenClaw fleet upgrade
+  > Complete list of AI product launches and announcements in March 2026. Covers OpenAI, Anthropic, Google, xAI, and major AI company releases. Updated da
 
