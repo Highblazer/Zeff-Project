@@ -1,0 +1,28 @@
+{
+  "id": "f6649afd",
+  "title": "Polymarket research: Will Bitcoin reach $70,000 February 23-March 1?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $70,000 February 23-March 1?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T06:48:16.621158+00:00",
+  "updated_at": "2026-03-02T06:48:42.830758+00:00",
+  "claimed_at": "2026-03-02T06:48:41.151573+00:00",
+  "completed_at": "2026-03-02T06:48:42.830740+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $70,000 February 23-March 1?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Bitcoin reach $70,000 February 23-March 1?",
+    "sources_count": 0
+  },
+  "error": null
+}

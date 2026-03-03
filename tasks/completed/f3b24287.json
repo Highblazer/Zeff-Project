@@ -1,0 +1,28 @@
+{
+  "id": "f3b24287",
+  "title": "Polymarket research: Will the Charlotte Hornets win the 2026 NBA Finals?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Charlotte Hornets win the 2026 NBA Finals?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T15:36:17.416704+00:00",
+  "updated_at": "2026-03-02T15:36:26.340790+00:00",
+  "claimed_at": "2026-03-02T15:36:24.579417+00:00",
+  "completed_at": "2026-03-02T15:36:26.340651+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Charlotte Hornets win the 2026 NBA Finals?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Charlotte Hornets win the 2026 NBA Finals?",
+    "sources_count": 0
+  },
+  "error": null
+}

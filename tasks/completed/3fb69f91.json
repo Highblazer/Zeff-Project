@@ -1,0 +1,28 @@
+{
+  "id": "3fb69f91",
+  "title": "Polymarket research: Nuggets vs. Jazz",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Nuggets vs. Jazz",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T16:40:44.715031+00:00",
+  "updated_at": "2026-03-02T16:41:24.060105+00:00",
+  "claimed_at": "2026-03-02T16:41:22.411585+00:00",
+  "completed_at": "2026-03-02T16:41:24.060089+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Nuggets vs. Jazz\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Nuggets vs. Jazz",
+    "sources_count": 0
+  },
+  "error": null
+}

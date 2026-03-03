@@ -1,0 +1,28 @@
+{
+  "id": "eeee7645",
+  "title": "Polymarket research: Will Austin FC win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Austin FC win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T01:09:37.689834+00:00",
+  "updated_at": "2026-03-02T01:09:45.965033+00:00",
+  "claimed_at": "2026-03-02T01:09:44.361198+00:00",
+  "completed_at": "2026-03-02T01:09:45.965017+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Austin FC win on 2026-03-01?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Austin FC win on 2026-03-01?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b95697df",
+  "title": "Polymarket research: Will Israel strike 4 countries in 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Israel strike 4 countries in 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T14:56:24.711929+00:00",
+  "updated_at": "2026-03-02T14:56:30.503429+00:00",
+  "claimed_at": "2026-03-02T14:56:28.827095+00:00",
+  "completed_at": "2026-03-02T14:56:30.503411+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Israel strike 4 countries in 2026?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Israel strike 4 countries in 2026?",
+    "sources_count": 0
+  },
+  "error": null
+}

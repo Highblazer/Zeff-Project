@@ -1,0 +1,28 @@
+{
+  "id": "32344446",
+  "title": "Polymarket research: Red Wings vs. Predators",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Red Wings vs. Predators",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T20:53:57.343870+00:00",
+  "updated_at": "2026-03-02T20:54:09.556373+00:00",
+  "claimed_at": "2026-03-02T20:54:07.853356+00:00",
+  "completed_at": "2026-03-02T20:54:09.556354+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Red Wings vs. Predators\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Red Wings vs. Predators",
+    "sources_count": 0
+  },
+  "error": null
+}

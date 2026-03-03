@@ -1,0 +1,28 @@
+{
+  "id": "f47f43ac",
+  "title": "Polymarket research: Panthers vs. Islanders",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Panthers vs. Islanders",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T04:11:05.158394+00:00",
+  "updated_at": "2026-03-02T04:11:28.056843+00:00",
+  "claimed_at": "2026-03-02T04:11:26.393632+00:00",
+  "completed_at": "2026-03-02T04:11:28.056828+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Panthers vs. Islanders\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Panthers vs. Islanders",
+    "sources_count": 0
+  },
+  "error": null
+}

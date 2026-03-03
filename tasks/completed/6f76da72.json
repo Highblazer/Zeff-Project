@@ -1,0 +1,28 @@
+{
+  "id": "6f76da72",
+  "title": "Polymarket research: LoL: Cloud9 vs LYON - Game 3 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Cloud9 vs LYON - Game 3 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T06:29:54.306081+00:00",
+  "updated_at": "2026-03-02T06:30:23.893582+00:00",
+  "claimed_at": "2026-03-02T06:30:22.260429+00:00",
+  "completed_at": "2026-03-02T06:30:23.893568+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Cloud9 vs LYON - Game 3 Winner\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: Cloud9 vs LYON - Game 3 Winner",
+    "sources_count": 0
+  },
+  "error": null
+}

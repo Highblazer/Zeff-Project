@@ -1,0 +1,28 @@
+{
+  "id": "4820bcce",
+  "title": "Polymarket research: Spread: Hawks (-6.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Hawks (-6.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T03:12:34.454332+00:00",
+  "updated_at": "2026-03-02T03:13:28.487152+00:00",
+  "claimed_at": "2026-03-02T03:13:27.462460+00:00",
+  "completed_at": "2026-03-02T03:13:28.487134+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Hawks (-6.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Hawks (-6.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

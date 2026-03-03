@@ -1,0 +1,28 @@
+{
+  "id": "b2a82249",
+  "title": "cTrader API new features updates",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "cTrader API new features updates",
+    "category": "tech_upgrades"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-02T19:07:25.255289+00:00",
+  "updated_at": "2026-03-02T19:07:27.027919+00:00",
+  "claimed_at": "2026-03-02T19:07:25.270350+00:00",
+  "completed_at": "2026-03-02T19:07:27.027901+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: cTrader API new features updates\n\nFindings (0):\n",
+    "findings": [],
+    "query": "cTrader API new features updates",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

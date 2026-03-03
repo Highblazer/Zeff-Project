@@ -1,0 +1,28 @@
+{
+  "id": "54accb6f",
+  "title": "Polymarket research: Will the Milwaukee Bucks win the 2026 NBA Finals?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Milwaukee Bucks win the 2026 NBA Finals?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T16:13:10.849588+00:00",
+  "updated_at": "2026-03-02T16:13:56.857599+00:00",
+  "claimed_at": "2026-03-02T16:13:55.130318+00:00",
+  "completed_at": "2026-03-02T16:13:56.857582+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Milwaukee Bucks win the 2026 NBA Finals?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Milwaukee Bucks win the 2026 NBA Finals?",
+    "sources_count": 0
+  },
+  "error": null
+}

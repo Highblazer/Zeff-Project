@@ -1,0 +1,28 @@
+{
+  "id": "6f30282a",
+  "title": "Polymarket research: Jets vs. Sharks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Jets vs. Sharks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T01:34:20.442801+00:00",
+  "updated_at": "2026-03-02T01:34:33.322513+00:00",
+  "claimed_at": "2026-03-02T01:34:31.802479+00:00",
+  "completed_at": "2026-03-02T01:34:33.322478+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Jets vs. Sharks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Jets vs. Sharks",
+    "sources_count": 0
+  },
+  "error": null
+}

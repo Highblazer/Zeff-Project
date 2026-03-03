@@ -1,0 +1,28 @@
+{
+  "id": "273f11fe",
+  "title": "Polymarket research: Real Madrid CF vs. Getafe CF: O/U 2.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Real Madrid CF vs. Getafe CF: O/U 2.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T22:16:51.807458+00:00",
+  "updated_at": "2026-03-02T22:17:05.767207+00:00",
+  "claimed_at": "2026-03-02T22:17:04.612169+00:00",
+  "completed_at": "2026-03-02T22:17:05.767190+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Real Madrid CF vs. Getafe CF: O/U 2.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Real Madrid CF vs. Getafe CF: O/U 2.5",
+    "sources_count": 0
+  },
+  "error": null
+}

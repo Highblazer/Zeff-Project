@@ -1,0 +1,28 @@
+{
+  "id": "10a88d3c",
+  "title": "Polymarket research: Bitcoin Up or Down - March 2, 2AM ET",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bitcoin Up or Down - March 2, 2AM ET",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T08:35:36.720134+00:00",
+  "updated_at": "2026-03-02T08:35:42.705125+00:00",
+  "claimed_at": "2026-03-02T08:35:41.091576+00:00",
+  "completed_at": "2026-03-02T08:35:42.705107+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bitcoin Up or Down - March 2, 2AM ET\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Bitcoin Up or Down - March 2, 2AM ET",
+    "sources_count": 0
+  },
+  "error": null
+}

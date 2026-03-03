@@ -1,0 +1,28 @@
+{
+  "id": "fd51a8bc",
+  "title": "Polymarket research: Will Israel strike Lebanon on March 1, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Israel strike Lebanon on March 1, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T10:59:51.885053+00:00",
+  "updated_at": "2026-03-02T11:00:25.940688+00:00",
+  "claimed_at": "2026-03-02T11:00:24.315840+00:00",
+  "completed_at": "2026-03-02T11:00:25.940669+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Israel strike Lebanon on March 1, 2026?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Israel strike Lebanon on March 1, 2026?",
+    "sources_count": 0
+  },
+  "error": null
+}

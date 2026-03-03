@@ -1,0 +1,28 @@
+{
+  "id": "518260f3",
+  "title": "Polymarket research: Will Bitcoin reach $150,000 in March?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $150,000 in March?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T11:54:56.710766+00:00",
+  "updated_at": "2026-03-02T11:55:03.051775+00:00",
+  "claimed_at": "2026-03-02T11:55:00.819194+00:00",
+  "completed_at": "2026-03-02T11:55:03.051756+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $150,000 in March?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Bitcoin reach $150,000 in March?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0010fae7",
+  "title": "Polymarket research: Will France, UK, or Germany strike Iran by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will France, UK, or Germany strike Iran by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T04:48:17.834353+00:00",
+  "updated_at": "2026-03-02T04:48:38.685826+00:00",
+  "claimed_at": "2026-03-02T04:48:37.036845+00:00",
+  "completed_at": "2026-03-02T04:48:38.685814+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will France, UK, or Germany strike Iran by March 31?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will France, UK, or Germany strike Iran by March 31?",
+    "sources_count": 0
+  },
+  "error": null
+}

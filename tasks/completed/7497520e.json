@@ -1,0 +1,28 @@
+{
+  "id": "7497520e",
+  "title": "Polymarket research: Will Philadelphia Union win on 2026-03-01?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Philadelphia Union win on 2026-03-01?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T02:44:59.454160+00:00",
+  "updated_at": "2026-03-02T02:45:10.392976+00:00",
+  "claimed_at": "2026-03-02T02:45:08.795482+00:00",
+  "completed_at": "2026-03-02T02:45:10.392957+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Philadelphia Union win on 2026-03-01?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Philadelphia Union win on 2026-03-01?",
+    "sources_count": 0
+  },
+  "error": null
+}

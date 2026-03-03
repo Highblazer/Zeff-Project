@@ -1,0 +1,28 @@
+{
+  "id": "bdd346ab",
+  "title": "Polymarket research: LoL: Weibo Gaming vs Top Esports (BO5) - LPL Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Weibo Gaming vs Top Esports (BO5) - LPL Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T16:40:43.154141+00:00",
+  "updated_at": "2026-03-02T16:40:50.780114+00:00",
+  "claimed_at": "2026-03-02T16:40:49.168578+00:00",
+  "completed_at": "2026-03-02T16:40:50.779959+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Weibo Gaming vs Top Esports (BO5) - LPL Playoffs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: Weibo Gaming vs Top Esports (BO5) - LPL Playoffs",
+    "sources_count": 0
+  },
+  "error": null
+}

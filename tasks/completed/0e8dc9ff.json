@@ -1,0 +1,28 @@
+{
+  "id": "0e8dc9ff",
+  "title": "Polymarket research: LoL: G2 Esports vs Karmine Corp - Game 4 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: G2 Esports vs Karmine Corp - Game 4 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T08:01:54.495353+00:00",
+  "updated_at": "2026-03-02T08:02:16.074157+00:00",
+  "claimed_at": "2026-03-02T08:02:15.023306+00:00",
+  "completed_at": "2026-03-02T08:02:16.074139+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: G2 Esports vs Karmine Corp - Game 4 Winner\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: G2 Esports vs Karmine Corp - Game 4 Winner",
+    "sources_count": 0
+  },
+  "error": null
+}

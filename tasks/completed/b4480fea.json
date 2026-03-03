@@ -1,0 +1,28 @@
+{
+  "id": "b4480fea",
+  "title": "Polymarket research: Blues vs. Wild: O/U 6.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Blues vs. Wild: O/U 6.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T03:03:22.678216+00:00",
+  "updated_at": "2026-03-02T03:03:55.441594+00:00",
+  "claimed_at": "2026-03-02T03:03:54.379616+00:00",
+  "completed_at": "2026-03-02T03:03:55.441577+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Blues vs. Wild: O/U 6.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Blues vs. Wild: O/U 6.5",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -105,7 +105,7 @@ def send_premium_signal(
 ):
     """Send a detailed premium signal to the paid Telegram channel.
 
-    Includes entry/SL/TP, layer breakdown (A/B/C/News), and R:R after spread.
+    Includes entry/SL/TP, layer breakdown (VP/LS/VW/OF/News), and R:R after spread.
     """
     premium_id = PREMIUM_CHAT_ID or os.environ.get('TELEGRAM_PREMIUM_CHAT_ID', '')
     if not premium_id:
@@ -120,11 +120,12 @@ def send_premium_signal(
         f"Entry: <code>{price:.5f}</code>\n"
         f"Stop Loss: <code>{stop_loss:.5f}</code>\n"
         f"Take Profit: <code>{take_profit:.5f}</code>\n\n"
-        f"<b>Signal Score:</b> {score}/7\n"
-        f"  Layer A (15M Trend): {layers.get('a', 0)}/2\n"
-        f"  Layer B (5M Setup): {layers.get('b', 0)}/2\n"
-        f"  Layer C (1M Entry): {layers.get('c', 0)}/2\n"
-        f"  News Bonus: {layers.get('news', 0)}/1\n\n"
+        f"<b>Signal Score:</b> {score}/10\n"
+        f"  Volume Profile: {layers.get('vp', 0)}/2\n"
+        f"  Liquidity Sweep: {layers.get('ls', 0)}/3\n"
+        f"  Anchored VWAP: {layers.get('vw', 0)}/2\n"
+        f"  Order Flow: {layers.get('of', 0)}/2\n"
+        f"  News: {layers.get('news', 0)}/1\n\n"
         f"R:R (after spread): <b>1:{risk_reward:.1f}</b>\n"
     )
     if est_spread_pips:

@@ -1,0 +1,28 @@
+{
+  "id": "0c58254b",
+  "title": "Polymarket research: Trail Blazers vs. Hawks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Trail Blazers vs. Hawks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T01:46:35.440188+00:00",
+  "updated_at": "2026-03-02T01:46:51.101261+00:00",
+  "claimed_at": "2026-03-02T01:46:49.506663+00:00",
+  "completed_at": "2026-03-02T01:46:51.101246+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Trail Blazers vs. Hawks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Trail Blazers vs. Hawks",
+    "sources_count": 0
+  },
+  "error": null
+}

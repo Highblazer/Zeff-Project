@@ -1,0 +1,28 @@
+{
+  "id": "1af6ff7c",
+  "title": "Polymarket research: Spread: Cavaliers (-11.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Cavaliers (-11.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T01:37:25.783082+00:00",
+  "updated_at": "2026-03-02T01:38:11.276635+00:00",
+  "claimed_at": "2026-03-02T01:38:09.709184+00:00",
+  "completed_at": "2026-03-02T01:38:11.276610+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Cavaliers (-11.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Cavaliers (-11.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

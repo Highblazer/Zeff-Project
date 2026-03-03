@@ -1,0 +1,28 @@
+{
+  "id": "8ee2921a",
+  "title": "Polymarket research: Will Iran strike Cyprus in March?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Iran strike Cyprus in March?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T05:06:42.791840+00:00",
+  "updated_at": "2026-03-02T05:07:36.823990+00:00",
+  "claimed_at": "2026-03-02T05:07:35.180279+00:00",
+  "completed_at": "2026-03-02T05:07:36.823972+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Iran strike Cyprus in March?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Iran strike Cyprus in March?",
+    "sources_count": 0
+  },
+  "error": null
+}

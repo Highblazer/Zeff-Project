@@ -1,0 +1,28 @@
+{
+  "id": "282f099d",
+  "title": "Polymarket research: Timberwolves vs. Nuggets: O/U 241.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Timberwolves vs. Nuggets: O/U 241.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T01:18:59.562654+00:00",
+  "updated_at": "2026-03-02T01:19:23.979130+00:00",
+  "claimed_at": "2026-03-02T01:19:22.926392+00:00",
+  "completed_at": "2026-03-02T01:19:23.979113+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Timberwolves vs. Nuggets: O/U 241.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Timberwolves vs. Nuggets: O/U 241.5",
+    "sources_count": 0
+  },
+  "error": null
+}

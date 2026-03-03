@@ -1,0 +1,28 @@
+{
+  "id": "2479482c",
+  "title": "Polymarket research: LoL: Cloud9 vs LYON (BO5) - LCS Lock In Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Cloud9 vs LYON (BO5) - LCS Lock In Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T01:00:27.506236+00:00",
+  "updated_at": "2026-03-02T01:01:04.443436+00:00",
+  "claimed_at": "2026-03-02T01:01:03.412990+00:00",
+  "completed_at": "2026-03-02T01:01:04.443421+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Cloud9 vs LYON (BO5) - LCS Lock In Playoffs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: Cloud9 vs LYON (BO5) - LCS Lock In Playoffs",
+    "sources_count": 0
+  },
+  "error": null
+}

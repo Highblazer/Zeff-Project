@@ -1,0 +1,28 @@
+{
+  "id": "4b8612f4",
+  "title": "Polymarket research: Spread: Pistons (-5.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Pistons (-5.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T02:26:35.125278+00:00",
+  "updated_at": "2026-03-02T02:27:04.927794+00:00",
+  "claimed_at": "2026-03-02T02:27:03.382156+00:00",
+  "completed_at": "2026-03-02T02:27:04.927775+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Pistons (-5.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Pistons (-5.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

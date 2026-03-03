@@ -1,0 +1,28 @@
+{
+  "id": "2f77e682",
+  "title": "Polymarket research: Blackhawks vs. Utah",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Blackhawks vs. Utah",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T03:43:21.364677+00:00",
+  "updated_at": "2026-03-02T03:43:50.895940+00:00",
+  "claimed_at": "2026-03-02T03:43:49.372632+00:00",
+  "completed_at": "2026-03-02T03:43:50.895925+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Blackhawks vs. Utah\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Blackhawks vs. Utah",
+    "sources_count": 0
+  },
+  "error": null
+}

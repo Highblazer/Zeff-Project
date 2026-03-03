@@ -1,0 +1,28 @@
+{
+  "id": "cf4c1d52",
+  "title": "Polymarket research: Will Reza Pahlavi enter Iran by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Reza Pahlavi enter Iran by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T18:41:13.174559+00:00",
+  "updated_at": "2026-03-02T18:42:19.329735+00:00",
+  "claimed_at": "2026-03-02T18:42:17.250966+00:00",
+  "completed_at": "2026-03-02T18:42:19.329703+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Reza Pahlavi enter Iran by March 31?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Reza Pahlavi enter Iran by March 31?",
+    "sources_count": 0
+  },
+  "error": null
+}

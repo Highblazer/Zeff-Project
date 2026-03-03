@@ -1,0 +1,28 @@
+{
+  "id": "6c4b19b4",
+  "title": "Polymarket research: Kings vs. Lakers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Kings vs. Lakers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T01:37:25.274550+00:00",
+  "updated_at": "2026-03-02T01:38:03.258522+00:00",
+  "claimed_at": "2026-03-02T01:38:01.230133+00:00",
+  "completed_at": "2026-03-02T01:38:03.258482+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Kings vs. Lakers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Kings vs. Lakers",
+    "sources_count": 0
+  },
+  "error": null
+}

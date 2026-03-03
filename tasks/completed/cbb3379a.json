@@ -1,0 +1,28 @@
+{
+  "id": "cbb3379a",
+  "title": "Polymarket research: Will Mojtaba Khamenei be the next Supreme Leader of Iran?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Mojtaba Khamenei be the next Supreme Leader of Iran?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T06:29:54.263724+00:00",
+  "updated_at": "2026-03-02T06:30:22.254122+00:00",
+  "claimed_at": "2026-03-02T06:30:20.201833+00:00",
+  "completed_at": "2026-03-02T06:30:22.254104+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Mojtaba Khamenei be the next Supreme Leader of Iran?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Mojtaba Khamenei be the next Supreme Leader of Iran?",
+    "sources_count": 0
+  },
+  "error": null
+}

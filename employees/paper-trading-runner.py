@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-TradeBot - Advanced Strategy: Fair Value Gaps + S/R + Market Structure
+TradeBot - Institutional Strategy: Liquidity Sweep + Volume Profile + VWAP + Order Flow
 Risk:Reward 1:3 + Trailing Stop | Focus on market opens
 Executes real trades on IC Markets cTrader Demo account via Open API
 """
@@ -231,8 +231,8 @@ _yahoo_session.headers.update({'User-Agent': 'Mozilla/5.0'})
 
 
 def _fetch_candles(yahoo, interval, range_str):
-    """Fetch OHLC candle data from Yahoo Finance for a given interval/range.
-    Returns {'opens': [...], 'highs': [...], 'lows': [...], 'closes': [...]} or None.
+    """Fetch OHLCV candle data from Yahoo Finance for a given interval/range.
+    Returns {'opens': [...], 'highs': [...], 'lows': [...], 'closes': [...], 'volumes': [...]} or None.
     """
     try:
         url = f"https://query1.finance.yahoo.com/v8/finance/chart/{yahoo}?interval={interval}&range={range_str}"
@@ -247,7 +247,14 @@ def _fetch_candles(yahoo, interval, range_str):
         closes = [c for c in candles.get('close', []) if c is not None]
         if not closes:
             return None
-        return {'opens': opens, 'highs': highs, 'lows': lows, 'closes': closes}
+        # Extract volume data (tick volume for forex — well-established proxy)
+        raw_vols = candles.get('volume', [])
+        volumes = [v if v is not None else 0 for v in raw_vols]
+        # Pad volumes to match closes length if some are missing
+        while len(volumes) < len(closes):
+            volumes.append(0)
+        volumes = volumes[:len(closes)]
+        return {'opens': opens, 'highs': highs, 'lows': lows, 'closes': closes, 'volumes': volumes}
     except Exception:
         return None
 
@@ -317,13 +324,13 @@ def get_mtf_data(symbol, live_prices=None):
 
 
 # ══════════════════════════════════════════════════════════════════════
-#  NEWS-DRIVEN MOMENTUM STRATEGY
-#  Philosophy: Lose small, win big. Trade WITH the trend and the news.
+#  NEWS & SENTIMENT ANALYSIS
+#  Philosophy: Lose small, win big. Trade WITH smart money and the news.
 #  - Tight SL (10-12 pips) so losses are tiny
 #  - TP at 3× risk (1:3 R:R) + trailing stop to lock in gains
 #  - Break-even at 1× risk, broker auto-trail at 1.5× risk
-#  - News bias tips the scale — only trade in the direction news supports
-#  - EMA trend + momentum confirm entry timing
+#  - News bias tips the scale — hard block if news contradicts direction
+#  - Liquidity sweep + volume profile + order flow confirm entry timing
 # ══════════════════════════════════════════════════════════════════════
 
 
@@ -508,6 +515,242 @@ def calculate_ema(prices, period):
     return ema
 
 
+# ══════════════════════════════════════════════════════════════════════
+#  INSTITUTIONAL STRATEGY — Pure Functions
+#  Liquidity Sweep + Volume Profile + Anchored VWAP
+# ══════════════════════════════════════════════════════════════════════
+
+def find_swing_points(highs, lows, lookback=5):
+    """Find swing highs and swing lows using a lookback window.
+    A swing high is a candle whose high is the highest in [i-lookback, i+lookback].
+    Returns: (swing_highs: [(index, price)], swing_lows: [(index, price)])
+    """
+    swing_highs = []
+    swing_lows = []
+    n = len(highs)
+    if n < lookback * 2 + 1:
+        return swing_highs, swing_lows
+    for i in range(lookback, n - lookback):
+        # Swing high: this candle's high is the max in the window
+        window_highs = highs[i - lookback:i + lookback + 1]
+        if highs[i] == max(window_highs) and window_highs.count(highs[i]) == 1:
+            swing_highs.append((i, highs[i]))
+        # Swing low: this candle's low is the min in the window
+        window_lows = lows[i - lookback:i + lookback + 1]
+        if lows[i] == min(window_lows) and window_lows.count(lows[i]) == 1:
+            swing_lows.append((i, lows[i]))
+    return swing_highs, swing_lows
+
+
+def detect_liquidity_sweep(highs, lows, closes, opens, lookback=5, n_recent_candles=3):
+    """Detect if recent candles swept past a swing high/low and reversed.
+
+    Bullish sweep: wick below swing low, close above → stop hunt reversal up.
+    Bearish sweep: wick above swing high, close below → stop hunt reversal down.
+
+    Score 0-2: +1 for sweep occurred, +1 for strong reversal (body > 50% of range).
+    Returns: {direction, sweep_level, sweep_depth, reversal_strength, score} or None.
+    """
+    n = len(closes)
+    if n < lookback * 2 + 1 + n_recent_candles:
+        return None
+
+    # Find swing points excluding the most recent candles (they are the "sweep" candidates)
+    swing_highs, swing_lows = find_swing_points(
+        highs[:n - n_recent_candles], lows[:n - n_recent_candles], lookback)
+
+    if not swing_highs and not swing_lows:
+        return None
+
+    best_result = None
+    best_score = 0
+
+    # Check recent candles for bullish sweep (sweep below swing low, close above)
+    for idx, swing_low_price in swing_lows[-5:]:  # Check last 5 swing lows
+        for i in range(n - n_recent_candles, n):
+            if lows[i] < swing_low_price and closes[i] > swing_low_price:
+                # Sweep detected — wick went below swing low but closed above
+                sweep_depth = swing_low_price - lows[i]
+                candle_range = highs[i] - lows[i]
+                body = abs(closes[i] - opens[i])
+                reversal_strength = body / candle_range if candle_range > 0 else 0
+                score = 1  # +1 for sweep occurred
+                if reversal_strength > 0.5:
+                    score += 1  # +1 for strong reversal (body > 50% of range)
+                if score > best_score:
+                    best_score = score
+                    best_result = {
+                        'direction': 'BUY',
+                        'sweep_level': swing_low_price,
+                        'sweep_depth': sweep_depth,
+                        'reversal_strength': round(reversal_strength, 3),
+                        'score': score,
+                    }
+
+    # Check recent candles for bearish sweep (sweep above swing high, close below)
+    for idx, swing_high_price in swing_highs[-5:]:  # Check last 5 swing highs
+        for i in range(n - n_recent_candles, n):
+            if highs[i] > swing_high_price and closes[i] < swing_high_price:
+                sweep_depth = highs[i] - swing_high_price
+                candle_range = highs[i] - lows[i]
+                body = abs(closes[i] - opens[i])
+                reversal_strength = body / candle_range if candle_range > 0 else 0
+                score = 1
+                if reversal_strength > 0.5:
+                    score += 1
+                if score > best_score:
+                    best_score = score
+                    best_result = {
+                        'direction': 'SELL',
+                        'sweep_level': swing_high_price,
+                        'sweep_depth': sweep_depth,
+                        'reversal_strength': round(reversal_strength, 3),
+                        'score': score,
+                    }
+
+    return best_result
+
+
+def build_volume_profile(highs, lows, closes, volumes, n_bins=50):
+    """Build a volume profile from OHLCV data.
+
+    Distributes volume across price bins (60% even, 40% weighted to close).
+    Finds POC (highest volume bin), Value Area (70% volume range expanding from POC).
+    Returns: {poc, va_high, va_low, hvn: [top 3 prices], lvn: [bottom 3 prices], profile}
+    """
+    if not highs or not lows or not closes or not volumes or len(closes) < 10:
+        return None
+
+    price_min = min(lows)
+    price_max = max(highs)
+    if price_max <= price_min:
+        return None
+
+    bin_size = (price_max - price_min) / n_bins
+    if bin_size <= 0:
+        return None
+
+    # Initialize volume bins
+    profile = [0.0] * n_bins
+
+    # Distribute volume across bins
+    for i in range(len(closes)):
+        vol = volumes[i] if i < len(volumes) else 0
+        if vol <= 0:
+            continue
+        h = highs[i] if i < len(highs) else closes[i]
+        l = lows[i] if i < len(lows) else closes[i]
+        c = closes[i]
+
+        # 60% distributed evenly across the candle's range
+        low_bin = max(0, int((l - price_min) / bin_size))
+        high_bin = min(n_bins - 1, int((h - price_min) / bin_size))
+        n_range_bins = high_bin - low_bin + 1
+        even_vol = vol * 0.6 / n_range_bins if n_range_bins > 0 else 0
+        for b in range(low_bin, high_bin + 1):
+            profile[b] += even_vol
+
+        # 40% weighted to the close price bin
+        close_bin = min(n_bins - 1, max(0, int((c - price_min) / bin_size)))
+        profile[close_bin] += vol * 0.4
+
+    # Find POC (Point of Control = highest volume bin)
+    poc_bin = max(range(n_bins), key=lambda b: profile[b])
+    poc = price_min + (poc_bin + 0.5) * bin_size
+
+    # Value Area: 70% of total volume, expanding outward from POC
+    total_vol = sum(profile)
+    if total_vol <= 0:
+        return None
+
+    va_target = total_vol * 0.70
+    va_vol = profile[poc_bin]
+    va_low_bin = poc_bin
+    va_high_bin = poc_bin
+
+    while va_vol < va_target and (va_low_bin > 0 or va_high_bin < n_bins - 1):
+        expand_low = profile[va_low_bin - 1] if va_low_bin > 0 else 0
+        expand_high = profile[va_high_bin + 1] if va_high_bin < n_bins - 1 else 0
+        if expand_low >= expand_high and va_low_bin > 0:
+            va_low_bin -= 1
+            va_vol += expand_low
+        elif va_high_bin < n_bins - 1:
+            va_high_bin += 1
+            va_vol += expand_high
+        else:
+            va_low_bin -= 1
+            va_vol += expand_low
+
+    va_low = price_min + va_low_bin * bin_size
+    va_high = price_min + (va_high_bin + 1) * bin_size
+
+    # HVN (High Volume Nodes) — top 3 bins by volume
+    sorted_bins = sorted(range(n_bins), key=lambda b: profile[b], reverse=True)
+    hvn = [price_min + (b + 0.5) * bin_size for b in sorted_bins[:3]]
+
+    # LVN (Low Volume Nodes) — bottom 3 non-zero bins
+    non_zero_bins = [b for b in sorted_bins if profile[b] > 0]
+    lvn_bins = non_zero_bins[-3:] if len(non_zero_bins) >= 3 else non_zero_bins
+    lvn = [price_min + (b + 0.5) * bin_size for b in lvn_bins]
+
+    return {
+        'poc': poc,
+        'va_high': va_high,
+        'va_low': va_low,
+        'hvn': hvn,
+        'lvn': lvn,
+        'profile': profile,
+        'bin_size': bin_size,
+        'price_min': price_min,
+    }
+
+
+def calculate_vwap(highs, lows, closes, volumes, anchor_index=0):
+    """Calculate VWAP from anchor_index to the end of the data.
+    VWAP = cumulative(typical_price * volume) / cumulative(volume).
+    Returns: float (current VWAP value) or None.
+    """
+    if not closes or not volumes or anchor_index >= len(closes):
+        return None
+
+    cum_tp_vol = 0.0
+    cum_vol = 0.0
+    for i in range(anchor_index, len(closes)):
+        h = highs[i] if i < len(highs) else closes[i]
+        l = lows[i] if i < len(lows) else closes[i]
+        c = closes[i]
+        v = volumes[i] if i < len(volumes) else 0
+        tp = (h + l + c) / 3.0
+        cum_tp_vol += tp * v
+        cum_vol += v
+
+    if cum_vol <= 0:
+        return None
+    return cum_tp_vol / cum_vol
+
+
+def get_session_vwap_anchors(interval_minutes=1):
+    """Calculate anchor indices for London open (08:00 UTC) and NY open (13:00 UTC).
+    Based on current UTC time and candle interval.
+    Returns: {session_name: candles_ago} or empty dict.
+    """
+    now = datetime.now(timezone.utc)
+    current_minutes = now.hour * 60 + now.minute
+
+    anchors = {}
+    # London open = 08:00 UTC = 480 minutes
+    london_minutes_ago = current_minutes - 480
+    if london_minutes_ago > 0:
+        anchors['london'] = london_minutes_ago // interval_minutes
+
+    # NY open = 13:00 UTC = 780 minutes
+    ny_minutes_ago = current_minutes - 780
+    if ny_minutes_ago > 0:
+        anchors['ny'] = ny_minutes_ago // interval_minutes
+
+    return anchors
+
+
 def is_market_open():
     current_hour = datetime.now(timezone.utc).hour
     for market, open_hour in HIGH_VOLATILITY.items():
@@ -520,142 +763,147 @@ def is_market_open():
     return False, "outside_sessions"
 
 
-def get_mtf_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias=None):
-    """Multi-timeframe signal engine.
+def get_advanced_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias, depth_analysis=None):
+    """Advanced signal engine: Liquidity Sweep + Volume Profile + VWAP + Order Flow.
 
-    Top-down analysis:
-      Layer A — 15M Trend & Bias (2 pts): EMA 20/50 trend + price position
-      Layer B — 5M Setup Confirmation (2 pts): EMA 8/21 alignment + momentum/breakout
-      Layer C — 1M Entry Trigger (2 pts): EMA 5/13 alignment + price confirmation
-      Bonus  — News (1 pt): supports direction, hard block if contradicts
+    10-point scoring system:
+      VP (0-2)  — Price at key volume level (POC, VA edge, LVN)
+      LS (0-3)  — Sweep quality + reversal strength + MTF confluence
+      VW (0-2)  — Price vs session VWAP + VWAP bounce detection
+      OF (0-2)  — Delta trend + absorption + enhanced imbalance (capped)
+      News (0-1) — News sentiment (hard block on contradiction)
 
-    Total: 0-7 points. Entry threshold: score >= 6 with A>=2, B>=1, C>=1.
-    Args:
-      news_bias: Pre-fetched news bias dict (from get_news_bias()). If None, fetches fresh.
+    Entry: score >= 7 with LS >= 2, VP >= 1, OF >= 1
     Returns: (signal, reason, score, layer_scores)
     """
     if news_bias is None:
         news_bias = get_news_bias()
-    layers = {'a': 0, 'b': 0, 'c': 0, 'news': 0}
+    layers = {'vp': 0, 'ls': 0, 'vw': 0, 'of': 0, 'news': 0}
 
-    # ── LAYER A: 15M Trend & Bias ──
+    # ── Data validation ──
     if not tf_15m or len(tf_15m.get('closes', [])) < 50:
         return 'HOLD', 'Insufficient 15M data', 0, layers
+    if not tf_5m or len(tf_5m.get('closes', [])) < 30:
+        return 'HOLD', 'Insufficient 5M data', 0, layers
 
-    closes_15m = tf_15m['closes']
-    ema_20_15m = calculate_ema(closes_15m, 20)
-    ema_50_15m = calculate_ema(closes_15m, 50)
-    if not ema_20_15m or not ema_50_15m:
-        return 'HOLD', '15M EMAs not ready', 0, layers
+    # ── VP LAYER: Volume Profile (from 15M data) ──
+    vp = build_volume_profile(
+        tf_15m['highs'], tf_15m['lows'], tf_15m['closes'],
+        tf_15m.get('volumes', []))
 
-    # Check if 15M EMAs are tangled (flat/unclear trend)
-    # Dynamic threshold: higher for volatile/high-price assets (e.g. Gold $5000+)
-    # Use recent 15M ATR as volatility proxy; fallback to 0.05% minimum
-    ema_spread_15m = abs(ema_20_15m - ema_50_15m) / ema_50_15m * 100
-    _highs_15m = tf_15m.get('highs', [])
-    _lows_15m = tf_15m.get('lows', [])
-    if len(_highs_15m) >= 14 and len(_lows_15m) >= 14:
-        _atr_vals = [_highs_15m[i] - _lows_15m[i] for i in range(-14, 0)]
-        _atr_14 = sum(_atr_vals) / len(_atr_vals)
-        _atr_pct = (_atr_14 / ema_50_15m * 100) if ema_50_15m else 0
-        ema_tangle_threshold = max(0.05, _atr_pct * 0.15)  # 15% of ATR%, floor 0.05%
-    else:
-        ema_tangle_threshold = 0.05
-    if ema_spread_15m < ema_tangle_threshold:
-        return 'HOLD', '15M trend unclear (EMAs tangled)', 0, layers
+    vp_score = 0
+    vp_near_level = None
+    if vp:
+        # Check price proximity to key VP levels
+        poc_dist = abs(price - vp['poc']) / price if price > 0 else 1
+        va_high_dist = abs(price - vp['va_high']) / price if price > 0 else 1
+        va_low_dist = abs(price - vp['va_low']) / price if price > 0 else 1
 
-    # Determine bias from 15M
-    if ema_20_15m > ema_50_15m:
-        bias = 'bullish'
-    else:
-        bias = 'bearish'
+        # Near POC (within 0.1%) = 2 points
+        if poc_dist < 0.001:
+            vp_score = 2
+            vp_near_level = 'POC'
+        # Near VA edge (within 0.15%) = 1 point
+        elif va_high_dist < 0.0015 or va_low_dist < 0.0015:
+            vp_score = 1
+            vp_near_level = 'VA_edge'
+        else:
+            # Check LVN proximity (within 0.15%)
+            for lvn_price in vp.get('lvn', []):
+                if abs(price - lvn_price) / price < 0.0015:
+                    vp_score = 1
+                    vp_near_level = 'LVN'
+                    break
 
-    # A point 1: EMA 20 > EMA 50 trend
-    a_score_buy = 0
-    a_score_sell = 0
-    if bias == 'bullish':
-        a_score_buy += 1
-    else:
-        a_score_sell += 1
+    # ── LS LAYER: Liquidity Sweep (primary on 5M, confluence on 15M) ──
+    sweep_5m = detect_liquidity_sweep(
+        tf_5m['highs'], tf_5m['lows'], tf_5m['closes'], tf_5m['opens'])
 
-    # A point 2: Price above/below EMA 20 confirming direction
-    price_15m = closes_15m[-1]
-    if bias == 'bullish' and price_15m > ema_20_15m:
-        a_score_buy += 1
-    elif bias == 'bearish' and price_15m < ema_20_15m:
-        a_score_sell += 1
+    sweep_15m = detect_liquidity_sweep(
+        tf_15m['highs'], tf_15m['lows'], tf_15m['closes'], tf_15m['opens'])
 
-    # ── LAYER B: 5M Setup Confirmation ──
-    b_score_buy = 0
-    b_score_sell = 0
-    if tf_5m and len(tf_5m.get('closes', [])) >= 21:
-        closes_5m = tf_5m['closes']
-        highs_5m = tf_5m['highs']
-        lows_5m = tf_5m['lows']
-        ema_8_5m = calculate_ema(closes_5m, 8)
-        ema_21_5m = calculate_ema(closes_5m, 21)
+    ls_score_buy = 0
+    ls_score_sell = 0
+    sweep_direction = None
 
-        if ema_8_5m and ema_21_5m:
-            # B point 1: EMA 8 > EMA 21 aligned with 15M bias
-            if bias == 'bullish' and ema_8_5m > ema_21_5m:
-                b_score_buy += 1
-            elif bias == 'bearish' and ema_8_5m < ema_21_5m:
-                b_score_sell += 1
+    if sweep_5m:
+        if sweep_5m['direction'] == 'BUY':
+            ls_score_buy += sweep_5m['score']  # 0-2 from 5M sweep
+            # MTF confluence: 15M also shows bullish sweep
+            if sweep_15m and sweep_15m['direction'] == 'BUY':
+                ls_score_buy += 1
+            # Bonus: sweep happened near a VP key level
+            if vp and vp_near_level:
+                ls_score_buy = min(ls_score_buy + 1, 3)
+        elif sweep_5m['direction'] == 'SELL':
+            ls_score_sell += sweep_5m['score']
+            if sweep_15m and sweep_15m['direction'] == 'SELL':
+                ls_score_sell += 1
+            if vp and vp_near_level:
+                ls_score_sell = min(ls_score_sell + 1, 3)
 
-            # B point 2: Momentum (price pulling from 5M EMA 8) or breakout
-            ema_gap_5m = (closes_5m[-1] - ema_8_5m) / ema_8_5m * 100
-            has_momentum_buy = bias == 'bullish' and ema_gap_5m > 0.02
-            has_momentum_sell = bias == 'bearish' and ema_gap_5m < -0.02
+    ls_score_buy = min(ls_score_buy, 3)
+    ls_score_sell = min(ls_score_sell, 3)
 
-            # 5M breakout of recent 20-candle range (~1.5 hours of 5M data)
-            breaking_up = False
-            breaking_down = False
-            if len(highs_5m) >= 20 and len(lows_5m) >= 20:
-                high_12 = max(highs_5m[-20:])
-                low_12 = min(lows_5m[-20:])
-                breaking_up = closes_5m[-1] >= high_12
-                breaking_down = closes_5m[-1] <= low_12
+    # ── VW LAYER: Anchored VWAP (from 1M data) ──
+    vw_score_buy = 0
+    vw_score_sell = 0
 
-            if has_momentum_buy or (bias == 'bullish' and breaking_up):
-                b_score_buy += 1
-            if has_momentum_sell or (bias == 'bearish' and breaking_down):
-                b_score_sell += 1
+    if tf_1m and len(tf_1m.get('closes', [])) >= 30:
+        # Get session anchors
+        anchors = get_session_vwap_anchors(interval_minutes=1)
+        n_candles = len(tf_1m['closes'])
 
-    # ── LAYER C: 1M Entry Trigger ──
-    c_score_buy = 0
-    c_score_sell = 0
-    if tf_1m and len(tf_1m.get('closes', [])) >= 13:
-        closes_1m = tf_1m['closes']
-        ema_5_1m = calculate_ema(closes_1m, 5)
-        ema_13_1m = calculate_ema(closes_1m, 13)
+        # Use the most relevant session anchor (prefer NY if available, then London)
+        best_anchor_idx = 0
+        for session in ('ny', 'london'):
+            if session in anchors:
+                candles_ago = anchors[session]
+                idx = max(0, n_candles - candles_ago)
+                if idx < n_candles - 10:  # Need at least 10 candles after anchor
+                    best_anchor_idx = idx
+                    break
 
-        if ema_5_1m and ema_13_1m:
-            # C point 1: EMA 5 > EMA 13 aligned with direction
-            if bias == 'bullish' and ema_5_1m > ema_13_1m:
-                c_score_buy += 1
-            elif bias == 'bearish' and ema_5_1m < ema_13_1m:
-                c_score_sell += 1
+        vwap_val = calculate_vwap(
+            tf_1m['highs'], tf_1m['lows'], tf_1m['closes'],
+            tf_1m.get('volumes', []), anchor_index=best_anchor_idx)
 
-            # C point 2: Price closing above/below 1M EMA 5
-            if bias == 'bullish' and closes_1m[-1] > ema_5_1m:
-                c_score_buy += 1
-            elif bias == 'bearish' and closes_1m[-1] < ema_5_1m:
-                c_score_sell += 1
+        if vwap_val and vwap_val > 0:
+            vwap_dist = (price - vwap_val) / vwap_val
 
-    # ── SESSION OPEN BOOST: +1 to Layer C during London/NY opens (±30 min) ──
-    _utc_now = datetime.now(timezone.utc)
-    _utc_hour = _utc_now.hour
-    _utc_min = _utc_now.minute
-    _minutes_into_day = _utc_hour * 60 + _utc_min
-    # London open ~08:00, NY open ~13:00 UTC (±30 min window)
-    _at_session_open = (abs(_minutes_into_day - 480) <= 30 or abs(_minutes_into_day - 780) <= 30)
-    if _at_session_open:
-        if c_score_buy >= 1:
-            c_score_buy = min(c_score_buy + 1, 2)  # cap at 2
-        if c_score_sell >= 1:
-            c_score_sell = min(c_score_sell + 1, 2)
+            # Point 1: Price position vs VWAP
+            if vwap_dist > 0.0003:  # Above VWAP = bullish bias
+                vw_score_buy += 1
+            elif vwap_dist < -0.0003:  # Below VWAP = bearish bias
+                vw_score_sell += 1
 
-    # ── NEWS BONUS ──
+            # Point 2: VWAP bounce detection (price touched VWAP recently and bounced)
+            recent_closes = tf_1m['closes'][-5:]
+            recent_lows = tf_1m['lows'][-5:] if len(tf_1m['lows']) >= 5 else tf_1m['lows']
+            recent_highs = tf_1m['highs'][-5:] if len(tf_1m['highs']) >= 5 else tf_1m['highs']
+
+            # Bullish bounce: recent low touched VWAP (within 0.03%) and price closed above
+            for low in recent_lows:
+                if abs(low - vwap_val) / vwap_val < 0.0003 and price > vwap_val:
+                    vw_score_buy = min(vw_score_buy + 1, 2)
+                    break
+            # Bearish bounce: recent high touched VWAP and price closed below
+            for high in recent_highs:
+                if abs(high - vwap_val) / vwap_val < 0.0003 and price < vwap_val:
+                    vw_score_sell = min(vw_score_sell + 1, 2)
+                    break
+
+    # ── OF LAYER: Order Flow (pre-computed) ──
+    of_score_buy = 0
+    of_score_sell = 0
+
+    if depth_analysis and symbol in depth_analysis:
+        of_buy = depth_analysis[symbol].get('buy', {})
+        of_sell = depth_analysis[symbol].get('sell', {})
+        of_score_buy = min(of_buy.get('score', 0), 2)   # Cap at 2
+        of_score_sell = min(of_sell.get('score', 0), 2)
+
+    # ── NEWS LAYER ──
     in_session, session_name = is_market_open()
     news_buy = news_supports_direction(symbol, 'BUY', news_bias)
     news_sell = news_supports_direction(symbol, 'SELL', news_bias)
@@ -663,42 +911,56 @@ def get_mtf_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias=None):
     news_score_sell = 1 if news_sell > 0 else 0
 
     # ── Compile scores ──
-    total_buy = a_score_buy + b_score_buy + c_score_buy + news_score_buy
-    total_sell = a_score_sell + b_score_sell + c_score_sell + news_score_sell
+    total_buy = vp_score + ls_score_buy + vw_score_buy + of_score_buy + news_score_buy
+    total_sell = vp_score + ls_score_sell + vw_score_sell + of_score_sell + news_score_sell
 
     # ── Decision ──
-    # Entry: score >= 6, with full 15M trend (A=2) + at least 1 from B and C
-    # News contradiction = hard block regardless of score
+    # Entry: score >= 7 with LS >= 2, VP >= 1, OF >= 1
+    # News contradiction = hard block
 
-    if total_buy >= 6 and total_buy > total_sell:
-        if a_score_buy >= 2 and b_score_buy >= 1 and c_score_buy >= 1:
+    if total_buy >= 7 and total_buy >= total_sell:
+        if ls_score_buy >= 2 and vp_score >= 1 and of_score_buy >= 1:
             if news_buy < 0:
-                layers = {'a': a_score_buy, 'b': b_score_buy, 'c': c_score_buy, 'news': 0}
+                layers = {'vp': vp_score, 'ls': ls_score_buy, 'vw': vw_score_buy,
+                          'of': of_score_buy, 'news': 0}
                 return 'HOLD', f'News blocks BUY ({news_bias["usd_bias"]})', total_buy, layers
-            layers = {'a': a_score_buy, 'b': b_score_buy, 'c': c_score_buy, 'news': news_score_buy}
-            reason = f'MTF BUY (score {total_buy}/7) {session_name}'
+            layers = {'vp': vp_score, 'ls': ls_score_buy, 'vw': vw_score_buy,
+                      'of': of_score_buy, 'news': news_score_buy}
+            reason = f'ADV BUY (score {total_buy}/10) {session_name}'
+            if vp_near_level:
+                reason += f' VP:{vp_near_level}'
+            if sweep_5m:
+                reason += f' sweep@{sweep_5m["sweep_level"]:.5f}'
             if news_score_buy:
                 reason += f' +news({news_bias["usd_bias"]})'
             return 'BUY', reason, total_buy, layers
 
-    if total_sell >= 6 and total_sell > total_buy:
-        if a_score_sell >= 2 and b_score_sell >= 1 and c_score_sell >= 1:
+    if total_sell >= 7 and total_sell > total_buy:
+        if ls_score_sell >= 2 and vp_score >= 1 and of_score_sell >= 1:
             if news_sell < 0:
-                layers = {'a': a_score_sell, 'b': b_score_sell, 'c': c_score_sell, 'news': 0}
+                layers = {'vp': vp_score, 'ls': ls_score_sell, 'vw': vw_score_sell,
+                          'of': of_score_sell, 'news': 0}
                 return 'HOLD', f'News blocks SELL ({news_bias["usd_bias"]})', total_sell, layers
-            layers = {'a': a_score_sell, 'b': b_score_sell, 'c': c_score_sell, 'news': news_score_sell}
-            reason = f'MTF SELL (score {total_sell}/7) {session_name}'
+            layers = {'vp': vp_score, 'ls': ls_score_sell, 'vw': vw_score_sell,
+                      'of': of_score_sell, 'news': news_score_sell}
+            reason = f'ADV SELL (score {total_sell}/10) {session_name}'
+            if vp_near_level:
+                reason += f' VP:{vp_near_level}'
+            if sweep_5m:
+                reason += f' sweep@{sweep_5m["sweep_level"]:.5f}'
             if news_score_sell:
                 reason += f' +news({news_bias["usd_bias"]})'
             return 'SELL', reason, total_sell, layers
 
     # No entry — report the better side for logging
     if total_buy >= total_sell:
-        layers = {'a': a_score_buy, 'b': b_score_buy, 'c': c_score_buy, 'news': news_score_buy}
+        layers = {'vp': vp_score, 'ls': ls_score_buy, 'vw': vw_score_buy,
+                  'of': of_score_buy, 'news': news_score_buy}
     else:
-        layers = {'a': a_score_sell, 'b': b_score_sell, 'c': c_score_sell, 'news': news_score_sell}
+        layers = {'vp': vp_score, 'ls': ls_score_sell, 'vw': vw_score_sell,
+                  'of': of_score_sell, 'news': news_score_sell}
     best = max(total_buy, total_sell)
-    return 'HOLD', f'No setup (best {best}/7)', best, layers
+    return 'HOLD', f'No setup (best {best}/10)', best, layers
 
 
 # ══════════════════════════════════════════════════════════════════════
@@ -734,13 +996,15 @@ class TradeBotEngine:
         self._last_candles = {}    # symbol -> candle data (highs, lows, closes) for reversal detection
         self._live_prices = {}     # symbol -> real-time bid/ask from cTrader spot subscription
         self._spot_subscriptions = set()  # symbols currently subscribed to spot prices
+        self._depth_history = {}       # symbol -> deque of depth snapshots (~10 min rolling)
+        self._cumulative_delta = {}    # symbol -> deque of (timestamp, delta) for order flow
 
     # ── Connection lifecycle ──
 
     def start(self):
         print("=" * 60)
         print("TradeBot - IC Markets cTrader Demo")
-        print("Strategy: Multi-Timeframe (15M/5M/1M) + News Bias | R:R 1:3 + Trailing Stop")
+        print("Strategy: Liquidity Sweep + Volume Profile + VWAP + Order Flow | R:R 1:3 + Trailing Stop")
         print("=" * 60)
 
         # ── Startup R:R validation — catch config errors before any trade fires ──
@@ -965,6 +1229,10 @@ class TradeBotEngine:
 
         self._save_state()
 
+        # Subscribe to depth data for ALL pairs (order flow needs history from cycle 1)
+        for sym in PAIRS:
+            self._subscribe_depth(sym)
+
         # Fetch deal history for analytics (Phase 2C)
         self._fetch_deal_history(days=7)
 
@@ -1075,7 +1343,8 @@ class TradeBotEngine:
             print(f"  [DEPTH] Error subscribing {symbol}: {e}")
 
     def _process_depth_update(self, payload, symbol):
-        """Process depth quote update and calculate order book imbalance."""
+        """Process depth quote update, calculate order book imbalance, and accumulate history."""
+        from collections import deque
         try:
             bids = [(q.price, q.size) for q in getattr(payload, 'bid', [])]
             asks = [(q.price, q.size) for q in getattr(payload, 'ask', [])]
@@ -1083,6 +1352,7 @@ class TradeBotEngine:
             total_ask = sum(size for _, size in asks) if asks else 0
             total = total_bid + total_ask
             imbalance = (total_bid - total_ask) / total if total > 0 else 0.0
+            now = _time.time()
 
             self._depth_data[symbol] = {
                 'bids': bids[:5],
@@ -1090,8 +1360,26 @@ class TradeBotEngine:
                 'bid_volume': total_bid,
                 'ask_volume': total_ask,
                 'imbalance': round(imbalance, 3),
-                'updated_at': _time.time(),
+                'updated_at': now,
             }
+
+            # Accumulate rolling depth history (~10 min at ~1 update/sec)
+            if symbol not in self._depth_history:
+                self._depth_history[symbol] = deque(maxlen=600)
+            self._depth_history[symbol].append({
+                'ts': now,
+                'bid_vol': total_bid,
+                'ask_vol': total_ask,
+                'imbalance': imbalance,
+                'best_bid': bids[0][0] if bids else 0,
+                'best_ask': asks[0][0] if asks else 0,
+            })
+
+            # Track cumulative delta (bid_vol - ask_vol per tick)
+            if symbol not in self._cumulative_delta:
+                self._cumulative_delta[symbol] = deque(maxlen=600)
+            delta = total_bid - total_ask
+            self._cumulative_delta[symbol].append((now, delta))
         except Exception:
             pass
 
@@ -1109,6 +1397,124 @@ class TradeBotEngine:
         elif direction == 'SELL' and imb < -0.2:
             return 1
         return 0
+
+    # ── Advanced Order Flow Analysis ──
+
+    def analyze_order_flow(self, symbol, direction):
+        """Analyze order flow from depth history for a given symbol and direction.
+
+        Uses cumulative delta, delta divergence, absorption detection, and enhanced imbalance.
+        Score 0-3: +1 delta trend matches, +1 absorption detected, +1 enhanced imbalance,
+                   -1 if delta divergence detected.
+        Returns: {cumulative_delta, delta_trend, delta_divergence, absorption_detected,
+                  enhanced_imbalance, score}
+        """
+        now = _time.time()
+        history = self._depth_history.get(symbol, [])
+        deltas = self._cumulative_delta.get(symbol, [])
+
+        result = {
+            'cumulative_delta': 0.0,
+            'delta_trend': 'neutral',
+            'delta_divergence': False,
+            'absorption_detected': False,
+            'enhanced_imbalance': 0.0,
+            'score': 0,
+        }
+
+        if len(history) < 30 or len(deltas) < 30:
+            return result  # Not enough data
+
+        # ── Cumulative delta (5-min window) ──
+        five_min_ago = now - 300
+        recent_deltas = [(ts, d) for ts, d in deltas if ts >= five_min_ago]
+        if recent_deltas:
+            cum_delta = sum(d for _, d in recent_deltas)
+            # Normalize by count to get average delta direction
+            avg_delta = cum_delta / len(recent_deltas)
+            result['cumulative_delta'] = round(avg_delta, 2)
+            if avg_delta > 0:
+                result['delta_trend'] = 'bullish'
+            elif avg_delta < 0:
+                result['delta_trend'] = 'bearish'
+
+        # ── Delta divergence (compare recent 2-min vs previous 2-min) ──
+        two_min_ago = now - 120
+        four_min_ago = now - 240
+        recent_2m = [d for ts, d in deltas if ts >= two_min_ago]
+        prev_2m = [d for ts, d in deltas if four_min_ago <= ts < two_min_ago]
+        if recent_2m and prev_2m:
+            recent_avg = sum(recent_2m) / len(recent_2m)
+            prev_avg = sum(prev_2m) / len(prev_2m)
+            # Divergence: delta was trending one way but recently reversed
+            if direction == 'BUY' and prev_avg > 0 and recent_avg < prev_avg * 0.3:
+                result['delta_divergence'] = True
+            elif direction == 'SELL' and prev_avg < 0 and recent_avg > prev_avg * 0.3:
+                result['delta_divergence'] = True
+
+        # ── Absorption detection ──
+        # High volume at a price level without price moving (smart money accumulation)
+        recent_history = [h for h in history if h['ts'] >= five_min_ago]
+        if len(recent_history) >= 10:
+            total_volumes = [h['bid_vol'] + h['ask_vol'] for h in recent_history]
+            avg_vol = sum(total_volumes) / len(total_volumes) if total_volumes else 0
+            # Check for absorption: high volume (>1.5x avg) with tight price range
+            high_vol_ticks = [h for h, v in zip(recent_history, total_volumes) if v > avg_vol * 1.5]
+            if high_vol_ticks and len(high_vol_ticks) >= 3:
+                best_bids = [h['best_bid'] for h in high_vol_ticks if h['best_bid'] > 0]
+                if best_bids:
+                    bid_range = max(best_bids) - min(best_bids)
+                    avg_bid = sum(best_bids) / len(best_bids)
+                    # If price range during high volume is tight (<0.02%), absorption detected
+                    if avg_bid > 0 and bid_range / avg_bid < 0.0002:
+                        result['absorption_detected'] = True
+
+        # ── Enhanced imbalance (time-weighted decay over 5 minutes) ──
+        if recent_history:
+            weighted_imb = 0.0
+            total_weight = 0.0
+            for h in recent_history:
+                age = now - h['ts']
+                weight = max(0, 1.0 - age / 300.0)  # Linear decay over 5 min
+                weighted_imb += h['imbalance'] * weight
+                total_weight += weight
+            if total_weight > 0:
+                result['enhanced_imbalance'] = round(weighted_imb / total_weight, 3)
+
+        # ── Score calculation ──
+        score = 0
+        # +1 if delta trend matches direction
+        if direction == 'BUY' and result['delta_trend'] == 'bullish':
+            score += 1
+        elif direction == 'SELL' and result['delta_trend'] == 'bearish':
+            score += 1
+        # +1 if absorption detected
+        if result['absorption_detected']:
+            score += 1
+        # +1 if enhanced imbalance supports direction
+        if direction == 'BUY' and result['enhanced_imbalance'] > 0.15:
+            score += 1
+        elif direction == 'SELL' and result['enhanced_imbalance'] < -0.15:
+            score += 1
+        # -1 if delta divergence detected (weakening momentum)
+        if result['delta_divergence']:
+            score -= 1
+
+        result['score'] = max(0, score)
+        return result
+
+    def _compute_all_depth_analyses(self):
+        """Pre-compute order flow analysis for all pairs (runs on reactor thread).
+        Returns: {symbol: {'buy': {...}, 'sell': {...}}}
+        """
+        analyses = {}
+        for symbol in PAIRS:
+            if symbol in self._depth_history and len(self._depth_history[symbol]) >= 30:
+                analyses[symbol] = {
+                    'buy': self.analyze_order_flow(symbol, 'BUY'),
+                    'sell': self.analyze_order_flow(symbol, 'SELL'),
+                }
+        return analyses
 
     # ── Deal History (Phase 2C) ──
 
@@ -1517,7 +1923,7 @@ class TradeBotEngine:
     # ── Trading cycle ──
 
     @staticmethod
-    def _fetch_all_signals(pairs_dict, live_prices=None):
+    def _fetch_all_signals(pairs_dict, live_prices=None, depth_analyses=None):
         """Blocking worker: fetch MTF data + compute signals for all pairs.
 
         Runs in a thread via deferToThread so the Twisted reactor stays free
@@ -1537,7 +1943,7 @@ class TradeBotEngine:
         log_lines = []
 
         log_lines.append(
-            f"  News: USD={news_bias['usd_bias']} Risk={news_bias['risk_sentiment']} "
+            f"  Strategy: LS+VP+VWAP+OF | News: USD={news_bias['usd_bias']} Risk={news_bias['risk_sentiment']} "
             f"Crypto={news_bias.get('crypto_bias','?')} Oil={news_bias.get('oil_bias','?')} "
             f"Conf={news_bias['confidence']:.1f} | Session={session_name}"
         )
@@ -1567,12 +1973,16 @@ class TradeBotEngine:
                 prices[symbol] = price
                 if tf_5m:
                     candles[symbol] = tf_5m
-                signal, reason, score, layers = get_mtf_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias)
+
+                signal, reason, score, layers = get_advanced_signal(
+                    symbol, price, tf_15m, tf_5m, tf_1m, news_bias, depth_analyses)
                 signals[symbol] = (signal, reason, score, layers)
                 log_lines.append(
                     f"  {config['name']}: {price:.5f} | {signal} "
-                    f"(A:{layers['a']} B:{layers['b']} C:{layers['c']} N:{layers['news']}) {reason}"
+                    f"(VP:{layers['vp']} LS:{layers['ls']} VW:{layers['vw']} "
+                    f"OF:{layers['of']} N:{layers['news']}) {reason}"
                 )
+
                 # Archive non-HOLD signals for history API + paid channel
                 if signal != 'HOLD':
                     archive_signal(symbol, signal, score, layers, price, session_name)
@@ -1779,9 +2189,13 @@ class TradeBotEngine:
         # Fetch cTrader trendbars to populate cache (non-blocking, reactor thread)
         self._fetch_ctrader_trendbars()
 
+        # Pre-compute depth analyses on reactor thread (reads deques, fast)
+        depth_analyses = self._compute_all_depth_analyses()
+
         # Reconcile with broker FIRST, then fetch signals
         d = self._cycle_reconcile()
-        d.addCallback(lambda _: threads.deferToThread(self._fetch_all_signals, dict(PAIRS), dict(self._live_prices)))
+        d.addCallback(lambda _, da=depth_analyses: threads.deferToThread(
+            self._fetch_all_signals, dict(PAIRS), dict(self._live_prices), da))
         d.addCallback(self._process_signals)
         d.addErrback(self._on_fetch_error)
 
@@ -1850,18 +2264,18 @@ class TradeBotEngine:
                 entry_price = prices[symbol]
                 self._execute_order(symbol, signal, entry_price, config, reason)
                 orders_sent_this_cycle += 1
-            elif (existing_bonus + bonus_orders_sent) < max_bonus and score >= 7:
-                # All slots full but this is a perfect setup (score 7 = all layers + news)
+            elif (existing_bonus + bonus_orders_sent) < max_bonus and score >= 9:
+                # All slots full but this is a perfect setup (score 9/10 = near-max conviction)
                 # Can't resist — take the bonus trade
                 entry_price = prices[symbol]
                 bonus_orders_sent += 1
-                print(f"  ** BONUS TRADE #{existing_bonus + bonus_orders_sent}: {signal} {symbol} (perfect score {score}/7) **")
+                print(f"  ** BONUS TRADE #{existing_bonus + bonus_orders_sent}: {signal} {symbol} (perfect score {score}/10) **")
                 self._execute_order(symbol, signal, entry_price, config, f"BONUS|{reason}")
                 orders_sent_this_cycle += 1
                 self._alert(
                     f"BONUS TRADE: {signal} {symbol}\n"
-                    f"Perfect signal (score {score}/7)\n"
-                    f"All timeframes + news aligned — couldn't resist"
+                    f"Perfect signal (score {score}/10)\n"
+                    f"All layers + news aligned — couldn't resist"
                 )
 
         # Refresh balance from broker
@@ -2072,19 +2486,19 @@ class TradeBotEngine:
 
                 if symbol in signals:
                     signal, reason, score, layers = signals[symbol]
-                    # Layer A fully against us AND overall score >= 3
-                    # (Layer A alone flips too easily on volatile instruments like Gold)
-                    opposite = (direction == 'BUY' and signal == 'SELL' and layers.get('a', 0) >= 2 and score >= 3)
-                    opposite = opposite or (direction == 'SELL' and signal == 'BUY' and layers.get('a', 0) >= 2 and score >= 3)
+                    # Opposite signal with sufficient conviction — close initial position early
+                    # LS >= 2 = confirmed liquidity sweep against us + score >= 4
+                    opposite = (direction == 'BUY' and signal == 'SELL' and layers.get('ls', 0) >= 2 and score >= 4)
+                    opposite = opposite or (direction == 'SELL' and signal == 'BUY' and layers.get('ls', 0) >= 2 and score >= 4)
                     if opposite:
                         broker_pos = self.positions.get(pid)
                         if broker_pos:
                             price = self._live_prices.get(symbol) or self._last_prices.get(symbol)
-                            print(f"  [REVERSAL-EARLY] {symbol} — 15M trend flipped against {direction} (score {score}/7), closing initial position")
+                            print(f"  [REVERSAL-EARLY] {symbol} — signal flipped against {direction} (score {score}/10), closing initial position")
                             self._execute_close(symbol, pid, broker_pos['volume'])
                             self._alert(
                                 f"EARLY EXIT: {symbol} ({direction})\n"
-                                f"15M trend fully reversed (score {score}/7) — cutting loss before SL\n"
+                                f"Signal reversed (score {score}/10) — cutting loss before SL\n"
                                 f"{reason}"
                             )
                 continue  # Skip trailing logic for non-trailing positions
@@ -2120,10 +2534,10 @@ class TradeBotEngine:
             # ── Check 1 (STRONG): Signal engine flipped to opposite direction ──
             if symbol in signals:
                 signal, reason, score, _layers = signals[symbol]
-                if direction == 'BUY' and signal == 'SELL' and score >= 3:
-                    strong_reasons.append(f"Signal flipped SELL (score {score}/7): {reason}")
-                elif direction == 'SELL' and signal == 'BUY' and score >= 3:
-                    strong_reasons.append(f"Signal flipped BUY (score {score}/7): {reason}")
+                if direction == 'BUY' and signal == 'SELL' and score >= 4:
+                    strong_reasons.append(f"Signal flipped SELL (score {score}/10): {reason}")
+                elif direction == 'SELL' and signal == 'BUY' and score >= 4:
+                    strong_reasons.append(f"Signal flipped BUY (score {score}/10): {reason}")
 
             # ── Compute EMA trend + momentum from candles ──
             closes = candle_data.get('closes', [])
@@ -2627,7 +3041,7 @@ class TradeBotEngine:
         for sym in symbols_to_check:
             price, tf_15m, tf_5m, tf_1m = get_mtf_data(sym)
             if price and (tf_15m or tf_5m or tf_1m):
-                signal, reason, score, layers = get_mtf_signal(sym, price, tf_15m, tf_5m, tf_1m, task_news_bias)
+                signal, reason, score, layers = get_advanced_signal(sym, price, tf_15m, tf_5m, tf_1m, task_news_bias)
                 in_session, market = is_market_open()
                 has_position = sym in self.local_positions
                 analysis[sym] = {
@@ -2654,7 +3068,7 @@ class TradeBotEngine:
         for sym, config in PAIRS.items():
             price, tf_15m, tf_5m, tf_1m = get_mtf_data(sym)
             if price and (tf_15m or tf_5m or tf_1m):
-                signal, reason, score, layers = get_mtf_signal(sym, price, tf_15m, tf_5m, tf_1m, scan_news_bias)
+                signal, reason, score, layers = get_advanced_signal(sym, price, tf_15m, tf_5m, tf_1m, scan_news_bias)
                 signals[sym] = {
                     'price': price, 'signal': signal, 'reason': reason,
                     'score': score, 'layers': layers,

@@ -1,0 +1,28 @@
+{
+  "id": "c56f1d72",
+  "title": "Polymarket research: Girona FC vs. RC Celta de Vigo: O/U 2.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Girona FC vs. RC Celta de Vigo: O/U 2.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T01:09:38.652214+00:00",
+  "updated_at": "2026-03-02T01:10:01.924860+00:00",
+  "claimed_at": "2026-03-02T01:10:00.228880+00:00",
+  "completed_at": "2026-03-02T01:10:01.924844+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Girona FC vs. RC Celta de Vigo: O/U 2.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Girona FC vs. RC Celta de Vigo: O/U 2.5",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1f727db1",
+  "title": "Polymarket research: Will the price of Bitcoin be between $68,000 and $70,000 on March 2?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the price of Bitcoin be between $68,000 and $70,000 on March 2?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-02T19:34:05.408119+00:00",
+  "updated_at": "2026-03-02T19:34:25.130302+00:00",
+  "claimed_at": "2026-03-02T19:34:23.302284+00:00",
+  "completed_at": "2026-03-02T19:34:25.130286+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the price of Bitcoin be between $68,000 and $70,000 on March 2?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the price of Bitcoin be between $68,000 and $70,000 on March 2?",
+    "sources_count": 0
+  },
+  "error": null
+}
