@@ -1,0 +1,28 @@
+{
+  "id": "a97a38f5",
+  "title": "Polymarket research: Avalanche vs. Kings",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Avalanche vs. Kings",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T04:05:38.193632+00:00",
+  "updated_at": "2026-03-03T04:06:42.551051+00:00",
+  "claimed_at": "2026-03-03T04:06:41.031191+00:00",
+  "completed_at": "2026-03-03T04:06:42.551033+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Avalanche vs. Kings\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Avalanche vs. Kings",
+    "sources_count": 0
+  },
+  "error": null
+}

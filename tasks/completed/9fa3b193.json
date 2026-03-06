@@ -1,0 +1,28 @@
+{
+  "id": "9fa3b193",
+  "title": "Polymarket research: Will Real Sociedad de F\u00fatbol win on 2026-03-04?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Real Sociedad de F\u00fatbol win on 2026-03-04?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T00:50:49.722680+00:00",
+  "updated_at": "2026-03-05T00:52:00.624232+00:00",
+  "claimed_at": "2026-03-05T00:51:59.013392+00:00",
+  "completed_at": "2026-03-05T00:52:00.624221+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Real Sociedad de F\u00fatbol win on 2026-03-04?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Real Sociedad de F\u00fatbol win on 2026-03-04?",
+    "sources_count": 0
+  },
+  "error": null
+}

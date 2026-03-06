@@ -1,0 +1,28 @@
+{
+  "id": "eeb14c79",
+  "title": "Polymarket research: Will the US strike 3 countries in February 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the US strike 3 countries in February 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T18:28:31.071193+00:00",
+  "updated_at": "2026-03-05T18:29:51.379526+00:00",
+  "claimed_at": "2026-03-05T18:29:49.732211+00:00",
+  "completed_at": "2026-03-05T18:29:51.379512+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the US strike 3 countries in February 2026?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the US strike 3 countries in February 2026?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3825f74a",
+  "title": "Polymarket research: Will Israel launch a major ground offensive in Lebanon by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Israel launch a major ground offensive in Lebanon by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T06:03:15.825011+00:00",
+  "updated_at": "2026-03-05T06:03:54.642041+00:00",
+  "claimed_at": "2026-03-05T06:03:53.164983+00:00",
+  "completed_at": "2026-03-05T06:03:54.642022+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Israel launch a major ground offensive in Lebanon by March 31?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Israel launch a major ground offensive in Lebanon by March 31?",
+    "sources_count": 0
+  },
+  "error": null
+}

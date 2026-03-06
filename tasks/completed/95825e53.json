@@ -1,0 +1,28 @@
+{
+  "id": "95825e53",
+  "title": "Polymarket research: Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T05:52:50.629202+00:00",
+  "updated_at": "2026-03-03T05:53:03.644904+00:00",
+  "claimed_at": "2026-03-03T05:53:01.917928+00:00",
+  "completed_at": "2026-03-03T05:53:03.644888+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Hillary Clinton win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

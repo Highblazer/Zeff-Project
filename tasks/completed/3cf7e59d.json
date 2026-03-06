@@ -1,0 +1,28 @@
+{
+  "id": "3cf7e59d",
+  "title": "Polymarket research: Penguins vs. Bruins",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Penguins vs. Bruins",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T00:35:24.525310+00:00",
+  "updated_at": "2026-03-04T00:35:41.413351+00:00",
+  "claimed_at": "2026-03-04T00:35:39.758597+00:00",
+  "completed_at": "2026-03-04T00:35:41.413336+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Penguins vs. Bruins\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Penguins vs. Bruins",
+    "sources_count": 0
+  },
+  "error": null
+}

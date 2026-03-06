@@ -1,0 +1,28 @@
+{
+  "id": "8e3b051e",
+  "title": "Polymarket research: Predators vs. Blue Jackets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Predators vs. Blue Jackets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T03:48:40.650464+00:00",
+  "updated_at": "2026-03-04T03:49:14.309175+00:00",
+  "claimed_at": "2026-03-04T03:49:12.388072+00:00",
+  "completed_at": "2026-03-04T03:49:14.309165+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Predators vs. Blue Jackets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Predators vs. Blue Jackets",
+    "sources_count": 0
+  },
+  "error": null
+}

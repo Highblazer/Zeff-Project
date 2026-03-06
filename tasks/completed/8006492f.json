@@ -1,0 +1,28 @@
+{
+  "id": "8006492f",
+  "title": "Polymarket research: Stars vs. Flames",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Stars vs. Flames",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T06:40:58.568823+00:00",
+  "updated_at": "2026-03-04T06:42:29.104647+00:00",
+  "claimed_at": "2026-03-04T06:42:27.443714+00:00",
+  "completed_at": "2026-03-04T06:42:29.104633+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Stars vs. Flames\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Stars vs. Flames",
+    "sources_count": 0
+  },
+  "error": null
+}

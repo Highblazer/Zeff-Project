@@ -1,0 +1,28 @@
+{
+  "id": "134dc364",
+  "title": "Polymarket research: Will FC Barcelona win on 2026-03-03?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will FC Barcelona win on 2026-03-03?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T00:56:45.152336+00:00",
+  "updated_at": "2026-03-04T00:56:53.025944+00:00",
+  "claimed_at": "2026-03-04T00:56:51.443995+00:00",
+  "completed_at": "2026-03-04T00:56:53.025927+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will FC Barcelona win on 2026-03-03?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will FC Barcelona win on 2026-03-03?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "70a641bf",
+  "title": "Polymarket research: Stars vs. Canucks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Stars vs. Canucks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T06:23:38.724534+00:00",
+  "updated_at": "2026-03-03T06:23:59.707825+00:00",
+  "claimed_at": "2026-03-03T06:23:58.093748+00:00",
+  "completed_at": "2026-03-03T06:23:59.707807+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Stars vs. Canucks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Stars vs. Canucks",
+    "sources_count": 0
+  },
+  "error": null
+}

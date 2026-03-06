@@ -1,0 +1,28 @@
+{
+  "id": "ec8e01ef",
+  "title": "Polymarket research: Will Manchester City FC win on 2026-03-04?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Manchester City FC win on 2026-03-04?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T20:39:13.148994+00:00",
+  "updated_at": "2026-03-04T20:39:24.938850+00:00",
+  "claimed_at": "2026-03-04T20:39:23.228643+00:00",
+  "completed_at": "2026-03-04T20:39:24.938837+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Manchester City FC win on 2026-03-04?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Manchester City FC win on 2026-03-04?",
+    "sources_count": 0
+  },
+  "error": null
+}

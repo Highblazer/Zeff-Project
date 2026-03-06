@@ -1,0 +1,28 @@
+{
+  "id": "19a76be5",
+  "title": "Polymarket research: Golden Knights vs. Sabres",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Golden Knights vs. Sabres",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T02:50:24.889816+00:00",
+  "updated_at": "2026-03-04T02:51:09.251850+00:00",
+  "claimed_at": "2026-03-04T02:51:07.679157+00:00",
+  "completed_at": "2026-03-04T02:51:09.251834+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Golden Knights vs. Sabres\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Golden Knights vs. Sabres",
+    "sources_count": 0
+  },
+  "error": null
+}

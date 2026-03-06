@@ -1,0 +1,28 @@
+{
+  "id": "dc322dd6",
+  "title": "Polymarket research: Spread: Knicks (-2.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Knicks (-2.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T01:05:55.699812+00:00",
+  "updated_at": "2026-03-04T01:06:19.172477+00:00",
+  "claimed_at": "2026-03-04T01:06:18.138939+00:00",
+  "completed_at": "2026-03-04T01:06:19.172459+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Knicks (-2.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Knicks (-2.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

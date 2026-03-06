@@ -1,0 +1,28 @@
+{
+  "id": "2f2b6c14",
+  "title": "Polymarket research: Ethereum Up or Down - March 3, 3AM ET",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Ethereum Up or Down - March 3, 3AM ET",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T08:50:27.076703+00:00",
+  "updated_at": "2026-03-03T08:51:06.210140+00:00",
+  "claimed_at": "2026-03-03T08:51:04.480017+00:00",
+  "completed_at": "2026-03-03T08:51:06.210120+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Ethereum Up or Down - March 3, 3AM ET\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Ethereum Up or Down - March 3, 3AM ET",
+    "sources_count": 0
+  },
+  "error": null
+}

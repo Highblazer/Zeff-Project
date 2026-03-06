@@ -1,0 +1,28 @@
+{
+  "id": "fc6902eb",
+  "title": "Polymarket research: Will J.B. Pritzker win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will J.B. Pritzker win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T23:55:39.368075+00:00",
+  "updated_at": "2026-03-03T23:56:32.433760+00:00",
+  "claimed_at": "2026-03-03T23:56:30.772788+00:00",
+  "completed_at": "2026-03-03T23:56:32.433744+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will J.B. Pritzker win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will J.B. Pritzker win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5c9e52d5",
+  "title": "Polymarket research: Counter-Strike: M80 vs Liquid (BO3) - ESL Pro League Stage 1",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: M80 vs Liquid (BO3) - ESL Pro League Stage 1",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T00:04:52.089657+00:00",
+  "updated_at": "2026-03-05T00:05:25.663189+00:00",
+  "claimed_at": "2026-03-05T00:05:24.580454+00:00",
+  "completed_at": "2026-03-05T00:05:25.663172+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: M80 vs Liquid (BO3) - ESL Pro League Stage 1\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: M80 vs Liquid (BO3) - ESL Pro League Stage 1",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5b143367",
+  "title": "Polymarket research: Jazz vs. 76ers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Jazz vs. 76ers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T01:52:03.779966+00:00",
+  "updated_at": "2026-03-05T01:52:30.473268+00:00",
+  "claimed_at": "2026-03-05T01:52:28.632712+00:00",
+  "completed_at": "2026-03-05T01:52:30.473246+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Jazz vs. 76ers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Jazz vs. 76ers",
+    "sources_count": 0
+  },
+  "error": null
+}

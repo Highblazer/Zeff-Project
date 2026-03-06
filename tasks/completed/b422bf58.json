@@ -1,0 +1,28 @@
+{
+  "id": "b422bf58",
+  "title": "new AI agent frameworks tools launched March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "new AI agent frameworks tools launched March 2026",
+    "category": "landscape"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-03T23:00:59.489363+00:00",
+  "updated_at": "2026-03-03T23:01:01.265592+00:00",
+  "claimed_at": "2026-03-03T23:00:59.521138+00:00",
+  "completed_at": "2026-03-03T23:01:01.265575+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: new AI agent frameworks tools launched March 2026\n\nFindings (0):\n",
+    "findings": [],
+    "query": "new AI agent frameworks tools launched March 2026",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

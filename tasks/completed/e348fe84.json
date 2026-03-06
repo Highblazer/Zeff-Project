@@ -1,0 +1,28 @@
+{
+  "id": "e348fe84",
+  "title": "Polymarket research: Mavericks vs. Hornets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Mavericks vs. Hornets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T18:30:09.531364+00:00",
+  "updated_at": "2026-03-03T18:30:50.655077+00:00",
+  "claimed_at": "2026-03-03T18:30:48.544101+00:00",
+  "completed_at": "2026-03-03T18:30:50.655060+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Mavericks vs. Hornets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Mavericks vs. Hornets",
+    "sources_count": 0
+  },
+  "error": null
+}

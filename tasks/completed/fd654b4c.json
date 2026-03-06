@@ -1,0 +1,28 @@
+{
+  "id": "fd654b4c",
+  "title": "Polymarket research: LoL: JD Gaming vs Bilibili Gaming (BO5) - LPL Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: JD Gaming vs Bilibili Gaming (BO5) - LPL Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T15:04:39.147601+00:00",
+  "updated_at": "2026-03-04T15:05:44.996177+00:00",
+  "claimed_at": "2026-03-04T15:05:42.730634+00:00",
+  "completed_at": "2026-03-04T15:05:44.996163+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: JD Gaming vs Bilibili Gaming (BO5) - LPL Playoffs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: JD Gaming vs Bilibili Gaming (BO5) - LPL Playoffs",
+    "sources_count": 0
+  },
+  "error": null
+}

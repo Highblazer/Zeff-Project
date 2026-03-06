@@ -1,0 +1,28 @@
+{
+  "id": "40254c70",
+  "title": "Polymarket research: Bitcoin Up or Down on March 4?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bitcoin Up or Down on March 4?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T14:37:06.639514+00:00",
+  "updated_at": "2026-03-04T14:38:34.218349+00:00",
+  "claimed_at": "2026-03-04T14:38:32.534583+00:00",
+  "completed_at": "2026-03-04T14:38:34.218332+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bitcoin Up or Down on March 4?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Bitcoin Up or Down on March 4?",
+    "sources_count": 0
+  },
+  "error": null
+}

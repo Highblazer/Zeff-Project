@@ -1,0 +1,28 @@
+{
+  "id": "bcf9692a",
+  "title": "Polymarket research: Will another country strike Iran by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will another country strike Iran by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T23:24:52.375789+00:00",
+  "updated_at": "2026-03-03T23:26:09.639550+00:00",
+  "claimed_at": "2026-03-03T23:26:07.966306+00:00",
+  "completed_at": "2026-03-03T23:26:09.639531+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will another country strike Iran by March 31?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will another country strike Iran by March 31?",
+    "sources_count": 0
+  },
+  "error": null
+}

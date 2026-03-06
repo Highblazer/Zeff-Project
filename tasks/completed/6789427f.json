@@ -1,0 +1,28 @@
+{
+  "id": "6789427f",
+  "title": "Polymarket research: Paradex FDV above $300M one day after launch?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Paradex FDV above $300M one day after launch?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T21:26:26.654346+00:00",
+  "updated_at": "2026-03-05T21:27:48.255085+00:00",
+  "claimed_at": "2026-03-05T21:27:46.605521+00:00",
+  "completed_at": "2026-03-05T21:27:48.255068+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Paradex FDV above $300M one day after launch?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Paradex FDV above $300M one day after launch?",
+    "sources_count": 0
+  },
+  "error": null
+}

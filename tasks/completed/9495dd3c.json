@@ -1,0 +1,28 @@
+{
+  "id": "9495dd3c",
+  "title": "Polymarket research: Will Hassan Rouhani be the next Supreme Leader of Iran?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Hassan Rouhani be the next Supreme Leader of Iran?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T23:18:52.401559+00:00",
+  "updated_at": "2026-03-04T23:20:10.285302+00:00",
+  "claimed_at": "2026-03-04T23:20:08.071986+00:00",
+  "completed_at": "2026-03-04T23:20:10.285286+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Hassan Rouhani be the next Supreme Leader of Iran?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Hassan Rouhani be the next Supreme Leader of Iran?",
+    "sources_count": 0
+  },
+  "error": null
+}

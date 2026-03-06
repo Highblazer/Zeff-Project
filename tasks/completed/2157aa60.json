@@ -1,0 +1,28 @@
+{
+  "id": "2157aa60",
+  "title": "Polymarket research: Will Ethereum reach $4,000 in March?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Ethereum reach $4,000 in March?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T20:36:12.371185+00:00",
+  "updated_at": "2026-03-04T20:36:29.092441+00:00",
+  "claimed_at": "2026-03-04T20:36:27.297840+00:00",
+  "completed_at": "2026-03-04T20:36:29.092424+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Ethereum reach $4,000 in March?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Ethereum reach $4,000 in March?",
+    "sources_count": 0
+  },
+  "error": null
+}

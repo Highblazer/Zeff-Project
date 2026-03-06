@@ -1,0 +1,28 @@
+{
+  "id": "b51dfa98",
+  "title": "Polymarket research: Warriors vs. Rockets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Warriors vs. Rockets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T23:56:26.379314+00:00",
+  "updated_at": "2026-03-05T23:57:00.027572+00:00",
+  "claimed_at": "2026-03-05T23:56:58.438396+00:00",
+  "completed_at": "2026-03-05T23:57:00.027555+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Warriors vs. Rockets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Warriors vs. Rockets",
+    "sources_count": 0
+  },
+  "error": null
+}

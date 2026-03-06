@@ -1,0 +1,28 @@
+{
+  "id": "dbc50ce7",
+  "title": "Polymarket research: Rockets vs. Wizards: O/U 225.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Rockets vs. Wizards: O/U 225.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T02:36:46.301102+00:00",
+  "updated_at": "2026-03-03T02:37:01.467281+00:00",
+  "claimed_at": "2026-03-03T02:36:59.889167+00:00",
+  "completed_at": "2026-03-03T02:37:01.467265+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Rockets vs. Wizards: O/U 225.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Rockets vs. Wizards: O/U 225.5",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a6e895a5",
+  "title": "Polymarket research: Spread: Celtics (-2.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Celtics (-2.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T03:40:57.416745+00:00",
+  "updated_at": "2026-03-03T03:41:06.145388+00:00",
+  "claimed_at": "2026-03-03T03:41:04.496637+00:00",
+  "completed_at": "2026-03-03T03:41:06.145369+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Celtics (-2.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Celtics (-2.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

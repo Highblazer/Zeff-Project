@@ -1,0 +1,28 @@
+{
+  "id": "296fa5fd",
+  "title": "Polymarket research: Penguins vs. Bruins: O/U 6.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Penguins vs. Bruins: O/U 6.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T03:21:10.450763+00:00",
+  "updated_at": "2026-03-04T03:21:50.011922+00:00",
+  "claimed_at": "2026-03-04T03:21:48.983370+00:00",
+  "completed_at": "2026-03-04T03:21:50.011905+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Penguins vs. Bruins: O/U 6.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Penguins vs. Bruins: O/U 6.5",
+    "sources_count": 0
+  },
+  "error": null
+}

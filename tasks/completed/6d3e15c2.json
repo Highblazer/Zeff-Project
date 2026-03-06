@@ -1,0 +1,28 @@
+{
+  "id": "6d3e15c2",
+  "title": "Polymarket research: Will Tottenham Hotspur FC vs. Crystal Palace FC end in a draw?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Tottenham Hotspur FC vs. Crystal Palace FC end in a draw?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T22:39:48.641832+00:00",
+  "updated_at": "2026-03-05T22:40:20.965727+00:00",
+  "claimed_at": "2026-03-05T22:40:19.263713+00:00",
+  "completed_at": "2026-03-05T22:40:20.965712+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Tottenham Hotspur FC vs. Crystal Palace FC end in a draw?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Tottenham Hotspur FC vs. Crystal Palace FC end in a draw?",
+    "sources_count": 0
+  },
+  "error": null
+}

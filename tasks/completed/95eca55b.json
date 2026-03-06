@@ -1,0 +1,28 @@
+{
+  "id": "95eca55b",
+  "title": "machine learning infrastructure trends 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "machine learning infrastructure trends 2026",
+    "category": "landscape"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-04T22:26:17.105027+00:00",
+  "updated_at": "2026-03-04T22:26:19.039381+00:00",
+  "claimed_at": "2026-03-04T22:26:17.115006+00:00",
+  "completed_at": "2026-03-04T22:26:19.039365+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: machine learning infrastructure trends 2026\n\nFindings (0):\n",
+    "findings": [],
+    "query": "machine learning infrastructure trends 2026",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

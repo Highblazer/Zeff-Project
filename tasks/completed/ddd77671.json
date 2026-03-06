@@ -1,0 +1,28 @@
+{
+  "id": "ddd77671",
+  "title": "Polymarket research: Iran x Israel/US conflict ends by March 15?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Iran x Israel/US conflict ends by March 15?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T08:55:54.181196+00:00",
+  "updated_at": "2026-03-05T08:56:11.244865+00:00",
+  "claimed_at": "2026-03-05T08:56:09.494593+00:00",
+  "completed_at": "2026-03-05T08:56:11.244853+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Iran x Israel/US conflict ends by March 15?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Iran x Israel/US conflict ends by March 15?",
+    "sources_count": 0
+  },
+  "error": null
+}

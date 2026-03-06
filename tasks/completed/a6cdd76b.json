@@ -1,0 +1,28 @@
+{
+  "id": "a6cdd76b",
+  "title": "Polymarket research: Will Thomas Massie win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Thomas Massie win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T12:21:56.348867+00:00",
+  "updated_at": "2026-03-04T12:22:12.012467+00:00",
+  "claimed_at": "2026-03-04T12:22:10.159239+00:00",
+  "completed_at": "2026-03-04T12:22:12.012451+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Thomas Massie win the 2028 Republican presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Thomas Massie win the 2028 Republican presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

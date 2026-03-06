@@ -1,0 +1,28 @@
+{
+  "id": "e4f04193",
+  "title": "Polymarket research: Will Crystal Palace FC win on 2026-03-05?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Crystal Palace FC win on 2026-03-05?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T21:20:17.733631+00:00",
+  "updated_at": "2026-03-05T21:20:30.230870+00:00",
+  "claimed_at": "2026-03-05T21:20:28.549925+00:00",
+  "completed_at": "2026-03-05T21:20:30.230853+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Crystal Palace FC win on 2026-03-05?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Crystal Palace FC win on 2026-03-05?",
+    "sources_count": 0
+  },
+  "error": null
+}

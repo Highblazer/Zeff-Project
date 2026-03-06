@@ -1,0 +1,28 @@
+{
+  "id": "d816c6a2",
+  "title": "Polymarket research: Will Trump nominate Judy Shelton as the next Fed chair?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump nominate Judy Shelton as the next Fed chair?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T17:10:26.927914+00:00",
+  "updated_at": "2026-03-04T17:10:37.037934+00:00",
+  "claimed_at": "2026-03-04T17:10:34.919610+00:00",
+  "completed_at": "2026-03-04T17:10:37.037915+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump nominate Judy Shelton as the next Fed chair?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Trump nominate Judy Shelton as the next Fed chair?",
+    "sources_count": 0
+  },
+  "error": null
+}

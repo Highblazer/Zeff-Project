@@ -1,0 +1,28 @@
+{
+  "id": "b8aaa8fd",
+  "title": "Polymarket research: Will Damac Saudi Club win on 2026-03-05?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Damac Saudi Club win on 2026-03-05?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T21:17:16.268379+00:00",
+  "updated_at": "2026-03-05T21:19:01.517876+00:00",
+  "claimed_at": "2026-03-05T21:18:59.861751+00:00",
+  "completed_at": "2026-03-05T21:19:01.517855+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Damac Saudi Club win on 2026-03-05?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Damac Saudi Club win on 2026-03-05?",
+    "sources_count": 0
+  },
+  "error": null
+}

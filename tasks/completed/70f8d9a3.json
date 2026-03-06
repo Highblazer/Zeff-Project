@@ -1,0 +1,28 @@
+{
+  "id": "70f8d9a3",
+  "title": "Polymarket research: US strikes Iraq by February 28?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "US strikes Iraq by February 28?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T11:29:48.532300+00:00",
+  "updated_at": "2026-03-05T11:29:57.686972+00:00",
+  "claimed_at": "2026-03-05T11:29:55.674175+00:00",
+  "completed_at": "2026-03-05T11:29:57.686954+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: US strikes Iraq by February 28?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "US strikes Iraq by February 28?",
+    "sources_count": 0
+  },
+  "error": null
+}

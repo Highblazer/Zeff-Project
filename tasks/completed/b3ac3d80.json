@@ -1,0 +1,28 @@
+{
+  "id": "b3ac3d80",
+  "title": "Polymarket research: Pelicans vs. Kings",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pelicans vs. Kings",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T18:59:21.623347+00:00",
+  "updated_at": "2026-03-05T19:00:26.110049+00:00",
+  "claimed_at": "2026-03-05T19:00:23.831995+00:00",
+  "completed_at": "2026-03-05T19:00:26.110030+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pelicans vs. Kings\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Pelicans vs. Kings",
+    "sources_count": 0
+  },
+  "error": null
+}

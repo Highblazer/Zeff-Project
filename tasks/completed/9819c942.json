@@ -1,0 +1,28 @@
+{
+  "id": "9819c942",
+  "title": "Polymarket research: Trail Blazers vs. Grizzlies",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Trail Blazers vs. Grizzlies",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T20:30:03.284812+00:00",
+  "updated_at": "2026-03-04T20:31:03.753418+00:00",
+  "claimed_at": "2026-03-04T20:31:01.671552+00:00",
+  "completed_at": "2026-03-04T20:31:03.753403+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Trail Blazers vs. Grizzlies\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Trail Blazers vs. Grizzlies",
+    "sources_count": 0
+  },
+  "error": null
+}

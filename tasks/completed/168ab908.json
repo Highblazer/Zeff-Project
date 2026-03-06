@@ -1,0 +1,28 @@
+{
+  "id": "168ab908",
+  "title": "Polymarket research: Will Bitcoin dip to $55,000 in March?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin dip to $55,000 in March?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T15:33:03.863590+00:00",
+  "updated_at": "2026-03-05T15:33:10.643002+00:00",
+  "claimed_at": "2026-03-05T15:33:08.927407+00:00",
+  "completed_at": "2026-03-05T15:33:10.642990+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin dip to $55,000 in March?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Bitcoin dip to $55,000 in March?",
+    "sources_count": 0
+  },
+  "error": null
+}

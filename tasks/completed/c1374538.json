@@ -1,0 +1,28 @@
+{
+  "id": "c1374538",
+  "title": "Polymarket research: Will Gabriel Bortoleto be the 2026 F1 Drivers' Champion?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Gabriel Bortoleto be the 2026 F1 Drivers' Champion?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T22:32:47.539602+00:00",
+  "updated_at": "2026-03-04T22:33:53.513399+00:00",
+  "claimed_at": "2026-03-04T22:33:51.814931+00:00",
+  "completed_at": "2026-03-04T22:33:53.513384+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Gabriel Bortoleto be the 2026 F1 Drivers' Champion?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Gabriel Bortoleto be the 2026 F1 Drivers' Champion?",
+    "sources_count": 0
+  },
+  "error": null
+}

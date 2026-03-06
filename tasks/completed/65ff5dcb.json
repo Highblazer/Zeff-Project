@@ -1,0 +1,28 @@
+{
+  "id": "65ff5dcb",
+  "title": "Polymarket research: Will Arsenal win the 2025\u201326 English Premier League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Arsenal win the 2025\u201326 English Premier League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T14:25:03.514772+00:00",
+  "updated_at": "2026-03-05T14:26:17.842848+00:00",
+  "claimed_at": "2026-03-05T14:26:16.134427+00:00",
+  "completed_at": "2026-03-05T14:26:17.842832+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Arsenal win the 2025\u201326 English Premier League?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Arsenal win the 2025\u201326 English Premier League?",
+    "sources_count": 0
+  },
+  "error": null
+}

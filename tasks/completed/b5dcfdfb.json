@@ -1,0 +1,28 @@
+{
+  "id": "b5dcfdfb",
+  "title": "Polymarket research: Hawks vs. Bucks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Hawks vs. Bucks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T06:18:45.157972+00:00",
+  "updated_at": "2026-03-05T06:19:00.594434+00:00",
+  "claimed_at": "2026-03-05T06:18:59.050561+00:00",
+  "completed_at": "2026-03-05T06:19:00.594422+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Hawks vs. Bucks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Hawks vs. Bucks",
+    "sources_count": 0
+  },
+  "error": null
+}

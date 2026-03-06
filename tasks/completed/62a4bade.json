@@ -1,0 +1,28 @@
+{
+  "id": "62a4bade",
+  "title": "Polymarket research: Spread: Thunder (-10.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Thunder (-10.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T04:50:22.147476+00:00",
+  "updated_at": "2026-03-04T04:50:36.632984+00:00",
+  "claimed_at": "2026-03-04T04:50:35.083385+00:00",
+  "completed_at": "2026-03-04T04:50:36.632969+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Thunder (-10.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Thunder (-10.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

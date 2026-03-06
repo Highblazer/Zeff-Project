@@ -1,0 +1,28 @@
+{
+  "id": "d806b1fd",
+  "title": "Polymarket research: LoL: Anyone's Legend vs Invictus Gaming (BO5) - LPL Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Anyone's Legend vs Invictus Gaming (BO5) - LPL Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T08:41:16.404217+00:00",
+  "updated_at": "2026-03-03T08:41:51.110043+00:00",
+  "claimed_at": "2026-03-03T08:41:50.017883+00:00",
+  "completed_at": "2026-03-03T08:41:51.110027+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Anyone's Legend vs Invictus Gaming (BO5) - LPL Playoffs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: Anyone's Legend vs Invictus Gaming (BO5) - LPL Playoffs",
+    "sources_count": 0
+  },
+  "error": null
+}

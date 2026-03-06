@@ -1,0 +1,28 @@
+{
+  "id": "0c58c7ef",
+  "title": "Polymarket research: Will Elon Musk post 120-139 tweets from February 27 to March 6, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Elon Musk post 120-139 tweets from February 27 to March 6, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T02:59:24.786632+00:00",
+  "updated_at": "2026-03-05T03:00:18.206733+00:00",
+  "claimed_at": "2026-03-05T03:00:16.502075+00:00",
+  "completed_at": "2026-03-05T03:00:18.206717+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Elon Musk post 120-139 tweets from February 27 to March 6, 2026?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Elon Musk post 120-139 tweets from February 27 to March 6, 2026?",
+    "sources_count": 0
+  },
+  "error": null
+}

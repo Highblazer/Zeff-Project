@@ -1,0 +1,28 @@
+{
+  "id": "85718153",
+  "title": "Polymarket research: Thunder vs. Bulls",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Thunder vs. Bulls",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T00:50:38.975123+00:00",
+  "updated_at": "2026-03-04T00:51:08.754851+00:00",
+  "claimed_at": "2026-03-04T00:51:07.088018+00:00",
+  "completed_at": "2026-03-04T00:51:08.754838+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Thunder vs. Bulls\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Thunder vs. Bulls",
+    "sources_count": 0
+  },
+  "error": null
+}

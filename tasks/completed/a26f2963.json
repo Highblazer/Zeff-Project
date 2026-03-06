@@ -1,0 +1,28 @@
+{
+  "id": "a26f2963",
+  "title": "Polymarket research: Senators vs. Oilers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Senators vs. Oilers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T04:47:18.237628+00:00",
+  "updated_at": "2026-03-04T04:47:33.019902+00:00",
+  "claimed_at": "2026-03-04T04:47:31.127629+00:00",
+  "completed_at": "2026-03-04T04:47:33.019885+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Senators vs. Oilers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Senators vs. Oilers",
+    "sources_count": 0
+  },
+  "error": null
+}

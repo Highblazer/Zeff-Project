@@ -1,0 +1,28 @@
+{
+  "id": "067ab680",
+  "title": "Polymarket research: Knicks vs. Raptors",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Knicks vs. Raptors",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T04:25:21.092667+00:00",
+  "updated_at": "2026-03-04T04:25:43.290199+00:00",
+  "claimed_at": "2026-03-04T04:25:41.389179+00:00",
+  "completed_at": "2026-03-04T04:25:43.290185+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Knicks vs. Raptors\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Knicks vs. Raptors",
+    "sources_count": 0
+  },
+  "error": null
+}

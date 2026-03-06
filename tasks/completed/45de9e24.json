@@ -1,0 +1,28 @@
+{
+  "id": "45de9e24",
+  "title": "Polymarket research: Will the Toronto Raptors win the NBA Eastern Conference Finals?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Toronto Raptors win the NBA Eastern Conference Finals?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T21:08:04.242515+00:00",
+  "updated_at": "2026-03-05T21:09:27.511458+00:00",
+  "claimed_at": "2026-03-05T21:09:25.724815+00:00",
+  "completed_at": "2026-03-05T21:09:27.511437+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Toronto Raptors win the NBA Eastern Conference Finals?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Toronto Raptors win the NBA Eastern Conference Finals?",
+    "sources_count": 0
+  },
+  "error": null
+}

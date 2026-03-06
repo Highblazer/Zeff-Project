@@ -1,0 +1,28 @@
+{
+  "id": "7a6c497f",
+  "title": "Polymarket research: Will Israel or the US target an Iranian nuclear facility?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Israel or the US target an Iranian nuclear facility?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T12:30:50.806505+00:00",
+  "updated_at": "2026-03-03T12:31:21.963112+00:00",
+  "claimed_at": "2026-03-03T12:31:20.236473+00:00",
+  "completed_at": "2026-03-03T12:31:21.963095+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Israel or the US target an Iranian nuclear facility?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Israel or the US target an Iranian nuclear facility?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9ff36a0d",
+  "title": "Polymarket research: Will Udinese Calcio win on 2026-03-02?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Udinese Calcio win on 2026-03-02?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T01:05:05.151329+00:00",
+  "updated_at": "2026-03-03T01:05:17.199468+00:00",
+  "claimed_at": "2026-03-03T01:05:15.709371+00:00",
+  "completed_at": "2026-03-03T01:05:17.199448+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Udinese Calcio win on 2026-03-02?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Udinese Calcio win on 2026-03-02?",
+    "sources_count": 0
+  },
+  "error": null
+}

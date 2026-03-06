@@ -1,0 +1,28 @@
+{
+  "id": "e347f677",
+  "title": "Polymarket research: Will Ken Paxton win the 2026 Texas Republican Primary?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Ken Paxton win the 2026 Texas Republican Primary?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T04:12:50.906642+00:00",
+  "updated_at": "2026-03-05T04:13:06.357057+00:00",
+  "claimed_at": "2026-03-05T04:13:04.714712+00:00",
+  "completed_at": "2026-03-05T04:13:06.357043+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Ken Paxton win the 2026 Texas Republican Primary?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Ken Paxton win the 2026 Texas Republican Primary?",
+    "sources_count": 0
+  },
+  "error": null
+}

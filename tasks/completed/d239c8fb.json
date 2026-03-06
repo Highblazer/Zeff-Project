@@ -1,0 +1,28 @@
+{
+  "id": "d239c8fb",
+  "title": "Polymarket research: Will the position of Supreme Leader of Iran be abolished?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the position of Supreme Leader of Iran be abolished?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T08:59:03.905975+00:00",
+  "updated_at": "2026-03-04T08:59:58.038850+00:00",
+  "claimed_at": "2026-03-04T08:59:56.322220+00:00",
+  "completed_at": "2026-03-04T08:59:58.038834+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the position of Supreme Leader of Iran be abolished?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the position of Supreme Leader of Iran be abolished?",
+    "sources_count": 0
+  },
+  "error": null
+}

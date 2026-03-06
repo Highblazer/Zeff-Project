@@ -1,0 +1,28 @@
+{
+  "id": "e74cf780",
+  "title": "Polymarket research: Will John Cornyn win the 2026 Texas Republican Primary?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will John Cornyn win the 2026 Texas Republican Primary?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T12:52:33.995294+00:00",
+  "updated_at": "2026-03-05T12:53:28.160427+00:00",
+  "claimed_at": "2026-03-05T12:53:26.379400+00:00",
+  "completed_at": "2026-03-05T12:53:28.160411+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will John Cornyn win the 2026 Texas Republican Primary?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will John Cornyn win the 2026 Texas Republican Primary?",
+    "sources_count": 0
+  },
+  "error": null
+}

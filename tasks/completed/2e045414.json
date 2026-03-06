@@ -1,0 +1,28 @@
+{
+  "id": "2e045414",
+  "title": "Polymarket research: Clippers vs. Warriors",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Clippers vs. Warriors",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T03:37:53.678450+00:00",
+  "updated_at": "2026-03-03T03:38:03.294476+00:00",
+  "claimed_at": "2026-03-03T03:38:01.350730+00:00",
+  "completed_at": "2026-03-03T03:38:03.294457+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Clippers vs. Warriors\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Clippers vs. Warriors",
+    "sources_count": 0
+  },
+  "error": null
+}

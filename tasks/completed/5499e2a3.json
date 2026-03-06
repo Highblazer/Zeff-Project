@@ -1,0 +1,28 @@
+{
+  "id": "5499e2a3",
+  "title": "Polymarket research: Trail Blazers vs. Grizzlies: O/U 235.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Trail Blazers vs. Grizzlies: O/U 235.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T02:10:28.169869+00:00",
+  "updated_at": "2026-03-05T02:11:13.205817+00:00",
+  "claimed_at": "2026-03-05T02:11:11.621907+00:00",
+  "completed_at": "2026-03-05T02:11:13.205804+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Trail Blazers vs. Grizzlies: O/U 235.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Trail Blazers vs. Grizzlies: O/U 235.5",
+    "sources_count": 0
+  },
+  "error": null
+}

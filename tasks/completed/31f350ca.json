@@ -1,0 +1,28 @@
+{
+  "id": "31f350ca",
+  "title": "Polymarket research: Spurs vs. 76ers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spurs vs. 76ers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T20:27:18.151793+00:00",
+  "updated_at": "2026-03-03T20:28:16.785171+00:00",
+  "claimed_at": "2026-03-03T20:28:15.166847+00:00",
+  "completed_at": "2026-03-03T20:28:16.785156+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spurs vs. 76ers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spurs vs. 76ers",
+    "sources_count": 0
+  },
+  "error": null
+}

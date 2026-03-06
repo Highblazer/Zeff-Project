@@ -1,0 +1,28 @@
+{
+  "id": "174fd979",
+  "title": "Polymarket research: GTA VI released before June 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "GTA VI released before June 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T22:17:36.060656+00:00",
+  "updated_at": "2026-03-03T22:18:03.150204+00:00",
+  "claimed_at": "2026-03-03T22:18:01.420044+00:00",
+  "completed_at": "2026-03-03T22:18:03.150187+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: GTA VI released before June 2026?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "GTA VI released before June 2026?",
+    "sources_count": 0
+  },
+  "error": null
+}

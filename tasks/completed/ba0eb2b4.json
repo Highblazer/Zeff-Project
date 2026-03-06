@@ -1,0 +1,28 @@
+{
+  "id": "ba0eb2b4",
+  "title": "Polymarket research: Will Iran close the Strait of Hormuz by June 30?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Iran close the Strait of Hormuz by June 30?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T02:00:54.892708+00:00",
+  "updated_at": "2026-03-04T02:01:27.939372+00:00",
+  "claimed_at": "2026-03-04T02:01:26.267717+00:00",
+  "completed_at": "2026-03-04T02:01:27.939359+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Iran close the Strait of Hormuz by June 30?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Iran close the Strait of Hormuz by June 30?",
+    "sources_count": 0
+  },
+  "error": null
+}

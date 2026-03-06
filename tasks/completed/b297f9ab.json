@@ -1,0 +1,28 @@
+{
+  "id": "b297f9ab",
+  "title": "Polymarket research: Hornets vs. Celtics",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Hornets vs. Celtics",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T04:03:40.338165+00:00",
+  "updated_at": "2026-03-05T04:04:20.494841+00:00",
+  "claimed_at": "2026-03-05T04:04:18.924151+00:00",
+  "completed_at": "2026-03-05T04:04:20.494825+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Hornets vs. Celtics\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Hornets vs. Celtics",
+    "sources_count": 0
+  },
+  "error": null
+}

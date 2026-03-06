@@ -1,0 +1,28 @@
+{
+  "id": "62318dce",
+  "title": "Polymarket research: Counter-Strike: paiN vs Passion UA (BO3) - ESL Pro League Stage 1",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: paiN vs Passion UA (BO3) - ESL Pro League Stage 1",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T22:17:36.339406+00:00",
+  "updated_at": "2026-03-03T22:18:08.325084+00:00",
+  "claimed_at": "2026-03-03T22:18:07.277383+00:00",
+  "completed_at": "2026-03-03T22:18:08.325065+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: paiN vs Passion UA (BO3) - ESL Pro League Stage 1\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: paiN vs Passion UA (BO3) - ESL Pro League Stage 1",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a85449b7",
+  "title": "Polymarket research: Pacers vs. Clippers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pacers vs. Clippers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T06:58:36.685548+00:00",
+  "updated_at": "2026-03-05T06:59:51.805585+00:00",
+  "claimed_at": "2026-03-05T06:59:50.239844+00:00",
+  "completed_at": "2026-03-05T06:59:51.805532+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pacers vs. Clippers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Pacers vs. Clippers",
+    "sources_count": 0
+  },
+  "error": null
+}

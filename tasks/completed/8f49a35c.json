@@ -1,0 +1,28 @@
+{
+  "id": "8f49a35c",
+  "title": "Polymarket research: Wizards vs. Magic: O/U 228.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Wizards vs. Magic: O/U 228.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T03:48:41.276719+00:00",
+  "updated_at": "2026-03-04T03:49:30.672606+00:00",
+  "claimed_at": "2026-03-04T03:49:29.673385+00:00",
+  "completed_at": "2026-03-04T03:49:30.672591+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Wizards vs. Magic: O/U 228.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Wizards vs. Magic: O/U 228.5",
+    "sources_count": 0
+  },
+  "error": null
+}

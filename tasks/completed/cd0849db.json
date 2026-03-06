@@ -1,0 +1,28 @@
+{
+  "id": "cd0849db",
+  "title": "Polymarket research: Valorant: Team Liquid vs Gentle Mates (BO3) - VCT Masters Santiago Group Stage",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Valorant: Team Liquid vs Gentle Mates (BO3) - VCT Masters Santiago Group Stage",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T01:23:25.145061+00:00",
+  "updated_at": "2026-03-03T01:23:42.458520+00:00",
+  "claimed_at": "2026-03-03T01:23:41.388617+00:00",
+  "completed_at": "2026-03-03T01:23:42.458480+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Valorant: Team Liquid vs Gentle Mates (BO3) - VCT Masters Santiago Group Stage\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Valorant: Team Liquid vs Gentle Mates (BO3) - VCT Masters Santiago Group Stage",
+    "sources_count": 0
+  },
+  "error": null
+}

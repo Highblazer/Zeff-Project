@@ -1,0 +1,28 @@
+{
+  "id": "5e924e62",
+  "title": "Polymarket research: Will Iran close the Strait of Hormuz before 2027?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Iran close the Strait of Hormuz before 2027?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T06:53:14.054579+00:00",
+  "updated_at": "2026-03-04T06:53:29.988285+00:00",
+  "claimed_at": "2026-03-04T06:53:28.370790+00:00",
+  "completed_at": "2026-03-04T06:53:29.988272+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Iran close the Strait of Hormuz before 2027?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Iran close the Strait of Hormuz before 2027?",
+    "sources_count": 0
+  },
+  "error": null
+}

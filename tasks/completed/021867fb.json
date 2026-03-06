@@ -1,0 +1,28 @@
+{
+  "id": "021867fb",
+  "title": "Polymarket research: Will Ethereum reach $2,200 in March?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Ethereum reach $2,200 in March?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T04:03:40.606436+00:00",
+  "updated_at": "2026-03-05T04:04:25.617099+00:00",
+  "claimed_at": "2026-03-05T04:04:23.984623+00:00",
+  "completed_at": "2026-03-05T04:04:25.617082+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Ethereum reach $2,200 in March?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Ethereum reach $2,200 in March?",
+    "sources_count": 0
+  },
+  "error": null
+}

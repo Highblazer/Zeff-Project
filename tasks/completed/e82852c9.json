@@ -1,0 +1,28 @@
+{
+  "id": "e82852c9",
+  "title": "Polymarket research: LoL: Galions Sharks vs French Flair - Game 1 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Galions Sharks vs French Flair - Game 1 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T19:54:34.754395+00:00",
+  "updated_at": "2026-03-05T19:55:36.371128+00:00",
+  "claimed_at": "2026-03-05T19:55:35.296048+00:00",
+  "completed_at": "2026-03-05T19:55:36.371116+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Galions Sharks vs French Flair - Game 1 Winner\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: Galions Sharks vs French Flair - Game 1 Winner",
+    "sources_count": 0
+  },
+  "error": null
+}

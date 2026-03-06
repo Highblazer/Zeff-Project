@@ -1,0 +1,28 @@
+{
+  "id": "4aa7c630",
+  "title": "Polymarket research: Will US or Israel strike Iran on March 4, 2026?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will US or Israel strike Iran on March 4, 2026?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T12:15:47.922620+00:00",
+  "updated_at": "2026-03-04T12:16:15.077210+00:00",
+  "claimed_at": "2026-03-04T12:16:13.359667+00:00",
+  "completed_at": "2026-03-04T12:16:15.077195+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will US or Israel strike Iran on March 4, 2026?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will US or Israel strike Iran on March 4, 2026?",
+    "sources_count": 0
+  },
+  "error": null
+}

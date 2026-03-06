@@ -1,0 +1,28 @@
+{
+  "id": "b69b61fd",
+  "title": "Polymarket research: Counter-Strike: G2 vs Legacy (BO3) - ESL Pro League Stage 1",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: G2 vs Legacy (BO3) - ESL Pro League Stage 1",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T01:05:03.717042+00:00",
+  "updated_at": "2026-03-03T01:05:11.360025+00:00",
+  "claimed_at": "2026-03-03T01:05:09.763379+00:00",
+  "completed_at": "2026-03-03T01:05:11.360009+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: G2 vs Legacy (BO3) - ESL Pro League Stage 1\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: G2 vs Legacy (BO3) - ESL Pro League Stage 1",
+    "sources_count": 0
+  },
+  "error": null
+}

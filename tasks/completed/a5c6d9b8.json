@@ -1,0 +1,28 @@
+{
+  "id": "a5c6d9b8",
+  "title": "Polymarket research: Will Valtteri Bottas be the 2026 F1 Drivers' Champion?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Valtteri Bottas be the 2026 F1 Drivers' Champion?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T06:58:36.604556+00:00",
+  "updated_at": "2026-03-05T06:59:50.235240+00:00",
+  "claimed_at": "2026-03-05T06:59:48.648156+00:00",
+  "completed_at": "2026-03-05T06:59:50.235222+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Valtteri Bottas be the 2026 F1 Drivers' Champion?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Valtteri Bottas be the 2026 F1 Drivers' Champion?",
+    "sources_count": 0
+  },
+  "error": null
+}

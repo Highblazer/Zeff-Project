@@ -1,0 +1,28 @@
+{
+  "id": "c02024e1",
+  "title": "Polymarket research: Will Erika Kirk win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Erika Kirk win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T14:00:21.315132+00:00",
+  "updated_at": "2026-03-04T14:01:55.581102+00:00",
+  "claimed_at": "2026-03-04T14:01:54.010772+00:00",
+  "completed_at": "2026-03-04T14:01:55.581086+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Erika Kirk win the 2028 Republican presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Erika Kirk win the 2028 Republican presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

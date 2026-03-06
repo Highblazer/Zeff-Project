@@ -1,0 +1,28 @@
+{
+  "id": "b5b11df0",
+  "title": "Polymarket research: Will Wes Moore win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Wes Moore win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T02:04:18.204546+00:00",
+  "updated_at": "2026-03-05T02:04:57.668076+00:00",
+  "claimed_at": "2026-03-05T02:04:55.967154+00:00",
+  "completed_at": "2026-03-05T02:04:57.668061+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Wes Moore win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Wes Moore win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

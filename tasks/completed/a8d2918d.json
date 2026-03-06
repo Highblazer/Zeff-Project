@@ -1,0 +1,28 @@
+{
+  "id": "a8d2918d",
+  "title": "Polymarket research: Rockets vs. Wizards",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Rockets vs. Wizards",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T03:01:13.256360+00:00",
+  "updated_at": "2026-03-03T03:01:27.391080+00:00",
+  "claimed_at": "2026-03-03T03:01:25.772348+00:00",
+  "completed_at": "2026-03-03T03:01:27.391060+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Rockets vs. Wizards\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Rockets vs. Wizards",
+    "sources_count": 0
+  },
+  "error": null
+}

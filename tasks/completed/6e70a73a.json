@@ -1,0 +1,28 @@
+{
+  "id": "6e70a73a",
+  "title": "Polymarket research: Will David Belliard win the Paris mayor election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will David Belliard win the Paris mayor election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T00:14:45.913351+00:00",
+  "updated_at": "2026-03-06T00:14:56.824590+00:00",
+  "claimed_at": "2026-03-06T00:14:55.110974+00:00",
+  "completed_at": "2026-03-06T00:14:56.824573+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will David Belliard win the Paris mayor election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will David Belliard win the Paris mayor election?",
+    "sources_count": 0
+  },
+  "error": null
+}

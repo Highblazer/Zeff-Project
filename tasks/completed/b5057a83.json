@@ -1,0 +1,28 @@
+{
+  "id": "b5057a83",
+  "title": "Polymarket research: Jazz vs. Wizards",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Jazz vs. Wizards",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T22:21:28.368102+00:00",
+  "updated_at": "2026-03-05T22:22:00.608953+00:00",
+  "claimed_at": "2026-03-05T22:21:58.957107+00:00",
+  "completed_at": "2026-03-05T22:22:00.608939+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Jazz vs. Wizards\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Jazz vs. Wizards",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f40e3dda",
+  "title": "Polymarket research: Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T03:45:20.248534+00:00",
+  "updated_at": "2026-03-05T03:46:38.804239+00:00",
+  "claimed_at": "2026-03-05T03:46:37.201454+00:00",
+  "completed_at": "2026-03-05T03:46:38.804213+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Raphael Warnock win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

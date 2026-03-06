@@ -1,0 +1,28 @@
+{
+  "id": "819e82fe",
+  "title": "Polymarket research: Will Qatar strike Iran by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Qatar strike Iran by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T14:37:05.608605+00:00",
+  "updated_at": "2026-03-04T14:38:05.134414+00:00",
+  "claimed_at": "2026-03-04T14:38:02.991911+00:00",
+  "completed_at": "2026-03-04T14:38:05.134396+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Qatar strike Iran by March 31?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Qatar strike Iran by March 31?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c40cce6e",
+  "title": "central bank surprise decisions March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "central bank surprise decisions March 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-03T11:55:55.977900+00:00",
+  "updated_at": "2026-03-03T11:55:57.652952+00:00",
+  "claimed_at": "2026-03-03T11:55:55.981913+00:00",
+  "completed_at": "2026-03-03T11:55:57.652939+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: central bank surprise decisions March 2026\n\nFindings (0):\n",
+    "findings": [],
+    "query": "central bank surprise decisions March 2026",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

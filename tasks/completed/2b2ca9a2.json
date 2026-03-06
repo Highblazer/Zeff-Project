@@ -1,0 +1,28 @@
+{
+  "id": "2b2ca9a2",
+  "title": "Polymarket research: Will Jordan win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Jordan win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T15:07:13.189809+00:00",
+  "updated_at": "2026-03-03T15:08:28.792417+00:00",
+  "claimed_at": "2026-03-03T15:08:27.009477+00:00",
+  "completed_at": "2026-03-03T15:08:28.792401+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Jordan win the 2026 FIFA World Cup?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Jordan win the 2026 FIFA World Cup?",
+    "sources_count": 0
+  },
+  "error": null
+}

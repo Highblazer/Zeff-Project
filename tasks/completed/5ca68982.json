@@ -1,0 +1,28 @@
+{
+  "id": "5ca68982",
+  "title": "Polymarket research: Will Haiti win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Haiti win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T01:47:51.663861+00:00",
+  "updated_at": "2026-03-03T01:48:56.621149+00:00",
+  "claimed_at": "2026-03-03T01:48:54.933313+00:00",
+  "completed_at": "2026-03-03T01:48:56.621133+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Haiti win the 2026 FIFA World Cup?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Haiti win the 2026 FIFA World Cup?",
+    "sources_count": 0
+  },
+  "error": null
+}

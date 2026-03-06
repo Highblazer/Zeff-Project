@@ -1,0 +1,28 @@
+{
+  "id": "42501149",
+  "title": "Polymarket research: LoL: Eintracht Spandau vs Berlin International Gaming (BO5) - Prime League 1st D",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Eintracht Spandau vs Berlin International Gaming (BO5) - Prime League 1st Division Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T01:42:52.638144+00:00",
+  "updated_at": "2026-03-05T01:43:17.814684+00:00",
+  "claimed_at": "2026-03-05T01:43:16.158559+00:00",
+  "completed_at": "2026-03-05T01:43:17.814672+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Eintracht Spandau vs Berlin International Gaming (BO5) - Prime League 1st Division Playoffs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: Eintracht Spandau vs Berlin International Gaming (BO5) - Prime League 1st Division Playoffs",
+    "sources_count": 0
+  },
+  "error": null
+}

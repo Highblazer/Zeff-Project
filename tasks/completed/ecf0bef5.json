@@ -1,0 +1,28 @@
+{
+  "id": "ecf0bef5",
+  "title": "Polymarket research: Lightning vs. Wild",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Lightning vs. Wild",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T05:15:04.188387+00:00",
+  "updated_at": "2026-03-04T05:16:35.261840+00:00",
+  "claimed_at": "2026-03-04T05:16:33.700390+00:00",
+  "completed_at": "2026-03-04T05:16:35.261823+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Lightning vs. Wild\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Lightning vs. Wild",
+    "sources_count": 0
+  },
+  "error": null
+}

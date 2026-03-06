@@ -1,0 +1,28 @@
+{
+  "id": "b879301c",
+  "title": "Polymarket research: Will Nottingham Forest FC win on 2026-03-04?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Nottingham Forest FC win on 2026-03-04?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T19:47:03.811693+00:00",
+  "updated_at": "2026-03-04T19:47:38.478825+00:00",
+  "claimed_at": "2026-03-04T19:47:36.446771+00:00",
+  "completed_at": "2026-03-04T19:47:38.478812+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Nottingham Forest FC win on 2026-03-04?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Nottingham Forest FC win on 2026-03-04?",
+    "sources_count": 0
+  },
+  "error": null
+}

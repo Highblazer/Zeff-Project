@@ -1,0 +1,28 @@
+{
+  "id": "88448910",
+  "title": "Polymarket research: Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T13:45:12.294189+00:00",
+  "updated_at": "2026-03-05T13:45:38.673858+00:00",
+  "claimed_at": "2026-03-05T13:45:36.941185+00:00",
+  "completed_at": "2026-03-05T13:45:38.673841+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

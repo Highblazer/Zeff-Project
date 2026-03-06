@@ -1,0 +1,28 @@
+{
+  "id": "2d0db58d",
+  "title": "Polymarket research: Will there be no new Supreme Leader of Iran by June 30?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will there be no new Supreme Leader of Iran by June 30?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T15:32:16.003722+00:00",
+  "updated_at": "2026-03-04T15:33:43.022540+00:00",
+  "claimed_at": "2026-03-04T15:33:41.362741+00:00",
+  "completed_at": "2026-03-04T15:33:43.022522+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will there be no new Supreme Leader of Iran by June 30?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will there be no new Supreme Leader of Iran by June 30?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7a18676b",
+  "title": "Polymarket research: Thunder vs. Knicks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Thunder vs. Knicks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T22:41:55.980203+00:00",
+  "updated_at": "2026-03-04T22:42:18.413173+00:00",
+  "claimed_at": "2026-03-04T22:42:16.878209+00:00",
+  "completed_at": "2026-03-04T22:42:18.413158+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Thunder vs. Knicks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Thunder vs. Knicks",
+    "sources_count": 0
+  },
+  "error": null
+}

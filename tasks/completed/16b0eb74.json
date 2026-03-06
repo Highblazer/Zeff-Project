@@ -1,0 +1,28 @@
+{
+  "id": "16b0eb74",
+  "title": "Polymarket research: Wizards vs. Magic",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Wizards vs. Magic",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T22:08:26.451143+00:00",
+  "updated_at": "2026-03-03T22:09:06.684225+00:00",
+  "claimed_at": "2026-03-03T22:09:04.718322+00:00",
+  "completed_at": "2026-03-03T22:09:06.684206+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Wizards vs. Magic\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Wizards vs. Magic",
+    "sources_count": 0
+  },
+  "error": null
+}

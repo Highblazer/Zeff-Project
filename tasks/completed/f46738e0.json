@@ -1,0 +1,28 @@
+{
+  "id": "f46738e0",
+  "title": "Polymarket research: Will James Talarico be the Democratic nominee for Senate in Texas?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will James Talarico be the Democratic nominee for Senate in Texas?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T22:45:09.173250+00:00",
+  "updated_at": "2026-03-03T22:46:13.560913+00:00",
+  "claimed_at": "2026-03-03T22:46:11.481284+00:00",
+  "completed_at": "2026-03-03T22:46:13.560899+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will James Talarico be the Democratic nominee for Senate in Texas?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will James Talarico be the Democratic nominee for Senate in Texas?",
+    "sources_count": 0
+  },
+  "error": null
+}

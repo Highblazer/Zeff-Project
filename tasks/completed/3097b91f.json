@@ -1,0 +1,28 @@
+{
+  "id": "3097b91f",
+  "title": "Polymarket research: Spread: Magic (-15.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Magic (-15.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T04:16:12.145274+00:00",
+  "updated_at": "2026-03-04T04:17:17.781785+00:00",
+  "claimed_at": "2026-03-04T04:17:16.732704+00:00",
+  "completed_at": "2026-03-04T04:17:17.781771+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Magic (-15.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Magic (-15.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

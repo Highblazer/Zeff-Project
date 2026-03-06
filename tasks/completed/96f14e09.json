@@ -1,0 +1,28 @@
+{
+  "id": "96f14e09",
+  "title": "Polymarket research: Will Newcastle United FC win on 2026-03-04?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Newcastle United FC win on 2026-03-04?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T00:47:44.516095+00:00",
+  "updated_at": "2026-03-05T00:48:06.160575+00:00",
+  "claimed_at": "2026-03-05T00:48:04.518768+00:00",
+  "completed_at": "2026-03-05T00:48:06.160557+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Newcastle United FC win on 2026-03-04?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Newcastle United FC win on 2026-03-04?",
+    "sources_count": 0
+  },
+  "error": null
+}

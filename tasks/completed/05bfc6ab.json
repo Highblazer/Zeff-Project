@@ -1,0 +1,28 @@
+{
+  "id": "05bfc6ab",
+  "title": "Polymarket research: Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T22:21:30.220780+00:00",
+  "updated_at": "2026-03-05T22:23:00.717280+00:00",
+  "claimed_at": "2026-03-05T22:22:59.013962+00:00",
+  "completed_at": "2026-03-05T22:23:00.717264+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Gretchen Whitmer win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

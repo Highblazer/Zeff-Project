@@ -1,0 +1,28 @@
+{
+  "id": "27a20913",
+  "title": "Polymarket research: Will Iran strike Israel on March 3?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Iran strike Israel on March 3?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T02:31:52.055253+00:00",
+  "updated_at": "2026-03-04T02:32:36.947947+00:00",
+  "claimed_at": "2026-03-04T02:32:35.388801+00:00",
+  "completed_at": "2026-03-04T02:32:36.947934+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Iran strike Israel on March 3?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Iran strike Israel on March 3?",
+    "sources_count": 0
+  },
+  "error": null
+}

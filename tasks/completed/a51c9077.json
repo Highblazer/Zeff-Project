@@ -1,0 +1,28 @@
+{
+  "id": "a51c9077",
+  "title": "Polymarket research: Will South Korea win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will South Korea win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T20:05:28.969971+00:00",
+  "updated_at": "2026-03-04T20:05:47.921188+00:00",
+  "claimed_at": "2026-03-04T20:05:46.245919+00:00",
+  "completed_at": "2026-03-04T20:05:47.921173+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will South Korea win the 2026 FIFA World Cup?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will South Korea win the 2026 FIFA World Cup?",
+    "sources_count": 0
+  },
+  "error": null
+}

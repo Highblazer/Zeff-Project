@@ -1,0 +1,28 @@
+{
+  "id": "64593533",
+  "title": "Polymarket research: Will Liz Cheney win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Liz Cheney win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T23:25:44.157033+00:00",
+  "updated_at": "2026-03-05T23:27:23.176937+00:00",
+  "claimed_at": "2026-03-05T23:27:21.449850+00:00",
+  "completed_at": "2026-03-05T23:27:23.176926+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Liz Cheney win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Liz Cheney win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

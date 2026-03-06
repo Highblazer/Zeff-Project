@@ -1,0 +1,28 @@
+{
+  "id": "ce86f8d2",
+  "title": "Polymarket research: Will Ron DeSantis win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Ron DeSantis win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T20:06:50.444748+00:00",
+  "updated_at": "2026-03-05T20:07:06.589667+00:00",
+  "claimed_at": "2026-03-05T20:07:04.813714+00:00",
+  "completed_at": "2026-03-05T20:07:06.589649+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Ron DeSantis win the 2028 US Presidential Election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Ron DeSantis win the 2028 US Presidential Election?",
+    "sources_count": 0
+  },
+  "error": null
+}

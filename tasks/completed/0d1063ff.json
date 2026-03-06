@@ -1,0 +1,28 @@
+{
+  "id": "0d1063ff",
+  "title": "Polymarket research: Pelicans vs. Lakers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pelicans vs. Lakers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T06:10:08.456854+00:00",
+  "updated_at": "2026-03-04T06:11:01.844982+00:00",
+  "claimed_at": "2026-03-04T06:11:00.250758+00:00",
+  "completed_at": "2026-03-04T06:11:01.844966+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pelicans vs. Lakers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Pelicans vs. Lakers",
+    "sources_count": 0
+  },
+  "error": null
+}

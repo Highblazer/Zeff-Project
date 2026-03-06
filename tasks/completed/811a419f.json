@@ -1,0 +1,28 @@
+{
+  "id": "811a419f",
+  "title": "Polymarket research: US x Iran ceasefire by March 15?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "US x Iran ceasefire by March 15?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T18:02:49.143673+00:00",
+  "updated_at": "2026-03-04T18:03:26.345540+00:00",
+  "claimed_at": "2026-03-04T18:03:23.768384+00:00",
+  "completed_at": "2026-03-04T18:03:26.345521+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: US x Iran ceasefire by March 15?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "US x Iran ceasefire by March 15?",
+    "sources_count": 0
+  },
+  "error": null
+}

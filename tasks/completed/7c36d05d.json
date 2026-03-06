@@ -1,0 +1,28 @@
+{
+  "id": "7c36d05d",
+  "title": "Polymarket research: Will Manchester City win the 2025\u201326 English Premier League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Manchester City win the 2025\u201326 English Premier League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T21:08:04.286980+00:00",
+  "updated_at": "2026-03-05T21:09:29.257093+00:00",
+  "claimed_at": "2026-03-05T21:09:27.516395+00:00",
+  "completed_at": "2026-03-05T21:09:29.257078+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Manchester City win the 2025\u201326 English Premier League?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Manchester City win the 2025\u201326 English Premier League?",
+    "sources_count": 0
+  },
+  "error": null
+}

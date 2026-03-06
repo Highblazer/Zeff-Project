@@ -1,0 +1,28 @@
+{
+  "id": "a70d4b9e",
+  "title": "latest LLM model releases March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "latest LLM model releases March 2026",
+    "category": "landscape"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-05T09:59:39.838617+00:00",
+  "updated_at": "2026-03-05T09:59:41.542738+00:00",
+  "claimed_at": "2026-03-05T09:59:39.844744+00:00",
+  "completed_at": "2026-03-05T09:59:41.542722+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: latest LLM model releases March 2026\n\nFindings (0):\n",
+    "findings": [],
+    "query": "latest LLM model releases March 2026",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

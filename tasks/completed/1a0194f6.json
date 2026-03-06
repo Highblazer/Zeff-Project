@@ -1,0 +1,28 @@
+{
+  "id": "1a0194f6",
+  "title": "Polymarket research: Will Alireza Arafi be the next Supreme Leader of Iran?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Alireza Arafi be the next Supreme Leader of Iran?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T21:59:16.350756+00:00",
+  "updated_at": "2026-03-03T21:59:58.646528+00:00",
+  "claimed_at": "2026-03-03T21:59:56.975843+00:00",
+  "completed_at": "2026-03-03T21:59:58.646476+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Alireza Arafi be the next Supreme Leader of Iran?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Alireza Arafi be the next Supreme Leader of Iran?",
+    "sources_count": 0
+  },
+  "error": null
+}

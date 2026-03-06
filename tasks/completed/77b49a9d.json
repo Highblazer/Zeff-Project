@@ -1,0 +1,28 @@
+{
+  "id": "77b49a9d",
+  "title": "Polymarket research: Will Fulham FC win on 2026-03-04?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Fulham FC win on 2026-03-04?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T22:51:09.908308+00:00",
+  "updated_at": "2026-03-04T22:52:27.476945+00:00",
+  "claimed_at": "2026-03-04T22:52:25.846277+00:00",
+  "completed_at": "2026-03-04T22:52:27.476928+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Fulham FC win on 2026-03-04?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Fulham FC win on 2026-03-04?",
+    "sources_count": 0
+  },
+  "error": null
+}

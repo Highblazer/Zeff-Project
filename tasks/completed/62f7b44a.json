@@ -1,0 +1,28 @@
+{
+  "id": "62f7b44a",
+  "title": "Polymarket research: Will Saudi Arabia strike Iran by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Saudi Arabia strike Iran by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T07:36:17.285155+00:00",
+  "updated_at": "2026-03-04T07:37:25.536027+00:00",
+  "claimed_at": "2026-03-04T07:37:23.733053+00:00",
+  "completed_at": "2026-03-04T07:37:25.536012+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Saudi Arabia strike Iran by March 31?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Saudi Arabia strike Iran by March 31?",
+    "sources_count": 0
+  },
+  "error": null
+}

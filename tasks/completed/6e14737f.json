@@ -1,0 +1,28 @@
+{
+  "id": "6e14737f",
+  "title": "Polymarket research: Valorant: G2 Esports vs T1 (BO3) - VCT Masters Santiago Group Stage",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Valorant: G2 Esports vs T1 (BO3) - VCT Masters Santiago Group Stage",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T01:52:03.730566+00:00",
+  "updated_at": "2026-03-05T01:52:28.627154+00:00",
+  "claimed_at": "2026-03-05T01:52:27.588680+00:00",
+  "completed_at": "2026-03-05T01:52:28.627141+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Valorant: G2 Esports vs T1 (BO3) - VCT Masters Santiago Group Stage\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Valorant: G2 Esports vs T1 (BO3) - VCT Masters Santiago Group Stage",
+    "sources_count": 0
+  },
+  "error": null
+}

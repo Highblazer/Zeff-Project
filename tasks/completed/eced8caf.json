@@ -1,0 +1,28 @@
+{
+  "id": "eced8caf",
+  "title": "Polymarket research: Golden Knights vs. Red Wings",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Golden Knights vs. Red Wings",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T02:44:06.897682+00:00",
+  "updated_at": "2026-03-05T02:44:24.613039+00:00",
+  "claimed_at": "2026-03-05T02:44:22.984671+00:00",
+  "completed_at": "2026-03-05T02:44:24.613024+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Golden Knights vs. Red Wings\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Golden Knights vs. Red Wings",
+    "sources_count": 0
+  },
+  "error": null
+}

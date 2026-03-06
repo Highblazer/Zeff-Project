@@ -1,0 +1,28 @@
+{
+  "id": "3f5436b8",
+  "title": "Polymarket research: Suns vs. Kings",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Suns vs. Kings",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T04:56:40.525717+00:00",
+  "updated_at": "2026-03-04T04:57:56.145790+00:00",
+  "claimed_at": "2026-03-04T04:57:54.581849+00:00",
+  "completed_at": "2026-03-04T04:57:56.145776+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Suns vs. Kings\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Suns vs. Kings",
+    "sources_count": 0
+  },
+  "error": null
+}

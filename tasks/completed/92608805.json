@@ -1,0 +1,28 @@
+{
+  "id": "92608805",
+  "title": "Polymarket research: Bulls vs. Suns",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bulls vs. Suns",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T22:03:10.181287+00:00",
+  "updated_at": "2026-03-05T22:04:50.558135+00:00",
+  "claimed_at": "2026-03-05T22:04:48.997330+00:00",
+  "completed_at": "2026-03-05T22:04:50.558119+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bulls vs. Suns\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Bulls vs. Suns",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9413b52a",
+  "title": "Polymarket research: Counter-Strike: Heroic vs Passion UA (BO3) - ESL Pro League Stage 1",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: Heroic vs Passion UA (BO3) - ESL Pro League Stage 1",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T18:15:05.257842+00:00",
+  "updated_at": "2026-03-04T18:15:23.115255+00:00",
+  "claimed_at": "2026-03-04T18:15:22.037910+00:00",
+  "completed_at": "2026-03-04T18:15:23.115244+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: Heroic vs Passion UA (BO3) - ESL Pro League Stage 1\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: Heroic vs Passion UA (BO3) - ESL Pro League Stage 1",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9ab22310",
+  "title": "Polymarket research: GPT-5.4 released by March 5?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "GPT-5.4 released by March 5?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T20:03:45.261607+00:00",
+  "updated_at": "2026-03-05T20:04:39.307434+00:00",
+  "claimed_at": "2026-03-05T20:04:37.618213+00:00",
+  "completed_at": "2026-03-05T20:04:39.307415+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: GPT-5.4 released by March 5?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "GPT-5.4 released by March 5?",
+    "sources_count": 0
+  },
+  "error": null
+}

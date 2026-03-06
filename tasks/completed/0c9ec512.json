@@ -1,0 +1,28 @@
+{
+  "id": "0c9ec512",
+  "title": "Polymarket research: Will Jasmine Crockett be the Democratic nominee for Senate in Texas?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Jasmine Crockett be the Democratic nominee for Senate in Texas?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T03:21:12.149187+00:00",
+  "updated_at": "2026-03-04T03:22:31.214407+00:00",
+  "claimed_at": "2026-03-04T03:22:29.495936+00:00",
+  "completed_at": "2026-03-04T03:22:31.214389+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Jasmine Crockett be the Democratic nominee for Senate in Texas?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Jasmine Crockett be the Democratic nominee for Senate in Texas?",
+    "sources_count": 0
+  },
+  "error": null
+}

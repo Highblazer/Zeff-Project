@@ -1,0 +1,28 @@
+{
+  "id": "bca5b699",
+  "title": "Polymarket research: Trump out as President by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Trump out as President by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T00:29:23.005660+00:00",
+  "updated_at": "2026-03-05T00:29:57.040725+00:00",
+  "claimed_at": "2026-03-05T00:29:55.388415+00:00",
+  "completed_at": "2026-03-05T00:29:57.040705+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Trump out as President by March 31?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Trump out as President by March 31?",
+    "sources_count": 0
+  },
+  "error": null
+}

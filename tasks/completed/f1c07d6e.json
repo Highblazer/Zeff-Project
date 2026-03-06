@@ -1,0 +1,28 @@
+{
+  "id": "f1c07d6e",
+  "title": "Polymarket research: Will Jon Ossoff win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Jon Ossoff win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T05:44:54.870703+00:00",
+  "updated_at": "2026-03-05T05:46:33.781866+00:00",
+  "claimed_at": "2026-03-05T05:46:32.065317+00:00",
+  "completed_at": "2026-03-05T05:46:33.781854+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Jon Ossoff win the 2028 US Presidential Election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Jon Ossoff win the 2028 US Presidential Election?",
+    "sources_count": 0
+  },
+  "error": null
+}

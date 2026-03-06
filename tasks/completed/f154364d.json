@@ -1,0 +1,28 @@
+{
+  "id": "f154364d",
+  "title": "Polymarket research: Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T09:08:46.445058+00:00",
+  "updated_at": "2026-03-03T09:08:59.894577+00:00",
+  "claimed_at": "2026-03-03T09:08:58.141900+00:00",
+  "completed_at": "2026-03-03T09:08:59.894560+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

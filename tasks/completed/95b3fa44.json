@@ -1,0 +1,28 @@
+{
+  "id": "95b3fa44",
+  "title": "Polymarket research: Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T15:04:38.152588+00:00",
+  "updated_at": "2026-03-04T15:05:21.430021+00:00",
+  "claimed_at": "2026-03-04T15:05:19.558388+00:00",
+  "completed_at": "2026-03-04T15:05:21.430007+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Pete Buttigieg win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

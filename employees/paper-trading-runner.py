@@ -915,11 +915,12 @@ def get_advanced_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias, depth_an
     total_sell = vp_score + ls_score_sell + vw_score_sell + of_score_sell + news_score_sell
 
     # ── Decision ──
-    # Entry: score >= 7 with LS >= 2, VP >= 1, OF >= 1
+    # Entry: score >= 7 with LS >= 2, VP >= 1, OF >= 1 (OF waived if no depth data)
     # News contradiction = hard block
+    has_depth = bool(depth_analysis and any(s in depth_analysis for s in [symbol]))
 
     if total_buy >= 7 and total_buy >= total_sell:
-        if ls_score_buy >= 2 and vp_score >= 1 and of_score_buy >= 1:
+        if ls_score_buy >= 2 and vp_score >= 1 and (of_score_buy >= 1 or not has_depth):
             if news_buy < 0:
                 layers = {'vp': vp_score, 'ls': ls_score_buy, 'vw': vw_score_buy,
                           'of': of_score_buy, 'news': 0}
@@ -936,7 +937,7 @@ def get_advanced_signal(symbol, price, tf_15m, tf_5m, tf_1m, news_bias, depth_an
             return 'BUY', reason, total_buy, layers
 
     if total_sell >= 7 and total_sell > total_buy:
-        if ls_score_sell >= 2 and vp_score >= 1 and of_score_sell >= 1:
+        if ls_score_sell >= 2 and vp_score >= 1 and (of_score_sell >= 1 or not has_depth):
             if news_sell < 0:
                 layers = {'vp': vp_score, 'ls': ls_score_sell, 'vw': vw_score_sell,
                           'of': of_score_sell, 'news': 0}

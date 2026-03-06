@@ -1,0 +1,28 @@
+{
+  "id": "ea8026bd",
+  "title": "Polymarket research: Grizzlies vs. Timberwolves",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Grizzlies vs. Timberwolves",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T04:25:20.974715+00:00",
+  "updated_at": "2026-03-04T04:25:39.754967+00:00",
+  "claimed_at": "2026-03-04T04:25:37.775793+00:00",
+  "completed_at": "2026-03-04T04:25:39.754949+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Grizzlies vs. Timberwolves\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Grizzlies vs. Timberwolves",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4ea14df2",
+  "title": "Polymarket research: Will Trump say \"Waste\" this week? (March 1)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump say \"Waste\" this week? (March 1)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T12:52:45.774930+00:00",
+  "updated_at": "2026-03-04T12:53:36.160339+00:00",
+  "claimed_at": "2026-03-04T12:53:35.171217+00:00",
+  "completed_at": "2026-03-04T12:53:36.160321+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump say \"Waste\" this week? (March 1)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Trump say \"Waste\" this week? (March 1)",
+    "sources_count": 0
+  },
+  "error": null
+}

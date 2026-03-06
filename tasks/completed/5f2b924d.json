@@ -1,0 +1,28 @@
+{
+  "id": "5f2b924d",
+  "title": "Polymarket research: Celtics vs. Bucks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Celtics vs. Bucks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T02:15:21.058367+00:00",
+  "updated_at": "2026-03-03T02:15:30.741183+00:00",
+  "claimed_at": "2026-03-03T02:15:29.136307+00:00",
+  "completed_at": "2026-03-03T02:15:30.741167+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Celtics vs. Bucks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Celtics vs. Bucks",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "73db06e8",
+  "title": "Polymarket research: Will Ecuador win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Ecuador win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T03:26:57.318583+00:00",
+  "updated_at": "2026-03-05T03:28:05.154748+00:00",
+  "claimed_at": "2026-03-05T03:28:03.480117+00:00",
+  "completed_at": "2026-03-05T03:28:05.154726+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Ecuador win the 2026 FIFA World Cup?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Ecuador win the 2026 FIFA World Cup?",
+    "sources_count": 0
+  },
+  "error": null
+}

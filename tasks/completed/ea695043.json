@@ -1,0 +1,28 @@
+{
+  "id": "ea695043",
+  "title": "Polymarket research: LoL: Cloud9 vs RED Canids (BO5) - Americas Cup Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Cloud9 vs RED Canids (BO5) - Americas Cup Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T00:48:22.531457+00:00",
+  "updated_at": "2026-03-06T00:48:28.689639+00:00",
+  "claimed_at": "2026-03-06T00:48:27.078319+00:00",
+  "completed_at": "2026-03-06T00:48:28.689624+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Cloud9 vs RED Canids (BO5) - Americas Cup Playoffs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: Cloud9 vs RED Canids (BO5) - Americas Cup Playoffs",
+    "sources_count": 0
+  },
+  "error": null
+}

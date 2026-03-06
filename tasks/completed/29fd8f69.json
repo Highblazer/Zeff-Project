@@ -1,0 +1,28 @@
+{
+  "id": "29fd8f69",
+  "title": "Polymarket research: Will FC Lorient win on 2026-03-04?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will FC Lorient win on 2026-03-04?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T00:29:23.132706+00:00",
+  "updated_at": "2026-03-05T00:30:00.530315+00:00",
+  "claimed_at": "2026-03-05T00:29:58.910892+00:00",
+  "completed_at": "2026-03-05T00:30:00.530302+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will FC Lorient win on 2026-03-04?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will FC Lorient win on 2026-03-04?",
+    "sources_count": 0
+  },
+  "error": null
+}

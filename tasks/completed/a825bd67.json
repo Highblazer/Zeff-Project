@@ -1,0 +1,28 @@
+{
+  "id": "a825bd67",
+  "title": "Polymarket research: Will a Gulf State strike Iran by March 7?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will a Gulf State strike Iran by March 7?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T23:40:22.797005+00:00",
+  "updated_at": "2026-03-04T23:40:30.159248+00:00",
+  "claimed_at": "2026-03-04T23:40:28.113609+00:00",
+  "completed_at": "2026-03-04T23:40:30.159220+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will a Gulf State strike Iran by March 7?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will a Gulf State strike Iran by March 7?",
+    "sources_count": 0
+  },
+  "error": null
+}

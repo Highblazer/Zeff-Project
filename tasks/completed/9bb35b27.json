@@ -1,0 +1,28 @@
+{
+  "id": "9bb35b27",
+  "title": "Polymarket research: Will Ali Larijani be the next Supreme Leader of Iran?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Ali Larijani be the next Supreme Leader of Iran?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T20:36:12.453239+00:00",
+  "updated_at": "2026-03-04T20:36:32.728018+00:00",
+  "claimed_at": "2026-03-04T20:36:31.032528+00:00",
+  "completed_at": "2026-03-04T20:36:32.727962+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Ali Larijani be the next Supreme Leader of Iran?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Ali Larijani be the next Supreme Leader of Iran?",
+    "sources_count": 0
+  },
+  "error": null
+}

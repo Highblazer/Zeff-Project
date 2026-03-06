@@ -1,0 +1,28 @@
+{
+  "id": "4f7e09a8",
+  "title": "Polymarket research: Will Liverpool FC win on 2026-03-03?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Liverpool FC win on 2026-03-03?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T00:59:47.470907+00:00",
+  "updated_at": "2026-03-04T01:00:03.523143+00:00",
+  "claimed_at": "2026-03-04T01:00:01.233763+00:00",
+  "completed_at": "2026-03-04T01:00:03.523124+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Liverpool FC win on 2026-03-03?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Liverpool FC win on 2026-03-03?",
+    "sources_count": 0
+  },
+  "error": null
+}

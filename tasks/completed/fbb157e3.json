@@ -1,0 +1,28 @@
+{
+  "id": "fbb157e3",
+  "title": "Polymarket research: Will the Chicago Bulls win the 2026 NBA Finals?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Chicago Bulls win the 2026 NBA Finals?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-03T19:34:51.454560+00:00",
+  "updated_at": "2026-03-03T19:36:04.848903+00:00",
+  "claimed_at": "2026-03-03T19:36:03.020824+00:00",
+  "completed_at": "2026-03-03T19:36:04.848888+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Chicago Bulls win the 2026 NBA Finals?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Chicago Bulls win the 2026 NBA Finals?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9f1f8a2c",
+  "title": "Polymarket research: Will Manchester United FC win on 2026-03-04?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Manchester United FC win on 2026-03-04?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T18:02:51.013929+00:00",
+  "updated_at": "2026-03-04T18:04:17.250251+00:00",
+  "claimed_at": "2026-03-04T18:04:15.553600+00:00",
+  "completed_at": "2026-03-04T18:04:17.250237+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Manchester United FC win on 2026-03-04?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Manchester United FC win on 2026-03-04?",
+    "sources_count": 0
+  },
+  "error": null
+}

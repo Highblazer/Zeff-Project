@@ -1,0 +1,28 @@
+{
+  "id": "6c2bcee5",
+  "title": "Polymarket research: Counter-Strike: 3DMAX vs Liquid - Map 2 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: 3DMAX vs Liquid - Map 2 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-05T20:40:30.458135+00:00",
+  "updated_at": "2026-03-05T20:41:51.794164+00:00",
+  "claimed_at": "2026-03-05T20:41:49.786637+00:00",
+  "completed_at": "2026-03-05T20:41:51.794147+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: 3DMAX vs Liquid - Map 2 Winner\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: 3DMAX vs Liquid - Map 2 Winner",
+    "sources_count": 0
+  },
+  "error": null
+}

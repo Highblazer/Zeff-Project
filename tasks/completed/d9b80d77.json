@@ -1,0 +1,28 @@
+{
+  "id": "d9b80d77",
+  "title": "Polymarket research: Will Club Atl\u00e9tico de Madrid win on 2026-03-03?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Club Atl\u00e9tico de Madrid win on 2026-03-03?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-04T00:29:17.644904+00:00",
+  "updated_at": "2026-03-04T00:29:50.343001+00:00",
+  "claimed_at": "2026-03-04T00:29:48.649166+00:00",
+  "completed_at": "2026-03-04T00:29:50.342988+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Club Atl\u00e9tico de Madrid win on 2026-03-03?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Club Atl\u00e9tico de Madrid win on 2026-03-03?",
+    "sources_count": 0
+  },
+  "error": null
+}
