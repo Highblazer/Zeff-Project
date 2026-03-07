@@ -1,0 +1,28 @@
+{
+  "id": "bacf2815",
+  "title": "Polymarket research: Will SSC Napoli win on 2026-03-06?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will SSC Napoli win on 2026-03-06?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T19:27:13.169736+00:00",
+  "updated_at": "2026-03-06T19:28:10.301583+00:00",
+  "claimed_at": "2026-03-06T19:28:08.601230+00:00",
+  "completed_at": "2026-03-06T19:28:10.301569+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will SSC Napoli win on 2026-03-06?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will SSC Napoli win on 2026-03-06?",
+    "sources_count": 0
+  },
+  "error": null
+}

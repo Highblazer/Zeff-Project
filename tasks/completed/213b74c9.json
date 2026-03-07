@@ -1,0 +1,28 @@
+{
+  "id": "213b74c9",
+  "title": "Polymarket research: Trail Blazers vs. Rockets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Trail Blazers vs. Rockets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T17:15:04.107638+00:00",
+  "updated_at": "2026-03-06T17:16:12.766722+00:00",
+  "claimed_at": "2026-03-06T17:16:10.831698+00:00",
+  "completed_at": "2026-03-06T17:16:12.766705+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Trail Blazers vs. Rockets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Trail Blazers vs. Rockets",
+    "sources_count": 0
+  },
+  "error": null
+}

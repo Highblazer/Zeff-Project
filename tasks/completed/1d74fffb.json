@@ -1,0 +1,28 @@
+{
+  "id": "1d74fffb",
+  "title": "Polymarket research: Will Donald Trump win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Donald Trump win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T10:53:45.039578+00:00",
+  "updated_at": "2026-03-06T10:54:57.727753+00:00",
+  "claimed_at": "2026-03-06T10:54:56.027691+00:00",
+  "completed_at": "2026-03-06T10:54:57.727738+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Donald Trump win the 2028 US Presidential Election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Donald Trump win the 2028 US Presidential Election?",
+    "sources_count": 0
+  },
+  "error": null
+}

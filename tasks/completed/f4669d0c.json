@@ -1,0 +1,28 @@
+{
+  "id": "f4669d0c",
+  "title": "Polymarket research: Spread: Pelicans (-5.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Pelicans (-5.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T05:02:19.767579+00:00",
+  "updated_at": "2026-03-06T05:02:28.036950+00:00",
+  "claimed_at": "2026-03-06T05:02:26.962426+00:00",
+  "completed_at": "2026-03-06T05:02:28.036932+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Pelicans (-5.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Pelicans (-5.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

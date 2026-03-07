@@ -1,0 +1,28 @@
+{
+  "id": "ef089933",
+  "title": "Polymarket research: Senators vs. Flames",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Senators vs. Flames",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T06:01:01.985006+00:00",
+  "updated_at": "2026-03-06T06:01:15.152699+00:00",
+  "claimed_at": "2026-03-06T06:01:13.583909+00:00",
+  "completed_at": "2026-03-06T06:01:15.152682+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Senators vs. Flames\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Senators vs. Flames",
+    "sources_count": 0
+  },
+  "error": null
+}

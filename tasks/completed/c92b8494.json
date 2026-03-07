@@ -1,0 +1,28 @@
+{
+  "id": "c92b8494",
+  "title": "Polymarket research: Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T04:04:12.874778+00:00",
+  "updated_at": "2026-03-06T04:05:24.003116+00:00",
+  "claimed_at": "2026-03-06T04:05:22.370152+00:00",
+  "completed_at": "2026-03-06T04:05:24.003098+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Rahm Emanuel win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

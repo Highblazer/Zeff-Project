@@ -1,0 +1,28 @@
+{
+  "id": "6a3db318",
+  "title": "Polymarket research: Counter-Strike: Aurora Gaming vs Legacy (BO3) - ESL Pro League Stage 2",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: Aurora Gaming vs Legacy (BO3) - ESL Pro League Stage 2",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T19:27:11.100435+00:00",
+  "updated_at": "2026-03-06T19:27:22.302418+00:00",
+  "claimed_at": "2026-03-06T19:27:21.259451+00:00",
+  "completed_at": "2026-03-06T19:27:22.302402+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: Aurora Gaming vs Legacy (BO3) - ESL Pro League Stage 2\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: Aurora Gaming vs Legacy (BO3) - ESL Pro League Stage 2",
+    "sources_count": 0
+  },
+  "error": null
+}

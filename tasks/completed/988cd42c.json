@@ -1,0 +1,28 @@
+{
+  "id": "988cd42c",
+  "title": "Polymarket research: Spread: Spurs (-2.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Spurs (-2.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T04:59:16.464064+00:00",
+  "updated_at": "2026-03-06T05:00:08.071820+00:00",
+  "claimed_at": "2026-03-06T05:00:06.987141+00:00",
+  "completed_at": "2026-03-06T05:00:08.071803+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Spurs (-2.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Spurs (-2.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

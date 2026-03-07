@@ -1,0 +1,28 @@
+{
+  "id": "4533b23d",
+  "title": "Polymarket research: Will Giannis Antetokounmpo win the 2025\u20132026 NBA MVP?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Giannis Antetokounmpo win the 2025\u20132026 NBA MVP?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T19:08:49.875466+00:00",
+  "updated_at": "2026-03-06T19:09:45.216596+00:00",
+  "claimed_at": "2026-03-06T19:09:40.629854+00:00",
+  "completed_at": "2026-03-06T19:09:45.216580+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Giannis Antetokounmpo win the 2025\u20132026 NBA MVP?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Giannis Antetokounmpo win the 2025\u20132026 NBA MVP?",
+    "sources_count": 0
+  },
+  "error": null
+}

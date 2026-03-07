@@ -1,0 +1,28 @@
+{
+  "id": "ebe42197",
+  "title": "Polymarket research: Bitcoin Up or Down - March 6, 7AM ET",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bitcoin Up or Down - March 6, 7AM ET",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T13:24:09.733047+00:00",
+  "updated_at": "2026-03-06T13:25:38.032222+00:00",
+  "claimed_at": "2026-03-06T13:25:36.394306+00:00",
+  "completed_at": "2026-03-06T13:25:38.032205+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bitcoin Up or Down - March 6, 7AM ET\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Bitcoin Up or Down - March 6, 7AM ET",
+    "sources_count": 0
+  },
+  "error": null
+}

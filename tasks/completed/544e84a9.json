@@ -1,0 +1,28 @@
+{
+  "id": "544e84a9",
+  "title": "Polymarket research: Will F1 win Best Picture at the 98th Academy Awards?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will F1 win Best Picture at the 98th Academy Awards?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T09:40:10.012134+00:00",
+  "updated_at": "2026-03-06T09:41:38.235054+00:00",
+  "claimed_at": "2026-03-06T09:41:36.607919+00:00",
+  "completed_at": "2026-03-06T09:41:38.235038+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will F1 win Best Picture at the 98th Academy Awards?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will F1 win Best Picture at the 98th Academy Awards?",
+    "sources_count": 0
+  },
+  "error": null
+}

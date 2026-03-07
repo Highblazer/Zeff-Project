@@ -1,0 +1,28 @@
+{
+  "id": "e6548330",
+  "title": "Polymarket research: Heat vs. Hornets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Heat vs. Hornets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T16:38:02.426154+00:00",
+  "updated_at": "2026-03-06T16:38:51.914186+00:00",
+  "claimed_at": "2026-03-06T16:38:50.161048+00:00",
+  "completed_at": "2026-03-06T16:38:51.914171+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Heat vs. Hornets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Heat vs. Hornets",
+    "sources_count": 0
+  },
+  "error": null
+}

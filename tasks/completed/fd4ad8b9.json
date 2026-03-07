@@ -1,0 +1,28 @@
+{
+  "id": "fd4ad8b9",
+  "title": "Polymarket research: Valorant: Nongshim RedForce vs Gentle Mates (BO3) - VCT Masters Santiago Playoff",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Valorant: Nongshim RedForce vs Gentle Mates (BO3) - VCT Masters Santiago Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T22:18:44.325183+00:00",
+  "updated_at": "2026-03-06T22:19:04.722703+00:00",
+  "claimed_at": "2026-03-06T22:19:03.646161+00:00",
+  "completed_at": "2026-03-06T22:19:04.722685+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Valorant: Nongshim RedForce vs Gentle Mates (BO3) - VCT Masters Santiago Playoffs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Valorant: Nongshim RedForce vs Gentle Mates (BO3) - VCT Masters Santiago Playoffs",
+    "sources_count": 0
+  },
+  "error": null
+}

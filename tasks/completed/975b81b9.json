@@ -1,0 +1,28 @@
+{
+  "id": "975b81b9",
+  "title": "Polymarket research: LoL: FURIA Esports vs Sentinels - Game 3 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: FURIA Esports vs Sentinels - Game 3 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T00:55:05.736475+00:00",
+  "updated_at": "2026-03-07T00:56:11.206440+00:00",
+  "claimed_at": "2026-03-07T00:56:10.152136+00:00",
+  "completed_at": "2026-03-07T00:56:11.206427+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: FURIA Esports vs Sentinels - Game 3 Winner\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: FURIA Esports vs Sentinels - Game 3 Winner",
+    "sources_count": 0
+  },
+  "error": null
+}

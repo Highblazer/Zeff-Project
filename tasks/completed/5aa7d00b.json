@@ -1,0 +1,28 @@
+{
+  "id": "5aa7d00b",
+  "title": "Polymarket research: Pistons vs. Spurs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pistons vs. Spurs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T03:27:12.244540+00:00",
+  "updated_at": "2026-03-06T03:27:36.277777+00:00",
+  "claimed_at": "2026-03-06T03:27:34.586798+00:00",
+  "completed_at": "2026-03-06T03:27:36.277764+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pistons vs. Spurs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Pistons vs. Spurs",
+    "sources_count": 0
+  },
+  "error": null
+}

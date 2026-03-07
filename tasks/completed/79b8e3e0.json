@@ -1,0 +1,28 @@
+{
+  "id": "79b8e3e0",
+  "title": "Polymarket research: Raptors vs. Timberwolves: O/U 225.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Raptors vs. Timberwolves: O/U 225.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T05:45:13.917945+00:00",
+  "updated_at": "2026-03-06T05:46:34.301567+00:00",
+  "claimed_at": "2026-03-06T05:46:33.257272+00:00",
+  "completed_at": "2026-03-06T05:46:34.301554+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Raptors vs. Timberwolves: O/U 225.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Raptors vs. Timberwolves: O/U 225.5",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3a809961",
+  "title": "Polymarket research: Counter-Strike: Spirit vs 3DMAX (BO3) - ESL Pro League Stage 2",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: Spirit vs 3DMAX (BO3) - ESL Pro League Stage 2",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T17:11:58.753860+00:00",
+  "updated_at": "2026-03-06T17:12:26.950419+00:00",
+  "claimed_at": "2026-03-06T17:12:25.883149+00:00",
+  "completed_at": "2026-03-06T17:12:26.950402+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: Spirit vs 3DMAX (BO3) - ESL Pro League Stage 2\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: Spirit vs 3DMAX (BO3) - ESL Pro League Stage 2",
+    "sources_count": 0
+  },
+  "error": null
+}

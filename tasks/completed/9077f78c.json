@@ -1,0 +1,28 @@
+{
+  "id": "9077f78c",
+  "title": "Polymarket research: Lakers vs. Nuggets: O/U 240.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Lakers vs. Nuggets: O/U 240.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T05:45:12.256263+00:00",
+  "updated_at": "2026-03-06T05:45:42.052985+00:00",
+  "claimed_at": "2026-03-06T05:45:41.036293+00:00",
+  "completed_at": "2026-03-06T05:45:42.052967+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Lakers vs. Nuggets: O/U 240.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Lakers vs. Nuggets: O/U 240.5",
+    "sources_count": 0
+  },
+  "error": null
+}

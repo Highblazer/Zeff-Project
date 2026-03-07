@@ -1,0 +1,28 @@
+{
+  "id": "2b2829d7",
+  "title": "Polymarket research: Utah vs. Flyers: O/U 5.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Utah vs. Flyers: O/U 5.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T02:32:13.472033+00:00",
+  "updated_at": "2026-03-06T02:32:47.159483+00:00",
+  "claimed_at": "2026-03-06T02:32:46.130076+00:00",
+  "completed_at": "2026-03-06T02:32:47.159471+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Utah vs. Flyers: O/U 5.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Utah vs. Flyers: O/U 5.5",
+    "sources_count": 0
+  },
+  "error": null
+}

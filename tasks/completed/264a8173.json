@@ -1,0 +1,28 @@
+{
+  "id": "264a8173",
+  "title": "Polymarket research: BNP Paribas Open: Gael Monfils vs Felix Auger-Aliassime",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "BNP Paribas Open: Gael Monfils vs Felix Auger-Aliassime",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T00:48:59.660590+00:00",
+  "updated_at": "2026-03-07T00:49:23.648394+00:00",
+  "claimed_at": "2026-03-07T00:49:22.621942+00:00",
+  "completed_at": "2026-03-07T00:49:23.648376+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: BNP Paribas Open: Gael Monfils vs Felix Auger-Aliassime\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "BNP Paribas Open: Gael Monfils vs Felix Auger-Aliassime",
+    "sources_count": 0
+  },
+  "error": null
+}

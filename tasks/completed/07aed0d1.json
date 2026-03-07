@@ -1,0 +1,28 @@
+{
+  "id": "07aed0d1",
+  "title": "Polymarket research: Will the next Prime Minister of Hungary be Kl\u00e1ra Dobrev?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the next Prime Minister of Hungary be Kl\u00e1ra Dobrev?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T14:28:34.485963+00:00",
+  "updated_at": "2026-03-06T14:29:39.809681+00:00",
+  "claimed_at": "2026-03-06T14:29:38.243363+00:00",
+  "completed_at": "2026-03-06T14:29:39.809666+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the next Prime Minister of Hungary be Kl\u00e1ra Dobrev?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the next Prime Minister of Hungary be Kl\u00e1ra Dobrev?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "015db4af",
+  "title": "Polymarket research: Will FC Bayern M\u00fcnchen win on 2026-03-06?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will FC Bayern M\u00fcnchen win on 2026-03-06?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T03:11:57.543923+00:00",
+  "updated_at": "2026-03-06T03:12:18.605678+00:00",
+  "claimed_at": "2026-03-06T03:12:16.986590+00:00",
+  "completed_at": "2026-03-06T03:12:18.605661+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will FC Bayern M\u00fcnchen win on 2026-03-06?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will FC Bayern M\u00fcnchen win on 2026-03-06?",
+    "sources_count": 0
+  },
+  "error": null
+}

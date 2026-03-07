@@ -1,0 +1,28 @@
+{
+  "id": "0c9f947f",
+  "title": "Polymarket research: Will Byron Donalds win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Byron Donalds win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T23:20:09.479418+00:00",
+  "updated_at": "2026-03-06T23:21:28.156743+00:00",
+  "claimed_at": "2026-03-06T23:21:26.489841+00:00",
+  "completed_at": "2026-03-06T23:21:28.156730+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Byron Donalds win the 2028 Republican presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Byron Donalds win the 2028 Republican presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

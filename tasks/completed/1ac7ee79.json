@@ -1,0 +1,28 @@
+{
+  "id": "1ac7ee79",
+  "title": "Polymarket research: Will Celta Vigo win the 2025\u201326 La Liga?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Celta Vigo win the 2025\u201326 La Liga?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T02:23:04.968663+00:00",
+  "updated_at": "2026-03-06T02:24:08.943752+00:00",
+  "claimed_at": "2026-03-06T02:24:07.315125+00:00",
+  "completed_at": "2026-03-06T02:24:08.943735+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Celta Vigo win the 2025\u201326 La Liga?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Celta Vigo win the 2025\u201326 La Liga?",
+    "sources_count": 0
+  },
+  "error": null
+}

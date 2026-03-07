@@ -1,0 +1,28 @@
+{
+  "id": "3f17c41d",
+  "title": "Polymarket research: Will Real Sociedad win the 2025\u201326 La Liga?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Real Sociedad win the 2025\u201326 La Liga?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T03:36:25.609157+00:00",
+  "updated_at": "2026-03-06T03:37:34.987117+00:00",
+  "claimed_at": "2026-03-06T03:37:33.386710+00:00",
+  "completed_at": "2026-03-06T03:37:34.987104+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Real Sociedad win the 2025\u201326 La Liga?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Real Sociedad win the 2025\u201326 La Liga?",
+    "sources_count": 0
+  },
+  "error": null
+}

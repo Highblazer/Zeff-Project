@@ -1,0 +1,28 @@
+{
+  "id": "fc2f4248",
+  "title": "Polymarket research: Mavericks vs. Magic",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Mavericks vs. Magic",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T04:50:04.549188+00:00",
+  "updated_at": "2026-03-06T04:50:22.559388+00:00",
+  "claimed_at": "2026-03-06T04:50:20.662133+00:00",
+  "completed_at": "2026-03-06T04:50:22.559366+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Mavericks vs. Magic\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Mavericks vs. Magic",
+    "sources_count": 0
+  },
+  "error": null
+}

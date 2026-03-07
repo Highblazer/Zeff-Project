@@ -1,0 +1,28 @@
+{
+  "id": "90e6d732",
+  "title": "Polymarket research: Will Zohran Mamdani win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Zohran Mamdani win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T12:53:18.464216+00:00",
+  "updated_at": "2026-03-06T12:53:57.697864+00:00",
+  "claimed_at": "2026-03-06T12:53:55.943171+00:00",
+  "completed_at": "2026-03-06T12:53:57.697849+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Zohran Mamdani win the 2028 US Presidential Election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Zohran Mamdani win the 2028 US Presidential Election?",
+    "sources_count": 0
+  },
+  "error": null
+}

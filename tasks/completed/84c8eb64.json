@@ -1,0 +1,28 @@
+{
+  "id": "84c8eb64",
+  "title": "Polymarket research: Will the Washington Wizards win the 2026 NBA Finals?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Washington Wizards win the 2026 NBA Finals?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T04:22:34.211342+00:00",
+  "updated_at": "2026-03-06T04:23:55.423155+00:00",
+  "claimed_at": "2026-03-06T04:23:53.782019+00:00",
+  "completed_at": "2026-03-06T04:23:55.423143+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Washington Wizards win the 2026 NBA Finals?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Washington Wizards win the 2026 NBA Finals?",
+    "sources_count": 0
+  },
+  "error": null
+}

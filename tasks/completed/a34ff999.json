@@ -1,0 +1,28 @@
+{
+  "id": "a34ff999",
+  "title": "Polymarket research: Will the price of Bitcoin be above $74,000 on March 6?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the price of Bitcoin be above $74,000 on March 6?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T11:12:10.735584+00:00",
+  "updated_at": "2026-03-06T11:13:24.739753+00:00",
+  "claimed_at": "2026-03-06T11:13:22.806948+00:00",
+  "completed_at": "2026-03-06T11:13:24.739736+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the price of Bitcoin be above $74,000 on March 6?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the price of Bitcoin be above $74,000 on March 6?",
+    "sources_count": 0
+  },
+  "error": null
+}

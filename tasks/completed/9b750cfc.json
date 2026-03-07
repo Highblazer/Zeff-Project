@@ -1,0 +1,28 @@
+{
+  "id": "9b750cfc",
+  "title": "Polymarket research: Will Paris Saint-Germain FC win on 2026-03-06?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Paris Saint-Germain FC win on 2026-03-06?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T20:46:43.195339+00:00",
+  "updated_at": "2026-03-06T20:46:57.636903+00:00",
+  "claimed_at": "2026-03-06T20:46:55.983251+00:00",
+  "completed_at": "2026-03-06T20:46:57.636888+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Paris Saint-Germain FC win on 2026-03-06?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Paris Saint-Germain FC win on 2026-03-06?",
+    "sources_count": 0
+  },
+  "error": null
+}

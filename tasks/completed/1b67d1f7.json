@@ -1,0 +1,28 @@
+{
+  "id": "1b67d1f7",
+  "title": "Polymarket research: Opinion FDV above $500M one day after launch?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Opinion FDV above $500M one day after launch?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T08:52:51.731200+00:00",
+  "updated_at": "2026-03-06T08:53:47.898000+00:00",
+  "claimed_at": "2026-03-06T08:53:46.002426+00:00",
+  "completed_at": "2026-03-06T08:53:47.897984+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Opinion FDV above $500M one day after launch?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Opinion FDV above $500M one day after launch?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8997c3b8",
+  "title": "Polymarket research: Will Real Madrid CF win on 2026-03-07?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Real Madrid CF win on 2026-03-07?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T00:24:21.010897+00:00",
+  "updated_at": "2026-03-07T00:24:27.407115+00:00",
+  "claimed_at": "2026-03-07T00:24:25.741290+00:00",
+  "completed_at": "2026-03-07T00:24:27.407102+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Real Madrid CF win on 2026-03-07?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Real Madrid CF win on 2026-03-07?",
+    "sources_count": 0
+  },
+  "error": null
+}

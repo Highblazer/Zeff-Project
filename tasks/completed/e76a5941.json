@@ -1,0 +1,28 @@
+{
+  "id": "e76a5941",
+  "title": "Polymarket research: Pacers vs. Lakers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pacers vs. Lakers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T12:53:20.290260+00:00",
+  "updated_at": "2026-03-06T12:54:40.276612+00:00",
+  "claimed_at": "2026-03-06T12:54:38.625727+00:00",
+  "completed_at": "2026-03-06T12:54:40.276597+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pacers vs. Lakers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Pacers vs. Lakers",
+    "sources_count": 0
+  },
+  "error": null
+}

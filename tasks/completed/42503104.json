@@ -1,0 +1,28 @@
+{
+  "id": "42503104",
+  "title": "Polymarket research: Drake Bulldogs vs. Southern Illinois Salukis",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Drake Bulldogs vs. Southern Illinois Salukis",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T02:04:44.138679+00:00",
+  "updated_at": "2026-03-06T02:05:45.120418+00:00",
+  "claimed_at": "2026-03-06T02:05:43.454126+00:00",
+  "completed_at": "2026-03-06T02:05:45.120401+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Drake Bulldogs vs. Southern Illinois Salukis\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Drake Bulldogs vs. Southern Illinois Salukis",
+    "sources_count": 0
+  },
+  "error": null
+}

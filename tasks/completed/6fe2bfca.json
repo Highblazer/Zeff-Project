@@ -1,0 +1,28 @@
+{
+  "id": "6fe2bfca",
+  "title": "Polymarket research: Will RC Celta de Vigo vs. Real Madrid CF end in a draw?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will RC Celta de Vigo vs. Real Madrid CF end in a draw?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T22:49:29.780794+00:00",
+  "updated_at": "2026-03-06T22:49:48.016390+00:00",
+  "claimed_at": "2026-03-06T22:49:46.302584+00:00",
+  "completed_at": "2026-03-06T22:49:48.016374+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will RC Celta de Vigo vs. Real Madrid CF end in a draw?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will RC Celta de Vigo vs. Real Madrid CF end in a draw?",
+    "sources_count": 0
+  },
+  "error": null
+}

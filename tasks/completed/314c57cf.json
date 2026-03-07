@@ -1,0 +1,28 @@
+{
+  "id": "314c57cf",
+  "title": "Polymarket research: Warriors vs. Rockets: O/U 214.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Warriors vs. Rockets: O/U 214.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T04:31:43.106147+00:00",
+  "updated_at": "2026-03-06T04:32:18.140138+00:00",
+  "claimed_at": "2026-03-06T04:32:16.585068+00:00",
+  "completed_at": "2026-03-06T04:32:18.140122+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Warriors vs. Rockets: O/U 214.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Warriors vs. Rockets: O/U 214.5",
+    "sources_count": 0
+  },
+  "error": null
+}

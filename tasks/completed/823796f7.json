@@ -1,0 +1,28 @@
+{
+  "id": "823796f7",
+  "title": "Polymarket research: Will Espanyol win the 2025\u201326 La Liga?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Espanyol win the 2025\u201326 La Liga?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T04:04:13.111639+00:00",
+  "updated_at": "2026-03-06T04:05:31.226910+00:00",
+  "claimed_at": "2026-03-06T04:05:29.652225+00:00",
+  "completed_at": "2026-03-06T04:05:31.226892+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Espanyol win the 2025\u201326 La Liga?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Espanyol win the 2025\u201326 La Liga?",
+    "sources_count": 0
+  },
+  "error": null
+}

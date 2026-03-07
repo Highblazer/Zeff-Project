@@ -1,0 +1,28 @@
+{
+  "id": "fed11d48",
+  "title": "breaking forex market news March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "breaking forex market news March 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-06T06:05:48.606712+00:00",
+  "updated_at": "2026-03-06T06:05:50.311587+00:00",
+  "claimed_at": "2026-03-06T06:05:48.612781+00:00",
+  "completed_at": "2026-03-06T06:05:50.311574+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: breaking forex market news March 2026\n\nFindings (0):\n",
+    "findings": [],
+    "query": "breaking forex market news March 2026",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

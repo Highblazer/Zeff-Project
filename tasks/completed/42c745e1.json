@@ -1,0 +1,28 @@
+{
+  "id": "42c745e1",
+  "title": "Polymarket research: Bruins vs. Predators",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bruins vs. Predators",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T02:53:37.077475+00:00",
+  "updated_at": "2026-03-06T02:53:45.839299+00:00",
+  "claimed_at": "2026-03-06T02:53:44.304173+00:00",
+  "completed_at": "2026-03-06T02:53:45.839288+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bruins vs. Predators\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Bruins vs. Predators",
+    "sources_count": 0
+  },
+  "error": null
+}

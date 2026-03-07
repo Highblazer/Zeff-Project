@@ -1,0 +1,28 @@
+{
+  "id": "dcad1d97",
+  "title": "Polymarket research: Lightning vs. Jets: O/U 6.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Lightning vs. Jets: O/U 6.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T02:50:34.079109+00:00",
+  "updated_at": "2026-03-06T02:51:24.480615+00:00",
+  "claimed_at": "2026-03-06T02:51:23.437544+00:00",
+  "completed_at": "2026-03-06T02:51:24.480599+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Lightning vs. Jets: O/U 6.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Lightning vs. Jets: O/U 6.5",
+    "sources_count": 0
+  },
+  "error": null
+}

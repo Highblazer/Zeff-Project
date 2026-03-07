@@ -1,0 +1,28 @@
+{
+  "id": "5a73484a",
+  "title": "Polymarket research: Lakers vs. Nuggets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Lakers vs. Nuggets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T07:17:30.846955+00:00",
+  "updated_at": "2026-03-06T07:17:42.476908+00:00",
+  "claimed_at": "2026-03-06T07:17:40.948225+00:00",
+  "completed_at": "2026-03-06T07:17:42.476890+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Lakers vs. Nuggets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Lakers vs. Nuggets",
+    "sources_count": 0
+  },
+  "error": null
+}

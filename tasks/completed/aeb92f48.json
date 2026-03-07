@@ -1,0 +1,28 @@
+{
+  "id": "aeb92f48",
+  "title": "Polymarket research: BNP Paribas Open: Fabian Marozsan vs Roberto Bautista Agut",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "BNP Paribas Open: Fabian Marozsan vs Roberto Bautista Agut",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T01:49:29.032198+00:00",
+  "updated_at": "2026-03-06T01:49:53.056417+00:00",
+  "claimed_at": "2026-03-06T01:49:51.412174+00:00",
+  "completed_at": "2026-03-06T01:49:53.056400+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: BNP Paribas Open: Fabian Marozsan vs Roberto Bautista Agut\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "BNP Paribas Open: Fabian Marozsan vs Roberto Bautista Agut",
+    "sources_count": 0
+  },
+  "error": null
+}

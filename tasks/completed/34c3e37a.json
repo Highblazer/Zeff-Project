@@ -1,0 +1,28 @@
+{
+  "id": "34c3e37a",
+  "title": "Polymarket research: Panthers vs. Blue Jackets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Panthers vs. Blue Jackets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T03:55:01.141422+00:00",
+  "updated_at": "2026-03-06T03:55:34.133307+00:00",
+  "claimed_at": "2026-03-06T03:55:32.549997+00:00",
+  "completed_at": "2026-03-06T03:55:34.133293+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Panthers vs. Blue Jackets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Panthers vs. Blue Jackets",
+    "sources_count": 0
+  },
+  "error": null
+}

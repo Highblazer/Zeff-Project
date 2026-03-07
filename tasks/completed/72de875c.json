@@ -1,0 +1,28 @@
+{
+  "id": "72de875c",
+  "title": "Polymarket research: BNP Paribas Open: Flavio Cobolli vs Miomir Kecmanovic",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "BNP Paribas Open: Flavio Cobolli vs Miomir Kecmanovic",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T23:10:55.810271+00:00",
+  "updated_at": "2026-03-06T23:11:51.941175+00:00",
+  "claimed_at": "2026-03-06T23:11:50.880038+00:00",
+  "completed_at": "2026-03-06T23:11:51.941154+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: BNP Paribas Open: Flavio Cobolli vs Miomir Kecmanovic\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "BNP Paribas Open: Flavio Cobolli vs Miomir Kecmanovic",
+    "sources_count": 0
+  },
+  "error": null
+}

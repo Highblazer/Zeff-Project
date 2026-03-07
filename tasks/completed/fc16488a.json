@@ -1,0 +1,28 @@
+{
+  "id": "fc16488a",
+  "title": "Polymarket research: Islanders vs. Kings",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Islanders vs. Kings",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T06:13:17.728661+00:00",
+  "updated_at": "2026-03-06T06:14:36.148561+00:00",
+  "claimed_at": "2026-03-06T06:14:34.628678+00:00",
+  "completed_at": "2026-03-06T06:14:36.148483+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Islanders vs. Kings\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Islanders vs. Kings",
+    "sources_count": 0
+  },
+  "error": null
+}

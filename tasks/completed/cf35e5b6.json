@@ -1,0 +1,28 @@
+{
+  "id": "cf35e5b6",
+  "title": "Polymarket research: Paris Saint-Germain FC vs. AS Monaco FC: O/U 3.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Paris Saint-Germain FC vs. AS Monaco FC: O/U 3.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T20:10:02.773149+00:00",
+  "updated_at": "2026-03-06T20:10:12.892682+00:00",
+  "claimed_at": "2026-03-06T20:10:11.846040+00:00",
+  "completed_at": "2026-03-06T20:10:12.892663+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Paris Saint-Germain FC vs. AS Monaco FC: O/U 3.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Paris Saint-Germain FC vs. AS Monaco FC: O/U 3.5",
+    "sources_count": 0
+  },
+  "error": null
+}

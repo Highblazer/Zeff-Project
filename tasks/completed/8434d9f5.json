@@ -1,0 +1,28 @@
+{
+  "id": "8434d9f5",
+  "title": "Polymarket research: Nets vs. Heat",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Nets vs. Heat",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T05:17:37.540423+00:00",
+  "updated_at": "2026-03-06T05:18:02.387764+00:00",
+  "claimed_at": "2026-03-06T05:18:00.746532+00:00",
+  "completed_at": "2026-03-06T05:18:02.387747+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Nets vs. Heat\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Nets vs. Heat",
+    "sources_count": 0
+  },
+  "error": null
+}

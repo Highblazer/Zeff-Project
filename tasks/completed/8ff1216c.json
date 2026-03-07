@@ -1,0 +1,28 @@
+{
+  "id": "8ff1216c",
+  "title": "Polymarket research: First Round Pool C: Chinese Taipei vs. Japan",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "First Round Pool C: Chinese Taipei vs. Japan",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T13:51:46.516094+00:00",
+  "updated_at": "2026-03-06T13:52:26.339959+00:00",
+  "claimed_at": "2026-03-06T13:52:25.289288+00:00",
+  "completed_at": "2026-03-06T13:52:26.339941+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: First Round Pool C: Chinese Taipei vs. Japan\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "First Round Pool C: Chinese Taipei vs. Japan",
+    "sources_count": 0
+  },
+  "error": null
+}

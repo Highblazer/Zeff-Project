@@ -1,0 +1,28 @@
+{
+  "id": "2903d666",
+  "title": "Polymarket research: Spread: Heat (-12.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Heat (-12.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T02:56:41.408332+00:00",
+  "updated_at": "2026-03-06T02:56:58.453849+00:00",
+  "claimed_at": "2026-03-06T02:56:57.437796+00:00",
+  "completed_at": "2026-03-06T02:56:58.453833+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Heat (-12.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Heat (-12.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

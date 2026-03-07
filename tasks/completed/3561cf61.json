@@ -1,0 +1,28 @@
+{
+  "id": "3561cf61",
+  "title": "Polymarket research: Spread: Wizards (-4.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Wizards (-4.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T05:29:54.266445+00:00",
+  "updated_at": "2026-03-06T05:30:09.303575+00:00",
+  "claimed_at": "2026-03-06T05:30:08.277957+00:00",
+  "completed_at": "2026-03-06T05:30:09.303561+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Wizards (-4.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Wizards (-4.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

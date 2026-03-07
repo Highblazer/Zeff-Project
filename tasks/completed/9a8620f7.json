@@ -1,0 +1,28 @@
+{
+  "id": "9a8620f7",
+  "title": "Polymarket research: Opinion FDV above $1B one day after launch?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Opinion FDV above $1B one day after launch?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T23:44:38.908355+00:00",
+  "updated_at": "2026-03-06T23:45:07.357786+00:00",
+  "claimed_at": "2026-03-06T23:45:06.287976+00:00",
+  "completed_at": "2026-03-06T23:45:07.357769+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Opinion FDV above $1B one day after launch?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Opinion FDV above $1B one day after launch?",
+    "sources_count": 0
+  },
+  "error": null
+}

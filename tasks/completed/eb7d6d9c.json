@@ -1,0 +1,28 @@
+{
+  "id": "eb7d6d9c",
+  "title": "Polymarket research: Counter-Strike: TheMongolz vs paiN - Map 1 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: TheMongolz vs paiN - Map 1 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T20:25:18.929138+00:00",
+  "updated_at": "2026-03-06T20:26:12.009259+00:00",
+  "claimed_at": "2026-03-06T20:26:10.214252+00:00",
+  "completed_at": "2026-03-06T20:26:12.009242+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: TheMongolz vs paiN - Map 1 Winner\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: TheMongolz vs paiN - Map 1 Winner",
+    "sources_count": 0
+  },
+  "error": null
+}

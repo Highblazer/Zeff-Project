@@ -1,0 +1,28 @@
+{
+  "id": "e6ba548d",
+  "title": "Polymarket research: Counter-Strike: TheMongolz vs paiN (BO3) - ESL Pro League Stage 2",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: TheMongolz vs paiN (BO3) - ESL Pro League Stage 2",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T19:27:11.593869+00:00",
+  "updated_at": "2026-03-06T19:27:35.156580+00:00",
+  "claimed_at": "2026-03-06T19:27:33.939479+00:00",
+  "completed_at": "2026-03-06T19:27:35.156563+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: TheMongolz vs paiN (BO3) - ESL Pro League Stage 2\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: TheMongolz vs paiN (BO3) - ESL Pro League Stage 2",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7f238dbb",
+  "title": "Polymarket research: BNP Paribas Open: Matteo Berrettini vs Alexander Zverev",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "BNP Paribas Open: Matteo Berrettini vs Alexander Zverev",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T00:15:14.375049+00:00",
+  "updated_at": "2026-03-07T00:16:27.616443+00:00",
+  "claimed_at": "2026-03-07T00:16:26.017346+00:00",
+  "completed_at": "2026-03-07T00:16:27.616426+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: BNP Paribas Open: Matteo Berrettini vs Alexander Zverev\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "BNP Paribas Open: Matteo Berrettini vs Alexander Zverev",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1031545b",
+  "title": "Polymarket research: LoL: FURIA Esports vs Sentinels (BO5) - Americas Cup Playoffs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: FURIA Esports vs Sentinels (BO5) - Americas Cup Playoffs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T00:30:28.989933+00:00",
+  "updated_at": "2026-03-07T00:30:36.491998+00:00",
+  "claimed_at": "2026-03-07T00:30:35.432905+00:00",
+  "completed_at": "2026-03-07T00:30:36.491984+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: FURIA Esports vs Sentinels (BO5) - Americas Cup Playoffs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: FURIA Esports vs Sentinels (BO5) - Americas Cup Playoffs",
+    "sources_count": 0
+  },
+  "error": null
+}

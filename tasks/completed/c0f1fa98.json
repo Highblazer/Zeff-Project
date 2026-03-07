@@ -1,0 +1,28 @@
+{
+  "id": "c0f1fa98",
+  "title": "Polymarket research: Will the Iranian regime fall by April 30?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Iranian regime fall by April 30?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T23:56:51.220596+00:00",
+  "updated_at": "2026-03-06T23:57:22.151608+00:00",
+  "claimed_at": "2026-03-06T23:57:20.539160+00:00",
+  "completed_at": "2026-03-06T23:57:22.151593+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Iranian regime fall by April 30?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Iranian regime fall by April 30?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2722ba24",
+  "title": "Polymarket research: Will RC Celta de Vigo win on 2026-03-07?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will RC Celta de Vigo win on 2026-03-07?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T00:24:21.793990+00:00",
+  "updated_at": "2026-03-07T00:24:43.540818+00:00",
+  "claimed_at": "2026-03-07T00:24:41.942939+00:00",
+  "completed_at": "2026-03-07T00:24:43.540803+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will RC Celta de Vigo win on 2026-03-07?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will RC Celta de Vigo win on 2026-03-07?",
+    "sources_count": 0
+  },
+  "error": null
+}

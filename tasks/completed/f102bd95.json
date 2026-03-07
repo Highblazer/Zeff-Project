@@ -1,0 +1,28 @@
+{
+  "id": "f102bd95",
+  "title": "Polymarket research: Mavericks vs. Celtics",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Mavericks vs. Celtics",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T12:44:07.102001+00:00",
+  "updated_at": "2026-03-06T12:44:41.356188+00:00",
+  "claimed_at": "2026-03-06T12:44:39.688834+00:00",
+  "completed_at": "2026-03-06T12:44:41.356172+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Mavericks vs. Celtics\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Mavericks vs. Celtics",
+    "sources_count": 0
+  },
+  "error": null
+}

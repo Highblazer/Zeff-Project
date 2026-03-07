@@ -1,0 +1,28 @@
+{
+  "id": "d037bd0b",
+  "title": "Polymarket research: Will Senegal win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Senegal win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T10:29:12.490767+00:00",
+  "updated_at": "2026-03-06T10:29:32.695608+00:00",
+  "claimed_at": "2026-03-06T10:29:30.944540+00:00",
+  "completed_at": "2026-03-06T10:29:32.695592+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Senegal win the 2026 FIFA World Cup?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Senegal win the 2026 FIFA World Cup?",
+    "sources_count": 0
+  },
+  "error": null
+}

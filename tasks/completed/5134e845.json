@@ -1,0 +1,28 @@
+{
+  "id": "5134e845",
+  "title": "geopolitical events affecting markets March 2026",
+  "assigned_to": "natalia",
+  "task_type": "intelligence",
+  "params": {
+    "query": "geopolitical events affecting markets March 2026",
+    "category": "market_movers"
+  },
+  "priority": 8,
+  "status": "completed",
+  "created_by": "natalia-auto",
+  "created_at": "2026-03-06T10:39:59.525709+00:00",
+  "updated_at": "2026-03-06T10:40:01.278677+00:00",
+  "claimed_at": "2026-03-06T10:39:59.530782+00:00",
+  "completed_at": "2026-03-06T10:40:01.278658+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Intelligence: geopolitical events affecting markets March 2026\n\nFindings (0):\n",
+    "findings": [],
+    "query": "geopolitical events affecting markets March 2026",
+    "sources_count": 0,
+    "findings_count": 0,
+    "market_movers": 0,
+    "opportunities": 0
+  },
+  "error": null
+}

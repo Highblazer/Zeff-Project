@@ -1,0 +1,28 @@
+{
+  "id": "5fb482fa",
+  "title": "Polymarket research: Counter-Strike: Aurora Gaming vs Legacy - Map 2 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: Aurora Gaming vs Legacy - Map 2 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T17:11:58.035760+00:00",
+  "updated_at": "2026-03-06T17:12:19.163352+00:00",
+  "claimed_at": "2026-03-06T17:12:18.136031+00:00",
+  "completed_at": "2026-03-06T17:12:19.163336+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: Aurora Gaming vs Legacy - Map 2 Winner\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: Aurora Gaming vs Legacy - Map 2 Winner",
+    "sources_count": 0
+  },
+  "error": null
+}

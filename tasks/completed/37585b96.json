@@ -1,0 +1,28 @@
+{
+  "id": "37585b96",
+  "title": "Polymarket research: BNP Paribas Open: Michael Zheng vs Vit Kopriva",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "BNP Paribas Open: Michael Zheng vs Vit Kopriva",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T08:43:41.242731+00:00",
+  "updated_at": "2026-03-06T08:45:10.616852+00:00",
+  "claimed_at": "2026-03-06T08:45:09.548427+00:00",
+  "completed_at": "2026-03-06T08:45:10.616836+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: BNP Paribas Open: Michael Zheng vs Vit Kopriva\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "BNP Paribas Open: Michael Zheng vs Vit Kopriva",
+    "sources_count": 0
+  },
+  "error": null
+}

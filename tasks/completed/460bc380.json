@@ -1,0 +1,28 @@
+{
+  "id": "460bc380",
+  "title": "Polymarket research: Will Judy Shelton be confirmed as Fed Chair?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Judy Shelton be confirmed as Fed Chair?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T18:04:18.578938+00:00",
+  "updated_at": "2026-03-06T18:04:58.251929+00:00",
+  "claimed_at": "2026-03-06T18:04:56.591422+00:00",
+  "completed_at": "2026-03-06T18:04:58.251913+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Judy Shelton be confirmed as Fed Chair?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Judy Shelton be confirmed as Fed Chair?",
+    "sources_count": 0
+  },
+  "error": null
+}

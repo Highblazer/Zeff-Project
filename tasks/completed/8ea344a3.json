@@ -1,0 +1,28 @@
+{
+  "id": "8ea344a3",
+  "title": "Polymarket research: Clippers vs. Spurs",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Clippers vs. Spurs",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T22:40:19.332351+00:00",
+  "updated_at": "2026-03-06T22:40:31.590583+00:00",
+  "claimed_at": "2026-03-06T22:40:29.996032+00:00",
+  "completed_at": "2026-03-06T22:40:31.590567+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Clippers vs. Spurs\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Clippers vs. Spurs",
+    "sources_count": 0
+  },
+  "error": null
+}

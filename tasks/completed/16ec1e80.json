@@ -1,0 +1,28 @@
+{
+  "id": "16ec1e80",
+  "title": "Polymarket research: Utah vs. Flyers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Utah vs. Flyers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-06T01:37:17.921112+00:00",
+  "updated_at": "2026-03-06T01:38:04.820087+00:00",
+  "claimed_at": "2026-03-06T01:38:03.191951+00:00",
+  "completed_at": "2026-03-06T01:38:04.820071+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Utah vs. Flyers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Utah vs. Flyers",
+    "sources_count": 0
+  },
+  "error": null
+}
