@@ -1,0 +1,28 @@
+{
+  "id": "d98c65f7",
+  "title": "Polymarket research: Will the Fed Cut\u2013Pause\u2013Cut in the next three decisions (Dec\u2013Jan\u2013Mar)?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Fed Cut\u2013Pause\u2013Cut in the next three decisions (Dec\u2013Jan\u2013Mar)?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T08:01:32.459841+00:00",
+  "updated_at": "2026-03-07T08:02:48.710008+00:00",
+  "claimed_at": "2026-03-07T08:02:47.023681+00:00",
+  "completed_at": "2026-03-07T08:02:48.709992+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Fed Cut\u2013Pause\u2013Cut in the next three decisions (Dec\u2013Jan\u2013Mar)?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Fed Cut\u2013Pause\u2013Cut in the next three decisions (Dec\u2013Jan\u2013Mar)?",
+    "sources_count": 0
+  },
+  "error": null
+}

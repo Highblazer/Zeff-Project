@@ -1,0 +1,28 @@
+{
+  "id": "1a75a7cf",
+  "title": "Polymarket research: Will Nikki Haley win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Nikki Haley win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T10:06:56.548837+00:00",
+  "updated_at": "2026-03-07T10:07:05.124242+00:00",
+  "claimed_at": "2026-03-07T10:07:03.272778+00:00",
+  "completed_at": "2026-03-07T10:07:05.124226+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Nikki Haley win the 2028 US Presidential Election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Nikki Haley win the 2028 US Presidential Election?",
+    "sources_count": 0
+  },
+  "error": null
+}

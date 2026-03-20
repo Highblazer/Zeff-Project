@@ -1,0 +1,28 @@
+{
+  "id": "fba4bd9b",
+  "title": "Polymarket research: Rangers vs. Blue Jackets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Rangers vs. Blue Jackets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T15:08:53.859809+00:00",
+  "updated_at": "2026-03-19T15:09:06.364458+00:00",
+  "claimed_at": "2026-03-19T15:09:04.309118+00:00",
+  "completed_at": "2026-03-19T15:09:06.364440+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Rangers vs. Blue Jackets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Rangers vs. Blue Jackets",
+    "sources_count": 0
+  },
+  "error": null
+}

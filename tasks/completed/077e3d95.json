@@ -1,0 +1,28 @@
+{
+  "id": "077e3d95",
+  "title": "Polymarket research: Pistons vs. Wizards",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pistons vs. Wizards",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T20:14:33.057846+00:00",
+  "updated_at": "2026-03-19T20:15:33.033409+00:00",
+  "claimed_at": "2026-03-19T20:15:30.935628+00:00",
+  "completed_at": "2026-03-19T20:15:33.033390+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pistons vs. Wizards\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Pistons vs. Wizards",
+    "sources_count": 0
+  },
+  "error": null
+}

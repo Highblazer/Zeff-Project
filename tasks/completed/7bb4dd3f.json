@@ -1,0 +1,28 @@
+{
+  "id": "7bb4dd3f",
+  "title": "Polymarket research: Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the ne",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the next Russian parliamentary election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T13:49:24.630527+00:00",
+  "updated_at": "2026-03-19T13:50:34.551329+00:00",
+  "claimed_at": "2026-03-19T13:50:32.569267+00:00",
+  "completed_at": "2026-03-19T13:50:34.551311+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the next Russian parliamentary election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the next Russian parliamentary election?",
+    "sources_count": 0
+  },
+  "error": null
+}

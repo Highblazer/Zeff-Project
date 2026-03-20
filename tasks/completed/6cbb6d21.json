@@ -1,0 +1,28 @@
+{
+  "id": "6cbb6d21",
+  "title": "Polymarket research: Will Liverpool win the 2025\u201326 Champions League?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Liverpool win the 2025\u201326 Champions League?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T12:44:46.255896+00:00",
+  "updated_at": "2026-03-19T12:46:13.490531+00:00",
+  "claimed_at": "2026-03-19T12:46:11.741974+00:00",
+  "completed_at": "2026-03-19T12:46:13.490485+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Liverpool win the 2025\u201326 Champions League?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Liverpool win the 2025\u201326 Champions League?",
+    "sources_count": 0
+  },
+  "error": null
+}

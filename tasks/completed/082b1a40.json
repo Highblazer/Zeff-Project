@@ -1,0 +1,28 @@
+{
+  "id": "082b1a40",
+  "title": "Polymarket research: Will Gina Raimondo win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:24:40.626563+00:00",
+  "updated_at": "2026-03-19T18:26:18.550455+00:00",
+  "claimed_at": "2026-03-19T18:26:16.808831+00:00",
+  "completed_at": "2026-03-19T18:26:18.550435+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Gina Raimondo win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

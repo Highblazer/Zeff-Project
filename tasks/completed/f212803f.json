@@ -1,0 +1,28 @@
+{
+  "id": "f212803f",
+  "title": "Polymarket research: Cavaliers vs. Bulls",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Cavaliers vs. Bulls",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T21:28:08.475559+00:00",
+  "updated_at": "2026-03-19T21:29:11.703320+00:00",
+  "claimed_at": "2026-03-19T21:29:10.005535+00:00",
+  "completed_at": "2026-03-19T21:29:11.703306+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Cavaliers vs. Bulls\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Cavaliers vs. Bulls",
+    "sources_count": 0
+  },
+  "error": null
+}

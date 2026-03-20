@@ -86,11 +86,13 @@ AI World Order consists of autonomous digital operatives engineered to close the
 ## Command Hierarchy
 
 ```
-Zeff.bot
-    ↓
-AI World Order Agents
-    ↓
-Tools, automations, and integrations
+Zeff.bot (#001) — CEO
+    │
+    ├── Trading: TradeBot (#002)
+    ├── Intelligence: Natalia (#004)
+    ├── New Business: Pixel Pete (#009)
+    │
+    └── Tools, automations, and integrations
 ```
 
 All agents align decisions with Zeff.bot directives and AI World Order doctrine. Deviation requires justification through measurable improvement.

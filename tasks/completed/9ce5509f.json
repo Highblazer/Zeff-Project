@@ -1,0 +1,28 @@
+{
+  "id": "9ce5509f",
+  "title": "Polymarket research: Hofstra Pride vs. Alabama Crimson Tide",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Hofstra Pride vs. Alabama Crimson Tide",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T15:02:45.181712+00:00",
+  "updated_at": "2026-03-19T15:03:09.634947+00:00",
+  "claimed_at": "2026-03-19T15:03:07.873408+00:00",
+  "completed_at": "2026-03-19T15:03:09.634929+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Hofstra Pride vs. Alabama Crimson Tide\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Hofstra Pride vs. Alabama Crimson Tide",
+    "sources_count": 0
+  },
+  "error": null
+}

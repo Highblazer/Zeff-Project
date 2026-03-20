@@ -1,0 +1,28 @@
+{
+  "id": "ada0984a",
+  "title": "Polymarket research: Nets vs. Pistons",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Nets vs. Pistons",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T10:13:03.872465+00:00",
+  "updated_at": "2026-03-07T10:13:14.325000+00:00",
+  "claimed_at": "2026-03-07T10:13:12.827768+00:00",
+  "completed_at": "2026-03-07T10:13:14.324984+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Nets vs. Pistons\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Nets vs. Pistons",
+    "sources_count": 0
+  },
+  "error": null
+}

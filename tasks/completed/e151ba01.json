@@ -1,0 +1,28 @@
+{
+  "id": "e151ba01",
+  "title": "Polymarket research: Will Elon Musk win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Elon Musk win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T08:10:41.543010+00:00",
+  "updated_at": "2026-03-07T08:11:20.549470+00:00",
+  "claimed_at": "2026-03-07T08:11:18.801447+00:00",
+  "completed_at": "2026-03-07T08:11:20.549456+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Elon Musk win the 2028 Republican presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Elon Musk win the 2028 Republican presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

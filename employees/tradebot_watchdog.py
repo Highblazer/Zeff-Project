@@ -39,21 +39,26 @@ SERVICE_NAME = 'tradebot.service'
 CHECK_INTERVAL = 30  # seconds
 DISCONNECT_RESTART_AFTER = 180  # restart service after 3 min disconnect
 STALE_THRESHOLD = 300  # state file older than 5 min = stale
-ALERT_COOLDOWN = 120  # min seconds between same-type alerts
+ALERT_COOLDOWN = 900  # 15 min between same-type alerts
+BOOT_GRACE_PERIOD = 120  # 2 min grace after boot before alerting
+GLOBAL_RATE_LIMIT = 4  # max alerts per hour
 MAX_RESTARTS_PER_HOUR = 3
+COOLDOWN_FILE = '/root/.openclaw/workspace/logs/.watchdog_cooldowns.json'
 
 
 class Watchdog:
     def __init__(self):
         self.disconnect_since = None  # when disconnect was first detected
-        self.last_alert_time = {}     # alert_type -> timestamp
+        self.last_alert_time = self._load_cooldowns()
         self.restarts_this_hour = []  # timestamps of restarts
         self.last_known_good = None   # last time we saw connected=true
         self.consecutive_disconnects = 0
+        self.boot_time = time.time()
+        self.alerts_this_hour = []  # timestamps of alerts sent
 
     def run(self):
         log.info('TradeBot Watchdog starting')
-        self._alert('startup', 'Watchdog ONLINE — monitoring TradeBot health')
+        # Don't send startup alert — it's noise that contributes to spam
 
         while True:
             try:
@@ -105,13 +110,14 @@ class Watchdog:
         if connected:
             # All good
             if self.disconnect_since is not None:
-                # We recovered!
+                # We recovered — only alert if we were down for more than 2 min
                 duration = time.time() - self.disconnect_since
                 log.info(f'TradeBot reconnected after {duration:.0f}s')
-                self._alert('recovered',
-                            f'TradeBot RECOVERED (was down {duration/60:.1f}min)\n'
-                            f'Balance: ${balance:.2f}\n'
-                            f'Open positions: {open_positions}')
+                if duration > 120:
+                    self._alert('recovered',
+                                f'TradeBot RECOVERED (was down {duration/60:.1f}min)\n'
+                                f'Balance: ${balance:.2f}\n'
+                                f'Open positions: {open_positions}')
                 self.disconnect_since = None
                 self.consecutive_disconnects = 0
             self.last_known_good = time.time()
@@ -119,6 +125,13 @@ class Watchdog:
 
         # === DISCONNECTED ===
         now = time.time()
+
+        # Skip disconnect alerts during boot grace period — bot needs time to connect
+        if (now - self.boot_time) < BOOT_GRACE_PERIOD:
+            if self.disconnect_since is None:
+                self.disconnect_since = now
+            return
+
         if self.disconnect_since is None:
             self.disconnect_since = now
             self.consecutive_disconnects += 1
@@ -191,7 +204,7 @@ class Watchdog:
             log.error(f'Service restart error: {e}')
 
     def _alert(self, alert_type: str, text: str):
-        """Send Telegram alert with cooldown per alert type."""
+        """Send Telegram alert with per-type cooldown, global rate limit, and persistence."""
         now = time.time()
         last = self.last_alert_time.get(alert_type, 0)
 
@@ -199,7 +212,15 @@ class Watchdog:
         if alert_type != 'critical' and (now - last) < ALERT_COOLDOWN:
             return
 
+        # Global rate limit: max N alerts per hour
+        self.alerts_this_hour = [t for t in self.alerts_this_hour if now - t < 3600]
+        if alert_type != 'critical' and len(self.alerts_this_hour) >= GLOBAL_RATE_LIMIT:
+            log.warning(f'Global rate limit hit ({GLOBAL_RATE_LIMIT}/hr) — suppressing {alert_type}')
+            return
+
         self.last_alert_time[alert_type] = now
+        self.alerts_this_hour.append(now)
+        self._save_cooldowns()
 
         msg = (
             "<b>⬡ ZEFF.BOT</b>\n"
@@ -212,6 +233,26 @@ class Watchdog:
             log.info(f'Alert sent: {alert_type}')
         except Exception as e:
             log.error(f'Failed to send alert: {e}')
+
+    def _load_cooldowns(self):
+        """Load persisted cooldown timestamps so restarts don't reset them."""
+        try:
+            if os.path.isfile(COOLDOWN_FILE):
+                with open(COOLDOWN_FILE, 'r') as f:
+                    data = json.load(f)
+                now = time.time()
+                return {k: v for k, v in data.items() if now - v < 7200}
+        except Exception:
+            pass
+        return {}
+
+    def _save_cooldowns(self):
+        """Persist cooldown timestamps to survive restarts."""
+        try:
+            with open(COOLDOWN_FILE, 'w') as f:
+                json.dump(self.last_alert_time, f)
+        except Exception:
+            pass
 
 
 if __name__ == '__main__':

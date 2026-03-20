@@ -1,0 +1,28 @@
+{
+  "id": "f24e6aac",
+  "title": "Polymarket research: Akron Zips vs. Texas Tech Red Raiders",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Akron Zips vs. Texas Tech Red Raiders",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T16:16:15.369522+00:00",
+  "updated_at": "2026-03-19T16:16:27.110519+00:00",
+  "claimed_at": "2026-03-19T16:16:25.383665+00:00",
+  "completed_at": "2026-03-19T16:16:27.110500+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Akron Zips vs. Texas Tech Red Raiders\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Akron Zips vs. Texas Tech Red Raiders",
+    "sources_count": 0
+  },
+  "error": null
+}

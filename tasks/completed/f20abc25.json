@@ -1,0 +1,28 @@
+{
+  "id": "f20abc25",
+  "title": "Polymarket research: RC Celta de Vigo vs. Real Madrid CF: O/U 2.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "RC Celta de Vigo vs. Real Madrid CF: O/U 2.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T01:07:30.118982+00:00",
+  "updated_at": "2026-03-07T01:08:31.638389+00:00",
+  "claimed_at": "2026-03-07T01:08:30.567842+00:00",
+  "completed_at": "2026-03-07T01:08:31.638370+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: RC Celta de Vigo vs. Real Madrid CF: O/U 2.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "RC Celta de Vigo vs. Real Madrid CF: O/U 2.5",
+    "sources_count": 0
+  },
+  "error": null
+}

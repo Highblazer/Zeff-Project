@@ -1,0 +1,28 @@
+{
+  "id": "caaf3d7d",
+  "title": "Polymarket research: Miami Open: Alexandra Eala vs Laura Siegemund",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Miami Open: Alexandra Eala vs Laura Siegemund",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T20:32:53.097081+00:00",
+  "updated_at": "2026-03-19T20:34:08.481039+00:00",
+  "claimed_at": "2026-03-19T20:34:06.620931+00:00",
+  "completed_at": "2026-03-19T20:34:08.481021+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Miami Open: Alexandra Eala vs Laura Siegemund\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Miami Open: Alexandra Eala vs Laura Siegemund",
+    "sources_count": 0
+  },
+  "error": null
+}

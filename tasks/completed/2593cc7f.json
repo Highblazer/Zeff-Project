@@ -1,0 +1,28 @@
+{
+  "id": "2593cc7f",
+  "title": "Polymarket research: BNP Paribas Open: Dayana Yastremska vs Alexandra Eala",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "BNP Paribas Open: Dayana Yastremska vs Alexandra Eala",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T08:22:56.622787+00:00",
+  "updated_at": "2026-03-07T08:23:05.758597+00:00",
+  "claimed_at": "2026-03-07T08:23:04.101251+00:00",
+  "completed_at": "2026-03-07T08:23:05.758581+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: BNP Paribas Open: Dayana Yastremska vs Alexandra Eala\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "BNP Paribas Open: Dayana Yastremska vs Alexandra Eala",
+    "sources_count": 0
+  },
+  "error": null
+}

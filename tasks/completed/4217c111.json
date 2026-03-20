@@ -1,0 +1,28 @@
+{
+  "id": "4217c111",
+  "title": "Polymarket research: Howard Bison vs. Michigan Wolverines",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Howard Bison vs. Michigan Wolverines",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T21:22:00.573472+00:00",
+  "updated_at": "2026-03-19T21:22:28.185166+00:00",
+  "claimed_at": "2026-03-19T21:22:26.407858+00:00",
+  "completed_at": "2026-03-19T21:22:28.185129+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Howard Bison vs. Michigan Wolverines\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Howard Bison vs. Michigan Wolverines",
+    "sources_count": 0
+  },
+  "error": null
+}

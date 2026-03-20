@@ -1,0 +1,28 @@
+{
+  "id": "b9ecd6a8",
+  "title": "Polymarket research: Pelicans vs. Suns",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Pelicans vs. Suns",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T03:44:05.671673+00:00",
+  "updated_at": "2026-03-07T03:44:21.630984+00:00",
+  "claimed_at": "2026-03-07T03:44:20.049824+00:00",
+  "completed_at": "2026-03-07T03:44:21.630972+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Pelicans vs. Suns\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Pelicans vs. Suns",
+    "sources_count": 0
+  },
+  "error": null
+}

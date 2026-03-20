@@ -1,0 +1,28 @@
+{
+  "id": "118aba00",
+  "title": "Polymarket research: Hurricanes vs. Oilers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Hurricanes vs. Oilers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T07:15:38.545415+00:00",
+  "updated_at": "2026-03-07T07:16:18.281639+00:00",
+  "claimed_at": "2026-03-07T07:16:16.677044+00:00",
+  "completed_at": "2026-03-07T07:16:18.281626+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Hurricanes vs. Oilers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Hurricanes vs. Oilers",
+    "sources_count": 0
+  },
+  "error": null
+}

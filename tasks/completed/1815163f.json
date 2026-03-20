@@ -1,0 +1,28 @@
+{
+  "id": "1815163f",
+  "title": "Polymarket research: Will Reza Pahlavi enter Iran by June 30?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Reza Pahlavi enter Iran by June 30?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T10:06:57.182356+00:00",
+  "updated_at": "2026-03-07T10:07:12.935840+00:00",
+  "claimed_at": "2026-03-07T10:07:10.925581+00:00",
+  "completed_at": "2026-03-07T10:07:12.935820+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Reza Pahlavi enter Iran by June 30?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Reza Pahlavi enter Iran by June 30?",
+    "sources_count": 0
+  },
+  "error": null
+}

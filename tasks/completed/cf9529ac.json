@@ -1,0 +1,28 @@
+{
+  "id": "cf9529ac",
+  "title": "Polymarket research: Will Bitcoin reach $80,000 in March?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Bitcoin reach $80,000 in March?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T10:53:45.498049+00:00",
+  "updated_at": "2026-03-19T10:54:44.141024+00:00",
+  "claimed_at": "2026-03-19T10:54:42.442889+00:00",
+  "completed_at": "2026-03-19T10:54:44.141010+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Bitcoin reach $80,000 in March?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Bitcoin reach $80,000 in March?",
+    "sources_count": 0
+  },
+  "error": null
+}

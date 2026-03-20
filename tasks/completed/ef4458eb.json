@@ -1,0 +1,28 @@
+{
+  "id": "ef4458eb",
+  "title": "Polymarket research: LoL: Gen.G vs LYON - Game 3 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Gen.G vs LYON - Game 3 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T16:10:08.410089+00:00",
+  "updated_at": "2026-03-19T16:10:24.143702+00:00",
+  "claimed_at": "2026-03-19T16:10:23.071322+00:00",
+  "completed_at": "2026-03-19T16:10:24.143685+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Gen.G vs LYON - Game 3 Winner\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: Gen.G vs LYON - Game 3 Winner",
+    "sources_count": 0
+  },
+  "error": null
+}

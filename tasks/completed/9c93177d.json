@@ -1,0 +1,28 @@
+{
+  "id": "9c93177d",
+  "title": "Polymarket research: Avalanche vs. Stars",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Avalanche vs. Stars",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T06:20:34.322930+00:00",
+  "updated_at": "2026-03-07T06:21:13.448472+00:00",
+  "claimed_at": "2026-03-07T06:21:11.860770+00:00",
+  "completed_at": "2026-03-07T06:21:13.448456+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Avalanche vs. Stars\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Avalanche vs. Stars",
+    "sources_count": 0
+  },
+  "error": null
+}

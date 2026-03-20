@@ -1,0 +1,28 @@
+{
+  "id": "69a22592",
+  "title": "Polymarket research: Will the price of Bitcoin be above $62,000 on March 7?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the price of Bitcoin be above $62,000 on March 7?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T11:11:11.644689+00:00",
+  "updated_at": "2026-03-07T11:11:26.998658+00:00",
+  "claimed_at": "2026-03-07T11:11:25.035151+00:00",
+  "completed_at": "2026-03-07T11:11:26.998643+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the price of Bitcoin be above $62,000 on March 7?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the price of Bitcoin be above $62,000 on March 7?",
+    "sources_count": 0
+  },
+  "error": null
+}

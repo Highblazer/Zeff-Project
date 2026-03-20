@@ -1,0 +1,28 @@
+{
+  "id": "b6e16c2a",
+  "title": "Polymarket research: Spread: Nuggets (-1.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Nuggets (-1.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T06:38:56.993305+00:00",
+  "updated_at": "2026-03-07T06:40:07.414463+00:00",
+  "claimed_at": "2026-03-07T06:40:06.356294+00:00",
+  "completed_at": "2026-03-07T06:40:07.414447+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Nuggets (-1.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Nuggets (-1.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

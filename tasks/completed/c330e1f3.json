@@ -1,0 +1,28 @@
+{
+  "id": "c330e1f3",
+  "title": "Polymarket research: Game Handicap: GEN (-2.5) vs LYON (+2.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Game Handicap: GEN (-2.5) vs LYON (+2.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T12:44:44.851077+00:00",
+  "updated_at": "2026-03-19T12:45:34.762646+00:00",
+  "claimed_at": "2026-03-19T12:45:33.718653+00:00",
+  "completed_at": "2026-03-19T12:45:34.762629+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Game Handicap: GEN (-2.5) vs LYON (+2.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Game Handicap: GEN (-2.5) vs LYON (+2.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

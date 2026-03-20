@@ -1,0 +1,28 @@
+{
+  "id": "ca43c6e7",
+  "title": "Polymarket research: Will the price of Bitcoin be above $68,000 on March 19?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the price of Bitcoin be above $68,000 on March 19?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T16:56:03.017829+00:00",
+  "updated_at": "2026-03-19T16:56:27.357533+00:00",
+  "claimed_at": "2026-03-19T16:56:25.547299+00:00",
+  "completed_at": "2026-03-19T16:56:27.357516+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the price of Bitcoin be above $68,000 on March 19?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the price of Bitcoin be above $68,000 on March 19?",
+    "sources_count": 0
+  },
+  "error": null
+}

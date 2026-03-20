@@ -1,0 +1,28 @@
+{
+  "id": "21c8a1fa",
+  "title": "Polymarket research: Mavericks vs. Celtics: O/U 224.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Mavericks vs. Celtics: O/U 224.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T01:26:08.660304+00:00",
+  "updated_at": "2026-03-07T01:27:36.631360+00:00",
+  "claimed_at": "2026-03-07T01:27:35.604268+00:00",
+  "completed_at": "2026-03-07T01:27:36.631343+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Mavericks vs. Celtics: O/U 224.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Mavericks vs. Celtics: O/U 224.5",
+    "sources_count": 0
+  },
+  "error": null
+}

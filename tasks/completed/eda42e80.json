@@ -1,0 +1,28 @@
+{
+  "id": "eda42e80",
+  "title": "Polymarket research: Will Trump say \"Ayatollah\" or \"Khamenei\" this week? (March 15)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump say \"Ayatollah\" or \"Khamenei\" this week? (March 15)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T21:18:55.652820+00:00",
+  "updated_at": "2026-03-19T21:19:16.114179+00:00",
+  "claimed_at": "2026-03-19T21:19:14.963786+00:00",
+  "completed_at": "2026-03-19T21:19:16.114140+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump say \"Ayatollah\" or \"Khamenei\" this week? (March 15)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Trump say \"Ayatollah\" or \"Khamenei\" this week? (March 15)",
+    "sources_count": 0
+  },
+  "error": null
+}

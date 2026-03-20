@@ -1,0 +1,28 @@
+{
+  "id": "3dfd7d40",
+  "title": "Polymarket research: Will Greg Abbott win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Greg Abbott win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T06:02:15.167117+00:00",
+  "updated_at": "2026-03-07T06:03:47.537404+00:00",
+  "claimed_at": "2026-03-07T06:03:45.871097+00:00",
+  "completed_at": "2026-03-07T06:03:47.537390+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Greg Abbott win the 2028 US Presidential Election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Greg Abbott win the 2028 US Presidential Election?",
+    "sources_count": 0
+  },
+  "error": null
+}

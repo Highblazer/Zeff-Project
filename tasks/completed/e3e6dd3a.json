@@ -1,0 +1,28 @@
+{
+  "id": "e3e6dd3a",
+  "title": "Polymarket research: Blues vs. Sharks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Blues vs. Sharks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T04:42:23.848178+00:00",
+  "updated_at": "2026-03-07T04:42:31.374419+00:00",
+  "claimed_at": "2026-03-07T04:42:29.742646+00:00",
+  "completed_at": "2026-03-07T04:42:31.374395+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Blues vs. Sharks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Blues vs. Sharks",
+    "sources_count": 0
+  },
+  "error": null
+}

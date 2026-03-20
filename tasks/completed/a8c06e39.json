@@ -1,0 +1,28 @@
+{
+  "id": "a8c06e39",
+  "title": "Polymarket research: Knicks vs. Nuggets: O/U 229.5",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Knicks vs. Nuggets: O/U 229.5",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T02:57:57.456559+00:00",
+  "updated_at": "2026-03-07T02:58:12.343943+00:00",
+  "claimed_at": "2026-03-07T02:58:10.760174+00:00",
+  "completed_at": "2026-03-07T02:58:12.343927+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Knicks vs. Nuggets: O/U 229.5\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Knicks vs. Nuggets: O/U 229.5",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f767956c",
+  "title": "Polymarket research: Prairie View A&M Panthers vs. Florida Gators",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Prairie View A&M Panthers vs. Florida Gators",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T21:49:42.047662+00:00",
+  "updated_at": "2026-03-19T21:49:51.732798+00:00",
+  "claimed_at": "2026-03-19T21:49:50.028134+00:00",
+  "completed_at": "2026-03-19T21:49:51.732785+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Prairie View A&M Panthers vs. Florida Gators\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Prairie View A&M Panthers vs. Florida Gators",
+    "sources_count": 0
+  },
+  "error": null
+}

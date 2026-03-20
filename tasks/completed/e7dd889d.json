@@ -1,0 +1,28 @@
+{
+  "id": "e7dd889d",
+  "title": "Polymarket research: BNP Paribas Open: Ben Shelton vs Reilly Opelka",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "BNP Paribas Open: Ben Shelton vs Reilly Opelka",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T01:35:16.585532+00:00",
+  "updated_at": "2026-03-07T01:35:48.686834+00:00",
+  "claimed_at": "2026-03-07T01:35:47.663588+00:00",
+  "completed_at": "2026-03-07T01:35:48.686822+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: BNP Paribas Open: Ben Shelton vs Reilly Opelka\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "BNP Paribas Open: Ben Shelton vs Reilly Opelka",
+    "sources_count": 0
+  },
+  "error": null
+}

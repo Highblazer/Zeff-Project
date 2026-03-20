@@ -1,0 +1,28 @@
+{
+  "id": "d7ced7ce",
+  "title": "Polymarket research: Counter-Strike: PARIVISION vs NIP (BO3) - BLAST Open Rotterdam Group B",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: PARIVISION vs NIP (BO3) - BLAST Open Rotterdam Group B",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T14:50:31.874228+00:00",
+  "updated_at": "2026-03-19T14:50:36.788733+00:00",
+  "claimed_at": "2026-03-19T14:50:34.951034+00:00",
+  "completed_at": "2026-03-19T14:50:36.788712+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: PARIVISION vs NIP (BO3) - BLAST Open Rotterdam Group B\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: PARIVISION vs NIP (BO3) - BLAST Open Rotterdam Group B",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5c7c198b",
+  "title": "Polymarket research: Miami Open: Dalma Galfi vs Elvina Kalieva",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Miami Open: Dalma Galfi vs Elvina Kalieva",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:52:09.112431+00:00",
+  "updated_at": "2026-03-19T18:53:36.446063+00:00",
+  "claimed_at": "2026-03-19T18:53:35.367607+00:00",
+  "completed_at": "2026-03-19T18:53:36.446049+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Miami Open: Dalma Galfi vs Elvina Kalieva\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Miami Open: Dalma Galfi vs Elvina Kalieva",
+    "sources_count": 0
+  },
+  "error": null
+}

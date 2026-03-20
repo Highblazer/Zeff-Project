@@ -1,0 +1,28 @@
+{
+  "id": "3dbe8854",
+  "title": "Polymarket research: Siena Saints vs. Duke Blue Devils",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Siena Saints vs. Duke Blue Devils",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T10:44:34.631787+00:00",
+  "updated_at": "2026-03-19T10:45:41.909356+00:00",
+  "claimed_at": "2026-03-19T10:45:39.458808+00:00",
+  "completed_at": "2026-03-19T10:45:41.909339+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Siena Saints vs. Duke Blue Devils\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Siena Saints vs. Duke Blue Devils",
+    "sources_count": 0
+  },
+  "error": null
+}

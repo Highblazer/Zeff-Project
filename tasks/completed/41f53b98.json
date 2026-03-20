@@ -1,0 +1,28 @@
+{
+  "id": "41f53b98",
+  "title": "Polymarket research: Will Crude Oil (CL) hit (HIGH) $180 by end of March?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Crude Oil (CL) hit (HIGH) $180 by end of March?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T15:39:25.734952+00:00",
+  "updated_at": "2026-03-19T15:40:34.348243+00:00",
+  "claimed_at": "2026-03-19T15:40:32.617282+00:00",
+  "completed_at": "2026-03-19T15:40:34.348227+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Crude Oil (CL) hit (HIGH) $180 by end of March?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Crude Oil (CL) hit (HIGH) $180 by end of March?",
+    "sources_count": 0
+  },
+  "error": null
+}

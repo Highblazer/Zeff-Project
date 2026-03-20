@@ -1,0 +1,28 @@
+{
+  "id": "e137d179",
+  "title": "Polymarket research: LoL: JD Gaming vs LOUD (BO5) - First Stand Group B",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: JD Gaming vs LOUD (BO5) - First Stand Group B",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:24:38.083101+00:00",
+  "updated_at": "2026-03-19T18:25:05.708022+00:00",
+  "claimed_at": "2026-03-19T18:25:04.041779+00:00",
+  "completed_at": "2026-03-19T18:25:05.708003+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: JD Gaming vs LOUD (BO5) - First Stand Group B\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: JD Gaming vs LOUD (BO5) - First Stand Group B",
+    "sources_count": 0
+  },
+  "error": null
+}

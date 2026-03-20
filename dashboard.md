@@ -1,19 +1,17 @@
-# ⬡ Binary Rogue Command Center
+# ⬡ AI World Order — Fleet Reference
 
-**Updated:** 2026-03-01
+**Updated:** 2026-03-19
 
 ---
 
 ## 👥 Employees
 
-| # | Name | Status | Role |
-|---|------|--------|------|
-| 001 | Zeff.bot | 🟢 | CEO — Strategic Direction & Fleet Oversight |
-| 002 | TradeBot | 🟢 | Chief Trading Officer — 1H Scalping + Multi-Market |
-| 003 | Ali.bot | 🟢 | Chief Trading Strategist — 6-Layer Precision (4H/D/W) |
-| 004 | Natalia | 🟢 | Chief Research Officer — Intelligence & Knowledge Discovery |
-| 006 | Kalshi Bot | 🟢 | Prediction Markets — Elections & Economic Events |
-| 008 | Poly.Bot | 🟢 | Chief Prediction Officer — Polymarket CLOB Trading |
+| # | Name | Status | Role | Division |
+|---|------|--------|------|----------|
+| 001 | Zeff.bot | 🟢 | CEO — Strategic Direction & Fleet Oversight | Command |
+| 002 | TradeBot | 🟢 | Chief Trading Officer — 1H Scalping + Multi-Market | Trading |
+| 004 | Natalia | 🟢 | Chief Research Officer — Intelligence & Knowledge Discovery | Intelligence |
+| 009 | Pixel Pete | 🟢 | Chief Web Officer — Client Website Development | New Business |
 
 ---
 
@@ -22,13 +20,10 @@
 | Bot | Broker | Mode | Balance | Positions | Strategy |
 |-----|--------|------|---------|-----------|----------|
 | TradeBot | IC Markets cTrader | Demo | $404.62 | 1 open | 1H scalping, 45s cycles |
-| Ali.bot | IC Markets cTrader | Demo | $201.26 | 3 open | 6-layer precision (4H/D/W) |
-| Poly.Bot | Polymarket (CLOB) | Paper | $100.00 | 0 | High-conviction predictions |
-| Kalshi Bot | Kalshi | Paper | $100.00 | 0 | Election & economic predictions |
 
 ---
 
-## 📈 Active Markets (35+ Instruments)
+## 📈 Active Markets (36 Instruments)
 
 | Category | Instruments |
 |----------|-------------|
@@ -37,37 +32,22 @@
 | Crypto (10) | BTCUSD, ETHUSD, LTCUSD, XRPUSD, SOLUSD, ADAUSD, DOGEUSD, DOTUSD, AVXUSD, LNKUSD |
 | Commodities (6) | XAUUSD, XAGUSD, XTIUSD, XBRUSD, XNGUSD, XPTUSD |
 | Indices (8) | US500, US30, USTEC, US2000, UK100, DE30, JP225, AUS200 |
-| Prediction | Polymarket (politics, tech, economics), Kalshi (elections, CPI, GDP, NFP, Fed) |
 
 ---
 
-## 🖥️ Dashboards & UIs
+## 🔔 Notifications
 
-| Dashboard | Port | Purpose |
-|-----------|------|---------|
-| Fleet Command | 8080 | Main ops — agent status, positions, performance, tasks, news |
-| Public Performance | 8502 | Read-only proof of trading (win rate, Sharpe, P&L) |
-| News Intelligence | 8503 | Real-time categorized news for TradeBot & Natalia |
+| Channel | Purpose |
+|---------|---------|
+| Telegram | Trade entry/exit alerts, fleet health alerts, research reports, CEO reports |
 
 ---
 
-## 🔌 APIs & Services
+## 🌐 Web Projects
 
-| Service | Port | Protocol | Purpose |
-|---------|------|----------|---------|
-| Signal API | 8000 | REST (FastAPI) | Signals, news sentiment, stats, API key auth + rate limits |
-| Fleet Dashboard | 8080 | Streamlit | Fleet Command visualization + controls |
-| Copy-Trade Server | 8765 | WebSocket | Real-time trade broadcast (OPEN/CLOSE/AMEND/TICK events) |
-
-**Signal API Endpoints:**
-- `GET /api/signals/latest` — Current signals with scores
-- `GET /api/signals/{symbol}` — Detailed pair analysis
-- `GET /api/signals/history` — Signal archives
-- `GET /api/news/sentiment` — Market bias from news intel
-- `GET /api/stats` — Bot performance metrics
-- `GET /api/status` — System health (public)
-- `GET /api/agents` — Agent roster (public)
-- `POST /admin/keys/generate` — API key management
+| Project | Status | Description |
+|---------|--------|-------------|
+| BleuCrewBe | In Development | Client website — managed by Pixel Pete (#009) |
 
 ---
 
@@ -102,7 +82,6 @@
 | Module | Purpose |
 |--------|---------|
 | `lib/trading_safety.py` | Risk checks, kill switch, pre-trade validation |
-| `lib/polymarket_api.py` | Polymarket CLOB API client |
 | `lib/telegram.py` | Telegram bot messaging & alerts |
 | `lib/news_collector.py` | Brave Search news aggregation |
 | `lib/news_store.py` | Article persistence & memory management |
@@ -136,14 +115,10 @@
 | Service | Status | Auto-Restart |
 |---------|--------|-------------|
 | `tradebot.service` | Enabled | Yes (on-failure, 10s delay) |
-| `alibot.service` | Enabled | Yes (on-failure, 30s delay) |
 | `natalia.service` | Enabled | Yes (on-failure, 10s delay) |
-| `polybot.service` | Enabled | Yes (on-failure, 30s delay) |
-| `kalshi.service` | Enabled | Yes (on-failure, 30s delay) |
 | `tradebot-watchdog.service` | Enabled | Yes (always) |
 | `fleet-health.service` | Enabled | Yes (always) |
-| `trade-dashboard.service` | Enabled | Yes |
 
 ---
 
-*Binary Rogue*
+*AI World Order*

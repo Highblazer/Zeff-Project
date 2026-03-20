@@ -26,7 +26,10 @@ from lib.logging_config import get_logger
 log = get_logger('fleet_health', 'fleet_health.log')
 
 CHECK_INTERVAL = 60
-ALERT_COOLDOWN = 300  # 5 min between same-type alerts
+ALERT_COOLDOWN = 1800  # 30 min between same-type alerts
+BOOT_GRACE_PERIOD = 300  # 5 min grace after boot before sending stale alerts
+GLOBAL_RATE_LIMIT = 6  # max alerts per hour across all types
+COOLDOWN_FILE = '/root/.openclaw/workspace/logs/.fleet_health_cooldowns.json'
 STATUS_FILE = '/root/.openclaw/workspace/system-status.json'
 
 # All fleet services and their status files
@@ -39,14 +42,6 @@ FLEET_SERVICES = {
         'role': 'Chief Trading Officer',
         'employee_id': '002',
     },
-    'alibot': {
-        'service': 'alibot.service',
-        'status_file': '/root/.openclaw/workspace/employees/alibot_status.json',
-        'stale_threshold': 300,
-        'critical': True,
-        'role': 'Chief Trading Strategist',
-        'employee_id': '003',
-    },
     'natalia': {
         'service': 'natalia.service',
         'status_file': '/root/.openclaw/workspace/employees/natalia_status.json',
@@ -54,22 +49,6 @@ FLEET_SERVICES = {
         'critical': False,
         'role': 'Chief Research Officer',
         'employee_id': '004',
-    },
-    'polybot': {
-        'service': 'polybot.service',
-        'status_file': '/root/.openclaw/workspace/employees/polybot_status.json',
-        'stale_threshold': 600,
-        'critical': False,
-        'role': 'Chief Prediction Officer',
-        'employee_id': '008',
-    },
-    'kalshi': {
-        'service': 'kalshi.service',
-        'status_file': '/root/.openclaw/workspace/employees/kalshi_status.json',
-        'stale_threshold': 600,
-        'critical': False,
-        'role': 'Prediction Markets — Kalshi',
-        'employee_id': '006',
     },
     'watchdog': {
         'service': 'tradebot-watchdog.service',
@@ -79,25 +58,18 @@ FLEET_SERVICES = {
         'role': 'TradeBot Watchdog',
         'employee_id': 'SYS',
     },
-    'dashboard': {
-        'service': 'trade-dashboard.service',
-        'status_file': None,
-        'stale_threshold': None,
-        'critical': False,
-        'role': 'Fleet Dashboard',
-        'employee_id': 'SYS',
-    },
 }
 
 
 class FleetHealthMonitor:
     def __init__(self):
-        self.last_alert_time = {}
-        self.boot_time = datetime.now(timezone.utc)
+        self.last_alert_time = self._load_cooldowns()
+        self.boot_time = time.time()
+        self.alerts_this_hour = []  # timestamps of alerts sent
 
     def run(self):
         log.info('Fleet Health Monitor starting — watching all agents')
-        self._alert('fleet_boot', 'Fleet Health Monitor ONLINE\nMonitoring all agents and services')
+        # Don't send boot alert — it's noise. Just log it.
 
         while True:
             try:
@@ -163,6 +135,10 @@ class FleetHealthMonitor:
         """Check if a status file is stale. Returns True if fresh."""
         if not os.path.isfile(status_file):
             return None  # No status file exists yet
+
+        # Skip stale alerts during boot grace period — bots need time to warm up
+        if (time.time() - self.boot_time) < BOOT_GRACE_PERIOD:
+            return None
 
         try:
             mtime = os.path.getmtime(status_file)
@@ -230,7 +206,7 @@ class FleetHealthMonitor:
         except Exception:
             mem_total_gb = mem_used_gb = mem_pct = 0
 
-        uptime_secs = (now - self.boot_time).total_seconds()
+        uptime_secs = time.time() - self.boot_time
         hours = int(uptime_secs // 3600)
         mins = int((uptime_secs % 3600) // 60)
 
@@ -270,14 +246,23 @@ class FleetHealthMonitor:
             log.error(f'Failed to write system status: {e}')
 
     def _alert(self, alert_type, text):
-        """Send Telegram alert with cooldown."""
+        """Send Telegram alert with per-type cooldown, global rate limit, and persistence."""
         now = time.time()
         last = self.last_alert_time.get(alert_type, 0)
 
-        if alert_type not in ('fleet_boot',) and (now - last) < ALERT_COOLDOWN:
+        # Per-type cooldown
+        if (now - last) < ALERT_COOLDOWN:
+            return
+
+        # Global rate limit: max N alerts per hour
+        self.alerts_this_hour = [t for t in self.alerts_this_hour if now - t < 3600]
+        if len(self.alerts_this_hour) >= GLOBAL_RATE_LIMIT:
+            log.warning(f'Global rate limit hit ({GLOBAL_RATE_LIMIT}/hr) — suppressing {alert_type}')
             return
 
         self.last_alert_time[alert_type] = now
+        self.alerts_this_hour.append(now)
+        self._save_cooldowns()
 
         msg = (
             "<b>⬡ ZEFF.BOT</b>\n"
@@ -290,6 +275,27 @@ class FleetHealthMonitor:
             log.info(f'Alert sent: {alert_type}')
         except Exception as e:
             log.error(f'Failed to send alert: {e}')
+
+    def _load_cooldowns(self):
+        """Load persisted cooldown timestamps so restarts don't reset them."""
+        try:
+            if os.path.isfile(COOLDOWN_FILE):
+                with open(COOLDOWN_FILE, 'r') as f:
+                    data = json.load(f)
+                # Only keep entries less than 2 hours old
+                now = time.time()
+                return {k: v for k, v in data.items() if now - v < 7200}
+        except Exception:
+            pass
+        return {}
+
+    def _save_cooldowns(self):
+        """Persist cooldown timestamps to survive restarts."""
+        try:
+            with open(COOLDOWN_FILE, 'w') as f:
+                json.dump(self.last_alert_time, f)
+        except Exception:
+            pass
 
 
 if __name__ == '__main__':

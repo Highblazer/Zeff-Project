@@ -28,6 +28,7 @@ def get_logger(name: str, log_file: str = None, level=logging.INFO) -> logging.L
         return logger  # Already configured
 
     logger.setLevel(level)
+    logger.propagate = False  # Prevent duplicate log entries from root logger
 
     formatter = logging.Formatter(LOG_FORMAT, datefmt=DATE_FORMAT)
 

@@ -33,14 +33,34 @@ Before doing anything else:
 
 ---
 
+## Fleet Roster
+
+| # | Name | Role Code | Role | Division | MD File |
+|---|------|-----------|------|----------|---------|
+| 001 | Zeff.bot | CEO | Chief Executive Officer | Command | `employees/zeffbot.md` |
+| 002 | TradeBot | CTO | Chief Trading Officer | Trading | `employees/tradebot.md` |
+| 004 | Natalia | CRO | Chief Research Officer | Intelligence | `employees/natalia.md` |
+| 009 | Pixel Pete | CWO | Chief Web Officer | New Business | `employees/pixel-pete.md` |
+
+Every agent MUST read their own MD file at session start. It defines your lane, your mandate, and your limits.
+
+---
+
 ## Command Hierarchy
 
 ```
-Zeff.bot
-    ↓
-AI World Order Agents
-    ↓
-Tools, automations, and integrations
+Zeff.bot (#001) — CEO
+    │
+    ├── TRADING DIVISION
+    │   └── TradeBot (#002) — 1H scalping, multi-market
+    │
+    ├── INTELLIGENCE DIVISION
+    │   └── Natalia (#004) — Research, news, fact-checking
+    │
+    ├── NEW BUSINESS DIVISION
+    │   └── Pixel Pete (#009) — Client website development
+    │
+    └── Tools, automations, and integrations
 ```
 
 All agents align decisions with Zeff.bot directives. Deviation requires justification through measurable improvement.
@@ -80,13 +100,9 @@ Write it down. Files survive. Mental notes don't.
 
 ---
 
-## Dashboard Rule
+## Fleet Reference
 
-**ALWAYS update both files when environment changes:**
-1. `/root/.openclaw/workspace/dashboard.md` — text dashboard
-2. `/root/.openclaw/workspace/python/streamlit_dashboard.py` — Streamlit app
-
-Changes requiring updates: employee changes, status changes, new bots, removed bots, account balance updates.
+When the environment changes (employees, services, status), update `/root/.openclaw/workspace/dashboard.md`.
 
 ---
 

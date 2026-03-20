@@ -1,0 +1,28 @@
+{
+  "id": "c682f110",
+  "title": "Polymarket research: LoL: Gen.G vs LYON (BO5) - First Stand Group B",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: Gen.G vs LYON (BO5) - First Stand Group B",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:15:27.841184+00:00",
+  "updated_at": "2026-03-19T18:15:42.916516+00:00",
+  "claimed_at": "2026-03-19T18:15:41.870516+00:00",
+  "completed_at": "2026-03-19T18:15:42.916502+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: Gen.G vs LYON (BO5) - First Stand Group B\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: Gen.G vs LYON (BO5) - First Stand Group B",
+    "sources_count": 0
+  },
+  "error": null
+}

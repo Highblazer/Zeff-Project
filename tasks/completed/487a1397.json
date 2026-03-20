@@ -1,0 +1,28 @@
+{
+  "id": "487a1397",
+  "title": "Polymarket research: Miami (OH) RedHawks vs. Ohio Bobcats",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Miami (OH) RedHawks vs. Ohio Bobcats",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T07:06:29.719430+00:00",
+  "updated_at": "2026-03-07T07:07:54.970366+00:00",
+  "claimed_at": "2026-03-07T07:07:52.881972+00:00",
+  "completed_at": "2026-03-07T07:07:54.970350+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Miami (OH) RedHawks vs. Ohio Bobcats\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Miami (OH) RedHawks vs. Ohio Bobcats",
+    "sources_count": 0
+  },
+  "error": null
+}

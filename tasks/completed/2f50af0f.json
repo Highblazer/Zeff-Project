@@ -1,0 +1,28 @@
+{
+  "id": "2f50af0f",
+  "title": "Polymarket research: Will Tr\u1ea7n Thanh M\u1eabn be the next President of Vietnam?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Tr\u1ea7n Thanh M\u1eabn be the next President of Vietnam?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T10:07:43.398641+00:00",
+  "updated_at": "2026-03-19T10:09:46.685329+00:00",
+  "claimed_at": "2026-03-19T10:09:44.922922+00:00",
+  "completed_at": "2026-03-19T10:09:46.685312+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Tr\u1ea7n Thanh M\u1eabn be the next President of Vietnam?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Tr\u1ea7n Thanh M\u1eabn be the next President of Vietnam?",
+    "sources_count": 0
+  },
+  "error": null
+}

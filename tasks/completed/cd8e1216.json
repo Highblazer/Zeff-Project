@@ -1,0 +1,28 @@
+{
+  "id": "cd8e1216",
+  "title": "Polymarket research: Will Trump visit China by April 30?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump visit China by April 30?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T19:22:40.902969+00:00",
+  "updated_at": "2026-03-19T19:23:04.861042+00:00",
+  "claimed_at": "2026-03-19T19:23:03.087974+00:00",
+  "completed_at": "2026-03-19T19:23:04.861026+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump visit China by April 30?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Trump visit China by April 30?",
+    "sources_count": 0
+  },
+  "error": null
+}

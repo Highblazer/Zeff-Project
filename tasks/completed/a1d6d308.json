@@ -1,0 +1,28 @@
+{
+  "id": "a1d6d308",
+  "title": "Polymarket research: Will Sarah Huckabee Sanders win the 2028 Republican presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Sarah Huckabee Sanders win the 2028 Republican presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T12:27:45.877041+00:00",
+  "updated_at": "2026-03-07T12:28:29.493924+00:00",
+  "claimed_at": "2026-03-07T12:28:27.804264+00:00",
+  "completed_at": "2026-03-07T12:28:29.493907+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Sarah Huckabee Sanders win the 2028 Republican presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Sarah Huckabee Sanders win the 2028 Republican presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

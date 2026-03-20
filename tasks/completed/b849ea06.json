@@ -1,0 +1,28 @@
+{
+  "id": "b849ea06",
+  "title": "Polymarket research: Bucks vs. Jazz",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Bucks vs. Jazz",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T12:16:57.545262+00:00",
+  "updated_at": "2026-03-19T12:17:56.745963+00:00",
+  "claimed_at": "2026-03-19T12:17:54.493061+00:00",
+  "completed_at": "2026-03-19T12:17:56.745947+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Bucks vs. Jazz\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Bucks vs. Jazz",
+    "sources_count": 0
+  },
+  "error": null
+}

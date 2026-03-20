@@ -1,0 +1,28 @@
+{
+  "id": "774e9c58",
+  "title": "Polymarket research: Will Houston Astros win the 2026 American League Championship Series?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Houston Astros win the 2026 American League Championship Series?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T10:29:09.668459+00:00",
+  "updated_at": "2026-03-19T10:29:23.603779+00:00",
+  "claimed_at": "2026-03-19T10:29:21.918223+00:00",
+  "completed_at": "2026-03-19T10:29:23.603761+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Houston Astros win the 2026 American League Championship Series?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Houston Astros win the 2026 American League Championship Series?",
+    "sources_count": 0
+  },
+  "error": null
+}

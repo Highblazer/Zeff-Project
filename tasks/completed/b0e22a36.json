@@ -1,0 +1,28 @@
+{
+  "id": "b0e22a36",
+  "title": "Polymarket research: Will Trump visit China by March 31?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Trump visit China by March 31?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T13:58:41.894556+00:00",
+  "updated_at": "2026-03-19T14:00:33.013041+00:00",
+  "claimed_at": "2026-03-19T14:00:31.120217+00:00",
+  "completed_at": "2026-03-19T14:00:33.013023+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Trump visit China by March 31?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Trump visit China by March 31?",
+    "sources_count": 0
+  },
+  "error": null
+}

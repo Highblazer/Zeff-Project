@@ -1,0 +1,28 @@
+{
+  "id": "2c7f7031",
+  "title": "Polymarket research: Will FC Midtjylland win on 2026-03-19?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will FC Midtjylland win on 2026-03-19?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T21:12:47.281634+00:00",
+  "updated_at": "2026-03-19T21:13:22.900049+00:00",
+  "claimed_at": "2026-03-19T21:13:21.267119+00:00",
+  "completed_at": "2026-03-19T21:13:22.900030+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will FC Midtjylland win on 2026-03-19?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will FC Midtjylland win on 2026-03-19?",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d1d4d89a",
+  "title": "Polymarket research: Lakers vs. Heat",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Lakers vs. Heat",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:52:06.463273+00:00",
+  "updated_at": "2026-03-19T18:52:22.581013+00:00",
+  "claimed_at": "2026-03-19T18:52:20.911789+00:00",
+  "completed_at": "2026-03-19T18:52:22.580996+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Lakers vs. Heat\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Lakers vs. Heat",
+    "sources_count": 0
+  },
+  "error": null
+}

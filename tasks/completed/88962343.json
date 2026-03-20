@@ -1,0 +1,28 @@
+{
+  "id": "88962343",
+  "title": "Polymarket research: Will Franco Colapinto be the 2026 F1 Drivers' Champion?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Franco Colapinto be the 2026 F1 Drivers' Champion?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T17:08:17.804193+00:00",
+  "updated_at": "2026-03-19T17:08:38.323903+00:00",
+  "claimed_at": "2026-03-19T17:08:36.615095+00:00",
+  "completed_at": "2026-03-19T17:08:38.323889+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Franco Colapinto be the 2026 F1 Drivers' Champion?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Franco Colapinto be the 2026 F1 Drivers' Champion?",
+    "sources_count": 0
+  },
+  "error": null
+}

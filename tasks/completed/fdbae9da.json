@@ -1,0 +1,28 @@
+{
+  "id": "fdbae9da",
+  "title": "Polymarket research: Will Switzerland win the 2026 FIFA World Cup?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Switzerland win the 2026 FIFA World Cup?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T02:42:41.623076+00:00",
+  "updated_at": "2026-03-07T02:43:18.414525+00:00",
+  "claimed_at": "2026-03-07T02:43:16.722155+00:00",
+  "completed_at": "2026-03-07T02:43:18.414510+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Switzerland win the 2026 FIFA World Cup?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Switzerland win the 2026 FIFA World Cup?",
+    "sources_count": 0
+  },
+  "error": null
+}

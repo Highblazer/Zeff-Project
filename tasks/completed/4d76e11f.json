@@ -1,0 +1,28 @@
+{
+  "id": "4d76e11f",
+  "title": "Polymarket research: Will Pierre-Yves Bournazel win the Paris mayor election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Pierre-Yves Bournazel win the Paris mayor election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T12:44:47.009365+00:00",
+  "updated_at": "2026-03-19T12:46:35.161178+00:00",
+  "claimed_at": "2026-03-19T12:46:32.922137+00:00",
+  "completed_at": "2026-03-19T12:46:35.161133+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Pierre-Yves Bournazel win the Paris mayor election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Pierre-Yves Bournazel win the Paris mayor election?",
+    "sources_count": 0
+  },
+  "error": null
+}

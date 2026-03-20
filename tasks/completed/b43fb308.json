@@ -1,0 +1,28 @@
+{
+  "id": "b43fb308",
+  "title": "Polymarket research: Solana Up or Down - March 6, 8:00PM-8:15PM ET",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Solana Up or Down - March 6, 8:00PM-8:15PM ET",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T01:19:56.293663+00:00",
+  "updated_at": "2026-03-07T01:20:13.160734+00:00",
+  "claimed_at": "2026-03-07T01:20:12.097990+00:00",
+  "completed_at": "2026-03-07T01:20:13.160715+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Solana Up or Down - March 6, 8:00PM-8:15PM ET\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Solana Up or Down - March 6, 8:00PM-8:15PM ET",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "951bda35",
+  "title": "Polymarket research: Troy Trojans vs. Nebraska Cornhuskers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Troy Trojans vs. Nebraska Cornhuskers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:00:12.396463+00:00",
+  "updated_at": "2026-03-19T18:00:23.789437+00:00",
+  "claimed_at": "2026-03-19T18:00:21.578204+00:00",
+  "completed_at": "2026-03-19T18:00:23.789424+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Troy Trojans vs. Nebraska Cornhuskers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Troy Trojans vs. Nebraska Cornhuskers",
+    "sources_count": 0
+  },
+  "error": null
+}

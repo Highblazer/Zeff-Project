@@ -1,0 +1,28 @@
+{
+  "id": "a623e5d4",
+  "title": "Polymarket research: Magic vs. Timberwolves",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Magic vs. Timberwolves",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T11:41:49.163411+00:00",
+  "updated_at": "2026-03-07T11:42:47.197259+00:00",
+  "claimed_at": "2026-03-07T11:42:45.511330+00:00",
+  "completed_at": "2026-03-07T11:42:47.197240+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Magic vs. Timberwolves\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Magic vs. Timberwolves",
+    "sources_count": 0
+  },
+  "error": null
+}

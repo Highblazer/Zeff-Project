@@ -1,0 +1,28 @@
+{
+  "id": "b9f8e8d0",
+  "title": "Polymarket research: Magic vs. Hornets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Magic vs. Hornets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T14:44:27.275502+00:00",
+  "updated_at": "2026-03-19T14:45:50.150421+00:00",
+  "claimed_at": "2026-03-19T14:45:48.479365+00:00",
+  "completed_at": "2026-03-19T14:45:50.150406+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Magic vs. Hornets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Magic vs. Hornets",
+    "sources_count": 0
+  },
+  "error": null
+}

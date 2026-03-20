@@ -1,0 +1,28 @@
+{
+  "id": "c093cf96",
+  "title": "Polymarket research: LoL: G2 Esports vs BNK FEARX (BO5) - First Stand Group A",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: G2 Esports vs BNK FEARX (BO5) - First Stand Group A",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:55:11.789504+00:00",
+  "updated_at": "2026-03-19T18:55:43.110312+00:00",
+  "claimed_at": "2026-03-19T18:55:42.074753+00:00",
+  "completed_at": "2026-03-19T18:55:43.110295+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: G2 Esports vs BNK FEARX (BO5) - First Stand Group A\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: G2 Esports vs BNK FEARX (BO5) - First Stand Group A",
+    "sources_count": 0
+  },
+  "error": null
+}

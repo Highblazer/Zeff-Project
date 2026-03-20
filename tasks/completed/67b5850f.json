@@ -1,0 +1,28 @@
+{
+  "id": "67b5850f",
+  "title": "Polymarket research: Miami Open: Moise Kouame vs Zachary Svajda",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Miami Open: Moise Kouame vs Zachary Svajda",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:06:21.096003+00:00",
+  "updated_at": "2026-03-19T18:08:02.107474+00:00",
+  "claimed_at": "2026-03-19T18:08:00.991764+00:00",
+  "completed_at": "2026-03-19T18:08:02.107452+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Miami Open: Moise Kouame vs Zachary Svajda\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Miami Open: Moise Kouame vs Zachary Svajda",
+    "sources_count": 0
+  },
+  "error": null
+}

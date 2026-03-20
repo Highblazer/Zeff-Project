@@ -1,0 +1,28 @@
+{
+  "id": "0b31a1a0",
+  "title": "Polymarket research: Will Cooper Flagg win the 2025\u20132026 NBA MVP?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Cooper Flagg win the 2025\u20132026 NBA MVP?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T11:58:37.161005+00:00",
+  "updated_at": "2026-03-19T12:00:38.068581+00:00",
+  "claimed_at": "2026-03-19T12:00:36.386348+00:00",
+  "completed_at": "2026-03-19T12:00:38.068563+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Cooper Flagg win the 2025\u20132026 NBA MVP?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Cooper Flagg win the 2025\u20132026 NBA MVP?",
+    "sources_count": 0
+  },
+  "error": null
+}

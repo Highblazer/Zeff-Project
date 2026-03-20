@@ -1,0 +1,28 @@
+{
+  "id": "40e08ad3",
+  "title": "Polymarket research: Hawaii Rainbow Warriors vs. Arkansas Razorbacks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Hawaii Rainbow Warriors vs. Arkansas Razorbacks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T21:52:10.673724+00:00",
+  "updated_at": "2026-03-19T21:53:08.761791+00:00",
+  "claimed_at": "2026-03-19T21:53:07.048682+00:00",
+  "completed_at": "2026-03-19T21:53:08.761773+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Hawaii Rainbow Warriors vs. Arkansas Razorbacks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Hawaii Rainbow Warriors vs. Arkansas Razorbacks",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "797bfdc9",
+  "title": "Polymarket research: Flyers vs. Kings",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Flyers vs. Kings",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T21:37:17.337886+00:00",
+  "updated_at": "2026-03-19T21:38:21.141286+00:00",
+  "claimed_at": "2026-03-19T21:38:19.386090+00:00",
+  "completed_at": "2026-03-19T21:38:21.141269+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Flyers vs. Kings\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Flyers vs. Kings",
+    "sources_count": 0
+  },
+  "error": null
+}

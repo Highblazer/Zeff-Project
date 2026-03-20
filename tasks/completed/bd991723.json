@@ -1,0 +1,28 @@
+{
+  "id": "bd991723",
+  "title": "Polymarket research: Will FC Midtjylland vs. Nottingham Forest FC end in a draw?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will FC Midtjylland vs. Nottingham Forest FC end in a draw?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T20:17:37.245432+00:00",
+  "updated_at": "2026-03-19T20:18:02.456827+00:00",
+  "claimed_at": "2026-03-19T20:18:00.489110+00:00",
+  "completed_at": "2026-03-19T20:18:02.456811+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will FC Midtjylland vs. Nottingham Forest FC end in a draw?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will FC Midtjylland vs. Nottingham Forest FC end in a draw?",
+    "sources_count": 0
+  },
+  "error": null
+}

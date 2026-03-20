@@ -1,0 +1,28 @@
+{
+  "id": "05b78cb7",
+  "title": "Polymarket research: Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T13:49:22.925762+00:00",
+  "updated_at": "2026-03-19T13:49:47.519823+00:00",
+  "claimed_at": "2026-03-19T13:49:45.472955+00:00",
+  "completed_at": "2026-03-19T13:49:47.519803+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
+    "sources_count": 0
+  },
+  "error": null
+}

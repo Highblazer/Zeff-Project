@@ -1,0 +1,28 @@
+{
+  "id": "479a121b",
+  "title": "Polymarket research: TCU Horned Frogs vs. Ohio State Buckeyes",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "TCU Horned Frogs vs. Ohio State Buckeyes",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T20:05:21.498859+00:00",
+  "updated_at": "2026-03-19T20:05:30.647441+00:00",
+  "claimed_at": "2026-03-19T20:05:28.843182+00:00",
+  "completed_at": "2026-03-19T20:05:30.647428+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: TCU Horned Frogs vs. Ohio State Buckeyes\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "TCU Horned Frogs vs. Ohio State Buckeyes",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d64e9ddf",
+  "title": "Polymarket research: Spread: Wisconsin Badgers (-10.5)",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Spread: Wisconsin Badgers (-10.5)",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T20:36:03.290414+00:00",
+  "updated_at": "2026-03-19T20:36:42.081856+00:00",
+  "claimed_at": "2026-03-19T20:36:41.006757+00:00",
+  "completed_at": "2026-03-19T20:36:42.081829+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Spread: Wisconsin Badgers (-10.5)\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Spread: Wisconsin Badgers (-10.5)",
+    "sources_count": 0
+  },
+  "error": null
+}

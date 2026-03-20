@@ -1,0 +1,28 @@
+{
+  "id": "c208e0b7",
+  "title": "Polymarket research: Will Renan Santos finish in second place in the first round of the 2026 Brazilia",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Renan Santos finish in second place in the first round of the 2026 Brazilian presidential election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T20:05:23.963899+00:00",
+  "updated_at": "2026-03-19T20:06:40.483788+00:00",
+  "claimed_at": "2026-03-19T20:06:38.690614+00:00",
+  "completed_at": "2026-03-19T20:06:40.483771+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Renan Santos finish in second place in the first round of the 2026 Brazilian presidential election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Renan Santos finish in second place in the first round of the 2026 Brazilian presidential election?",
+    "sources_count": 0
+  },
+  "error": null
+}

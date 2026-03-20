@@ -1,0 +1,28 @@
+{
+  "id": "0c34bab5",
+  "title": "Polymarket research: Counter-Strike: PARIVISION vs NIP - Map 2 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: PARIVISION vs NIP - Map 2 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T13:37:10.159774+00:00",
+  "updated_at": "2026-03-19T13:37:16.953895+00:00",
+  "claimed_at": "2026-03-19T13:37:15.899869+00:00",
+  "completed_at": "2026-03-19T13:37:16.953878+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: PARIVISION vs NIP - Map 2 Winner\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: PARIVISION vs NIP - Map 2 Winner",
+    "sources_count": 0
+  },
+  "error": null
+}

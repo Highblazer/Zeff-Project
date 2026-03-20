@@ -1,0 +1,28 @@
+{
+  "id": "45a0d86b",
+  "title": "Polymarket research: Will Jimmie \u00c5kesson be the next Prime Minister of Sweden?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Jimmie \u00c5kesson be the next Prime Minister of Sweden?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T10:07:43.772206+00:00",
+  "updated_at": "2026-03-19T10:09:58.953563+00:00",
+  "claimed_at": "2026-03-19T10:09:57.153929+00:00",
+  "completed_at": "2026-03-19T10:09:58.953546+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Jimmie \u00c5kesson be the next Prime Minister of Sweden?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Jimmie \u00c5kesson be the next Prime Minister of Sweden?",
+    "sources_count": 0
+  },
+  "error": null
+}

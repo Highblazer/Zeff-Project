@@ -1,0 +1,28 @@
+{
+  "id": "5b562071",
+  "title": "Polymarket research: McNeese State Cowboys vs. Vanderbilt Commodores",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "McNeese State Cowboys vs. Vanderbilt Commodores",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T21:18:55.776039+00:00",
+  "updated_at": "2026-03-19T21:19:19.803503+00:00",
+  "claimed_at": "2026-03-19T21:19:18.149732+00:00",
+  "completed_at": "2026-03-19T21:19:19.803483+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: McNeese State Cowboys vs. Vanderbilt Commodores\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "McNeese State Cowboys vs. Vanderbilt Commodores",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1b141af3",
+  "title": "Polymarket research: High Point Panthers vs. Wisconsin Badgers",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "High Point Panthers vs. Wisconsin Badgers",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:58:12.800988+00:00",
+  "updated_at": "2026-03-19T18:58:19.047605+00:00",
+  "claimed_at": "2026-03-19T18:58:16.976845+00:00",
+  "completed_at": "2026-03-19T18:58:19.047586+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: High Point Panthers vs. Wisconsin Badgers\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "High Point Panthers vs. Wisconsin Badgers",
+    "sources_count": 0
+  },
+  "error": null
+}

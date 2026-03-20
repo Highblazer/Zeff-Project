@@ -1,0 +1,28 @@
+{
+  "id": "34727910",
+  "title": "Polymarket research: Canucks vs. Blackhawks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Canucks vs. Blackhawks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T06:57:18.300806+00:00",
+  "updated_at": "2026-03-07T06:58:21.699299+00:00",
+  "claimed_at": "2026-03-07T06:58:19.615183+00:00",
+  "completed_at": "2026-03-07T06:58:21.699283+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Canucks vs. Blackhawks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Canucks vs. Blackhawks",
+    "sources_count": 0
+  },
+  "error": null
+}

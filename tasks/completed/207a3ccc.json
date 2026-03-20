@@ -1,0 +1,28 @@
+{
+  "id": "207a3ccc",
+  "title": "Polymarket research: Counter-Strike: Vitality vs 9z (BO3) - BLAST Open Rotterdam Group B",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: Vitality vs 9z (BO3) - BLAST Open Rotterdam Group B",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T21:40:31.873077+00:00",
+  "updated_at": "2026-03-19T21:41:09.077848+00:00",
+  "claimed_at": "2026-03-19T21:41:08.022389+00:00",
+  "completed_at": "2026-03-19T21:41:09.077830+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: Vitality vs 9z (BO3) - BLAST Open Rotterdam Group B\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: Vitality vs 9z (BO3) - BLAST Open Rotterdam Group B",
+    "sources_count": 0
+  },
+  "error": null
+}

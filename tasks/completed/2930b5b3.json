@@ -1,0 +1,28 @@
+{
+  "id": "2930b5b3",
+  "title": "Polymarket research: Counter-Strike: MOUZ vs TheMongolz (BO3) - BLAST Open Rotterdam Group B",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: MOUZ vs TheMongolz (BO3) - BLAST Open Rotterdam Group B",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T17:05:13.992900+00:00",
+  "updated_at": "2026-03-19T17:05:40.606001+00:00",
+  "claimed_at": "2026-03-19T17:05:38.897588+00:00",
+  "completed_at": "2026-03-19T17:05:40.605982+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: MOUZ vs TheMongolz (BO3) - BLAST Open Rotterdam Group B\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: MOUZ vs TheMongolz (BO3) - BLAST Open Rotterdam Group B",
+    "sources_count": 0
+  },
+  "error": null
+}

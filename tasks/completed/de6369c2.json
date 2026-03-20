@@ -1,0 +1,28 @@
+{
+  "id": "de6369c2",
+  "title": "Polymarket research: Wild vs. Golden Knights",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Wild vs. Golden Knights",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T05:03:49.319898+00:00",
+  "updated_at": "2026-03-07T05:04:16.871615+00:00",
+  "claimed_at": "2026-03-07T05:04:15.237284+00:00",
+  "completed_at": "2026-03-07T05:04:16.871598+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Wild vs. Golden Knights\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Wild vs. Golden Knights",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8ab047ef",
+  "title": "Polymarket research: Will AS Roma win on 2026-03-19?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will AS Roma win on 2026-03-19?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T21:40:29.938608+00:00",
+  "updated_at": "2026-03-19T21:40:36.835230+00:00",
+  "claimed_at": "2026-03-19T21:40:35.310664+00:00",
+  "completed_at": "2026-03-19T21:40:36.835216+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will AS Roma win on 2026-03-19?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will AS Roma win on 2026-03-19?",
+    "sources_count": 0
+  },
+  "error": null
+}

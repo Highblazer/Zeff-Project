@@ -1,0 +1,28 @@
+{
+  "id": "ebeef7a1",
+  "title": "Polymarket research: Knicks vs. Nuggets",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Knicks vs. Nuggets",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T05:25:14.799884+00:00",
+  "updated_at": "2026-03-07T05:25:29.594057+00:00",
+  "claimed_at": "2026-03-07T05:25:27.795861+00:00",
+  "completed_at": "2026-03-07T05:25:29.594041+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Knicks vs. Nuggets\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Knicks vs. Nuggets",
+    "sources_count": 0
+  },
+  "error": null
+}

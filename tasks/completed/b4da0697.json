@@ -1,0 +1,28 @@
+{
+  "id": "b4da0697",
+  "title": "Polymarket research: South Florida Bulls vs. Louisville Cardinals",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "South Florida Bulls vs. Louisville Cardinals",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:36:50.332278+00:00",
+  "updated_at": "2026-03-19T18:37:02.082664+00:00",
+  "claimed_at": "2026-03-19T18:36:59.808779+00:00",
+  "completed_at": "2026-03-19T18:37:02.082645+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: South Florida Bulls vs. Louisville Cardinals\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "South Florida Bulls vs. Louisville Cardinals",
+    "sources_count": 0
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b654b77c",
+  "title": "Polymarket research: Will there be no change in Fed interest rates after the April 2026 meeting?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will there be no change in Fed interest rates after the April 2026 meeting?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T10:26:05.611376+00:00",
+  "updated_at": "2026-03-19T10:27:57.196332+00:00",
+  "claimed_at": "2026-03-19T10:27:55.454334+00:00",
+  "completed_at": "2026-03-19T10:27:57.196247+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will there be no change in Fed interest rates after the April 2026 meeting?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will there be no change in Fed interest rates after the April 2026 meeting?",
+    "sources_count": 0
+  },
+  "error": null
+}

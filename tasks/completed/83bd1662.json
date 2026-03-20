@@ -1,0 +1,28 @@
+{
+  "id": "83bd1662",
+  "title": "Polymarket research: Will Tulsi Gabbard win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T05:46:45.035683+00:00",
+  "updated_at": "2026-03-07T05:46:58.835314+00:00",
+  "claimed_at": "2026-03-07T05:46:57.200922+00:00",
+  "completed_at": "2026-03-07T05:46:58.835298+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Tulsi Gabbard win the 2028 US Presidential Election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
+    "sources_count": 0
+  },
+  "error": null
+}

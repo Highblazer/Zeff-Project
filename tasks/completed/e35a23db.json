@@ -1,0 +1,28 @@
+{
+  "id": "e35a23db",
+  "title": "Polymarket research: Panthers vs. Red Wings",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Panthers vs. Red Wings",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T03:25:45.200817+00:00",
+  "updated_at": "2026-03-07T03:25:55.701560+00:00",
+  "claimed_at": "2026-03-07T03:25:53.725280+00:00",
+  "completed_at": "2026-03-07T03:25:55.701541+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Panthers vs. Red Wings\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Panthers vs. Red Wings",
+    "sources_count": 0
+  },
+  "error": null
+}

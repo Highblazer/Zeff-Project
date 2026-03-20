@@ -1,0 +1,28 @@
+{
+  "id": "4ef7176d",
+  "title": "Polymarket research: Will ACF Fiorentina win on 2026-03-19?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will ACF Fiorentina win on 2026-03-19?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T18:03:15.571229+00:00",
+  "updated_at": "2026-03-19T18:03:34.134089+00:00",
+  "claimed_at": "2026-03-19T18:03:32.382121+00:00",
+  "completed_at": "2026-03-19T18:03:34.134073+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will ACF Fiorentina win on 2026-03-19?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will ACF Fiorentina win on 2026-03-19?",
+    "sources_count": 0
+  },
+  "error": null
+}

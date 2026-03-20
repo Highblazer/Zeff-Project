@@ -1,0 +1,28 @@
+{
+  "id": "79ec4512",
+  "title": "Polymarket research: Will Mark Kelly win the 2028 Democratic presidential nomination?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T06:38:57.606751+00:00",
+  "updated_at": "2026-03-07T06:40:26.112686+00:00",
+  "claimed_at": "2026-03-07T06:40:24.371082+00:00",
+  "completed_at": "2026-03-07T06:40:26.112672+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will Mark Kelly win the 2028 Democratic presidential nomination?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
+    "sources_count": 0
+  },
+  "error": null
+}

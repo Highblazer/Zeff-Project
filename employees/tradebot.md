@@ -5,7 +5,7 @@
 - **Employee #:** 002
 - **Name:** TradeBot
 - **Title:** Conservative Multi‑Market Trading Strategist
-- **Role Code:** CRO
+- **Role Code:** CTO
 - **Reports To:** #001 Zeff.bot
 - **Status:** Active
 - **Onboarded:** Day Zero

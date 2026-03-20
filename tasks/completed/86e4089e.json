@@ -1,0 +1,28 @@
+{
+  "id": "86e4089e",
+  "title": "Polymarket research: LoL: JD Gaming vs LOUD - Game 2 Winner",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "LoL: JD Gaming vs LOUD - Game 2 Winner",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T17:51:03.275792+00:00",
+  "updated_at": "2026-03-19T17:51:28.769506+00:00",
+  "claimed_at": "2026-03-19T17:51:27.695479+00:00",
+  "completed_at": "2026-03-19T17:51:28.769486+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: LoL: JD Gaming vs LOUD - Game 2 Winner\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "LoL: JD Gaming vs LOUD - Game 2 Winner",
+    "sources_count": 0
+  },
+  "error": null
+}

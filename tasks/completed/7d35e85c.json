@@ -1,0 +1,28 @@
+{
+  "id": "7d35e85c",
+  "title": "Polymarket research: 76ers vs. Hawks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "76ers vs. Hawks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T12:03:15.613585+00:00",
+  "updated_at": "2026-03-07T12:03:40.028166+00:00",
+  "claimed_at": "2026-03-07T12:03:38.305153+00:00",
+  "completed_at": "2026-03-07T12:03:40.028148+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: 76ers vs. Hawks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "76ers vs. Hawks",
+    "sources_count": 0
+  },
+  "error": null
+}

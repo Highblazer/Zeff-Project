@@ -1,0 +1,28 @@
+{
+  "id": "ceda42ec",
+  "title": "Polymarket research: Blackhawks vs. Wild",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Blackhawks vs. Wild",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T16:52:59.225264+00:00",
+  "updated_at": "2026-03-19T16:53:42.405938+00:00",
+  "claimed_at": "2026-03-19T16:53:40.799915+00:00",
+  "completed_at": "2026-03-19T16:53:42.405922+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Blackhawks vs. Wild\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Blackhawks vs. Wild",
+    "sources_count": 0
+  },
+  "error": null
+}

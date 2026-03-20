@@ -1,0 +1,28 @@
+{
+  "id": "d0a41ac7",
+  "title": "Polymarket research: Will LeBron James win the 2028 US Presidential Election?",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will LeBron James win the 2028 US Presidential Election?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T09:58:31.908807+00:00",
+  "updated_at": "2026-03-19T10:00:52.550044+00:00",
+  "claimed_at": "2026-03-19T10:00:50.864857+00:00",
+  "completed_at": "2026-03-19T10:00:52.550027+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will LeBron James win the 2028 US Presidential Election?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will LeBron James win the 2028 US Presidential Election?",
+    "sources_count": 0
+  },
+  "error": null
+}

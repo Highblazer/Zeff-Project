@@ -1,0 +1,28 @@
+{
+  "id": "b79eb168",
+  "title": "Polymarket research: Counter-Strike: paiN vs FaZe (BO3) - ESL Pro League Stage 2",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Counter-Strike: paiN vs FaZe (BO3) - ESL Pro League Stage 2",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T11:41:47.342947+00:00",
+  "updated_at": "2026-03-07T11:42:16.256143+00:00",
+  "claimed_at": "2026-03-07T11:42:14.584365+00:00",
+  "completed_at": "2026-03-07T11:42:16.256126+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Counter-Strike: paiN vs FaZe (BO3) - ESL Pro League Stage 2\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Counter-Strike: paiN vs FaZe (BO3) - ESL Pro League Stage 2",
+    "sources_count": 0
+  },
+  "error": null
+}

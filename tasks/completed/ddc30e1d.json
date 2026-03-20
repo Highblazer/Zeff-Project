@@ -1,0 +1,28 @@
+{
+  "id": "ddc30e1d",
+  "title": "Polymarket research: Canadiens vs. Ducks",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Canadiens vs. Ducks",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-07T08:19:51.729979+00:00",
+  "updated_at": "2026-03-07T08:20:29.156440+00:00",
+  "claimed_at": "2026-03-07T08:20:27.453992+00:00",
+  "completed_at": "2026-03-07T08:20:29.156426+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Canadiens vs. Ducks\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Canadiens vs. Ducks",
+    "sources_count": 0
+  },
+  "error": null
+}

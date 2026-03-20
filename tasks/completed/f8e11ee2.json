@@ -1,0 +1,28 @@
+{
+  "id": "f8e11ee2",
+  "title": "Polymarket research: Will the Republican Party hold exactly 28 or 29 governorships after the 2026 mid",
+  "assigned_to": "natalia",
+  "task_type": "research",
+  "params": {
+    "query": "Will the Republican Party hold exactly 28 or 29 governorships after the 2026 midterm elections?",
+    "count": 5,
+    "context": "polymarket_prediction",
+    "requester": "polybot"
+  },
+  "priority": 3,
+  "status": "completed",
+  "created_by": "polybot",
+  "created_at": "2026-03-19T13:27:59.196622+00:00",
+  "updated_at": "2026-03-19T13:28:15.861880+00:00",
+  "claimed_at": "2026-03-19T13:28:13.684093+00:00",
+  "completed_at": "2026-03-19T13:28:15.861864+00:00",
+  "retries": 0,
+  "result": {
+    "summary": "Research: Will the Republican Party hold exactly 28 or 29 governorships after the 2026 midterm elections?\n\nWeb Results (0):\n  No web results found.",
+    "web_results": [],
+    "news_results": [],
+    "query": "Will the Republican Party hold exactly 28 or 29 governorships after the 2026 midterm elections?",
+    "sources_count": 0
+  },
+  "error": null
+}
